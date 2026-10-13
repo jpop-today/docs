@@ -1,6 +1,6 @@
 # 목표 아키텍처
 
-상태: 설계 확정, 조직 앱 구현 전. 현재 org 소스는 Node 계약 하네스이며 아래 디렉터리가 이미 존재한다고 가정하지 않는다.
+상태: 조직 Astro 정적 앱·관측 read model·호환 UI 구현, 별도 미리보기 검증 단계. 운영 전환과 검증 카탈로그 v1 승격은 별도다.
 
 ```mermaid
 flowchart LR
@@ -19,9 +19,9 @@ flowchart LR
 
 ## 기술과 경계
 
-Node.js 24 LTS를 앱 기준으로 삼고, 현재 독립 하네스는 Node >=22를 지원한다. 새 앱은 Astro 정적 생성 + TypeScript를 계획한다. 검색·필터·저장처럼 상호작용이 필요한 부분만 브라우저 JavaScript를 사용하고 서버 렌더가 필요 없는 단순 화면에 React를 일괄 도입하지 않는다. 프레임워크 적용은 별도 구현 작업이며 이 문서 작성으로 설치된 것은 아니다.
+Node.js 24 LTS를 앱 기준으로 삼고, 독립 하네스는 Node22 CI를 유지한다. 새 앱은 Astro7.3.8 정적 생성 + TypeScript로 구현했다. 초기 설치 후보 Astro5는 현재 npm audit의 high/critical 항목을 확인해 최신7로 교체했다. 최종 runtime 의존성 audit는0건이다. 검색·필터·저장처럼 상호작용이 필요한 부분만 브라우저 JavaScript를 사용한다. 실제 설치·build·type·browser 결과는 [앱 하네스](../engineering/app-harness.md)와 릴리스 기록을 따른다.
 
-Cloudflare Pages Git 연결 또는 명시적 CI artifact 배포 중 실제 프로젝트 접근 후 하나를 선택한다. 운영 브랜치·build output·자동 배포 트리거를 확인하기 전 연결을 바꾸지 않는다. 배포 대상은 공개 dist만이며 원본 JSON/TSV/가사·개발 코드·환경 파일은 제외한다.
+Cloudflare 별도 direct-upload 프로젝트 jpoptoday-preview를 만들고 clean source SHA가 기록된 dist만 배포한다. 기존 todayjpop의 개인 dev 운영 연결은 별도로 유지한다. 첫 미리보기의 모든 페이지는 [ADR-004](../adr/004-observed-preview-read-model.md)에 따라 noindex다. 운영 브랜치·build output·자동 배포 트리거·복구를 확인하기 전 운영 연결을 바꾸지 않는다. 배포 대상은 공개 dist만이며 원본 JSON/TSV/가사·개발 코드·환경 파일은 제외한다.
 
 데이터 영역은 raw/staging, 검증된 스냅샷, 공개 read model로 분리한다. 수정 작업은 검증·충돌 보고 후 스냅샷을 원자적으로 승격한다. 빌드는 외부 수집 없이 고정 스냅샷으로 재현 가능해야 한다. 수집 실패는 별도 실패 상태로 남기고 현재 사이트를 지우지 않는다.
 

@@ -11,7 +11,7 @@ RELEASE-001. 운영 todayjpop의 npm run build/dist/source dev 설정을 Pages A
 ## 게이트
 
 1. 관련 스펙·ADR·변경 데이터·권리/호환성 검토, 소스 SHA 고정.
-2. lockfile 설치, 테스트·typecheck·고정 스냅샷 빌드. 현재 org에는 앱 빌드가 없으므로 이를 완료로 표시하지 않는다.
+2. lockfile 설치, 테스트·typecheck·고정 스냅샷 빌드. org 앱은 npm ci/test/check/build/verify:dist/test:e2e로 검증한다. 실제 command/SHA 결과를 남긴다.
 3. 실제 dist에서 원본 TSV/JSON/가사·scripts·tests·환경 파일 비공개 검사. 설정만 믿지 않는다.
 4. CI와 같은 SHA/artifact로 preview 배포. 검색·번호 복사·즐겨찾기·기존 URL·404·본문·sitemap·광고/동의를 브라우저·HTTP로 확인.
 5. 이전 정상 deployment로 복구하는 방법과 데이터 snapshot을 확보.
