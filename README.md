@@ -15,6 +15,7 @@
 9. [실행 상태](operations/status.md), [환경 복구](operations/environment-recovery.md)
 10. [지속 개발과 세션 재개](operations/continuous-development.md), [공식 AdSense 정책 조사](operations/adsense-policy-review-20261013.md)
 11. [공식 제공사 공유번호 대조](data/provider-evidence-20261013.md), [앱 하네스](engineering/app-harness.md)
+12. [조직 앱 미리보기 릴리스](operations/releases/preview-20261013.md): 최종 SHA·CI·원격 검증·복구·인계
 
 ## 저장소 역할
 
