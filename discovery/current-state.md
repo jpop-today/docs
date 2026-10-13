@@ -191,7 +191,8 @@ jpop-playlist-<slug(artist-title)>-<SHA1(title|artist|TJ|KY)의 앞 10자리>
 | `npm test` | 12개 모두 통과 |
 | Playwright desktop/mobile Chromium | 시스템 Chromium 외부 설정으로 36개 등록, 33개 통과·3개 의도적 건너뜀·실패 0 (60.7초) |
 | Playwright WebKit | 미실행 |
-| 실제 운영·외부 광고 동작 | 미확인 |
+| 실제 운영 대표 사용자 흐름 | desktop/mobile Chromium2개 통과, 실제 광고 script는 테스트 stub |
+| 외부 광고·실제 심사 상태 | 미확인 |
 
 위 재현 결과는 원본 앱의 로컬 검증이며 새 소스 이관·운영 배포 성공을 뜻하지 않는다. 새 소스의 합성 계약 테스트 통과 역시 실제 카탈로그·사이트·운영 배포 통과와 구분한다. 현재 실행 JSON 결과는 /tmp/jpop-browser-results.json에 있으며 검증 범위는 desktop 1440×1000, mobile 390×844 및 기존 viewport sweep이다. Browser plugin not available로 기존 Playwright를 사용했다. 운영 사이트·실제 광고·실기기 검증은 미실행이다.
 

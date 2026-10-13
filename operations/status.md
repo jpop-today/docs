@@ -36,13 +36,13 @@
 
 ## 원격 전달과 외부 차단
 
-조직 규칙 foundation 커밋 49d279dd24ddb7ecdbaf46409d0d4ebc9f69e11d와 소스 커밋 7233949ca0a5ef7e7af9d3c6944e5a743715c53d를 push하고 각 PR #2를 생성했다: https://github.com/jpop-today/.github/pull/2 · https://github.com/jpop-today/jpoptoday/pull/2. 두 PR은 검증 후 병합했다. 조직 merge SHA=e3588f6ce4c72270b6aab3f0ad1a8dc382c72a00, 소스 merge SHA=46604141c9afa6a57215c6cbfb58f0dbceaafab6. Docs 설계 기준의 PR 링크와 병합 결과는 해당 PR을 기준으로 연결한다. 현재 초기 GitHub API/운영 사이트는 CONNECT403이었으나 후속 요청에서 API·운영 HTTP 접근이 성공했다. GitHub 배포 목록 API는 integration scope 403으로 아직 확인할 수 없다. 운영 /, 공개 JS·robots·sitemap은200, 원본 data 경로와 없는 URL은404이며 공개 JS 3개는 조사 dev 바이트와 같다. 실제 Cloudflare deployment SHA를 이 바이트 비교로 확정하지 않는다. 계정 본인정보·AdSense 심사 화면·실제 Cloudflare 프로젝트/운영 branch/SHA는 미확인이다.
+조직 규칙 foundation 커밋 49d279dd24ddb7ecdbaf46409d0d4ebc9f69e11d와 소스 커밋 7233949ca0a5ef7e7af9d3c6944e5a743715c53d를 push하고 각 PR #2를 생성했다: https://github.com/jpop-today/.github/pull/2 · https://github.com/jpop-today/jpoptoday/pull/2. 두 PR은 검증 후 병합했다. 조직 merge SHA=e3588f6ce4c72270b6aab3f0ad1a8dc382c72a00, 소스 merge SHA=46604141c9afa6a57215c6cbfb58f0dbceaafab6. Docs 설계 기준은 [PR#3](https://github.com/jpop-today/docs/pull/3)로 연결한다. 이 문서 자체의 최종 병합 상태·merge SHA는 해당 PR의 실제 상태가 기준이다. 현재 초기 GitHub API/운영 사이트는 CONNECT403이었으나 후속 요청에서 API·운영 HTTP 접근이 성공했다. GitHub 배포 목록 API는 integration scope 403으로 아직 확인할 수 없다. 운영 /, 공개 JS·robots·sitemap은200, 원본 data 경로와 없는 URL은404이며 공개 JS 3개는 조사 dev 바이트와 같다. 실제 Cloudflare deployment SHA를 이 바이트 비교로 확정하지 않는다. 계정 본인정보·AdSense 심사 화면·실제 Cloudflare 프로젝트/운영 branch/SHA는 미확인이다.
 
 환경 설정 draft에 api.github.com, jpop.today, support.google.com, developers.google.com, api.cloudflare.com, developers.cloudflare.com, www.tjmedia.com을 추가했다. 기존 package-manager preset은 유지했다. draft 저장은 runtime 적용/publish가 아니므로 사용자 환경 설정의 저장·발행 후 해당 요청을 다시 시험해야 한다. CF accounts API는 정상 도달했으나 인증 헤더 부재 오류9106/9107을 반환했다. 환경 draft에 CLOUDFLARE_API_TOKEN proxy-secret requirement(api.cloudflare.com)와 CLOUDFLARE_ACCOUNT_ID 변수 requirement를 저장했다. 현재 CLOUDFLARE_API_TOKEN/CLOUDFLARE_ACCOUNT_ID/CF_API_TOKEN/CF_ACCOUNT_ID는 없다. 새로운 비밀 값을 채팅에 요청하거나 만들어 기록하지 않았다.
 
 ## 다음 실행
 
-1. 실제 Issue/PR·CI·브랜치 보호를 확인하고 foundation branch를 통합한다. source main의 현재 protected=false는 확인했으며 정책 문서 작성이 보호 설정 적용을 뜻하지 않는다.
+1. Foundation의 세 PR과 실제 CI 결과를 기준으로 다음 구현을 진행한다. source main의 현재 protected=false는 확인했으며 정책 문서 작성이 보호 설정 적용을 뜻하지 않는다.
 2. 실제 CF 프로젝트·운영 SHA를 고정하고 최소 identity baseline에 운영 ID를 추가한다.
 3. [소스 Issue#3](https://github.com/jpop-today/jpoptoday/issues/3)에서 raw staging·증거 보강과 KY충돌 대조, ID/URL/storage 어댑터를 구현한다.
 4. 최소 Astro 정적 앱→회귀 하네스→Cloudflare preview/복구→같은 SHA 운영으로 진행한다.
