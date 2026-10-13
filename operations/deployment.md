@@ -27,3 +27,9 @@ RELEASE-001. 운영 todayjpop의 npm run build/dist/source dev 설정을 Pages A
 ## 현재 제한
 
 초기 운영 GET·GitHub API는 CONNECT403이었으나 후속 HTTP·PR·CI 확인은 성공했다. GitHub 배포 목록 API는 integration scope403이다. 사용자가 CF binding을 입력한 뒤 특정 Pages 프로젝트/domain/deployment 읽기는 성공했다. 아직 새 앱 artifact/preview/rollback/운영 전환은 실행하지 않았다. 인증·프로젝트 연결을 확인할 때까지 배포 완료를 주장하지 않는다. 네트워크 설정 반영만으로 인증·push·배포 권한이 생겼다고 가정하지 않는다.
+
+## 조직 앱 미리보기 실행 경로
+
+전용 `jpoptoday-preview`는 direct upload이며 모든 page가 noindex·광고 없음이다. 소스 sourceSha·catalog hash·clean 상태를 확인한 dist만 npm run deploy:preview로 배포한다. existing todayjpop custom domain/source는 이 명령에서 변경하지 않는다. Cloudflare의 environment=production은 별도 미리보기 프로젝트 내부 branchmain의 label이다. 이를 jpop.today 운영 전환으로 쓰지 않는다.
+
+실제 build/type/contract/browser/HTTP·CI·배포 ID는 [Issue#5 실행 기록](status.md)의 최신 항목을 따른다. 원격 browser는 deployed-preview workflow로 정상 HTTPS에서 source를 고정해 검증한다. 복구 시험은 전용 프로젝트에서 성공한 실제 이전 artifact로 수행하고, 기존 jpop.today rollback 권한/실행을 완료로 확대하지 않는다.

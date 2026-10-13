@@ -75,3 +75,9 @@
 기존 jpop.today는 개인 dev 배포 기준선이며 신규 운영 전환·원본 예약 수집 변경·전체 카탈로그 근거 검증·WebKit·필드 성능·실제 광고/CMP·Google 계정/심사 제출·승인은 완료되지 않았다. 새 앱의 번호 정정·콘텐츠/운영 게이트는 계속 진행할 작업이다. 24시간 지속 세션이나 예약 자동 실행을 활성화한 것으로 설명하지 않는다.
 
 실제 배포 원격 브라우저 CI는 최초7통과/1실패였고, 실패는 목록 fetch 전 필터 클릭의 준비 경쟁이었다([run38351433338](https://github.com/jpop-today/jpoptoday/actions/runs/38351433338)). 정상 HTTPS에서 인증서 검증을 유지해 원인을 확인했으며 필터/저장 버튼을 실제 상태·handler 준비 후 활성화하고 느린 catalog 응답 회귀를 추가했다. 수정본의 CI·새 preview·원격 재검증은 완료 후 릴리스에 기록한다. 최초 로컬 원격 browser 인증서 실패와 이 앱의 실제 준비 경쟁을 서로 구분한다.
+
+최신 준비 경쟁 수정 sourceabef7b01637c9180998a221248868929cfabe5f0: 로컬9 browser PASS, check0error, clean build/artifact PASS. [push appCI](https://github.com/jpop-today/jpoptoday/actions/runs/38351736867) success, Node22계약 success. docs 기준 변경은 [PR#5](https://github.com/jpop-today/docs/pull/5)에 전달했다.
+
+새 배포sourceabef7b0의 실제HTTP15 PASS, 정상HTTPS GitHub [deployed-preview run38351955543](https://github.com/jpop-today/jpoptoday/actions/runs/38351955543) 전체 success를 확인했다. 이 workflow는 소스abef7b0 checkout과 실제 build-info를 대조하고 remote9 Chromium 흐름을 실행한다. workflow commit은 b440158899ab98164548f34b003c568eb121fcab이며 tested app source와 구분한다. 해당 b440 head의 push/PR 앱·Node22계약도 모두 success([PR app run38351959962](https://github.com/jpop-today/jpoptoday/actions/runs/38351959962)).
+
+소스PR#7 병합: main3dfed3e571d4d98ac56f5e29107973cc7df0cde0. 최종 읽기 전용 리뷰에서 localStorage 읽기는 성공/쓰기만 거부되는 경우 같은 탭의 sessionStorage가 페이지 이동 후 복원되지 않는P2를 확인했다. 정상 raw와 실패 당시 raw가 일치하는 경우 임시 목록을 복원하는 수정과 quota 쓰기 실패의 이동 회귀를 별도 branch codex/5-session-write-failure로 진행한다. 기존 원본 저장값은 유지하고 동시 다른 raw의 stale cache로 덮어쓰지 않는다. 후속 PR/검증/배포 결과는 완료 후 기록한다.

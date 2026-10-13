@@ -59,3 +59,11 @@ Astro 앱·E2E·CI 통합은 진행 중이다. workflow 파일 작성은 GitHub 
 확정 소스 `9cd5017883da50a5aabd702eb82d2ccb2e684ae1`을 clean 상태로 재빌드해 verify:dist가 같은 SHA·dirty:false를 확인했다. Node24 계약122·Astro7 check0error/0warning·build3333 HTML·Chromium8 E2E를 로컬에서 확인했다. 1440×1100 desktop/360×800 mobile, URL/뒤로가기·기존 주소·기존 문자열/객체/미해결 즐겨찾기·손상 localStorage 원본 보존·같은 탭 sessionStorage 복구·clipboard 거부 대체·JS 없는 본문·404를 검사했다. Browser plugin이 없어 시스템 Chromium154/Playwright fallback을 썼다. [콘셉트/실제 대조 기록](design/search-ui.md)은 기능 QA와 분리했다.
 
 소스 [PR#7](https://github.com/jpop-today/jpoptoday/pull/7), Node24 [push CI](https://github.com/jpop-today/jpoptoday/actions/runs/38351080227)는 success를 확인했다. Node22 계약 CI도 success다. PR/main CI와 별도 Cloudflare 미리보기의 실제 HTTP/noindex/비공개 경계/복구 결과는 [실행 기록](../operations/status.md)으로 연결한다. WebKit·필드 성능·실제 광고·전체 카탈로그 공식 확인은 미실행이며 기존 운영 전환과 구분한다.
+
+## 실제 배포 회귀와 후속 수정
+
+첫 배포 source9cd의 GitHub 정상 HTTPS remote CI는7통과/1실패였다. search의 초기 목록을 내려받기 전에 번호 필터를 누르면 listener가 없어 조건이 적용되지 않는 준비 경쟁을 재현했다. sourceabef7b01637c9180998a221248868929cfabe5f0에서 provider/save/more/copy-list를 준비 후 활성화하고750ms 지연 catalog의 상태/URL 회귀를 추가했다. 최신 로컬9테스트와 same-SHA push appCI38351736867이 통과했다. 실제 새 배포URL https://b88c2b94.jpoptoday-preview.pages.dev (deployment b88c2b94-35a1-455c-bdc7-8f9a6dde97b8)와 source를 고정해 deployed-preview workflow로 다시 검사한다.
+
+`deployed-preview.yml`은 workflow_dispatch의 deployment_url/source_sha와 기록된 기본 preview를 사용한다. 전용 jpoptoday-preview HTTPS host·fullSHA·실제 build-info 일치를 확인하고 그 source를 checkout해 Chromium9 흐름을 실행한다. GitHub runner의 정상 HTTPS/CA를 사용하며 로컬의 영구 NSS 변경이나 TLS 검증 해제를 요구하지 않는다. 실제 성공 run과 복구는 릴리스 기록이 기준이다.
+
+최종 읽기 전용 리뷰에서 정상 localStorage 읽기/QuotaExceededError 쓰기만 실패하는 조건의 session 복원이 누락됨을 확인했다. raw가 실패 당시 originalRaw와 일치하는 version1 임시 envelope를 읽고, 정상 읽기라도 이전 실패의 목록을 같은 탭에 복원하도록 수정했다. 다른 raw로 변경된 영구 snapshot에 stale 임시 목록을 덮지 않는다. 정상 raw/객체 metadata 보존·저장 실패·페이지 이동·두 곡 유지·임시 안내의 회귀를 추가해 최신 로컬 Chromium10테스트가 통과했다.
