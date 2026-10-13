@@ -46,7 +46,7 @@ npm run validate:catalog -- "$snapshot_check_dir/catalog.json"
 
 교체 전 실패는 기존 스냅샷을 건드리지 않는다. 쓰기 중 프로세스가 강제 종료되면 임시 파일이 남을 수 있지만 최종 경로는 부분 쓰기로 노출되지 않는다. 정리 자체가 실패해도 원래 오류를 숨기지 않으며, 남은 임시 파일은 운영 점검 대상으로 삼는다. 디렉터리 fsync·전원 장애 시 영속성, 여러 게시자의 실행 순서, 여러 파일을 한 번에 교체하는 트랜잭션은 현재 보장 범위에 없다. 수집·게시 작업은 한 게시자씩 실행한다.
 
-구조가 유효한 작은 부분 카탈로그도 v1을 통과할 수 있다. 전체 스냅샷 수집기를 연결할 때 대상 범위와 ID 차이, 대규모 감소, 번호 상태 변화와 근거 변경을 검토하는 게이트가 필요하다. 현재 CLI를 실제 카탈로그에 바로 연결하지 않는다.
+이번 whole-catalog change gate는 기존 ID 누락과 확인된 제공사 상태→unknown 퇴행을 거부한다. v1 구조가 유효한 부분 후보도 현재 snapshot을 덮지 못한다. 번호 변경·추가·메타데이터 교정은 영속 ID를 유지하며 v1 검사 후 허용한다. 삭제/병합과 손상 기존 snapshot의 복구는 별도 명시 작업이고 source/번호 진위·최신성·범위 자체의 진실성은 여전히 외부 검토가 필요하다. 원본 수집기에 아직 연결되지 않았다.
 
 ## 원본 ID 기준선 재현
 
@@ -112,3 +112,9 @@ Integrity test는 원본 파일 본문을 재검증하거나 제공사 출처의
 5. Cloudflare 미리보기에서 대표 경로·헤더·색인·정적 리소스 검사. 운영 전 마지막 정상 artifact와 되돌리기 경로 확인.
 
 각 작업 기록에는 스펙 ID, 범위, 변경 파일, 실행 명령·결과, 검증한 SHA, 남은 차단 사항을 남긴다. 합성 테스트·원본 검사·실제 카탈로그·미리보기·운영 배포 결과를 각각 명시한다.
+
+## Issue#3 추가 실행
+
+[원본 staging](../data/legacy-staging.md)의19테스트, [ID/URL/storage](legacy-compatibility.md)의37테스트, whole-catalog 실패 보존8테스트를 추가해 총119개를 로컬 Node24.19.0에서 확인했다. 실제 staging은 원본 Git 객체와 --check 바이트 일치, Chromium 브라우저 module/localStorage 검사17 assertions도 통과했다. 추가 CI 결과는 관련 PR에서 확인한다.
+
+whole-catalog CLI는 기존 snapshot이 있으면 먼저 읽어 검증한다. existing JSON/구조가 깨졌으면 보존 후 실패하고 자동 덮어쓰지 않는다. 이전 ID가 빠지거나 registered/unlisted 상태를 unknown으로 바꾸면 INVALID_CATALOG_CHANGE로 실패한다. 후보 metadata/정상 번호 교정은 ID를 고정하는 한 검증 후 허용한다.

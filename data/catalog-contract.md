@@ -68,4 +68,6 @@ node scripts/promote-catalog.mjs /workspace/catalog-staging/candidate.json /work
 
 `promote-catalog.mjs`는 UTF-8·JSON·v1 계약을 검증한 다음 출력 파일과 같은 디렉터리의 임시 파일을 exclusive 생성하고, 후보의 원래 바이트를 쓰고 동기화한 뒤 `rename`으로 교체한다. 출처·확인일을 만들지 않는다. 입력 실패·빈 카탈로그·깨진 JSON·동일 경로·링크 별칭·쓰기 또는 교체 실패가 발생하면 오류를 반환하고 기존 스냅샷을 유지한다.
 
-이 CLI는 원본 수집기에 아직 연결되어 있지 않다. 비어 있지 않은 대규모 데이터 누락, ID 변경, 범위 누락, 최신성, 외부 출처의 진위, 실제 공개 권리는 v1 구조 검사만으로 잡을 수 없다. 전체 스냅샷 수집기 통합 때 변화 보고와 출처 검토를 추가해야 한다. 자세한 검증 범위는 [하네스 문서](../engineering/harness.md)에 기록한다.
+이 CLI는 원본 수집기에 아직 연결되어 있지 않다. 기존 정상 snapshot의 ID 누락과 확인 상태의 unknown 퇴행은 추가 change gate가 거부한다. 최초 snapshot의 범위 자체, 최신성, 외부 출처의 진위, 실제 공개 권리는 v1/change 검사만으로 확인할 수 없다. 전체 스냅샷 수집기 통합 때 변화 보고와 출처 검토를 추가해야 한다. 자세한 검증 범위는 [하네스 문서](../engineering/harness.md)에 기록한다.
+
+실제 원본 metadata의 [staging 실행 계약](legacy-staging.md)은 source 진위를 생성하지 않는 별도 schema다. 앱 연결에 필요한 [ID/URL/storage 실행 계약](../engineering/legacy-compatibility.md)과 v1 공개 catalog 승격을 구분한다.

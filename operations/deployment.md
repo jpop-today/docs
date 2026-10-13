@@ -1,6 +1,6 @@
 # Cloudflare 배포·복구
 
-RELEASE-001. 운영 프로젝트 설정은 아직 직접 확인하지 못했다. 개인 원본 README의 요구사항은 npm run build / dist / Node 24이며 실제 연결 설정과 구분한다.
+RELEASE-001. 운영 todayjpop의 npm run build/dist/source dev 설정을 Pages API로 확인했다([기준선](cloudflare-baseline.md)). 개인 원본 README의 Node24 요구와 실제 runtime 설정 확인은 구분한다.
 
 ## 연결 조사
 
@@ -26,4 +26,4 @@ RELEASE-001. 운영 프로젝트 설정은 아직 직접 확인하지 못했다.
 
 ## 현재 제한
 
-초기 운영 GET·GitHub API는 CONNECT403이었으나 후속 HTTP·PR·CI 확인은 성공했다. GitHub 배포 목록 API는 integration scope403이다. CF accounts API는 인증 헤더 부재를 반환했고, CF credential binding은 현재 머신에서 확인되지 않았다. 인증·프로젝트 연결을 확인할 때까지 배포 완료를 주장하지 않는다. 네트워크 설정 반영만으로 인증·push·배포 권한이 생겼다고 가정하지 않는다.
+초기 운영 GET·GitHub API는 CONNECT403이었으나 후속 HTTP·PR·CI 확인은 성공했다. GitHub 배포 목록 API는 integration scope403이다. 사용자가 CF binding을 입력한 뒤 특정 Pages 프로젝트/domain/deployment 읽기는 성공했다. 아직 새 앱 artifact/preview/rollback/운영 전환은 실행하지 않았다. 인증·프로젝트 연결을 확인할 때까지 배포 완료를 주장하지 않는다. 네트워크 설정 반영만으로 인증·push·배포 권한이 생겼다고 가정하지 않는다.

@@ -36,14 +36,25 @@
 
 ## 원격 전달과 외부 차단
 
-조직 규칙 foundation 커밋 49d279dd24ddb7ecdbaf46409d0d4ebc9f69e11d와 소스 커밋 7233949ca0a5ef7e7af9d3c6944e5a743715c53d를 push하고 각 PR #2를 생성했다: https://github.com/jpop-today/.github/pull/2 · https://github.com/jpop-today/jpoptoday/pull/2. 두 PR은 검증 후 병합했다. 조직 merge SHA=e3588f6ce4c72270b6aab3f0ad1a8dc382c72a00, 소스 merge SHA=46604141c9afa6a57215c6cbfb58f0dbceaafab6. Docs 설계 기준은 [PR#3](https://github.com/jpop-today/docs/pull/3)로 연결한다. 이 문서 자체의 최종 병합 상태·merge SHA는 해당 PR의 실제 상태가 기준이다. 현재 초기 GitHub API/운영 사이트는 CONNECT403이었으나 후속 요청에서 API·운영 HTTP 접근이 성공했다. GitHub 배포 목록 API는 integration scope 403으로 아직 확인할 수 없다. 운영 /, 공개 JS·robots·sitemap은200, 원본 data 경로와 없는 URL은404이며 공개 JS 3개는 조사 dev 바이트와 같다. 실제 Cloudflare deployment SHA를 이 바이트 비교로 확정하지 않는다. 계정 본인정보·AdSense 심사 화면·실제 Cloudflare 프로젝트/운영 branch/SHA는 미확인이다.
+조직 규칙 foundation 커밋 49d279dd24ddb7ecdbaf46409d0d4ebc9f69e11d와 소스 커밋 7233949ca0a5ef7e7af9d3c6944e5a743715c53d를 push하고 각 PR #2를 생성했다: https://github.com/jpop-today/.github/pull/2 · https://github.com/jpop-today/jpoptoday/pull/2. 두 PR은 검증 후 병합했다. 조직 merge SHA=e3588f6ce4c72270b6aab3f0ad1a8dc382c72a00, 소스 merge SHA=46604141c9afa6a57215c6cbfb58f0dbceaafab6. Docs 설계 기준은 [PR#3](https://github.com/jpop-today/docs/pull/3)로 연결한다. 이 문서 자체의 최종 병합 상태·merge SHA는 해당 PR의 실제 상태가 기준이다. 현재 초기 GitHub API/운영 사이트는 CONNECT403이었으나 후속 요청에서 API·운영 HTTP 접근이 성공했다. GitHub 배포 목록 API는 integration scope 403으로 아직 확인할 수 없다. 운영 /, 공개 JS·robots·sitemap은200, 원본 data 경로와 없는 URL은404이며 공개 JS 3개는 조사 dev 바이트와 같다. 실제 Cloudflare deployment SHA를 이 바이트 비교로 확정하지 않는다. 계정 본인정보·AdSense 심사 화면은 미확인이다. 사용자 binding 입력 후 Cloudflare todayjpop의 source=kim75503/todayjpop, production=dev, SHA6dbe5a65d1bd729c09393f746f715f4363089a43, deployment5072e2ec-6858-4c44-b34f-8c27c3a016e8을 실제 API로 확인했다([현재 기준선](cloudflare-baseline.md)).
 
-환경 설정 draft에 api.github.com, jpop.today, support.google.com, developers.google.com, api.cloudflare.com, developers.cloudflare.com, www.tjmedia.com을 추가했다. 기존 package-manager preset은 유지했다. draft 저장은 runtime 적용/publish가 아니므로 사용자 환경 설정의 저장·발행 후 해당 요청을 다시 시험해야 한다. CF accounts API는 정상 도달했으나 인증 헤더 부재 오류9106/9107을 반환했다. 환경 draft에 CLOUDFLARE_API_TOKEN proxy-secret requirement(api.cloudflare.com)와 CLOUDFLARE_ACCOUNT_ID 변수 requirement를 저장했다. 현재 CLOUDFLARE_API_TOKEN/CLOUDFLARE_ACCOUNT_ID/CF_API_TOKEN/CF_ACCOUNT_ID는 없다. 새로운 비밀 값을 채팅에 요청하거나 만들어 기록하지 않았다.
+환경 설정 draft에 api.github.com, jpop.today, support.google.com, developers.google.com, api.cloudflare.com, developers.cloudflare.com, www.tjmedia.com을 추가했다. 기존 package-manager preset은 유지했다. draft 저장은 runtime 적용/publish가 아니므로 사용자 환경 설정의 저장·발행 후 해당 요청을 다시 시험해야 한다. 최초 CF accounts 요청은 인증 헤더 부재였다. 이후 사용자가 환경 설정에 입력했고 CLOUDFLARE_API_TOKEN/CLOUDFLARE_ACCOUNT_ID는 현재 머신에 존재한다. 특정 Pages 프로젝트·domain·최근 deployment 읽기가 성공했다. readiness telemetry는 unknown이며 읽기 성공을 배포·DNS 편집 권한 시험으로 확대하지 않는다. 토큰·Account ID 값은 채팅·문서·commit에 기록하지 않는다.
 
 ## 다음 실행
 
 1. Foundation의 세 PR과 실제 CI 결과를 기준으로 다음 구현을 진행한다. source main의 현재 protected=false는 확인했으며 정책 문서 작성이 보호 설정 적용을 뜻하지 않는다.
-2. 실제 CF 프로젝트·운영 SHA를 고정하고 최소 identity baseline에 운영 ID를 추가한다.
+2. 운영 CF 프로젝트·SHA는 고정했고 해당 SHA는 기존 baseline에 포함됐다. 직전 성공 deployment를 복구 후보로 조회했으며 rollback 실행/새 앱 전환은 미실행이다.
 3. [소스 Issue#3](https://github.com/jpop-today/jpoptoday/issues/3)에서 raw staging·증거 보강과 KY충돌 대조, ID/URL/storage 어댑터를 구현한다.
 4. 최소 Astro 정적 앱→회귀 하네스→Cloudflare preview/복구→같은 SHA 운영으로 진행한다.
 5. 콘텐츠·권리·개인정보·크롤링 준비 후 실제 AdSense 계정/심사를 추적한다. 현재 승인 상태는 unknown이다.
+
+## Issue#3 구현 진행
+
+작업 branch codex/3-legacy-staging-compatibility, source base46604141c9afa6a57215c6cbfb58f0dbceaafab6 / docs base02536e9aca40c69fdd2f0fb5a15cae77e659d89b. 원본은 그대로 보존했다.
+
+- 실제 staging3,317 ID: playlist3,299/current chart-only14/archived4, 번호는 관측 상태·evidence:null. 인용 처리3제목은 표시만 교정하고 ID를 유지했다. exact Git 객체와 --check 일치.
+- 브라우저 ESM ID/URL/favorites/recent-filter adapter: old URL과 storage key 유지, unknown·손상·quota·backup·rollback/동시 변경 진단. 실제 baseline ID3317 roundtrip.
+- whole-catalog 후보는 기존ID 누락/확인 상태 unknown퇴행에서 이전 정상 snapshot을 보존한다.
+- 최종 로컬119테스트 통과·실패/skip0(Node24.19), Chromium adapter 런타임17 assertions/pageerror0. 소스 [PR#4](https://github.com/jpop-today/jpoptoday/pull/4), docs [PR#4](https://github.com/jpop-today/docs/pull/4)로 전달했다. CI/병합의 최종 상태·SHA는 각 PR 링크의 실제 상태를 기준으로 확인한다.
+
+이것은 importer와 라이브러리 구현이며 앱 UI·공개 read model·운영 전환을 완료하지 않았다. 공유번호11그룹 공식 곡/버전 대조, 행별 출처·권리 보강, 새 UI 연결과 preview는 남아 있어 Issue#3를 완료로 닫지 않는다.

@@ -27,9 +27,9 @@
 | 최소 호환 ID | 위 두 SHA의 공개 곡/차트 합집합 3,317개 |
 | 공개 저장 키 | `jpop_today_favorites`, `jpop_today_recent_filters` |
 | 기존 공개 도메인 | `https://jpop.today` |
-| 실제 운영 배포 | 프로젝트·연결 저장소·브랜치·SHA·artifact·배포 ID 미확인 |
-| 기존 Cloudflare 복구 | 접근 및 이전 정상 배포 선택 가능 여부 미확인 |
-| GitHub 제어면 | Git 읽기는 가능; 이번 API 요청은 403 |
+| 실제 운영 배포 | todayjpop, kim75503/todayjpop dev, SHA6dbe5a65d1bd729c09393f746f715f4363089a43, deployment5072e2ec-6858-4c44-b34f-8c27c3a016e8, npm run build→dist |
+| 기존 Cloudflare 복구 | 직전 성공 deployment394fc369-7263-403a-a72a-dfebc9889760 조회; 실제 rollback 실행/권한은 미검증 |
+| GitHub 제어면 | Git/Issue/PR/merge/CI 조회 성공; deployments API는 integration scope403 |
 | 외부 자료 권리 | 가사 7곡·외부 차트 이미지의 개별 사용 허락 증거 미확인 |
 
 [현재 구조 조사](../discovery/current-state.md)의 수치는 저장소 관찰이다. 운영 SHA를 확인하면 그 SHA의 ID·URL·설정도 baseline에 추가한다. `main`·`dev` 두 HEAD의 합집합만으로 과거 모든 주소를 보존했다고 주장하지 않는다.
@@ -128,7 +128,7 @@ preview가 통과하고 이전 정상 배포의 rollback 방법을 확보하면 
 - [x] 원본 `main`·`dev` SHA와 구조 조사
 - [x] 3,299 등록곡, 출처·확인일 부재, KY 충돌, 가사·이미지 상태 확인
 - [x] 두 SHA의 최소 legacy ID 3,317개 집계
-- [ ] 실제 운영 Cloudflare 프로젝트·배포 브랜치·SHA·rollback 대상 확인
+- [x] 실제 Cloudflare 프로젝트·운영 branch/SHA/deployment와 직전 성공 복구 후보 조회(rollback 실행은 미검증)
 - [x] 두 조사 SHA의 원본 파일 hash·refs와 legacy ID 보존 기준선을 새 소스에 저장(실제 운영 SHA 추가 확인과 canonical alias 결정은 미완료)
 - [ ] 실제 앱·카탈로그·허락 범위에 맞춘 공개 자료 이관
 - [ ] 새 계약·기존 URL·저장 호환성을 실제 자료로 검증
@@ -138,3 +138,7 @@ preview가 통과하고 이전 정상 배포의 rollback 방법을 확보하면 
 - [ ] Search Console·AdSense 실제 계정 상태와 다음 심사 단계 기록
 
 이 목록은 문서 작성 시점의 조사 상태다. 작업이 진행되면 근거가 있는 실행 기록을 연결해 갱신한다.
+
+## 구현된 첫 이관 범위
+
+[staging 계약](../data/legacy-staging.md)과 [ID/URL/storage 계약](../engineering/legacy-compatibility.md)은 실제 코드와3,317 ID로 검증했다. 현재 라이브러리 결과를 새 앱에 연결하기 전이며 shared-number 후보를 canonical alias로 확정하지 않았다. 실제 자료 승격·공개 경계·preview/운영 검사는 해당 단계에서 계속 수행한다.

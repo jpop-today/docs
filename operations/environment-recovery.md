@@ -29,4 +29,6 @@ npm test
 
 ## 접근
 
-GitHub Git 읽기 성공과 API/쓰기 권한을 구분한다. 토큰·환경 값은 출력하지 않는다. 네트워크 추가 도메인은 환경 설정의 기존 allowlist를 보존하며 추가한다. draft 저장은 runtime 적용·publish가 아니다. Cloudflare/Google 계정 연결과 본인정보는 실제 readiness를 확인한다. 서버 프로세스는 새 작업에 유지된다고 가정하지 않는다.
+GitHub Git 읽기 성공과 API/쓰기 권한을 구분한다. 토큰·환경 값은 출력하지 않는다. 네트워크 추가 도메인은 환경 설정의 기존 allowlist를 보존하며 추가한다. draft 저장은 runtime 적용·publish가 아니다. Cloudflare Pages binding은 사용자 입력 후 특정 프로젝트 읽기가 성공했다. 읽기 helper는 npm run inspect:cloudflare -- --project todayjpop. Google 계정/본인정보와 개별 write permission은 필요한 단계에서 따로 확인한다. 서버 프로세스는 새 작업에 유지된다고 가정하지 않는다.
+
+현재 npm test는119개의 계약·실제 기준선/staging·storage/URL/실패 보존을 실행한다. `npm run import:legacy -- <원본checkout> <fullSHA> data/legacy-identity-baseline.json data/staging/legacy-catalog.json --check`는 정확한 원본 Git 객체가 있어야 한다. source/staging data를 공개 dist에 복사하지 않는다.
