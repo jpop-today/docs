@@ -1,0 +1,128 @@
+{
+  "deploymentUrl": "https://f5700aaa.jpoptoday-preview.pages.dev",
+  "expectedSourceSha": "9cd5017883da50a5aabd702eb82d2ccb2e684ae1",
+  "checkedAt": "2026-10-13T05:27:39.179Z",
+  "method": "Playwright APIRequestContext with inherited proxy and CA; TLS verification enabled",
+  "records": [
+    {
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/",
+      "robots": "noindex, nofollow",
+      "bytes": 11422,
+      "sha256": "404dcac861450e8ad8535d9bdcad56bb445bf4fccf0077a8712506e77b051daf"
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/search/",
+      "robots": "noindex, nofollow",
+      "bytes": 11429,
+      "sha256": "99f28ad8d882afe993a0ea52678ea058d4153cc6e3c6acea58d3debed901f5f0"
+    },
+    {
+      "path": "/favorites/",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/favorites/",
+      "robots": "noindex, nofollow",
+      "bytes": 3908,
+      "sha256": "7039a11c7c3596ec46a94770dd00af9aacc4d213eff62e8aae644ceddb6f4c34"
+    },
+    {
+      "path": "/chart/",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/chart/",
+      "robots": "noindex, nofollow",
+      "bytes": 161300,
+      "sha256": "e0813aaf97767bd2165915b0efb65e13aefe39590dba51e19c73680cb742f518"
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/guides/",
+      "robots": "noindex, nofollow",
+      "bytes": 2657,
+      "sha256": "df90935cff0b2d1be99f089c326002279e81eb6e8dc32b5d1b45863571827ce0"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/privacy/",
+      "robots": "noindex, nofollow",
+      "bytes": 3820,
+      "sha256": "8c2705641385e79684a62050bd7dfbe4bd7b1dc20d1715f32ef2b196aeeb07fc"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/robots.txt",
+      "robots": "noindex, nofollow",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "/build-info.json",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/build-info.json",
+      "robots": "noindex, nofollow",
+      "bytes": 272,
+      "sha256": "a1738a3907a6ce4879d21654fe91893f4ae2cc5c0a8de7bbd3260dd8c42594b6"
+    },
+    {
+      "path": "/catalog.json",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/catalog.json",
+      "robots": "noindex, nofollow",
+      "bytes": 1531092,
+      "sha256": "cd6048b0bb30638ba82fa2d08881a89ee033ebe593a3bea1bbf1098a9bdbc06e"
+    },
+    {
+      "path": "/songs/jpop-playlist-official%E9%AB%AD%E7%94%B7dism-pretender-89fe1cbab6/",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/songs/jpop-playlist-official%E9%AB%AD%E7%94%B7dism-pretender-89fe1cbab6/",
+      "robots": "noindex, nofollow",
+      "bytes": 4283,
+      "sha256": "f6d8d0ddeb3503711b2bdebb7cd44f14f35833640021512fbe95652f4975f292"
+    },
+    {
+      "path": "/song.html?id=jpop-playlist-official%E9%AB%AD%E7%94%B7dism-pretender-89fe1cbab6",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/song/?id=jpop-playlist-official%E9%AB%AD%E7%94%B7dism-pretender-89fe1cbab6",
+      "robots": "noindex, nofollow",
+      "bytes": 1947,
+      "sha256": "1017a9c9e42c52ce7062e99b366c5968e64a840fe5f889f6ee96509cacec424d"
+    },
+    {
+      "path": "/filter.html?q=프리텐더&number=has-tj",
+      "status": 200,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/search/?q=%ED%94%84%EB%A6%AC%ED%85%90%EB%8D%94&number=has-tj",
+      "robots": "noindex, nofollow",
+      "bytes": 11429,
+      "sha256": "99f28ad8d882afe993a0ea52678ea058d4153cc6e3c6acea58d3debed901f5f0"
+    },
+    {
+      "path": "/data/jpop-playlist.raw.json",
+      "status": 404,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/data/jpop-playlist.raw.json",
+      "robots": "noindex, nofollow",
+      "bytes": 1815,
+      "sha256": "b334232724f46133e601c4ad415304f48f3d3b90264c6eb98175e1cf56967e90"
+    },
+    {
+      "path": "/scripts/inspect-cloudflare.py",
+      "status": 404,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/scripts/inspect-cloudflare.py",
+      "robots": "noindex, nofollow",
+      "bytes": 1815,
+      "sha256": "b334232724f46133e601c4ad415304f48f3d3b90264c6eb98175e1cf56967e90"
+    },
+    {
+      "path": "/non-existent-proof",
+      "status": 404,
+      "finalUrl": "https://f5700aaa.jpoptoday-preview.pages.dev/non-existent-proof",
+      "robots": "noindex, nofollow",
+      "bytes": 1815,
+      "sha256": "b334232724f46133e601c4ad415304f48f3d3b90264c6eb98175e1cf56967e90"
+    }
+  ]
+}

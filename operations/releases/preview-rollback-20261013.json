@@ -1,0 +1,24 @@
+{
+  "project": "jpoptoday-preview",
+  "checkedAt": "2026-10-13T05:41:09.077860+00:00",
+  "method": "Actual Pages rollback API; dedicated noindex preview project only",
+  "before": {
+    "id": "32e9c9c7-73f9-43ff-9b47-f6ad8f98bf3c",
+    "url": "https://32e9c9c7.jpoptoday-preview.pages.dev",
+    "status": "success",
+    "sourceSha": "279cc3e4ca823157c733f2ccdc726bfd01cd2f70"
+  },
+  "rollbackTarget": {
+    "id": "363bb785-5d9f-43af-955e-452c153fdd1e",
+    "url": "https://363bb785.jpoptoday-preview.pages.dev",
+    "status": "success",
+    "sourceSha": "279cc3e4ca823157c733f2ccdc726bfd01cd2f70"
+  },
+  "after": {
+    "id": "363bb785-5d9f-43af-955e-452c153fdd1e",
+    "url": "https://363bb785.jpoptoday-preview.pages.dev",
+    "status": "success",
+    "sourceSha": "279cc3e4ca823157c733f2ccdc726bfd01cd2f70"
+  },
+  "productionDomainChanged": false
+}

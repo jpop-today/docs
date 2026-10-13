@@ -4,7 +4,7 @@
 
 ## 위임과 현재 단계
 
-사용자는 스펙·전체 재설계·수정·검증·배포와 여러 스레드 협업을 위임했다. 일상 작업의 반복 확인 없이 진행한다. 현재 FOUNDATION의 제품 기준·원본 조사·데이터/호환성 하네스를 작성·검증하고 저장소별 PR로 통합한다. 조직 앱 이관·새 UI·운영 전환은 다음 단계다.
+사용자는 스펙·전체 재설계·수정·검증·배포와 여러 스레드 협업을 위임했다. 일상 작업의 반복 확인 없이 진행한다. FOUNDATION과 staging/호환 어댑터를 이어 Issue#5에서 Astro 앱·실제 브라우저 UI와 별도 Cloudflare 미리보기를 구현했다. 검증된 데이터 정정·콘텐츠 검토·기존 jpop.today 운영 전환과 AdSense 실심사는 다음 단계다. 아래 이전 작업 기록은 조사/구현의 이력이며 최신 상태는 Issue#5와 릴리스 기록을 따른다.
 
 ## 소스와 조사 기준
 
@@ -58,3 +58,40 @@
 - 최종 로컬119테스트 통과·실패/skip0(Node24.19), Chromium adapter 런타임17 assertions/pageerror0. 소스 [PR#4](https://github.com/jpop-today/jpoptoday/pull/4), docs [PR#4](https://github.com/jpop-today/docs/pull/4)로 전달했다. CI/병합의 최종 상태·SHA는 각 PR 링크의 실제 상태를 기준으로 확인한다.
 
 이것은 importer와 라이브러리 구현이며 앱 UI·공개 read model·운영 전환을 완료하지 않았다. 공유번호11그룹 공식 곡/버전 대조, 행별 출처·권리 보강, 새 UI 연결과 preview는 남아 있어 Issue#3를 완료로 닫지 않는다.
+
+## Issue#5 Astro 앱·별도 Cloudflare 미리보기
+
+작업 source base33e782cb2a49e6df82da5f747d2ad5ca1cd3e01f / docs baseba8368edc28de170173e581684a637041305ecde / governance basee3588f6ce4c72270b6aab3f0ad1a8dc382c72a00. source/docs branch codex/5-astro-app-preview, governance codex/5-continuous-development. 통합 담당자 한 명이 Git/package/앱을 관리했고 독립 에이전트는 공식 번호 근거, 지속 개발/정책 두 문서, 산출물 하네스 파일만 맡았다. 사용자 소유 새 채팅·worktree·예약 자동화는 생성하지 않았다.
+
+- [소스 PR#7](https://github.com/jpop-today/jpoptoday/pull/7): Astro7.3.8/TypeScript 앱·검색·정적3317 상세·기존 URL/storage·가이드4개·정책/문의/FAQ/보관차트/범위. source9cd5017883da50a5aabd702eb82d2ccb2e684ae1의 clean build3333 HTML/3340파일, catalog hash cd6048b0bb30638ba82fa2d08881a89ee033ebe593a3bea1bbf1098a9bdbc06e.
+- 로컬 Node24 계약122, check0error/0warning, artifact gate, Chromium154 8E2E 통과. desktop1440×1100/mobile360×800·키보드·손상 원본 보존·sessionStorage 탭 복구·복사 실패·JS 없는 본문·실제 로컬404. 콘셉트/캡처 대조와 실제 관측 데이터 차이는 [디자인 기록](../engineering/design/search-ui.md). runtime npm audit0.
+- 같은 source9cd [Node24 push CI](https://github.com/jpop-today/jpoptoday/actions/runs/38351080227) success, Node22계약도 success. PR·새workflow/main 결과는 실제 확인 후 릴리스 기록에 갱신한다.
+- 전용 direct-upload project jpoptoday-preview 생성·배포 성공. deployment f5700aaa-ed34-442c-9150-9c3f05adc097, source9cd5017, branchmain, clean. URL https://f5700aaa.jpoptoday-preview.pages.dev. Cloudflare environment=production은 이 별도 미리보기 프로젝트의 내부 label이며 jpop.today 운영 전환을 뜻하지 않는다. 전체 noindex/광고 없음.
+- 실제 Pages HTTP15건 PASS: 200본문/metadata/catalog hash, 이전 .html/query 유지, raw·script·없는주소404, X-Robots-Tag noindex. [첫 배포 기계 기록](releases/preview-http-f5700aaa-20261013.json). Python 기본 client는 Cloudflare1010/403이었지만 지원된 Playwright APIRequestContext에서 proxy/기존 CA/TLS 검증을 유지해 성공했다.
+- 로컬 원격 Chromium은 현재 세션 proxy CA 신뢰 미설정으로7browser실패/HTTP1통과였다. 영구 NSS trust에 CA를 추가하는 작업은 자동 승인 검토가 지속 인증서 신뢰 변경을 이유로 거부했다. 이 변경은 하지 않았다. 정상 HTTPS GitHub runner에 deployed-preview workflow를 추가해 source9cd의 실제 배포 E2E를 진행한다. TLS 무시 옵션·네트워크 제한 우회는 사용하지 않았다.
+- [공식11그룹/23ID 조사](../data/provider-evidence-20261013.md)와 [Issue#6](https://github.com/jpop-today/jpoptoday/issues/6)에서 번호·가수·버전 정정을 이어간다. 현재 raw/staging과 ID를 유지하고 observed-unverified/unknown 상태를 공개한다.
+- [.github PR#3](https://github.com/jpop-today/.github/pull/3) 병합 확인, merge f948a007082a4e20d9902b6817a58589cecf65fc. [지속 개발](continuous-development.md), [공식 Google 정책](adsense-policy-review-20261013.md)과 연결한다.
+
+기존 jpop.today는 개인 dev 배포 기준선이며 신규 운영 전환·원본 예약 수집 변경·전체 카탈로그 근거 검증·WebKit·필드 성능·실제 광고/CMP·Google 계정/심사 제출·승인은 완료되지 않았다. 새 앱의 번호 정정·콘텐츠/운영 게이트는 계속 진행할 작업이다. 24시간 지속 세션이나 예약 자동 실행을 활성화한 것으로 설명하지 않는다.
+
+실제 배포 원격 브라우저 CI는 최초7통과/1실패였고, 실패는 목록 fetch 전 필터 클릭의 준비 경쟁이었다([run38351433338](https://github.com/jpop-today/jpoptoday/actions/runs/38351433338)). 정상 HTTPS에서 인증서 검증을 유지해 원인을 확인했으며 필터/저장 버튼을 실제 상태·handler 준비 후 활성화하고 느린 catalog 응답 회귀를 추가했다. 수정본의 CI·새 preview·원격 재검증은 완료 후 릴리스에 기록한다. 최초 로컬 원격 browser 인증서 실패와 이 앱의 실제 준비 경쟁을 서로 구분한다.
+
+최신 준비 경쟁 수정 sourceabef7b01637c9180998a221248868929cfabe5f0: 로컬9 browser PASS, check0error, clean build/artifact PASS. [push appCI](https://github.com/jpop-today/jpoptoday/actions/runs/38351736867) success, Node22계약 success. docs 기준 변경은 [PR#5](https://github.com/jpop-today/docs/pull/5)에 전달했다.
+
+새 배포sourceabef7b0의 실제HTTP15 PASS, 정상HTTPS GitHub [deployed-preview run38351955543](https://github.com/jpop-today/jpoptoday/actions/runs/38351955543) 전체 success를 확인했다. 이 workflow는 소스abef7b0 checkout과 실제 build-info를 대조하고 remote9 Chromium 흐름을 실행한다. workflow commit은 b440158899ab98164548f34b003c568eb121fcab이며 tested app source와 구분한다. 해당 b440 head의 push/PR 앱·Node22계약도 모두 success([PR app run38351959962](https://github.com/jpop-today/jpoptoday/actions/runs/38351959962)).
+
+소스PR#7 병합: main3dfed3e571d4d98ac56f5e29107973cc7df0cde0. 최종 읽기 전용 리뷰에서 localStorage 읽기는 성공/쓰기만 거부되는 경우 같은 탭의 sessionStorage가 페이지 이동 후 복원되지 않는P2를 확인했다. 정상 raw와 실패 당시 raw가 일치하는 경우 임시 목록을 복원하는 수정과 quota 쓰기 실패의 이동 회귀를 별도 branch codex/5-session-write-failure로 진행한다. 기존 원본 저장값은 유지하고 동시 다른 raw의 stale cache로 덮어쓰지 않는다. 후속 PR/검증/배포 결과는 완료 후 기록한다.
+
+최종 저장 쓰기 실패 수정은 [소스PR#8](https://github.com/jpop-today/jpoptoday/pull/8)로 전달했다. source279cc3e4ca823157c733f2ccdc726bfd01cd2f70의 pushappCI38352350207 success, check0error/0warning·정적3333 HTML/3317상세·artifact·로컬10Chromium PASS. 새 preview https://363bb785.jpoptoday-preview.pages.dev 배포 성공, source279cc3e/dirty:false, 실제HTTP15 PASS([기계 기록](releases/preview-http-363bb785-20261013.json)). 같은 artifact를 전용 preview 프로젝트에 한 번 더 배포해 성공한 이전 버전으로 실제 rollback할 수 있는지 시험한다. 운영 jpop.today 복구 실행으로 확대하지 않는다.
+
+전용 preview 프로젝트의 실제 rollback을 실행했다: second32e9c9c7-73f9-43ff-9b47-f6ad8f98bf3c → first363bb785-5d9f-43af-955e-452c153fdd1e. 둘 다 동일 source279cc3e4ca823157c733f2ccdc726bfd01cd2f70의 성공 artifact다. Pages POST rollback과 이후 GET canonical deployment 일치를 확인했다([실행 JSON](releases/preview-rollback-20261013.json)). 기존 jpop.today 프로젝트/도메인/source를 변경하지 않았으며 그 프로젝트의 rollback 실행·권한으로 확대하지 않는다.
+
+## 최신 확정 인계
+
+[미리보기 릴리스](releases/preview-20261013.md)가 최종 구현·CI·원격10브라우저·HTTP15·실제preview rollback·남은 작업의 기준이다. 소스PR#8 병합으로 main6cbdcc3f63132b9abe948a5edfe67727aec9fe03, 배포 앱 source279cc3e4ca823157c733f2ccdc726bfd01cd2f70을 각각 기록한다. workflow head8a6eee1의 push/PRapp/Node22계약은 success, 실제 배포source279의 remote10은 [run38352601980](https://github.com/jpop-today/jpoptoday/actions/runs/38352601980) success다. stable https://jpoptoday-preview.pages.dev 복구 후HTTP15 PASS. 현재 app/data/public/scripts/lockfile은 배포source279와 main의 Git tree 차이가 없음을 확인했다. main merge 자체의 CI는 별도자동실행이므로 위 source/head 결과로 대신하지 않는다.
+
+네트워크·CF binding 관측은 후속 environment_status에서 observations_current:true, mode unrestricted/state enforced, 두 CF secret/runtime binding ready를 확인했다. 실제 project 생성·배포·preview rollback 범위의 API 성공과 연결하며 다른 도메인/운영 변경 권한 전체로 확대하지 않는다. 현재 Google계정 상태는 사용자 답변을 기다리는 unknown이다.
+
+마지막 원격조회에서 source main6cbdcc3의 [appCI38352818695](https://github.com/jpop-today/jpoptoday/actions/runs/38352818695)와 [Node22계약38352818759](https://github.com/jpop-today/jpoptoday/actions/runs/38352818759)도 모두 success를 확인했다. 미리보기 구현 Issue#5는 결과/릴리스/원격10·복구를 연결해 완료로 닫았다. 운영 전환·번호정정·Google심사는 남은 작업이다.
+
+최종 문서 commit/push 명령은 자동 승인 검토가 main직접변경이라고 판단해 거부하여 실행되지 않았다. 읽기 전용 확인에서 docs 실제 branch가 codex/5-astro-app-preview이고 source repo만 main임을 확인했다. 문서 Git 경로·branch guard·원격 feature ref를 명시해 기존 docs PR#5로 전달하며 직접 main push를 수행하지 않는다.

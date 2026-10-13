@@ -13,6 +13,9 @@
 7. [콘텐츠 기준](content/editorial-policy.md), [AdSense 준비](operations/adsense.md)
 8. [원본 staging](data/legacy-staging.md), [호환 어댑터](engineering/legacy-compatibility.md), [Cloudflare 기준선](operations/cloudflare-baseline.md)
 9. [실행 상태](operations/status.md), [환경 복구](operations/environment-recovery.md)
+10. [지속 개발과 세션 재개](operations/continuous-development.md), [공식 AdSense 정책 조사](operations/adsense-policy-review-20261013.md)
+11. [공식 제공사 공유번호 대조](data/provider-evidence-20261013.md), [앱 하네스](engineering/app-harness.md)
+12. [조직 앱 미리보기 릴리스](operations/releases/preview-20261013.md): 최종 SHA·CI·원격 검증·복구·인계
 
 ## 저장소 역할
 
@@ -24,4 +27,4 @@
 
 운영 사이트: https://jpop.today · 원본: https://github.com/kim75503/todayjpop
 
-현재 조직 소스는 독립 검증 하네스다. 개인 원본은 읽기·로컬 빌드가 가능해졌지만 아직 조직 저장소로 이관·운영 배포한 상태는 아니다. 이 문서는 새 개발 기준이며 기존 운영 상태와 구분한다.
+현재 조직 소스는 Astro 정적 앱·관측 카탈로그·기존 URL/storage 호환 UI와 검증 하네스를 포함한다. 별도 Cloudflare 미리보기와 기존 개인 저장소의 jpop.today 운영 전환을 구분한다. 실제 SHA·CI·배포 상태는 [실행 상태](operations/status.md)와 릴리스 기록으로 확인한다.

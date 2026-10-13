@@ -15,7 +15,7 @@
 | P1 | RELEASE / RELEASE-001,PRIVACY-001 | CI→preview→동일 SHA 운영·복구 | CF 접근, gates·공개 대상·문의/개인정보 검토 |
 | P2 | ADS / ADS-001 | 운영 상태·정책 점검·심사 제출/결과 | RELEASE/CONTENT/EVIDENCE, 계정 본인정보 입력 |
 
-독립적으로 진행 가능한 작업은 파일 범위를 나눠 병행하고, ID/스키마/배포 연결은 한 조정자가 일관되게 통합한다. 다음 실제 구현은 identity baseline과 원본 staging 어댑터다. 디자인·페이지 수를 늘리기 전에 이관 회귀를 고정한다. 기간·승인 시점은 예측값을 사실로 기록하지 않는다.
+독립적으로 진행 가능한 작업은 파일 범위를 나눠 병행하고, ID/스키마/배포 연결은 한 조정자가 일관되게 통합한다. identity baseline·staging·호환 어댑터와 Astro 앱 미리보기를 구현했다. 다음 실제 작업은 공식 근거에 따른 번호 정정과 운영 전환 게이트다. 기간·승인 시점은 예측값을 사실로 기록하지 않는다.
 
 GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 방법, 의존 Issue, 상태, 증거/PR 링크를 기입한다. 추후 장애·권한 변경은 operations/status.md에 남기고 독립 작업을 계속한다.
 
@@ -25,3 +25,10 @@ GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 �
 - [jpoptoday#3 원본 staging·영속 ID/URL/storage](https://github.com/jpop-today/jpoptoday/issues/3): foundation 이후 첫 구현. 현재 열린 작업이며 source 운영 SHA/근거 보강을 포함한다.
 
 그 외 표의 키는 계획 식별자로, 실제 Issue를 생성한 것으로 표시하지 않는다.
+
+## 앱 미리보기 이후
+
+- [jpoptoday#5 Astro 앱](https://github.com/jpop-today/jpoptoday/issues/5), [PR#7](https://github.com/jpop-today/jpoptoday/pull/7): 검색·정적3317 상세·기존 URL/storage·가이드/정책/차트, 로컬122계약/8Chromium·artifact 확인. CI·실제 preview·복구의 최신 상태는 릴리스 기록에서 확인한다.
+- [jpoptoday#6 공식 번호 정정](https://github.com/jpop-today/jpoptoday/issues/6): 공식11그룹/23ID 대조에 따른 별도 correction ledger와 reviewed overlay. 현재 관측/staging을 보존하며 전체 검증 완료로 확대하지 않는다.
+- 운영 전환: 내용·권리·문의·개인정보·차트 갱신 소유권과 동일 SHA CI/preview/복구 게이트, 기존 todayjpop 도메인/source 연결 확인. 새 앱의 검색·개인화 색인 정책과 reviewed 상세/가이드 sitemap을 별도 결정한다.
+- AdSense: 공식 정책 조사 이후 실제 계정 상태·소유권·광고/CMP·Google 심사 제출·결과가 필요하다. noindex 관측 preview를 신청 사이트로 사용하지 않는다.
