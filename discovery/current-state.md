@@ -22,7 +22,7 @@
 
 `main`과 `dev`의 공통 조상은 `9de0d75f65fdf365f5498a3b2cf7c62f2abd094a`이며, 해당 시점 이후 `main`에만 2개, `dev`에만 33개 커밋이 있다. 두 HEAD의 내용 차이는 11개 파일의 차트 스냅샷 및 생성 HTML/JS다. 앱 로직·TSV·가이드 원본·설정·빌드·테스트는 동일하다. 브랜치 이력은 서로 갈라져 있으므로 단순 fast-forward 관계로 설명하면 안 된다.
 
-운영 배포 브랜치, 배포된 SHA, Cloudflare 프로젝트 ID, 현재 build/output 설정은 확인되지 않았다. 최신 `dev`가 운영 사이트에 배포되었다고 가정하지 않는다.
+이후 사용자 CF binding 입력으로 실제 Pages API에서 프로젝트todayjpop, production dev, 배포SHA6dbe5a65d1bd729c09393f746f715f4363089a43, npm run build/dist를 확인했다([기준선](../operations/cloudflare-baseline.md)). 현재 deployment가 조사dev와 같다는 사실을 이제 API 증거로 연결할 수 있다.
 
 ## 앱 구조
 

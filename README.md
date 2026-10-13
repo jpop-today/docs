@@ -11,7 +11,8 @@
 5. [작업 계획](operations/roadmap.md), [협업 규칙](operations/collaboration.md)
 6. [원본 이관](operations/migration.md), [배포·복구](operations/deployment.md)
 7. [콘텐츠 기준](content/editorial-policy.md), [AdSense 준비](operations/adsense.md)
-8. [실행 상태](operations/status.md), [환경 복구](operations/environment-recovery.md)
+8. [원본 staging](data/legacy-staging.md), [호환 어댑터](engineering/legacy-compatibility.md), [Cloudflare 기준선](operations/cloudflare-baseline.md)
+9. [실행 상태](operations/status.md), [환경 복구](operations/environment-recovery.md)
 
 ## 저장소 역할
 

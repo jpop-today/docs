@@ -52,4 +52,4 @@
 
 ## 결정과 미확인 사항
 
-정적 Cloudflare 배포를 유지하고 콘텐츠·데이터·UI를 분리한다([ADR-001](../adr/001-static-architecture.md)). ID는 편집값과 분리한다([ADR-002](../adr/002-stable-identity.md)). 권리·출처 증거를 별도 관리한다([ADR-003](../adr/003-evidence-and-publication.md)). 실제 Cloudflare 프로젝트·운영 branch/SHA, AdSense 계정 상태, 자료 권한은 확인 전까지 unknown이다.
+정적 Cloudflare 배포를 유지하고 콘텐츠·데이터·UI를 분리한다([ADR-001](../adr/001-static-architecture.md)). ID는 편집값과 분리한다([ADR-002](../adr/002-stable-identity.md)). 권리·출처 증거를 별도 관리한다([ADR-003](../adr/003-evidence-and-publication.md)). Cloudflare 운영 프로젝트·branch/SHA는 [실제 기준선](../operations/cloudflare-baseline.md)으로 확인했다. AdSense 계정 상태·자료 권한·새 앱 deployment와 rollback 실행은 확인 전까지 unknown이다.
