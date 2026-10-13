@@ -55,6 +55,6 @@
 - 실제 staging3,317 ID: playlist3,299/current chart-only14/archived4, 번호는 관측 상태·evidence:null. 인용 처리3제목은 표시만 교정하고 ID를 유지했다. exact Git 객체와 --check 일치.
 - 브라우저 ESM ID/URL/favorites/recent-filter adapter: old URL과 storage key 유지, unknown·손상·quota·backup·rollback/동시 변경 진단. 실제 baseline ID3317 roundtrip.
 - whole-catalog 후보는 기존ID 누락/확인 상태 unknown퇴행에서 이전 정상 snapshot을 보존한다.
-- 최종 로컬119테스트 통과·실패/skip0(Node24.19), Chromium adapter 런타임17 assertions/pageerror0. CI와 PR 연결은 후속 전달 기록을 기준으로 확인한다.
+- 최종 로컬119테스트 통과·실패/skip0(Node24.19), Chromium adapter 런타임17 assertions/pageerror0. 소스 [PR#4](https://github.com/jpop-today/jpoptoday/pull/4), docs [PR#4](https://github.com/jpop-today/docs/pull/4)로 전달했다. CI/병합의 최종 상태·SHA는 각 PR 링크의 실제 상태를 기준으로 확인한다.
 
 이것은 importer와 라이브러리 구현이며 앱 UI·공개 read model·운영 전환을 완료하지 않았다. 공유번호11그룹 공식 곡/버전 대조, 행별 출처·권리 보강, 새 UI 연결과 preview는 남아 있어 Issue#3를 완료로 닫지 않는다.
