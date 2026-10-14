@@ -6,12 +6,26 @@
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
   "enabled": true,
   "registeredAt": "2026-10-13T06:17:18.885914+00:00",
-  "observedAt": "2026-10-14T00:04:00Z",
+  "observedAt": "2026-10-14T05:59:00Z",
   "lastRunTime": "2026-10-13T23:58:56.467334+00:00",
   "nextRunTime": null,
   "firstRunObserved": true,
   "disable": "Codex automation settings or supported automations_update(is_enabled=false)",
   "githubMorningCron": "0 0 * * *",
   "boundary": "예약 등록 성공이며 24시간 세션 지속·실제 첫 실행·정시 실행 보장이 아니다.",
-  "firstRunEvidence": "automations_peek last_run_time, 같은 채팅의 예약 실행 prompt, cloud current/running·GitHub read·신규3명spawn 확인"
+  "firstRunEvidence": "automations_peek last_run_time, 같은 채팅의 예약 실행 prompt, cloud current/running·GitHub read·신규3명spawn 확인",
+  "resumeAutomation": {
+    "automationId": "6acf109ec1808191b09a2414e2de80af",
+    "title": "jpop.today 개발 재개",
+    "enabled": true,
+    "timezone": "Asia/Seoul",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "registeredAt": "2026-10-14T05:18:22.991454Z",
+    "lastRunTime": "2026-10-14T05:57:43.866424+00:00",
+    "nextRunTime": null,
+    "firstRunObserved": true,
+    "purpose": "미완료 작업 재개 점검, 진행중 중복skip, 변화없음quiet",
+    "boundary": "예약15:00KST 기준이며첫실제관측14:57:43KST. 정시/즉시token-reset/24시간성공보장이아님.",
+    "firstRunEvidence": "automations_peek actual last_run_time + 같은채팅전달prompt; 기존rootactive이므로중복worker/Git/deploy없이작업지속"
+  }
 }

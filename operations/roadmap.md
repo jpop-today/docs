@@ -1,6 +1,6 @@
 # 실행 계획과 작업 큐
 
-2026-10-13 · 상태 구분: planned / in_progress / blocked / verified / merged / shipped. AdSense는 별도 unknown / preparing / submitted / approved / rejected로 기록한다. 실제 Issue 생성 전에는 아래 키가 작업 식별자이며 GitHub Issue 번호로 쓰지 않는다.
+2026-10-14 · 상태 구분: planned / in_progress / blocked / verified / merged / shipped. AdSense는 별도 unknown / preparing / submitted / approved / rejected로 기록한다. 실제 Issue 생성 전에는 아래 키가 작업 식별자이며 GitHub Issue 번호로 쓰지 않는다.
 
 | 우선 | 키/스펙 | 범위와 산출물 | 의존/완료 기준 |
 | --- | --- | --- | --- |
@@ -36,3 +36,14 @@ GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 �
 ## 매일09시 실행
 
 [jpoptoday#9](https://github.com/jpop-today/jpoptoday/issues/9): 실제 Codex 일일예약 등록, source Discord 보고·오전cron·버전릴리스, 원본그라데이션 복원, 새3명·총6개동료리뷰·교체 이력을 [일일기록](daily/2026-10-13.md)에 남긴다. 다음날 우선목표는 Issue#6 correction ledger/reviewed overlay와 운영콘텐츠·색인 게이트다. 새로운 실행은 최신원격기록·CI·release·CF환경부터 재확인한다.
+
+## v0.3.0 이후 실제 우선 작업
+
+[jpoptoday#13](https://github.com/jpop-today/jpoptoday/issues/13)의43근거정정·차트100stableID·기존jpop.today sameSHA전환/실제복구·remote14와v0.3.0은[실행증거](releases/v0.3.0-20261014.md)를기준으로완료한다. 전체카탈로그검증이나AdSense승인은아니다.
+
+1. [jpoptoday#15](https://github.com/jpop-today/jpoptoday/issues/15): origin healthcheck를본문/hash/metadata cache-busting·boundedretry로하네스화하고failed/최종HTTP를구분한다. CF Actionsbindings 미구성 부분을안전한운영자설정경로로인계하며cloud배포·독립개발은계속한다.
+2. Issue#6 자료보강: 아직미검토곡의공식제목/가수/버전별근거를우선순위로대조하고틀린값/판단보류/미확보를구분한다. 튜링러브KY는참번호미확보unknown 유지. 전체등록/권리허락을임의선언하지않는다.
+3. 검토된번호와실제사용흐름을기반으로독창적인곡·가이드/가수비교본문을확대하고정정사례의문서/ledger동기화와모바일사용성을검증한다. 페이지수나변경량을심사보장기준으로쓰지않는다.
+4. Google계정실제상태·소유권과Search Console/심사증거는operator입력을확인해기록한다. 광고/CMP/ads.txt/계정본인정보/법적동의는실제상태와provider공식절차에맞춰별도준비한다. 무광고운영전환/기술개선을계정unknown 때문에멈추지않는다.
+
+매일09시와매시간재개점검은같은채팅이며실제첫hourly14:57:43KST를확인했다. 다른관리자active일때중복작업하지않는다. 현재실행이끝났다는것과오늘전체개발/최종승인이완료됐다는것을구분한다.

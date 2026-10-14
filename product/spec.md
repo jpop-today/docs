@@ -1,6 +1,6 @@
-# 제품 스펙 v0.3
+# 제품 스펙 v0.4
 
-상태: 구현 기준 v0.3 · 2026-10-13 KST · 최종 책임: 프로젝트 운영자, 일상 구현·검증·배포: 위임된 에이전트.
+상태: 구현 기준 v0.4 · 2026-10-14 KST · 최종 책임: 프로젝트 운영자, 일상 구현·검증·배포: 위임된 에이전트.
 
 ## 목적과 사용자
 
@@ -60,3 +60,9 @@
 ## 결정과 미확인 사항
 
 정적 Cloudflare 배포를 유지하고 콘텐츠·데이터·UI를 분리한다([ADR-001](../adr/001-static-architecture.md)). ID는 편집값과 분리한다([ADR-002](../adr/002-stable-identity.md)). 권리·출처 증거를 별도 관리한다([ADR-003](../adr/003-evidence-and-publication.md)). Cloudflare 운영 프로젝트·branch/SHA는 [실제 기준선](../operations/cloudflare-baseline.md)으로 확인했다. AdSense 계정 상태·자료 권한·새 앱 deployment와 rollback 실행은 확인 전까지 unknown이다.
+
+## 검토 정정·차트·실제 운영
+
+[ADR-006](../adr/006-reviewed-corrections-and-production.md)에따라동결staging을유지하고번호정정근거를별도ledger로적용한다. 원본ID/관측을보존한v2공개모델에서공식확인/관측/unknown과정정이유·공식제목/가수·실제확인일을구분한다. 오류번호는필터·개별/bulkcopy에서제외하고저장ID는유지한다. 차트rawalias는원본identity observation으로seed한canonicalId에고정하며순위바뀜에index join하지않는다. 완전한100곡/날짜/ID/tuple/미래시각과실패보존을검증한다.
+
+preview는모두noindex/광고없음,production은홈·검토가이드/안내·공식근거가있는현재상세만index하고sitemap과meta를일치시킨다. 나머지상세·검색·저장·호환·404는noindex다. 기존todayjpop도메인origin유지와개인Git자동배포가역중지·orgartifact배포·실제복구/HTTP/브라우저를검증한다. 단순문서/preview완료로실제운영이나AdSense승인을주장하지않는다.

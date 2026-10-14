@@ -1,0 +1,79 @@
+{
+  "action": "pause",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": true,
+      "preview_deployment_setting": "all",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "3f622896-f6c3-4cb0-b39d-b6b9678d6d0c",
+      "url": "https://3f622896.todayjpop.pages.dev",
+      "created_on": "2026-10-13T10:26:49.817818Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-10-13T10:27:01.444991Z",
+        "ended_on": "2026-10-13T10:27:06.836274Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "github:push",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "94d615f5e355f4b00ebbb824547ac6dfa034ad18",
+          "commit_message": "Update static JPOP data",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "3f622896-f6c3-4cb0-b39d-b6b9678d6d0c",
+      "url": "https://3f622896.todayjpop.pages.dev",
+      "created_on": "2026-10-13T10:26:49.817818Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-10-13T10:27:01.444991Z",
+        "ended_on": "2026-10-13T10:27:06.836274Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "github:push",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "94d615f5e355f4b00ebbb824547ac6dfa034ad18",
+          "commit_message": "Update static JPOP data",
+          "commit_dirty": false
+        }
+      }
+    }
+  }
+}

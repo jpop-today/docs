@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-14T05:26:50.855Z",
+  "target": "production",
+  "cases": [
+    {
+      "name": "private-report",
+      "result": "rejected"
+    },
+    {
+      "name": "unreviewed-index",
+      "result": "rejected"
+    },
+    {
+      "name": "extra-sitemap",
+      "result": "rejected"
+    },
+    {
+      "name": "false-confirmation",
+      "result": "rejected"
+    },
+    {
+      "name": "ad-payload",
+      "result": "rejected"
+    }
+  ]
+}
