@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "scope": "Report-only PR21 and main R checks; product M remains served/tagged. Complete status read from connected GitHub API.",
+  "sourceReportSha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+  "productSha": "fc54989e0540cdb5863388abd46660359da226a6",
+  "pr": {
+    "number": 21,
+    "headSha": "7437c76e8a147b04d051e61a8ba318ac2f5d9cbe",
+    "pushApp": 38653695110,
+    "pushContracts": 38653695101,
+    "prApp": 38653739634,
+    "prContracts": 38653739695,
+    "allChecksSuccess": true
+  },
+  "mainChecks": [
+    {
+      "name": "notify",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38654057055/job/116159492742"
+    },
+    {
+      "name": "notify",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653964082/job/116159184974"
+    },
+    {
+      "name": "notify",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653962628/job/116159175107"
+    },
+    {
+      "name": "production-artifact",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653928549/job/116159067652"
+    },
+    {
+      "name": "contracts",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653928554/job/116159067509"
+    },
+    {
+      "name": "app",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653928549/job/116159067401"
+    }
+  ],
+  "appDiffExcludingReports": [],
+  "verification": {
+    "reportDiscordUnit": 25,
+    "completeSchema": true,
+    "discordPayload": true,
+    "nextMorning": true,
+    "realPeerReviewCalculation": true
+  },
+  "boundary": "No extra product release or deployment; notify success status alone is not used as proof of delivery, actual completed sent line is recorded separately."
+}

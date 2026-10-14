@@ -3,7 +3,7 @@
   "runId": "resume-20261015-0300",
   "date": "2026-10-15",
   "timezone": "Asia/Seoul",
-  "phase": "product_complete_publication_pending",
+  "phase": "complete",
   "recordedAt": "2026-10-14T18:04:25+00:00",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/6",
   "spec": [
@@ -179,8 +179,25 @@
       "workflowRun": 38652398351
     },
     "completed": {
-      "state": "pending_saved_report_publication",
-      "reportDate": "2026-10-15"
+      "id": 38653964082,
+      "name": "discord-report",
+      "head_sha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653964082",
+      "created_at": "2026-10-14T23:25:15Z",
+      "sentAt": "2026-10-14T23:25:22.0534706Z",
+      "attempts": 1,
+      "state": "sent",
+      "checkedAt": "2026-10-14T23:25:54.608408+00:00",
+      "reportDate": "2026-10-15",
+      "workflow": "discord.yml",
+      "mode": "completed",
+      "sourcePR": "https://github.com/jpop-today/jpoptoday/pull/21",
+      "sourceReportSha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+      "reportPath": "reports/daily/2026-10-15.json",
+      "productSha": "fc54989e0540cdb5863388abd46660359da226a6",
+      "scope": "Actual selected sender success line; secret only Actions binding, no secret value or raw log retained"
     }
   },
   "resumedAt": "2026-10-14T23:02:03.238130+00:00",
@@ -244,13 +261,13 @@
   "ciEvidence": "resume-20261015-0300-ci.json",
   "productCompletedAt": "2026-10-14T23:11:23Z",
   "remaining": [
-    "Issue6 safe metadata-only provider review harness and further unreviewed evidence",
+    "Issue20 metadata-only provider review harness; Issue6 further unreviewed evidence",
     "Original reviewed song/artist comparison content with actual sources, no guessed audio/difficulty/rights",
     "Issue15 Actions CF binding operator setup and actual automated deployment; managed cloud deployment available",
     "Google actual account/ownership/application/review unknown; operator identity/legal consent",
     "Full metadata redistribution rights and actual contact handling not yet established"
   ],
-  "updatedAt": "2026-10-14T23:20:31.781609+00:00",
+  "updatedAt": "2026-10-14T23:26:37.562865+00:00",
   "finalEnvironmentRecheck": {
     "revision": "166",
     "observationsCurrent": true,
@@ -259,5 +276,24 @@
     "networkEnforced": true,
     "cloudflareBindingsReady": true,
     "observedByManagerAt": "2026-10-14T23:20:31.781609+00:00"
+  },
+  "publication": {
+    "docsPR": 10,
+    "docsMergeSha": "d2c713ba7dd68662bf4bb4b0266db92dd32c0673",
+    "sourceReport": {
+      "pr": "https://github.com/jpop-today/jpoptoday/pull/21",
+      "headSha": "7437c76e8a147b04d051e61a8ba318ac2f5d9cbe",
+      "mergeSha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+      "productTreeEqualsReleaseExcludingReports": true,
+      "scope": "git diff productM..reportR contains only reports/daily/2026-10-15.json; committed source report remains historical pre-dispatch snapshot, docs receipt is actual post-dispatch state"
+    },
+    "deliveryReceipt": "resume-20261015-0300-completed-discord.json",
+    "finalHTTP": "resume-20261015-0300-final-http.json",
+    "followupIssue": "https://github.com/jpop-today/jpoptoday/issues/20",
+    "nativePRAttachments": "docs10/source21 attempted; each timeout5s/unconfirmed. Ordinary GitHub PR links remain available",
+    "reportCI": "resume-20261015-0300-report-ci.json",
+    "reportMainApp": 38653928549,
+    "reportMainContracts": 38653928554,
+    "reportChecksState": "success"
   }
 }
