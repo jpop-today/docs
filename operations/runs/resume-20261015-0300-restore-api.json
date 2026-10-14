@@ -1,0 +1,79 @@
+{
+  "action": "rollback",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "693b37f6-dcb2-476a-aa8c-45869df45b8f",
+      "url": "https://693b37f6.todayjpop.pages.dev",
+      "created_on": "2026-10-14T11:52:34.417835Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-14T11:52:36.610433Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+          "commit_message": "Merge pull request #17 from jpop-today/codex/15-deployment-healthcheck-20261014\r\n\r\n공식 확인 번호 탐색·실사례 가이드·배포 응답 검증 강화",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "257762e0-8c20-456d-8c36-2e86f9dc3a89",
+      "url": "https://257762e0.todayjpop.pages.dev",
+      "created_on": "2026-10-14T23:03:23.105795Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-14T23:03:24.50734Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "fc54989e0540cdb5863388abd46660359da226a6",
+          "commit_message": "Merge pull request #19 from jpop-today/codex/6-reviewed-discovery-20261015\r\n\r\n공식 번호 20개 대조와 가수별 확인곡 탐색",
+          "commit_dirty": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "localServerFailure": {
+    "state": "failed",
+    "code": "EPERM",
+    "host": "127.0.0.1",
+    "port": 4321,
+    "reason": "Default sandbox denied local listen; relaunched own server with permitted additional network access",
+    "firstBrowserRun": "22 failed ERR_CONNECTION_REFUSED; no functional result inferred"
+  },
+  "properFirstPreviewE2E": {
+    "passed": 21,
+    "failed": 1,
+    "durationSeconds": 33.4,
+    "failure": "New JS-off E2E read page.url immediately after Enter before navigation finished",
+    "fixOwner": "/root/resume_0300_quality",
+    "fix": "Playwright awaited exact URL and polled hash; no relaxed expected route"
+  },
+  "finalPreviewE2E": {
+    "passed": 22,
+    "failed": 0,
+    "durationSeconds": 34.3
+  },
+  "scope": "Failures preserved; UI temporary navigation/hash races separately retained; raw HTML/credentials not copied",
+  "productionBrowserPreflight": {
+    "attemptsNotStarted": 2,
+    "reason": "Root QA server child survived terminal CtrlC; port4321 alreadyused. /proc/PID/cwd read denied; identified exact node command/UID1000/start18:12:24Z root-runserver PID57358 and SIGTERM once successfully. No other process touched",
+    "finalFreshServer": "Playwright-managed new server;22PASS28.6s"
+  }
+}

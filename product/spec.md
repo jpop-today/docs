@@ -66,3 +66,9 @@
 [ADR-006](../adr/006-reviewed-corrections-and-production.md)에따라동결staging을유지하고번호정정근거를별도ledger로적용한다. 원본ID/관측을보존한v2공개모델에서공식확인/관측/unknown과정정이유·공식제목/가수·실제확인일을구분한다. 오류번호는필터·개별/bulkcopy에서제외하고저장ID는유지한다. 차트rawalias는원본identity observation으로seed한canonicalId에고정하며순위바뀜에index join하지않는다. 완전한100곡/날짜/ID/tuple/미래시각과실패보존을검증한다.
 
 preview는모두noindex/광고없음,production은홈·검토가이드/안내·공식근거가있는현재상세만index하고sitemap과meta를일치시킨다. 나머지상세·검색·저장·호환·404는noindex다. 기존todayjpop도메인origin유지와개인Git자동배포가역중지·orgartifact배포·실제복구/HTTP/브라우저를검증한다. 단순문서/preview완료로실제운영이나AdSense승인을주장하지않는다.
+
+## 가수별 확인곡 탐색 계약 · Issue6 (2026-10-15)
+
+`/artists/`는 검토 근거가 있는 current/playlist 곡을 관리자료의 `artistOriginal` 정확한 문자열별로 묶는 정적 진입점이다. 별칭·공동명의를 추정해 합치지 않으며 가수 약력/난이도/권리/추천을 생성하지 않는다. 번호는provider-confirmed·공식numeric URL/실제시각·문자열번호·conflict:false인 업체만 표시한다. observed/unknown/archived/chart-only는확인곡으로포장하지않는다. 가수anchor는정확한원문에서결정해재정렬/다른곡추가로바뀌지않으며곡URL·storageID는원본대로다. 개별가수thinpage는만들지않는다.
+
+CONTENT-001/SONG-001/SEO-001/DESIGN-001: 홈/메뉴→가수별확인곡→원문제목·가수·업체근거→기존곡상세와저장. JS-off/360px/키보드 및 preview전체noindex/무광고와production검토경로만색인, trustedprojection의schema/출처검증·비공개자료404·frozenbuild/sameSHA CI/실제복구·origin본문을수용한다. 공식조회실패는관측값을unknown으로일괄변경하지않고마지막정상자료를유지한다. 실제반증이있는경우만ledger suppress하며실조회증거를기록한다.

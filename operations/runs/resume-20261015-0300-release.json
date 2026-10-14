@@ -1,0 +1,23 @@
+{
+  "version": "0.4.0",
+  "tag": "v0.4.0",
+  "sourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+  "annotatedTagSha": "83855a0c03344eb790b159f7a12ba39e905df342",
+  "tagTargetType": "commit",
+  "tagTargetSha": "fc54989e0540cdb5863388abd46660359da226a6",
+  "releaseId": 413261891,
+  "publishedAt": "2026-10-14T23:11:23Z",
+  "draft": false,
+  "prerelease": false,
+  "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.0",
+  "workflowRun": 38652398351,
+  "state": "published",
+  "verifiedAt": "2026-10-14T23:12:42.276289+00:00",
+  "scope": "Connected GitHub Release API and annotated tag object read; publishing is distinct from Google approval",
+  "notification": {
+    "state": "sent",
+    "sentAt": "2026-10-14T23:11:24.2220174Z",
+    "attempts": 1,
+    "workflowRun": 38652398351
+  }
+}
