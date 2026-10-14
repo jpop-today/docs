@@ -32,3 +32,7 @@ GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 �
 - [jpoptoday#6 공식 번호 정정](https://github.com/jpop-today/jpoptoday/issues/6): 공식11그룹/23ID 대조에 따른 별도 correction ledger와 reviewed overlay. 현재 관측/staging을 보존하며 전체 검증 완료로 확대하지 않는다.
 - 운영 전환: 내용·권리·문의·개인정보·차트 갱신 소유권과 동일 SHA CI/preview/복구 게이트, 기존 todayjpop 도메인/source 연결 확인. 새 앱의 검색·개인화 색인 정책과 reviewed 상세/가이드 sitemap을 별도 결정한다.
 - AdSense: 공식 정책 조사 이후 실제 계정 상태·소유권·광고/CMP·Google 심사 제출·결과가 필요하다. noindex 관측 preview를 신청 사이트로 사용하지 않는다.
+
+## 매일09시 실행
+
+[jpoptoday#9](https://github.com/jpop-today/jpoptoday/issues/9): 실제 Codex 일일예약 등록, source Discord 보고·오전cron·버전릴리스, 원본그라데이션 복원, 새3명·총6개동료리뷰·교체 이력을 [일일기록](daily/2026-10-13.md)에 남긴다. 다음날 우선목표는 Issue#6 correction ledger/reviewed overlay와 운영콘텐츠·색인 게이트다. 새로운 실행은 최신원격기록·CI·release·CF환경부터 재확인한다.

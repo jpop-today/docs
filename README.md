@@ -16,6 +16,7 @@
 10. [지속 개발과 세션 재개](operations/continuous-development.md), [공식 AdSense 정책 조사](operations/adsense-policy-review-20261013.md)
 11. [공식 제공사 공유번호 대조](data/provider-evidence-20261013.md), [앱 하네스](engineering/app-harness.md)
 12. [조직 앱 미리보기 릴리스](operations/releases/preview-20261013.md): 최종 SHA·CI·원격 검증·복구·인계
+13. [매일09시 개발·평가·보고](operations/daily-development.md), [원본 그라데이션](engineering/design/legacy-gradient.md), [일일 개발 결정](adr/005-daily-agent-management.md)
 
 ## 저장소 역할
 
@@ -28,3 +29,5 @@
 운영 사이트: https://jpop.today · 원본: https://github.com/kim75503/todayjpop
 
 현재 조직 소스는 Astro 정적 앱·관측 카탈로그·기존 URL/storage 호환 UI와 검증 하네스를 포함한다. 별도 Cloudflare 미리보기와 기존 개인 저장소의 jpop.today 운영 전환을 구분한다. 실제 SHA·CI·배포 상태는 [실행 상태](operations/status.md)와 릴리스 기록으로 확인한다.
+
+최근실행: [2026-10-14 일일결과](operations/daily/2026-10-14.md) · [v0.2.1 릴리스](operations/releases/v0.2.1-20261014.md) · [Discord설정/실제송신](operations/discord-setup.md) · [QA재현](engineering/reproduce-daily-qa.md).
