@@ -1,0 +1,17 @@
+{
+  "mode": "production",
+  "passed": true,
+  "attempts": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-14T05:54:37.890Z",
+      "rootStatus": 200,
+      "rootSha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+      "metadataStatus": 200,
+      "sourceSha": "b0f4a48fadf3c28af5ccb161b6d49ae95c0716e8",
+      "sitemapLocations": 24,
+      "ready": true
+    }
+  ],
+  "transport": "Playwright HTTP only, inherited proxy/CA/TLS verification; immutable original homepage bytes compared; metadata cache-busting query avoids stale diagnostic response after rollback"
+}

@@ -2,11 +2,11 @@
 
 갱신일: 2026-10-14 KST. 문서·검증·원격 전달·병합·운영 배포·AdSense는 각각 기록한다.
 
-## Issue#13 실제 운영 전환 계속 작업
+## Issue#13 실제 운영 전환 완료 · 이후 개발 계속
 
-사용자 지시에 따라 미리보기 릴리스 뒤 종료하지 않고 공식 번호 정정·최신 차트·기존 jpop.today 전환을 진행한다. 오전 한도 중단 후 14:15 KST에 cloud running/current와 남은 diff를 확인해 재개했고 실제 새로운3명·동료6평가·교체를 수행했다. 한도 초기화 자체의 재개 트리거가 없어 같은채팅 매시간 점검을 실제등록했다. 기존09시 예약은 유지하며 새예약 첫실행은 아직미관측이다.
+사용자 지시에 따라 미리보기 릴리스 뒤 종료하지 않고 공식 번호 정정·최신 차트·기존 jpop.today 전환을 진행한다. 오전 한도 중단 후 14:15 KST에 cloud running/current와 남은 diff를 확인해 재개했고 실제 새로운3명·동료6평가·교체를 수행했다. 한도 초기화 자체의 재개 트리거가 없어 같은채팅 매시간 점검을 실제등록했다. 기존09시 예약은 유지하며 새예약첫실제14:57:43KST를peek/prompt로확인했고현재rootactive라중복수정없이진행했다.
 
-자료43entry/23ID(30confirm/13suppress), 공식28조회, chart100canonical/순위46변경, 두target·sitemap24경로·가이드본문 상태/확인일을 구현했다. 로컬204unit/타입0error0warning/preview14/production14/negativeartifact5 PASS. 개인 todayjpop 자동배포/현재94d는 아직그대로이며 운영전환 완료가 아니다. 소스 [PR#14](https://github.com/jpop-today/jpoptoday/pull/14)의 실제CI/최종preview·운영·복구·원격브라우저를 이어 확인한다. [번호근거](../data/provider-corrections.md), [차트](../data/chart-snapshot.md), [두동료평가](daily/2026-10-14-continuation-reviews.json), [콘텐츠 게이트](production-content-gate-20261014.md)를 참고한다. 후속 배포 확인 후 이 항목을 실제결과로 갱신한다.
+자료43entry/23ID(30confirm/13suppress), 공식28조회, chart100canonical/순위46변경, 두target·sitemap24경로·가이드본문 상태/확인일을 구현했다. 로컬204unit/타입0error0warning/preview14/production14/negativeartifact5 PASS. 실제todayjpop/jpop.today에조직b0f4SHA를managedbinding으로배포했고개인Git자동production/preview를false/none으로중지했다. Git source metadata는개인repo에남지만실제운영artifact는조직소스다. 원본복구→새버전복원과실제HTTP를확인했으며productionremote14/Release0.3.0실제게시를확인했으며최종결과는릴리스기록을따른다. 소스 [PR#14](https://github.com/jpop-today/jpoptoday/pull/14)의실제CI/preview·운영·복구·원격14와v0.3.0이확인됐다. [후속#15](https://github.com/jpop-today/jpoptoday/issues/15)와전체자료·콘텐츠·Google계정단계를계속한다. [번호근거](../data/provider-corrections.md), [차트](../data/chart-snapshot.md), [두동료평가](daily/2026-10-14-continuation-reviews.json), [콘텐츠 게이트](production-content-gate-20261014.md)를 참고한다. [운영릴리스증거](releases/v0.3.0-20261014.md)에서actualsameSHA·pipeline skip과managed배포·실제원본복구의경계를확인한다.
 
 ## 2026-10-14 최신 완료
 

@@ -99,6 +99,6 @@ GitHub Actions의 테스트·빌드·배포 workflow와 에이전트 개발 실�
 
 ## 2026-10-14 실제 한도 중단과 자동 재개 보완
 
-오전 Issue#13 변경 중 실행이 중단됐다. 14:15 KST 재개 때 cloud running/current(관측 revision72), 이전미커밋diff와43entry ledger/최신차트 파일은 남아있었지만 이전 실행process와worker는 살아있지 않았다. 09시 자동화peek는enabled/lastRun08:58:56KST이며 토큰초기화재개트리거는없었다. 같은채팅에 `jpop.today 개발 재개` 자동화를 실제생성해매시정각미완료작업을점검하도록했다. 처음 예정시각은15:00KST이고생성후last/nextRun은null이라첫실행은아직관측하지않았다. 기존매일09시예약은유지한다. [실제설정](automation.json)을참고한다.
+오전 Issue#13 변경 중 실행이 중단됐다. 14:15 KST 재개 때 cloud running/current(관측 revision72), 이전미커밋diff와43entry ledger/최신차트 파일은 남아있었지만 이전tool session ID는재개할수없었고협업목록은root만보였다. 이전preview childserver22204는별도로살아있어root가확인후종료했으며서버재사용을차단했다. 09시 자동화peek는enabled/lastRun08:58:56KST이며 토큰초기화재개트리거는없었다. 같은채팅에 `jpop.today 개발 재개` 자동화를 실제생성해매시정각미완료작업을점검하도록했다. 처음 예정시각은15:00KST이고생성당시last/nextRun은null이었다. 후속peek와같은채팅전달prompt로첫실제실행14:57:43KST를확인했다. root가이미작업중이라중복worker/Git/deploy없이기존진행을이어갔다. 예약15:00기준과실제관측시각을구분한다. 기존매일09시예약은유지한다. [실제설정](automation.json)을참고한다.
 
 매시간점검은지원최고빈도이며한도초기화이벤트를직접감지하는worker가아니다. 다른관리자가작업중일때공용file/Git/deploy중복수정과새worker를skip하고, 실제미완료독립작업을시작할때새3명을배정한다. 무변화에는메시지를반복하지않으며완료·실패·주요변화·필요입력을알린다. 도구에실행권한/환경이없으면그단계만blocked로남기고GitHub읽기/문서/다음독립작업을계속한다. 생성성공을매시간실행성공이나24시간세션으로설명하지않는다.
