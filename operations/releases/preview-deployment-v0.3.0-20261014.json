@@ -1,0 +1,10 @@
+{
+  "project": "jpoptoday-preview",
+  "deploymentId": "5011a963-955b-48bd-98b3-ed859bc2766f",
+  "url": "https://5011a963.jpoptoday-preview.pages.dev",
+  "createdOn": "2026-10-14T05:36:24.844199Z",
+  "stage": "success",
+  "sourceSha": "b0f4a48fadf3c28af5ccb161b6d49ae95c0716e8",
+  "branch": "main",
+  "dirty": false
+}
