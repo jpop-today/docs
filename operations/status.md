@@ -1,6 +1,16 @@
 # 실행 상태
 
-갱신일: 2026-10-13 KST. 문서·검증·원격 전달·병합·운영 배포·AdSense는 각각 기록한다.
+갱신일: 2026-10-14 KST. 문서·검증·원격 전달·병합·운영 배포·AdSense는 각각 기록한다.
+
+## 2026-10-14 최신 완료
+
+실제 첫 Codex 예약 실행·새3명·6개 동료평가 및 교체, GitHubActions Discord 관리자/릴리스 실제sent, v0.2.0/v0.2.1 게시와 같은source CI/Cloudflare/remote10PASS를 확인했다. 최신0.2.1 source d040daa0627d32e35f5a9238be174f8a483617d9, preview https://12a43fb9.jpoptoday-preview.pages.dev (deployment12a43fb9-4dab-4041-9685-21a9d0d3dac2), unit148/브라우저10/check0error0warning/artifact3333HTML3340files. 보고스키마P2·faviconP3를 실제발견/수정했고공식2그룹4ID 근거를 재확인했다. [일일결과](daily/2026-10-14.md), [0.2.1릴리스](releases/v0.2.1-20261014.md)가 최신인계다. 실제jpop.today개인운영·AdSense계정unknown·전체번호정정/운영전환은별도다.
+
+## Issue#9 · 2026-10-13 구성 기록
+
+현재 작업은 [jpoptoday#9](https://github.com/jpop-today/jpoptoday/issues/9)이며 source/docs base6cbdcc3/5c3faaca, feature codex/daily-development-20261013이다. Codex 매일09시 Asia/Seoul 예약을 실제 생성·활성 확인했고 첫 예약일은2026-10-14다. 최초 실행과 정시 실행은 아직 관측하지 않았다. 새 세 담당의 파일 계약, 두 동료의 실제 평가와 교체·릴리스·보고 결과는 [일일 기록](daily/2026-10-13.md)과 [운영 기준](daily-development.md)에 남긴다. 아래 Issue#5의 예약없음/private 등은 당시 조사 이력이다.
+
+조직 .github는 현재 API public 확인, [PR#4](https://github.com/jpop-today/.github/pull/4) 병합b7aad18로 profile/README.md를 추가했다. 실제 조직홈HTTP200·한국어소개 표시를 확인했다. 0.2.0 후보는 원본그라데이션 복원·Discord송신/오전보고·검증된태그릴리스 구성이다. 전체146로컬unit·Astro0error/0warning·artifact3333HTML3340files·Chromium10 PASS. 원격CI/릴리스/새preview의 최종 결과는 일일기록에서 확인한다. Discord secret 미설정으로 explicit skipped이며 라이브전송은 미실행이다. 기존jpop.today 운영은 개인원본 기준선, AdSense 실제계정 상태는unknown이다.
 
 ## 위임과 현재 단계
 

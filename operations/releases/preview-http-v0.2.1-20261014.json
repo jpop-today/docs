@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-14T00:16:55.339Z",
+  "url": "https://12a43fb9.jpoptoday-preview.pages.dev",
+  "sourceSha": "d040daa0627d32e35f5a9238be174f8a483617d9",
+  "dirty": false,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/favorites/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/build-info.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/catalog.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/data/staging/legacy-catalog.json",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/scripts/build-report.mjs",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/not-found-release-check",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/_astro/Layout.CDZXaj8L.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/_astro/Layout.astro_astro_type_script_index_0_lang.E9TecjUa.js",
+      "status": 200,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "transport": "Playwright APIRequestContext with inherited proxy and CA/TLS validation",
+  "scope": "HTTP/artifact; browser runs recorded separately"
+}

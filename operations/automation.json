@@ -1,0 +1,17 @@
+{
+  "provider": "Codex automations",
+  "automationId": "6acdccd99030819180ea1c9d907d9f55",
+  "title": "jpop.today 일일 개발",
+  "timezone": "Asia/Seoul",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+  "enabled": true,
+  "registeredAt": "2026-10-13T06:17:18.885914+00:00",
+  "observedAt": "2026-10-14T00:04:00Z",
+  "lastRunTime": "2026-10-13T23:58:56.467334+00:00",
+  "nextRunTime": null,
+  "firstRunObserved": true,
+  "disable": "Codex automation settings or supported automations_update(is_enabled=false)",
+  "githubMorningCron": "0 0 * * *",
+  "boundary": "예약 등록 성공이며 24시간 세션 지속·실제 첫 실행·정시 실행 보장이 아니다.",
+  "firstRunEvidence": "automations_peek last_run_time, 같은 채팅의 예약 실행 prompt, cloud current/running·GitHub read·신규3명spawn 확인"
+}

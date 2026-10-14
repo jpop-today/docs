@@ -1,5 +1,11 @@
 # Cloudflare 운영 배포 기준선
 
+## 2026-10-14 재조회 · 최신 운영
+
+09시실행에서 실제API GET을 다시 확인했다. todayjpop은 개인kim75503/todayjpop·dev·jpop.today active이며 새조직 연결이 아니다. 현재canonical deployment는3f622896-f6c3-4cb0-b39d-b6b9678d6d0c, source94d615f5e355f4b00ebbb824547ac6dfa034ad18, 생성2026-10-13T10:26:49.817818Z, success다. 초기6dbe기준선 이후 자동정적데이터 갱신1커밋 `Update static JPOP data`를GitHub compare로확인했다. 변경은chart.raw/json·js/chart.js와차트/메타/생성HTML11파일이며playlist/raw/merged/IDbaseline은compare변경목록에없다. 고정94d의chart.raw100곡을6d원본100곡과직접대조해ID추가0/삭제0을확인했다. chart period/rank 등snapshot변화는다음갱신전에대조해야한다. 원문가사/이미지는복사하지않았다. 아래6dbe표는초기관측이력이다.
+
+신규조직preview는별도jpoptoday-preview·source d040daa0627d32e35f5a9238be174f8a483617d9·deployment12a43fb9-4dab-4041-9685-21a9d0d3dac2·https://12a43fb9.jpoptoday-preview.pages.dev 로확인했다. 커스텀도메인없음/directupload이며Cloudflare내부productionlabel은기존jpop.today전환이아니다. 상세CI/HTTP/릴리스는 [0.2.1기록](releases/v0.2.1-20261014.md)을따른다. 토큰·AccountID값은기록하지않았다.
+
 2026-10-13 KST · Issue [jpoptoday#3](https://github.com/jpop-today/jpoptoday/issues/3) · SRC-001, RELEASE-001.
 
 사용자가 환경 설정에 두 항목을 입력한 뒤 같은 머신의 변수가 존재하고 실제 Pages API GET이 성공했다. secret readiness telemetry는 unknown이지만 특정 프로젝트 읽기 요청은 성공한 관찰로 기록한다. 토큰·Account ID 값은 출력/저장하지 않았다. 검증 중 운영 프로젝트 변경·배포·rollback은 실행하지 않았다.
