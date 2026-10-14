@@ -1,0 +1,133 @@
+{
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/13",
+  "baseSourceSha": "9d8cfb716e3ab5194e6711d19ec2b10a297089ad",
+  "recordedAt": "2026-10-14T05:30:09.972Z",
+  "workers": [
+    "/root/resume_20261014_evidence",
+    "/root/resume_20261014_ui",
+    "/root/resume_20261014_harness"
+  ],
+  "reviews": [
+    {
+      "reviewer": "/root/resume_20261014_evidence",
+      "candidate": "/root/resume_20261014_harness",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "고정 observation/canonicalId, 두 순위 갱신과 부분·미래·쓰기 실패 보존을 독립 확인. 구현 결함 없음.",
+      "evidence": [
+        "chart45+correction8+publication3, 지원 추가권한 실제56/56 PASS",
+        "실제 snapshot100행 재적용 동일·raw/staging hash 불변",
+        "contracts/provider-corrections.mjs 및 docs/data/chart-snapshot.md 읽기"
+      ]
+    },
+    {
+      "reviewer": "/root/resume_20261014_evidence",
+      "candidate": "/root/resume_20261014_ui",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "정정 번호가 상세·검색·저장·bulkcopy에서 되살아나지 않는 행동과 원본 브랜드/색인 부정 사례를 검증. PNG5장을 직접 읽고 실제와 미실행 production 경계를 확인.",
+      "evidence": [
+        "fresh local preview14/14 PASS15.0s 인계",
+        "publication3 포함56/56 독립PASS",
+        "e2e/app.spec.ts 및 engineering/production-ui-20261014.md, screenshot5장 직접열람"
+      ]
+    },
+    {
+      "reviewer": "/root/resume_20261014_harness",
+      "candidate": "/root/resume_20261014_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "43entry·23ID·28URL 원본 binding/공식근거·시각 일관. 다른곡5와정체성보류8을 구분하며 unknown을미수록으로추정않음. 수동 ledger/문서43행 중복 동기화가 유지보수 한계.",
+      "evidence": [
+        "실제 validator43/apply3317 PASS·confirm30/suppress13",
+        "동일URL의제목/가수/checkedAt/hash 일치 assertion PASS",
+        "provider-corrections.md 공식28응답14:17~14:18KST와권리/기기 한계"
+      ]
+    },
+    {
+      "reviewer": "/root/resume_20261014_harness",
+      "candidate": "/root/resume_20261014_ui",
+      "scores": {
+        "correctness": 5,
+        "evidence": 4,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "핵심 사용 행동과 브랜드·색인 계약을 검증. 실제 preview14 PASS 인계를 확인. 첫 ledger 행 선택과 특정 UI selector 의존성 및 당시 원격production 미실행 범위를 기록.",
+      "evidence": [
+        "publication3 직접PASS",
+        "e2e/app.spec.ts correction/favorites/chart/gradient/sitemap 코드읽기",
+        "root freshpreview14/14 통지 및 UI실행문서"
+      ]
+    },
+    {
+      "reviewer": "/root/resume_20261014_ui",
+      "candidate": "/root/resume_20261014_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "30confirm/13suppress를 원본값에 고정하고 버전·언어 판단 보류를unknown으로 보존. 직접 KY공식2샘플 번호/제목/가수/hash 일치. upstream HTML과수동판단의유지비가남음.",
+      "evidence": [
+        "ledger43entry/doc전체읽기·3317ID/확인16ID 검증",
+        "KY40554/51714 직접GET14:26:06/08KST HTTP200·hash一致",
+        "실제preview14PASS 및 근거/억제화면 PNG열람"
+      ]
+    },
+    {
+      "reviewer": "/root/resume_20261014_ui",
+      "candidate": "/root/resume_20261014_harness",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "immutable whitelist 원본·공식URL/date 계약과 baseline canonicalId/순위/실패보존을검증. 원자적I/O/시각/출처/마이그레이션이작은스크립트에모여유지비가남음.",
+      "evidence": [
+        "정정contract/test 및 chart importer/test/doc읽기",
+        "실제100canonical validateChartSnapshot PASS",
+        "실제apply3317ID/내부hash미공개 PASS와브라우저차트1/20/50/100링크"
+      ]
+    }
+  ],
+  "totals": {
+    "/root/resume_20261014_evidence": 38,
+    "/root/resume_20261014_ui": 38,
+    "/root/resume_20261014_harness": 39
+  },
+  "lowest": [
+    "/root/resume_20261014_evidence",
+    "/root/resume_20261014_ui"
+  ],
+  "maximum": 40,
+  "source": "세 실제 agent의 읽기 평가 메시지. worker/candidate 키와 /root 접두만 정규화; reason/evidence는 메시지 요약이며 점수는 원본 그대로.",
+  "manager": {
+    "confirmed": "204 unit, 0 check errors/warnings, preview14/production14, artifact5 negative PASS",
+    "lowestChosen": "/root/resume_20261014_ui",
+    "tieReason": "evidence와UI 총점38동률. 사전규칙 correctness합10동률→evidence합 UI9/evidence10이므로UI선택. 완전동률fallback 불필요.",
+    "rootFailure": "이전preview server22204(00:04시작)의고정header로production1test실패. root확인후해당자기서버SIGTERM·reuseExistingServer:false와freshproduction14PASS. UI worker결함으로집계하지않음.",
+    "retiredPhysicalDeletion": false,
+    "replacement": "/root/replacement_20261014_production_gate",
+    "activeRoster": [
+      "/root/resume_20261014_evidence",
+      "/root/resume_20261014_harness",
+      "/root/replacement_20261014_production_gate"
+    ],
+    "interruptPreviousStatus": "completed"
+  }
+}

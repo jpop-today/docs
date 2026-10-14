@@ -2,6 +2,12 @@
 
 갱신일: 2026-10-14 KST. 문서·검증·원격 전달·병합·운영 배포·AdSense는 각각 기록한다.
 
+## Issue#13 실제 운영 전환 계속 작업
+
+사용자 지시에 따라 미리보기 릴리스 뒤 종료하지 않고 공식 번호 정정·최신 차트·기존 jpop.today 전환을 진행한다. 오전 한도 중단 후 14:15 KST에 cloud running/current와 남은 diff를 확인해 재개했고 실제 새로운3명·동료6평가·교체를 수행했다. 한도 초기화 자체의 재개 트리거가 없어 같은채팅 매시간 점검을 실제등록했다. 기존09시 예약은 유지하며 새예약 첫실행은 아직미관측이다.
+
+자료43entry/23ID(30confirm/13suppress), 공식28조회, chart100canonical/순위46변경, 두target·sitemap24경로·가이드본문 상태/확인일을 구현했다. 로컬204unit/타입0error0warning/preview14/production14/negativeartifact5 PASS. 개인 todayjpop 자동배포/현재94d는 아직그대로이며 운영전환 완료가 아니다. 소스 [PR#14](https://github.com/jpop-today/jpoptoday/pull/14)의 실제CI/최종preview·운영·복구·원격브라우저를 이어 확인한다. [번호근거](../data/provider-corrections.md), [차트](../data/chart-snapshot.md), [두동료평가](daily/2026-10-14-continuation-reviews.json), [콘텐츠 게이트](production-content-gate-20261014.md)를 참고한다. 후속 배포 확인 후 이 항목을 실제결과로 갱신한다.
+
 ## 2026-10-14 최신 완료
 
 실제 첫 Codex 예약 실행·새3명·6개 동료평가 및 교체, GitHubActions Discord 관리자/릴리스 실제sent, v0.2.0/v0.2.1 게시와 같은source CI/Cloudflare/remote10PASS를 확인했다. 최신0.2.1 source d040daa0627d32e35f5a9238be174f8a483617d9, preview https://12a43fb9.jpoptoday-preview.pages.dev (deployment12a43fb9-4dab-4041-9685-21a9d0d3dac2), unit148/브라우저10/check0error0warning/artifact3333HTML3340files. 보고스키마P2·faviconP3를 실제발견/수정했고공식2그룹4ID 근거를 재확인했다. [일일결과](daily/2026-10-14.md), [0.2.1릴리스](releases/v0.2.1-20261014.md)가 최신인계다. 실제jpop.today개인운영·AdSense계정unknown·전체번호정정/운영전환은별도다.
