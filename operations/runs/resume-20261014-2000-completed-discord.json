@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261014-2000",
+  "recordedAt": "2026-10-14T17:28:24+00:00",
+  "state": "sent",
+  "workflow": "discord.yml",
+  "mode": "completed",
+  "reportDate": "2026-10-14",
+  "dispatchedAt": "2026-10-14T17:25:47Z",
+  "sentAt": "2026-10-14T17:25:55.1565783Z",
+  "attempts": 1,
+  "workflowRun": 38606569850,
+  "sourceReportSha": "d17b9c8ad555cd97214c67b864a9c263be402186",
+  "productSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+  "sourceReportPR": "https://github.com/jpop-today/jpoptoday/pull/18",
+  "docsPR": "https://github.com/jpop-today/docs/pull/8",
+  "docsPublicationSha": "6eeea94e2ba9c63c43c892a92d0d373230418b20",
+  "sourceReportCI": {
+    "mainApp": 38606488602,
+    "mainContracts": 38606488938,
+    "state": "success"
+  },
+  "verification": "Actual workflow_dispatch completed/success on saved main report; captured log exact sent line only. No raw logs/secrets/URLs copied. Diff M..reportSHA excluding reports is empty. No new product release/deployment.",
+  "nativeAppAttachments": {
+    "source17": "unconfirmed timeout in prior stage",
+    "docs8": "blocked: connection closed before server request answered",
+    "source18": "unconfirmed timeout20seconds; ordinary GitHub links work"
+  },
+  "boundary": "Source report is the pre-dispatch saved snapshot. This receipt and docs daily status record the subsequent actual delivery without recursively publishing report-only changes."
+}
