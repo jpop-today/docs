@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-14T11:47:25.392520+00:00",
+  "sourceSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+  "ciRun": "38558414384",
+  "fullArchiveByteComparison": "blocked",
+  "reason": "GitHub artifact download redirected to blob storage and returned HTTP403. No complete archive fetched.",
+  "loggingIncident": "gh error included temporary signed artifact URL in tool output; omitted from files/comments/reports, future raw download errors must be captured and sanitized. No claim of revocation.",
+  "partialAlternative": "Same-SHA CI verify-dist on both targets + actual remote workflow rebuild/HTTP byte comparison and browser checks; not a complete archive comparison"
+}

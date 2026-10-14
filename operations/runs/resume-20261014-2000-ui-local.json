@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-14T11:15:17.369Z",
+  "sourceSha": "3422391c3f4876cd68e324eeadbb5219fd243959",
+  "dirty": true,
+  "browser": "system Chromium; Browser plugin absent",
+  "results": [
+    {
+      "name": "coverage-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "url": "http://127.0.0.1:4321/coverage/",
+      "title": "관리 목록의 번호 범위 | jpop.today",
+      "h1": "관리 목록의 번호 범위",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "name": "coverage-mobile",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "url": "http://127.0.0.1:4321/coverage/",
+      "title": "관리 목록의 번호 범위 | jpop.today",
+      "h1": "관리 목록의 번호 범위",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "name": "guide-mobile",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "url": "http://127.0.0.1:4321/guides/checking-song-numbers/",
+      "title": "같은 제목의 다른 곡을 피하는 노래방 번호 확인법 | jpop.today",
+      "h1": "같은 제목의 다른 곡을 피하는 노래방 번호 확인법",
+      "overflow": false,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "url": "https://jpop.today",
+  "sourceSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+  "target": "production",
+  "catalogSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+  "ledgerSha256": "0644fc5e74b1d3b456a0fc5d5e939fa55eafee7f238e91d2730bb609e215628f",
+  "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+  "startedAt": "2026-10-14T11:56:06.113Z",
+  "checkedAt": "2026-10-14T11:56:16.979Z",
+  "durationMs": 10867,
+  "limits": {
+    "maxAttempts": 6,
+    "totalTimeoutMs": 120000,
+    "requestTimeoutMs": 10000,
+    "retryDelayMs": 2000,
+    "maxResponseBytes": 4194304
+  },
+  "attempts": [
+    {
+      "number": 1,
+      "startedAt": "2026-10-14T11:56:06.113Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": false,
+          "code": "METADATA_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "METADATA_MISMATCH"
+    },
+    {
+      "number": 2,
+      "startedAt": "2026-10-14T11:56:08.294Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": false,
+          "code": "METADATA_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "METADATA_MISMATCH"
+    },
+    {
+      "number": 3,
+      "startedAt": "2026-10-14T11:56:10.359Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "b59e0454a0ac8096cb7f3297dbaffaf4bf319bc0045eda088ebb42df72ddbf5c",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1773600,
+          "sha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+          "passed": true,
+          "expectedSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12252,
+          "sha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+          "passed": false,
+          "expectedSha256": "bd17ed88398637679ca175a5868d307514737ef35c554e8965cd15ec0dc44f2d",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 4,
+      "startedAt": "2026-10-14T11:56:12.744Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": false,
+          "code": "METADATA_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "METADATA_MISMATCH"
+    },
+    {
+      "number": 5,
+      "startedAt": "2026-10-14T11:56:14.822Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": false,
+          "code": "METADATA_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "METADATA_MISMATCH"
+    },
+    {
+      "number": 6,
+      "startedAt": "2026-10-14T11:56:16.906Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": false,
+          "code": "METADATA_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "METADATA_MISMATCH"
+    }
+  ],
+  "passed": false,
+  "code": "METADATA_MISMATCH",
+  "scope": "Observed HTTP origin and artifact byte consistency; separate CI/content/browser gates; no global CDN or AdSense approval claim"
+}
