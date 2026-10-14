@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-14T11:58:15.375Z",
+  "checks": [
+    {
+      "origin": "https://693b37f6.todayjpop.pages.dev",
+      "status": 200,
+      "sourceSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+      "target": "production",
+      "dirty": false
+    },
+    {
+      "origin": "https://jpop.today",
+      "status": 200,
+      "sourceSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+      "target": "production",
+      "dirty": false
+    }
+  ]
+}

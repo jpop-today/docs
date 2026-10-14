@@ -15,7 +15,7 @@
 | P1 | RELEASE / RELEASE-001,PRIVACY-001 | CI→preview→동일 SHA 운영·복구 | CF 접근, gates·공개 대상·문의/개인정보 검토 |
 | P2 | ADS / ADS-001 | 운영 상태·정책 점검·심사 제출/결과 | RELEASE/CONTENT/EVIDENCE, 계정 본인정보 입력 |
 
-독립적으로 진행 가능한 작업은 파일 범위를 나눠 병행하고, ID/스키마/배포 연결은 한 조정자가 일관되게 통합한다. identity baseline·staging·호환 어댑터와 Astro 앱 미리보기를 구현했다. 다음 실제 작업은 공식 근거에 따른 번호 정정과 운영 전환 게이트다. 기간·승인 시점은 예측값을 사실로 기록하지 않는다.
+독립적으로 진행 가능한 작업은 파일 범위를 나눠 병행하고, ID/스키마/배포 연결은 한 조정자가 일관되게 통합한다. identity baseline·staging·호환 어댑터와 Astro 앱 미리보기를 구현했다. 초기 운영 전환은 v0.3.0에서 완료했고 v0.3.1을 실제 운영에 반영했다. 다음 실제 작업은 아래 미검토 근거·고유 콘텐츠·계정 및 자동배포 후속이다. 기간·승인 시점은 예측값을 사실로 기록하지 않는다.
 
 GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 방법, 의존 Issue, 상태, 증거/PR 링크를 기입한다. 추후 장애·권한 변경은 operations/status.md에 남기고 독립 작업을 계속한다.
 
@@ -37,11 +37,11 @@ GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 �
 
 [jpoptoday#9](https://github.com/jpop-today/jpoptoday/issues/9): 실제 Codex 일일예약 등록, source Discord 보고·오전cron·버전릴리스, 원본그라데이션 복원, 새3명·총6개동료리뷰·교체 이력을 [일일기록](daily/2026-10-13.md)에 남긴다. 다음날 우선목표는 Issue#6 correction ledger/reviewed overlay와 운영콘텐츠·색인 게이트다. 새로운 실행은 최신원격기록·CI·release·CF환경부터 재확인한다.
 
-## v0.3.0 이후 실제 우선 작업
+## v0.3.1 이후 실제 우선 작업
 
 [jpoptoday#13](https://github.com/jpop-today/jpoptoday/issues/13)의43근거정정·차트100stableID·기존jpop.today sameSHA전환/실제복구·remote14와v0.3.0은[실행증거](releases/v0.3.0-20261014.md)를기준으로완료한다. 전체카탈로그검증이나AdSense승인은아니다.
 
-1. [jpoptoday#15](https://github.com/jpop-today/jpoptoday/issues/15): origin healthcheck를본문/hash/metadata cache-busting·boundedretry로하네스화하고failed/최종HTTP를구분한다. CF Actionsbindings 미구성 부분을안전한운영자설정경로로인계하며cloud배포·독립개발은계속한다.
+1. [jpoptoday#15](https://github.com/jpop-today/jpoptoday/issues/15): healthcheck 하네스/70회귀·실제25HTTP·복구/복원·sameM CI/remote19·v0.3.1은 [완료 증거](releases/v0.3.1-20261014.md)를 따른다. 남은 CF Actionsbindings 설정과 실제 자동배포 경로 확인은 안전한 운영자 설정 경로로 인계한다. root managed cloud 배포·독립 개발은 가능하다.
 2. Issue#6 자료보강: 아직미검토곡의공식제목/가수/버전별근거를우선순위로대조하고틀린값/판단보류/미확보를구분한다. 튜링러브KY는참번호미확보unknown 유지. 전체등록/권리허락을임의선언하지않는다.
 3. 검토된번호와실제사용흐름을기반으로독창적인곡·가이드/가수비교본문을확대하고정정사례의문서/ledger동기화와모바일사용성을검증한다. 페이지수나변경량을심사보장기준으로쓰지않는다.
 4. Google계정실제상태·소유권과Search Console/심사증거는operator입력을확인해기록한다. 광고/CMP/ads.txt/계정본인정보/법적동의는실제상태와provider공식절차에맞춰별도준비한다. 무광고운영전환/기술개선을계정unknown 때문에멈추지않는다.

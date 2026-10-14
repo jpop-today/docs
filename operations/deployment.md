@@ -46,3 +46,17 @@ RELEASE-001. 운영 todayjpop의 npm run build/dist/source dev 설정을 Pages A
 6. `python3 scripts/manage-production.py rollback <성공productionID>`는target성공과production환경을읽고APIrollback/canonical일치를확인한다. root는원본복구·새버전복원후HTTP도확인하고증거를남긴다. 필요할때`restore <backup.json>`으로이전Git자동배포설정도복구할수있다. 수집실패는정상snapshot으로돌아가며원본이력을지우지않는다.
 
 [실제 v0.3.0 기록](releases/v0.3.0-20261014.md)의 sourceSha/deployment ID/CI·HTTP·remote·rollback이실행증거다. `_headers`·robots·sitemap은target별로검증하고모든preview는noindex/광고없음이다. production이정상배포되더라도Google계정/법적동의·실제심사통지는별도운영자단계다.
+
+## Issue#15 응답 검증과 Actions 바인딩 인계
+
+[ADR-007](../adr/007-deployment-response-verification.md)에 따라 다음 helper를 같은 target의 **검증된 고정 dist**와 실행한다. `EXPECTED_SOURCE_SHA`는 전체 40자리 SHA, `EXPECTED_TARGET`은 `preview` 또는 `production`이다. 인자는 안전한 HTTPS origin·dist 경로·새 결과 파일이며, 기존 정상 결과를 덮어쓰지 않는다.
+
+```sh
+npm run verify:deployment -- https://jpop.today dist /tmp/jpop-production-healthcheck-new.json
+```
+
+nonce는 진단 metadata에만 붙이고 실제 홈·카탈로그·crawler·대표 상세는 일반 URL에서 검사한다. 실패 시도·최종 상태·시간/크기 상한을 기록하며, 성공한 API rollback 후에도 실제 HTTP를 다시 확인한다. 부분 HTTP 결과를 브라우저·콘텐츠/권리 심사·모든 CDN 위치의 동시 전환 증거로 확대하지 않는다. [하네스 기준](../engineering/deployment-healthcheck-20261014.md)과 [실제 실행 인계](runs/resume-20261014-2000.json)가 상세 결과다.
+
+현재 workflow는 저장소 Actions secrets를 읽는다. 안전한 [GitHub 설정 페이지](https://github.com/jpop-today/jpoptoday/settings/secrets/actions)에서 `CLOUDFLARE_API_TOKEN`과 `CLOUDFLARE_ACCOUNT_ID`를 구성한다. 토큰은 기존 todayjpop이 있는 Cloudflare 계정의 Pages 배포에 필요한 권한으로 발급하고, 값·계정 ID는 채팅·Git·로그에 넣지 않는다. 관리형 클라우드의 readiness/프록시 placeholder를 실제 토큰으로 복사하지 않는다. Environment secrets를 사용하려면 해당 job에 실제 environment를 연결하는 후속 변경과 권한 검증이 필요하며, 설정만 존재한다고 현재 job이 읽는다고 가정하지 않는다.
+
+실제 `production-deploy`의 presence-check 결과와 deploy step을 확인한다. 두 값이 준비되지 않으면 `skipped`이며 전체 job의 success를 운영 배포로 기록하지 않는다. 이 설정이 없어도 관리자는 클라우드 바인딩으로 검증된 artifact를 배포하고 `verify_only=true`로 실제 운영 HTTP·브라우저를 같은 SHA에서 검증할 수 있다. Discord는 기존 notification workflow의 `DISCORD_WEBHOOK_URL` 경로를 유지한다.

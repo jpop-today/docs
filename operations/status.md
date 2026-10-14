@@ -1,6 +1,18 @@
 # 실행 상태
 
-갱신일: 2026-10-14 KST. 문서·검증·원격 전달·병합·운영 배포·AdSense는 각각 기록한다.
+갱신일: 2026-10-15 KST. 제품 v0.3.1 배포·릴리스는10월14일 완료했고 같은 run의 문서·일일보고 발행을 이어 마무리한다. 문서·검증·원격 전달·병합·운영 배포·AdSense를 구분한다.
+
+## Issue#15 · v0.3.1 실제 운영·복구·릴리스 완료
+
+[소스 PR17](https://github.com/jpop-today/jpoptoday/pull/17) merged M `67c7ee094afa9b0734a67bb56052a9b9be30c7a2`의 공식 확인 번호 진입·업체별 범위와10곡18번호 근거 목록·정정사례 자체 가이드·배포 본문 검증 하네스를 실제 운영에 반영했다. 고정 자료/번호문자열/ID/URL/storage와 blue#4f7cff→pink#ff7aa8 및pink/mint/blue는 보존했다. [v0.3.1](https://github.com/jpop-today/jpoptoday/releases/tag/v0.3.1)는10월14일21:05:40KST 실제 published이며 AdSense 승인과 별개다.
+
+현재 기존 todayjpop/jpop.today canonical693b37f6은 조직 M artifact다. 개인 Git source metadata/dev는 보존하고 자동production/preview는false/none이다. 10월15일02:04:57KST 새 [API·HTTP 재확인](runs/resume-20261014-2000-final-http-recheck.json)에서sameM/clean/production·25checks PASS. 로컬274unit/타입0error0warning·두clean target3334HTML3343files(preview0/prod25index)·각Chromium19 PASS 및sameM CI/실제preview/production 원격각19 PASS다.
+
+이전v0.3.0 API+25HTTP 실제복구→새M API+최종25HTTP 실제복원을 실행했다. 첫복원6attempt는METADATA_MISMATCH 및attempt3 BODY_MISMATCH로 실패했고 후속변경관측 뒤새receipt로PASS했다. CF주소/제보query 변환 실패와QA서버port시작 실패, CI archive 다운로드403/전체비교blocked 및오류에일시signedURL노출사건은값없이보존한다. full3343file CI archive 비교성공이나전CDN동시전환을주장하지않는다. [릴리스 증거](releases/v0.3.1-20261014.md), [콘텐츠 게이트](production-content-gate-v031-20261014.md), [ADR007](../adr/007-deployment-response-verification.md)를따른다.
+
+16시 세담당usage-limit 실패는산출물/순위없음으로보존했다.20시독립재개 새3명의 실제6peer모두38/40·항목합동률, 사전UI fallback으로active roster제외/interruptcompleted·신규교체감사 실제완료, 물리삭제없음. content/harness의교체감사최종읽기수용도PASS. [실행JSON](runs/resume-20261014-2000.json), [6평가/교체/추가수용](runs/resume-20261014-2000-reviews.json)을기준으로한다.
+
+중간Discord38556810485 및ReleaseDiscord38561090043 actualsent를확인했다. 최종저장보고Discord는문서/보고병합후전송결과를남긴다. 기존09시·hourly actualpeek enabled, latesthourly10월15일02:02:04KST 확인·일정변경없음. 반복resume는같은root진행에합쳐새팀/Git/배포중복없음. cloud최종revision137 current/running·GitHub읽기성공. ActionsCFbinding미완비는[안전한설정경로](deployment.md)에서별도확인하며verify-only의deployskip을실제자동배포성공으로쓰지않는다. 관리자cloud배포는가능하다. 전체자료권리·문의수신·Google계정/소유권/신청/실제심사는unknown이고다음미검토근거·고유콘텐츠개발을계속한다.
 
 ## Issue#13 실제 운영 전환 완료 · 이후 개발 계속
 
@@ -8,7 +20,7 @@
 
 자료43entry/23ID(30confirm/13suppress), 공식28조회, chart100canonical/순위46변경, 두target·sitemap24경로·가이드본문 상태/확인일을 구현했다. 로컬204unit/타입0error0warning/preview14/production14/negativeartifact5 PASS. 실제todayjpop/jpop.today에조직b0f4SHA를managedbinding으로배포했고개인Git자동production/preview를false/none으로중지했다. Git source metadata는개인repo에남지만실제운영artifact는조직소스다. 원본복구→새버전복원과실제HTTP를확인했으며productionremote14/Release0.3.0실제게시를확인했으며최종결과는릴리스기록을따른다. 소스 [PR#14](https://github.com/jpop-today/jpoptoday/pull/14)의실제CI/preview·운영·복구·원격14와v0.3.0이확인됐다. [후속#15](https://github.com/jpop-today/jpoptoday/issues/15)와전체자료·콘텐츠·Google계정단계를계속한다. [번호근거](../data/provider-corrections.md), [차트](../data/chart-snapshot.md), [두동료평가](daily/2026-10-14-continuation-reviews.json), [콘텐츠 게이트](production-content-gate-20261014.md)를 참고한다. [운영릴리스증거](releases/v0.3.0-20261014.md)에서actualsameSHA·pipeline skip과managed배포·실제원본복구의경계를확인한다.
 
-## 2026-10-14 최신 완료
+## 2026-10-14 오전 이력 · 당시 최신 완료
 
 실제 첫 Codex 예약 실행·새3명·6개 동료평가 및 교체, GitHubActions Discord 관리자/릴리스 실제sent, v0.2.0/v0.2.1 게시와 같은source CI/Cloudflare/remote10PASS를 확인했다. 최신0.2.1 source d040daa0627d32e35f5a9238be174f8a483617d9, preview https://12a43fb9.jpoptoday-preview.pages.dev (deployment12a43fb9-4dab-4041-9685-21a9d0d3dac2), unit148/브라우저10/check0error0warning/artifact3333HTML3340files. 보고스키마P2·faviconP3를 실제발견/수정했고공식2그룹4ID 근거를 재확인했다. [일일결과](daily/2026-10-14.md), [0.2.1릴리스](releases/v0.2.1-20261014.md)가 최신인계다. 실제jpop.today개인운영·AdSense계정unknown·전체번호정정/운영전환은별도다.
 
@@ -18,7 +30,7 @@
 
 조직 .github는 현재 API public 확인, [PR#4](https://github.com/jpop-today/.github/pull/4) 병합b7aad18로 profile/README.md를 추가했다. 실제 조직홈HTTP200·한국어소개 표시를 확인했다. 0.2.0 후보는 원본그라데이션 복원·Discord송신/오전보고·검증된태그릴리스 구성이다. 전체146로컬unit·Astro0error/0warning·artifact3333HTML3340files·Chromium10 PASS. 원격CI/릴리스/새preview의 최종 결과는 일일기록에서 확인한다. Discord secret 미설정으로 explicit skipped이며 라이브전송은 미실행이다. 기존jpop.today 운영은 개인원본 기준선, AdSense 실제계정 상태는unknown이다.
 
-## 위임과 현재 단계
+## 초기 위임과 당시 단계
 
 사용자는 스펙·전체 재설계·수정·검증·배포와 여러 스레드 협업을 위임했다. 일상 작업의 반복 확인 없이 진행한다. FOUNDATION과 staging/호환 어댑터를 이어 Issue#5에서 Astro 앱·실제 브라우저 UI와 별도 Cloudflare 미리보기를 구현했다. 검증된 데이터 정정·콘텐츠 검토·기존 jpop.today 운영 전환과 AdSense 실심사는 다음 단계다. 아래 이전 작업 기록은 조사/구현의 이력이며 최신 상태는 Issue#5와 릴리스 기록을 따른다.
 
@@ -56,7 +68,7 @@
 
 환경 설정 draft에 api.github.com, jpop.today, support.google.com, developers.google.com, api.cloudflare.com, developers.cloudflare.com, www.tjmedia.com을 추가했다. 기존 package-manager preset은 유지했다. draft 저장은 runtime 적용/publish가 아니므로 사용자 환경 설정의 저장·발행 후 해당 요청을 다시 시험해야 한다. 최초 CF accounts 요청은 인증 헤더 부재였다. 이후 사용자가 환경 설정에 입력했고 CLOUDFLARE_API_TOKEN/CLOUDFLARE_ACCOUNT_ID는 현재 머신에 존재한다. 특정 Pages 프로젝트·domain·최근 deployment 읽기가 성공했다. readiness telemetry는 unknown이며 읽기 성공을 배포·DNS 편집 권한 시험으로 확대하지 않는다. 토큰·Account ID 값은 채팅·문서·commit에 기록하지 않는다.
 
-## 다음 실행
+## Foundation 당시 다음 실행 계획
 
 1. Foundation의 세 PR과 실제 CI 결과를 기준으로 다음 구현을 진행한다. source main의 현재 protected=false는 확인했으며 정책 문서 작성이 보호 설정 적용을 뜻하지 않는다.
 2. 운영 CF 프로젝트·SHA는 고정했고 해당 SHA는 기존 baseline에 포함됐다. 직전 성공 deployment를 복구 후보로 조회했으며 rollback 실행/새 앱 전환은 미실행이다.

@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "url": "https://jpop.today",
+  "sourceSha": "b0f4a48fadf3c28af5ccb161b6d49ae95c0716e8",
+  "target": "production",
+  "catalogSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+  "ledgerSha256": "0644fc5e74b1d3b456a0fc5d5e939fa55eafee7f238e91d2730bb609e215628f",
+  "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+  "startedAt": "2026-10-14T11:13:47.935Z",
+  "checkedAt": "2026-10-14T11:14:29.003Z",
+  "durationMs": 41069,
+  "limits": {
+    "maxAttempts": 6,
+    "totalTimeoutMs": 120000,
+    "requestTimeoutMs": 10000,
+    "retryDelayMs": 2000,
+    "maxResponseBytes": 4194304
+  },
+  "attempts": [
+    {
+      "number": 1,
+      "startedAt": "2026-10-14T11:13:47.936Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1773600,
+          "sha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+          "passed": true,
+          "expectedSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12252,
+          "sha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+          "passed": true,
+          "expectedSha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2334,
+          "sha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e",
+          "passed": true,
+          "expectedSha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12261,
+          "sha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966",
+          "passed": true,
+          "expectedSha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4582,
+          "sha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a",
+          "passed": true,
+          "expectedSha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2528,
+          "sha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9",
+          "passed": true,
+          "expectedSha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3256,
+          "sha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03",
+          "passed": true,
+          "expectedSha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4800,
+          "sha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931",
+          "passed": true,
+          "expectedSha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3998,
+          "sha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e",
+          "passed": true,
+          "expectedSha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3226,
+          "sha256": "edf435180332a3da821fa2f314aaa7522d04bc917b5f84847cd5ee712b0f0b04",
+          "passed": false,
+          "expectedSha256": "5d461ba338a5ff06722606edc45d63b7d9b99e240e22a5fa0f79747ade280ebd",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 2,
+      "startedAt": "2026-10-14T11:14:12.908Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1773600,
+          "sha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+          "passed": true,
+          "expectedSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12252,
+          "sha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+          "passed": true,
+          "expectedSha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2334,
+          "sha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e",
+          "passed": true,
+          "expectedSha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12261,
+          "sha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966",
+          "passed": true,
+          "expectedSha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4582,
+          "sha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a",
+          "passed": true,
+          "expectedSha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2528,
+          "sha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9",
+          "passed": true,
+          "expectedSha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3256,
+          "sha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03",
+          "passed": true,
+          "expectedSha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4800,
+          "sha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931",
+          "passed": true,
+          "expectedSha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3998,
+          "sha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e",
+          "passed": true,
+          "expectedSha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3226,
+          "sha256": "f8e3d41bd927356c8a4af6d1f46c09c932bf934853b07b5696f4160a4639fb92",
+          "passed": false,
+          "expectedSha256": "5d461ba338a5ff06722606edc45d63b7d9b99e240e22a5fa0f79747ade280ebd",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 3,
+      "startedAt": "2026-10-14T11:14:19.399Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1773600,
+          "sha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+          "passed": true,
+          "expectedSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12252,
+          "sha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+          "passed": true,
+          "expectedSha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2334,
+          "sha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e",
+          "passed": true,
+          "expectedSha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12261,
+          "sha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966",
+          "passed": true,
+          "expectedSha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4582,
+          "sha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a",
+          "passed": true,
+          "expectedSha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2528,
+          "sha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9",
+          "passed": true,
+          "expectedSha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3256,
+          "sha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03",
+          "passed": true,
+          "expectedSha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4800,
+          "sha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931",
+          "passed": true,
+          "expectedSha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3998,
+          "sha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e",
+          "passed": true,
+          "expectedSha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3226,
+          "sha256": "5b3fdd7e288912270d3b9b612808a3bad2a5881f1f3e524267f5eb18c00b4662",
+          "passed": false,
+          "expectedSha256": "5d461ba338a5ff06722606edc45d63b7d9b99e240e22a5fa0f79747ade280ebd",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 4,
+      "startedAt": "2026-10-14T11:14:22.364Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1773600,
+          "sha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+          "passed": true,
+          "expectedSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12252,
+          "sha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+          "passed": true,
+          "expectedSha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2334,
+          "sha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e",
+          "passed": true,
+          "expectedSha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12261,
+          "sha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966",
+          "passed": true,
+          "expectedSha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4582,
+          "sha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a",
+          "passed": true,
+          "expectedSha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2528,
+          "sha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9",
+          "passed": true,
+          "expectedSha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3256,
+          "sha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03",
+          "passed": true,
+          "expectedSha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4800,
+          "sha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931",
+          "passed": true,
+          "expectedSha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3998,
+          "sha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e",
+          "passed": true,
+          "expectedSha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3226,
+          "sha256": "633568d51089fca39b826977e5ff9cb49cbe0ed8b4ec625baa1f082a5cbb3970",
+          "passed": false,
+          "expectedSha256": "5d461ba338a5ff06722606edc45d63b7d9b99e240e22a5fa0f79747ade280ebd",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 5,
+      "startedAt": "2026-10-14T11:14:25.267Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1773600,
+          "sha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+          "passed": true,
+          "expectedSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12252,
+          "sha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+          "passed": true,
+          "expectedSha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2334,
+          "sha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e",
+          "passed": true,
+          "expectedSha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12261,
+          "sha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966",
+          "passed": true,
+          "expectedSha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4582,
+          "sha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a",
+          "passed": true,
+          "expectedSha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2528,
+          "sha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9",
+          "passed": true,
+          "expectedSha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3256,
+          "sha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03",
+          "passed": true,
+          "expectedSha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4800,
+          "sha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931",
+          "passed": true,
+          "expectedSha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3998,
+          "sha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e",
+          "passed": true,
+          "expectedSha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3226,
+          "sha256": "aaca4d3ae860d82d27fe45a9ee3fd05ee4aeea444bb7f82152556ff5862e4e41",
+          "passed": false,
+          "expectedSha256": "5d461ba338a5ff06722606edc45d63b7d9b99e240e22a5fa0f79747ade280ebd",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 6,
+      "startedAt": "2026-10-14T11:14:28.176Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5ce3c7ef03d425c1742b3ada04267b2309cd7c008d5e4442dc59eedff9f3d1de",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1773600,
+          "sha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+          "passed": true,
+          "expectedSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12252,
+          "sha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860",
+          "passed": true,
+          "expectedSha256": "9b6bb27d9849d5cf8bc0a6133a3173118dde3d95d8454042dc4dd7b956594860"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2334,
+          "sha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e",
+          "passed": true,
+          "expectedSha256": "87b78f1dd92b1afa561a0ce02a0d7ee388a12b501f5d1e4fa99e60c25cfab29e"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12261,
+          "sha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966",
+          "passed": true,
+          "expectedSha256": "62c825c68a7503bf39271cddc265761195d4b4a1d81b444c50300cc8091df966"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4582,
+          "sha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a",
+          "passed": true,
+          "expectedSha256": "a3fcd5cca8c93b2d6f33f00f8d970507d601ab0293cda162442204a108f58c3a"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2528,
+          "sha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9",
+          "passed": true,
+          "expectedSha256": "1f9dfba6117c99ef7471604e6592e926d2660ab3dfb1c860057a1dcb7b4fd8c9"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3256,
+          "sha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03",
+          "passed": true,
+          "expectedSha256": "8e10bc8b824ad9057d86f736e783e5c37c1883611689f9b26856d45792521e03"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4800,
+          "sha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931",
+          "passed": true,
+          "expectedSha256": "6ab391719fa817a1ca7da0965d0a62316e35ac005b7b47271957e4ed045a7931"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3998,
+          "sha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e",
+          "passed": true,
+          "expectedSha256": "dfc640e4e2066cf2c16039e799b70560dfde953fe6dd05ff7e05fe260cc9956e"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3226,
+          "sha256": "fd7335136b2c96760281eb8a199f1e66c6a4e8ea586aa7656bb5a6f90153d337",
+          "passed": false,
+          "expectedSha256": "5d461ba338a5ff06722606edc45d63b7d9b99e240e22a5fa0f79747ade280ebd",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    }
+  ],
+  "passed": false,
+  "code": "BODY_MISMATCH",
+  "scope": "Observed HTTP origin and artifact byte consistency; separate CI/content/browser gates; no global CDN or AdSense approval claim"
+}

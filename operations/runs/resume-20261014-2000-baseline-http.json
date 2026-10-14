@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-10-14T11:01:34.488Z",
+  "url": "https://jpop.today",
+  "sourceSha": "b0f4a48fadf3c28af5ccb161b6d49ae95c0716e8",
+  "target": "production",
+  "dirty": false,
+  "catalogSha256": "73b50974c365bc3accf552beae6a41d0c565c7f80da8281b11672d6f26a4a1fe",
+  "ledgerSha256": "0644fc5e74b1d3b456a0fc5d5e939fa55eafee7f238e91d2730bb609e215628f",
+  "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+  "checks": [
+    {
+      "path": "/build-info.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/catalog.json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/search/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/favorites/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/song/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/guides/tj-ky-numbers/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/faq/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/coverage/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/chart/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/songs/jpop-playlist-don-t-say-lazy-ca9960cc97/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/songs/jpop-playlist-butter-fly-71e0adeb5b/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/data/staging/legacy-catalog.json",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/scripts/manage-production.py",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/reports/daily/2026-10-14.json",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/releases/v0.3.0.md",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/not-found-transition",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/_astro/Layout.CZDZ98xf.css",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/_astro/Layout.astro_astro_type_script_index_0_lang.CX7B7ERg.js",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "/build-info.json",
+      "status": 200,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "transport": "Playwright APIRequestContext inherited proxy and CA/TLS validation; no ignored HTTPS errors",
+  "scope": "HTTP identity/artifact/crawler/corrected data; browser tests separate"
+}
