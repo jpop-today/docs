@@ -4,7 +4,7 @@
   "timezone": "Asia/Seoul",
   "phase": "complete",
   "runId": "resume-20261015-0300",
-  "recordedAt": "2026-10-14T23:20:31.781609+00:00",
+  "recordedAt": "2026-10-14T23:22:41.725179+00:00",
   "productCompletedAt": "2026-10-14T23:11:23Z",
   "title": "10월15일 · v0.4.0 공식20번호·가수별확인곡 실제운영",
   "summary": "공식TJ·금영20번호근거와가수별확인곡을실제jpop.today에반영했습니다. 같은SHA CI·원격preview/production각22·실제v0.3.1복구25→새M재복원26·v0.4.0Release를확인했습니다. 어제v0.3.0운영전환/v0.3.1개선에이어오늘19가수표기/20곡ID/38안전번호로확대했고, 남은자료·자체콘텐츠·AdSense준비를계속합니다.",
@@ -31,7 +31,7 @@
     },
     {
       "name": "남은작업·필요입력",
-      "value": "다음은안전한metadata추출하네스/미검토번호공식근거와곡·가수자체비교본문. ActionsCFbindings 실제missing·CIdeployskip/관리자cloud배포성공을구분. 전체자료권리·문의수신·Google계정/소유권/신청/심사unknown,본인정보/약관동의는운영자단계."
+      "value": "다음은Issue20 안전한metadata추출하네스/미검토번호공식근거와곡·가수자체비교본문. ActionsCFbindings 실제missing·CIdeployskip/관리자cloud배포성공을구분. 전체자료권리·문의수신·Google계정/소유권/신청/심사unknown,본인정보/약관동의는운영자단계."
     }
   ],
   "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.0",
@@ -45,10 +45,11 @@
     "Actualold693/v031/source67c7 rollback25 thennew257/Mrestore26 PASS, no newrestorefailure",
     "Actual6peer38/38/39 andpredeclaredUI tie fallback/interruptcompleted/replacement audit withusage-limit interruption preserved",
     "Actualv0.4.0Release38652398351 published08:11:23KST andReleaseDiscordsent08:11:24KST1attempt",
-    "Replacement final audit and both supplemental read-only acceptances received; full6peer review evidence preserved without new scores"
+    "Replacement final audit and both supplemental read-only acceptances received; full6peer review evidence preserved without new scores",
+    "docs PR10 merged d2c713b with safe metadata evidence,6 peer scores,2 supplemental acceptances, release and real recovery receipts"
   ],
   "nextPlan": [
-    "Issue6 safe metadata-only provider review harness and further unreviewed evidence",
+    "Issue20 metadata-only provider review harness; Issue6 further unreviewed evidence",
     "Original reviewed song/artist comparison content with actual sources, no guessed audio/difficulty/rights",
     "Issue15 Actions CF binding operator setup and actual automated deployment; managed cloud deployment available",
     "Google actual account/ownership/application/review unknown; operator identity/legal consent",
@@ -462,17 +463,46 @@
       "workflowRun": 38652398351
     },
     "completed": {
-      "state": "pending_saved_report_publication",
-      "reportDate": "2026-10-15"
+      "id": 38653964082,
+      "name": "discord-report",
+      "head_sha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653964082",
+      "created_at": "2026-10-14T23:25:15Z",
+      "sentAt": "2026-10-14T23:25:22.0534706Z",
+      "attempts": 1,
+      "state": "sent",
+      "checkedAt": "2026-10-14T23:25:54.608408+00:00",
+      "reportDate": "2026-10-15",
+      "workflow": "discord.yml",
+      "mode": "completed",
+      "sourcePR": "https://github.com/jpop-today/jpoptoday/pull/21",
+      "sourceReportSha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+      "reportPath": "reports/daily/2026-10-15.json",
+      "productSha": "fc54989e0540cdb5863388abd46660359da226a6",
+      "scope": "Actual selected sender success line; secret only Actions binding, no secret value or raw log retained"
     }
   },
   "documentation": {
-    "state": "prepared_for_reviewable_PR",
-    "releaseRecord": "https://github.com/jpop-today/docs/blob/main/operations/releases/v0.4.0-20261015.md"
+    "state": "merged",
+    "pr": "https://github.com/jpop-today/docs/pull/10",
+    "mergeSha": "d2c713ba7dd68662bf4bb4b0266db92dd32c0673",
+    "releaseRecord": "https://github.com/jpop-today/docs/blob/main/operations/releases/v0.4.0-20261015.md",
+    "deliveryReceipt": "https://github.com/jpop-today/docs/blob/main/operations/runs/resume-20261015-0300-completed-discord.json"
   },
   "links": {
     "sourcePR": "https://github.com/jpop-today/jpoptoday/pull/19",
     "issue": "https://github.com/jpop-today/jpoptoday/issues/6",
-    "proof": "https://github.com/jpop-today/docs/blob/main/operations/runs/resume-20261015-0300.json"
+    "proof": "https://github.com/jpop-today/docs/blob/main/operations/runs/resume-20261015-0300.json",
+    "nextIssue": "https://github.com/jpop-today/jpoptoday/issues/20"
+  },
+  "deliveryRecordedAt": "2026-10-14T23:26:37.562865+00:00",
+  "sourceReport": {
+    "pr": "https://github.com/jpop-today/jpoptoday/pull/21",
+    "headSha": "7437c76e8a147b04d051e61a8ba318ac2f5d9cbe",
+    "mergeSha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+    "productTreeEqualsReleaseExcludingReports": true,
+    "scope": "git diff productM..reportR contains only reports/daily/2026-10-15.json; committed source report remains historical pre-dispatch snapshot, docs receipt is actual post-dispatch state"
   }
 }

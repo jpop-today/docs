@@ -1,0 +1,21 @@
+{
+  "id": 38653964082,
+  "name": "discord-report",
+  "head_sha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+  "status": "completed",
+  "conclusion": "success",
+  "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38653964082",
+  "created_at": "2026-10-14T23:25:15Z",
+  "sentAt": "2026-10-14T23:25:22.0534706Z",
+  "attempts": 1,
+  "state": "sent",
+  "checkedAt": "2026-10-14T23:25:54.608408+00:00",
+  "reportDate": "2026-10-15",
+  "workflow": "discord.yml",
+  "mode": "completed",
+  "sourcePR": "https://github.com/jpop-today/jpoptoday/pull/21",
+  "sourceReportSha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+  "reportPath": "reports/daily/2026-10-15.json",
+  "productSha": "fc54989e0540cdb5863388abd46660359da226a6",
+  "scope": "Actual selected sender success line; secret only Actions binding, no secret value or raw log retained"
+}

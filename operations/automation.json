@@ -6,7 +6,7 @@
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
   "enabled": true,
   "registeredAt": "2026-10-13T06:17:18.885914+00:00",
-  "observedAt": "2026-10-14T23:14:28.441838+00:00",
+  "observedAt": "2026-10-14T23:26:37.562865+00:00",
   "lastRunTime": "2026-10-13T23:58:56.467334+00:00",
   "nextRunTime": null,
   "firstRunObserved": true,
@@ -39,6 +39,12 @@
       "dailyLastRunTime": "2026-10-13T23:58:56.467334+00:00",
       "hourlyLastRunTime": "2026-10-14T22:58:26.575683+00:00",
       "evidence": "actual saved automations_peek observation in this same resume run; both enabled/schedules unchanged"
+    },
+    {
+      "observedAt": "2026-10-14T23:26:37.562865+00:00",
+      "dailyLastRunTime": "2026-10-13T23:58:56.467334+00:00",
+      "hourlyLastRunTime": "2026-10-14T22:58:26.575683+00:00",
+      "evidence": "Fresh actual automations_peek before final publication: both enabled and exact original schedules unchanged; recordedAt follows tool observation"
     }
   ],
   "lastCheck": "Actual automations_peek; both original schedules unchanged and enabled; repeated prompts coalesced into unfinished same run"

@@ -1,6 +1,6 @@
 # 실행 상태
 
-갱신일: 2026-10-15 KST. 제품 v0.4.0을10월15일08:11KST 실제운영·복구·릴리스까지완료했고문서/저장완료보고를원격발행한다. 문서·검증·원격 전달·병합·운영 배포·AdSense를 구분한다.
+갱신일: 2026-10-15 KST. 제품 v0.4.0을10월15일08:11KST 실제운영·복구·릴리스까지완료했고문서PR10·보고PR21을병합하고완료Discord08:25:22KST actualsent1attempt까지확인했다. 문서·검증·원격 전달·병합·운영 배포·AdSense를 구분한다.
 
 ## Issue#6 · v0.4.0 실제 운영과 다음 자료·콘텐츠 작업
 
@@ -8,7 +8,7 @@
 
 실제6peer38/38/39·사전동률UI교체/감사·usage-limit후08시동일run/agent재개를보존했다. 초기서버/테스트race/잔류rootchild실패·KY출력가사혼입과metadata-only보완·CIarchive다운로드exit1/원인unknown/전체비교미실행은[릴리스기록](releases/v0.4.0-20261015.md)에분리한다. 이번실제복구/재복원은각1attempt PASS이며과거v0.3.1restore실패를복사하지않는다. [최신일일기록](daily/2026-10-15.md), [runJSON](runs/resume-20261015-0300.json), [6평가](runs/resume-20261015-0300-reviews.json), [독립감사](production-content-gate-v040-20261015.md)가재개기준이다.
 
-기존개인Gitmetadata/dev와project/domain/history보존·자동productionfalse/previewnone, 실제servedartifact는조직M이다. Actionsproductionverify-only38651998879 success의actualpresence는CFbindingsmissing·deployskip이며관리자cloud실제배포/HTTP·원격검증과구분한다. Google계정/소유권/신청/실제심사unknown·전체자료권리/문의실제수신후속을유지한다. 원래09시/hourly예약enabled/일정불변; 다음은안전한metadata수집검증·미검토근거/자체비교본문과Actionsbinding설정이다. 최종저장보고Discord는원격병합후실제결과를기록한다.
+기존개인Gitmetadata/dev와project/domain/history보존·자동productionfalse/previewnone, 실제servedartifact는조직M이다. Actionsproductionverify-only38651998879 success의actualpresence는CFbindingsmissing·deployskip이며관리자cloud실제배포/HTTP·원격검증과구분한다. Google계정/소유권/신청/실제심사unknown·전체자료권리/문의실제수신후속을유지한다. 원래09시/hourly예약enabled/일정불변; 다음은안전한metadata수집검증·미검토근거/자체비교본문과Actionsbinding설정이다. 완료보고Discord38653964082는08:25:22KST actualsent1attempt이며 [송신/병합영수증](runs/resume-20261015-0300-completed-discord.json)이 기준이다. 보고main R7ed3f7e는제품/tag Mfc54989와reports한파일만다르다. 다음 [Issue20](https://github.com/jpop-today/jpoptoday/issues/20)의 안전한metadata추출/실패보존부터이어간다.
 
 ## Issue#15 · v0.3.1 완료 이력
 
@@ -131,3 +131,5 @@
 마지막 원격조회에서 source main6cbdcc3의 [appCI38352818695](https://github.com/jpop-today/jpoptoday/actions/runs/38352818695)와 [Node22계약38352818759](https://github.com/jpop-today/jpoptoday/actions/runs/38352818759)도 모두 success를 확인했다. 미리보기 구현 Issue#5는 결과/릴리스/원격10·복구를 연결해 완료로 닫았다. 운영 전환·번호정정·Google심사는 남은 작업이다.
 
 최종 문서 commit/push 명령은 자동 승인 검토가 main직접변경이라고 판단해 거부하여 실행되지 않았다. 읽기 전용 확인에서 docs 실제 branch가 codex/5-astro-app-preview이고 source repo만 main임을 확인했다. 문서 Git 경로·branch guard·원격 feature ref를 명시해 기존 docs PR#5로 전달하며 직접 main push를 수행하지 않는다.
+
+보고R의 main app38653928549/contracts38653928554와PR21의push/PR checks도실제success다. [보고전용CI증거](runs/resume-20261015-0300-report-ci.json)로제품M의원격배포검증과구분한다.
