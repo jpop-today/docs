@@ -1,12 +1,20 @@
 # 실행 상태
 
-갱신일: 2026-10-15 KST. 제품 v0.3.1 배포·릴리스는10월14일 완료했고 같은 run의 문서·일일보고 발행을 이어 마무리한다. 문서·검증·원격 전달·병합·운영 배포·AdSense를 구분한다.
+갱신일: 2026-10-15 KST. 제품 v0.4.0을10월15일08:11KST 실제운영·복구·릴리스까지완료했고문서/저장완료보고를원격발행한다. 문서·검증·원격 전달·병합·운영 배포·AdSense를 구분한다.
 
-## Issue#15 · v0.3.1 실제 운영·복구·릴리스 완료
+## Issue#6 · v0.4.0 실제 운영과 다음 자료·콘텐츠 작업
+
+[PR19](https://github.com/jpop-today/jpoptoday/pull/19) merged/product M `fc54989e0540cdb5863388abd46660359da226a6`, 실제todayjpop/jpop.today257762e0·전용previewaf1270b9. 공식20번호추가·가수원문19표기/20곡ID/38안전번호정적탐색을반영했다. 원본43ledger/staging/chart/3317ID/URL/storage/gradient·unknown구분보존. sameM CI/원격preview22·production22, 이전v0.3.1 actualrollback25→newMrestore26, 두target3345files/3335HTML/0·36index·완전로컬재현PASS. [v0.4.0](https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.0)는08:11:23KST actualpublished이며AdSense승인과별개다.
+
+실제6peer38/38/39·사전동률UI교체/감사·usage-limit후08시동일run/agent재개를보존했다. 초기서버/테스트race/잔류rootchild실패·KY출력가사혼입과metadata-only보완·CIarchive다운로드exit1/원인unknown/전체비교미실행은[릴리스기록](releases/v0.4.0-20261015.md)에분리한다. 이번실제복구/재복원은각1attempt PASS이며과거v0.3.1restore실패를복사하지않는다. [최신일일기록](daily/2026-10-15.md), [runJSON](runs/resume-20261015-0300.json), [6평가](runs/resume-20261015-0300-reviews.json), [독립감사](production-content-gate-v040-20261015.md)가재개기준이다.
+
+기존개인Gitmetadata/dev와project/domain/history보존·자동productionfalse/previewnone, 실제servedartifact는조직M이다. Actionsproductionverify-only38651998879 success의actualpresence는CFbindingsmissing·deployskip이며관리자cloud실제배포/HTTP·원격검증과구분한다. Google계정/소유권/신청/실제심사unknown·전체자료권리/문의실제수신후속을유지한다. 원래09시/hourly예약enabled/일정불변; 다음은안전한metadata수집검증·미검토근거/자체비교본문과Actionsbinding설정이다. 최종저장보고Discord는원격병합후실제결과를기록한다.
+
+## Issue#15 · v0.3.1 완료 이력
 
 [소스 PR17](https://github.com/jpop-today/jpoptoday/pull/17) merged M `67c7ee094afa9b0734a67bb56052a9b9be30c7a2`의 공식 확인 번호 진입·업체별 범위와10곡18번호 근거 목록·정정사례 자체 가이드·배포 본문 검증 하네스를 실제 운영에 반영했다. 고정 자료/번호문자열/ID/URL/storage와 blue#4f7cff→pink#ff7aa8 및pink/mint/blue는 보존했다. [v0.3.1](https://github.com/jpop-today/jpoptoday/releases/tag/v0.3.1)는10월14일21:05:40KST 실제 published이며 AdSense 승인과 별개다.
 
-현재 기존 todayjpop/jpop.today canonical693b37f6은 조직 M artifact다. 개인 Git source metadata/dev는 보존하고 자동production/preview는false/none이다. 10월15일02:04:57KST 새 [API·HTTP 재확인](runs/resume-20261014-2000-final-http-recheck.json)에서sameM/clean/production·25checks PASS. 로컬274unit/타입0error0warning·두clean target3334HTML3343files(preview0/prod25index)·각Chromium19 PASS 및sameM CI/실제preview/production 원격각19 PASS다.
+이 v0.3.1 완료시점 기존 todayjpop/jpop.today canonical693b37f6은 조직 M artifact였다. 개인 Git source metadata/dev는 보존하고 자동production/preview는false/none이다. 10월15일02:04:57KST 새 [API·HTTP 재확인](runs/resume-20261014-2000-final-http-recheck.json)에서sameM/clean/production·25checks PASS. 로컬274unit/타입0error0warning·두clean target3334HTML3343files(preview0/prod25index)·각Chromium19 PASS 및sameM CI/실제preview/production 원격각19 PASS다.
 
 이전v0.3.0 API+25HTTP 실제복구→새M API+최종25HTTP 실제복원을 실행했다. 첫복원6attempt는METADATA_MISMATCH 및attempt3 BODY_MISMATCH로 실패했고 후속변경관측 뒤새receipt로PASS했다. CF주소/제보query 변환 실패와QA서버port시작 실패, CI archive 다운로드403/전체비교blocked 및오류에일시signedURL노출사건은값없이보존한다. full3343file CI archive 비교성공이나전CDN동시전환을주장하지않는다. [릴리스 증거](releases/v0.3.1-20261014.md), [콘텐츠 게이트](production-content-gate-v031-20261014.md), [ADR007](../adr/007-deployment-response-verification.md)를따른다.
 

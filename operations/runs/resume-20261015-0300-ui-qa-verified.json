@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-14T18:15:11.586Z",
+  "origin": "http://127.0.0.1:4321",
+  "browserPath": "Playwright/system Chromium",
+  "reason": "Browser plugin not available",
+  "checks": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1100,
+      "javaScriptEnabled": true,
+      "url": "http://127.0.0.1:4321/artists/",
+      "screenshot": "/tmp/jpop-0300-ui-verified-desktop.png",
+      "anchoredScreenshot": "/tmp/jpop-0300-ui-verified-desktop-joint-anchor.png",
+      "before": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "가수별 공식 확인곡 | jpop.today",
+        "h1": "가수별 공식 확인곡",
+        "groups": 19,
+        "songs": 20,
+        "numbers": 38,
+        "overlay": false,
+        "indexPosition": "sticky",
+        "bodyBackground": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "brandBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))"
+      },
+      "interaction": {
+        "jumpHash": "#artist-index",
+        "fragment": "#artist-bfb10169e2451ef9",
+        "hash": "#artist-bfb10169e2451ef9",
+        "groupHeading": "米津玄師，宇多田ヒカル",
+        "officialNumbers": [
+          "52972",
+          "57784"
+        ],
+        "evidence": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52972&strWord=Y",
+        "time": "2026-10-15T03:03:47.678068+09:00",
+        "headingRect": {
+          "x": 385,
+          "y": 75.71875,
+          "width": 762,
+          "height": 39.140625
+        },
+        "href": "/songs/jpop-playlist-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB-%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-jane-doe-9679a6d5fb/",
+        "detail": {
+          "pathname": "/songs/jpop-playlist-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB-%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-jane-doe-9679a6d5fb/",
+          "h1": "JANE DOE",
+          "overflow": false,
+          "evidenceLinkCount": 1
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "adRequestHosts": [],
+      "passed": true
+    },
+    {
+      "name": "mobile",
+      "width": 360,
+      "height": 800,
+      "javaScriptEnabled": false,
+      "url": "http://127.0.0.1:4321/artists/",
+      "screenshot": "/tmp/jpop-0300-ui-verified-mobile.png",
+      "anchoredScreenshot": "/tmp/jpop-0300-ui-verified-mobile-joint-anchor.png",
+      "before": {
+        "width": 360,
+        "scrollWidth": 360,
+        "title": "가수별 공식 확인곡 | jpop.today",
+        "h1": "가수별 공식 확인곡",
+        "groups": 19,
+        "songs": 20,
+        "numbers": 38,
+        "overlay": false,
+        "indexPosition": "static",
+        "bodyBackground": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "brandBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))"
+      },
+      "interaction": {
+        "jumpHash": "#artist-index",
+        "fragment": "#artist-bfb10169e2451ef9",
+        "hash": "#artist-bfb10169e2451ef9",
+        "groupHeading": "米津玄師，宇多田ヒカル",
+        "officialNumbers": [
+          "52972",
+          "57784"
+        ],
+        "evidence": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52972&strWord=Y",
+        "time": "2026-10-15T03:03:47.678068+09:00",
+        "headingRect": {
+          "x": 35,
+          "y": 71.78125,
+          "width": 290,
+          "height": 36.25
+        },
+        "href": "/songs/jpop-playlist-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB-%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-jane-doe-9679a6d5fb/",
+        "detail": {
+          "pathname": "/songs/jpop-playlist-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB-%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-jane-doe-9679a6d5fb/",
+          "h1": "JANE DOE",
+          "overflow": false,
+          "evidenceLinkCount": 1
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "adRequestHosts": [],
+      "passed": true
+    },
+    {
+      "name": "short-desktop",
+      "width": 1280,
+      "height": 768,
+      "javaScriptEnabled": true,
+      "url": "http://127.0.0.1:4321/artists/",
+      "screenshot": "/tmp/jpop-0300-ui-verified-short-desktop.png",
+      "anchoredScreenshot": "/tmp/jpop-0300-ui-verified-short-desktop-joint-anchor.png",
+      "before": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "title": "가수별 공식 확인곡 | jpop.today",
+        "h1": "가수별 공식 확인곡",
+        "groups": 19,
+        "songs": 20,
+        "numbers": 38,
+        "overlay": false,
+        "indexPosition": "static",
+        "bodyBackground": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "brandBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))"
+      },
+      "interaction": {
+        "jumpHash": "#artist-index",
+        "fragment": "#artist-bfb10169e2451ef9",
+        "hash": "#artist-bfb10169e2451ef9",
+        "groupHeading": "米津玄師，宇多田ヒカル",
+        "officialNumbers": [
+          "52972",
+          "57784"
+        ],
+        "evidence": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52972&strWord=Y",
+        "time": "2026-10-15T03:03:47.678068+09:00",
+        "headingRect": {
+          "x": 385,
+          "y": 75.71875,
+          "width": 762,
+          "height": 39.140625
+        },
+        "href": "/songs/jpop-playlist-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB-%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-jane-doe-9679a6d5fb/",
+        "detail": {
+          "pathname": "/songs/jpop-playlist-%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB-%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB-jane-doe-9679a6d5fb/",
+          "h1": "JANE DOE",
+          "overflow": false,
+          "evidenceLinkCount": 1
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "adRequestHosts": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

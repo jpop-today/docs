@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "scope": "20 official numeric metadata requests only; raw HTML remains private tmp; no lyrics or headers copied",
+  "requests": [
+    {
+      "rank": 1,
+      "songId": "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+      "titleOriginal": "晩餐歌",
+      "artistOriginal": "tuki.",
+      "provider": "tj",
+      "number": "52788",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52788&strWord=Y",
+      "startedAt": "2026-10-15T03:03:27.960810+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52788&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:29.916792+09:00",
+      "responseSha256": "14abaca062b775b697539a7386dfca73b7eb4b99e66dfcb509b30c144292667c",
+      "rows": [
+        {
+          "number": "52788",
+          "title": "晩餐歌",
+          "artist": "tuki."
+        }
+      ],
+      "responseBytes": 49213
+    },
+    {
+      "rank": 1,
+      "songId": "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+      "titleOriginal": "晩餐歌",
+      "artistOriginal": "tuki.",
+      "provider": "ky",
+      "number": "57828",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57828",
+      "startedAt": "2026-10-15T03:03:27.961577+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57828",
+      "checkedAt": "2026-10-15T03:03:32.395521+09:00",
+      "responseSha256": "9ca6c7925ee9e8d69e033455758e8c6a5e28ea049d8df287ef3767550c14c352",
+      "rows": [
+        {
+          "number": "57828",
+          "title": "晩餐歌",
+          "artist": "tuki."
+        }
+      ],
+      "responseBytes": 48045
+    },
+    {
+      "rank": 2,
+      "songId": "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+      "titleOriginal": "Pretender",
+      "artistOriginal": "Official髭男dism",
+      "provider": "tj",
+      "number": "68058",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68058&strWord=Y",
+      "startedAt": "2026-10-15T03:03:29.922419+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68058&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:31.931967+09:00",
+      "responseSha256": "7ce0a9f03124607bc73cabd8d5acd862062777366c4d2699baf43379003c6311",
+      "rows": [
+        {
+          "number": "68058",
+          "title": "Pretender",
+          "artist": "Official髭男dism"
+        }
+      ],
+      "responseBytes": 49234
+    },
+    {
+      "rank": 2,
+      "songId": "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+      "titleOriginal": "Pretender",
+      "artistOriginal": "Official髭男dism",
+      "provider": "ky",
+      "number": "44438",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44438",
+      "startedAt": "2026-10-15T03:03:31.942420+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44438",
+      "checkedAt": "2026-10-15T03:03:35.207126+09:00",
+      "responseSha256": "391d447e399960740acff76bf9552c229a70f9b0535539e4ef5897e6fe633c88",
+      "rows": [
+        {
+          "number": "44438",
+          "title": "Pretender (映画\"コンフィデンスマンJP\")",
+          "artist": "Official髭男dism"
+        }
+      ],
+      "responseBytes": 50254
+    },
+    {
+      "rank": 3,
+      "songId": "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+      "titleOriginal": "怪獣の花唄",
+      "artistOriginal": "Vaundy",
+      "provider": "tj",
+      "number": "52988",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52988&strWord=Y",
+      "startedAt": "2026-10-15T03:03:32.413291+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52988&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:33.094945+09:00",
+      "responseSha256": "5002f940cc4c84e851276fd9e9981eb8bea4609e6bae0b76412b6fd1e12c9c4d",
+      "rows": [
+        {
+          "number": "52988",
+          "title": "怪獣の花唄",
+          "artist": "Vaundy"
+        }
+      ],
+      "responseBytes": 49222
+    },
+    {
+      "rank": 3,
+      "songId": "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+      "titleOriginal": "怪獣の花唄",
+      "artistOriginal": "Vaundy",
+      "provider": "ky",
+      "number": "57775",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57775",
+      "startedAt": "2026-10-15T03:03:33.103067+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57775",
+      "checkedAt": "2026-10-15T03:03:36.605608+09:00",
+      "responseSha256": "8fdd3d4523f640c22dc32f91ad3096281d93a7767492033fc4d630d89801459f",
+      "rows": [
+        {
+          "number": "57775",
+          "title": "怪獣の花唄",
+          "artist": "Vaundy"
+        }
+      ],
+      "responseBytes": 52741
+    },
+    {
+      "rank": 4,
+      "songId": "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+      "titleOriginal": "ベテルギウス",
+      "artistOriginal": "優里",
+      "provider": "tj",
+      "number": "68553",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68553&strWord=Y",
+      "startedAt": "2026-10-15T03:03:35.217850+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68553&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:35.906179+09:00",
+      "responseSha256": "7be80e5821e37019ef807a735e0edeba258dac0b3173e214953a6c428904f34e",
+      "rows": [
+        {
+          "number": "68553",
+          "title": "ベテルギウス(ドラマ'SUPER RICH' OST)",
+          "artist": "優里"
+        }
+      ],
+      "responseBytes": 49252
+    },
+    {
+      "rank": 4,
+      "songId": "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+      "titleOriginal": "ベテルギウス",
+      "artistOriginal": "優里",
+      "provider": "ky",
+      "number": "44746",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44746",
+      "startedAt": "2026-10-15T03:03:35.914461+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44746",
+      "checkedAt": "2026-10-15T03:03:39.854415+09:00",
+      "responseSha256": "6ab41f33502aede4f3dcbcc2d210837a1897d392439a9ebff2df859bfb42b3ec",
+      "rows": [
+        {
+          "number": "44746",
+          "title": "ベテルギウス (ドラマ\"SUPER RICH\")",
+          "artist": "優里"
+        }
+      ],
+      "responseBytes": 50101
+    },
+    {
+      "rank": 5,
+      "songId": "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+      "titleOriginal": "残酷な天使のテーゼ",
+      "artistOriginal": "高橋洋子",
+      "provider": "tj",
+      "number": "25246",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=25246&strWord=Y",
+      "startedAt": "2026-10-15T03:03:36.622359+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=25246&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:37.371398+09:00",
+      "responseSha256": "1ba715a1126c192a293d25860ea46d01c316d4cbf9e980b3fd10aa798135c8d7",
+      "rows": [
+        {
+          "number": "25246",
+          "title": "残酷な天使のテーゼ(新世紀エヴァンゲリオン OP)",
+          "artist": "高橋洋子"
+        }
+      ],
+      "responseBytes": 49290
+    },
+    {
+      "rank": 5,
+      "songId": "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+      "titleOriginal": "残酷な天使のテーゼ",
+      "artistOriginal": "高橋洋子",
+      "provider": "ky",
+      "number": "41645",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=41645",
+      "startedAt": "2026-10-15T03:03:37.377673+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=41645",
+      "checkedAt": "2026-10-15T03:03:40.731054+09:00",
+      "responseSha256": "e55d654bedec41eae5dbba60fb539f6ad912d09ebacc33c0b52a6bad67ac7726",
+      "rows": [
+        {
+          "number": "41645",
+          "title": "残酷な天使のテーゼ (\"新世紀エヴァンゲリオン\"OP)",
+          "artist": "高橋洋子"
+        }
+      ],
+      "responseBytes": 45455
+    },
+    {
+      "rank": 6,
+      "songId": "jpop-playlist-back-number-ヒロイン-ae2d342933",
+      "titleOriginal": "ヒロイン",
+      "artistOriginal": "back number",
+      "provider": "tj",
+      "number": "27762",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27762&strWord=Y",
+      "startedAt": "2026-10-15T03:03:39.860898+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27762&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:40.701401+09:00",
+      "responseSha256": "92784dc468b7dd6c09393d55808ee0fc56a99ab52987e0941f9eaf08962369d4",
+      "rows": [
+        {
+          "number": "27762",
+          "title": "ヒロイン",
+          "artist": "back number"
+        }
+      ],
+      "responseBytes": 49242
+    },
+    {
+      "rank": 6,
+      "songId": "jpop-playlist-back-number-ヒロイン-ae2d342933",
+      "titleOriginal": "ヒロイン",
+      "artistOriginal": "back number",
+      "provider": "ky",
+      "number": "43998",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43998",
+      "startedAt": "2026-10-15T03:03:40.706123+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43998",
+      "checkedAt": "2026-10-15T03:03:44.033446+09:00",
+      "responseSha256": "f296e3d4acbb7fb689b4ad8566aed0129caed8f8fa0b02826ecec99944a37062",
+      "rows": [
+        {
+          "number": "43998",
+          "title": "ヒロイン",
+          "artist": "back number"
+        }
+      ],
+      "responseBytes": 47327
+    },
+    {
+      "rank": 7,
+      "songId": "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+      "titleOriginal": "サムライハート(Some Like It Hot!!)",
+      "artistOriginal": "SPYAIR",
+      "provider": "tj",
+      "number": "27527",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27527&strWord=Y",
+      "startedAt": "2026-10-15T03:03:40.737287+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27527&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:41.493546+09:00",
+      "responseSha256": "bdc1fa3aa3402eeecdcd10e730d3689ff011a86cc9e3d1823c4c26d0c4eb3838",
+      "rows": [
+        {
+          "number": "27527",
+          "title": "サムライハート (Some Like it Hot)(銀魂 ED)",
+          "artist": "SPYAIR"
+        }
+      ],
+      "responseBytes": 49255
+    },
+    {
+      "rank": 7,
+      "songId": "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+      "titleOriginal": "サムライハート(Some Like It Hot!!)",
+      "artistOriginal": "SPYAIR",
+      "provider": "ky",
+      "number": "43372",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43372",
+      "startedAt": "2026-10-15T03:03:41.498080+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43372",
+      "checkedAt": "2026-10-15T03:03:44.173265+09:00",
+      "responseSha256": "a9cf41213631b8f3e5abad6d051cde81f4b2c7510346595ebb227d5bf81545cf",
+      "rows": [
+        {
+          "number": "43372",
+          "title": "サムライハート (Some Like It Hot!!) (\"銀魂\"ED)",
+          "artist": "SPYAIR"
+        }
+      ],
+      "responseBytes": 50929
+    },
+    {
+      "rank": 8,
+      "songId": "jpop-playlist-米津玄師-lemon-656053b8dd",
+      "titleOriginal": "Lemon",
+      "artistOriginal": "米津玄師",
+      "provider": "tj",
+      "number": "28822",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28822&strWord=Y",
+      "startedAt": "2026-10-15T03:03:44.039590+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28822&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:44.695792+09:00",
+      "responseSha256": "19d1371d4ab4cf292207cb1cda5ac4078ad8038e4d518b518dc04c6485593899",
+      "rows": [
+        {
+          "number": "28822",
+          "title": "Lemon(ドラマ'アンナチュラル' OST)",
+          "artist": "米津玄師"
+        }
+      ],
+      "responseBytes": 49268
+    },
+    {
+      "rank": 8,
+      "songId": "jpop-playlist-米津玄師-lemon-656053b8dd",
+      "titleOriginal": "Lemon",
+      "artistOriginal": "米津玄師",
+      "provider": "ky",
+      "number": "44253",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44253",
+      "startedAt": "2026-10-15T03:03:44.180026+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44253",
+      "checkedAt": "2026-10-15T03:03:47.031339+09:00",
+      "responseSha256": "99ae24f5fbb2f864230580853358b92cf6ba6b0b232a09227db89ffdff3de76c",
+      "rows": [
+        {
+          "number": "44253",
+          "title": "Lemon (ドラマ\"アンナチュラル\")",
+          "artist": "米津玄師"
+        }
+      ],
+      "responseBytes": 46512
+    },
+    {
+      "rank": 9,
+      "songId": "jpop-playlist-米津玄師-iris-out-f940512a4c",
+      "titleOriginal": "IRIS OUT",
+      "artistOriginal": "米津玄師",
+      "provider": "tj",
+      "number": "52959",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52959&strWord=Y",
+      "startedAt": "2026-10-15T03:03:44.701130+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52959&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:45.029594+09:00",
+      "responseSha256": "f4bc975b9f1088c7ad072bad34e6fde6ddc14058c7d81ff00d6b06a236bd50cb",
+      "rows": [
+        {
+          "number": "52959",
+          "title": "IRIS OUT('劇場版 チェンソーマン レゼ篇' OST)",
+          "artist": "米津玄師"
+        }
+      ],
+      "responseBytes": 49282
+    },
+    {
+      "rank": 9,
+      "songId": "jpop-playlist-米津玄師-iris-out-f940512a4c",
+      "titleOriginal": "IRIS OUT",
+      "artistOriginal": "米津玄師",
+      "provider": "ky",
+      "number": "57785",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57785",
+      "startedAt": "2026-10-15T03:03:45.035229+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57785",
+      "checkedAt": "2026-10-15T03:03:47.198363+09:00",
+      "responseSha256": "60c7c0532fd418d5e195b6b9db7b895cb828f9d68f43a318ae1fa8718575e834",
+      "rows": [
+        {
+          "number": "57785",
+          "title": "IRIS OUT (\"チェンソーマン レゼ篇\"OST)",
+          "artist": "米津玄師"
+        }
+      ],
+      "responseBytes": 47099
+    },
+    {
+      "rank": 10,
+      "songId": "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+      "titleOriginal": "JANE DOE",
+      "artistOriginal": "米津玄師，宇多田ヒカル",
+      "provider": "tj",
+      "number": "52972",
+      "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52972&strWord=Y",
+      "startedAt": "2026-10-15T03:03:47.037040+09:00",
+      "status": 200,
+      "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52972&strWord=Y",
+      "checkedAt": "2026-10-15T03:03:47.678068+09:00",
+      "responseSha256": "743d8711c14ae6f92b529aeb4b59c338f5ff422cd1bcc1b593f1579fba8520c6",
+      "rows": [
+        {
+          "number": "52972",
+          "title": "JANE DOE('劇場版 チェンソーマン レゼ篇' OST)",
+          "artist": "米津玄師 & 宇多田ヒカル"
+        }
+      ],
+      "responseBytes": 49303
+    },
+    {
+      "rank": 10,
+      "songId": "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+      "titleOriginal": "JANE DOE",
+      "artistOriginal": "米津玄師，宇多田ヒカル",
+      "provider": "ky",
+      "number": "57784",
+      "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57784",
+      "startedAt": "2026-10-15T03:03:47.204498+09:00",
+      "status": 200,
+      "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57784",
+      "checkedAt": "2026-10-15T03:03:50.023395+09:00",
+      "responseSha256": "53d9a05ca4f2c04e7c8383ba1415ddcb8f308c2ac674009d3265d7e22cf5a23a",
+      "rows": [
+        {
+          "number": "57784",
+          "title": "JANE DOE (\"チェンソーマン レゼ篇\"OST)",
+          "artist": "米津玄師、宇多田ヒカル"
+        }
+      ],
+      "responseBytes": 40642
+    }
+  ]
+}

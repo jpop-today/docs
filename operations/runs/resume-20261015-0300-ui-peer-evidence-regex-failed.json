@@ -1,0 +1,208 @@
+{
+  "reviewer": "/root/resume_0300_ui",
+  "reviewedAt": "2026-10-14T18:20:06.222405+00:00",
+  "baseEntries43Unchanged": true,
+  "newEntryCount": 20,
+  "uniqueNewPairs": 20,
+  "metadataParser": "independent regex scoped table/list metadata only; no raw HTML or lyrics in output",
+  "checks": [
+    {
+      "rank": 1,
+      "provider": "tj",
+      "number": "52788",
+      "bytes": 49213,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 1,
+      "provider": "ky",
+      "number": "57828",
+      "bytes": 48045,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 2,
+      "provider": "tj",
+      "number": "68058",
+      "bytes": 49234,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 2,
+      "provider": "ky",
+      "number": "44438",
+      "bytes": 50254,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 3,
+      "provider": "tj",
+      "number": "52988",
+      "bytes": 49222,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 3,
+      "provider": "ky",
+      "number": "57775",
+      "bytes": 52741,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 4,
+      "provider": "tj",
+      "number": "68553",
+      "bytes": 49252,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 4,
+      "provider": "ky",
+      "number": "44746",
+      "bytes": 50101,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 5,
+      "provider": "tj",
+      "number": "25246",
+      "bytes": 49290,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 5,
+      "provider": "ky",
+      "number": "41645",
+      "bytes": 45455,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 6,
+      "provider": "tj",
+      "number": "27762",
+      "bytes": 49242,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 6,
+      "provider": "ky",
+      "number": "43998",
+      "bytes": 47327,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 7,
+      "provider": "tj",
+      "number": "27527",
+      "bytes": 49255,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 7,
+      "provider": "ky",
+      "number": "43372",
+      "bytes": 50929,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 8,
+      "provider": "tj",
+      "number": "28822",
+      "bytes": 49268,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 8,
+      "provider": "ky",
+      "number": "44253",
+      "bytes": 46512,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 9,
+      "provider": "tj",
+      "number": "52959",
+      "bytes": 49282,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 9,
+      "provider": "ky",
+      "number": "57785",
+      "bytes": 47099,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 10,
+      "provider": "tj",
+      "number": "52972",
+      "bytes": 49303,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    },
+    {
+      "rank": 10,
+      "provider": "ky",
+      "number": "57784",
+      "bytes": 40642,
+      "rawHashMatch": true,
+      "independentMetadataMatch": false,
+      "passed": false
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/staging/legacy-catalog.json",
+      "unchanged": true,
+      "sha256": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3"
+    },
+    {
+      "path": "data/chart-snapshot.json",
+      "unchanged": true,
+      "sha256": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97"
+    },
+    {
+      "path": "src/styles/global.css",
+      "unchanged": true,
+      "sha256": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889"
+    }
+  ],
+  "passed": false
+}

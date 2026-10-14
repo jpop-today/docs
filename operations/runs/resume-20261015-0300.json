@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261015-0300",
+  "date": "2026-10-15",
+  "timezone": "Asia/Seoul",
+  "phase": "product_complete_publication_pending",
+  "recordedAt": "2026-10-14T18:04:25+00:00",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/6",
+  "spec": [
+    "DATA-001",
+    "CONTENT-001",
+    "SONG-001",
+    "SEO-001",
+    "DESIGN-001",
+    "HARNESS-001",
+    "RELEASE-001"
+  ],
+  "base": {
+    "source": "d17b9c8ad555cd97214c67b864a9c263be402186",
+    "docs": "78c91f42a01b10639c01463e84a7c2a427d503d1",
+    "organization": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+  },
+  "branch": "codex/6-reviewed-discovery-20261015",
+  "environment": {
+    "revision": "141",
+    "observationsCurrent": true,
+    "running": true,
+    "networkEnforced": true,
+    "cloudflareBindingsReady": true
+  },
+  "coordination": {
+    "visibleCollaboration": "root only before new spawn",
+    "sourceOpenPRs": 0,
+    "checkoutsClean": true,
+    "previousRun": "complete and remote handoff read",
+    "sidebarRead": "blocked: list_threads8second boundedtimeout",
+    "boundary": "Not a distributed lock; stop duplicate integration on remote changes/contention"
+  },
+  "workers": [
+    {
+      "id": "/root/resume_0300_evidence",
+      "role": "content-evidence",
+      "files": [
+        "data/reviewed/provider-corrections.json",
+        "docs/data/provider-review-20261015.md"
+      ]
+    },
+    {
+      "id": "/root/resume_0300_ui",
+      "role": "app-design",
+      "files": [
+        "src/pages/artists.astro",
+        "docs/engineering/artist-discovery-20261015.md"
+      ]
+    },
+    {
+      "id": "/root/resume_0300_quality",
+      "role": "harness-quality",
+      "files": [
+        "tests/confirmed-discovery.test.mjs",
+        "e2e/artists.spec.ts",
+        "docs/engineering/confirmed-discovery-harness-20261015.md"
+      ]
+    }
+  ],
+  "rootOnly": [
+    "Git",
+    "shared contracts/types",
+    "package/lockfile",
+    "CI",
+    "deployment",
+    "home/nav/publication/artifact checks",
+    "existing expected counts",
+    "spec/status/reports"
+  ],
+  "tieBreakOrder": [
+    "/root/resume_0300_ui",
+    "/root/resume_0300_evidence",
+    "/root/resume_0300_quality"
+  ],
+  "baseline": {
+    "productionSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+    "deploymentId": "693b37f6-dcb2-476a-aa8c-45869df45b8f",
+    "actualHttpPassed": true,
+    "actualHttpChecks": 25,
+    "actualHttpCheckedAt": "2026-10-14T17:59:39.284Z",
+    "automaticProduction": false,
+    "automaticPreview": "none"
+  },
+  "release": {
+    "version": "0.4.0",
+    "tag": "v0.4.0",
+    "sourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+    "annotatedTagSha": "83855a0c03344eb790b159f7a12ba39e905df342",
+    "tagTargetType": "commit",
+    "tagTargetSha": "fc54989e0540cdb5863388abd46660359da226a6",
+    "releaseId": 413261891,
+    "publishedAt": "2026-10-14T23:11:23Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.0",
+    "workflowRun": 38652398351,
+    "state": "published",
+    "verifiedAt": "2026-10-14T23:12:42.276289+00:00",
+    "scope": "Connected GitHub Release API and annotated tag object read; publishing is distinct from Google approval",
+    "notification": {
+      "state": "sent",
+      "sentAt": "2026-10-14T23:11:24.2220174Z",
+      "attempts": 1,
+      "workflowRun": 38652398351
+    }
+  },
+  "adsense": {
+    "accountState": "unknown",
+    "technicalStage": "preparing"
+  },
+  "automation": {
+    "daily09Enabled": true,
+    "hourlyEnabled": true,
+    "schedulesChanged": false,
+    "hourlyLastRun": "2026-10-14T22:58:26.575683+00:00"
+  },
+  "reviews": {
+    "count": 6,
+    "evidence": "resume-20261015-0300-reviews.json",
+    "supplementalReplacementAcceptances": 2
+  },
+  "localVerification": {
+    "unit": 286,
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "previewBrowserPassed": 22,
+    "previewBrowserSeconds": 34.3,
+    "previewArtifact": {
+      "html": 3335,
+      "files": 3345,
+      "index": 0,
+      "sourceSha": "d17b9c8ad555cd97214c67b864a9c263be402186",
+      "dirty": true
+    },
+    "browserReason": "Browser plugin not available; regular Playwright/systemChromium",
+    "providerRequests": 20,
+    "originalLedgerEntriesPreserved": 43,
+    "newConfirmEntries": 20,
+    "groupCount": 19,
+    "safeSongIDs": 20,
+    "safeNumbers": 38,
+    "productionLocal": {
+      "browserPassed": 22,
+      "browserSeconds": 28.6,
+      "html": 3335,
+      "files": 3345,
+      "indexed": 36
+    }
+  },
+  "failures": "LocalserverEPERM/first22 connectionrefused, firstproperpreview21/1 navigation assertionrace fixed→22PASS; UItemporaryraces andproviderrawsnippet incident preserved without lyrics",
+  "sourceCandidateSha": "371169387f1008becf40d94b4af5bf8db935c658",
+  "reviewsEvidence": "resume-20261015-0300-reviews.json",
+  "rotation": {
+    "state": "replacement_created",
+    "retired": "/root/resume_0300_ui",
+    "replacement": "/root/replacement_0300_release_gate",
+    "reason": "UI38/evidence38 allcriteria tie;quality39;predeclaredUI fallback",
+    "physicalDeletion": false,
+    "finalAudit": "accepted",
+    "supplementalReadOnlyAcceptances": 2
+  },
+  "notifications": {
+    "progress": {
+      "state": "sent",
+      "runId": 38614321457,
+      "sentAt": "2026-10-14T18:20:38.2688923Z",
+      "attempts": 1
+    },
+    "release": {
+      "state": "sent",
+      "sentAt": "2026-10-14T23:11:24.2220174Z",
+      "attempts": 1,
+      "workflowRun": 38652398351
+    },
+    "completed": {
+      "state": "pending_saved_report_publication",
+      "reportDate": "2026-10-15"
+    }
+  },
+  "resumedAt": "2026-10-14T23:02:03.238130+00:00",
+  "environmentRecheck": {
+    "revision": "164",
+    "current": true,
+    "running": true,
+    "networkEnforced": true,
+    "cloudflareBindingsReady": true
+  },
+  "sourcePR": {
+    "number": 19,
+    "url": "https://github.com/jpop-today/jpoptoday/pull/19",
+    "state": "merged",
+    "headSha": "371169387f1008becf40d94b4af5bf8db935c658",
+    "mergeSha": "fc54989e0540cdb5863388abd46660359da226a6",
+    "nativeAppAttachment": "unconfirmed bounded5secondtimeout"
+  },
+  "ci": {
+    "mainApp": 38615810402,
+    "mainContracts": 38615810204,
+    "state": "success"
+  },
+  "preview": {
+    "url": "https://af1270b9.jpoptoday-preview.pages.dev",
+    "deploymentId": "af1270b9-de08-468d-bc11-a5bdfe0d631c",
+    "sourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+    "httpPassed": true,
+    "httpChecks": 26,
+    "httpCheckedAt": "2026-10-14T18:34:40.836Z",
+    "remoteBrowserRun": 38651373960,
+    "remoteState": "success",
+    "noindex": true,
+    "ads": false,
+    "remoteBrowserPassed": 22
+  },
+  "interruption": {
+    "replacementAgent": "/root/replacement_0300_release_gate",
+    "failure": "actual usage-limit; preserved provisional audit and resumed same agent",
+    "newTeamsCreatedForRepeatedPrompts": false
+  },
+  "reproducibilityEvidence": "resume-20261015-0300-reproducibility.json",
+  "production": {
+    "deploymentId": "257762e0-8c20-456d-8c36-2e86f9dc3a89",
+    "sourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+    "createdOn": "2026-10-14T23:03:23.105795Z",
+    "actualHttpPassed": true,
+    "actualHttpChecks": 26,
+    "actualRollbackHttpPassed": true,
+    "actualRollbackSourceSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+    "actualRollbackChecks": 25,
+    "actualRestoreChecks": 26,
+    "actualRestoreHttpPassed": true,
+    "actualRestoreCheckedAt": "2026-10-14T23:05:21.859Z",
+    "actualRemoteBrowser": 22,
+    "verificationRun": 38651998879,
+    "verificationState": "success",
+    "deployMethod": "root managed cloud binding",
+    "actionsBindingsReady": false
+  },
+  "ciEvidence": "resume-20261015-0300-ci.json",
+  "productCompletedAt": "2026-10-14T23:11:23Z",
+  "remaining": [
+    "Issue6 safe metadata-only provider review harness and further unreviewed evidence",
+    "Original reviewed song/artist comparison content with actual sources, no guessed audio/difficulty/rights",
+    "Issue15 Actions CF binding operator setup and actual automated deployment; managed cloud deployment available",
+    "Google actual account/ownership/application/review unknown; operator identity/legal consent",
+    "Full metadata redistribution rights and actual contact handling not yet established"
+  ],
+  "updatedAt": "2026-10-14T23:20:31.781609+00:00",
+  "finalEnvironmentRecheck": {
+    "revision": "166",
+    "observationsCurrent": true,
+    "running": true,
+    "connected": true,
+    "networkEnforced": true,
+    "cloudflareBindingsReady": true,
+    "observedByManagerAt": "2026-10-14T23:20:31.781609+00:00"
+  }
+}

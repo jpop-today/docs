@@ -1,0 +1,21 @@
+{
+  "id": "af1270b9-de08-468d-bc11-a5bdfe0d631c",
+  "url": "https://af1270b9.jpoptoday-preview.pages.dev",
+  "environment": "production",
+  "created_on": "2026-10-14T18:33:02.377064Z",
+  "latest_stage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-14T18:33:05.127536Z",
+    "status": "success"
+  },
+  "deployment_trigger": {
+    "type": "ad_hoc",
+    "metadata": {
+      "branch": "main",
+      "commit_hash": "fc54989e0540cdb5863388abd46660359da226a6",
+      "commit_message": "Merge pull request #19 from jpop-today/codex/6-reviewed-discovery-20261015\r\n\r\n공식 번호 20개 대조와 가수별 확인곡 탐색",
+      "commit_dirty": false
+    }
+  }
+}

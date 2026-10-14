@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "requests": [
+    {
+      "url": "https://support.google.com/adsense/answer/10502938?hl=ko",
+      "startedAt": "2026-10-14T18:14:49.275392+00:00",
+      "status": 200,
+      "finalUrl": "https://support.google.com/adsense/answer/10502938?hl=ko",
+      "checkedAt": "2026-10-14T18:14:50.244679+00:00",
+      "sha256": "48bf5cba10f38db9373bd77a966bd0848297eacb75a1c32ab8027d4b76821d19"
+    },
+    {
+      "url": "https://support.google.com/adsense/answer/9724?hl=ko",
+      "startedAt": "2026-10-14T18:14:49.276113+00:00",
+      "status": 200,
+      "finalUrl": "https://support.google.com/adsense/answer/9724?hl=ko",
+      "checkedAt": "2026-10-14T18:14:50.059071+00:00",
+      "sha256": "6f9fe34623d048c6cb1f2f3336297f223d4e4bc6e7685a86fe777090878f3546"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=ko",
+      "startedAt": "2026-10-14T18:14:50.060459+00:00",
+      "status": 200,
+      "finalUrl": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=ko",
+      "checkedAt": "2026-10-14T18:14:50.938122+00:00",
+      "sha256": "a90b3b0f4660af94d4562372ea530a94bbd0dfeb4a4aaa937a3dce21914f06ae"
+    }
+  ],
+  "scope": "Public official policy HTTP/status/hash; actual account and AdSense review not inspected"
+}

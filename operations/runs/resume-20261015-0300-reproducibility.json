@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "sourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+  "checkedAt": "2026-10-14T23:00:46.139877+00:00",
+  "preview": {
+    "state": "passed",
+    "files": 3345,
+    "scope": "Two separate clean same-source frozen local builds, complete file-set and per-file bytes SHA256 equal"
+  },
+  "production": {
+    "state": "passed",
+    "files": 3345,
+    "scope": "Two separate clean same-source frozen local builds, complete file-set and per-file bytes SHA256 equal"
+  },
+  "ciArchiveComparison": {
+    "state": "blocked",
+    "attemptedTargets": [
+      "preview",
+      "production"
+    ],
+    "downloadExitCode": 1,
+    "http403Observed": false,
+    "reason": "Download command failed, precise diagnostic not yet classified; no rawstderr or signed URL printed/persisted",
+    "scope": "Full CI archive byte comparison not performed; sameSHA CI and frozen HTTP verification separate"
+  }
+}
