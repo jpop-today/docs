@@ -225,9 +225,13 @@
       "attempts": 1
     },
     "completed": {
-      "state": "pending_publication",
-      "date": "2026-10-14",
-      "reason": "Dispatch saved completed report after docs/report merge; actual dispatch time Oct15 KST will be recorded separately"
+      "state": "sent",
+      "runId": "38606569850",
+      "sentAt": "2026-10-14T17:25:55.1565783Z",
+      "attempts": 1,
+      "reportDate": "2026-10-14",
+      "sourceReportSha": "d17b9c8ad555cd97214c67b864a9c263be402186",
+      "evidence": "operations/runs/resume-20261014-2000-completed-discord.json"
     }
   },
   "automation": {
@@ -359,5 +363,20 @@
     "Issue6 unreviewed provider/title/artist/version evidence and original content",
     "Full metadata redistribution rights and real contact handling unknown",
     "Google account, ownership, application and actual review unknown; operator identity/legal consent steps"
-  ]
+  ],
+  "finalPublication": {
+    "recordedAt": "2026-10-14T17:28:24+00:00",
+    "docsPR": "https://github.com/jpop-today/docs/pull/8",
+    "docsSha": "6eeea94e2ba9c63c43c892a92d0d373230418b20",
+    "sourceReportPR": "https://github.com/jpop-today/jpoptoday/pull/18",
+    "sourceReportSha": "d17b9c8ad555cd97214c67b864a9c263be402186",
+    "sourceReportMainCI": {
+      "mainApp": 38606488602,
+      "mainContracts": 38606488938,
+      "state": "success"
+    },
+    "appTreeUnchanged": true,
+    "productSha": "67c7ee094afa9b0734a67bb56052a9b9be30c7a2",
+    "nativeAppAttachment": "blocked/unconfirmed as receipt; GitHub links available"
+  }
 }
