@@ -104,3 +104,9 @@ Cloudflare의 Git source metadata가 여전히 `kim75503/todayjpop/dev`라는 �
 | 광고 활성화 | 실제 광고 범위, 개인정보/CMP/동의·거부·철회, 모바일 오인 클릭 방지 검토 | 검색/개인 목록/미확인·빈 상세/404·preview는 기본 광고 제외. 실제 광고 자동클릭·인위적 노출 테스트 없음 |
 
 계정 정보가 아직 없다는 이유로 번호 정정·콘텐츠 개선·광고 없는 앱의 검증/PR/복구/운영 전환을 중단하지 않는다. 현재 계정 단계의 unknown과 기술적으로 독립적인 배포 게이트를 분리해 보고한다.
+
+## 통합 전 두 동료의 후속 수용 확인
+
+자료 담당 resume_20261014_evidence와 하네스 담당 resume_20261014_harness가 최종 문서·frozen 두 target·실제 HTTP/복구 JSON을 읽기 전용으로 대조했다. 두 담당 모두 차단 사실 오류나 기술 통과와 권리/Google 계정 unknown의 혼동을 발견하지 않았으며 링크15개 존재를 확인했다. 하네스 담당은 연결된 GitHub8읽기로 같은M CI/skip/verify-only/Release를 독립 확인했다. 이 후속 확인은 기존3명6개 ranking·교체 뒤의replacement 산출물 수용 검사이며 새 순위나 교체를 만들지 않았다.
+
+표의 ledger/chart hash는 build-info와 같은 JSON.parse 후 JSON.stringify 결과의 SHA-256이다. 예를 들어 ledger pretty-JSON 파일 바이트 hash afc086…와 semantic hash0644fc…가 다른 것은 형식 차이이며 검증한 행이 달라진 것이 아니다. 공개 catalog hash는 실제 catalog.json bytes를 기준으로 한다.
