@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261016-0400",
+  "date": "2026-10-16",
+  "timezone": "Asia/Seoul",
+  "startedAt": "2026-10-15T19:05:10.169481+00:00",
+  "phase": "in_progress",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/27",
+  "parentIssue": 6,
+  "spec": [
+    "DATA-001",
+    "CONTENT-001",
+    "SEO-001",
+    "DESIGN-001",
+    "HARNESS-001",
+    "RELEASE-001"
+  ],
+  "base": {
+    "source": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+    "docs": "5d1964dfeacdad5c6b2c81d2522ce3aadb83de05",
+    "organization": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+  },
+  "branch": "codex/27-chart-confirmed-20261016",
+  "environment": {
+    "revision": "263",
+    "current": true,
+    "running": true,
+    "network": "unrestricted/enforced",
+    "cloudflareBindingsReady": true
+  },
+  "coordination": {
+    "existingV042RunCompleted": "docsPR15/5d1964d; Issue24closed; existingcompletedDiscordverified/notresent",
+    "sourcePRs": 0,
+    "docsPRs": "only historical1",
+    "oldPendingUI": "interrupted previouspending_init forhandoff",
+    "newIndependentScope": true,
+    "threadTool": "previousdesktoplookupstimeouts/unconfirmed; no distributedlockclaim",
+    "cleanBeforeStart": true
+  },
+  "baseline": {
+    "productionDeployment": "630c12d8-341a-4ad0-b406-43e36eefd4b2",
+    "productSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+    "automaticProduction": false,
+    "automaticPreview": "none",
+    "sourceMetadata": "kim75503/todayjpop/dev",
+    "actualHTTPState": "metadata/home/sitemap allExpected true"
+  },
+  "original71CanonicalSha256": "35487404af46c08e2bf0471e0bf05fff088c0545b69639a57d9c928390797689",
+  "workers": [
+    {
+      "id": "/root/resume04_evidence",
+      "role": "content-evidence",
+      "files": [
+        "jpoptoday/data/reviewed/provider-corrections.json",
+        "docs/data/provider-review-20261016-0400.md",
+        "docs/data/provider-review-requests-20261016-0400.json"
+      ]
+    },
+    {
+      "id": "/root/resume04_app",
+      "role": "app-design",
+      "files": [
+        "jpoptoday/src/pages/chart.astro",
+        "docs/engineering/chart-confirmed-navigation-20261016-0400.md"
+      ]
+    },
+    {
+      "id": "/root/resume04_quality",
+      "role": "harness-quality",
+      "files": [
+        "jpoptoday/tests/reviewed-chart-cohort0400.test.mjs",
+        "jpoptoday/e2e/chart-confirmed-navigation.spec.ts",
+        "docs/engineering/chart-confirmed-quality-20261016-0400.md"
+      ]
+    }
+  ],
+  "tieBreakOrder": [
+    "app",
+    "evidence",
+    "quality"
+  ],
+  "rootOnly": [
+    "Git",
+    "package/lockfile",
+    "CI/deploy",
+    "commonfiles/spec/status/reports"
+  ],
+  "acceptance": [
+    "Preserve old71 entirety/order, frozen inputs3317IDs/URLs/storage/unknown/brand",
+    "Actualofficial8request metadata/candidate + separate editorialdecision; never fabricatechecks/rights",
+    "SSR provider-safe chartuniqueIDs/union/0meaning + frozen100/ranks preserved",
+    "360JSoff/keyboard/brand/noads/previewnoindex and independentcatalogexpectations",
+    "sameSHA CI/actualpreview/reproducibility/actualrollbackrestore/production beforeRelease"
+  ],
+  "adsense": {
+    "technicalStage": "preparing",
+    "accountReview": "unknown"
+  },
+  "workersActuallyCreated": true,
+  "updatedAt": "2026-10-15T23:11:13.669503+00:00",
+  "notifications": {
+    "start": {
+      "id": 38791277084,
+      "workflow": "discord.yml",
+      "mode": "message",
+      "state": "sent",
+      "sentAt": "2026-10-15T19:07:25.9337429Z",
+      "attempts": 1,
+      "sourceSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38791277084",
+      "scope": "Actual selected sender line; new Issue27 start/handoff, not repeat Issue24 completed report"
+    }
+  },
+  "cohort": {
+    "requests": 8,
+    "HTTP200": 8,
+    "confirm": 6,
+    "defer": 2,
+    "ledgerEntries": 77,
+    "old71Preserved": true,
+    "evidence": "resume-20261016-0400-evidence-audit.json"
+  },
+  "localUnit": {
+    "passed": 314,
+    "failed": 0,
+    "skipped": 0,
+    "durationMs": 14489.143116,
+    "command": "node --test --test-isolation=none tests/*.test.mjs"
+  },
+  "localType": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "uiCorrection": {
+    "firstActualVisualDefect": "360px originalchart providerlabel/number/badge overlap and verticalbadge",
+    "rootAndQualityViewed": true,
+    "ownerScopedCSSFixFrozen": true,
+    "status": "actualfinal2UI accepted rootviewed correctedmobile and desktop; fullpreview28 pass",
+    "initialQAInteractionPassNotFinalVisualAcceptance": true
+  },
+  "interruption": {
+    "resumedAtObserved": "2026-10-15T23:04:38Z",
+    "resumedKST": "2026-10-16 08:04:38",
+    "environmentRevision": "291",
+    "actualGitHubMain": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+    "actualProduction": "630c12d8/source3db781b; automaticfalse/none",
+    "sameExistingWorkersFollowedUp": true,
+    "newWorkers": false,
+    "sourceUncommittedPreserved": true,
+    "reasonOfSamplingGap": "not independently established; repeatedhourlyprompts/timeobserved, no tokenreset detection or24h claim"
+  },
+  "uiQA": "resume-20261016-0400-ui-qa.json",
+  "localPreviewBrowser": {
+    "passed": 28,
+    "seconds": 50.3,
+    "sourceScope": "dirty local sourceR + finalCSS + JSONcollectionfix; not remoteCI/production"
+  },
+  "localPreviewArtifact": {
+    "files": 3347,
+    "html": 3336,
+    "index": 0,
+    "sourceSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+    "dirty": true
+  },
+  "sourceFrozenByOwners": true,
+  "localProduction": {
+    "files": 3347,
+    "html": 3336,
+    "index": 45,
+    "browser": "passed local dirty production",
+    "sourceScope": "dirtylocal; no deployment",
+    "browserPassed": 28,
+    "browserSeconds": 50.5
+  },
+  "reviewState": "sixactualreviews_read/tiepolicy/actualreplacement",
+  "reviewsEvidence": "resume-20261016-0400-reviews.json",
+  "rotation": {
+    "allSixActualReviewsRead": true,
+    "totals": {
+      "/root/resume04_evidence": 40,
+      "/root/resume04_app": 40,
+      "/root/resume04_quality": 40
+    },
+    "criterionSums": {
+      "/root/resume04_evidence": {
+        "correctness": 10,
+        "evidence": 10,
+        "value": 10,
+        "maintainability": 10
+      },
+      "/root/resume04_app": {
+        "correctness": 10,
+        "evidence": 10,
+        "value": 10,
+        "maintainability": 10
+      },
+      "/root/resume04_quality": {
+        "correctness": 10,
+        "evidence": 10,
+        "value": 10,
+        "maintainability": 10
+      }
+    },
+    "unit": 314,
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "previewBrowser": 28,
+    "productionBrowser": 28,
+    "uiRootViewed": [
+      "corrected mobile-anchor",
+      "desktop-summary",
+      "beforefix mobile-anchor"
+    ],
+    "tieBreakUsed": true,
+    "tieBreakReason": "All40 and every criterion sum10 tied. Predetermined run.tieBreakOrder app/evidence/quality selects app. No lowerquality assertion, fabricated deduction, quantity/verbosity ranking.",
+    "selectedForRotation": "/root/resume04_app",
+    "physicalDeletion": false,
+    "rotationState": "replacement_created",
+    "recordedAt": "2026-10-15T23:13:12.712Z",
+    "retired": "/root/resume04_app",
+    "previousInterruptState": "completed",
+    "replacement": "/root/replacement04_gate",
+    "replacementScope": "docs/operations/production-content-gate-v043-20261016.md",
+    "activeRoster": [
+      "/root/resume04_evidence",
+      "/root/resume04_quality",
+      "/root/replacement04_gate"
+    ],
+    "rotatedAt": "2026-10-15T23:13:49.641416+00:00"
+  },
+  "sourcePR": {
+    "number": 28,
+    "url": "https://github.com/jpop-today/jpoptoday/pull/28",
+    "headSha": "eb4a70763f9c9c1bc9e0fde6d2cd703aafdb3d3e",
+    "state": "open",
+    "nativeAttachment": "5s timeout/unconfirmed",
+    "issueClosure": "Refs27; keep open until actualdeployment/reportcompletion"
+  },
+  "ciEvidence": "resume-20261016-0400-ci.json"
+}

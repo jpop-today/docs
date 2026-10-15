@@ -86,3 +86,9 @@ CONTENT-001/SEO-001/DESIGN-001: `/guides/title-artist-variants/`는 기존 실�
 DATA-001/CONTENT-001/SEO-001/DESIGN-001: 동결차트11~14위현재playlist4ID의TJ/KY관측8번호를공식metadata-only로실제조회하고원문제목·가수·버전을대조한근거만ledger에append한다. 기존63항목/원본입력·stableID·URL/storage·unknown을보존한다. 실패/불명은confirm하지않는다.
 
 `/artists/`는global과각가수바로가기/그룹에서TJ·금영의공식확인곡수를정적표시한다. 업체별각ID한번,전체확인곡수는합집합이며TJ+금영단순합이아니다.0은공식미수록을뜻하지않는다.기존anchor/명칭·공식근거/checkedAt·원문그룹/공동명의분리·JSoff/360px/키보드·브랜드/preview전체noindex와무광고를유지한다.독립실자료계산/실제근거·두target동결재현/sameSHA CI·실제복구/원격운영을수용한다.
+
+## 차트의 업체별 공식 확인곡 탐색 · Issue27 (2026-10-16)
+
+DATA-001/CONTENT-001/SEO-001/DESIGN-001: 동결차트15~18위현재playlist4ID의관측TJ/KY8번호는metadata-only실제공식조회/원문제목·가수·버전대조에서근거가확보된것만기존71ledger끝에추가한다.원71전체/순서·staging/chart/3317ID/URL/storage/unknown과실패lastgood를보존하고실패/불명은confirm하지않는다.
+
+`/chart/`의100곡/원래순위/동결기간·수집시각·요청기간경계를유지한다.업체별공식확인곡수와순위순바로가기는기존confirmedNumbers의current/playlist·provider-confirmed·conflictfalse·공식numericURL/실제근거조건에서고유ID로계산한다.전체는합집합이며0은미수록아니다.새안정ID기반anchor로원래차트행/기존상세로이동하고SSR/360pxJSoff/키보드·원래blue→pink/pinkmintblue·광고없음/preview전체noindex를검증한다.관측값으로확인을추정하거나새로운최신차트/권리/Google승인을만들지않는다.독립실자료계산·동결전체재현·같은SHA CI/실제preview/실제복구·운영을수용한다.

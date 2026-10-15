@@ -1,0 +1,11 @@
+{
+  "id": 38791277084,
+  "workflow": "discord.yml",
+  "mode": "message",
+  "state": "sent",
+  "sentAt": "2026-10-15T19:07:25.9337429Z",
+  "attempts": 1,
+  "sourceSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38791277084",
+  "scope": "Actual selected sender line; new Issue27 start/handoff, not repeat Issue24 completed report"
+}
