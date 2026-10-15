@@ -6,7 +6,7 @@
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
   "enabled": true,
   "registeredAt": "2026-10-13T06:17:18.885914+00:00",
-  "observedAt": "2026-10-15T10:14:50.952Z",
+  "observedAt": "2026-10-15T13:04:16.677Z",
   "lastRunTime": "2026-10-14T23:58:49.673277+00:00",
   "nextRunTime": null,
   "firstRunObserved": true,
@@ -21,7 +21,7 @@
     "timezone": "Asia/Seoul",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
     "registeredAt": "2026-10-14T05:18:22.991454Z",
-    "lastRunTime": "2026-10-15T10:04:10.877338+00:00",
+    "lastRunTime": "2026-10-15T12:58:28.231709+00:00",
     "nextRunTime": null,
     "firstRunObserved": true,
     "purpose": "미완료 작업 재개 점검, 진행중 중복skip, 변화없음quiet",
@@ -51,6 +51,12 @@
       "dailyLastRunTime": "2026-10-14T23:58:49.673277+00:00",
       "hourlyLastRunTime": "2026-10-15T10:04:10.877338+00:00",
       "evidence": "Actual automations_peek: bothenabled, exactoriginal schedulesunchanged; Oct15 userpause andexplicitresumeupdates preserved below"
+    },
+    {
+      "observedAt": "2026-10-15T13:04:16.677Z",
+      "dailyLastRunTime": "2026-10-14T23:58:49.673277+00:00",
+      "hourlyLastRunTime": "2026-10-15T12:58:28.231709+00:00",
+      "evidence": "Actual finalpeek original09/hourlyenabled/schedulesunchanged. Repeatedhourly coalesced into sameunfinisheddaily15run, no newteam."
     }
   ],
   "lastCheck": "Actualpeek: daily09/hourlyenabled; schedulesunchanged. last_run_time is an observation, not exacttrigger/24h/tokenreset guarantee.",

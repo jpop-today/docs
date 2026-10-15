@@ -2,11 +2,11 @@
 
 갱신: 2026-10-15 KST. 최신 제품은 **v0.4.1 / source M `d7cf8cb522da936450c9a08864abc99722f2f544` / 실제 todayjpop·jpop.today `ebd045fa-e409-4306-9621-0858f391dee5`**다. [PR22](https://github.com/jpop-today/jpoptoday/pull/22) 병합 뒤 기존 개인 Gitmetadata/dev·자동false/none과 실제API/HTTP를 확인하고 관리자cloud binding으로 반영했다. ActionsCFbindings는 새verify-only38718667044에서도missing/deployskip이며 실제자동배포성공을주장하지않는다.
 
-Issue20의metadata-only공식번호조회/실패보존·자체표기비교가이드를완료했다. 307unit/type0·local24/24·sameMremote24/24·각3346files3336HTML/0·37index·완전로컬재현·실제old26→new27복구/재복원최종PASS와v0.4.1게시를확인했다. 앞선복구혼합응답/Python관측오류/immutable403·사용량/사용자일시정지·실제6peer39/39/38과품질교체를보존한다. [릴리스기록](releases/v0.4.1-20261015.md), [일일누적기록](daily/2026-10-15.json), [run](runs/daily-20261015-0900.json), [교체감사](production-content-gate-v041-20261015.md)가현재인계다. 문서/저장완료보고원격발행은후속영수증과구분한다.
+Issue20의metadata-only공식번호조회/실패보존·자체표기비교가이드를완료했다. 307unit/type0·local24/24·sameMremote24/24·각3346files3336HTML/0·37index·완전로컬재현·실제old26→new27복구/재복원최종PASS와v0.4.1게시를확인했다. 앞선복구혼합응답/Python관측오류/immutable403·사용량/사용자일시정지·실제6peer39/39/38과품질교체를보존한다. [릴리스기록](releases/v0.4.1-20261015.md), [일일누적기록](daily/2026-10-15.json), [run](runs/daily-20261015-0900.json), [교체감사](production-content-gate-v041-20261015.md)가현재인계다. 문서PR12·보고PR23을병합하고관리자완료Discord actualsent1attempt까지확인했다. [송신영수증](runs/daily-20261015-0900-completed-discord.json)과[보고SHA증거](runs/daily-20261015-0900-source-report.json)가송신후상태다. 제품/tagM과보고mainR은reports두파일만다르다.
 
 기존ledger/staging/chart/3317ID·번호문자열·URL/localStorage·unknown구분·blue#4f7cff→pink#ff7aa8/pinkmintblue를유지했다. 전체자료권리/실제문의수신과Google계정·소유권·신청·실제심사는unknown, 기술준비preparing이다. 원래09시/hourly예약은명시적재개뒤enabled·일정불변이다. 미검토공식근거·자체콘텐츠·Actions설정을계속하며이번run완료가오늘전체개발종료나승인을뜻하지않는다.
 
-## Issue#6 · v0.4.0 실제 운영과 다음 자료·콘텐츠 작업
+## Issue#6 · v0.4.0 완료 이력
 
 [PR19](https://github.com/jpop-today/jpoptoday/pull/19) merged/product M `fc54989e0540cdb5863388abd46660359da226a6`, 실제todayjpop/jpop.today257762e0·전용previewaf1270b9. 공식20번호추가·가수원문19표기/20곡ID/38안전번호정적탐색을반영했다. 원본43ledger/staging/chart/3317ID/URL/storage/gradient·unknown구분보존. sameM CI/원격preview22·production22, 이전v0.3.1 actualrollback25→newMrestore26, 두target3345files/3335HTML/0·36index·완전로컬재현PASS. [v0.4.0](https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.0)는08:11:23KST actualpublished이며AdSense승인과별개다.
 
@@ -126,7 +126,7 @@ Issue20의metadata-only공식번호조회/실패보존·자체표기비교가이
 
 전용 preview 프로젝트의 실제 rollback을 실행했다: second32e9c9c7-73f9-43ff-9b47-f6ad8f98bf3c → first363bb785-5d9f-43af-955e-452c153fdd1e. 둘 다 동일 source279cc3e4ca823157c733f2ccdc726bfd01cd2f70의 성공 artifact다. Pages POST rollback과 이후 GET canonical deployment 일치를 확인했다([실행 JSON](releases/preview-rollback-20261013.json)). 기존 jpop.today 프로젝트/도메인/source를 변경하지 않았으며 그 프로젝트의 rollback 실행·권한으로 확대하지 않는다.
 
-## 최신 확정 인계
+## 초기 미리보기 인계 이력 · 2026-10-13
 
 [미리보기 릴리스](releases/preview-20261013.md)가 최종 구현·CI·원격10브라우저·HTTP15·실제preview rollback·남은 작업의 기준이다. 소스PR#8 병합으로 main6cbdcc3f63132b9abe948a5edfe67727aec9fe03, 배포 앱 source279cc3e4ca823157c733f2ccdc726bfd01cd2f70을 각각 기록한다. workflow head8a6eee1의 push/PRapp/Node22계약은 success, 실제 배포source279의 remote10은 [run38352601980](https://github.com/jpop-today/jpoptoday/actions/runs/38352601980) success다. stable https://jpoptoday-preview.pages.dev 복구 후HTTP15 PASS. 현재 app/data/public/scripts/lockfile은 배포source279와 main의 Git tree 차이가 없음을 확인했다. main merge 자체의 CI는 별도자동실행이므로 위 source/head 결과로 대신하지 않는다.
 

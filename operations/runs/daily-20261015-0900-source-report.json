@@ -1,0 +1,13 @@
+{
+  "pr": "https://github.com/jpop-today/jpoptoday/pull/23",
+  "headSha": "581fe7df04e10157820529833d498719589c780a",
+  "mergeSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+  "productSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "changedPaths": [
+    "reports/daily/2026-10-15.json",
+    "reports/runs/resume-20261015-0300.json"
+  ],
+  "productTreeEqualsReleaseExcludingReports": true,
+  "nativeAttachment": "5secondtimeout_unconfirmed; ordinaryGitHublinkreviewable",
+  "scope": "Actual gitdiff; source committed JSON is historical pre-dispatch snapshot. This docs receipt records actual post-dispatch delivery."
+}
