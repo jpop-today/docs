@@ -1,0 +1,8 @@
+{
+  "workflowRun": 38716896850,
+  "state": "sent",
+  "sentAt": "2026-10-15T09:58:42.5200902Z",
+  "attempts": 1,
+  "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "scope": "Actual selected sender line; no rawlog/secret retained"
+}

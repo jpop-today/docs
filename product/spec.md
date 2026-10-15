@@ -72,3 +72,11 @@ preview는모두noindex/광고없음,production은홈·검토가이드/안내·�
 `/artists/`는 검토 근거가 있는 current/playlist 곡을 관리자료의 `artistOriginal` 정확한 문자열별로 묶는 정적 진입점이다. 별칭·공동명의를 추정해 합치지 않으며 가수 약력/난이도/권리/추천을 생성하지 않는다. 번호는provider-confirmed·공식numeric URL/실제시각·문자열번호·conflict:false인 업체만 표시한다. observed/unknown/archived/chart-only는확인곡으로포장하지않는다. 가수anchor는정확한원문에서결정해재정렬/다른곡추가로바뀌지않으며곡URL·storageID는원본대로다. 개별가수thinpage는만들지않는다.
 
 CONTENT-001/SONG-001/SEO-001/DESIGN-001: 홈/메뉴→가수별확인곡→원문제목·가수·업체근거→기존곡상세와저장. JS-off/360px/키보드 및 preview전체noindex/무광고와production검토경로만색인, trustedprojection의schema/출처검증·비공개자료404·frozenbuild/sameSHA CI/실제복구·origin본문을수용한다. 공식조회실패는관측값을unknown으로일괄변경하지않고마지막정상자료를유지한다. 실제반증이있는경우만ledger suppress하며실조회증거를기록한다.
+
+## 안전한 공식 번호 조회·표기 비교 계약 · Issue20 (2026-10-15)
+
+DATA-001/HARNESS-001: `scripts/provider-metadata.py`는 TJ/KY 공식 numeric 검색의 번호·제목·가수 셀만 추출한다. 엄격 UTF-8/2MiB 상한·일치하는 단일 결과·공식 요청/최종 URL·HTTP200·제한된 timeout을 검증하고 안전한 오류 code만 출력한다. `parse_metadata(body, provider, number)`는 number/title/artist만 반환하며 offline parse가 실제 source/checkedAt/검토 성공을 만들지 않는다. `fetch_metadata`의 실제 성공만 응답 hash/바이트/실제 조회시각과 unreviewed candidate를 기록한다. 추출은 사람의 제목·가수·버전 검토/ledger confirm을 대신하지 않는다. 원문 가사/응답/주변문맥/시크릿/서명URL은 로그·출력·공개artifact에 남기지 않는다.
+
+수집 결과는 별도 새 candidate 파일에 exclusive/atomic하게 게시하며 기존 reviewed ledger/staging/chart/마지막 정상 snapshot을 수정하지 않는다. 기존 경로·symlink·쓰기/수집/부분파싱 실패는 보존하고 실패로 반환한다. 합성 fixture만 회귀에 사용하며 실제 가사를 fixture로 복사하지 않는다. 문자열 번호/선행0·ID/URL/storage·unknown/미수록 구분은 유지한다.
+
+CONTENT-001/SEO-001/DESIGN-001: `/guides/title-artist-variants/`는 기존 실제 공식 대조(2026-10-15 03시 기록)의 SPYAIR·JANE DOE 표기 사례로 제목/가수/공동명의·업체·버전을 함께 확인하는 자체 가이드다. 구두점만으로 자동 동치/다른곡을 단정하지 않고 정확한 기존 원문·공식URL/actual checkedAt를 표시하며 새 조회나 권리/음원·난이도/추천·심사 결과를 만들지 않는다. 기존5가이드의 본문/확인일·URL을 보존하고 새6번째만 실제 편집일을 기록한다. JS-off/360px/키보드·무광고/preview noindex·production 검토경로와정확한sitemap·동일SHA CI/복구/실운영 본문검사를 수용한다.

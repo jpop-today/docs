@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-15T10:21:38.856075+00:00",
+  "changedFilesAtCheck": 65,
+  "parsedJSON": 50,
+  "relativeLinks": 134,
+  "missingLinks": 0,
+  "secretPatternMatches": 0,
+  "reportCompleteSchema": "passed",
+  "discordPayloadFields": 6,
+  "nextMorning": "2026-10-16",
+  "previousDayIncludesV041": true,
+  "teamTotals": {
+    "evidence": 39,
+    "app": 39,
+    "quality": 38
+  },
+  "scope": "Local docs relative-link/JSON/secretpattern and actual existing report/payload contracts. Not remote delivery.",
+  "existingReportTests": {
+    "passed": 5,
+    "failed": 0,
+    "command": "node --test tests/report.test.mjs tests/report-cli.test.mjs",
+    "durationMs": 232.070699
+  }
+}

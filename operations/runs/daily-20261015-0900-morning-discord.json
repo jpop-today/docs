@@ -1,0 +1,11 @@
+{
+  "runId": 38658023982,
+  "workflow": "discord.yml",
+  "mode": "message",
+  "state": "sent",
+  "sentAt": "2026-10-15T00:05:57.0270944Z",
+  "attempts": 1,
+  "sha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0",
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38658023982",
+  "checkedAt": "2026-10-15T00:07:45.384515+00:00"
+}

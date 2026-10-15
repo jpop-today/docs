@@ -1,6 +1,10 @@
 # 실행 상태
 
-갱신일: 2026-10-15 KST. 제품 v0.4.0을10월15일08:11KST 실제운영·복구·릴리스까지완료했고문서PR10·보고PR21을병합하고완료Discord08:25:22KST actualsent1attempt까지확인했다. 문서·검증·원격 전달·병합·운영 배포·AdSense를 구분한다.
+갱신: 2026-10-15 KST. 최신 제품은 **v0.4.1 / source M `d7cf8cb522da936450c9a08864abc99722f2f544` / 실제 todayjpop·jpop.today `ebd045fa-e409-4306-9621-0858f391dee5`**다. [PR22](https://github.com/jpop-today/jpoptoday/pull/22) 병합 뒤 기존 개인 Gitmetadata/dev·자동false/none과 실제API/HTTP를 확인하고 관리자cloud binding으로 반영했다. ActionsCFbindings는 새verify-only38718667044에서도missing/deployskip이며 실제자동배포성공을주장하지않는다.
+
+Issue20의metadata-only공식번호조회/실패보존·자체표기비교가이드를완료했다. 307unit/type0·local24/24·sameMremote24/24·각3346files3336HTML/0·37index·완전로컬재현·실제old26→new27복구/재복원최종PASS와v0.4.1게시를확인했다. 앞선복구혼합응답/Python관측오류/immutable403·사용량/사용자일시정지·실제6peer39/39/38과품질교체를보존한다. [릴리스기록](releases/v0.4.1-20261015.md), [일일누적기록](daily/2026-10-15.json), [run](runs/daily-20261015-0900.json), [교체감사](production-content-gate-v041-20261015.md)가현재인계다. 문서/저장완료보고원격발행은후속영수증과구분한다.
+
+기존ledger/staging/chart/3317ID·번호문자열·URL/localStorage·unknown구분·blue#4f7cff→pink#ff7aa8/pinkmintblue를유지했다. 전체자료권리/실제문의수신과Google계정·소유권·신청·실제심사는unknown, 기술준비preparing이다. 원래09시/hourly예약은명시적재개뒤enabled·일정불변이다. 미검토공식근거·자체콘텐츠·Actions설정을계속하며이번run완료가오늘전체개발종료나승인을뜻하지않는다.
 
 ## Issue#6 · v0.4.0 실제 운영과 다음 자료·콘텐츠 작업
 

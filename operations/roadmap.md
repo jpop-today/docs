@@ -37,12 +37,12 @@ GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 �
 
 [jpoptoday#9](https://github.com/jpop-today/jpoptoday/issues/9): 실제 Codex 일일예약 등록, source Discord 보고·오전cron·버전릴리스, 원본그라데이션 복원, 새3명·총6개동료리뷰·교체 이력을 [일일기록](daily/2026-10-13.md)에 남긴다. 다음날 우선목표는 Issue#6 correction ledger/reviewed overlay와 운영콘텐츠·색인 게이트다. 새로운 실행은 최신원격기록·CI·release·CF환경부터 재확인한다.
 
-## v0.4.0 이후 실제 우선 작업
+## v0.4.1 이후 실제 우선 작업
 
 [jpoptoday#13](https://github.com/jpop-today/jpoptoday/issues/13)의43근거정정·차트100stableID·기존jpop.today sameSHA전환/실제복구·remote14와v0.3.0은[실행증거](releases/v0.3.0-20261014.md)를기준으로완료한다. 전체카탈로그검증이나AdSense승인은아니다.
 
 1. [jpoptoday#15](https://github.com/jpop-today/jpoptoday/issues/15): healthcheck 하네스/70회귀·실제25HTTP·복구/복원·sameM CI/remote19·v0.3.1은 [완료 증거](releases/v0.3.1-20261014.md)를 따른다. 남은 CF Actionsbindings 설정과 실제 자동배포 경로 확인은 안전한 운영자 설정 경로로 인계한다. root managed cloud 배포·독립 개발은 가능하다.
-2. Issue#6 자료보강: [v0.4.0](releases/v0.4.0-20261015.md)의공식20번호·가수별확인곡/실제운영·복구·remote22까지완료했다. 다음은raw주변출력없이번호/제목/가수만추출하는안전한수집/검증하네스와그실패때lastgood보존을먼저구현하고, 아직미검토곡의공식제목/가수/버전별근거를대조한다. 틀린값/판단보류/미확보를구분한다. 튜링러브KY는참번호미확보unknown 유지. 전체등록/권리허락을임의선언하지않는다.
+2. Issue#6 자료보강: [v0.4.0](releases/v0.4.0-20261015.md)의공식20번호·가수별확인곡/실제운영·복구·remote22까지완료했다. [Issue20](https://github.com/jpop-today/jpoptoday/issues/20)의안전추출/실패보존·표기비교가이드는[v0.4.1](releases/v0.4.1-20261015.md)로실제운영·복구·remote24/24·Release까지완료했다. 다음은새도구로아직미검토곡의공식제목/가수/버전별근거를대조하고실제자체비교본문을보강한다. 긴JS내Python검사문자열의안전한helper분리는비차단유지보수후속이다. 틀린값/판단보류/미확보를구분한다. 튜링러브KY는참번호미확보unknown 유지. 전체등록/권리허락을임의선언하지않는다.
 3. 검토된번호와실제사용흐름을기반으로독창적인곡·가이드/가수비교본문을확대하고정정사례의문서/ledger동기화와모바일사용성을검증한다. 페이지수나변경량을심사보장기준으로쓰지않는다.
 4. Google계정실제상태·소유권과Search Console/심사증거는operator입력을확인해기록한다. 광고/CMP/ads.txt/계정본인정보/법적동의는실제상태와provider공식절차에맞춰별도준비한다. 무광고운영전환/기술개선을계정unknown 때문에멈추지않는다.
 

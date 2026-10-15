@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "runId": "daily-20261015-0900",
+  "scope": "Actual two bounded metadata-only requests; candidates unreviewed, not ledger updates or new guide sources. No rawHTML retained.",
+  "results": [
+    {
+      "provider": "tj",
+      "number": "27527",
+      "startedAt": "2026-10-15T00:11:57.646363+00:00",
+      "returnCode": 0,
+      "scriptSha256": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+      "rawOutputRetained": false,
+      "candidate": {
+        "artist": "SPYAIR",
+        "checkedAt": "2026-10-15T00:11:59.598676Z",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27527&strWord=Y",
+        "number": "27527",
+        "provider": "tj",
+        "responseBytes": 49255,
+        "responseSha256": "bdc1fa3aa3402eeecdcd10e730d3689ff011a86cc9e3d1823c4c26d0c4eb3838",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "サムライハート (Some Like it Hot)(銀魂 ED)",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27527&strWord=Y",
+        "verification": "unreviewed"
+      }
+    },
+    {
+      "provider": "ky",
+      "number": "43372",
+      "startedAt": "2026-10-15T00:11:59.621214+00:00",
+      "returnCode": 0,
+      "scriptSha256": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+      "rawOutputRetained": false,
+      "candidate": {
+        "artist": "SPYAIR",
+        "checkedAt": "2026-10-15T00:12:03.356362Z",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43372",
+        "number": "43372",
+        "provider": "ky",
+        "responseBytes": 50929,
+        "responseSha256": "a9cf41213631b8f3e5abad6d051cde81f4b2c7510346595ebb227d5bf81545cf",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "サムライハート (Some Like It Hot!!) (\"銀魂\"ED)",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43372",
+        "verification": "unreviewed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "run": "daily-20261015-0900",
+  "worker": "/root/daily15_ui",
+  "startedAt": "2026-10-15T00:11:04.127Z",
+  "origin": "http://127.0.0.1:4321",
+  "target": "local preview dirty working tree",
+  "browser": "Browser plugin not available; existing Playwright with /usr/bin/chromium",
+  "flow": "/guides/ -> focus new guide link + Enter -> exact guide route/body/sources -> focus 문의와 정정 + Enter -> /contact/",
+  "providerFetches": 0,
+  "viewports": [],
+  "passed": false,
+  "failure": {
+    "name": "Error",
+    "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('meta[name=\"robots\"]')\nExpected: \"noindex, nofollow\"\nReceived: \"noindex, follow\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('meta[name=\"robots\"]') with timeout 5000ms\n  - waiting for locator('meta[name=\"robots\"]')\n    14 × locator resolved to <meta name=\"robots\" content=\"noindex, follow\"/>\n       - unexpected value \"noindex, follow\"\n"
+  },
+  "finishedAt": "2026-10-15T00:11:11.096Z"
+}

@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "url": "https://jpop.today",
+  "sourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+  "target": "production",
+  "catalogSha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51",
+  "ledgerSha256": "e38ec78bda5874c5ffb4102b4b6bd7c3c9bedabea34c789055ecd51eb0a0d60e",
+  "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+  "startedAt": "2026-10-15T10:01:04.241Z",
+  "checkedAt": "2026-10-15T10:01:16.287Z",
+  "durationMs": 12046,
+  "limits": {
+    "maxAttempts": 6,
+    "totalTimeoutMs": 120000,
+    "requestTimeoutMs": 10000,
+    "retryDelayMs": 2000,
+    "maxResponseBytes": 4194304
+  },
+  "attempts": [
+    {
+      "number": 1,
+      "startedAt": "2026-10-15T10:01:04.241Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "1ee54d7cfecf812025973dfa7cb0e9b3dd14604517bd22cb59fdf476fc841a2b",
+          "passed": false,
+          "code": "METADATA_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "METADATA_MISMATCH"
+    },
+    {
+      "number": 2,
+      "startedAt": "2026-10-15T10:01:06.429Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "d2a8de851ef90a625e37abc58888f56d884357637ef4f1c0e33458285a4210b8",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1782149,
+          "sha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51",
+          "passed": true,
+          "expectedSha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12763,
+          "sha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "passed": true,
+          "expectedSha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3876,
+          "sha256": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "passed": false,
+          "expectedSha256": "a135abb8a27df21f61e9192a2d3fde9eaed364e345eb5ffcfb9c0398ac173f31",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 3,
+      "startedAt": "2026-10-15T10:01:08.957Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "d2a8de851ef90a625e37abc58888f56d884357637ef4f1c0e33458285a4210b8",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1782149,
+          "sha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51",
+          "passed": true,
+          "expectedSha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12763,
+          "sha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "passed": true,
+          "expectedSha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3876,
+          "sha256": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "passed": false,
+          "expectedSha256": "a135abb8a27df21f61e9192a2d3fde9eaed364e345eb5ffcfb9c0398ac173f31",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 4,
+      "startedAt": "2026-10-15T10:01:11.417Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "d2a8de851ef90a625e37abc58888f56d884357637ef4f1c0e33458285a4210b8",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1782149,
+          "sha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51",
+          "passed": true,
+          "expectedSha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12763,
+          "sha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "passed": true,
+          "expectedSha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3876,
+          "sha256": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "passed": false,
+          "expectedSha256": "a135abb8a27df21f61e9192a2d3fde9eaed364e345eb5ffcfb9c0398ac173f31",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 5,
+      "startedAt": "2026-10-15T10:01:13.790Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "d2a8de851ef90a625e37abc58888f56d884357637ef4f1c0e33458285a4210b8",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1782149,
+          "sha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51",
+          "passed": true,
+          "expectedSha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 12763,
+          "sha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "passed": true,
+          "expectedSha256": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3876,
+          "sha256": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "passed": false,
+          "expectedSha256": "a135abb8a27df21f61e9192a2d3fde9eaed364e345eb5ffcfb9c0398ac173f31",
+          "code": "BODY_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "BODY_MISMATCH"
+    },
+    {
+      "number": 6,
+      "startedAt": "2026-10-15T10:01:16.219Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "1ee54d7cfecf812025973dfa7cb0e9b3dd14604517bd22cb59fdf476fc841a2b",
+          "passed": false,
+          "code": "METADATA_MISMATCH"
+        }
+      ],
+      "passed": false,
+      "code": "METADATA_MISMATCH"
+    }
+  ],
+  "passed": false,
+  "code": "METADATA_MISMATCH",
+  "scope": "Observed HTTP origin and artifact byte consistency; separate CI/content/browser gates; no global CDN or AdSense approval claim"
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "runId": "daily-20261015-0900",
+  "title": "10월15일 09시 개발 시작 · Issue20",
+  "message": "어제10/14: 조직소스 운영전환 v0.3.0과 공식확인번호 탐색/정정사례 가이드·실제복구 v0.3.1을 완료했습니다. 오늘새벽: v0.4.0 공식20번호·가수별확인곡,286unit/실제원격각22·old25→new26복구와Release/완료보고를 마쳤습니다.\n현재재확인: cloud172 current/running·source보고7ed3f7e clean, CFtodayjpop257/productfc54989·기존개인Gitmetadata/dev보존/자동false·none, 새HTTP26/1attemptPASS. 열린sourcePR없음·이전관리자완료·협업root만확인후새3명을배정했습니다. sidebar8초timeout은별도blocked/분산잠금아님입니다.\n오늘계획: Issue20 metadata-only strictUTF8/단일공식번호·제목·가수셀추출/안전오류/exclusivecandidate·수집실패마지막정상보존, 실제03시SPYAIR/JANE DOE근거의사용자가이드,독립negative/JSoff360px브라우저검증입니다. daily15_evidence는scripts/provider-metadata.py·자료문서, daily15_ui는guides.ts·가이드근거문서, daily15_quality는별도unit/E2E·품질문서로겹치지않게배정했습니다. root만Git/package/CI/deploy. 6개실제동료평가·사전동률규칙UI→자료→품질·교체/감사,동일SHA CI/preview·실제복구/운영게이트뒤의미있는검증변경만0.4.1후보입니다.\nAdSense는기술preparing·실제계정/소유권/신청/심사unknown입니다. ActionsCFbinding자동배포와전체자료권리/문의수신은후속이며독립개발은계속합니다. 원래09시/hourly일정은변경하지않고이번재개/일일prompt는하나의run daily-20261015-0900으로합쳤습니다. 새조회/권리/음원·난이도/승인을만들지않습니다.\n작업계약: https://github.com/jpop-today/jpoptoday/issues/20#issuecomment-6181213077",
+  "recordedAt": "2026-10-15T00:05:48.288328+00:00",
+  "state": "pending_dispatch"
+}

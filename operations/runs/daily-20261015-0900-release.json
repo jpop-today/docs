@@ -1,0 +1,39 @@
+{
+  "version": "0.4.1",
+  "tag": "v0.4.1",
+  "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "annotatedTagSha": "d3904e72a3dea585498e722196131b57aa8bc17d",
+  "tagTargetType": "commit",
+  "tagTargetSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "releaseId": 413670248,
+  "publishedAt": "2026-10-15T10:17:36Z",
+  "draft": false,
+  "prerelease": false,
+  "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.1",
+  "workflowRun": 38719045259,
+  "state": "published",
+  "verifiedAt": "2026-10-15T10:19:28.543372+00:00",
+  "safeResults": [
+    {
+      "at": "2026-10-15T10:16:15.5441414Z",
+      "result": "Reviewed release identity verified v0.4.1"
+    },
+    {
+      "at": "2026-10-15T10:17:20.3635129Z",
+      "result": "24 passed (16.5s)"
+    },
+    {
+      "at": "2026-10-15T10:17:37.4698931Z",
+      "result": "Discord notification sent (1 attempt).",
+      "attempts": 1
+    }
+  ],
+  "notification": {
+    "state": "sent",
+    "sentAt": "2026-10-15T10:17:37.4698931Z",
+    "attempts": 1,
+    "workflowRun": 38719045259
+  },
+  "scope": "Actual GitHub Release/tag API and selected actual workflow log lines; no raw logs orsecretvalues retained",
+  "logSelectionCorrection": "Initial selector expected (attempt N), actual sender uses (N attempt). Initialunconfirmed corrected only after actual line read; no send retry."
+}

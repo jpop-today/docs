@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-15T01:04:23.182222+00:00",
+  "sourceSha": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+  "cancellationRequests": [
+    {
+      "id": 38663492743,
+      "name": "app",
+      "returnCode": 0,
+      "state": "cancel_requested",
+      "boundary": "Asynchronous cancellation request; no deployment/release triggered"
+    }
+  ]
+}
