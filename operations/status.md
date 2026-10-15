@@ -1,5 +1,15 @@
 # 실행 상태
 
+갱신: 2026-10-16 KST. 최신 제품은 **v0.4.2 / source M `3db781ba1fab978995e8edddc0626c0e703bbfbf` / todayjpop·jpop.today `630c12d8-341a-4ad0-b406-43e36eefd4b2`**다. [Issue24](https://github.com/jpop-today/jpoptoday/issues/24)·[PR25](https://github.com/jpop-today/jpoptoday/pull/25)의 공식8번호와 가수별TJ/KY확인곡수를 실제운영에 반영하고 이전버전복구/새버전재적용을 확인했다. 개인source메타데이터/dev·자동false/none·도메인/이력은 보존했다.
+
+310unit·타입0·local26/26·sameM 실제원격preview26/production26, 두clean target3346files/3336HTML/0·41index·전체파일로컬재현과 실제old27→new27최종PASS다. 첫sitemap TIMEOUT/재적용oldcatalog응답과 gh빈로그/연결job로그실제26확보, 한도중단/같은run재개·실제6평가40/40/39·품질교체를 보존한다. [릴리스기록](releases/v0.4.2-20261016.md), [새일일보](daily/2026-10-16.json), [run](runs/resume-20261015-2300.json), [교체감사](production-content-gate-v042-20261015.md)를 따른다. 완료보고발행·Discord는 후속실제영수증으로구분한다.
+
+안전24곡ID/46번호·가수원문20표기·TJ24/KY22이며 전체3317ID·staging/chart/unknown/URL/storage/원래gradient를유지한다. 이번actualproductionworkflow에서도Actions CFbindingsmissing·deployskip이며 관리자배포와verify_only를자동배포성공으로해석하지않는다. 전체CIarchive비교는이번run미실행이다. 전체자료권리/문의수신·Google계정/소유권/신청/실제심사는unknown, 기술준비preparing이다. 09시/hourly일정유지, 이번run완료가전체개발이나승인완료는아니다.
+
+## v0.4.1 직전 완료 이력
+
+
+
 갱신: 2026-10-15 KST. 최신 제품은 **v0.4.1 / source M `d7cf8cb522da936450c9a08864abc99722f2f544` / 실제 todayjpop·jpop.today `ebd045fa-e409-4306-9621-0858f391dee5`**다. [PR22](https://github.com/jpop-today/jpoptoday/pull/22) 병합 뒤 기존 개인 Gitmetadata/dev·자동false/none과 실제API/HTTP를 확인하고 관리자cloud binding으로 반영했다. ActionsCFbindings는 새verify-only38718667044에서도missing/deployskip이며 실제자동배포성공을주장하지않는다.
 
 Issue20의metadata-only공식번호조회/실패보존·자체표기비교가이드를완료했다. 307unit/type0·local24/24·sameMremote24/24·각3346files3336HTML/0·37index·완전로컬재현·실제old26→new27복구/재복원최종PASS와v0.4.1게시를확인했다. 앞선복구혼합응답/Python관측오류/immutable403·사용량/사용자일시정지·실제6peer39/39/38과품질교체를보존한다. [릴리스기록](releases/v0.4.1-20261015.md), [일일누적기록](daily/2026-10-15.json), [run](runs/daily-20261015-0900.json), [교체감사](production-content-gate-v041-20261015.md)가현재인계다. 문서PR12·보고PR23을병합하고관리자완료Discord actualsent1attempt까지확인했다. [송신영수증](runs/daily-20261015-0900-completed-discord.json)과[보고SHA증거](runs/daily-20261015-0900-source-report.json)가송신후상태다. 제품/tagM과보고mainR은reports두파일만다르다.

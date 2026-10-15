@@ -80,3 +80,9 @@ DATA-001/HARNESS-001: `scripts/provider-metadata.py`는 TJ/KY 공식 numeric 검
 수집 결과는 별도 새 candidate 파일에 exclusive/atomic하게 게시하며 기존 reviewed ledger/staging/chart/마지막 정상 snapshot을 수정하지 않는다. 기존 경로·symlink·쓰기/수집/부분파싱 실패는 보존하고 실패로 반환한다. 합성 fixture만 회귀에 사용하며 실제 가사를 fixture로 복사하지 않는다. 문자열 번호/선행0·ID/URL/storage·unknown/미수록 구분은 유지한다.
 
 CONTENT-001/SEO-001/DESIGN-001: `/guides/title-artist-variants/`는 기존 실제 공식 대조(2026-10-15 03시 기록)의 SPYAIR·JANE DOE 표기 사례로 제목/가수/공동명의·업체·버전을 함께 확인하는 자체 가이드다. 구두점만으로 자동 동치/다른곡을 단정하지 않고 정확한 기존 원문·공식URL/actual checkedAt를 표시하며 새 조회나 권리/음원·난이도/추천·심사 결과를 만들지 않는다. 기존5가이드의 본문/확인일·URL을 보존하고 새6번째만 실제 편집일을 기록한다. JS-off/360px/키보드·무광고/preview noindex·production 검토경로와정확한sitemap·동일SHA CI/복구/실운영 본문검사를 수용한다.
+
+## 가수별 업체 확인곡 수 · Issue24 (2026-10-15)
+
+DATA-001/CONTENT-001/SEO-001/DESIGN-001: 동결차트11~14위현재playlist4ID의TJ/KY관측8번호를공식metadata-only로실제조회하고원문제목·가수·버전을대조한근거만ledger에append한다. 기존63항목/원본입력·stableID·URL/storage·unknown을보존한다. 실패/불명은confirm하지않는다.
+
+`/artists/`는global과각가수바로가기/그룹에서TJ·금영의공식확인곡수를정적표시한다. 업체별각ID한번,전체확인곡수는합집합이며TJ+금영단순합이아니다.0은공식미수록을뜻하지않는다.기존anchor/명칭·공식근거/checkedAt·원문그룹/공동명의분리·JSoff/360px/키보드·브랜드/preview전체noindex와무광고를유지한다.독립실자료계산/실제근거·두target동결재현/sameSHA CI·실제복구/원격운영을수용한다.

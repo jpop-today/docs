@@ -1,0 +1,46 @@
+{
+  "version": "0.4.2",
+  "tag": "v0.4.2",
+  "sourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+  "annotatedTagSha": "d271f6ae0c48bf05162ecdcec3e40e2ad110e183",
+  "tagTargetType": "commit",
+  "tagTargetSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+  "releaseId": 414128773,
+  "publishedAt": "2026-10-15T18:18:49Z",
+  "draft": false,
+  "prerelease": false,
+  "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.2",
+  "workflowRun": 38784313891,
+  "state": "published",
+  "verifiedAt": "2026-10-15T18:19:38.315547+00:00",
+  "scope": "Actual GitHub Release/ref/annotatedtag API reads; not Google approval",
+  "notification": {
+    "state": "sent",
+    "sentAt": "2026-10-15T18:18:50.5837730Z",
+    "attempts": 1,
+    "workflowRun": 38784313891,
+    "scope": "Actual explicit Release senderline; not completed report"
+  },
+  "safeResults": [
+    {
+      "jobId": 116592248938,
+      "at": "2026-10-15T18:17:03.3751433Z",
+      "result": "Reviewed release identity verified v0.4.2"
+    },
+    {
+      "jobId": 116592248938,
+      "at": "2026-10-15T18:18:35.4197021Z",
+      "result": "26 passed (29.9s)"
+    },
+    {
+      "jobId": 116593096653,
+      "at": "2026-10-15T18:18:50.2005202Z",
+      "result": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.2"
+    },
+    {
+      "jobId": 116593096653,
+      "at": "2026-10-15T18:18:50.5837730Z",
+      "result": "Discord notification sent (1 attempt)."
+    }
+  ]
+}

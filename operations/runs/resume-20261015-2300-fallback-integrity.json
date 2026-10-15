@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-15T18:10:16.858086+00:00",
+  "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "files": 3346,
+  "manifestSha256": "b17ddc9823f359b39885785bee37db2333a06a451f66f0c31e13df366c371efc",
+  "matchesPriorFullReproducibilityReceipt": true,
+  "scope": "Existing v0.4.1 frozen fallback verified against prior full per-file manifest; no rebuild/currentledger substitution"
+}

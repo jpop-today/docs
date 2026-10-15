@@ -1,0 +1,11 @@
+{
+  "id": 38748102127,
+  "workflow": "discord.yml",
+  "mode": "message",
+  "state": "sent",
+  "sentAt": "2026-10-15T14:04:14.3438555Z",
+  "attempts": 1,
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38748102127",
+  "sourceSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+  "scope": "Actual selected senderline; no secret/webhookURL/rawlog retained"
+}

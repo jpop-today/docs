@@ -1,0 +1,150 @@
+{
+  "scope": "Actual canonical-domain state using the same Node24 inherited proxy/CA path as existing verifier; strict complete metadata plus ordinary home/sitemap hashes, not a substitute for full verifier",
+  "observations": [
+    {
+      "checkedAt": "2026-10-15T18:10:33.595Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "daa2cc662c81560ae23495e37a02d02aa9dec3730f2740ef827f8435e28d172d",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T18:10:36.091Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "daa2cc662c81560ae23495e37a02d02aa9dec3730f2740ef827f8435e28d172d",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T18:10:38.493Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "daa2cc662c81560ae23495e37a02d02aa9dec3730f2740ef827f8435e28d172d",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T18:10:40.828Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "daa2cc662c81560ae23495e37a02d02aa9dec3730f2740ef827f8435e28d172d",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T18:10:43.149Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T18:10:45.414Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T18:10:51.940Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "exactMetadata": true,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "daa2cc662c81560ae23495e37a02d02aa9dec3730f2740ef827f8435e28d172d",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T18:11:02.047Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "exactMetadata": true,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": true
+    }
+  ],
+  "passed": true
+}

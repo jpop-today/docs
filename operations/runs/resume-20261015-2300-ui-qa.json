@@ -1,0 +1,165 @@
+{
+  "runId": "resume-20261015-2300",
+  "checkedAt": "2026-10-15T14:12:35.324Z",
+  "browserPath": "Browser plugin not available; existing Playwright/system Chromium",
+  "url": "http://127.0.0.1:4321/artists/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1100,
+      "js": true,
+      "passed": true,
+      "buildInfo": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "e01e4fe87769c251b209f5fb82bfb3f46b094ec5fee0bfe0768277f6ecd01ff0",
+        "ledgerSha256": "3c51501c77400f62fc43aed5b99ab87a82933546f89f597fe02449b117b433c8",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": true
+      },
+      "countElements": 82,
+      "counts": {
+        "groups": 20,
+        "union": 24,
+        "tj": 24,
+        "ky": 22
+      },
+      "zeroGroup": "artist-71be3fbfd30b5b8f",
+      "keyboard": {
+        "fragment": "#artist-71be3fbfd30b5b8f",
+        "songPath": "/songs/jpop-playlist-%E3%83%8A%E3%83%8A%E3%83%B2%E3%82%A2%E3%82%AB%E3%83%AA-%E3%83%81%E3%83%A5-%E3%83%AA%E3%83%B3%E3%82%AF-%E3%83%A9%E3%83%95-feat-sou-0adf58fbdd/"
+      },
+      "layout": {
+        "overflow": false,
+        "bodyWidth": 1440,
+        "viewportWidth": 1440,
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "palette": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "before": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "indexPosition": "static",
+        "clipped": []
+      },
+      "errors": [],
+      "warnings": [],
+      "failedRequests": [],
+      "ads": [],
+      "screenshots": [
+        "/tmp/jpop-resume23-ui-final/desktop-summary.png",
+        "/tmp/jpop-resume23-ui-final/desktop-index.png"
+      ]
+    },
+    {
+      "name": "mobile",
+      "width": 360,
+      "height": 800,
+      "js": false,
+      "passed": true,
+      "buildInfo": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "e01e4fe87769c251b209f5fb82bfb3f46b094ec5fee0bfe0768277f6ecd01ff0",
+        "ledgerSha256": "3c51501c77400f62fc43aed5b99ab87a82933546f89f597fe02449b117b433c8",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": true
+      },
+      "countElements": 82,
+      "counts": {
+        "groups": 20,
+        "union": 24,
+        "tj": 24,
+        "ky": 22
+      },
+      "zeroGroup": "artist-71be3fbfd30b5b8f",
+      "keyboard": {
+        "fragment": "#artist-71be3fbfd30b5b8f",
+        "songPath": "/songs/jpop-playlist-%E3%83%8A%E3%83%8A%E3%83%B2%E3%82%A2%E3%82%AB%E3%83%AA-%E3%83%81%E3%83%A5-%E3%83%AA%E3%83%B3%E3%82%AF-%E3%83%A9%E3%83%95-feat-sou-0adf58fbdd/"
+      },
+      "layout": {
+        "overflow": false,
+        "bodyWidth": 360,
+        "viewportWidth": 360,
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "palette": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "before": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "indexPosition": "static",
+        "clipped": []
+      },
+      "errors": [],
+      "warnings": [],
+      "failedRequests": [],
+      "ads": [],
+      "screenshots": [
+        "/tmp/jpop-resume23-ui-final/mobile-summary.png",
+        "/tmp/jpop-resume23-ui-final/mobile-index.png",
+        "/tmp/jpop-resume23-ui-final/mobile-zero-group.png"
+      ]
+    },
+    {
+      "name": "short",
+      "width": 1280,
+      "height": 768,
+      "js": true,
+      "passed": true,
+      "buildInfo": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "e01e4fe87769c251b209f5fb82bfb3f46b094ec5fee0bfe0768277f6ecd01ff0",
+        "ledgerSha256": "3c51501c77400f62fc43aed5b99ab87a82933546f89f597fe02449b117b433c8",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": true
+      },
+      "countElements": 82,
+      "counts": {
+        "groups": 20,
+        "union": 24,
+        "tj": 24,
+        "ky": 22
+      },
+      "zeroGroup": "artist-71be3fbfd30b5b8f",
+      "keyboard": {
+        "fragment": "#artist-fe7847df0758025e",
+        "songPath": "/songs/jpop-playlist-butter-fly-71e0adeb5b/"
+      },
+      "layout": {
+        "overflow": false,
+        "bodyWidth": 1280,
+        "viewportWidth": 1280,
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "palette": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "before": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "indexPosition": "static",
+        "clipped": []
+      },
+      "errors": [],
+      "warnings": [],
+      "failedRequests": [],
+      "ads": [],
+      "screenshots": [
+        "/tmp/jpop-resume23-ui-final/short-last-group.png"
+      ]
+    }
+  ],
+  "screenshots": [
+    "/tmp/jpop-resume23-ui-final/desktop-summary.png",
+    "/tmp/jpop-resume23-ui-final/desktop-index.png",
+    "/tmp/jpop-resume23-ui-final/mobile-summary.png",
+    "/tmp/jpop-resume23-ui-final/mobile-index.png",
+    "/tmp/jpop-resume23-ui-final/mobile-zero-group.png",
+    "/tmp/jpop-resume23-ui-final/short-last-group.png"
+  ],
+  "passed": true,
+  "finishedAt": "2026-10-15T14:12:39.894Z"
+}

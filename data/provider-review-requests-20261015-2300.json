@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261015-2300",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/24",
+  "parentIssue": "https://github.com/jpop-today/jpoptoday/issues/6",
+  "reviewer": "/root/resume23_evidence",
+  "sourceBaseSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+  "docsBaseSha": "daa79c0828ad6906461f88a6dc5edef36842fd73",
+  "branch": "codex/24-provider-counts-20261015",
+  "helperSha256": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+  "requestMethod": "Existing safe CLI fetch; eight sequential numeric official requests, 20-second urllib timeout and 28-second process cap, inherited proxy and CA, no raw response persisted or logged.",
+  "candidateMeaning": "Each fetch candidate remains verification=unreviewed; separate explicit editorial decisions below authorize only the corresponding ledger append.",
+  "frozenChart": {
+    "source": "TJ Media TOP100 JPOP",
+    "sourceUrl": "https://www.tjmedia.com/chart/top100",
+    "fetchedAt": "2026-10-13T10:26:45.525Z",
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-13",
+    "periodVerified": true,
+    "legacyRevision": "94d615f5e355f4b00ebbb824547ac6dfa034ad18"
+  },
+  "requests": [
+    {
+      "provider": "tj",
+      "number": "68419",
+      "requestStartedAt": "2026-10-15T14:03:21.493633Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "Novelbright",
+        "checkedAt": "2026-10-15T14:03:23.439453Z",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68419&strWord=Y",
+        "number": "68419",
+        "provider": "tj",
+        "responseBytes": 49238,
+        "responseSha256": "4b6cd434251f7488a9886e72d94052ec066b20b88b84859a3bcd311df1414746",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "Walking with you",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68419&strWord=Y",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 11,
+      "songId": "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+      "observed": {
+        "number": "68419",
+        "title": "Walking with you",
+        "artist": "Novelbright"
+      }
+    },
+    {
+      "provider": "ky",
+      "number": "44686",
+      "requestStartedAt": "2026-10-15T14:03:23.451215Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "Novelbright",
+        "checkedAt": "2026-10-15T14:03:27.519224Z",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44686",
+        "number": "44686",
+        "provider": "ky",
+        "responseBytes": 45984,
+        "responseSha256": "b2ca7709794e0e3c34be6f4a4e7143fd973920aa13d829bd792f3dc60c17d5f8",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "Walking with you",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44686",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 11,
+      "songId": "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+      "observed": {
+        "number": "44686",
+        "title": "Walking with you",
+        "artist": "Novelbright"
+      }
+    },
+    {
+      "provider": "tj",
+      "number": "68333",
+      "requestStartedAt": "2026-10-15T14:03:27.534088Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "優里",
+        "checkedAt": "2026-10-15T14:03:28.525583Z",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68333&strWord=Y",
+        "number": "68333",
+        "provider": "tj",
+        "responseBytes": 49228,
+        "responseSha256": "4a12616965b426eb669af86fef538491768ae061780d6fcc867a726649cbdc10",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "ドライフラワー",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68333&strWord=Y",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 12,
+      "songId": "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+      "observed": {
+        "number": "68333",
+        "title": "ドライフラワー",
+        "artist": "優里"
+      }
+    },
+    {
+      "provider": "ky",
+      "number": "44652",
+      "requestStartedAt": "2026-10-15T14:03:28.539979Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "優里",
+        "checkedAt": "2026-10-15T14:03:31.661086Z",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44652",
+        "number": "44652",
+        "provider": "ky",
+        "responseBytes": 46040,
+        "responseSha256": "0c65cb223d178a9e580f2a9a83f29d462588f22132e04f8606ee946226b97736",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "ドライフラワー",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44652",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 12,
+      "songId": "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+      "observed": {
+        "number": "44652",
+        "title": "ドライフラワー",
+        "artist": "優里"
+      }
+    },
+    {
+      "provider": "tj",
+      "number": "68446",
+      "requestStartedAt": "2026-10-15T14:03:31.673627Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "back number",
+        "checkedAt": "2026-10-15T14:03:32.326257Z",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68446&strWord=Y",
+        "number": "68446",
+        "provider": "tj",
+        "responseBytes": 49239,
+        "responseSha256": "3bd510368d5ddb8bca9f6dac149977ba87a518ce5af047fdf02d35721f60a404",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "水平線",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68446&strWord=Y",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 13,
+      "songId": "jpop-playlist-back-number-水平線-187ab55662",
+      "observed": {
+        "number": "68446",
+        "title": "水平線",
+        "artist": "back number"
+      }
+    },
+    {
+      "provider": "ky",
+      "number": "44701",
+      "requestStartedAt": "2026-10-15T14:03:32.337807Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "back number",
+        "checkedAt": "2026-10-15T14:03:35.981521Z",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44701",
+        "number": "44701",
+        "provider": "ky",
+        "responseBytes": 46284,
+        "responseSha256": "7e51835302e3dad5315006e940b38833f479bf4fca321c59a162041a0e47ea6d",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "水平線",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44701",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 13,
+      "songId": "jpop-playlist-back-number-水平線-187ab55662",
+      "observed": {
+        "number": "44701",
+        "title": "水平線",
+        "artist": "back number"
+      }
+    },
+    {
+      "provider": "tj",
+      "number": "68807",
+      "requestStartedAt": "2026-10-15T14:03:35.995207Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "Vaundy",
+        "checkedAt": "2026-10-15T14:03:36.625532Z",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68807&strWord=Y",
+        "number": "68807",
+        "provider": "tj",
+        "responseBytes": 49216,
+        "responseSha256": "5534f29b576c5e4178cfe0e783ffc21ff6c54adef85fdcb754ec63fe2341ee6c",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "踊り子",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68807&strWord=Y",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 14,
+      "songId": "jpop-playlist-vaundy-踊り子-fe694e97f6",
+      "observed": {
+        "number": "68807",
+        "title": "踊り子",
+        "artist": "Vaundy"
+      }
+    },
+    {
+      "provider": "ky",
+      "number": "76508",
+      "requestStartedAt": "2026-10-15T14:03:36.636178Z",
+      "result": "candidate_extracted",
+      "candidate": {
+        "artist": "Vaundy",
+        "checkedAt": "2026-10-15T14:03:39.142231Z",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=76508",
+        "number": "76508",
+        "provider": "ky",
+        "responseBytes": 46172,
+        "responseSha256": "92d855f18468d8cb77b562eaeba36c9ad5ee9972acc461136f6a1d7fa58f515d",
+        "schemaVersion": 1,
+        "status": 200,
+        "title": "踊り子",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=76508",
+        "verification": "unreviewed"
+      },
+      "frozenChartRank": 14,
+      "songId": "jpop-playlist-vaundy-踊り子-fe694e97f6",
+      "observed": {
+        "number": "76508",
+        "title": "踊り子",
+        "artist": "Vaundy"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "songId": "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+      "provider": "tj",
+      "number": "68419",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 Walking with you와 가수 Novelbright가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:23.439453Z",
+      "responseSha256": "4b6cd434251f7488a9886e72d94052ec066b20b88b84859a3bcd311df1414746"
+    },
+    {
+      "songId": "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+      "provider": "ky",
+      "number": "44686",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 Walking with you와 가수 Novelbright가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:27.519224Z",
+      "responseSha256": "b2ca7709794e0e3c34be6f4a4e7143fd973920aa13d829bd792f3dc60c17d5f8"
+    },
+    {
+      "songId": "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+      "provider": "tj",
+      "number": "68333",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 ドライフラワー와 가수 優里가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:28.525583Z",
+      "responseSha256": "4a12616965b426eb669af86fef538491768ae061780d6fcc867a726649cbdc10"
+    },
+    {
+      "songId": "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+      "provider": "ky",
+      "number": "44652",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 ドライフラワー와 가수 優里가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:31.661086Z",
+      "responseSha256": "0c65cb223d178a9e580f2a9a83f29d462588f22132e04f8606ee946226b97736"
+    },
+    {
+      "songId": "jpop-playlist-back-number-水平線-187ab55662",
+      "provider": "tj",
+      "number": "68446",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 水平線와 가수 back number가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:32.326257Z",
+      "responseSha256": "3bd510368d5ddb8bca9f6dac149977ba87a518ce5af047fdf02d35721f60a404"
+    },
+    {
+      "songId": "jpop-playlist-back-number-水平線-187ab55662",
+      "provider": "ky",
+      "number": "44701",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 水平線와 가수 back number가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:35.981521Z",
+      "responseSha256": "7e51835302e3dad5315006e940b38833f479bf4fca321c59a162041a0e47ea6d"
+    },
+    {
+      "songId": "jpop-playlist-vaundy-踊り子-fe694e97f6",
+      "provider": "tj",
+      "number": "68807",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 踊り子와 가수 Vaundy가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:36.625532Z",
+      "responseSha256": "5534f29b576c5e4178cfe0e783ffc21ff6c54adef85fdcb754ec63fe2341ee6c"
+    },
+    {
+      "songId": "jpop-playlist-vaundy-踊り子-fe694e97f6",
+      "provider": "ky",
+      "number": "76508",
+      "reviewer": "/root/resume23_evidence",
+      "reviewedAt": "2026-10-15T14:04:46.972659Z",
+      "decision": "confirm",
+      "titleComparison": "exact_full_string_match",
+      "artistComparison": "exact_full_string_match",
+      "versionReview": "별도 버전·부제·공동명의 표기 없음. 응답의 전체 제목·가수 셀만 검토했으며 오디오 동일성을 판단하지 않음.",
+      "reason": "공식 번호 검색의 전체 제목 踊り子와 가수 Vaundy가 원본 제목·가수와 정확히 일치합니다. 결과셀에 별도 버전·부제·공동명의 표기가 없음을 대조했고 공식 표기를 그대로 보존합니다. 음원 동일성이나 반주기별 지원을 추정하지 않습니다.",
+      "evidenceCheckedAt": "2026-10-15T14:03:39.142231Z",
+      "responseSha256": "92d855f18468d8cb77b562eaeba36c9ad5ee9972acc461136f6a1d7fa58f515d"
+    }
+  ],
+  "preservation": {
+    "baseLedgerEntryCount": 63,
+    "resultLedgerEntryCount": 71,
+    "newConfirmCount": 8,
+    "newSuppressCount": 0,
+    "originalEntriesDeepEqualInOrder": true,
+    "originalLedgerTopLevelMetadataEqual": true,
+    "originalEntriesBytesPrefixPreserved": true,
+    "baseLedgerSha256": "c2ae151b40a694ad99642255be2b87d26ef0729fd7557e201b681c3cfba64513",
+    "resultLedgerSha256": "12996fc061e68be0a17924fea9fd2fa624cce8626a9e1699fb26055c2b6c22d6",
+    "unchangedInputs": [
+      {
+        "path": "data/staging/legacy-catalog.json",
+        "sha256": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+        "matchesBaseBytes": true
+      },
+      {
+        "path": "data/chart-snapshot.json",
+        "sha256": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+        "matchesBaseBytes": true
+      },
+      {
+        "path": "data/legacy-identity-baseline.json",
+        "sha256": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+        "matchesBaseBytes": true
+      },
+      {
+        "path": "scripts/provider-metadata.py",
+        "sha256": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+        "matchesBaseBytes": true
+      }
+    ]
+  },
+  "unknowns": {
+    "redistributionRights": "unknown",
+    "audioIdentity": "not_checked",
+    "deviceModelAvailability": "not_checked",
+    "googleAccountOrReview": "unknown"
+  },
+  "scopeLimit": "Four current playlist stable IDs only; not full catalog validation, a new chart collection, deployment, browser test, or AdSense approval.",
+  "validation": {
+    "verifiedAt": "2026-10-15T14:05:00.566Z",
+    "ledgerValid": 71,
+    "publicSongCount": 3317,
+    "currentPlaylistCount": 3299,
+    "safeConfirmedSongUnion": 24,
+    "counts": {
+      "tj": {
+        "confirmed": 26,
+        "safeConfirmed": 24,
+        "observed": 3109,
+        "unknown": 164
+      },
+      "ky": {
+        "confirmed": 24,
+        "safeConfirmed": 22,
+        "observed": 2467,
+        "unknown": 808
+      }
+    },
+    "changes": [
+      {
+        "songId": "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+        "provider": "tj",
+        "number": "68419",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "Walking with you",
+        "artist": "Novelbright"
+      },
+      {
+        "songId": "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+        "provider": "ky",
+        "number": "44686",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "Walking with you",
+        "artist": "Novelbright"
+      },
+      {
+        "songId": "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+        "provider": "tj",
+        "number": "68333",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "ドライフラワー",
+        "artist": "優里"
+      },
+      {
+        "songId": "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+        "provider": "ky",
+        "number": "44652",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "ドライフラワー",
+        "artist": "優里"
+      },
+      {
+        "songId": "jpop-playlist-back-number-水平線-187ab55662",
+        "provider": "tj",
+        "number": "68446",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "水平線",
+        "artist": "back number"
+      },
+      {
+        "songId": "jpop-playlist-back-number-水平線-187ab55662",
+        "provider": "ky",
+        "number": "44701",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "水平線",
+        "artist": "back number"
+      },
+      {
+        "songId": "jpop-playlist-vaundy-踊り子-fe694e97f6",
+        "provider": "tj",
+        "number": "68807",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "踊り子",
+        "artist": "Vaundy"
+      },
+      {
+        "songId": "jpop-playlist-vaundy-踊り子-fe694e97f6",
+        "provider": "ky",
+        "number": "76508",
+        "status": "provider-confirmed",
+        "conflict": false,
+        "title": "踊り子",
+        "artist": "Vaundy"
+      }
+    ]
+  },
+  "localChecks": {
+    "recordedAt": "2026-10-15T14:07:03.807034Z",
+    "providerCorrectionRegression": {
+      "command": "node --test --test-isolation=none tests/provider-corrections.test.mjs",
+      "result": "passed",
+      "tests": 8,
+      "failed": 0,
+      "durationMs": 46.79252
+    },
+    "requestDecisionEntryEvidenceBijection": "passed_8_of_8",
+    "documentationLinks": "passed",
+    "temporaryCandidatesMetadataJsonOnly": "passed",
+    "resultLedgerBytesSha256": "passed"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-15T18:16:45.622940+00:00",
+  "automations": [
+    {
+      "id": "6acf109ec1808191b09a2414e2de80af",
+      "title": "jpop.today 개발 재개",
+      "isEnabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Asia/Seoul",
+      "nextRunTime": null,
+      "lastRunTime": "2026-10-15T17:59:20.019138+00:00",
+      "updatedAt": "2026-10-15T17:59:41.598817+00:00"
+    },
+    {
+      "id": "6acdccd99030819180ea1c9d907d9f55",
+      "title": "jpop.today 일일 개발",
+      "isEnabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Asia/Seoul",
+      "nextRunTime": null,
+      "lastRunTime": "2026-10-14T23:58:49.673277+00:00",
+      "updatedAt": "2026-10-15T09:50:15.328708+00:00"
+    }
+  ],
+  "schedulesChanged": false
+}
