@@ -38,6 +38,173 @@
       "status": "completed",
       "conclusion": "success",
       "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38822369048"
+    },
+    {
+      "id": 38822746265,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "48c58d57b15aa775676229465fd13c390ccac620",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38822746265"
+    },
+    {
+      "id": 38822746257,
+      "name": "app",
+      "event": "push",
+      "head_sha": "48c58d57b15aa775676229465fd13c390ccac620",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38822746257"
     }
-  ]
+  ],
+  "sourceMerge": "48c58d57b15aa775676229465fd13c390ccac620",
+  "mainApp": {
+    "id": 38822746257,
+    "head_sha": "48c58d57b15aa775676229465fd13c390ccac620",
+    "status": "completed",
+    "conclusion": "success",
+    "safeResults": [
+      {
+        "jobId": 116722954802,
+        "name": "app",
+        "results": [
+          {
+            "at": "2026-10-15T23:18:29.2572917Z",
+            "result": "ℹ tests 314"
+          },
+          {
+            "at": "2026-10-15T23:18:29.2573325Z",
+            "result": "ℹ pass 314"
+          },
+          {
+            "at": "2026-10-15T23:18:29.2573522Z",
+            "result": "ℹ fail 0"
+          },
+          {
+            "at": "2026-10-15T23:18:36.2602838Z",
+            "result": "Result (26 files):"
+          },
+          {
+            "at": "2026-10-15T23:18:36.2603347Z",
+            "result": "- 0 errors"
+          },
+          {
+            "at": "2026-10-15T23:18:36.2603748Z",
+            "result": "- 0 warnings"
+          },
+          {
+            "at": "2026-10-15T23:18:36.2604598Z",
+            "result": "- 0 hints"
+          },
+          {
+            "at": "2026-10-15T23:18:42.9265957Z",
+            "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 48c58d57b15aa775676229465fd13c390ccac620"
+          },
+          {
+            "at": "2026-10-15T23:19:40.0011880Z",
+            "result": "28 passed (36.0s)"
+          }
+        ]
+      },
+      {
+        "jobId": 116722955329,
+        "name": "production-artifact",
+        "results": [
+          {
+            "at": "2026-10-15T23:18:29.7003671Z",
+            "result": "Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source 48c58d57b15aa775676229465fd13c390ccac620"
+          },
+          {
+            "at": "2026-10-15T23:19:23.3441346Z",
+            "result": "28 passed (33.8s)"
+          }
+        ]
+      }
+    ],
+    "checkedAt": "2026-10-15T23:20:39.223776+00:00",
+    "scope": "Actual selected job logs; localCI preview/production28, not deployedremote browser"
+  },
+  "remotePreview": {
+    "id": 38823033378,
+    "jobId": 116723906621,
+    "head_sha": "48c58d57b15aa775676229465fd13c390ccac620",
+    "status": "completed",
+    "conclusion": "success",
+    "safeResults": [
+      {
+        "at": "2026-10-15T23:21:25.0740070Z",
+        "result": "{\"sourceSha\":\"48c58d57b15aa775676229465fd13c390ccac620\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}"
+      },
+      {
+        "at": "2026-10-15T23:22:32.3338636Z",
+        "result": "28 passed (45.7s)"
+      }
+    ],
+    "checkedAt": "2026-10-15T23:22:51.649094+00:00",
+    "scope": "Actual deployedpreview selected joblogs, not just localCI"
+  },
+  "remoteProduction": {
+    "id": 38824028665,
+    "jobId": 116727134158,
+    "head_sha": "48c58d57b15aa775676229465fd13c390ccac620",
+    "status": "completed",
+    "conclusion": "success",
+    "safeResults": [
+      {
+        "at": "2026-10-15T23:31:11.1853281Z",
+        "result": "ℹ tests 314"
+      },
+      {
+        "at": "2026-10-15T23:31:11.1853919Z",
+        "result": "ℹ pass 314"
+      },
+      {
+        "at": "2026-10-15T23:31:11.1854169Z",
+        "result": "ℹ fail 0"
+      },
+      {
+        "at": "2026-10-15T23:31:16.4785898Z",
+        "result": "- 0 errors"
+      },
+      {
+        "at": "2026-10-15T23:31:16.4786293Z",
+        "result": "- 0 warnings"
+      },
+      {
+        "at": "2026-10-15T23:31:16.4786824Z",
+        "result": "- 0 hints"
+      },
+      {
+        "at": "2026-10-15T23:31:21.6387410Z",
+        "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 48c58d57b15aa775676229465fd13c390ccac620"
+      },
+      {
+        "at": "2026-10-15T23:31:27.1616241Z",
+        "result": "Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source 48c58d57b15aa775676229465fd13c390ccac620"
+      },
+      {
+        "at": "2026-10-15T23:31:29.7906107Z",
+        "result": "{\"sourceSha\":\"48c58d57b15aa775676229465fd13c390ccac620\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}"
+      },
+      {
+        "at": "2026-10-15T23:32:17.0815998Z",
+        "result": "28 passed (26.3s)"
+      },
+      {
+        "at": "2026-10-15T23:32:17.2779723Z",
+        "result": "Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available"
+      },
+      {
+        "at": "2026-10-15T23:32:20.6951805Z",
+        "result": "{\"sourceSha\":\"48c58d57b15aa775676229465fd13c390ccac620\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}"
+      },
+      {
+        "at": "2026-10-15T23:33:00.9383190Z",
+        "result": "28 passed (39.8s)"
+      }
+    ],
+    "checkedAt": "2026-10-15T23:33:38.836Z",
+    "scope": "Actual verify_only workflow selected logs; first28 local frozen production, last28 actual jpop.today origin; no rawlogs/env/secrets retained"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-15T23:30:24.641Z",
+  "environment": {
+    "revision": "292",
+    "observedRevision": "292",
+    "current": true,
+    "phase": "running",
+    "connectivityTelemetry": "offline",
+    "networkPolicy": {
+      "mode": "unrestricted",
+      "state": "enforced"
+    },
+    "cloudflareTokenReady": true,
+    "cloudflareAccountBindingReady": true,
+    "actualGitHubRead": "main48c58d57b15aa775676229465fd13c390ccac620",
+    "actualCloudflareRead": "todayjpop canonical eb9161b3/source48c; telemetryoffline not substituted for actual successful API/HTTP"
+  },
+  "automations": [
+    {
+      "id": "6acf109ec1808191b09a2414e2de80af",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+    },
+    {
+      "id": "6acdccd99030819180ea1c9d907d9f55",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+    }
+  ],
+  "schedulesChanged": false,
+  "sameExistingRun": true,
+  "newWorkers": false
+}

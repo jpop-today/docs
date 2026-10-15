@@ -1,0 +1,79 @@
+{
+  "action": "rollback",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "630c12d8-341a-4ad0-b406-43e36eefd4b2",
+      "url": "https://630c12d8.todayjpop.pages.dev",
+      "created_on": "2026-10-15T18:09:22.241747Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T18:09:24.257102Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+          "commit_message": "Merge pull request #25 from jpop-today/codex/24-provider-counts-20261015\r\n\r\n공식 8번호 근거 추가와 가수별 TJ·금영 확인곡 수",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "eb9161b3-d43b-45e4-beb8-9b068d456dbe",
+      "url": "https://eb9161b3.todayjpop.pages.dev",
+      "created_on": "2026-10-15T23:23:07.011602Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T23:23:08.65184Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "48c58d57b15aa775676229465fd13c390ccac620",
+          "commit_message": "Merge chart confirmed-number navigation and reviewed six-number evidence\r\n\r\n차트에서 업체별 공식 확인곡 바로 찾기와 6번호 근거 보강",
+          "commit_dirty": false
+        }
+      }
+    }
+  }
+}

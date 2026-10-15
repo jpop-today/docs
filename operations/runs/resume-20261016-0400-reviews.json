@@ -247,7 +247,7 @@
     "tieBreakReason": "All40 and every criterion sum10 tied. Predetermined run.tieBreakOrder app/evidence/quality selects app. No lowerquality assertion, fabricated deduction, quantity/verbosity ranking.",
     "selectedForRotation": "/root/resume04_app",
     "physicalDeletion": false,
-    "rotationState": "replacement_created",
+    "rotationState": "replacement_audited_twoactualSupplementalAccepted",
     "recordedAt": "2026-10-15T23:13:12.712Z",
     "retired": "/root/resume04_app",
     "previousInterruptState": "completed",
@@ -258,6 +258,118 @@
       "/root/resume04_quality",
       "/root/replacement04_gate"
     ],
-    "rotatedAt": "2026-10-15T23:13:49.641416+00:00"
+    "rotatedAt": "2026-10-15T23:13:49.641416+00:00",
+    "replacementSupplementalAcceptance": {
+      "bothAccepted": true,
+      "recordedAt": "2026-10-15T23:37:42.769217+00:00",
+      "reviews": [
+        {
+          "reviewer": "/root/resume04_evidence",
+          "candidate": "/root/replacement04_gate",
+          "reviewType": "read_only_supplemental",
+          "artifact": "docs/operations/production-content-gate-v043-20261016.md",
+          "criterionReasons": {
+            "correctness": "감사 전체와 실제 영수증을 읽었다. 공식8요청·unreviewed8후보·별도 confirm6/defer2와 원71 보존을 정확히 구분한다. SAM 동일성·생략된 금영 제목·권리·Google 심사를 추정하지 않는다. source M48c의 CI/preview/운영을 연결하며 runner 내부28과 실제 c606 preview28·jpop.today28을 구분한다. 복구3의 이전27/1attempt·새복원27/7attempt와 이전6실패를 정확히 기록한다.",
+            "evidence": "requests/evidence-audit/reviews/ci/reproducibility/preview·production API/HTTP 및 recovery1·2·3 영수증을 읽고 감사와 대조했다. 첫 복구의 혼합 metadata/body 실패와 두 번째 maxAttempts60 지원상한 초과로 HTTP 검사 전 return1인 사실을 보존한다. 세 번째 old/new API·observer·strict HTTP의 수용 경계가 맞는다. CI 선택 로그의 실제 시각·314/type0·remote28과 target별 전체 파일 재현 근거가 있다. 원응답 독립 재파싱·전체 CI archive 비교를 수행했다고 과장하지 않는다.",
+            "value": "제품 기능뿐 아니라 실제 운영 반영·복구 가능성과 실패 원인을 검토자가 구분할 수 있다. 관측 번호를 확인곡으로 표시하거나 두 업체 수를 합산하는 오류, 모바일 겹침과 미수록·최신차트 오해를 함께 검토한다. Actions binding 누락을 관리 binding 배포 성공과 구분하여 남은 운영 전환 작업을 드러낸다. Release와 알림을 앞당겨 완료 처리하지 않는다.",
+            "maintainability": "단일 감사 문서가 실제 증거 경로와 SHA·배포 ID·검사 실행 경계를 연결한다. 최초 pending과 후속 수용을 시간순으로 보존하고 실패 영수증을 덮지 않아 재개 및 사후 검토가 가능하다. 원 코드·평가를 보존하고 완전 동률의 사전 교체 순서를 품질 우열이나 물리 삭제로 표현하지 않는다. 담당 범위 밖 소스·Git·추가 실행 없이 필수 제품 보완 여부를 판단한다."
+          },
+          "acceptance": "accepted_pre_release_audit",
+          "requiredCorrections": [],
+          "releaseBlockingProductDefectsFound": [],
+          "pending": [
+            "실제 tag 및 GitHub Release 게시 영수증",
+            "Release Discord 실제 전송 영수증",
+            "완료 Discord 실제 전송 영수증"
+          ],
+          "remainingLimitations": [
+            "Cloudflare Actions bindings 미설정으로 자동배포 skipped; 실제 운영은 관리 cloud binding 배포",
+            "복구 중 혼합/stale 응답 실패 이력 보존; 모든 CDN 위치 동시 상태 보장 없음",
+            "전체 CI archive 비교·실제 기기·보조기술·사이트 전체 접근성 감사 미실행",
+            "권리·Google 계정 및 실제 AdSense 심사 상태 unknown"
+          ],
+          "evidence": [
+            "docs/operations/production-content-gate-v043-20261016.md",
+            "docs/data/provider-review-requests-20261016-0400.json",
+            "docs/operations/runs/resume-20261016-0400-evidence-audit.json",
+            "docs/operations/runs/resume-20261016-0400-reviews.json",
+            "docs/operations/runs/resume-20261016-0400-ci.json",
+            "docs/operations/runs/resume-20261016-0400-reproducibility.json",
+            "docs/operations/runs/resume-20261016-0400-preview-deployment.json",
+            "docs/operations/runs/resume-20261016-0400-preview-http.json",
+            "docs/operations/runs/resume-20261016-0400-production-deployment.json",
+            "docs/operations/runs/resume-20261016-0400-production-first-http.json",
+            "docs/operations/runs/resume-20261016-0400-recovery-node-summary.json",
+            "docs/operations/runs/resume-20261016-0400-old-state-node-observed.json",
+            "docs/operations/runs/resume-20261016-0400-restore-node-http.json",
+            "docs/operations/runs/resume-20261016-0400-recovery2-recovery-node-summary.json",
+            "docs/operations/runs/resume-20261016-0400-recovery2-helper-failure.json",
+            "docs/operations/runs/resume-20261016-0400-recovery2-rollback-node-http-execution.json",
+            "docs/operations/runs/resume-20261016-0400-recovery2-restore-node-http-execution.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-recovery-node-summary.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-rollback-node-api.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-old-state-node-observed.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-rollback-node-http.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-restore-node-api.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-new-state-node-observed.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-restore-node-http.json"
+          ],
+          "newScoresOrRanking": false,
+          "filesWritten": false,
+          "newTestsOrExternalRequests": false
+        },
+        {
+          "reviewer": "/root/resume04_quality",
+          "candidate": "/root/replacement04_gate",
+          "artifact": "docs/operations/production-content-gate-v043-20261016.md",
+          "reviewType": "read_only_supplemental_without_scores",
+          "criterionReasons": {
+            "correctness": "감사 전체와 실제 요청·독립대조·6평가·CI·재현·배포·복구 영수증이 일치한다. 실제 8후보와 별도 6confirm/2defer, 원71/3317ID·동결100순위·unknown 보존을 구분한다. 40/40/40 및 네 기준 완전 동률의 사전순서 교체를 품질 열등이나 물리 삭제로 표현하지 않는다. 같은 M48c의 c606 preview와 eb916 운영, 실제 복구·복원 및 운영 원격28을 수용하며 Google 승인·권리로 확대하지 않는다.",
+            "evidence": "CI 선택 로그에서 runner 내부28과 실제 preview28/45.7s, 실제 운영28/39.8s를 구분했다. 양 target3347files/3336HTML·0/45index의 전체 경로·파일별 로컬 재현과 CI archive 전체 비교 미실행을 구분한다. 첫 복구 old observer 실패와 new strict12attempt 실패, 둘째 maxAttempts60 지원상한 오류로 HTTP 시작 전 exit1을 보존한다. recovery3 실제 API·observer·HTTP를 읽어 old27/1attempt와 new27/7attempt를 확인했다. 새 복원 첫6회의 coverage/metadata/chart/sitemap/Ado상세/metadata 실패와 마지막27 PASS를 숨기지 않는다.",
+            "value": "공식 확인 탐색의 TJ19·금영17·합집합19/100, stable anchor·기존 상세/저장 호환, 모바일 badge 겹침 보완을 실제 제품 근거와 연결한다. 관측 성공·observer·CI·실제 운영·복구·릴리스 사건을 분리해 관리자가 검증되지 않은 발행을 완료로 보고하는 것을 막는다. Actions CFbinding 미설정과 운영자 Google 단계는 남은 차단으로 유지하면서 관리 binding 실제 배포 결과를 확인한다.",
+            "maintainability": "허용된 감사 한 파일에 최초 pending과 후속 수용 시점을 순서대로 연결하고 원 실패·별도 recovery3 영수증을 보존했다. strict27 본문/해시·전후 metadata 조건을 유지하며 실행 예산 변경을 조건 완화로 표현하지 않는다. 공식 raw 응답 재파싱 불가, 전체 CI archive·기기/보조기술 미실행과 CDN 관측 한계도 남겼다. 감사 담당의 읽기와 root의 실제 실행을 구분하며 새 점수·순위·소스 변경을 만들지 않는다."
+          },
+          "acceptance": "accepted_pre_release_audit",
+          "requiredCorrections": [],
+          "pendingAcceptance": [
+            "tag 발행의 후속 감사 수용",
+            "GitHub Release 실제 게시",
+            "Release Discord 실제 전송",
+            "완료 Discord 실제 전송"
+          ],
+          "remainingBlockers": [
+            "Actions Cloudflare bindings missing/deployment skipped",
+            "자료 권리·Google 계정/신청/실제 심사 unknown"
+          ],
+          "timingBoundary": "감사 최종 수용 근거는 23:33:38.836Z까지다. 읽는 동안 run.release의 tag_pushed_release_workflow_in_progress 갱신도 관측했으나 이를 Release 게시나 알림 성공으로 취급하지 않는다. 감사의 후속 발행·전송 수용 pending은 유지한다.",
+          "evidence": [
+            "docs/operations/production-content-gate-v043-20261016.md",
+            "docs/data/provider-review-requests-20261016-0400.json",
+            "docs/operations/runs/resume-20261016-0400-evidence-audit.json",
+            "docs/operations/runs/resume-20261016-0400-reviews.json",
+            "docs/operations/runs/resume-20261016-0400-ci.json",
+            "docs/operations/runs/resume-20261016-0400-reproducibility.json",
+            "docs/operations/runs/resume-20261016-0400-preview-http.json",
+            "docs/operations/runs/resume-20261016-0400-production-deployment.json",
+            "docs/operations/runs/resume-20261016-0400-production-first-http.json",
+            "docs/operations/runs/resume-20261016-0400-recovery-node-summary.json",
+            "docs/operations/runs/resume-20261016-0400-restore-node-http.json",
+            "docs/operations/runs/resume-20261016-0400-recovery2-helper-failure.json",
+            "docs/operations/runs/resume-20261016-0400-recovery2-rollback-node-http-execution.json",
+            "docs/operations/runs/resume-20261016-0400-recovery2-restore-node-http-execution.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-recovery-node-summary.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-rollback-node-api.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-restore-node-api.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-old-state-node-observed.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-new-state-node-observed.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-rollback-node-http.json",
+            "docs/operations/runs/resume-20261016-0400-recovery3-restore-node-http.json",
+            "docs/operations/runs/resume-20261016-0400.json"
+          ],
+          "scope": "로컬 감사·영수증 읽기 전용. 파일쓰기/Git/소스 변경/테스트·브라우저·배포/외부 요청 없음. 새 점수·순위 없음."
+        }
+      ],
+      "scope": "Actual twooriginalreviewers read-only messages; no new scores/ranking; their Release/notificationspending preserved as observed boundary. Root separately confirms actualrelease receipts."
+    }
   }
 }

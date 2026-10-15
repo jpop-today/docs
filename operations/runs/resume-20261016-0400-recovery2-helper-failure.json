@@ -1,0 +1,8 @@
+{
+  "observedAt": "2026-10-15T23:29:27.398884+00:00",
+  "scope": "Temporary root recovery helper configuration error; no product source change",
+  "actualFailure": "maxAttempts60 exceeds existing verifier supportedmax30; both verification subprocess exit1 before writing HTTP receipt",
+  "actualAPIAndObserver": "Old canonical rollback and new restore executed; old/new observer exactcomplete metadata/home/sitemap PASS; no strict27 HTTP pass for this attempt",
+  "correction": "Supported30 attempts/2000ms retry/60000ms total; strict27checks unchanged; third controlled recovery uses separate exclusive receipts",
+  "source": "scripts/verify-deployment.mjs validation lines211-220; actual recovery2 execution receipts return1"
+}
