@@ -1,0 +1,74 @@
+{
+  "state": "merged",
+  "pr": 29,
+  "url": "https://github.com/jpop-today/jpoptoday/pull/29",
+  "headSha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+  "mergeSha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+  "mergedAt": "2026-10-15T23:42:07Z",
+  "productSha": "48c58d57b15aa775676229465fd13c390ccac620",
+  "appTreeDifference": [
+    "reports/daily/2026-10-16.json",
+    "reports/runs/resume-20261015-2300.json"
+  ],
+  "onlyReportsDiffer": true,
+  "headCI": [
+    {
+      "id": 38824943742,
+      "name": "contracts",
+      "event": "pull_request",
+      "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38824943729,
+      "name": "app",
+      "event": "pull_request",
+      "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38824859220,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38824859270,
+      "name": "app",
+      "event": "push",
+      "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "documentation": {
+    "pr": 16,
+    "url": "https://github.com/jpop-today/docs/pull/16",
+    "headSha": "3d8956b85744f8b4aa96194a15628773bff41bf5",
+    "mergeSha": "2d2cce4393031b7e4b6333ef17a1571fc0681600",
+    "mergedAt": "2026-10-15T23:41:03Z"
+  },
+  "nativeAttachments": "PR16/29 each5s timeout/unconfirmed; ordinaryGitHubURLs valid",
+  "checkedAt": "2026-10-15T23:42:54.239Z",
+  "mainCI": [
+    {
+      "id": 38825146453,
+      "name": "contracts",
+      "head_sha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38825146435,
+      "name": "app",
+      "head_sha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "mainCICheckedAt": "2026-10-15T23:44:14.912516+00:00"
+}
