@@ -1,5 +1,7 @@
 # 실행 상태
 
+진행중: 2026-10-15 23시 `resume-20261015-2300` / [Issue24](https://github.com/jpop-today/jpoptoday/issues/24). 기존v0.4.1완료/clean/main·실제ebd/M·새27HTTP를재확인하고다음4곡공식근거와가수별업체확인곡수를설계했다. [실행계약](runs/resume-20261015-2300.json) 이후 실제결과만갱신한다.
+
 갱신: 2026-10-15 KST. 최신 제품은 **v0.4.1 / source M `d7cf8cb522da936450c9a08864abc99722f2f544` / 실제 todayjpop·jpop.today `ebd045fa-e409-4306-9621-0858f391dee5`**다. [PR22](https://github.com/jpop-today/jpoptoday/pull/22) 병합 뒤 기존 개인 Gitmetadata/dev·자동false/none과 실제API/HTTP를 확인하고 관리자cloud binding으로 반영했다. ActionsCFbindings는 새verify-only38718667044에서도missing/deployskip이며 실제자동배포성공을주장하지않는다.
 
 Issue20의metadata-only공식번호조회/실패보존·자체표기비교가이드를완료했다. 307unit/type0·local24/24·sameMremote24/24·각3346files3336HTML/0·37index·완전로컬재현·실제old26→new27복구/재복원최종PASS와v0.4.1게시를확인했다. 앞선복구혼합응답/Python관측오류/immutable403·사용량/사용자일시정지·실제6peer39/39/38과품질교체를보존한다. [릴리스기록](releases/v0.4.1-20261015.md), [일일누적기록](daily/2026-10-15.json), [run](runs/daily-20261015-0900.json), [교체감사](production-content-gate-v041-20261015.md)가현재인계다. 문서PR12·보고PR23을병합하고관리자완료Discord actualsent1attempt까지확인했다. [송신영수증](runs/daily-20261015-0900-completed-discord.json)과[보고SHA증거](runs/daily-20261015-0900-source-report.json)가송신후상태다. 제품/tagM과보고mainR은reports두파일만다르다.

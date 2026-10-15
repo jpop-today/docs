@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261015-2300",
+  "events": [
+    {
+      "stage": "initial whole preview regression",
+      "state": "24passed2failed",
+      "durationSeconds": 54.3,
+      "cause": "Existing coverage E2E froze priorcounts22TJ/20KY/20listed IDs and42numbers; newofficial8 raises actualcounts. No appcounts defect established.",
+      "fix": "Root recomputes status/provider records/uniqueIDs/conflict/suppression/safe rows independently from servedcatalog; no newhardcodedcounts or contractweaken",
+      "log": "/tmp/jpop-2300-preview-e2e.txt"
+    },
+    {
+      "stage": "local preview source snapshot",
+      "state": "initialartifact_before_nonvisual_role_tweak",
+      "cause": "Appowner added divrole=group afterinitialbuild; root noticed andfrozeowner/rebuilt finalsource, older QA separated",
+      "productFailureEstablished": false
+    },
+    {
+      "stage": "quality new E2E initial",
+      "state": "2failed_then2passed",
+      "cause": "Temporarytest assumed24곡 instead of actual24개ID; corrected displayunit, numeric/data/evidence checksretained",
+      "evidence": "engineering/artist-provider-counts-quality-20261015-2300.md"
+    },
+    {
+      "stage": "app independent QA diagnostics",
+      "state": "initial3diagnosticsfailed",
+      "cause": "Two incorrect officialURL assumptions andbrandspan selector; productcode notchanged to satisfydiagnostic",
+      "evidence": "engineering/artist-provider-counts-20261015-2300.md"
+    },
+    {
+      "stage": "optional rootserver identityprobe",
+      "state": "cwd_read_unavailable",
+      "cause": "/proc/<knownPID>/cwd PermissionError despite sameUID; no permissionbypass. ps exactunique command/start14:06:29/UID1000 and initialportfree→rootlaunch identified ourserverPID76915 for later targetedcleanup.",
+      "productFailureEstablished": false
+    }
+  ],
+  "recordedAt": "2026-10-15T14:12:18.545556+00:00"
+}

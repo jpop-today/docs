@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261015-2300",
+  "recordedAt": "2026-10-15T14:18:51.015345+00:00",
+  "workers": [
+    "/root/resume23_evidence",
+    "/root/resume23_app",
+    "/root/resume23_quality"
+  ],
+  "reviews": [
+    {
+      "reviewer": "/root/resume23_evidence",
+      "candidate": "/root/resume23_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "artists.astro를 직접 읽었다. 기존 confirmedNumbers/buildConfirmedArtistGroups 판정을 그대로 사용하고 업체별 song.id Set과 전체 ID Set을 따로 계산해 TJ24·금영22·합집합24를 표시한다. 전역·모든 가수 바로가기·그룹 수와 0곡의 미수록 아님 의미를 SSR 본문 및 실제 aria-describedby/role=group으로 제공하고, 기존 anchor·곡URL·원문명의·근거/시각을 보존한다.",
+        "evidence": "최종 14:12:35–39Z dirty preview의 영속 QA JSON과 PNG6장을 모두 실제 열어 읽었다. 3viewport에서82개 수치·20그룹·24/22/24 독립집계, JS-off 키보드·0곡·마지막그룹, 넘침/clip/console/광고0 및 정확한 브랜드/palette가 코드/화면과 맞는다. 잘못된 초기 URL/브랜드 selector 진단3회와 이전 p artifact는 최종divrole 결과와 구분해 기록했다.",
+        "value": "방문할 노래방 업체에 맞는 확인곡 수를 가수 선택 전후에 바로 비교하게 하며 전체46곡으로 오해하는 중복합산과 0=미수록 오해를 실제 문구로 줄인다. 360px 화면의 상단요약·두열목록·0곡번호카드와 마지막 가수도 읽을 수 있고 기존 상세/공식근거 흐름이 이어진다.",
+        "maintainability": "소유 페이지와 문서만 수정하며 기존 Layout/helper·static SSR·원문그룹·native anchor·scoped CSS를 재사용한다. 간단한 countProviders 함수가 global/group 계산을 공유하고 수치를 하드코딩하지 않는다. 명시적 data속성/aria 계약과 최종82수치 독립회귀가 후속자료 append를 지원한다. 검토 범위에서 별도 유지보수 차단을 발견하지 않았다."
+      },
+      "reason": "할당된 업체별 확인곡 수와 모바일/키보드·브랜드 계약을 실제 파일/최종PNG/QA 및 root310unit·type0·preview26 로그로 수용한다. 새 브라우저나 공식조회를 이 리뷰에서 실행하지 않았고, root coverage 기존고정값 수정은 앱 담당 소유 성과로 가산하지 않는다. 현재 cleanCI/원격preview/운영/복구/Release는 pending이다.",
+      "evidence": [
+        "jpoptoday/src/pages/artists.astro",
+        "docs/engineering/artist-provider-counts-20261015-2300.md",
+        "docs/operations/runs/resume-20261015-2300-ui-qa.json",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-desktop-summary.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-desktop-index.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-mobile-summary.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-mobile-index.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-mobile-zero-group.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-short-last-group.png",
+        "/tmp/jpop-2300-unit.txt",
+        "/tmp/jpop-2300-check-final.txt",
+        "/tmp/jpop-2300-preview-e2e-final.txt"
+      ],
+      "acceptance": "accepted_for_integration; 담당 구현/최종 로컬 QA 계약 충족, 필수 보완 없음. clean sameSHA CI·원격preview·운영·실제복구·Release는 root의 후속 검증 필요.",
+      "originalDocument": "data/provider-review-20261015-2300.md"
+    },
+    {
+      "reviewer": "/root/resume23_evidence",
+      "candidate": "/root/resume23_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "3개 cohort unit과2개 E2E를 직접 읽었다. 기존63전체객체·순서의 canonicalhash, raw/chart bytes, 실제8행 전체 제목/가수/번호/URL/시각/hash를 고정하며3,317ID·기존URL·비대상전체객체·같은제목Ado의 관측/unknown을 보존한다. E2E는 production helper를 import하지 않고 served catalog에서 distinct ID Set을 계산하여 global/index/group·실제번호포함·합집합·0곡·JS-off/360px/키보드·target별meta를 검사한다.",
+        "evidence": "품질 문서의3unit PASS214.918209ms/최초 단위 가정오류2FAIL/정정2PASS11.5s와 최종role추가 경계를 읽었다. root 실제310/310 PASS11.481s 로그에서3새unit을, 최종preview26/26 PASS44.6s 로그에서2새E2E를 확인했다. 실제8metadata와 test의 frozen tuple도 일치한다. 초기24PASS2FAIL은 root의coverage기존고정값 문제이며 품질2검사의 실패나 최종통과로 뒤섞지 않는다.",
+        "value": "잘못된 근거가 같은 제목의 다른 가수에 전파되는 문제와 기존63정정/ID/URL 손상, 업체번호 수를 곡수로 합산하는 문제를 구체적으로 막는다. 실제0곡·공동명의 원문그룹·키보드상세·광고/오버레이 경계가 사용자에게 보이는 결과를 독립검증한다. 검증이 공식사람대조나 AdSense승인을 대체한다고 하지 않는다.",
+        "maintainability": "검사 범위가 별도 두 소스파일에 분리되고 frozen cohort63~71만 고정하여 나중 append가 회귀 의미를 바꾸지 않도록 했다. 최소 tuple/URL builder·independentCounts·verifyCounts를 재사용하고 서버/공용package/CI를 변경하지 않는다. 합성/실제자료/dirty실행/원격미실행과 실패원인을 문서로 구분해 재개할 수 있다. 현재 계약에 필수적인 유지보수 결함을 발견하지 않았다."
+      },
+      "reason": "실제 파일·메타데이터·로그를 읽어 할당된 회귀와 독립집계 검사를 수용한다. 새 테스트/브라우저를 리뷰에서 재실행하지 않았고 기존8계약 회귀 실행과 root전체310을 중복 합산하지 않는다. 아직 실행중인 production26과 cleanCI/preview/운영/복구/Release를 통과로 가정하지 않는다.",
+      "evidence": [
+        "jpoptoday/tests/reviewed-cohort-2300.test.mjs",
+        "jpoptoday/e2e/artist-provider-counts.spec.ts",
+        "docs/engineering/artist-provider-counts-quality-20261015-2300.md",
+        "docs/data/provider-review-requests-20261015-2300.json",
+        "docs/operations/runs/resume-20261015-2300-ui-qa.json",
+        "/tmp/jpop-2300-unit.txt",
+        "/tmp/jpop-2300-check-final.txt",
+        "/tmp/jpop-2300-preview-e2e-final.txt"
+      ],
+      "acceptance": "accepted_for_integration; 담당3unit/2E2E 및 최종로컬preview 통과 수용, 필수 보완 없음. production로컬/cleanCI·원격preview·운영·실제복구·Release는 후속 실제 증거 필요.",
+      "originalDocument": "data/provider-review-20261015-2300.md"
+    },
+    {
+      "reviewer": "/root/resume23_app",
+      "candidate": "/root/resume23_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "동결차트11~14위의 실제current/playlist4ID·8번호를 전체제목/가수/버전으로 대조하고 confirm8만 append했다. base63전체객체/순서·상위metadata 불변, 저장candidate8↔decision8↔ledger8의 번호/제목/가수/checkedAt/hash 일치를 독립 읽기로 확인했다.",
+        "evidence": "공식요청8개에 실제시각/HTTP200/요청=최종URL/응답bytes와hash·원unreviewed candidate 및 별도reviewer/reviewedAt/개별판단을 보존한다. 이 reviewer도 새cohort3+기존8계약을11/11실행했고 원문없음·hash재계산불가를 실제 한계로 구분했다.",
+        "value": "Walking with you·ドライフラワー·水平線·踊り子의 실제8업체번호를 관측에서 근거있는확인으로 개선해 기존안정ID상세/가수목록에서 근거와대조시각을 볼 수 있게 한다. 미수록/음원동일성/권리/Google승인을 과장하지 않는다.",
+        "maintainability": "안전helper를변경하지않고 지정ledger에append만 수행했다. metadata전용요청과별도decision·변경전후hash/원본보존·실행경계/다음root게이트를 문서와JSON으로 연결해 다음실행이 안전하게 추적할 수 있다."
+      },
+      "reason": "할당자료범위 수용. 기존63항목과 frozen입력을 보존하고 실제8개 근거의편집판단만 추가했으며 공식조회/후속CI·배포·AdSense 상태를 구분했다.",
+      "evidence": [
+        "jpoptoday/data/reviewed/provider-corrections.json",
+        "docs/data/provider-review-20261015-2300.md",
+        "docs/data/provider-review-requests-20261015-2300.json",
+        "jpoptoday/data/staging/legacy-catalog.json",
+        "jpoptoday/tests/reviewed-cohort-2300.test.mjs",
+        "docs/engineering/artist-provider-counts-20261015-2300.md"
+      ],
+      "acceptance": "현재자료/검토/보존 범위 PASS·필수보완없음. 원문재파싱/새조회/배포/실제Google심사 수용을 뜻하지 않으며 cleanSHA CI·운영/복구/Release는 root의후속실제증거가 필요하다.",
+      "originalDocument": "engineering/artist-provider-counts-20261015-2300.md"
+    },
+    {
+      "reviewer": "/root/resume23_app",
+      "candidate": "/root/resume23_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "criterionReasons": {
+        "correctness": "고정63근거·8cohort의전체공식evidence·모든ID/URL/비대상객체·같은제목Ado분리를검증한다. E2E는앱집계helper없이servedcatalog에서global/index/group전체ID Set을산출해 TJ24/KY22/합집합24·0의미·role/aria·JSoff기존링크를 대조했다.",
+        "evidence": "본인이직접새cohort3+기존8unit11/11을실행했고 root최종unit310/preview26/type0로그와두테스트소스/품질문서를읽었다. 초기단위표기가정2실패·초기p artifact·최종div role조건통과를 분리했으며 screenshot미실행을타담당실제6PNG로보완함을구분했다.",
+        "value": "업체합46을24개ID와혼동하거나한가수의수를다른그룹에보이는회귀, 미확인0의미누락, 동일제목의다른가수근거전파 및JSoff키보드경로를 실제사용흐름에서검출한다. 기존원본/저장호환전체회귀를대체한다고쓰지않는다.",
+        "maintainability": "고정cohort·독립집계를작은테스트로분리하고나중append도허용한다. 다만E2E의독립URL oracle은현재contract가허용하는www KY표기와port/query중복조건까지일치하지않아 향후공식URL표기변경때별도추적보완이필요하다. 현재실제8행은canonical URL이어서비차단후속이다."
+      },
+      "reason": "현재할당cohort/렌더검증 범위 수용. 실제통과/수정이력과root공용coverage실패책임을분리했고 숫자만맞추는구현동일테스트에그치지않았다. 독립URL oracle 유지보수후속을명시한다.",
+      "evidence": [
+        "jpoptoday/tests/reviewed-cohort-2300.test.mjs",
+        "jpoptoday/e2e/artist-provider-counts.spec.ts",
+        "docs/engineering/artist-provider-counts-quality-20261015-2300.md",
+        "jpoptoday/contracts/provider-corrections.mjs",
+        "/tmp/jpop-2300-unit.txt",
+        "/tmp/jpop-2300-preview-e2e-final.txt",
+        "/tmp/jpop-2300-check-final.txt",
+        "docs/operations/runs/resume-20261015-2300-ui-qa.json"
+      ],
+      "acceptance": "현재cohort/preview수용 PASS·필수보완없음. 비차단URL oracle정합성후속을남기며 production/cleanSHA CI·원격배포/복구/Release는 pending으로구분한다.",
+      "originalDocument": "engineering/artist-provider-counts-20261015-2300.md"
+    },
+    {
+      "reviewer": "/root/resume23_quality",
+      "candidate": "/root/resume23_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "frozen chart의 정확 canonical 4ID와 staging의 provider 번호를 actual candidate/decision/ledger8개에 독립 대조해 전부 일치했다. 優里 근거가 같은 제목 Ado에 전파되지 않고, 원63 wholeobjects/order·3317ID와 비대상 public song은 unit3/3 및 전체310에서 보존된다.",
+        "evidence": "requests JSON의 실제 HTTP200/finalUrl/checkedAt/responseBytes/hash와 원 unreviewed 후보를 보존하고 별도 reviewer/reviewedAt/이유8개로 편집 판정을 구분했다. 본인이 candidate↔decision↔ledger evidence8/8 및 보존 inputhash4개와 결과ledgerhash를 직접 대조했다. 원 응답 비저장에 따른 재파싱 불가와 새조회/심사/권리 미확인을 명시했다.",
+        "value": "실제 사용자가 찾는 동결차트4곡8번호를 관측 상태에서 정확한 제공사 제목·가수·버전 근거가 있는 확인 상태로 보강한다. 원래 번호/ID를 보존하고 실제 가수 탐색의 안전 확인곡 합집합을24곡으로 넓히며, 가수전체목록·미수록·권리승인으로 과장하지 않는다.",
+        "maintainability": "기존 metadata-only helper와 ADR006 ledger 형식을 재사용하고 8개 끝 append만 수행했다. 기존63 metadata/객체/순서/prefix를 보존하며 원문·가사·시크릿을 남기지 않고 요청/편집/검증/한계/다음담당을 영속 JSON과 문서로 연결했다. Git/공용파일/서버/CI/배포 소유권을 지켰다."
+      },
+      "reason": "할당된 실조회·정체성 대조·append/보존·안전 영속 기록 수용 기준을 실제 읽기/회귀 범위에서 만족한다. 필수 수정 없음.",
+      "evidence": [
+        "jpoptoday/data/reviewed/provider-corrections.json",
+        "docs/data/provider-review-20261015-2300.md",
+        "docs/data/provider-review-requests-20261015-2300.json",
+        "jpoptoday/data/staging/legacy-catalog.json",
+        "jpoptoday/data/chart-snapshot.json",
+        "jpoptoday/tests/reviewed-cohort-2300.test.mjs",
+        "/tmp/jpop-2300-unit.txt"
+      ],
+      "acceptance": "accepted_data_component; actual fetch receipt와 편집 근거/불변입력을 수용. raw response 독립재파싱·오디오·권리·Google심사는 미실행/미확인. 배포·복구·Release는 root 별도 게이트.",
+      "originalDocument": "engineering/artist-provider-counts-quality-20261015-2300.md"
+    },
+    {
+      "reviewer": "/root/resume23_quality",
+      "candidate": "/root/resume23_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "기존 confirmedNumbers 자격을 유지하며 provider별 ID Set으로 global/index/group을 계산한다. production helper를 가져오지 않는 본인 E2E가 실제 served catalog에서 TJ24/KY22/union24와 모든 가수 수치·포함 ID를 대조했다. 0의 미수록 아님과 aria 설명 연결, 최종 div role=group, 기존 anchor/공동명의 분리/URL 보존을 확인했다.",
+        "evidence": "최종 dirty preview 3viewport QA JSON과 영속 PNG6개를 실제 읽고 열었고 원 임시 증거와 바이트 동일도 확인했다. 82수치/20그룹·실제0군·정확gradient/palette·콘솔/광고/넘침0 및 키보드 이동과 화면이 일치했다. root의 finalpreview26PASS/type0/unit310 로그를 읽었고 초기 p artifact·진단 URL2/brand선택자1 오류와 최종 source 증거를 분리했다.",
+        "value": "사용자가 방문할 업체를 기준으로 확인곡 범위를 가수 바로가기와 그룹에서 바로 판단하고 실제 번호/근거/기존 상세로 이동할 수 있게 한다. 두업체중복을 전체46곡으로 오해하지 않도록 union24를 설명하며 금영0을 미수록으로 단정하지 않는다. 360px JSoff에서도 본문과 키보드 이동을 제공한다.",
+        "maintainability": "artists.astro 한 소유파일에서 기존 trusted projection을 재사용하며 데이터·공용CSS·저장키·공용계약을 변경하지 않는다. shared DOM count 규약과 소유doc이 다음 회귀에 연결되고, 새 clientscript/dependency 없이 SSR로 구현했다. 길어진 index의 sticky를 해제해 낮은 viewport 마지막링크 접근을 유지하고 브랜드computed값을 검증했다."
+      },
+      "reason": "할당된 업체별 수·의미·정적 탐색·접근성·브랜드/호환성 수용 기준을 실제 파일·독립 집계/회귀·최종 화면에서 만족한다. 필수 수정 없음.",
+      "evidence": [
+        "jpoptoday/src/pages/artists.astro",
+        "docs/engineering/artist-provider-counts-20261015-2300.md",
+        "docs/operations/runs/resume-20261015-2300-ui-qa.json",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-desktop-summary.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-desktop-index.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-mobile-summary.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-mobile-index.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-mobile-zero-group.png",
+        "docs/engineering/design/artist-provider-counts-20261015-2300-short-last-group.png",
+        "/tmp/jpop-2300-preview-e2e-final.txt",
+        "/tmp/jpop-2300-check-final.txt"
+      ],
+      "acceptance": "accepted_app_component; final dirtypreview SSR/독립count/360JSoff·키보드·시각QA 수용. WebKit/Firefox/실제스크린리더·필드성능은 미실행. cleanCI·실제운영·복구·Release는 root 별도 게이트.",
+      "originalDocument": "engineering/artist-provider-counts-quality-20261015-2300.md"
+    }
+  ],
+  "manager": {
+    "allSixActualReviewsRead": true,
+    "totals": {
+      "/root/resume23_evidence": 40,
+      "/root/resume23_app": 40,
+      "/root/resume23_quality": 39
+    },
+    "unit": 310,
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "localPreviewBrowser": 26,
+    "localPreviewSeconds": 44.6,
+    "localProductionBrowser": 26,
+    "localProductionSeconds": 45.9,
+    "uiScreenshotsViewedByRoot": [
+      "desktop-summary",
+      "mobile-index"
+    ],
+    "selectedForRotation": "/root/resume23_quality",
+    "reason": "Unique39 fromactual20+19. One reviewer maintainability4 cites independentURLoracle wwwKY/port/query differences; currentcanonical8/26browser pass andno blockingdefect. No quantity/verbosityranking.",
+    "tieBreakUsed": false,
+    "rotationState": "replacement_created",
+    "retired": "/root/resume23_quality",
+    "previousInterruptState": "completed",
+    "physicalDeletion": false,
+    "replacement": "/root/replacement23_gate",
+    "replacementScope": "docs/operations/production-content-gate-v042-20261015.md",
+    "activeRoster": [
+      "/root/resume23_evidence",
+      "/root/resume23_app",
+      "/root/replacement23_gate"
+    ],
+    "rotatedAt": "2026-10-15T14:20:36.101327+00:00"
+  }
+}
