@@ -4,7 +4,7 @@
   "date": "2026-10-15",
   "timezone": "Asia/Seoul",
   "startedAt": "2026-10-15T14:01:40.044402+00:00",
-  "phase": "in_progress",
+  "phase": "product_released_reporting_pending",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/24",
   "parentIssue": 6,
   "spec": [
@@ -140,9 +140,16 @@
       "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38748102127",
       "sourceSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
       "scope": "Actual selected senderline; no secret/webhookURL/rawlog retained"
+    },
+    "release": {
+      "state": "sent",
+      "sentAt": "2026-10-15T18:18:50.5837730Z",
+      "attempts": 1,
+      "workflowRun": 38784313891,
+      "scope": "Actual explicit Release senderline; not completed report"
     }
   },
-  "updatedAt": "2026-10-15T14:16:39.924780+00:00",
+  "updatedAt": "2026-10-15T18:23:12.679507+00:00",
   "localPreviewArtifact": {
     "files": 3346,
     "html": 3336,
@@ -174,8 +181,9 @@
     "number": 25,
     "url": "https://github.com/jpop-today/jpoptoday/pull/25",
     "headSha": "4e1ec00d5ca9d3505cc36b505d42478c9e140255",
-    "state": "open",
-    "nativeAttachment": "5secondtimeout_unconfirmed"
+    "state": "merged",
+    "nativeAttachment": "5secondtimeout_unconfirmed",
+    "mergeSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf"
   },
   "reviewsEvidence": "resume-20261015-2300-reviews.json",
   "rotation": {
@@ -211,5 +219,115 @@
       "/root/replacement23_gate"
     ],
     "rotatedAt": "2026-10-15T14:20:36.101327+00:00"
-  }
+  },
+  "ciEvidence": "resume-20261015-2300-ci.json",
+  "reproducibilityEvidence": "resume-20261015-2300-reproducibility.json",
+  "ciMainApp": {
+    "id": 38750666866,
+    "state": "success",
+    "sourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf"
+  },
+  "interruption": {
+    "worker": "/root/replacement23_gate",
+    "stateAtInterrupt": "actual_usage_limit_after_initialaudit_before_remoteacceptance",
+    "resumedAtObserved": "2026-10-15T18:01:23Z",
+    "resumedKSTDate": "2026-10-16",
+    "sameWorkerActuallyResumed": true,
+    "newWorkersCreated": false,
+    "environmentRevision": "256",
+    "freshGitHubMain": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+    "productionAPI": "Still ebd/source d7cf8cb; no newproductiondeploy happened",
+    "readBatch": "Firstcombinedreadonlybatch didnotsettle; safelyterminated and boundedindependentreads succeeded",
+    "scope": "No tokenreset detection/24h continuationclaim; actual prompt/time/toolread/followup results only"
+  },
+  "preview": {
+    "deploymentId": "a73d8e0a-93c3-4649-aa6d-298db8903d1b",
+    "url": "https://a73d8e0a.jpoptoday-preview.pages.dev",
+    "sourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+    "httpChecks": 27,
+    "httpAttempts": 1,
+    "httpPassed": true,
+    "remoteWorkflow": 38751360483,
+    "remoteWorkflowState": "success",
+    "remoteBrowserCount": 26,
+    "noindex": true,
+    "ads": false,
+    "remoteBrowserSeconds": 34.8
+  },
+  "production": {
+    "deploymentId": "630c12d8-341a-4ad0-b406-43e36eefd4b2",
+    "sourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+    "createdAt": "2026-10-15T18:09:22.241747Z",
+    "method": "root managed cloud binding",
+    "firstHTTP": {
+      "checks": 27,
+      "attempts": 2,
+      "passed": true,
+      "firstFailure": "REQUEST_TIMEOUT /sitemap.xml"
+    },
+    "actualRecovery": {
+      "oldChecks": 27,
+      "oldAttempts": 1,
+      "newChecks": 27,
+      "newAttempts": 2,
+      "oldStateObservations": 8,
+      "newStateObservations": 8,
+      "newFirstFailure": "CATALOG_MISMATCH oldcatalogbytes after APIrestore; final exacthashPASS",
+      "passed": true,
+      "evidence": "resume-20261015-2300-recovery-node-summary.json"
+    },
+    "remoteRun": 38783643157,
+    "actualRemoteBrowser": 26,
+    "remoteBrowserSeconds": 53.3,
+    "remoteHTTPAttempts": 1,
+    "actionsCloudflareBindings": "missing",
+    "actionsDeployment": "skipped verify_only; actualrootmanageddeploymentseparate"
+  },
+  "release": {
+    "version": "0.4.2",
+    "tag": "v0.4.2",
+    "sourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+    "annotatedTagSha": "d271f6ae0c48bf05162ecdcec3e40e2ad110e183",
+    "tagTargetType": "commit",
+    "tagTargetSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+    "releaseId": 414128773,
+    "publishedAt": "2026-10-15T18:18:49Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.2",
+    "workflowRun": 38784313891,
+    "state": "published",
+    "verifiedAt": "2026-10-15T18:19:38.315547+00:00",
+    "scope": "Actual GitHub Release/ref/annotatedtag API reads; not Google approval",
+    "notification": {
+      "state": "sent",
+      "sentAt": "2026-10-15T18:18:50.5837730Z",
+      "attempts": 1,
+      "workflowRun": 38784313891,
+      "scope": "Actual explicit Release senderline; not completed report"
+    },
+    "safeResults": [
+      {
+        "jobId": 116592248938,
+        "at": "2026-10-15T18:17:03.3751433Z",
+        "result": "Reviewed release identity verified v0.4.2"
+      },
+      {
+        "jobId": 116592248938,
+        "at": "2026-10-15T18:18:35.4197021Z",
+        "result": "26 passed (29.9s)"
+      },
+      {
+        "jobId": 116593096653,
+        "at": "2026-10-15T18:18:50.2005202Z",
+        "result": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.2"
+      },
+      {
+        "jobId": 116593096653,
+        "at": "2026-10-15T18:18:50.5837730Z",
+        "result": "Discord notification sent (1 attempt)."
+      }
+    ]
+  },
+  "completedKSTDate": "2026-10-16"
 }

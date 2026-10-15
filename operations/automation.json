@@ -57,9 +57,24 @@
       "dailyLastRunTime": "2026-10-14T23:58:49.673277+00:00",
       "hourlyLastRunTime": "2026-10-15T12:58:28.231709+00:00",
       "evidence": "Actual finalpeek original09/hourlyenabled/schedulesunchanged. Repeatedhourly coalesced into sameunfinisheddaily15run, no newteam."
+    },
+    {
+      "observedAt": "2026-10-15T18:16:45.622940+00:00",
+      "runId": "resume-20261015-2300",
+      "dailyEnabled": true,
+      "hourlyEnabled": true,
+      "schedulesChanged": false,
+      "evidence": "runs/resume-20261015-2300-automation-observation.json",
+      "boundary": "Actual peek is_enabled true; next_run_time null; no exact future execution/tokenreset guarantee"
     }
   ],
-  "lastCheck": "Actualpeek: daily09/hourlyenabled; schedulesunchanged. last_run_time is an observation, not exacttrigger/24h/tokenreset guarantee.",
+  "lastCheck": {
+    "observedAt": "2026-10-15T18:16:45.622940+00:00",
+    "dailyEnabled": true,
+    "hourlyEnabled": true,
+    "schedulesChanged": false,
+    "evidence": "runs/resume-20261015-2300-automation-observation.json"
+  },
   "pauseResume20261015": {
     "pauseEvidence": "runs/daily-20261015-0900-user-pause.json",
     "pauseAt": "2026-10-15T01:04:23.181743+00:00",

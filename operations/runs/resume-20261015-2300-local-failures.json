@@ -35,5 +35,12 @@
       "productFailureEstablished": false
     }
   ],
-  "recordedAt": "2026-10-15T14:12:18.545556+00:00"
+  "recordedAt": "2026-10-15T14:12:18.545556+00:00",
+  "continuationEvidence": {
+    "ghLogRead": "Actual whole/job log reads exit0/stdout0bytes; connected GitHub job116478304418 later provided real26pass. No test rerun/no inferredpass.",
+    "productionFirst": "27PASS/2attempts; first sitemap REQUEST_TIMEOUT preserved in production-first-http.json",
+    "recovery": "old27/1attempt,new27/2attempts; new first oldcatalog CATALOG_MISMATCH and old/new8stateobservations preserved",
+    "readWrapper": "One connected workflow-list wrapper had no expected content JSON; caller parse failed before mutations, bounded gh readonly returned actual status.",
+    "scope": "Operational read/projection failures are separate from product failures; priorrun recovery failures not copied"
+  }
 }

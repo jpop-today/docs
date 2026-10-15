@@ -219,6 +219,54 @@
       "/root/resume23_app",
       "/root/replacement23_gate"
     ],
-    "rotatedAt": "2026-10-15T14:20:36.101327+00:00"
-  }
+    "rotatedAt": "2026-10-15T14:20:36.101327+00:00",
+    "replacementFinalAudit": "accepted productgates; docs/report delivery pending",
+    "replacementAuditPath": "operations/production-content-gate-v042-20261015.md",
+    "actualPreviewBrowser": 26,
+    "actualProductionBrowser": 26,
+    "actualRecovery": {
+      "old": 27,
+      "new": 27,
+      "oldAttempts": 1,
+      "newAttempts": 2,
+      "firstFailuresPreserved": true
+    },
+    "releaseId": 414128773,
+    "newRankingOrScores": false,
+    "finalProductGatesAcceptedAt": "2026-10-15T18:21:40.228394+00:00",
+    "bothSupplementalAcceptancesRead": true,
+    "supplementalAcceptanceCount": 2
+  },
+  "supplementalAcceptance": [
+    {
+      "reviewer": "/root/resume23_evidence",
+      "candidate": "/root/replacement23_gate",
+      "state": "accepted_product_gates",
+      "receivedByManagerAt": "2026-10-15T18:22:25.917700+00:00",
+      "criterionReasons": {
+        "correctness": "8candidate/decision/ledger·원63/3317ID·TJ24/KY22/union24/0의미/브랜드URLstorage와M3db/previewa73d/prod630c연결 일치",
+        "evidence": "실제310/type0·전3346files재현·0/41index·preview27/remote26·prod27/remote26·old27/new27와firstTIMEOUT/restoreoldcatalog실패를각JSON대조;tagd271→M/Release414128773/16일03:18:49·ReleaseDiscord1attempt구분",
+        "value": "4곡8번호·업체별수/합46대union24·0의미·JSoff/키보드/마지막그룹개선,전체수록/실기기/권리/승인과장없음",
+        "maintainability": "append/projection/SSR/nativeanchor/동결입력·6리뷰/교체원본보존·원문재파싱불가/CIarchive전체비교미실행·URLoracle비차단후속경계명확"
+      },
+      "scope": "Read finalaudit and linked saved receipts only; no file/Git/provider/browser/build/deploy/newworker",
+      "newScore": false,
+      "finalReportDeliveryAtReview": "pending"
+    },
+    {
+      "reviewer": "/root/resume23_app",
+      "candidate": "/root/replacement23_gate",
+      "state": "accepted_product_gates",
+      "receivedByManagerAt": "2026-10-15T18:23:12.651106+00:00",
+      "criterionReasons": {
+        "correctness": "8근거/원63보존·TJ24/KY22/union24·0의미를 실제기록과본인UI증거에대조",
+        "evidence": "M3db CI/두target전파일재현·previewa73d/prod630c원격26/26·old27/new27/firstsitemapTIMEOUT/restorecatalogMISMATCH·Release414128773/16일03:18:49·ReleaseDiscord1attempt구분",
+        "value": "가수선택전후업체확인범위/기존상세/공식근거·모바일JSoff/키보드/브랜드검증연결",
+        "maintainability": "projection/SSR/ID/URL/storage/동결입력유지·URLoracle후속·Actions자격미설정을실제운영과분리"
+      },
+      "scope": "Read saved finalaudit/linked proofs and own UI receipts only; no edits/external queries/retests/newscore",
+      "newScore": false,
+      "finalReportDeliveryAtReview": "pending"
+    }
+  ]
 }
