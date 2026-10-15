@@ -6,8 +6,8 @@
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
   "enabled": true,
   "registeredAt": "2026-10-13T06:17:18.885914+00:00",
-  "observedAt": "2026-10-14T23:26:37.562865+00:00",
-  "lastRunTime": "2026-10-13T23:58:56.467334+00:00",
+  "observedAt": "2026-10-15T10:14:50.952Z",
+  "lastRunTime": "2026-10-14T23:58:49.673277+00:00",
   "nextRunTime": null,
   "firstRunObserved": true,
   "disable": "Codex automation settings or supported automations_update(is_enabled=false)",
@@ -21,7 +21,7 @@
     "timezone": "Asia/Seoul",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
     "registeredAt": "2026-10-14T05:18:22.991454Z",
-    "lastRunTime": "2026-10-14T22:58:26.575683+00:00",
+    "lastRunTime": "2026-10-15T10:04:10.877338+00:00",
     "nextRunTime": null,
     "firstRunObserved": true,
     "purpose": "미완료 작업 재개 점검, 진행중 중복skip, 변화없음quiet",
@@ -45,7 +45,35 @@
       "dailyLastRunTime": "2026-10-13T23:58:56.467334+00:00",
       "hourlyLastRunTime": "2026-10-14T22:58:26.575683+00:00",
       "evidence": "Fresh actual automations_peek before final publication: both enabled and exact original schedules unchanged; recordedAt follows tool observation"
+    },
+    {
+      "observedAt": "2026-10-15T10:14:50.952Z",
+      "dailyLastRunTime": "2026-10-14T23:58:49.673277+00:00",
+      "hourlyLastRunTime": "2026-10-15T10:04:10.877338+00:00",
+      "evidence": "Actual automations_peek: bothenabled, exactoriginal schedulesunchanged; Oct15 userpause andexplicitresumeupdates preserved below"
     }
   ],
-  "lastCheck": "Actual automations_peek; both original schedules unchanged and enabled; repeated prompts coalesced into unfinished same run"
+  "lastCheck": "Actualpeek: daily09/hourlyenabled; schedulesunchanged. last_run_time is an observation, not exacttrigger/24h/tokenreset guarantee.",
+  "pauseResume20261015": {
+    "pauseEvidence": "runs/daily-20261015-0900-user-pause.json",
+    "pauseAt": "2026-10-15T01:04:23.181743+00:00",
+    "resumedBy": "Explicit user 재개, same existingrun/workers",
+    "actualResumeUpdates": [
+      {
+        "id": "6acdccd99030819180ea1c9d907d9f55",
+        "success": true,
+        "updatedAt": "2026-10-15T09:49:54.783070+00:00",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+      },
+      {
+        "id": "6acf109ec1808191b09a2414e2de80af",
+        "success": true,
+        "updatedAt": "2026-10-15T09:49:55.577764+00:00",
+        "enabled": true,
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+      }
+    ],
+    "latestHourlyCoalescedWithoutNewTeam": "2026-10-15T10:04:10.877338+00:00"
+  }
 }

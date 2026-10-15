@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "runId": "daily-20261015-0900",
+  "events": [
+    {
+      "stage": "initial local Astro check",
+      "state": "failed",
+      "cause": "default sandbox Astro telemetry config mkdir ENOENT at /home/agent/.config/astro (missing config path; permission failure not established); build did not start",
+      "rawLog": "/tmp/jpop-daily15-check.txt",
+      "fix": "ASTRO_TELEMETRY_DISABLED=1; subsequent type/check/build/verify-dist passed",
+      "productFailureEstablished": false,
+      "finalArtifact": {
+        "html": 3336,
+        "files": 3346,
+        "index": 0,
+        "dirty": true,
+        "sourceSha": "7ed3f7eb3203ed4bb0de0c247f07a129bba8dba0"
+      }
+    },
+    {
+      "stage": "initial orchestration read batch",
+      "state": "terminated_read_only",
+      "cause": "environment was starting; combined batch did not settle; bounded individual rechecks returned cloud172/current/running/GitHubmain/workspaceclean",
+      "mutations": false
+    },
+    {
+      "stage": "peer review handoff",
+      "state": "blocked_at_time_of_interrupt",
+      "cause": "All3actualworkers usage-limit error before any review JSON; no6reviews/score/rank/rotation fabricated",
+      "followup": "Same existing3 asked once afternewresume prompt; actual result pending"
+    },
+    {
+      "stage": "production local E2E preflight",
+      "state": "not_started",
+      "cause": "4321 remains listening after rootserverPTY CtrlC; Playwright correctly rejects reuseExistingServer",
+      "log": "/tmp/jpop-daily15-production-e2e.txt",
+      "fix": "Inspect exactrootknownserver PID/start/UID before targetedtermination; no automatic broadkill",
+      "productFailureEstablished": false,
+      "attemptsNotStarted": 2,
+      "firstOwnerProbeLimitation": "ss LISTEN lacks process metadata; absence of pid was not proof of portfree. Secondpreflight blockedagain; fixed byactualTCP/filteredps identity.",
+      "rootServer": {
+        "pid": 65763,
+        "ppid": 1,
+        "uid": 1000,
+        "startedAtSystem": "Thu Oct 15 00:10:13 2026",
+        "command": "node scripts/serve-preview.mjs",
+        "targetedTermination": "SIGTERM exactknownrootprocess; no broadkill"
+      }
+    },
+    {
+      "stage": "first actualoldrollback",
+      "state": "failed",
+      "oldAttempts": 6,
+      "diagnostics": [
+        "METADATA_MISMATCH",
+        "BODY_MISMATCH sitemap"
+      ],
+      "newRestore": "27checkspassed2attempts withfirstsitemapmismatchpreserved",
+      "evidence": "daily-20261015-0900-recovery-summary.json"
+    },
+    {
+      "stage": "additional state diagnostic",
+      "state": "failed_withoutfulloldverification",
+      "cause": "OptionaloldimmutableURL403; PythonstateclientHTTPError oncanonical (statusnotrecorded), notsuccessfulstateobservation. Node24sameinheritedproxy/CAstateprobe200/exactmetadata+ordinaryhashpassed.",
+      "avoidableOperatorIssue": "RepeatedboundedPythonerrors wereunhelpful; correctedclientandstoponerror instead ofcallingitCDNfailure",
+      "finalNewHTTP": "27checkspassed1attempt",
+      "evidence": "daily-20261015-0900-recovery-final-summary.json"
+    },
+    {
+      "stage": "temporary report verification",
+      "state": "not_started_due_to_invalid_import",
+      "cause": "Root initially assumed buildDiscordPayload export; actual API is formatDiscordPayload. Corrected temporary check only, no app change. Subsequent actual report/payload/morning/team checks passed.",
+      "productFailureEstablished": false
+    },
+    {
+      "stage": "docsPRcreation",
+      "state": "initial_reviewfailure_then_resolved",
+      "cause": "Automatic approval review usage-limit, actionnotexecuted; same tool actualsuccess after later resumed request/time/currentenvironment/GitHubreads",
+      "newDocsPR": "https://github.com/jpop-today/docs/pull/12",
+      "bypass": false
+    }
+  ]
+}

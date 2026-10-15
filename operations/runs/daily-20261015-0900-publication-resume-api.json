@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-15T12:59:06.968075+00:00",
+  "production": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "ebd045fa-e409-4306-9621-0858f391dee5",
+      "url": "https://ebd045fa.todayjpop.pages.dev",
+      "created_on": "2026-10-15T09:59:30.692501Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T09:59:32.216241Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "d7cf8cb522da936450c9a08864abc99722f2f544",
+          "commit_message": "Merge pull request #22 from jpop-today/codex/20-safe-provider-review-20261015\r\n\r\n공식 번호 메타데이터 안전 조회와 제목·가수 표기 비교 가이드",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "scope": "Freshread-only recheck after approvalreview usage-limit; no redeployment"
+}

@@ -1,0 +1,180 @@
+{
+  "scope": "Timed out without stable expected ordinary body state; not accepted as recovery",
+  "observations": [
+    {
+      "checkedAt": "2026-10-15T10:06:20.295810+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:22.356807+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:24.554742+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:26.629079+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:28.697313+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:30.747303+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:32.799447+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:34.871927+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:36.932900+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:38.989634+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:41.046389+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:43.095526+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:45.151205+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:47.229040+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:49.290507+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:51.342861+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:53.422910+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:55.466067+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:57.531113+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:06:59.599335+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:07:01.690389+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:07:03.774206+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:07:05.822670+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:07:07.878981+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:07:09.919198+00:00",
+      "origin": "https://jpop.today",
+      "expectedSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "safeErrorType": "HTTPError",
+      "allExpected": false
+    }
+  ]
+}

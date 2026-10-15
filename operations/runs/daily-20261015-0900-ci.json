@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "sourceHead": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+  "sourceMerge": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "recordedAt": "2026-10-15T09:55:50.827015+00:00",
+  "runs": [
+    {
+      "id": 38663492743,
+      "head_sha": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "created_at": "2026-10-15T01:03:08Z",
+      "updated_at": "2026-10-15T01:04:27Z",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38663492743",
+      "role": "initialpush-usercancel"
+    },
+    {
+      "id": 38663492696,
+      "head_sha": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-15T01:03:08Z",
+      "updated_at": "2026-10-15T01:03:41Z",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38663492696",
+      "role": "initialpush-contracts"
+    },
+    {
+      "id": 38715967219,
+      "head_sha": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-15T09:50:59Z",
+      "updated_at": "2026-10-15T09:52:21Z",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38715967219",
+      "role": "PR-app"
+    },
+    {
+      "id": 38715967245,
+      "head_sha": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-15T09:50:59Z",
+      "updated_at": "2026-10-15T09:51:16Z",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38715967245",
+      "role": "PR-contracts"
+    },
+    {
+      "id": 38716225551,
+      "head_sha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-15T09:53:04Z",
+      "updated_at": "2026-10-15T09:54:23Z",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38716225551",
+      "role": "main-app",
+      "selectedSafeResultLines": [
+        "Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (37 indexable), 3346 files; source d7cf8cb522da936450c9a08864abc99722f2f544",
+        "24 passed (17.8s)",
+        "ℹ tests 307",
+        "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3346 files; source d7cf8cb522da936450c9a08864abc99722f2f544",
+        "24 passed (16.4s)"
+      ]
+    },
+    {
+      "id": 38716225630,
+      "head_sha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-15T09:53:04Z",
+      "updated_at": "2026-10-15T09:53:24Z",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38716225630",
+      "role": "main-contracts",
+      "selectedSafeResultLines": [
+        "# tests 307"
+      ]
+    }
+  ],
+  "remotePreview": {
+    "id": 38716729136,
+    "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+    "state": "success",
+    "actualPagesBrowser": 24,
+    "safeResults": [
+      {
+        "at": "2026-10-15T09:57:27.0977515Z",
+        "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3346 files; source d7cf8cb522da936450c9a08864abc99722f2f544"
+      },
+      {
+        "at": "2026-10-15T09:57:29.3797083Z",
+        "result": "{\"sourceSha\":\"d7cf8cb522da936450c9a08864abc99722f2f544\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}"
+      },
+      {
+        "at": "2026-10-15T09:58:17.8413774Z",
+        "result": "24 passed (19.7s)"
+      }
+    ]
+  },
+  "remoteProduction": {
+    "id": 38718667044,
+    "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+    "state": "success",
+    "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38718667044",
+    "verifyOnly": true,
+    "safeResults": [
+      {
+        "at": "2026-10-15T10:13:26.6775339Z",
+        "result": "Result (26 files):"
+      },
+      {
+        "at": "2026-10-15T10:13:26.6776067Z",
+        "result": "- 0 errors"
+      },
+      {
+        "at": "2026-10-15T10:13:26.6776440Z",
+        "result": "- 0 warnings"
+      },
+      {
+        "at": "2026-10-15T10:13:26.6776806Z",
+        "result": "- 0 hints"
+      },
+      {
+        "at": "2026-10-15T10:13:32.8188714Z",
+        "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3346 files; source d7cf8cb522da936450c9a08864abc99722f2f544"
+      },
+      {
+        "at": "2026-10-15T10:13:38.7088388Z",
+        "result": "Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (37 indexable), 3346 files; source d7cf8cb522da936450c9a08864abc99722f2f544"
+      },
+      {
+        "at": "2026-10-15T10:13:40.4866132Z",
+        "result": {
+          "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+          "target": "preview",
+          "attempts": 1,
+          "passed": true,
+          "code": null
+        }
+      },
+      {
+        "at": "2026-10-15T10:14:24.5438750Z",
+        "result": "24 passed (14.3s)"
+      },
+      {
+        "at": "2026-10-15T10:14:24.5980479Z",
+        "result": "Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available"
+      },
+      {
+        "at": "2026-10-15T10:14:27.1889940Z",
+        "result": {
+          "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+          "target": "production",
+          "attempts": 1,
+          "passed": true,
+          "code": null
+        }
+      },
+      {
+        "at": "2026-10-15T10:14:54.0542328Z",
+        "result": "24 passed (26.4s)"
+      }
+    ],
+    "checkedAt": "2026-10-15T10:15:32.439730+00:00",
+    "scope": "Actual gh run view selected safe resultlines; earlier rawjoblogsAPIreadfailed/causeunknown, no rawlogs orsignedURLsaved"
+  },
+  "release": {
+    "version": "0.4.1",
+    "tag": "v0.4.1",
+    "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+    "annotatedTagSha": "d3904e72a3dea585498e722196131b57aa8bc17d",
+    "tagTargetType": "commit",
+    "tagTargetSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+    "releaseId": 413670248,
+    "publishedAt": "2026-10-15T10:17:36Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.1",
+    "workflowRun": 38719045259,
+    "state": "published",
+    "verifiedAt": "2026-10-15T10:19:28.543372+00:00",
+    "safeResults": [
+      {
+        "at": "2026-10-15T10:16:15.5441414Z",
+        "result": "Reviewed release identity verified v0.4.1"
+      },
+      {
+        "at": "2026-10-15T10:17:20.3635129Z",
+        "result": "24 passed (16.5s)"
+      },
+      {
+        "at": "2026-10-15T10:17:37.4698931Z",
+        "result": "Discord notification sent (1 attempt).",
+        "attempts": 1
+      }
+    ],
+    "notification": {
+      "state": "sent",
+      "sentAt": "2026-10-15T10:17:37.4698931Z",
+      "attempts": 1,
+      "workflowRun": 38719045259
+    },
+    "scope": "Actual GitHub Release/tag API and selected actual workflow log lines; no raw logs orsecretvalues retained",
+    "logSelectionCorrection": "Initial selector expected (attempt N), actual sender uses (N attempt). Initialunconfirmed corrected only after actual line read; no send retry."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-15T09:56:00.117953+00:00",
+  "action": "deploy-preview",
+  "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "CLIExitCode": 0,
+  "before": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "af1270b9-de08-468d-bc11-a5bdfe0d631c",
+      "url": "https://af1270b9.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-14T18:33:02.377064Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-14T18:33:05.127536Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "fc54989e0540cdb5863388abd46660359da226a6",
+          "commit_message": "Merge pull request #19 from jpop-today/codex/6-reviewed-discovery-20261015\r\n\r\n공식 번호 20개 대조와 가수별 확인곡 탐색",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "8a109ea3-35e7-4c4f-96af-b6235a2270cc",
+      "url": "https://8a109ea3.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-15T09:55:54.903633Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T09:55:56.894923Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "d7cf8cb522da936450c9a08864abc99722f2f544",
+          "commit_message": "Merge pull request #22 from jpop-today/codex/20-safe-provider-review-20261015\r\n\r\n공식 번호 메타데이터 안전 조회와 제목·가수 표기 비교 가이드",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "scope": "Actual managed-cloud deployment; Actions binding presence and deployment remain separate"
+}

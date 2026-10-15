@@ -1,0 +1,9 @@
+{
+  "startedAt": "2026-10-15T10:09:30.601041+00:00",
+  "scope": "Canonical-domain recovery with same supported Node24 proxy/CA request path; allstrict metadata/body checks unchanged, explicit60s verifier budget. Prior firstmixed-response failures and PythondiagnosticHTTPError preserved; immutableURL403notbypassed.",
+  "oldHttpPassed": true,
+  "newRestoreHttpPassed": true,
+  "oldStateObserved": true,
+  "newStateObserved": true,
+  "finishedAt": "2026-10-15T10:09:44.634513+00:00"
+}

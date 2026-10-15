@@ -1,0 +1,11 @@
+{
+  "startedAt": "2026-10-15T10:05:24.910076+00:00",
+  "scope": "Second canonical-domain recovery: original frozen artifact and predeploy26baseline verified; optional immutableURLreturned403/unverified. Pythonstate observer repeatedlyraisedHTTPError (statusnotcaptured) and was not accepted asactualoriginstate. Final existingNodeverifier27passed1attempt.",
+  "oldHttpPassed": false,
+  "newRestoreHttpPassed": true,
+  "oldStateObserved": false,
+  "newStateObserved": false,
+  "finishedAt": "2026-10-15T10:07:14.351029+00:00",
+  "originalScopeText": "Second controlled recovery after verified old immutable and first mixed metadata/sitemap failure; initial failure receipts preserved",
+  "scopeCorrection": "Priorstaticlabel incorrectlysaidimmutableverified; originaltextretained. No successfuloldHTTPfromthisattempt."
+}

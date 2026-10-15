@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "startedAt": "2026-10-15T09:53:52.682198+00:00",
+  "targets": [
+    {
+      "target": "preview",
+      "files": 3346,
+      "html": 3336,
+      "everyFileEqual": true,
+      "completeFileSetEqual": true,
+      "metadata": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51",
+        "ledgerSha256": "e38ec78bda5874c5ffb4102b4b6bd7c3c9bedabea34c789055ecd51eb0a0d60e",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": false
+      },
+      "manifestSha256": "2826b7fc9b1a813248d40631021ecd30bd2dbc7355cb3d1eb284ccf7420a10bf"
+    },
+    {
+      "target": "production",
+      "files": 3346,
+      "html": 3336,
+      "everyFileEqual": true,
+      "completeFileSetEqual": true,
+      "metadata": {
+        "schemaVersion": 2,
+        "target": "production",
+        "sourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "9c05e5dcfc06875eafb462ad709154aa949011f6eefe22c169fe2834f2eeda51",
+        "ledgerSha256": "e38ec78bda5874c5ffb4102b4b6bd7c3c9bedabea34c789055ecd51eb0a0d60e",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": false
+      },
+      "manifestSha256": "b17ddc9823f359b39885785bee37db2333a06a451f66f0c31e13df366c371efc"
+    }
+  ],
+  "scope": "Two complete clean frozen local builds per target; every file path and byte digest compared. This is not full CI archive comparison.",
+  "finishedAt": "2026-10-15T09:54:21.179125+00:00"
+}

@@ -1,0 +1,128 @@
+{
+  "run": "daily-20261015-0900",
+  "worker": "/root/daily15_ui",
+  "startedAt": "2026-10-15T00:11:42.387Z",
+  "origin": "http://127.0.0.1:4321",
+  "target": "local preview dirty working tree",
+  "browser": "Browser plugin not available; existing Playwright with /usr/bin/chromium",
+  "flow": "/guides/ -> focus new guide link + Enter -> exact guide route/body/sources -> focus 문의와 정정 + Enter -> /contact/",
+  "providerFetches": 0,
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1100,
+      "javaScriptEnabled": true,
+      "checks": {
+        "identity": true,
+        "notBlank": true,
+        "noOverlay": true,
+        "consoleHealthy": true,
+        "screenshots": true,
+        "keyboardGuideThenContact": true,
+        "noOverflow": true,
+        "exactSourcesAndDates": 4,
+        "noAds": true,
+        "noFailedRequests": true,
+        "originalBrandPalette": true
+      },
+      "metrics": {
+        "url": "http://127.0.0.1:4321/guides/title-artist-variants/",
+        "title": "제목·가수 표기가 다를 때 같은 곡인지 확인하는 법 | jpop.today",
+        "textLength": 2698,
+        "documentWidth": 1440,
+        "viewportWidth": 1440,
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "palette": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "frameworkOverlays": 0,
+        "clippedText": 0
+      },
+      "screenshots": [
+        "/tmp/jpop-daily15-guide-desktop.png",
+        "/tmp/jpop-daily15-guide-desktop-sources.png"
+      ],
+      "errorCount": 0,
+      "warningCount": 0,
+      "adRequestCount": 0,
+      "failedRequestCount": 0
+    },
+    {
+      "name": "mobile",
+      "width": 360,
+      "height": 800,
+      "javaScriptEnabled": false,
+      "checks": {
+        "identity": true,
+        "notBlank": true,
+        "noOverlay": true,
+        "consoleHealthy": true,
+        "screenshots": true,
+        "keyboardGuideThenContact": true,
+        "noOverflow": true,
+        "exactSourcesAndDates": 4,
+        "noAds": true,
+        "noFailedRequests": true,
+        "originalBrandPalette": true
+      },
+      "metrics": {
+        "url": "http://127.0.0.1:4321/guides/title-artist-variants/",
+        "title": "제목·가수 표기가 다를 때 같은 곡인지 확인하는 법 | jpop.today",
+        "textLength": 2698,
+        "documentWidth": 360,
+        "viewportWidth": 360,
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "palette": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "frameworkOverlays": 0,
+        "clippedText": 0
+      },
+      "screenshots": [
+        "/tmp/jpop-daily15-guide-mobile.png",
+        "/tmp/jpop-daily15-guide-mobile-joint.png",
+        "/tmp/jpop-daily15-guide-mobile-sources.png"
+      ],
+      "errorCount": 0,
+      "warningCount": 0,
+      "adRequestCount": 0,
+      "failedRequestCount": 0
+    },
+    {
+      "name": "short-desktop",
+      "width": 1280,
+      "height": 768,
+      "javaScriptEnabled": true,
+      "checks": {
+        "identity": true,
+        "notBlank": true,
+        "noOverlay": true,
+        "consoleHealthy": true,
+        "screenshots": true,
+        "keyboardGuideThenContact": true,
+        "noOverflow": true,
+        "exactSourcesAndDates": 4,
+        "noAds": true,
+        "noFailedRequests": true,
+        "originalBrandPalette": true
+      },
+      "metrics": {
+        "url": "http://127.0.0.1:4321/guides/title-artist-variants/",
+        "title": "제목·가수 표기가 다를 때 같은 곡인지 확인하는 법 | jpop.today",
+        "textLength": 2698,
+        "documentWidth": 1280,
+        "viewportWidth": 1280,
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "palette": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "frameworkOverlays": 0,
+        "clippedText": 0
+      },
+      "screenshots": [
+        "/tmp/jpop-daily15-guide-short-desktop.png"
+      ],
+      "errorCount": 0,
+      "warningCount": 0,
+      "adRequestCount": 0,
+      "failedRequestCount": 0
+    }
+  ],
+  "passed": true,
+  "finishedAt": "2026-10-15T00:11:47.154Z"
+}

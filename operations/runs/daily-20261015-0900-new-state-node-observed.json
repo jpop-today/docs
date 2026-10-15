@@ -1,0 +1,60 @@
+{
+  "scope": "Actual canonical-domain state using the same Node24 inherited proxy/CA path as existing verifier; strict complete metadata plus ordinary home/sitemap hashes, not a substitute for full verifier",
+  "observations": [
+    {
+      "checkedAt": "2026-10-15T10:09:37.795Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "a135abb8a27df21f61e9192a2d3fde9eaed364e345eb5ffcfb9c0398ac173f31",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:09:40.163Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+      "exactMetadata": false,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": false
+    },
+    {
+      "checkedAt": "2026-10-15T10:09:42.369Z",
+      "expectedSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "exactMetadata": true,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f",
+          "expected": "a1cdd5fc789564d202619187dff30e3c84935949b72c26c2c7ab82470eb2c44f"
+        }
+      },
+      "allExpected": true
+    }
+  ],
+  "passed": true
+}

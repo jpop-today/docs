@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-15T10:22:39.558324+00:00",
+  "priorRunId": "resume-20261015-0300",
+  "archives": [
+    {
+      "repository": "jpoptoday",
+      "originalPath": "reports/daily/2026-10-15.json",
+      "archivePath": "reports/runs/resume-20261015-0300.json",
+      "exactBaseBytesPreserved": true,
+      "sha256": "40e587fce7dab933b5b5090d4f75317c71ed57c39cef36b9447ca89eaeb23a69"
+    },
+    {
+      "repository": "docs",
+      "originalPath": "operations/daily/2026-10-15.json",
+      "archivePath": "operations/runs/resume-20261015-0300-completed-daily.json",
+      "exactBaseBytesPreserved": true,
+      "sha256": "9f2ce5ec114512180a2e260c2a68e6f3ff3aca40d2f5bff9a7271ecf37b2205f"
+    }
+  ],
+  "scope": "Source pre-send committedsnapshot and docs post-send completionsnapshot each preserved exactly; their expected notification metadata differences not merged."
+}

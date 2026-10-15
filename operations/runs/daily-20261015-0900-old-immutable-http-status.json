@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-10-15T10:04:36.042377+00:00",
+  "origin": "https://257762e0.todayjpop.pages.dev",
+  "scope": "Read-only HTTP status diagnosis; no bypass or untrusted error body retained",
+  "status": 403,
+  "safeErrorType": "HTTPError"
+}

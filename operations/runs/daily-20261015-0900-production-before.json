@@ -1,0 +1,38 @@
+{
+  "project": "todayjpop",
+  "domains": [
+    "todayjpop.pages.dev",
+    "jpop.today"
+  ],
+  "source": {
+    "owner": "kim75503",
+    "repo_name": "todayjpop",
+    "production_branch": "dev",
+    "production_deployments_enabled": false,
+    "preview_deployment_setting": "none",
+    "preview_branch_includes": [
+      "*"
+    ],
+    "preview_branch_excludes": []
+  },
+  "deployment": {
+    "id": "257762e0-8c20-456d-8c36-2e86f9dc3a89",
+    "url": "https://257762e0.todayjpop.pages.dev",
+    "created_on": "2026-10-14T23:03:23.105795Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-14T23:03:24.50734Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "dev",
+        "commit_hash": "fc54989e0540cdb5863388abd46660359da226a6",
+        "commit_message": "Merge pull request #19 from jpop-today/codex/6-reviewed-discovery-20261015\r\n\r\n공식 번호 20개 대조와 가수별 확인곡 탐색",
+        "commit_dirty": false
+      }
+    }
+  }
+}

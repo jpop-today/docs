@@ -1,0 +1,11 @@
+{
+  "startedAt": "2026-10-15T10:00:33.891816+00:00",
+  "oldDeployment": "257762e0-8c20-456d-8c36-2e86f9dc3a89",
+  "newDeployment": "ebd045fa-e409-4306-9621-0858f391dee5",
+  "oldSourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+  "newSourceSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "oldArtifactPreverifiedAgainstOriginalCommit": true,
+  "oldHttpPassed": false,
+  "newRestoreHttpPassed": true,
+  "finishedAt": "2026-10-15T10:01:23.294846+00:00"
+}

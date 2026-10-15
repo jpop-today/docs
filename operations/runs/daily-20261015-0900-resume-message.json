@@ -1,0 +1,5 @@
+{
+  "recordedAt": "2026-10-15T09:58:34.104986+00:00",
+  "message": "사용자의 명시적 재개로 기존 daily-20261015-0900을 이어가고 원래09시·매시간예약을 삭제/주기변경없이 실제enabled로 복원했습니다. 기존3명·6peer(자료39/앱39/품질38)·교체감사는 보존/재개했고 새팀중복생성은 없습니다. PR22를 H b949→M d7cf8cb로 병합, 같은M main app38716225551/contracts38716225630 success(307unit·preview24/prodlocal24), 두 target3346파일/3336HTML의 별도2빌드 전체경로·각바이트SHA일치를 확인했습니다. 전용무광고/noindex preview8a109ea3 실제배포·27HTTP1attemptPASS, 원격브라우저38716729136검증중입니다. 실제운영은 아직v0.4.0 fc54989/257이고 새M 운영·실제이전복구/새M재복원·Release는 다음게이트입니다. 공식번호/ID/URL/storage·원래5가이드/날짜·gradient를유지하며 새조회2건은unreviewed후보만분리했습니다. Google계정/실제심사·전체자료권리와문의수신은unknown, ActionsCF설정은별도확인합니다. https://github.com/jpop-today/jpoptoday/pull/22",
+  "state": "dispatch_accepted_actual_sent_pending"
+}

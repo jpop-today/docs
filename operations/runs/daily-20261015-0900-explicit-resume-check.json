@@ -1,0 +1,29 @@
+{
+  "prs": [],
+  "ci": [
+    {
+      "id": 38663492696,
+      "name": "contracts",
+      "head_sha": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38663492696"
+    },
+    {
+      "id": 38663492743,
+      "name": "app",
+      "head_sha": "b949f09664aceceeb0463f9c17d5d20727c48a11",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38663492743"
+    }
+  ],
+  "docsMain": "4525efae1f6779ac7faac2ea7dfb834ffc0b675e",
+  "orgMain": "b7aad18fe2f793453b6505bb150f359d05ae3554",
+  "production": {
+    "deploymentId": "257762e0-8c20-456d-8c36-2e86f9dc3a89",
+    "sourceSha": "fc54989e0540cdb5863388abd46660359da226a6",
+    "automaticProduction": false,
+    "automaticPreview": "none"
+  }
+}
