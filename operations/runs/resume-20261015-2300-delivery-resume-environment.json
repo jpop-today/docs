@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-15T19:00:33.644816+00:00",
+  "observationsCurrent": true,
+  "phase": "running",
+  "revision": "263",
+  "network": "unrestricted/enforced",
+  "cloudflareBindingsReady": true,
+  "connectedGithubMain": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+  "coordination": "Same unfinished run continued; no new team, product deployment, release or completed resend. Existing pending UI interrupted for handoff. Source/docs heads and four unchanged pending receipts inspected; Issue24 claim6199976708. Desktop thread lookup previously unconfirmed/timeouts, not a distributed lock claim."
+}

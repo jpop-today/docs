@@ -1,0 +1,22 @@
+{
+  "observationsCurrent": true,
+  "phase": "running",
+  "revision": "259",
+  "network": {
+    "mode": "unrestricted",
+    "state": "enforced"
+  },
+  "bindings": [
+    {
+      "name": "CLOUDFLARE_API_TOKEN",
+      "state": "ready"
+    }
+  ],
+  "runtimeVariables": [
+    {
+      "name": "CLOUDFLARE_ACCOUNT_ID",
+      "state": "ready"
+    }
+  ],
+  "checkedAt": "2026-10-15T18:29:02.162184+00:00"
+}
