@@ -1,0 +1,17 @@
+{
+  "pr": "https://github.com/jpop-today/jpoptoday/pull/26",
+  "headSha": "f26e36c704c90885f305263235f508472be843a4",
+  "productSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+  "changedPaths": [
+    "reports/daily/2026-10-16.json"
+  ],
+  "state": "merged",
+  "nativeAttachment": "5secondtimeout_unconfirmed",
+  "productTreeEqualsReleaseExcludingReports": true,
+  "docsPR": "https://github.com/jpop-today/docs/pull/14",
+  "docsMergeSha": "8d94233b1f2c05f4ae5fab9c12ca330505c8ca87",
+  "mergeSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+  "mergedVerifiedAt": "2026-10-15T18:28:10.257513+00:00",
+  "headCI": "PR38785578044/app and38785578001/contracts, push38785532626/app and38785532480/contracts allactualsuccess",
+  "scope": "Only report JSON added; source savedJSON historical pre-dispatch, post-delivery proof in docs"
+}

@@ -1,0 +1,20 @@
+{
+  "id": 38785870363,
+  "workflow": "discord.yml",
+  "mode": "completed",
+  "reportDate": "2026-10-16",
+  "sourceReportSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+  "sourcePR": "https://github.com/jpop-today/jpoptoday/pull/26",
+  "reportPath": "reports/daily/2026-10-16.json",
+  "productSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38785870363",
+  "jobId": 116597600040,
+  "conclusion": "success",
+  "state": "sent",
+  "preparedAt": "2026-10-15T18:28:47.8278575Z",
+  "sentAt": "2026-10-15T18:28:48.5038882Z",
+  "attempts": 1,
+  "checkedAt": "2026-10-15T19:00:33.644816+00:00",
+  "safeResult": "Discord notification sent (1 attempt).",
+  "scope": "Actual selected connected GitHub job log. Existing completed delivery verified; not resent. Release notification is separate. No secrets/rawlogs retained."
+}

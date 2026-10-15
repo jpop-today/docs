@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-15T18:28:40.136766+00:00",
+  "project": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "630c12d8-341a-4ad0-b406-43e36eefd4b2",
+      "url": "https://630c12d8.todayjpop.pages.dev",
+      "created_on": "2026-10-15T18:09:22.241747Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T18:09:24.257102Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+          "commit_message": "Merge pull request #25 from jpop-today/codex/24-provider-counts-20261015\r\n\r\n공식 8번호 근거 추가와 가수별 TJ·금영 확인곡 수",
+          "commit_dirty": false
+        }
+      }
+    }
+  }
+}
