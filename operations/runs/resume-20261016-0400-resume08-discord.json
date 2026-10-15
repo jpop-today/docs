@@ -1,0 +1,8 @@
+{
+  "workflowRun": 38822117335,
+  "state": "sent",
+  "sentAt": "2026-10-15T23:12:11.3004866Z",
+  "attempts": 1,
+  "sourceSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+  "scope": "Actual selected senderline; local314/type0/28+28 and failures/08resume, not completion/Release"
+}

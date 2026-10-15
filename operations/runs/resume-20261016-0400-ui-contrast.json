@@ -1,0 +1,68 @@
+{
+  "method": "WCAG sRGB relative luminance on computed foreground and actual nearby unpainted screenshot background pixel; sampled text colors only, not whole-site audit",
+  "checks": [
+    {
+      "screenshot": "mobile-summary.png",
+      "backgroundPixel": [
+        30,
+        220
+      ],
+      "backgroundRGB": [
+        248,
+        248,
+        249
+      ],
+      "computedForegroundRGB": [
+        40,
+        79,
+        199
+      ],
+      "role": "summary blue",
+      "ratio": 6.52,
+      "threshold": 4.5,
+      "result": "PASS"
+    },
+    {
+      "screenshot": "mobile-summary.png",
+      "backgroundPixel": [
+        30,
+        304
+      ],
+      "backgroundRGB": [
+        248,
+        247,
+        249
+      ],
+      "computedForegroundRGB": [
+        83,
+        93,
+        109
+      ],
+      "role": "scope muted",
+      "ratio": 6.23,
+      "threshold": 4.5,
+      "result": "PASS"
+    },
+    {
+      "screenshot": "mobile-anchor.png",
+      "backgroundPixel": [
+        32,
+        157
+      ],
+      "backgroundRGB": [
+        237,
+        242,
+        255
+      ],
+      "computedForegroundRGB": [
+        40,
+        79,
+        199
+      ],
+      "role": "confirmation badge blue",
+      "ratio": 6.18,
+      "threshold": 4.5,
+      "result": "PASS"
+    }
+  ]
+}

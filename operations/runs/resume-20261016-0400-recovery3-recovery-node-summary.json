@@ -1,0 +1,9 @@
+{
+  "startedAt": "2026-10-15T23:29:40.269072+00:00",
+  "scope": "Canonical-domain recovery with same supported Node24 proxy/CA request path; allstrict metadata/body checks unchanged, explicit60s verifier budget/supported30maxattempts/2sdelay and stateobserver60max; third controlled attempt after first mixed/stale metadata failure and second temporary helper invalid attemptcount60 (supportedmax30) before HTTP execution; preserve all evidence. This run actual old v0.4.2 rollback then new v0.4.3 restore; priorrun failures are not thisrun failures.",
+  "oldHttpPassed": true,
+  "newRestoreHttpPassed": true,
+  "oldStateObserved": true,
+  "newStateObserved": true,
+  "finishedAt": "2026-10-15T23:30:32.038640+00:00"
+}

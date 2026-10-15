@@ -1,0 +1,9 @@
+{
+  "startedAt": "2026-10-15T23:27:25.508481+00:00",
+  "scope": "Canonical-domain recovery with same supported Node24 proxy/CA request path; allstrict metadata/body checks unchanged, explicit60s verifier budget. This run actual old v0.4.2 rollback then new v0.4.3 restore; priorrun failures are not thisrun failures.",
+  "oldHttpPassed": false,
+  "newRestoreHttpPassed": false,
+  "oldStateObserved": false,
+  "newStateObserved": true,
+  "finishedAt": "2026-10-15T23:28:17.348122+00:00"
+}

@@ -1,5 +1,11 @@
 # 실행 상태
 
+최신: **v0.4.3 / 제품M `48c58d57b15aa775676229465fd13c390ccac620` / todayjpop·jpop.today `eb9161b3-d43b-45e4-beb8-9b068d456dbe`**. [Issue27](https://github.com/jpop-today/jpoptoday/issues/27)·[PR28](https://github.com/jpop-today/jpoptoday/pull/28)의 차트 공식확인곡 바로가기(TJ19/KY17/합집합19/100)·공식6번호/2보류·모바일겹침수정을 실제운영에 반영했다. 안전한전체28곡ID/52번호, 단위314·타입0·같은M 실제원격28/28·각target3347files 반복빌드·실제old27/1→new27/7 복구/재적용 PASS. 첫두복구 실패/임시roothelper오류와 마지막성공을 모두보존한다. [릴리스](releases/v0.4.3-20261016.md)·[실행증거](runs/resume-20261016-0400.json)·[실제6평가/교체](runs/resume-20261016-0400-reviews.json)·[교체감사](production-content-gate-v043-20261016.md)를따른다. 실제CF Actionsbinding missing/deployskip과 관리자managed배포/verify_only 성공을구분한다. Google계정/신청/심사 unknown·기술준비preparing, 전체자료권리/문의실제처리가남았다. 같은날앞선v0.4.2 기록은 아래이력과[원본JSON](runs/resume-20261015-2300-completed-daily.json)에보존한다. 완료보고발행/Discord는 후속영수증으로확인한다.
+
+## 직전 v0.4.2 완료 이력
+
+시작 당시: 2026-10-16 04시 `resume-20261016-0400` / [Issue27](https://github.com/jpop-today/jpoptoday/issues/27). 기존v0.4.2최종인계/미커밋4영수증을완료하고clean/sourceR·운영630c/M을재확인했다. 다음은차트업체별공식확인곡탐색과15~18위8관측번호의실제근거대조다. [실행계약](runs/resume-20261016-0400.json) 이후실제결과만추가한다.
+
 갱신: 2026-10-16 KST. 최신 제품은 **v0.4.2 / source M `3db781ba1fab978995e8edddc0626c0e703bbfbf` / todayjpop·jpop.today `630c12d8-341a-4ad0-b406-43e36eefd4b2`**다. [Issue24](https://github.com/jpop-today/jpoptoday/issues/24)·[PR25](https://github.com/jpop-today/jpoptoday/pull/25)의 공식8번호와 가수별TJ/KY확인곡수를 실제운영에 반영하고 이전버전복구/새버전재적용을 확인했다. 개인source메타데이터/dev·자동false/none·도메인/이력은 보존했다.
 
 310unit·타입0·local26/26·sameM 실제원격preview26/production26, 두clean target3346files/3336HTML/0·41index·전체파일로컬재현과 실제old27→new27최종PASS다. 첫sitemap TIMEOUT/재적용oldcatalog응답과 gh빈로그/연결job로그실제26확보, 한도중단/같은run재개·실제6평가40/40/39·품질교체를 보존한다. [릴리스기록](releases/v0.4.2-20261016.md), [새일일보](daily/2026-10-16.json), [run](runs/resume-20261015-2300.json), [교체감사](production-content-gate-v042-20261015.md)를 따른다. 문서PR14·보고PR26을병합했고 저장완료보고 Discord38785870363이10월16일03:28:48KST actualsent1attempt임을확인했다. [송신영수증](runs/resume-20261015-2300-completed-discord.json)·[보고SHA](runs/resume-20261015-2300-source-report.json)를따른다. 보고mainRce1b49f는제품/tagM3db와reports한파일만다르며제품운영M은유지한다.

@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-15T23:20:33.662074+00:00",
+  "action": "deploy-preview",
+  "sourceSha": "48c58d57b15aa775676229465fd13c390ccac620",
+  "CLIExitCode": 0,
+  "before": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "a73d8e0a-93c3-4649-aa6d-298db8903d1b",
+      "url": "https://a73d8e0a.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-15T14:25:19.431782Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T14:25:21.416285Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+          "commit_message": "Merge pull request #25 from jpop-today/codex/24-provider-counts-20261015\r\n\r\n공식 8번호 근거 추가와 가수별 TJ·금영 확인곡 수",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "c606c798-e003-44af-8fac-4a0a61fe441f",
+      "url": "https://c606c798.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-15T23:20:31.359693Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T23:20:32.978161Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "48c58d57b15aa775676229465fd13c390ccac620",
+          "commit_message": "Merge chart confirmed-number navigation and reviewed six-number evidence\r\n\r\n차트에서 업체별 공식 확인곡 바로 찾기와 6번호 근거 보강",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "scope": "Actual managed clouddeploy. Actionsbinding presence/deploy separate."
+}

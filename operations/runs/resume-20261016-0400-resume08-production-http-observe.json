@@ -1,0 +1,24 @@
+{
+  "scope": "Actual canonical-domain state using the same Node24 inherited proxy/CA path as existing verifier; strict complete metadata plus ordinary home/sitemap hashes, not a substitute for full verifier",
+  "observations": [
+    {
+      "checkedAt": "2026-10-15T23:09:22.545Z",
+      "expectedSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "metadataHTTPStatus": 200,
+      "actualSourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+      "exactMetadata": true,
+      "bodyHashes": {
+        "/": {
+          "actual": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9",
+          "expected": "85e70af0c431fdee4b9a62e60bd3aa1e945c24bb87916dcd0bc5c789f6c0f2e9"
+        },
+        "/sitemap.xml": {
+          "actual": "daa2cc662c81560ae23495e37a02d02aa9dec3730f2740ef827f8435e28d172d",
+          "expected": "daa2cc662c81560ae23495e37a02d02aa9dec3730f2740ef827f8435e28d172d"
+        }
+      },
+      "allExpected": true
+    }
+  ],
+  "passed": true
+}

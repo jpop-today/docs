@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-15T23:21:32.435096+00:00",
+  "sourceSha": "3db781ba1fab978995e8edddc0626c0e703bbfbf",
+  "files": 3346,
+  "manifestSha256": "044a711afe304889bfd14b08f4643dbe9b1c7084f8791aa76d8372e72904de83",
+  "matchesPriorFullReproducibilityReceipt": true,
+  "scope": "Actual existing v0.4.2 fallback; every saved filepath/byte digest compared to original completebuild manifest, no newledger re-build"
+}

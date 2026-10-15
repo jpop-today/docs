@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-15T19:12:53.388049+00:00",
+  "requests": 8,
+  "HTTP200": 8,
+  "candidatesUnreviewed": 8,
+  "separateDecisions": {
+    "confirm": 6,
+    "defer": 2
+  },
+  "append": 6,
+  "old71DeepEqualAndOrder": true,
+  "old71BytesPrefix": true,
+  "oldTopMetadataEqual": true,
+  "requestCandidateDecisionLedgerAllFieldsMatched": true,
+  "frozenChartRankAndStagingIDNumberMatched": true,
+  "frozenInputsAndHelperAndGlobalCSSUnchanged": true,
+  "newLedgerFileSha256": "a2d8ea8e9eba737a38a1f2968a0a1687498bf04fb0f8742ea7f42eedaef8f708",
+  "deferred": [
+    "ky43185 SAM identity unestablished",
+    "ky76509 displayed title truncated"
+  ],
+  "scope": "Independent saved safe metadata/decision/ledger audit; no new provider request and no rawbody reparse/hash recomputation. Official full title/feature/OP differences read, same-IDchart context required; no rights/audio/Google claims."
+}

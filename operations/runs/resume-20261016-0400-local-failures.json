@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261016-0400",
+  "recordedAt": "2026-10-15T19:13:44.060450+00:00",
+  "events": [
+    {
+      "stage": "metadata CLI usage discovery",
+      "observed": "--help returned safe invalid_arguments; actual usage read from existing main, no sourcechange/rawoutput",
+      "productFailure": false
+    },
+    {
+      "stage": "tmp baseline exclusive create",
+      "observed": "Agent already wrote exact Gitbase copy; root create guard stopped, preserved equal bytes and used separate root path",
+      "productFailure": false
+    },
+    {
+      "stage": "server address preflight",
+      "observed": "Preflight checked4173 but actualhelper default4321; successful ownedlisten4321 accepted, no false4321preflightclaim",
+      "productFailure": false
+    },
+    {
+      "stage": "UI QA first run",
+      "observed": "Detail navigation wait missing in temporaryQA; firstJSON preserved; waitForURL corrected without productcodechange",
+      "productFailure": false
+    },
+    {
+      "stage": "mobile screenshot inspection",
+      "observed": "Actual360px originalchartrow providerlabel/number/badge overlap and verticalbadge despite wholepageoverflowPASS; root and quality viewedPNG. ChartscopedCSS fix + meaningful bboxregression pending",
+      "productFailure": true,
+      "evidence": "/tmp/jpop-resume04-ui/final/mobile-anchor.png"
+    },
+    {
+      "stage": "Full E2E first collection",
+      "observed": "Node24 TypeError JSON import missing type:json; no28browser cases executed. Owner changed to readFileSync/newURL/JSON.parse, source-only checkout compatible. Firstlog preserved, retryafterfix pending",
+      "productFailure": false,
+      "testHarnessFailure": true,
+      "evidence": "/tmp/jpop-0400-preview-e2e-final.txt",
+      "followup": "SameownerJSONreadfix; fullpreview28PASS50.3s afterfix, initialcollectionfailure preserved"
+    },
+    {
+      "stage": "Ownedpreviewserverstop aftertimegap",
+      "observed": "Toolsession53539 expired unknownprocessid. ExactPID89465 guardedSIGTERM succeeded; ps retained Z [MainThread] defunct (nonrunning/unreaped), so initial strict PIDgone assertfailed. No broadkill/parentkill/no inventedexit143; next actual4321 bind verifies listener availability.",
+      "productFailure": false
+    },
+    {
+      "stage": "PR metadata CLI update",
+      "observed": "gh PR metadata orchestration did not settle; terminated reversible/read metadata stage. Connected PR API reread proved body unchanged/no sourceGitmutation; connected update tool changed Closes27 to Refs27. No deployment affected",
+      "productFailure": false
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "startedAt": "2026-10-15T19:12:10.951Z",
+  "baseURL": "http://127.0.0.1:4321",
+  "browser": "system Chromium /usr/bin/chromium",
+  "browserPlugin": "not available",
+  "cases": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1100,
+      "javaScriptEnabled": true,
+      "startedAt": "2026-10-15T19:12:11.518Z",
+      "events": {
+        "pageerrors": [],
+        "console": [],
+        "failedRequests": [],
+        "adRequests": []
+      },
+      "build": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+        "ledgerSha256": "13bfed1c4382365f9dfdd7b548a8874cc680de196772f0767eaec87a5a6743c3",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": true
+      },
+      "expected": {
+        "counts": {
+          "tj": 19,
+          "ky": 17,
+          "union": 19
+        },
+        "shortcutIDs": {
+          "tj": [
+            "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+            "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+            "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+            "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+            "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+            "jpop-playlist-back-number-ヒロイン-ae2d342933",
+            "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+            "jpop-playlist-米津玄師-lemon-656053b8dd",
+            "jpop-playlist-米津玄師-iris-out-f940512a4c",
+            "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+            "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+            "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+            "jpop-playlist-back-number-水平線-187ab55662",
+            "jpop-playlist-vaundy-踊り子-fe694e97f6",
+            "jpop-playlist-samfree-ルカルカ-ナイトフィ-ハ-f6722acd10",
+            "jpop-playlist-ado-逆光-c8c1ba8b20",
+            "jpop-playlist-米津玄師-kick-back-5f2ec0135c",
+            "jpop-playlist-優里-レオ-4439d77563",
+            "jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0"
+          ],
+          "ky": [
+            "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+            "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+            "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+            "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+            "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+            "jpop-playlist-back-number-ヒロイン-ae2d342933",
+            "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+            "jpop-playlist-米津玄師-lemon-656053b8dd",
+            "jpop-playlist-米津玄師-iris-out-f940512a4c",
+            "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+            "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+            "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+            "jpop-playlist-back-number-水平線-187ab55662",
+            "jpop-playlist-vaundy-踊り子-fe694e97f6",
+            "jpop-playlist-米津玄師-kick-back-5f2ec0135c",
+            "jpop-playlist-優里-レオ-4439d77563",
+            "jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0"
+          ]
+        },
+        "denominator": 100
+      },
+      "content": "100 frozen IDs/ranks and original detail URLs; independent counts/union/numbers/provider order; scope/date boundaries/robots/canonical PASS",
+      "style": {
+        "bodyBackground": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "brandBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "discoveryBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "summaryColor": "rgb(40, 79, 199)",
+        "summaryFontSize": "30px",
+        "copyColor": "rgb(83, 93, 109)",
+        "overflow": false,
+        "bodyWidth": 1440,
+        "viewport": 1440
+      },
+      "lastShortcutRect": {
+        "top": 502.9375,
+        "bottom": 597.3125,
+        "height": 94.375,
+        "viewport": 1100,
+        "hit": true
+      },
+      "anchor": {
+        "top": 24.0625,
+        "bottom": 109.0625,
+        "focus": true,
+        "overflow": false
+      },
+      "interaction": {
+        "shortcut": "#chart-jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0",
+        "keyboard": "focus + Enter → stable chart row focus + Tab → original detail + Enter",
+        "detailPath": "/songs/jpop-playlist-%E3%83%84%E3%83%9F%E3%82%AD-%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A4-a5e8ebf8d0/",
+        "title": "フォニイ"
+      },
+      "endedAt": "2026-10-15T19:12:13.605Z"
+    },
+    {
+      "name": "mobile",
+      "width": 360,
+      "height": 800,
+      "javaScriptEnabled": false,
+      "startedAt": "2026-10-15T19:12:13.757Z",
+      "events": {
+        "pageerrors": [],
+        "console": [],
+        "failedRequests": [],
+        "adRequests": []
+      },
+      "build": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+        "ledgerSha256": "13bfed1c4382365f9dfdd7b548a8874cc680de196772f0767eaec87a5a6743c3",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": true
+      },
+      "expected": {
+        "counts": {
+          "tj": 19,
+          "ky": 17,
+          "union": 19
+        },
+        "shortcutIDs": {
+          "tj": [
+            "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+            "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+            "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+            "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+            "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+            "jpop-playlist-back-number-ヒロイン-ae2d342933",
+            "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+            "jpop-playlist-米津玄師-lemon-656053b8dd",
+            "jpop-playlist-米津玄師-iris-out-f940512a4c",
+            "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+            "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+            "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+            "jpop-playlist-back-number-水平線-187ab55662",
+            "jpop-playlist-vaundy-踊り子-fe694e97f6",
+            "jpop-playlist-samfree-ルカルカ-ナイトフィ-ハ-f6722acd10",
+            "jpop-playlist-ado-逆光-c8c1ba8b20",
+            "jpop-playlist-米津玄師-kick-back-5f2ec0135c",
+            "jpop-playlist-優里-レオ-4439d77563",
+            "jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0"
+          ],
+          "ky": [
+            "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+            "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+            "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+            "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+            "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+            "jpop-playlist-back-number-ヒロイン-ae2d342933",
+            "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+            "jpop-playlist-米津玄師-lemon-656053b8dd",
+            "jpop-playlist-米津玄師-iris-out-f940512a4c",
+            "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+            "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+            "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+            "jpop-playlist-back-number-水平線-187ab55662",
+            "jpop-playlist-vaundy-踊り子-fe694e97f6",
+            "jpop-playlist-米津玄師-kick-back-5f2ec0135c",
+            "jpop-playlist-優里-レオ-4439d77563",
+            "jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0"
+          ]
+        },
+        "denominator": 100
+      },
+      "content": "100 frozen IDs/ranks and original detail URLs; independent counts/union/numbers/provider order; scope/date boundaries/robots/canonical PASS",
+      "style": {
+        "bodyBackground": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "brandBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "discoveryBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "summaryColor": "rgb(40, 79, 199)",
+        "summaryFontSize": "25px",
+        "copyColor": "rgb(83, 93, 109)",
+        "overflow": false,
+        "bodyWidth": 360,
+        "viewport": 360
+      },
+      "lastShortcutRect": {
+        "top": 352.359375,
+        "bottom": 446.734375,
+        "height": 94.375,
+        "viewport": 800,
+        "hit": true
+      },
+      "anchor": {
+        "top": 24.078125,
+        "bottom": 183.921875,
+        "focus": true,
+        "overflow": false
+      },
+      "interaction": {
+        "shortcut": "#chart-jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0",
+        "keyboard": "focus + Enter → stable chart row focus + Tab → original detail + Enter",
+        "detailPath": "/songs/jpop-playlist-%E3%83%84%E3%83%9F%E3%82%AD-%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A4-a5e8ebf8d0/",
+        "title": "フォニイ"
+      },
+      "endedAt": "2026-10-15T19:12:14.727Z"
+    },
+    {
+      "name": "short",
+      "width": 1280,
+      "height": 768,
+      "javaScriptEnabled": true,
+      "startedAt": "2026-10-15T19:12:14.980Z",
+      "events": {
+        "pageerrors": [],
+        "console": [],
+        "failedRequests": [],
+        "adRequests": []
+      },
+      "build": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "ce1b49f1ab6cedb64dca7cd2b215e72aafc76e50",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+        "ledgerSha256": "13bfed1c4382365f9dfdd7b548a8874cc680de196772f0767eaec87a5a6743c3",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": true
+      },
+      "expected": {
+        "counts": {
+          "tj": 19,
+          "ky": 17,
+          "union": 19
+        },
+        "shortcutIDs": {
+          "tj": [
+            "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+            "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+            "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+            "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+            "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+            "jpop-playlist-back-number-ヒロイン-ae2d342933",
+            "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+            "jpop-playlist-米津玄師-lemon-656053b8dd",
+            "jpop-playlist-米津玄師-iris-out-f940512a4c",
+            "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+            "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+            "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+            "jpop-playlist-back-number-水平線-187ab55662",
+            "jpop-playlist-vaundy-踊り子-fe694e97f6",
+            "jpop-playlist-samfree-ルカルカ-ナイトフィ-ハ-f6722acd10",
+            "jpop-playlist-ado-逆光-c8c1ba8b20",
+            "jpop-playlist-米津玄師-kick-back-5f2ec0135c",
+            "jpop-playlist-優里-レオ-4439d77563",
+            "jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0"
+          ],
+          "ky": [
+            "jpop-playlist-tuki-晩餐歌-9ccdde9634",
+            "jpop-playlist-official髭男dism-pretender-89fe1cbab6",
+            "jpop-playlist-vaundy-怪獣の花唄-cd1e6ddba7",
+            "jpop-playlist-優里-ヘ-テルキ-ウス-73cf88ae11",
+            "jpop-playlist-高橋洋子-残酷な天使のテ-セ-e2b770fb52",
+            "jpop-playlist-back-number-ヒロイン-ae2d342933",
+            "jpop-playlist-spyair-サムライハ-ト-some-like-it-hot-3414d0a48e",
+            "jpop-playlist-米津玄師-lemon-656053b8dd",
+            "jpop-playlist-米津玄師-iris-out-f940512a4c",
+            "jpop-playlist-米津玄師-宇多田ヒカル-jane-doe-9679a6d5fb",
+            "jpop-playlist-novelbright-walking-with-you-6d7d7f64d1",
+            "jpop-playlist-優里-ト-ライフラワ-1125dddd02",
+            "jpop-playlist-back-number-水平線-187ab55662",
+            "jpop-playlist-vaundy-踊り子-fe694e97f6",
+            "jpop-playlist-米津玄師-kick-back-5f2ec0135c",
+            "jpop-playlist-優里-レオ-4439d77563",
+            "jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0"
+          ]
+        },
+        "denominator": 100
+      },
+      "content": "100 frozen IDs/ranks and original detail URLs; independent counts/union/numbers/provider order; scope/date boundaries/robots/canonical PASS",
+      "style": {
+        "bodyBackground": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "brandBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "discoveryBackground": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "summaryColor": "rgb(40, 79, 199)",
+        "summaryFontSize": "30px",
+        "copyColor": "rgb(83, 93, 109)",
+        "overflow": false,
+        "bodyWidth": 1280,
+        "viewport": 1280
+      },
+      "lastShortcutRect": {
+        "top": 337.03125,
+        "bottom": 431.40625,
+        "height": 94.375,
+        "viewport": 768,
+        "hit": true
+      },
+      "anchor": {
+        "top": 24.15625,
+        "bottom": 109.15625,
+        "focus": true,
+        "overflow": false
+      },
+      "interaction": {
+        "shortcut": "#chart-jpop-playlist-ツミキ-フォニイ-a5e8ebf8d0",
+        "keyboard": "focus + Enter → stable chart row focus + Tab → original detail + Enter",
+        "detailPath": "/songs/jpop-playlist-%E3%83%84%E3%83%9F%E3%82%AD-%E3%83%95%E3%82%A9%E3%83%8B%E3%82%A4-a5e8ebf8d0/",
+        "title": "フォニイ"
+      },
+      "endedAt": "2026-10-15T19:12:16.569Z"
+    }
+  ],
+  "result": "PASS",
+  "endedAt": "2026-10-15T19:12:16.577Z"
+}
