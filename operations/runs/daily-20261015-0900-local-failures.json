@@ -71,6 +71,13 @@
       "state": "not_started_due_to_invalid_import",
       "cause": "Root initially assumed buildDiscordPayload export; actual API is formatDiscordPayload. Corrected temporary check only, no app change. Subsequent actual report/payload/morning/team checks passed.",
       "productFailureEstablished": false
+    },
+    {
+      "stage": "docsPRcreation",
+      "state": "initial_reviewfailure_then_resolved",
+      "cause": "Automatic approval review usage-limit, actionnotexecuted; same tool actualsuccess after later resumed request/time/currentenvironment/GitHubreads",
+      "newDocsPR": "https://github.com/jpop-today/docs/pull/12",
+      "bypass": false
     }
   ]
 }

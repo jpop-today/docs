@@ -336,7 +336,7 @@
     "actionsDeployment": "skipped_verify_only; rootmanagedactualdeploymentdone"
   },
   "coalescedResumePromptAt": "2026-10-15T10:05:26.141236+00:00",
-  "updatedAt": "2026-10-15T10:23:41.448431+00:00",
+  "updatedAt": "2026-10-15T13:00:06.686899+00:00",
   "productCompletedAt": "2026-10-15T10:17:36Z",
   "release": {
     "version": "0.4.1",
@@ -379,12 +379,35 @@
   },
   "publicationValidation": "daily-20261015-0900-publication-validation.json",
   "environmentLatest": {
-    "revision": "206",
+    "revision": "221",
     "observationsCurrent": true,
     "running": true,
     "connected": true,
     "networkPolicy": "unrestricted/enforced",
     "cloudflareBindingsReady": true,
-    "scope": "Actual rootenvironment tool read, binding values not read"
+    "scope": "Read actual tool state after approvalreview usage-limit"
+  },
+  "publicationInterruption": {
+    "stage": "docsPRcreation",
+    "stateAtFirstAttempt": "blocked_auto_review",
+    "reason": "Automatic approval review could not complete due to usage limit; action not executed. Not a determination of unsafe action.",
+    "resumeActualAt": "2026-10-15T12:58:45Z",
+    "resumeCondition": "Clock now past tool retry time12:32; current environment221 and connectedGitHub/CFreads succeeded; same createPR tool re-evaluated and succeeded without alternate write path",
+    "newWorkers": false,
+    "docsPR": "https://github.com/jpop-today/docs/pull/12",
+    "docsPRCreatedAt": "2026-10-15T12:59:34Z",
+    "nativeAttachment": "5secondtimeout_unconfirmed"
+  },
+  "documentation": {
+    "state": "PR_open",
+    "pr": "https://github.com/jpop-today/docs/pull/12"
+  },
+  "publicationRecheck": {
+    "productionAPI": "daily-20261015-0900-publication-resume-api.json",
+    "http": "daily-20261015-0900-publication-resume-http.json",
+    "passed": true,
+    "attempts": 2,
+    "finalChecks": 27,
+    "scope": "Fresh read after reviewusage limit, no deployment mutation; attempts preserved"
   }
 }
