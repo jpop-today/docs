@@ -1,6 +1,10 @@
 # 실행 계획과 작업 큐
 
-2026-10-14 · 상태 구분: planned / in_progress / blocked / verified / merged / shipped. AdSense는 별도 unknown / preparing / submitted / approved / rejected로 기록한다. 실제 Issue 생성 전에는 아래 키가 작업 식별자이며 GitHub Issue 번호로 쓰지 않는다.
+갱신 2026-10-15 KST · 상태 구분: planned / in_progress / blocked / verified / merged / shipped. AdSense는 별도 unknown / preparing / submitted / approved / rejected로 기록한다. 실제 Issue 생성 전에는 아래 키가 작업 식별자이며 GitHub Issue 번호로 쓰지 않는다.
+
+최신 완료는 [v0.4.1](releases/v0.4.1-20261015.md)의 안전한 공식번호 조회·실패보존/표기비교가이드·동일M 실제운영/복구·Release다. 아래 초기 범위표는 설계 이력이며 현재 차단 상태는 [실행 상태](status.md)와 문서 하단 v0.4.1 이후 우선 작업을 따른다. 다음은 Issue6 미검토공식근거·자체콘텐츠, Issue15 Actions binding 안전설정, 문의/권리와 운영자 Google 실제계정 단계다.
+
+## 초기 설계 범위 이력
 
 | 우선 | 키/스펙 | 범위와 산출물 | 의존/완료 기준 |
 | --- | --- | --- | --- |
@@ -15,7 +19,7 @@
 | P1 | RELEASE / RELEASE-001,PRIVACY-001 | CI→preview→동일 SHA 운영·복구 | CF 접근, gates·공개 대상·문의/개인정보 검토 |
 | P2 | ADS / ADS-001 | 운영 상태·정책 점검·심사 제출/결과 | RELEASE/CONTENT/EVIDENCE, 계정 본인정보 입력 |
 
-독립적으로 진행 가능한 작업은 파일 범위를 나눠 병행하고, ID/스키마/배포 연결은 한 조정자가 일관되게 통합한다. identity baseline·staging·호환 어댑터와 Astro 앱 미리보기를 구현했다. 초기 운영 전환은 v0.3.0에서 완료했고 v0.3.1을 실제 운영에 반영했다. 다음 실제 작업은 아래 미검토 근거·고유 콘텐츠·계정 및 자동배포 후속이다. 기간·승인 시점은 예측값을 사실로 기록하지 않는다.
+독립적으로 진행 가능한 작업은 파일 범위를 나눠 병행하고, ID/스키마/배포 연결은 한 조정자가 일관되게 통합한다. identity baseline·staging·호환 어댑터와 Astro 앱 미리보기를 구현했다. 초기 운영 전환은 v0.3.0에서 완료했고 v0.3.1·v0.4.0·v0.4.1을 실제 운영에 반영했다. 다음 실제 작업은 아래 미검토 근거·고유 콘텐츠·계정 및 자동배포 후속이다. 기간·승인 시점은 예측값을 사실로 기록하지 않는다.
 
 GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 방법, 의존 Issue, 상태, 증거/PR 링크를 기입한다. 추후 장애·권한 변경은 operations/status.md에 남기고 독립 작업을 계속한다.
 

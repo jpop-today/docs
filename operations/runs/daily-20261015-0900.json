@@ -3,7 +3,7 @@
   "runId": "daily-20261015-0900",
   "date": "2026-10-15",
   "timezone": "Asia/Seoul",
-  "phase": "product_complete_publication_pending",
+  "phase": "complete",
   "startedAt": "2026-10-15T00:03:40.666041+00:00",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/20",
   "spec": [
@@ -120,8 +120,23 @@
       "workflowRun": 38719045259
     },
     "completed": {
-      "state": "pending_saved_report_publication",
-      "reportDate": "2026-10-15"
+      "id": 38739684393,
+      "workflow": "discord.yml",
+      "mode": "completed",
+      "reportDate": "2026-10-15",
+      "sourceReportSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+      "sourcePR": "https://github.com/jpop-today/jpoptoday/pull/23",
+      "reportPath": "reports/daily/2026-10-15.json",
+      "productSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739684393",
+      "conclusion": "success",
+      "createdAt": "2026-10-15T13:04:45Z",
+      "state": "sent",
+      "sentAt": "2026-10-15T13:05:10.2272129Z",
+      "attempts": 1,
+      "checkedAt": "2026-10-15T13:05:41.977276+00:00",
+      "safeResult": "Discord notification sent (1 attempt).",
+      "scope": "Actual selected senderline; Actions binding only, no secretvalues/webhookURL/rawlogs retained. Not Release notification."
     }
   },
   "remaining": [
@@ -336,7 +351,7 @@
     "actionsDeployment": "skipped_verify_only; rootmanagedactualdeploymentdone"
   },
   "coalescedResumePromptAt": "2026-10-15T10:05:26.141236+00:00",
-  "updatedAt": "2026-10-15T13:00:06.686899+00:00",
+  "updatedAt": "2026-10-15T13:05:56.889565+00:00",
   "productCompletedAt": "2026-10-15T10:17:36Z",
   "release": {
     "version": "0.4.1",
@@ -399,8 +414,11 @@
     "nativeAttachment": "5secondtimeout_unconfirmed"
   },
   "documentation": {
-    "state": "PR_open",
-    "pr": "https://github.com/jpop-today/docs/pull/12"
+    "state": "merged",
+    "releaseRecord": "https://github.com/jpop-today/docs/blob/main/operations/releases/v0.4.1-20261015.md",
+    "pr": "https://github.com/jpop-today/docs/pull/12",
+    "mergeSha": "4da1a6b563f6535c86bf3f827c14b120c97891af",
+    "deliveryReceipt": "https://github.com/jpop-today/docs/blob/main/operations/runs/daily-20261015-0900-completed-discord.json"
   },
   "publicationRecheck": {
     "productionAPI": "daily-20261015-0900-publication-resume-api.json",
@@ -409,5 +427,26 @@
     "attempts": 2,
     "finalChecks": 27,
     "scope": "Fresh read after reviewusage limit, no deployment mutation; attempts preserved"
-  }
+  },
+  "completedAt": "2026-10-15T13:05:56.889565+00:00",
+  "sourceReport": {
+    "pr": "https://github.com/jpop-today/jpoptoday/pull/23",
+    "headSha": "581fe7df04e10157820529833d498719589c780a",
+    "mergeSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+    "productSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+    "changedPaths": [
+      "reports/daily/2026-10-15.json",
+      "reports/runs/resume-20261015-0300.json"
+    ],
+    "productTreeEqualsReleaseExcludingReports": true,
+    "nativeAttachment": "5secondtimeout_unconfirmed; ordinaryGitHublinkreviewable",
+    "scope": "Actual gitdiff; source committed JSON is historical pre-dispatch snapshot. This docs receipt records actual post-dispatch delivery."
+  },
+  "nextPlan": [
+    "Issue6: 미검토 번호의 공식 근거를 metadata-only로 조사하고 원문 제목·가수·버전을 사람이 대조; 미확보는 unknown 유지",
+    "검토된 곡·가수·번호의 실제 차이에 근거한 자체 비교 콘텐츠를 보강하고 모바일/키보드 사용을 확인",
+    "Issue15: Actions Cloudflare bindings 안전한 설정과 실제 자동배포 확인; 관리자 managed cloud 배포는 가능",
+    "Issue20 후속: 긴 JS 내 Python 검사 프로그램을 안전한 helper로 분리하는 가독성 개선; 현재 차단 결함 없음",
+    "실제 문의 수신·처리와 전체 metadata 재배포 권리 확인; Google 계정/소유권/신청/심사 상태는 실제 운영자 증거로만 기록"
+  ]
 }

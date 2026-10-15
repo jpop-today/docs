@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-10-15T13:06:00.238205+00:00",
+  "productSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "reportHead": "581fe7df04e10157820529833d498719589c780a",
+  "reportMain": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+  "headRuns": [
+    {
+      "id": 38739300267,
+      "name": "contracts",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "581fe7df04e10157820529833d498719589c780a",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739300267"
+    },
+    {
+      "id": 38739299638,
+      "name": "app",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "581fe7df04e10157820529833d498719589c780a",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739299638"
+    },
+    {
+      "id": 38739240946,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "581fe7df04e10157820529833d498719589c780a",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739240946"
+    },
+    {
+      "id": 38739241100,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "581fe7df04e10157820529833d498719589c780a",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739241100"
+    }
+  ],
+  "mainRuns": [
+    {
+      "id": 38739654986,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739654986"
+    },
+    {
+      "id": 38739655000,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739655000"
+    }
+  ],
+  "scope": "Report-only CI, distinct from productM actual preview/production verification",
+  "actualAutomaticNotificationRuns": [
+    {
+      "id": 38739846139,
+      "head_sha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739846139",
+      "event": "workflow_run",
+      "notification": {
+        "state": "sent",
+        "sentAt": "2026-10-15T13:06:02.4158887Z",
+        "attempts": 1
+      }
+    },
+    {
+      "id": 38739710334,
+      "head_sha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739710334",
+      "event": "workflow_run",
+      "notification": {
+        "state": "sent",
+        "sentAt": "2026-10-15T13:05:10.8235772Z",
+        "attempts": 1
+      }
+    }
+  ],
+  "notificationScope": "Actual workflow_run event notifications for reportMainR, safe actual senderlines only. No invented source-CI/run mapping."
+}

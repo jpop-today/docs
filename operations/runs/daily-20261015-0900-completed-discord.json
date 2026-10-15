@@ -1,0 +1,19 @@
+{
+  "id": 38739684393,
+  "workflow": "discord.yml",
+  "mode": "completed",
+  "reportDate": "2026-10-15",
+  "sourceReportSha": "dffa93bc6982c9f186a269da577e3dbc108ad189",
+  "sourcePR": "https://github.com/jpop-today/jpoptoday/pull/23",
+  "reportPath": "reports/daily/2026-10-15.json",
+  "productSha": "d7cf8cb522da936450c9a08864abc99722f2f544",
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38739684393",
+  "conclusion": "success",
+  "createdAt": "2026-10-15T13:04:45Z",
+  "state": "sent",
+  "sentAt": "2026-10-15T13:05:10.2272129Z",
+  "attempts": 1,
+  "checkedAt": "2026-10-15T13:05:41.977276+00:00",
+  "safeResult": "Discord notification sent (1 attempt).",
+  "scope": "Actual selected senderline; Actions binding only, no secretvalues/webhookURL/rawlogs retained. Not Release notification."
+}
