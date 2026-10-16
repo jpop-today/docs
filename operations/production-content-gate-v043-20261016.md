@@ -132,3 +132,17 @@ release workflow `38824414759` 선택 로그에는 실제 v0.4.3 identity 검증
 또한 [여섯 평가 및 보충 읽기 원문](runs/resume-20261016-0400-reviews.json)의 `manager.replacementSupplementalAcceptance`를 실제 읽었다. 원 자료·품질 담당 두 명은 이 감사와 실제 배포/복구/CI 증거를 읽어 정확성·근거/검증·사용자 가치·유지보수성의 구체 근거를 각각 제출했고 모두 `accepted_pre_release_audit`/필수보완 없음이다. 새 점수나 순위는 만들지 않았다. 그들의 검토 시각에는 tag/Release/알림이 pending이었으므로 해당 원문 경계를 그대로 보존하고, 본 단락의 새 실제 발행 영수증 수용과 구분한다.
 
 현재 **제품의 동일 SHA 게이트·실제 운영/복구·v0.4.3 tag/Release·Release Discord를 수용**한다. docs/report PR 발행·병합과 저장 완료 보고/Discord는 아직 후속 영수증 대기다. 권리·Google 실제 심사 unknown과 Actions CFbinding 자동배포 미설정은 계속 남아 있으며 릴리스 게시만으로 이를 완료로 만들지 않는다.
+
+## 최종 보충 수용·freeze · 문서/저장 보고 병합·완료 알림
+
+`2026-10-15T23:43:18.552Z`까지의 최종 인계에서 [docs·source 보고 병합 영수증](runs/resume-20261016-0400-source-report.json), [완료 Discord 영수증](runs/resume-20261016-0400-completed-discord.json), [최종 운영 API](runs/resume-20261016-0400-final-production-api.json), [최종 운영 HTTP](runs/resume-20261016-0400-final-production-http.json)를 실제 읽었다. 각각의 수용은 다음과 같다.
+
+- [docs PR16](https://github.com/jpop-today/docs/pull/16)은 `23:41:03Z`에 merge `2d2cce4393031b7e4b6333ef17a1571fc0681600`으로 실제 병합됐다. [source 보고 PR29](https://github.com/jpop-today/jpoptoday/pull/29)는 `23:42:07Z`에 보고 R `312c6b687c504cf82090ad26bdd9d829b99a105f`로 실제 병합됐다. 보고 H의 push/PR app·contracts 네 검사는 모두 completed/success다. 보고 R은 제품/tag/운영 M48c와 `reports/daily/2026-10-16.json`, `reports/runs/resume-20261015-2300.json` **보고 두 파일만 다르며 제품을 새로 배포한 SHA가 아니다**. 두 PR의 native 첨부는 각각5초 timeout/unconfirmed로 남고 실제 GitHub URL/병합 사실과 구분한다.
+- 저장 완료 보고 workflow `38825188067`/job `116730895180`는 reportDate `2026-10-16`, mode completed, source 보고 R, product M을 기록한다. 실제 선택 로그의 `23:42:45.5578626Z`는 prepared/delivery not yet confirmed이며, 그 뒤 `23:42:45.8935584Z` **sent/1attempt**가 실제 송신 성공이다. 준비 로그만으로 sent를 추정하지 않았고08:36의 Release 알림과08:42의 저장 완료 보고 알림을 분리해 수용한다. 시크릿·목적지·전체 환경·원문 로그를 보존하지 않는다.
+- 최종 API는 `23:41:42.432530Z` todayjpop/jpop.today의 eb916/M48c/dirty:false 및 개인 source metadata·자동false/none을 확인한다. 이어 `23:41:47.923Z–23:42:09.094Z` canonical strict HTTP는 같은 M/production·동일 세 hash/본문의 **27checks/1attempt PASS**다. 앞선 복구 중 실제 혼합 응답 이력은 유지하며, 최종 API와 전체 canonical 검사 수용을 별도 연결한다.
+
+이 읽기 시점 제품 M의 CI·운영 원격28·복구/복원·Release/두 Discord는 실제 증거로 수용한다. root의 인계에서 **보고 R의 main app CI는 아직 in progress이고 contracts는 pass**이므로 main app까지 통과했다고 쓰지 않는다. 이는 제품 M에서 이미 완료한 CI/운영 증거와 별개다. 이번 최종 영수증 및 이 문서 보충을 원격에 보존할 **후속 문서 PR은 root의 남은 작업/pending**이며 이미 원격 병합됐다고 주장하지 않는다.
+
+freeze 직전 root의 추가 인계로 같은 [보고 영수증](runs/resume-20261016-0400-source-report.json)의 `mainCI`를 다시 읽었다. 보고 R312c6b6의 app `38825146435`와 contracts `38825146453`가 **각각 completed/success**로 저장돼 있다. 위 app pending은 이전 읽기 시각의 관측이며 이 후속 실제 결과로 보고 main CI도 수용한다. 제품 운영은 계속 M48c/eb916이다.
+
+감사 담당은 이 문서 단독 편집을 여기서 freeze해 root에 인계한다. 필수 제품 보완 없음이라는 판단과 실제 미확인 한계(자료권리·Google 계정/신청/실제심사 unknown, Actions CFbinding 미설정, 전체 CI archive/실제 기기·보조기술/전체 접근성 감사 미실행)는 유지한다. 새 소스/Git/외부 조회·검사/배포·새 점수/worker는 실행하거나 생성하지 않았다.

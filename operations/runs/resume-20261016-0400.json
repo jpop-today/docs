@@ -4,7 +4,7 @@
   "date": "2026-10-16",
   "timezone": "Asia/Seoul",
   "startedAt": "2026-10-15T19:05:10.169481+00:00",
-  "phase": "product_released_reporting_pending",
+  "phase": "complete",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/27",
   "parentIssue": 6,
   "spec": [
@@ -97,7 +97,7 @@
     "accountReview": "unknown"
   },
   "workersActuallyCreated": true,
-  "updatedAt": "2026-10-15T23:37:58.944954+00:00",
+  "updatedAt": "2026-10-15T23:43:59.086456+00:00",
   "notifications": {
     "start": {
       "id": 38791277084,
@@ -124,6 +124,31 @@
       "attempts": 1,
       "workflowRun": 38824414759,
       "scope": "Actual explicit Release senderline; separate from completedreport"
+    },
+    "completed": {
+      "id": 38825188067,
+      "jobId": 116730895180,
+      "workflow": "discord.yml",
+      "mode": "completed",
+      "reportDate": "2026-10-16",
+      "sourceSha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+      "productSha": "48c58d57b15aa775676229465fd13c390ccac620",
+      "state": "sent",
+      "attempts": 1,
+      "sentAt": "2026-10-15T23:42:45.8935584Z",
+      "safeResults": [
+        {
+          "at": "2026-10-15T23:42:45.5578626Z",
+          "result": "Report prepared: completed (2026-10-16); delivery not yet confirmed."
+        },
+        {
+          "at": "2026-10-15T23:42:45.8935584Z",
+          "result": "Discord notification sent (1 attempt)."
+        }
+      ],
+      "checkedAt": "2026-10-15T23:43:18.552Z",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38825188067",
+      "scope": "Actual saved completed report prepared and sent from main reportR. Product/Release notification separate. Only allowlisted result lines retained, no secrets/env/destination/rawlogs."
     }
   },
   "cohort": {
@@ -319,6 +344,13 @@
       "passed": true,
       "attempts": 1,
       "scope": "Actual selectedworkflowlog; fullartifactchecks performed in workflow"
+    },
+    "finalRecheck": {
+      "api": "resume-20261016-0400-final-production-api.json",
+      "http": "resume-20261016-0400-final-production-http.json",
+      "passed": true,
+      "checks": 27,
+      "attempts": 1
     }
   },
   "release": {
@@ -367,5 +399,89 @@
       }
     ]
   },
-  "completedKSTDate": "2026-10-16"
+  "completedKSTDate": "2026-10-16",
+  "sourceReport": {
+    "state": "merged",
+    "pr": 29,
+    "url": "https://github.com/jpop-today/jpoptoday/pull/29",
+    "headSha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+    "mergeSha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+    "mergedAt": "2026-10-15T23:42:07Z",
+    "productSha": "48c58d57b15aa775676229465fd13c390ccac620",
+    "appTreeDifference": [
+      "reports/daily/2026-10-16.json",
+      "reports/runs/resume-20261015-2300.json"
+    ],
+    "onlyReportsDiffer": true,
+    "headCI": [
+      {
+        "id": 38824943742,
+        "name": "contracts",
+        "event": "pull_request",
+        "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38824943729,
+        "name": "app",
+        "event": "pull_request",
+        "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38824859220,
+        "name": "contracts",
+        "event": "push",
+        "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38824859270,
+        "name": "app",
+        "event": "push",
+        "head_sha": "f27ab55f941498c84a2db74ba0fc93ee4b884384",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "documentation": {
+      "pr": 16,
+      "url": "https://github.com/jpop-today/docs/pull/16",
+      "headSha": "3d8956b85744f8b4aa96194a15628773bff41bf5",
+      "mergeSha": "2d2cce4393031b7e4b6333ef17a1571fc0681600",
+      "mergedAt": "2026-10-15T23:41:03Z"
+    },
+    "nativeAttachments": "PR16/29 each5s timeout/unconfirmed; ordinaryGitHubURLs valid",
+    "checkedAt": "2026-10-15T23:42:54.239Z",
+    "mainCI": [
+      {
+        "id": 38825146453,
+        "name": "contracts",
+        "head_sha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 38825146435,
+        "name": "app",
+        "head_sha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "mainCICheckedAt": "2026-10-15T23:44:14.912516+00:00"
+  },
+  "documentation": {
+    "state": "merged",
+    "releaseRecord": "https://github.com/jpop-today/docs/blob/main/operations/releases/v0.4.3-20261016.md",
+    "pr": "https://github.com/jpop-today/docs/pull/16",
+    "mergeSha": "2d2cce4393031b7e4b6333ef17a1571fc0681600",
+    "deliveryReceipt": "https://github.com/jpop-today/docs/blob/main/operations/runs/resume-20261016-0400-completed-discord.json",
+    "receiptPublication": "prepared_for_followup_PR"
+  },
+  "finishedAt": "2026-10-15T23:43:59.086456+00:00",
+  "completionScope": "Issue27 actualproduct/production/recovery/Release/docs16/report29/completedDiscord; finalreceipt publication follows in reviewablePR; broader AdSense work continues"
 }
