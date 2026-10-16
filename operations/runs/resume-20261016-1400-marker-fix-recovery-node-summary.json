@@ -1,0 +1,10 @@
+{
+  "startedAt": "2026-10-16T10:41:51.940416+00:00",
+  "scope": "Canonical-domain recovery with same supported Node24 proxy/CA request path; allstrict metadata/body checks unchanged, explicit60s verifier budget/supported30maxattempts/2sdelay and stateobserver60max; This is the current run first controlled recovery; all current attempts retained and no previousrun failures relabeled. This run actual old v0.4.3 rollback then new v0.4.4 restore; priorrun failures are not thisrun failures.",
+  "oldHttpPassed": true,
+  "newRestoreHttpPassed": true,
+  "oldStateObserved": true,
+  "newStateObserved": true,
+  "finishedAt": "2026-10-16T10:42:31.831251+00:00",
+  "managerScopeClarification": "Raw helper first-controlled wording refers only to first finalM3 recovery. This is the second controlled recovery in the same Issue30 run: earlier M1 actualoldv043/newM1 successful recovery is separately preserved. M2 had no controlled recovery because first strictcheck failed. Raw helper scope is retained."
+}

@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-16T10:38:10.604449+00:00",
+  "action": "deploy-preview",
+  "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "CLIExitCode": 0,
+  "before": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "914d714a-daf7-43c4-8c1b-7805b022944b",
+      "url": "https://914d714a.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-16T10:24:39.154159Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-16T10:24:40.713835Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+          "commit_message": "Merge pull request #32 from jpop-today/codex/30-js-off-contact-20261016\r\n\r\nCloudflare에서도 JavaScript 없이 곡 제보·문의 링크 유지",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "c06ff6d6-9c19-4751-8cd6-d8c5be39507e",
+      "url": "https://c06ff6d6.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-16T10:38:07.985167Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-16T10:38:09.550879Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "f959f3671b8aeb766fd469558634f9680635e58c",
+          "commit_message": "Merge pull request #33 from jpop-today/codex/30-email-marker-verification-20261016\r\n\r\n이메일 원문 비교를 유지하며 Cloudflare 범위 주석 처리 검증",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "scope": "Actual managed clouddeploy. Actionsbinding presence/deploy separate."
+}

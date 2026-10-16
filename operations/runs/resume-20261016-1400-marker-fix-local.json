@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-16T10:33:51.512531+00:00",
+  "baseSourceSha": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+  "scope": "Dirty M2+verifier-only followup; current M2 artifact/site validated, not cleannewSHA/remoteCI/deploy proof",
+  "targetedTests": 76,
+  "targetedFailed": 0,
+  "unitTests": 318,
+  "unitPassed": 318,
+  "unitFailed": 0,
+  "unitSkipped": 0,
+  "unitDurationMs": 8263.187544,
+  "actualCurrentM2StrictHTTP": {
+    "passed": true,
+    "checks": 27,
+    "attempts": 1,
+    "receipt": "resume-20261016-1400-marker-fix-current-M2-http.json"
+  },
+  "originalFailurePreserved": "resume-20261016-1400-contact-fix-production-first-http.json"
+}

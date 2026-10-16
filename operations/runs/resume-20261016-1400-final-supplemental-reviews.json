@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261016-1400",
+  "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "scope": "Actual final read-only supplemental messages, manager excerpts of four criterion reasons. Initial six scored reviews unchanged.",
+  "reviews": [
+    {
+      "reviewer": "/root/resume14_evidence",
+      "readStartedAt": "2026-10-16T16:03:21.865525Z",
+      "readCompletedAt": "2026-10-16T16:04:16.979164Z",
+      "acceptance": "final M3 product technical/content gates and actualRelease accepted; admincompletion/finaldocs pending",
+      "criterionReasons": {
+        "correctness": "최종감사와 M3 영수증의318/type0·같은SHA31+31·3347파일반복/3319marker/동결hash·실제preview31(50.4s)/운영최종31(53.5s)이일치한다. workflow첫31(38.9s)은local로분리하고3직접메일/fullpayload와새정책/과거시각을Google승인으로확대하지않는다.",
+        "evidence": "mainCI/repro/targetartifact/remote/firstHTTP/ordinaryemail-policy/recovery API-state-HTTP를직접읽었다. M3첫REQUEST_TIMEOUT→27/2, oldv043와M3각state1/27·1 및managerScopeClarification을확인하고M1 29/2·M2 17/60초DEADLINE을보존한다.",
+        "value": "실제보류콘텐츠→기존상세→JSoff제보와통계안내를운영에서수용할근거가완결됐다. 로컬통과뒤실제로발견된기능결함/CDN변환을각각고치고복구증거도남겼다.",
+        "maintainability": "M1/M2/M3·실패성공·일반/strict/raw-normalized·기존6평가/rotation을분리하고CIarchive/계정/권리/실수신/payload/ads.txt계정unknown을유지한다."
+      },
+      "requiredProductFixes": [],
+      "requiredRecordCompletion": [
+        "Release 대기 표현을 실제414863520/published/sent로후속갱신",
+        "관리자completedDiscord/최종docs-reportPR 연결"
+      ],
+      "scopeCorrection": "Release 전용 알림은 확인했고 17일 관리자 완료 보고와 별개다.",
+      "newScoresOrRanking": false
+    },
+    {
+      "reviewer": "/root/resume14_app",
+      "readStartedAt": "2026-10-16T16:03:50Z",
+      "readCompletedAt": "2026-10-16T16:04:46Z",
+      "acceptance": "final M3 producttechnical and actualRelease accepted; finaldocumentation/completedreport pending",
+      "criterionReasons": {
+        "correctness": "M3의 실제 직접 mailto와 전체 원래 payload 보존, 두 보류 사례·개인정보 안내를 영수증으로 확인했다. 검증기는 trusted anchor의 정확한 주석만 복원하고 최종 전체 bytes 비교를 유지한다. JS-off E2E도 직접 mailto 요구를 유지한다.",
+        "evidence": "같은 M3 CI318/type0·31+31, 두 target 각3347files 반복 재현, 실제 preview31·jpop.today31, old v0.4.3 strict27/1→M3 restore27/1을 읽었다. M3 첫 metadata timeout 뒤 두 번째27검사 성공도 별도로 보존됐다.",
+        "value": "실제 운영에서 깨졌던 JavaScript 없는 제보·문의 동선을 복원했다. 기존 주소·subject/body·곡 URL과 관측/공식 확인 경계를 유지하며, 테스트 복호화나 URL base 추가로 결함을 숨기지 않았다.",
+        "maintainability": "좁은 이메일 범위 처리와 occurrence budget, 변조 거부 회귀를 유지한다. M1/M2/M3·로컬/원격·managed 배포/Actions skip을 구분하고, 기존6평가와 완전 동률 rotation 이력을 바꾸지 않았다."
+      },
+      "requiredProductFixes": [],
+      "requiredRecordCompletion": [
+        "감사 Release pending을 실제영수증으로갱신",
+        "최종docs/reportPR/완료Discord 연결"
+      ],
+      "newScoresOrRanking": false
+    }
+  ],
+  "releaseObserved": {
+    "releaseId": 414863520,
+    "publishedAt": "2026-10-16T10:59:31Z",
+    "releaseDiscordSentAt": "2026-10-16T10:59:32.2047361Z",
+    "annotatedTagSha": "1503836a52b93fab3aa3ed78883828ff44a5027e"
+  },
+  "managerResolution": {
+    "checkedAt": "2026-10-16T16:06:31.947Z",
+    "actualFinalReviewsRead": 2,
+    "requiredSourceFixes": 0,
+    "releaseDocumentPendingCorrection": "Replacement updated and froze actual Release/publication and separate release notification after reviewers read. Root verified latest document before commit.",
+    "pending": [
+      "actual docs/source-report PR merge",
+      "actual completed Discord delivery"
+    ]
+  },
+  "evidence": [
+    "operations/production-content-gate-v044-20261016.md",
+    "operations/runs/resume-20261016-1400-marker-fix-main-ci.json",
+    "operations/runs/resume-20261016-1400-marker-fix-reproducibility.json",
+    "operations/runs/resume-20261016-1400-marker-fix-remote-preview.json",
+    "operations/runs/resume-20261016-1400-marker-fix-remote-production.json",
+    "operations/runs/resume-20261016-1400-marker-fix-recovery-node-summary.json",
+    "operations/runs/resume-20261016-1400-release.json"
+  ]
+}

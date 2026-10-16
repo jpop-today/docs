@@ -1,0 +1,19 @@
+{
+  "id": 38853673237,
+  "jobId": 116820260348,
+  "mode": "message",
+  "state": "sent",
+  "sentAt": "2026-10-16T05:02:16.7717682Z",
+  "attempts": 1,
+  "sourceSha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+  "safeResults": [
+    {
+      "at": "2026-10-16T05:02:16.4613555Z",
+      "result": "Report prepared: message (2026-10-16); delivery not yet confirmed."
+    },
+    {
+      "at": "2026-10-16T05:02:16.7717682Z",
+      "result": "Discord notification sent (1 attempt)."
+    }
+  ]
+}

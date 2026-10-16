@@ -1,0 +1,40 @@
+{
+  "sourceSha": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+  "scope": "Actual ordinary Node HTTPS no-JS source classification and full opaque raw mailto-payload comparison with pinnedM2; no email/beacon/ad execution; no recipient/payload/HTML/secret values retained",
+  "rows": [
+    {
+      "checkedAt": "2026-10-16T10:28:17.289Z",
+      "route": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+      "status": 200,
+      "actualMailtoCount": 1,
+      "pinnedMailtoCount": 1,
+      "allOriginalMailtoPayloadsPreserved": true,
+      "hasCFProtectedEmailHref": false,
+      "emailOffOpenCount": 0,
+      "emailOffCloseCount": 0
+    },
+    {
+      "checkedAt": "2026-10-16T10:28:21.388Z",
+      "route": "/contact/",
+      "status": 200,
+      "actualMailtoCount": 1,
+      "pinnedMailtoCount": 1,
+      "allOriginalMailtoPayloadsPreserved": true,
+      "hasCFProtectedEmailHref": false,
+      "emailOffOpenCount": 0,
+      "emailOffCloseCount": 0
+    },
+    {
+      "checkedAt": "2026-10-16T10:28:24.681Z",
+      "route": "/privacy/",
+      "status": 200,
+      "actualMailtoCount": 1,
+      "pinnedMailtoCount": 1,
+      "allOriginalMailtoPayloadsPreserved": true,
+      "hasCFProtectedEmailHref": false,
+      "emailOffOpenCount": 0,
+      "emailOffCloseCount": 0
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,66 @@
+{
+  "version": "0.4.4",
+  "tag": "v0.4.4",
+  "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "annotatedTagSha": "1503836a52b93fab3aa3ed78883828ff44a5027e",
+  "tagTargetType": "commit",
+  "tagTargetSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "releaseId": 414863520,
+  "publishedAt": "2026-10-16T10:59:31Z",
+  "draft": false,
+  "prerelease": false,
+  "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.4",
+  "workflowRun": 38890640129,
+  "state": "published",
+  "verifiedAt": "2026-10-16T16:02:15.604Z",
+  "scope": "Actual Release/ref/annotatedtag and safe selected workflow logs read after interrupted run; publishing by existing Actions is not uninterrupted AI work.",
+  "notification": {
+    "state": "sent",
+    "sentAt": "2026-10-16T10:59:32.2047361Z",
+    "attempts": 1,
+    "workflowRun": 38890640129,
+    "scope": "Explicit release sender; completed manager report separate"
+  },
+  "safeResults": [
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:57:48.8791278Z Reviewed release identity verified v0.4.4"
+    },
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:58:02.6585743Z ℹ tests 318"
+    },
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:58:02.6586593Z ℹ pass 318"
+    },
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:58:02.6587009Z ℹ fail 0"
+    },
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:58:09.9490155Z - 0 errors"
+    },
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:58:09.9490609Z - 0 warnings"
+    },
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:58:09.9491021Z - 0 hints"
+    },
+    {
+      "jobId": 116939015889,
+      "line": "2026-10-16T10:59:18.5146894Z   31 passed (40.2s)"
+    },
+    {
+      "jobId": 116939603834,
+      "line": "2026-10-16T10:59:31.5177735Z https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.4"
+    },
+    {
+      "jobId": 116939603834,
+      "line": "2026-10-16T10:59:32.2047361Z Discord notification sent (1 attempt)."
+    }
+  ]
+}

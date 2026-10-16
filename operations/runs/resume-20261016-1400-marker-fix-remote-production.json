@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16T10:46:51.781Z",
+  "run": 38889097513,
+  "jobId": 116933967026,
+  "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "status": "completed",
+  "conclusion": "success",
+  "verifyOnly": true,
+  "actualURL": "https://jpop.today",
+  "lines": [
+    "2026-10-16T10:43:44.6927063Z ℹ tests 318",
+    "2026-10-16T10:43:44.6927897Z ℹ pass 318",
+    "2026-10-16T10:43:44.6928253Z ℹ fail 0",
+    "2026-10-16T10:43:44.6929008Z ℹ skipped 0",
+    "2026-10-16T10:43:51.5211153Z - 0 errors",
+    "2026-10-16T10:43:51.5211523Z - 0 warnings",
+    "2026-10-16T10:43:51.5211779Z - 0 hints",
+    "2026-10-16T10:43:58.1169827Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source f959f3671b8aeb766fd469558634f9680635e58c",
+    "2026-10-16T10:44:05.4100554Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source f959f3671b8aeb766fd469558634f9680635e58c",
+    "2026-10-16T10:44:07.1926268Z {\"sourceSha\":\"f959f3671b8aeb766fd469558634f9680635e58c\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-16T10:45:06.5967646Z   31 passed (38.9s)",
+    "2026-10-16T10:45:06.6713557Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+    "2026-10-16T10:45:09.6053653Z {\"sourceSha\":\"f959f3671b8aeb766fd469558634f9680635e58c\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-16T10:46:03.7446859Z   31 passed (53.5s)"
+  ],
+  "scope": "First31 localproduction; final31 after canonicalproduction SHA verification are actual jpop.today browser tests. Managed deployment and actual Actionsbinding presence distinguished."
+}

@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-16T10:36:27.389Z",
+  "sourceSha": "bec6d04a264f9464002240d6bf19ad24d35965a7",
+  "runs": [
+    {
+      "id": 38888156153,
+      "name": "app",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38888156169,
+      "name": "contracts",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38888068226,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38888068126,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "scope": "ExactH3push logs; PR artifacts are syntheticmerge, not claimedexactH3.",
+  "jobs": [
+    {
+      "id": 116930580375,
+      "name": "production-artifact",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-16T10:34:15.2088046Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source bec6d04a264f9464002240d6bf19ad24d35965a7",
+        "2026-10-16T10:35:17.5891996Z   31 passed (34.2s)"
+      ]
+    },
+    {
+      "id": 116930580879,
+      "name": "app",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-16T10:34:18.5803876Z ℹ tests 318",
+        "2026-10-16T10:34:18.5804389Z ℹ pass 318",
+        "2026-10-16T10:34:18.5804625Z ℹ fail 0",
+        "2026-10-16T10:34:18.5805478Z ℹ skipped 0",
+        "2026-10-16T10:34:25.3016137Z - 0 errors",
+        "2026-10-16T10:34:25.3016431Z - 0 warnings",
+        "2026-10-16T10:34:25.3016692Z - 0 hints",
+        "2026-10-16T10:34:31.8524857Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source bec6d04a264f9464002240d6bf19ad24d35965a7",
+        "2026-10-16T10:35:30.9696608Z   31 passed (38.5s)"
+      ]
+    }
+  ]
+}

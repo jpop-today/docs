@@ -1,0 +1,659 @@
+{
+  "status": "PASS",
+  "baseURL": "http://127.0.0.1:4321",
+  "recordedAt": "2026-10-16T05:11:22.862Z",
+  "results": [
+    {
+      "status": "PASS",
+      "viewport": {
+        "width": 1440,
+        "height": 1100,
+        "javaScriptEnabled": true
+      },
+      "target": "preview",
+      "browser": "system Chromium",
+      "browserFallback": "Browser skill listed, but no Browser js/cua/browser callable tool found in ALL_TOOLS; assigned task permits existing Playwright fallback. No install or download.",
+      "indexKeyboard": {
+        "tabs": 12,
+        "text": "제목·가수 표기가 다를 때 같은 곡인지 확인하는 법",
+        "href": "/guides/title-artist-variants/",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "top": 940.953125,
+        "bottom": 972.953125,
+        "viewportHeight": 1100
+      },
+      "guideHealth": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "cases": [
+        {
+          "id": "jpop-playlist-samfree-ルカルカ-ナイトフィ-ハ-f6722acd10",
+          "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+          "linkBox": {
+            "x": 88,
+            "y": 2641.34375,
+            "width": 800,
+            "height": 54.296875
+          },
+          "guideKeyboard": {
+            "tabs": 8,
+            "text": "ルカルカ★ナイトフィーバー · samfree 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 523.34375,
+            "bottom": 577.640625,
+            "viewportHeight": 1100
+          },
+          "detailHealth": {
+            "width": 1440,
+            "scrollWidth": 1440
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27031&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 676.828125,
+            "bottom": 696.828125,
+            "viewportHeight": 1100
+          },
+          "tjSearchKeyboard": {
+            "tabs": 3,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 1031.390625,
+            "bottom": 1056.390625,
+            "viewportHeight": 1100
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 1031.390625,
+            "bottom": 1056.390625,
+            "viewportHeight": 1100
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC&body=%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC%20%2F%20samfree%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-samfree-%25E3%2583%25AB%25E3%2582%25AB%25E3%2583%25AB%25E3%2582%25AB-%25E3%2583%258A%25E3%2582%25A4%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A3-%25E3%2583%258F-f6722acd10%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 1074.6875,
+            "bottom": 1099.6875,
+            "viewportHeight": 1100
+          }
+        },
+        {
+          "id": "jpop-playlist-ado-逆光-c8c1ba8b20",
+          "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+          "linkBox": {
+            "x": 88,
+            "y": 1040.796875,
+            "width": 800,
+            "height": 54.296875
+          },
+          "guideKeyboard": {
+            "tabs": 9,
+            "text": "逆光 · Ado 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 1040.796875,
+            "bottom": 1095.09375,
+            "viewportHeight": 1100
+          },
+          "detailHealth": {
+            "width": 1440,
+            "scrollWidth": 1440
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68868&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 676.828125,
+            "bottom": 696.828125,
+            "viewportHeight": 1100
+          },
+          "tjSearchKeyboard": {
+            "tabs": 3,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 1031.390625,
+            "bottom": 1056.390625,
+            "viewportHeight": 1100
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 1031.390625,
+            "bottom": 1056.390625,
+            "viewportHeight": 1100
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E9%80%86%E5%85%89&body=%E9%80%86%E5%85%89%20%2F%20Ado%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-ado-%25E9%2580%2586%25E5%2585%2589-c8c1ba8b20%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 1074.6875,
+            "bottom": 1099.6875,
+            "viewportHeight": 1100
+          }
+        }
+      ],
+      "errors": [],
+      "warnings": [],
+      "ads": [],
+      "screenshots": [
+        "/tmp/jpop-resume14-app-preview-1440x1100-top.png",
+        "/tmp/jpop-resume14-app-preview-1440x1100-samfree-link.png",
+        "/tmp/jpop-resume14-app-preview-1440x1100-ado-link.png"
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": {
+        "width": 768,
+        "height": 1024,
+        "javaScriptEnabled": true
+      },
+      "target": "preview",
+      "browser": "system Chromium",
+      "browserFallback": "Browser skill listed, but no Browser js/cua/browser callable tool found in ALL_TOOLS; assigned task permits existing Playwright fallback. No install or download.",
+      "indexKeyboard": {
+        "tabs": 12,
+        "text": "제목·가수 표기가 다를 때 같은 곡인지 확인하는 법",
+        "href": "/guides/title-artist-variants/",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "top": 973.25,
+        "bottom": 1005.25,
+        "viewportHeight": 1024
+      },
+      "guideHealth": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "cases": [
+        {
+          "id": "jpop-playlist-samfree-ルカルカ-ナイトフィ-ハ-f6722acd10",
+          "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+          "linkBox": {
+            "x": 32,
+            "y": 2856.015625,
+            "width": 704,
+            "height": 54.296875
+          },
+          "guideKeyboard": {
+            "tabs": 8,
+            "text": "ルカルカ★ナイトフィーバー · samfree 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 485.015625,
+            "bottom": 539.3125,
+            "viewportHeight": 1024
+          },
+          "detailHealth": {
+            "width": 768,
+            "scrollWidth": 768
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27031&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 703.421875,
+            "bottom": 723.421875,
+            "viewportHeight": 1024
+          },
+          "tjSearchKeyboard": {
+            "tabs": 3,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 797.875,
+            "bottom": 822.875,
+            "viewportHeight": 1024
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 797.875,
+            "bottom": 822.875,
+            "viewportHeight": 1024
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC&body=%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC%20%2F%20samfree%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-samfree-%25E3%2583%25AB%25E3%2582%25AB%25E3%2583%25AB%25E3%2582%25AB-%25E3%2583%258A%25E3%2582%25A4%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A3-%25E3%2583%258F-f6722acd10%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 847.171875,
+            "bottom": 872.171875,
+            "viewportHeight": 1024
+          }
+        },
+        {
+          "id": "jpop-playlist-ado-逆光-c8c1ba8b20",
+          "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+          "linkBox": {
+            "x": 32,
+            "y": 1067.0625,
+            "width": 704,
+            "height": 54.296875
+          },
+          "guideKeyboard": {
+            "tabs": 9,
+            "text": "逆光 · Ado 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 485.0625,
+            "bottom": 539.359375,
+            "viewportHeight": 1024
+          },
+          "detailHealth": {
+            "width": 768,
+            "scrollWidth": 768
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68868&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 676.828125,
+            "bottom": 696.828125,
+            "viewportHeight": 1024
+          },
+          "tjSearchKeyboard": {
+            "tabs": 3,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 797.6875,
+            "bottom": 822.6875,
+            "viewportHeight": 1024
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 797.6875,
+            "bottom": 822.6875,
+            "viewportHeight": 1024
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E9%80%86%E5%85%89&body=%E9%80%86%E5%85%89%20%2F%20Ado%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-ado-%25E9%2580%2586%25E5%2585%2589-c8c1ba8b20%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 846.984375,
+            "bottom": 871.984375,
+            "viewportHeight": 1024
+          }
+        }
+      ],
+      "errors": [],
+      "warnings": [],
+      "ads": [],
+      "screenshots": [
+        "/tmp/jpop-resume14-app-preview-768x1024-top.png",
+        "/tmp/jpop-resume14-app-preview-768x1024-samfree-link.png",
+        "/tmp/jpop-resume14-app-preview-768x1024-ado-link.png"
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": {
+        "width": 360,
+        "height": 800,
+        "javaScriptEnabled": false
+      },
+      "target": "preview",
+      "browser": "system Chromium",
+      "browserFallback": "Browser skill listed, but no Browser js/cua/browser callable tool found in ALL_TOOLS; assigned task permits existing Playwright fallback. No install or download.",
+      "indexKeyboard": {
+        "tabs": 12,
+        "text": "제목·가수 표기가 다를 때 같은 곡인지 확인하는 법",
+        "href": "/guides/title-artist-variants/",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "top": 584.75,
+        "bottom": 647.84375,
+        "viewportHeight": 800
+      },
+      "guideHealth": {
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "cases": [
+        {
+          "id": "jpop-playlist-samfree-ルカルカ-ナイトフィ-ハ-f6722acd10",
+          "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+          "linkBox": {
+            "x": 16,
+            "y": 3895.9375,
+            "width": 328,
+            "height": 79
+          },
+          "guideKeyboard": {
+            "tabs": 8,
+            "text": "ルカルカ★ナイトフィーバー · samfree 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 360.9375,
+            "bottom": 439.9375,
+            "viewportHeight": 800
+          },
+          "detailHealth": {
+            "width": 360,
+            "scrollWidth": 360
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27031&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 761.53125,
+            "bottom": 778.53125,
+            "viewportHeight": 800
+          },
+          "tjSearchKeyboard": {
+            "tabs": 2,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 586.8125,
+            "bottom": 607.8125,
+            "viewportHeight": 800
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 586.8125,
+            "bottom": 607.8125,
+            "viewportHeight": 800
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC&body=%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC%20%2F%20samfree%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-samfree-%25E3%2583%25AB%25E3%2582%25AB%25E3%2583%25AB%25E3%2582%25AB-%25E3%2583%258A%25E3%2582%25A4%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A3-%25E3%2583%258F-f6722acd10%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 630.3125,
+            "bottom": 651.3125,
+            "viewportHeight": 800
+          }
+        },
+        {
+          "id": "jpop-playlist-ado-逆光-c8c1ba8b20",
+          "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+          "linkBox": {
+            "x": 16,
+            "y": 1139.03125,
+            "width": 328,
+            "height": 50.5
+          },
+          "guideKeyboard": {
+            "tabs": 9,
+            "text": "逆光 · Ado 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 375.03125,
+            "bottom": 425.53125,
+            "viewportHeight": 800
+          },
+          "detailHealth": {
+            "width": 360,
+            "scrollWidth": 360
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68868&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 722.34375,
+            "bottom": 739.34375,
+            "viewportHeight": 800
+          },
+          "tjSearchKeyboard": {
+            "tabs": 2,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 586.625,
+            "bottom": 607.625,
+            "viewportHeight": 800
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 586.625,
+            "bottom": 607.625,
+            "viewportHeight": 800
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E9%80%86%E5%85%89&body=%E9%80%86%E5%85%89%20%2F%20Ado%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-ado-%25E9%2580%2586%25E5%2585%2589-c8c1ba8b20%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 630.125,
+            "bottom": 651.125,
+            "viewportHeight": 800
+          }
+        }
+      ],
+      "errors": [],
+      "warnings": [],
+      "ads": [],
+      "screenshots": [
+        "/tmp/jpop-resume14-app-preview-360x800-top.png",
+        "/tmp/jpop-resume14-app-preview-360x800-samfree-link.png",
+        "/tmp/jpop-resume14-app-preview-360x800-ado-link.png"
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": {
+        "width": 360,
+        "height": 320,
+        "javaScriptEnabled": false
+      },
+      "target": "preview",
+      "browser": "system Chromium",
+      "browserFallback": "Browser skill listed, but no Browser js/cua/browser callable tool found in ALL_TOOLS; assigned task permits existing Playwright fallback. No install or download.",
+      "indexKeyboard": {
+        "tabs": 12,
+        "text": "제목·가수 표기가 다를 때 같은 곡인지 확인하는 법",
+        "href": "/guides/title-artist-variants/",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "top": 128.75,
+        "bottom": 191.84375,
+        "viewportHeight": 320
+      },
+      "guideHealth": {
+        "width": 360,
+        "scrollWidth": 360
+      },
+      "cases": [
+        {
+          "id": "jpop-playlist-samfree-ルカルカ-ナイトフィ-ハ-f6722acd10",
+          "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+          "linkBox": {
+            "x": 16,
+            "y": 3895.9375,
+            "width": 328,
+            "height": 79
+          },
+          "guideKeyboard": {
+            "tabs": 8,
+            "text": "ルカルカ★ナイトフィーバー · samfree 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-samfree-%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB-%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3-%E3%83%8F-f6722acd10/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 120.9375,
+            "bottom": 199.9375,
+            "viewportHeight": 320
+          },
+          "detailHealth": {
+            "width": 360,
+            "scrollWidth": 360
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27031&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 151.53125,
+            "bottom": 168.53125,
+            "viewportHeight": 320
+          },
+          "tjSearchKeyboard": {
+            "tabs": 2,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 149.8125,
+            "bottom": 170.8125,
+            "viewportHeight": 320
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 149.8125,
+            "bottom": 170.8125,
+            "viewportHeight": 320
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC&body=%E3%83%AB%E3%82%AB%E3%83%AB%E3%82%AB%E2%98%85%E3%83%8A%E3%82%A4%E3%83%88%E3%83%95%E3%82%A3%E3%83%BC%E3%83%90%E3%83%BC%20%2F%20samfree%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-samfree-%25E3%2583%25AB%25E3%2582%25AB%25E3%2583%25AB%25E3%2582%25AB-%25E3%2583%258A%25E3%2582%25A4%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A3-%25E3%2583%258F-f6722acd10%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 193.3125,
+            "bottom": 214.3125,
+            "viewportHeight": 320
+          }
+        },
+        {
+          "id": "jpop-playlist-ado-逆光-c8c1ba8b20",
+          "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+          "linkBox": {
+            "x": 16,
+            "y": 899.03125,
+            "width": 328,
+            "height": 50.5
+          },
+          "guideKeyboard": {
+            "tabs": 9,
+            "text": "逆光 · Ado 곡 상세에서 업체별 상태 확인",
+            "href": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 135.03125,
+            "bottom": 185.53125,
+            "viewportHeight": 320
+          },
+          "detailHealth": {
+            "width": 360,
+            "scrollWidth": 360
+          },
+          "evidenceKeyboard": {
+            "tabs": 9,
+            "text": "공식 대조 결과",
+            "href": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68868&strWord=Y",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 151.34375,
+            "bottom": 168.34375,
+            "viewportHeight": 320
+          },
+          "tjSearchKeyboard": {
+            "tabs": 2,
+            "text": "TJ 공식 곡 검색",
+            "href": "https://www.tjmedia.com/song/accompaniment_search",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 149.625,
+            "bottom": 170.625,
+            "viewportHeight": 320
+          },
+          "kySearchKeyboard": {
+            "tabs": 1,
+            "text": "금영 공식 곡 검색",
+            "href": "https://www.kygabang.com/",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 149.625,
+            "bottom": 170.625,
+            "viewportHeight": 320
+          },
+          "reportKeyboard": {
+            "tabs": 1,
+            "text": "이 곡 정보 제보",
+            "href": "mailto:nossee160@gmail.com?subject=jpop.today%20%EA%B3%A1%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EB%B3%B4%3A%20%E9%80%86%E5%85%89&body=%E9%80%86%E5%85%89%20%2F%20Ado%0A%EA%B3%A1%20%EC%A3%BC%EC%86%8C%3A%20https%3A%2F%2Fjpop.today%2Fsongs%2Fjpop-playlist-ado-%25E9%2580%2586%25E5%2585%2589-c8c1ba8b20%2F%0A%EC%97%85%EC%B2%B4%EC%99%80%20%ED%99%95%EC%9D%B8%ED%95%9C%20%EB%B2%88%ED%98%B8%C2%B7%EC%B6%9C%EC%B2%98%3A%0A",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "top": 193.125,
+            "bottom": 214.125,
+            "viewportHeight": 320
+          }
+        }
+      ],
+      "errors": [],
+      "warnings": [],
+      "ads": [],
+      "screenshots": [
+        "/tmp/jpop-resume14-app-preview-360x320-top.png",
+        "/tmp/jpop-resume14-app-preview-360x320-samfree-link.png",
+        "/tmp/jpop-resume14-app-preview-360x320-ado-link.png"
+      ]
+    }
+  ]
+}

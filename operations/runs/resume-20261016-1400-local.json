@@ -1,0 +1,40 @@
+{
+  "startedAt": "2026-10-16T05:06:08.938949+00:00",
+  "scope": "Dirty local candidate, not cleanCI or deployment",
+  "steps": [
+    {
+      "label": "unit",
+      "exitCode": 0,
+      "log": "/tmp/jpop-1400-unit.txt"
+    },
+    {
+      "label": "check",
+      "exitCode": 0,
+      "log": "/tmp/jpop-1400-check.txt"
+    },
+    {
+      "label": "preview-build",
+      "exitCode": 0,
+      "log": "/tmp/jpop-1400-preview-build.txt"
+    },
+    {
+      "label": "preview-dist",
+      "exitCode": 0,
+      "log": "/tmp/jpop-1400-preview-dist.txt"
+    }
+  ],
+  "artifact": {
+    "schemaVersion": 2,
+    "target": "preview",
+    "sourceSha": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+    "ledgerSha256": "13bfed1c4382365f9dfdd7b548a8874cc680de196772f0767eaec87a5a6743c3",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": true
+  },
+  "artifactPath": "/tmp/jpop-v044-preview-local",
+  "finishedAt": "2026-10-16T05:06:31.596765+00:00"
+}

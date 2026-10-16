@@ -1,12 +1,6 @@
 # 실행 계획과 작업 큐
 
-갱신 2026-10-16 KST · 상태 구분: planned / in_progress / blocked / verified / merged / shipped. AdSense는 별도 unknown / preparing / submitted / approved / rejected로 기록한다. 실제 Issue 생성 전에는 아래 키가 작업 식별자이며 GitHub Issue 번호로 쓰지 않는다.
-
-직전 완료는 [v0.4.1](releases/v0.4.1-20261015.md)의 안전한 공식번호 조회·실패보존/표기비교가이드·동일M 실제운영/복구·Release다. 아래 초기 범위표는 설계 이력이며 현재 차단 상태는 [실행 상태](status.md)와 문서 하단 v0.4.1 이후 우선 작업을 따른다. 다음은 Issue6 미검토공식근거·자체콘텐츠, Issue15 Actions binding 안전설정, 문의/권리와 운영자 Google 실제계정 단계다.
-
-직전 완료는 [v0.4.2](releases/v0.4.2-20261016.md)의 실제공식8번호/가수별업체확인곡수·동일M운영/복구/Release다. 다음은 미검토공식근거·자체콘텐츠·Actions설정·문의/권리/실제Google계정 단계다.
-
-최신 완료는 [v0.4.3](releases/v0.4.3-20261016.md)의 차트업체별공식확인곡탐색·6번호/2보류·모바일겹침수정과동일M실제운영/복구/Release다. 다음은미검토근거·자체가이드·문의/권리·Actionsbinding·운영자Google실제단계다. 기존URL oracle의wwwKY/port/query차이는이번새E2E에서공식URL계약을공유해해결했다.
+현재완료는 [v0.4.4](releases/v0.4.4-20261016.md)의실제보류사례/상세동선·분석안내교정·JSoff문의복구와최종같은SHA CI/운영/복구/Release다. 이전v040~043은릴리스/일일보에보존한다. 다음작업은Issue6미검토공식근거·자체콘텐츠/선곡동선, 차트갱신/실패lastgood, Issue15안전한Actionsbinding, 문의실수신/권리와Google실제계정단계다. 상세현재상태는 [status](status.md)를따르며모든번호확정·1.0·자동CI설정을Google의보편적신청조건으로만들지않는다.
 
 ## 초기 설계 범위 이력
 
@@ -45,7 +39,7 @@ GitHub Issue가 생성되면 담당 스레드, base SHA, 소유 파일, 검증 �
 
 [jpoptoday#9](https://github.com/jpop-today/jpoptoday/issues/9): 실제 Codex 일일예약 등록, source Discord 보고·오전cron·버전릴리스, 원본그라데이션 복원, 새3명·총6개동료리뷰·교체 이력을 [일일기록](daily/2026-10-13.md)에 남긴다. 다음날 우선목표는 Issue#6 correction ledger/reviewed overlay와 운영콘텐츠·색인 게이트다. 새로운 실행은 최신원격기록·CI·release·CF환경부터 재확인한다.
 
-## v0.4.3 이후 실제 우선 작업
+## v0.4.4 이후 실제 우선 작업
 
 [jpoptoday#13](https://github.com/jpop-today/jpoptoday/issues/13)의43근거정정·차트100stableID·기존jpop.today sameSHA전환/실제복구·remote14와v0.3.0은[실행증거](releases/v0.3.0-20261014.md)를기준으로완료한다. 전체카탈로그검증이나AdSense승인은아니다.
 

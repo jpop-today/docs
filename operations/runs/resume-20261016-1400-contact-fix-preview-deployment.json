@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-16T10:24:41.628091+00:00",
+  "action": "deploy-preview",
+  "sourceSha": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+  "CLIExitCode": 0,
+  "before": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "49393954-5169-429d-863d-69df9f67439f",
+      "url": "https://49393954.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-16T10:05:14.436649Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-16T10:05:16.175443Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+          "commit_message": "Merge pull request #31 from jpop-today/codex/30-deferred-guide-20261016\r\n\r\n실제 번호 보류 사례의 상세 동선과 운영 분석 개인정보 안내 수정",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "914d714a-daf7-43c4-8c1b-7805b022944b",
+      "url": "https://914d714a.jpoptoday-preview.pages.dev",
+      "created_on": "2026-10-16T10:24:39.154159Z",
+      "environment": "production",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-16T10:24:40.713835Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "main",
+          "commit_hash": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+          "commit_message": "Merge pull request #32 from jpop-today/codex/30-js-off-contact-20261016\r\n\r\nCloudflare에서도 JavaScript 없이 곡 제보·문의 링크 유지",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "scope": "Actual managed clouddeploy. Actionsbinding presence/deploy separate."
+}

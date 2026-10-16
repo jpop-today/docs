@@ -1,0 +1,15 @@
+{
+  "run": 38886447341,
+  "mode": "message",
+  "scope": "Actual meaningful failure/Releasehold and nextfix manager message; not completedreport",
+  "jobs": [
+    {
+      "id": 116925248195,
+      "conclusion": "success",
+      "safeResults": [
+        "2026-10-16T10:19:27.9022475Z Report prepared: message (2026-10-16); delivery not yet confirmed.",
+        "2026-10-16T10:19:28.4237401Z Discord notification sent (1 attempt)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-16T05:03:33.438Z",
+  "scope": "Normal inherited Node24 proxy/CA public HTTP; no ad scripts executed, no response bodies retained",
+  "checks": [
+    {
+      "path": "/ads.txt",
+      "status": 200
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "privacySaysNoAds": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "contactHasMailto": true
+    }
+  ]
+}
