@@ -1,0 +1,79 @@
+{
+  "action": "rollback",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "82b1b848-5d5f-4892-a15c-0a8a5265dff0",
+      "url": "https://82b1b848.todayjpop.pages.dev",
+      "created_on": "2026-10-16T10:08:06.337032Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-16T10:08:07.646169Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+          "commit_message": "Merge pull request #31 from jpop-today/codex/30-deferred-guide-20261016\r\n\r\n실제 번호 보류 사례의 상세 동선과 운영 분석 개인정보 안내 수정",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "after": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "eb9161b3-d43b-45e4-beb8-9b068d456dbe",
+      "url": "https://eb9161b3.todayjpop.pages.dev",
+      "created_on": "2026-10-15T23:23:07.011602Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-15T23:23:08.65184Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "48c58d57b15aa775676229465fd13c390ccac620",
+          "commit_message": "Merge chart confirmed-number navigation and reviewed six-number evidence\r\n\r\n차트에서 업체별 공식 확인곡 바로 찾기와 6번호 근거 보강",
+          "commit_dirty": false
+        }
+      }
+    }
+  }
+}

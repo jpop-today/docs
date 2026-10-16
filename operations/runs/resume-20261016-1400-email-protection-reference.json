@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-10-16T10:14:45.197Z",
+  "url": "https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/",
+  "status": 200,
+  "actualExcerpt": "Prevent Cloudflare from obfuscating specific email addresses: Add the following comment in the page HTML code: <!--email_off--> contact@example.com <!--/email_off-->",
+  "scope": "Actual normalNode fetch with inheritedproxy/CA/TLS; public documentation only. No zone mutation, no email send, no claim that build/provider already preserves the markers."
+}

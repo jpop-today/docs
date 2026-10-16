@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261016-1400",
+  "scope": "Actual follow-up source review after failed M1 remote29/2. Root records excerpts of actual agent messages. Earlier six scored evaluations unchanged.",
+  "reviews": [
+    {
+      "reviewer": "/root/resume14_evidence",
+      "readStartedAt": "2026-10-16T10:18:15.611076Z",
+      "readCompletedAt": "2026-10-16T10:18:34.814300Z",
+      "acceptance": "accepted_for_current_source_and_regression_design_only; release_on_hold_until_new_SHA_runtime_evidence",
+      "criterionReasons": {
+        "correctness": "실제29/2실패·10:16:11Z directmailtofalse/CFprotectiontrue/decodertrue를 읽었다. 세source의기존공개anchor만 공식 email_off로 감싸고recipient·report생성식·subject/body·원제/가수/songHref·label·정책본문·CSS를보존한다. 테스트 URL-base/복호화로 숨기지 않는다.",
+        "evidence": "공식10:14:45Z HTTP200의 특정HTML구간제외 설명·스펙구현전계약과source3개·E2E직접mailto/동일recipient/contact/privacy키보드 검사를 대조했다. 빌드/원격성공은 이시점 미검증으로분리한다.",
+        "value": "JS없는 실제사용자의제보·문의·삭제요청 경로를 고치며 전체zone설정/새메일발송이나개인정보처리주장을추가하지않는다.",
+        "maintainability": "의존성/JS우회/주소·ID·storage·zone변경없이 공식마커와직접mailto기대값으로좁게고친다. 기존31구조·실패/기존성공/새SHA게이트·기존6평가/rotation을보존한다."
+      },
+      "requiredChanges": [],
+      "pending": [
+        "newH2/M2",
+        "compiledmarkers",
+        "newCI/preview/production/recovery",
+        "Release/completedreport"
+      ]
+    },
+    {
+      "reviewer": "/root/replacement14_gate",
+      "acceptance": "source_design_and_then_local_compile_markers_accepted; remote_effect_pending",
+      "readEvidence": [
+        "operations/runs/resume-20261016-1400-js-off-report-defect.json",
+        "operations/runs/resume-20261016-1400-email-protection-reference.json",
+        "operations/runs/resume-20261016-1400-contact-fix-local.json",
+        "src/pages/songs/[id].astro",
+        "src/pages/contact.astro",
+        "src/pages/privacy.astro",
+        "e2e/deferred-guide.spec.ts",
+        "dist/build-info.json",
+        "dist/contact/index.html",
+        "dist/privacy/index.html"
+      ],
+      "actualFindings": [
+        "직접mailto·동일recipient·subject/body/안정URL·contact/privacy JSofffocus 기대 유지, decode/base우회 없음",
+        "독립 actualdist H25b178f/production/dirtyfalse와contact/privacy/두사례상세 각marker개폐1쌍·directmailto/보호href없음을읽음",
+        "컴파일마커보존 우려해소; 실제 새CF운영·새CI·Release는pending"
+      ],
+      "requiredChanges": [],
+      "newScoresOrRanking": false
+    }
+  ],
+  "originalPeerReviews": "resume-20261016-1400-reviews.json"
+}

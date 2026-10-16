@@ -25,3 +25,11 @@ CI의 배포 미리보기와 운영 검증은 같은 source의 같은 target dis
 ## 검증과 인계
 
 stale/mixed metadata, 잘못된 SHA/target/digest, 404/redirect/timeout/과대응답, 잘못된 URL과 비밀 로그, 기존 receipt 보존을 자동 검증한다. 실제 명령·SHA·CI·HTTP·복구 결과는 [실행 인계](../operations/runs/resume-20261014-2000.json)와 [하네스 설명](../engineering/deployment-healthcheck-20261014.md)에 남긴다. 이 ADR 작성 자체를 실행 성공으로 사용하지 않는다.
+
+## 2026-10-16 보완 · JavaScript 없는 공개 이메일 링크
+
+Issue30 실제 운영 브라우저에서 JS-off 제보 링크가 보호 href로 바뀌어 사용 불가능한 결함을 발견했다. 공식 Cloudflare `email_off` 범위로 공개 anchor 세 곳만 제외해 직접 mailto를 유지했다. Cloudflare가 이 개폐 주석을 소비해 `/contact/`의 기존 엄격 비교는 BODY_MISMATCH로 실패했다. [실제 변환 분류](../operations/runs/resume-20261016-1400-contact-fix-marker-transform.json)는 동일 normal Node fetch에서 contact/privacy 전체 바이트가 expected의 정확한 paired 주석만 제거했을 때 일치함을 확인했다. [일반 HTTP 이메일](../operations/runs/resume-20261016-1400-contact-fix-production-email-observed.json)은 세 공개 anchor의 원래 전체 raw payload 보존을 확인했다.
+
+새 정규화는 신뢰한 artifact의 정확한 paired email_off mailto anchor에 한해, actual의 동일 원시 주소·query/entity·label·attribute·개수인 직접 mailto에 주석만 복원한다. 그 뒤 전체 바이트 비교와 raw/normalized/expected hash를 유지한다. 다른 주석·본문·스크립트·수신자·query·label·개수 변화를 제거하거나 의미상 동일하게 만들지 않는다. 불완전한 marker 쌍도 허용하지 않는다. 이 범위의 링크가 다시 CF 보호 href로 바뀌면 기존 XOR 복호화로 수용하지 않는다. 같은 identity의 marked/unmarked anchor가 섞여 위치 예산이 모호하면 안전하게 실패한다. 이전 unmarked CF 이메일 계약은 유지한다.
+
+실제 JS-off E2E는 직접 mailto와 원래 곡 subject/body·문의/개인정보의 동일 수신 주소·키보드 초점을 계속 요구한다. 정규화의 성공을 링크 사용성으로 대신하지 않는다. 최초 운영29/2와 후속marker 비교17attempt 실패, 이후 새 SHA 검증을 각각 보존한다. 공식 근거·최종 검증은 [Issue30 스펙](../product/spec.md)과 [실행 기록](../operations/runs/resume-20261016-1400.json)을 따른다.

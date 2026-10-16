@@ -30,4 +30,4 @@
 
 현재 조직 소스는 Astro 정적 앱·관측 카탈로그·기존 URL/storage 호환 UI와 검증 하네스를 포함한다. 별도 Cloudflare 미리보기와 기존 개인 저장소의 jpop.today 운영 전환을 구분한다. 실제 SHA·CI·배포 상태는 [실행 상태](operations/status.md)와 릴리스 기록으로 확인한다.
 
-최근실행: [2026-10-14 일일결과](operations/daily/2026-10-14.md) · [v0.2.1 릴리스](operations/releases/v0.2.1-20261014.md) · [Discord설정/실제송신](operations/discord-setup.md) · [QA재현](engineering/reproduce-daily-qa.md).
+최근실행: [2026-10-16 실제 결과](operations/daily/2026-10-16.md) · [v0.4.4 릴리스](operations/releases/v0.4.4-20261016.md) · [현재 AdSense 준비 점검](operations/adsense-readiness-20261016.md) · [실행 상태](operations/status.md).

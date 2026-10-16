@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-16T10:17:57.599584+00:00",
+  "scope": "DirtyM1+contact-onlyfix, not cleanCI/deployed proof",
+  "steps": [
+    {
+      "label": "check",
+      "exitCode": 0
+    },
+    {
+      "label": "build",
+      "exitCode": 0
+    },
+    {
+      "label": "verify",
+      "exitCode": 0
+    }
+  ],
+  "songPagesWithPairedMarker": 3317,
+  "contactAndPrivacyPairedMarker": true,
+  "typeErrors": 0,
+  "typeWarnings": 0,
+  "typeHints": 0,
+  "templatesExactIgnoringOnlyNewMarkers": true,
+  "rootCommands": [
+    "npm run check",
+    "npm run build JPOP_BUILD_TARGET=preview",
+    "npm run verify:dist",
+    "all3317songHTML markers/paired contact privacy markers",
+    "baseM1 templates bytecompare after only3markerpair removal"
+  ],
+  "previewBrowser": 31,
+  "previewResult": "31 passed (1.1m)",
+  "previewScope": "M1+followup dirtylocal, expanded direct mailto/recipient/privacy keyboard regressions",
+  "productionBrowser": 31,
+  "productionResult": "31 passed (1.0m)",
+  "productionSourceSha": "25b178ffbd8916413c482b8fc9066b61d09b5e62",
+  "productionScope": "clean H2 local production, not remote canonical behavior",
+  "rootViewedScreenshots": [
+    "engineering/design/contact-fix-20261016-guide-deferred-samfree-detail-mobile.png",
+    "engineering/design/contact-fix-20261016-guide-deferred-ado-detail-mobile.png"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "Same normalNodefetchproxy/CA request path as strict verifier; exact whole bytes after only trusted expected paired email marker removal. No HTML/email/payload values retained.",
+  "rows": [
+    {
+      "checkedAt": "2026-10-16T10:29:58.083Z",
+      "route": "/contact/",
+      "status": 200,
+      "expectedPairedExactEmailRegions": 1,
+      "actualHasEmailOffMarker": false,
+      "exactAfterOnlyRemovingExpectedPairedRegionMarkers": true,
+      "expectedBytes": 3059,
+      "actualBytes": 3026,
+      "actualSha256": "a6438f57baa6c0f442eac3dcf2f8d41178743735a66e6c281a5b7e9a2b7a47c5",
+      "expectedSha256": "1360eb2872d0683bc57047e9db55ae5398f6b03a520513c18c80b1ab8e2ca45d"
+    },
+    {
+      "checkedAt": "2026-10-16T10:29:58.422Z",
+      "route": "/privacy/",
+      "status": 200,
+      "expectedPairedExactEmailRegions": 1,
+      "actualHasEmailOffMarker": false,
+      "exactAfterOnlyRemovingExpectedPairedRegionMarkers": true,
+      "expectedBytes": 5359,
+      "actualBytes": 5326,
+      "actualSha256": "bcc03fd15d5109109133f24eab63b2171a882ad1125c4feb302b19a0544db50c",
+      "expectedSha256": "b05d3ef7d0e6caf7a6fdce8caf5ab51eae87b0ff699f73fe00b97cd0ef53fa51"
+    }
+  ]
+}

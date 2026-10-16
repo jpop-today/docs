@@ -92,3 +92,23 @@ DATA-001/CONTENT-001/SEO-001/DESIGN-001: 동결차트11~14위현재playlist4ID�
 DATA-001/CONTENT-001/SEO-001/DESIGN-001: 동결차트15~18위현재playlist4ID의관측TJ/KY8번호는metadata-only실제공식조회/원문제목·가수·버전대조에서근거가확보된것만기존71ledger끝에추가한다.원71전체/순서·staging/chart/3317ID/URL/storage/unknown과실패lastgood를보존하고실패/불명은confirm하지않는다.
 
 `/chart/`의100곡/원래순위/동결기간·수집시각·요청기간경계를유지한다.업체별공식확인곡수와순위순바로가기는기존confirmedNumbers의current/playlist·provider-confirmed·conflictfalse·공식numericURL/실제근거조건에서고유ID로계산한다.전체는합집합이며0은미수록아니다.새안정ID기반anchor로원래차트행/기존상세로이동하고SSR/360pxJSoff/키보드·원래blue→pink/pinkmintblue·광고없음/preview전체noindex를검증한다.관측값으로확인을추정하거나새로운최신차트/권리/Google승인을만들지않는다.독립실자료계산·동결전체재현·같은SHA CI/실제preview/실제복구·운영을수용한다.
+
+## 판단 보류 사례와 곡 상세 연결 · Issue30 (2026-10-16)
+
+CONTENT-001/DATA-001/SONG-001/SEO-001/DESIGN-001: 기존 `/guides/title-artist-variants/` URL과다른5가이드전체본문/확인일을보존한다. 해당글에이전실제공식metadata조회/독립검토의samfree/SAM명의대조보류와Ado逆光의금영생략부제보류를추가한다. 새조회/확인일·명의동일성/음원·권리·심사결과를추정하지않으며기존4출처시각과추가4출처의실제checkedAt를각각보존한다. 이글의편집일만실제재검토일로갱신하고번호조회일과분리한다.
+
+사례→기존2곡상세→업체별공식확인/관측과근거의동선을SSR·360pxJSoff·키보드/44px대상으로검증한다. 기존ledger77·동결자료/3317ID·번호string·URL/storage·unknown/미수록·실패lastgood·원래gradient를보존하며공식검색의성공을번호확정으로표현하지않는다. preview전체noindex/무광고·production본문/색인·같은SHA CI/preview/실제복구·운영을수용한다.
+
+ADS-001 준비점검은실제공식정책/운영증거와계정·권리/문의실수신·법적동의unknown을분리한다. 임의페이지수·전체번호확정·버전1.0·Actions자동배포binding을Google심사필수조건으로만들지않는다. 실제계정의소유권/신청/검토결과없이신청완료/승인을기록하지않는다.
+
+### Issue30 범위 보완 · 운영 분석 안내 불일치
+
+실제운영HTML에서Cloudflare WebAnalytics비콘script를확인했으므로광고없음과분석없음을구분한다. root가추가로 `src/pages/privacy.astro`를단독소유하고공식Cloudflare설명/실제설정·수집미확인범위를대조해'분석스크립트없음'단정을교정한다. 본문이실제운영관측보다넓은cookiefree/개인정보미수집·전체법률준수를주장하지않아야한다. 다른계정/리소스/광고설정은추정변경하지않는다. 실제 `/ads.txt`200/판매자형식1행관측은파일존재와계정일치/소유권·승인증거를구분하며값을생성/로그/교체하지않는다.
+
+### Issue30 운영 브라우저 실패 후 보완 · JavaScript 없는 문의
+
+2026-10-16T10:12:34Z 실제 production 검사38885429674에서29통과/2실패했다. Cloudflare가 곡 제보 mailto를 `/cdn-cgi/l/email-protection#…`로 바꾸어 JS 없는 화면의 직접 제보 링크가 작동하지 않는 실제 제품 결함이다. 로컬31·preview31·운영엄격27 성공으로 이를 대신하지 않는다. 공식 Cloudflare 이메일 난독화 문서(10:14:45Z 실제200)의 특정 HTML `email_off` 범위 제외 방법으로 공개 문의 링크만 보호한다. zone 전체 설정을 변경하지 않는다. 공개되어 있던 동일주소·곡 제목/가수/안정URL·subject/body를 유지하며 JSoff 키보드 제보/문의 링크의 직접 mailto를 실제 새 SHA preview/운영에서 검증한다. root는 Git/공용 하네스·릴리스 통합, 앱담당은 사전배정한 좁은 템플릿 범위, evidence/교체감사는 추가 읽기로 수용한다. v0.4.4 tag/Release는 이 실패 해결·동일 새 SHA CI/preview/운영/실제복구 전 발행하지 않는다.
+
+### Issue30 엄격 비교 보완 · 처리된 이메일 범위 주석
+
+최종후보 M20de2bd 운영에서 공개3직접mailto/원래전체payload 보존과보호href없음을실제확인했지만, Cloudflare는email_off개폐주석을제거했다. 기존verifier는contact의BODY_MISMATCH를17attempt/총60초실패로보존했다. root만 `scripts/verify-deployment.mjs`와 `tests/deployment-healthcheck.test.mjs`를보완한다. 신뢰한expectedartifact에정확한paired email_off로둘러싸인mailtoanchor가있고 actual의동일raw주소·query/entity·label·attribute·개수가맞는경우에만그쌍을복원해전체바이트를대조한다. 임의주석/추가script/다른본문·누락/중복·수신자/제목/본문/label변화는허용하지않는다. 이명시적JSoff직접메일범위의anchor가다시CF보호href로변하면기존복호화정규화로수용하지않고거부한다. 기존unmarked이메일보호계약은계속지원한다. 기존실패를덮지않고새SHA CI/preview/운영/복구를다시검증하며E2E직접mailto요구를유지한다.

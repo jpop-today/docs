@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261016-1400",
+  "scope": "Actual read-only follow-up source reviews for verifier-only root change. Manager excerpts; no new scores or changes to initial six peer reviews.",
+  "reviews": [
+    {
+      "reviewer": "/root/resume14_evidence",
+      "readStartedAt": "2026-10-16T10:32:32.683463Z",
+      "readCompletedAt": "2026-10-16T10:33:19.303061Z",
+      "acceptance": "accepted_for_current_verifier_source_and_synthetic_regression_design; new_H3_M3_execution_and_release_pending",
+      "criterionReasons": {
+        "correctness": "normalizeCFEmailHTML과 matchBytes 직접읽음. trustedexpected의정확pairedemail_off+직접mailto를별도excluded예산에두고동일rawanchor만복원한뒤전체Buffer.equals를요구한다. markedexpected의CFdecode재수용과marked/unmarked동일identity모호함을거부하고unmarked기존계약은유지한다.",
+        "evidence": "공식reference의특정범위지원·actualmarker-transform두응답의33bytes제거후전체일치·3directmailtorawpayload보존·strict실패를구분한다. 추가4testgroup의정확복원/혼합호환·거부경계/영수증hash·비노출설계를읽었으며본인이실행한것으로주장하지않는다.",
+        "value": "CDN제어주석소비의거짓본문불일치만해결하고실제메일payload변조/JSoff보호href회귀는계속실패시킨다. E2E직접mailto/subject-body/같은recipient/키보드요구를유지한다.",
+        "maintainability": "root소유verifier/기존합성하네스에한정하고trustedexpected·정확occurrence budget·전체bytes비교와비밀없는영수증을보존한다. 실제실패/구현전스펙/새SHA재검증경계를남긴다."
+      },
+      "requiredChanges": [],
+      "recordingClarification": "M2firstHTTP is repeated contact BODY_MISMATCH, then final DEADLINE_EXCEEDED on attempt17 build-info at60005ms; do not mislabel finalcode as BODY_MISMATCH.",
+      "pending": [
+        "H3/M3CI and artifact",
+        "actualnewSHApreview/production/recovery",
+        "Release/completedreport"
+      ]
+    },
+    {
+      "reviewer": "/root/replacement14_gate",
+      "acceptance": "accepted_source_logic_and_four_regression_group_design; execution_and_finalSHA_pending",
+      "criterionReasons": {
+        "correctness": "103–179/341–355 독립읽음. 정확한expectedpaired/rawmailto 별도예산, identity모호함failclosed, markedanchor의재CF보호consume거부, 실제정확anchor개수만주석복원, 마지막actual.equals 유지.",
+        "evidence": "추가tests530–611의성공/mixedunmarked호환·재보호/모호함거부·영수증비노출·변조/중복/partialmarker거부를읽었다. 본인실행/새M3성공은주장하지않는다.",
+        "value": "직접JSoff링크가정상이어야한다는계약을낮추지않고관측된제어주석변환만검증가능하게구분한다.",
+        "maintainability": "payload/query/entity/label/attrs/extraHTMLscript는의미상정규화하지않고raw/normalizedhash만유지한다. M2실패17attempt와actualdirect3수용을감사에분리한다."
+      },
+      "requiredChanges": [],
+      "pending": [
+        "newCI/deploy/remote/recovery/Release"
+      ]
+    }
+  ],
+  "originalPeerReviews": "resume-20261016-1400-reviews.json"
+}

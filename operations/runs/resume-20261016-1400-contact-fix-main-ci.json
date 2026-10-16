@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-16T10:25:30.930Z",
+  "sourceSha": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+  "appRun": 38886849822,
+  "contractsRun": 38886849872,
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 116926565611,
+      "name": "app",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-16T10:23:16.9270815Z ℹ tests 314",
+        "2026-10-16T10:23:16.9271245Z ℹ pass 314",
+        "2026-10-16T10:23:16.9271447Z ℹ fail 0",
+        "2026-10-16T10:23:16.9271881Z ℹ skipped 0",
+        "2026-10-16T10:23:24.0404020Z - 0 errors",
+        "2026-10-16T10:23:24.0404448Z - 0 warnings",
+        "2026-10-16T10:23:24.0404817Z - 0 hints",
+        "2026-10-16T10:23:30.8016511Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 20de2bd985c994c8e92ffde40a35df55173a9af0",
+        "2026-10-16T10:24:35.4686677Z   31 passed (42.4s)"
+      ]
+    },
+    {
+      "id": 116926566123,
+      "name": "production-artifact",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-16T10:23:17.7272837Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source 20de2bd985c994c8e92ffde40a35df55173a9af0",
+        "2026-10-16T10:24:18.3709792Z   31 passed (40.9s)"
+      ]
+    }
+  ]
+}

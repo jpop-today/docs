@@ -1,0 +1,33 @@
+{
+  "recordedAt": "2026-10-16T05:10:20.347977+00:00",
+  "failures": [
+    {
+      "stage": "baseline-firstHTTP",
+      "result": "TRANSPORT_OR_PARSE_ERROR before metadataHTTPStatus; preserved actual observation",
+      "resolution": "Same strictNodeverifier27/1PASS on boundedretry; rootcauseunknown",
+      "evidence": "resume-20261016-1400-baseline-first-http.json"
+    },
+    {
+      "stage": "root4321preflight",
+      "result": "Default sandbox Python socket PermissionError/EPERM before connection; not a portoccupied result",
+      "resolution": "Reran with available declarednetworkpermission; actual4321listenerfalse"
+    },
+    {
+      "stage": "app-independent-base-read",
+      "result": "Worker Nodechild git read EPERM; no productcodeerror",
+      "resolution": "Worker used shell gitshow then independentdeepEqual PASS; see ownerdocument"
+    },
+    {
+      "stage": "policyHTTP-urllib",
+      "result": "Worker actualjpop.today routes HTTP403 using normalproxyCA",
+      "resolution": "Same worker normalNodehttps.get readHTTP200 with additionalbeacon vs artifact; rootNode strict27andpolicyHTTP200 separate; no bypass or causeclaim"
+    }
+  ],
+  "openPolicyFinding": {
+    "actual": "CloudflareInsights script present in worker ordinaryHTTP; project webAnalytics fields configuredfalse",
+    "problem": "Existingprivacy saysnoanalytics",
+    "rootSourceCorrection": "src/pages/privacy.astro updated locally; policy/body/actualdeployment validation pending",
+    "injectionLayerAndActualPayload": "unknown"
+  },
+  "adsTxt": "ActualHTTP200 textplain59bytes/onevalidGoogleSellerrow; not in frozenartifact/source, accountmatch/injectionlayerunknown; valuesnotlogged"
+}

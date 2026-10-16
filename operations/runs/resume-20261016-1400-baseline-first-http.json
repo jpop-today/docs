@@ -1,0 +1,12 @@
+{
+  "scope": "Actual canonical-domain state using the same Node24 inherited proxy/CA path as existing verifier; strict complete metadata plus ordinary home/sitemap hashes, not a substitute for full verifier",
+  "observations": [
+    {
+      "checkedAt": "2026-10-16T04:58:05.405Z",
+      "expectedSourceSha": "48c58d57b15aa775676229465fd13c390ccac620",
+      "safeCode": "TRANSPORT_OR_PARSE_ERROR",
+      "allExpected": false
+    }
+  ],
+  "passed": false
+}

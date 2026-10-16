@@ -1,0 +1,50 @@
+{
+  "scope": "Normal Node https.get through inherited proxy/CA/TLS; no beacon execution/ad click; no HTML, settings, publisher values or credentials retained. Does not prove all CDN responses, actual payload, legal compliance or account approval.",
+  "rows": [
+    {
+      "checkedAt": "2026-10-16T10:08:55.219Z",
+      "url": "https://jpop.today/privacy/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 5936,
+      "sha256": "5cdd649da1ac34e73adfef2face63ccb246e2b2e5a4b7aa2cdec39b06a24f299",
+      "pinnedSha256": "bcc03fd15d5109109133f24eab63b2171a882ad1125c4feb302b19a0544db50c",
+      "exactPinned": false,
+      "hasCurrentAnalyticsDisclosure": true,
+      "hasOldNoAnalyticsClaim": false,
+      "hasCurrentNoGoogleAdCodeDisclosure": true,
+      "hasEffectiveDate": true,
+      "hasOfficialCFDataLink": true,
+      "hasAnalyticsBeacon": true,
+      "hasGoogleAdRequestScript": false
+    },
+    {
+      "checkedAt": "2026-10-16T10:08:57.784Z",
+      "url": "https://jpop.today/guides/title-artist-variants/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 17201,
+      "sha256": "d3c72b6be5b405253ffc00f20b168b8ae5be684e7b76ad7541b90abf9427e0aa",
+      "pinnedSha256": "4bc575618300472e05d3f724526309f9ae4d6ffb2226dd3ca08409543ce40009",
+      "exactPinned": false,
+      "stableCaseCount": 2,
+      "hasSamfree": true,
+      "hasSam": true,
+      "hasAdoTruncated": true,
+      "hasUnknownDistinction": true,
+      "hasOriginalSamfreeCheckedAt": true,
+      "hasOriginalAdoCheckedAt": true
+    },
+    {
+      "checkedAt": "2026-10-16T10:09:00.174Z",
+      "url": "https://jpop.today/ads.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "bytes": 59,
+      "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+      "isHTML": false,
+      "googleSellerRows": 1,
+      "accountMatch": "unknown"
+    }
+  ]
+}

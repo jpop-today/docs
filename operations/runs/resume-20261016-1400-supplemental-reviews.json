@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261016-1400",
+  "scope": "Root records factual excerpts from actual read-only follow-up messages; original six scored peerReviews are unchanged. These two accept local/CI/preview only; production/recovery/release acceptance still pending at their read times.",
+  "reviews": [
+    {
+      "reviewer": "/root/resume14_evidence",
+      "candidate": "/root/replacement14_gate",
+      "readStartedAt": "2026-10-16T10:08:32.118821Z",
+      "readCompletedAt": "2026-10-16T10:09:29.492169Z",
+      "acceptance": "accepted_for_source_clean_local_CI_and_actual_preview_scope; production_release_gate_pending",
+      "criterionReasons": {
+        "correctness": "감사 전체와 실제6평가·rotation을 대조했다. 각40/항목10 완전동률과 사전quality/evidence/app·completed interrupt·동일replacement 사용량중단/재개를 구분한다. 이전4판단/ledger77·staging/chart/identity hash·TJ2confirm/KY2defer·과거시각·clean 두targetprivacy/guide를 대조했다.",
+        "evidence": "sameM app314/type0/preview31·production31, 각3347files 전체로컬일치·dirtyfalse·preview49393954 clean배포/strict27/1·실제remote31/48.6s를 읽었다. PR syntheticc860과 pushH74ee를 구분하며 새HTTP/테스트/CIarchive 비교를 주장하지 않는다.",
+        "value": "과거자료/편집일·조회성공/곡확정·dirty/cleanCI·preview/운영을 구분하고 실제통계태그/개인정보교정·ads.txt계정unknown과 후속본문/복구/Release증거를 드러낸다.",
+        "maintainability": "하나의 감사에 정확한source/deployment/job·근거파일과 실패/usage중단/pending을 보존하며 전체CIarchive·권리/계정/문의/analytics unknown을 명시한다."
+      },
+      "requiredChanges": [],
+      "nonBlockingFollowups": [
+        "최종 run 요약의 remotePreview상태를 최신completed 영수증으로 갱신; root는이미갱신했다."
+      ],
+      "pending": [
+        "new production/API/strict27/ordinarycopy",
+        "actualrollback/restore",
+        "remoteproduction31",
+        "Release/completedDiscord/finaldocs"
+      ],
+      "newScoresOrRanking": false
+    },
+    {
+      "reviewer": "/root/resume14_app",
+      "candidate": "/root/replacement14_gate",
+      "readStartedAt": "2026-10-16T10:08:51Z",
+      "readCompletedAt": "2026-10-16T10:10:07Z",
+      "acceptance": "accepted_with_release_gates_pending",
+      "criterionReasons": {
+        "correctness": "수용. clean M의 실제 가이드 HTML·catalog에서 TJ27031/68868 공식 확인과 KY43185/76509 관측·evidence/correction null을 읽었다. 기존4+추가4 checkedAt와 편집일이 구분되며 SAM 동일명의·생략부제·음원동일성·미수록을 추정하지 않는다. 개인정보 교정도 분석 코드 존재와 가능한 지표를 설명하고 전체 쿠키/개인정보 미사용을 보장하지 않는다.",
+        "evidence": "수용. main CI 영수증의 같은 M·314 pass/type0·preview31/production31, 두 target별3347files 전체 로컬 반복 일치와 CI archive 미비교 구분을 확인했다. 실제 preview49393954의 clean M 배포, 별도 strict27/1 PASS, 원격 run38884926232/job116920245001의31 passed(48.6s)를 읽었다. clean 두 target의 guide/privacy 실제 파일 크기·해시도 감사서와 일치했다. 기존 운영 M48c의 재확인을 새 M 운영 검증으로 올리지 않았다.",
+        "value": "수용. 실제 보류 이유와 상세 상태를 연결해 사용자가 번호 조회 성공을 곡 연결 확정으로 오해할 가능성을 줄인다. 운영 분석 안내의 부정확한 문구 교정을 포함하며, 정책·계정 unknown과 독립 개발 가능 범위를 구분한다. 감사서는 실제 배포·복구의 남은 게이트를 구체적으로 제시한다.",
+        "maintainability": "수용. 단일 감사 문서에서 소유권·SHA·실행주체·dirty/clean·로컬/CI/preview/운영을 구분한다. 실패·사용량 중단·같은 worker 재개와 기존 결과를 보존한다. 실제6평가의 완전 동률 및 사전 quality/evidence/app 순서에 따른 교체를 확인했으며 낮은 품질이나 물리 삭제로 설명하지 않는다."
+      },
+      "requiredChanges": [],
+      "pending": [
+        "new production/API/strict27/ordinarycopy",
+        "actualrollback/restore",
+        "remoteproduction31",
+        "Release/completedDiscord/finaldocs"
+      ],
+      "newScoresOrRanking": false
+    }
+  ],
+  "evidence": [
+    "operations/production-content-gate-v044-20261016.md",
+    "operations/runs/resume-20261016-1400-reviews.json",
+    "operations/runs/resume-20261016-1400-main-ci.json",
+    "operations/runs/resume-20261016-1400-reproducibility.json",
+    "operations/runs/resume-20261016-1400-preview-http.json",
+    "operations/runs/resume-20261016-1400-remote-preview.json"
+  ]
+}

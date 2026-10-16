@@ -1,0 +1,66 @@
+{
+  "copiedAt": "2026-10-16T05:13:06.825044+00:00",
+  "originalJSONSha256": "53d339c64a2acf300b4a0ef444c67a0c5dc1b07af9b811b7ed82cc5271721a04",
+  "screenshots": [
+    {
+      "original": "/tmp/jpop-resume14-app-preview-1440x1100-top.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-1440x1100-top.png",
+      "sha256": "2bfb580f567c8aaec2c4abbd2bbbd3756147f9450f62fa1f0a5edd1f3ff2755b"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-1440x1100-samfree-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-1440x1100-samfree-link.png",
+      "sha256": "66d0dbe4f609abfc8b576b30cd932790abaaf01d891d6b5a174ab327f522fd59"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-1440x1100-ado-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-1440x1100-ado-link.png",
+      "sha256": "92c150be03fb2f94442cf7460fa46d611a41ac7e97095749ae5142bfe54e2e74"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-768x1024-top.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-768x1024-top.png",
+      "sha256": "daccbf4faf49bfbdee1b36045b785dde20f07fb0f35e494e8b0033d39690beeb"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-768x1024-samfree-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-768x1024-samfree-link.png",
+      "sha256": "6faa2dab16e905f55a4dc0f50b5b4eb0c3b29b667e456285574d7575305e0456"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-768x1024-ado-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-768x1024-ado-link.png",
+      "sha256": "d64b7f67411a496a7691ccfa1df284fd7cf6f81dc1ca1339eb176f11d4d0d2c4"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-360x800-top.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-360x800-top.png",
+      "sha256": "3ff4d18f47e592dbc3996a8953e6f680e8b075f498f9179682cc05bf0ec9f9c8"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-360x800-samfree-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-360x800-samfree-link.png",
+      "sha256": "e784a8749efb8d7162875ffbd568f568e9abc17c64289e8a1f1aff8e9802b00e"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-360x800-ado-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-360x800-ado-link.png",
+      "sha256": "d6dbfb2db6a7b0033fc719d841b8ec01cb75ee4842cd98b2f4e2d88d20ec01b1"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-360x320-top.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-360x320-top.png",
+      "sha256": "e79b4dec1957030b22d41438b1076ea90becaa43417de4086e7b8d67d07fb091"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-360x320-samfree-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-360x320-samfree-link.png",
+      "sha256": "dad36c7e32d11cbf4ecdc0f60d4fcefe82d9fe23ecab43bc83ae822dbcac2a30"
+    },
+    {
+      "original": "/tmp/jpop-resume14-app-preview-360x320-ado-link.png",
+      "saved": "engineering/design/deferred-guide-20261016-1400-360x320-ado-link.png",
+      "sha256": "b1ab664ecb64afd30cfc4e9bed398f53155d8e540df972e2bbccf06bc26948ba"
+    }
+  ]
+}

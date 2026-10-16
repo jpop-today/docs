@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-16T10:22:26.281225+00:00",
+  "scope": "Actual dirtylocal preview JSoff360 screenshots from expanded31test run; before directmailto assertions, no claim of remoteCF effect",
+  "files": [
+    {
+      "file": "engineering/design/contact-fix-20261016-guide-deferred-samfree-detail-mobile.png",
+      "bytes": 164665,
+      "sha256": "3b5a5c5614f7dcda82e1df9a5643b1ea7ce44fe1c2b639f65406e4df3ddd2dd6"
+    },
+    {
+      "file": "engineering/design/contact-fix-20261016-guide-deferred-ado-detail-mobile.png",
+      "bytes": 157535,
+      "sha256": "193308c8e4e4cf00d1180d03e6f5fd739846563378396248875b32f0b0e3180c"
+    }
+  ]
+}

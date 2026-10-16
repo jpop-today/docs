@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "sourceSha": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+  "startedAt": "2026-10-16T05:24:08.730838+00:00",
+  "targets": [
+    {
+      "target": "preview",
+      "files": 3347,
+      "html": 3336,
+      "completeFileSetEqual": true,
+      "everyFileEqual": true,
+      "metadata": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+        "ledgerSha256": "13bfed1c4382365f9dfdd7b548a8874cc680de196772f0767eaec87a5a6743c3",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": false
+      },
+      "manifestSha256": "ffbce17151de014a730c92e561f307fc8eb1b9c99a31f195f63bc6e11db7f5f8"
+    },
+    {
+      "target": "production",
+      "files": 3347,
+      "html": 3336,
+      "completeFileSetEqual": true,
+      "everyFileEqual": true,
+      "metadata": {
+        "schemaVersion": 2,
+        "target": "production",
+        "sourceSha": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+        "ledgerSha256": "13bfed1c4382365f9dfdd7b548a8874cc680de196772f0767eaec87a5a6743c3",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": false
+      },
+      "manifestSha256": "44afe2b375c6aa453555fe41eed5d1d6a6f71cabcf1168680578a4694b088455"
+    }
+  ],
+  "scope": "Two clean frozen local builds pertarget; fullpathset/everyfileSHA compared. Full CIarchive comparison notperformed.",
+  "finishedAt": "2026-10-16T05:24:40.028286+00:00"
+}

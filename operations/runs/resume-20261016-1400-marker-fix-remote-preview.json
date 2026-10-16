@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-16T10:40:25.998Z",
+  "run": 38888585713,
+  "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://c06ff6d6.jpoptoday-preview.pages.dev",
+  "jobs": [
+    {
+      "id": 116932290836,
+      "conclusion": "success",
+      "lines": [
+        "2026-10-16T10:39:04.5491635Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source f959f3671b8aeb766fd469558634f9680635e58c",
+        "2026-10-16T10:39:06.2989092Z {\"sourceSha\":\"f959f3671b8aeb766fd469558634f9680635e58c\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+        "2026-10-16T10:40:19.0896088Z   31 passed (50.4s)"
+      ]
+    }
+  ]
+}

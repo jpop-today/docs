@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261016-1400",
+  "date": "2026-10-16",
+  "timezone": "Asia/Seoul",
+  "startedAt": "2026-10-16T04:59:33.042995+00:00",
+  "phase": "product_released_closure_docs_report_pending",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/30",
+  "base": {
+    "source": "312c6b687c504cf82090ad26bdd9d829b99a105f",
+    "docs": "4b19570a1dbd4698777aaf461d77999c8ad5bbc6",
+    "organization": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+  },
+  "branch": "codex/30-deferred-guide-20261016",
+  "tieBreakOrder": [
+    "quality",
+    "evidence",
+    "app"
+  ],
+  "rootOnly": [
+    "Git",
+    "package/lockfile",
+    "CI/deploy",
+    "common docs/reports",
+    "src/pages/privacy.astro policyaccuracy correction after actualbeaconfinding"
+  ],
+  "baseline": {
+    "actualCloudflareAPI": "eb9161b3-d43b-45e4-beb8-9b068d456dbe/M48c58d5/false-none",
+    "firstHTTP": "TRANSPORT_OR_PARSE_ERROR; no metadata status received, actualfailed observation preserved in /tmp/jpop-resume14-baseline-http.json",
+    "desktopThreads": "tool reports no longer available on thishost; no distributedlockclaim",
+    "openSourcePR": 0,
+    "sourceDocsCleanBeforeStart": true,
+    "retryHTTP": {
+      "passed": true,
+      "checks": 27,
+      "attempts": 1,
+      "sourceSha": "48c58d57b15aa775676229465fd13c390ccac620",
+      "evidence": "resume-20261016-1400-baseline-http-retry.json",
+      "firstTransportFailurePreserved": true,
+      "rootCause": "not established; bounded retry succeeded with unchanged strict verifier/proxy/CA"
+    }
+  },
+  "environment": {
+    "revision": "331",
+    "current": true,
+    "running": true,
+    "networkPolicy": "unrestricted/stateunknown",
+    "actualGitHubAndCFRead": true,
+    "latest": {
+      "revision": "333",
+      "current": true,
+      "running": true,
+      "networkPolicy": "unrestricted/enforced",
+      "checkedAt": "2026-10-16T05:22:41.241Z"
+    }
+  },
+  "adsense": {
+    "technicalStage": "preparing",
+    "actualAccountApplicationReview": "unknown"
+  },
+  "workers": [
+    {
+      "id": "/root/resume14_evidence",
+      "role": "content-evidence",
+      "files": [
+        "docs/content/guide-review-20261016-1400.md",
+        "docs/operations/adsense-readiness-20261016.md"
+      ]
+    },
+    {
+      "id": "/root/resume14_app",
+      "role": "app-design",
+      "files": [
+        "jpoptoday/src/content/guides.ts",
+        "jpoptoday/src/pages/guides/[slug].astro",
+        "docs/engineering/guide-deferred-cases-20261016-1400.md"
+      ]
+    },
+    {
+      "id": "/root/resume14_quality",
+      "role": "harness-quality",
+      "files": [
+        "jpoptoday/e2e/title-artist-guide.spec.ts",
+        "jpoptoday/e2e/deferred-guide.spec.ts",
+        "docs/engineering/guide-deferred-quality-20261016-1400.md"
+      ]
+    }
+  ],
+  "notifications": {
+    "start": {
+      "state": "sent",
+      "run": 38853673237,
+      "sentAt": "2026-10-16T05:02:16.7717682Z",
+      "evidence": "resume-20261016-1400-start-discord.json"
+    },
+    "failureDecision": {
+      "run": 38886447341,
+      "job": 116925248195,
+      "state": "sent",
+      "sentAt": "2026-10-16T10:19:28.4237401Z",
+      "attempts": 1,
+      "evidence": "resume-20261016-1400-failure-discord.json"
+    },
+    "release": {
+      "state": "sent",
+      "sentAt": "2026-10-16T10:59:32.2047361Z",
+      "attempts": 1,
+      "workflowRun": 38890640129,
+      "scope": "Explicit release sender; completed manager report separate"
+    }
+  },
+  "workersActuallyCreated": true,
+  "updatedAt": "2026-10-16T16:04:08.236118+00:00",
+  "localBeforePrivacy": {
+    "unit": 314,
+    "failed": 0,
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "scope": "Before rootprivacyaddition; finalbuild/check follows"
+  },
+  "local": {
+    "unit": 314,
+    "unitFailed": 0,
+    "unitSkipped": 0,
+    "unitDurationMs": 8449.292416,
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "typeHints": 0,
+    "previewBrowser": 31,
+    "previewDurationDisplay": "1.1m",
+    "productionBrowser": 31,
+    "productionBrowserSeconds": 57.7,
+    "scope": "Dirty local sourcebase312c plus frozenchanges; no remoteCI/deployment claim",
+    "previewFiles": 3347,
+    "previewHTML": 3336,
+    "previewIndex": 0,
+    "productionFiles": 3347,
+    "productionHTML": 3336,
+    "productionIndex": 45,
+    "uiViewports": [
+      "1440x1100",
+      "768x1024",
+      "360x800 JSoff",
+      "360x320 JSoff"
+    ],
+    "uiScreenshots": 12,
+    "uiJSON": "resume-20261016-1400-ui-qa.json",
+    "rootViewed": [
+      "360x800 samfree-link",
+      "360x320 ado-link"
+    ],
+    "privacySourceCorrection": "rootupdated and evidenceworker read accepted; actualnewproduction pending",
+    "frozenBytesUnchanged": [
+      "ledger77",
+      "staging",
+      "chart",
+      "identity",
+      "helper",
+      "globalCSS"
+    ],
+    "otherFiveGuidesEntireObjectsAndOldFourSourcesExact": true
+  },
+  "reviewState": "six_actual_read_validated_all_tied",
+  "evaluation": {
+    "checkedAt": "2026-10-16T05:22:41.241Z",
+    "readActualReviews": 6,
+    "readCriteria": 24,
+    "localUnit": 314,
+    "typeErrors": 0,
+    "localPreviewBrowser": 31,
+    "localProductionBrowser": 31,
+    "actualScreenshotsViewed": [
+      "360x800 samfree-link",
+      "360x320 ado-link"
+    ],
+    "evaluation": {
+      "totals": {
+        "/root/resume14_evidence": 40,
+        "/root/resume14_app": 40,
+        "/root/resume14_quality": 40
+      },
+      "lowest": [
+        "/root/resume14_evidence",
+        "/root/resume14_app",
+        "/root/resume14_quality"
+      ],
+      "maximum": 40
+    },
+    "criterionTotals": {
+      "/root/resume14_evidence": {
+        "correctness": 10,
+        "evidence": 10,
+        "value": 10,
+        "maintainability": 10
+      },
+      "/root/resume14_app": {
+        "correctness": 10,
+        "evidence": 10,
+        "value": 10,
+        "maintainability": 10
+      },
+      "/root/resume14_quality": {
+        "correctness": 10,
+        "evidence": 10,
+        "value": 10,
+        "maintainability": 10
+      }
+    },
+    "decision": "All totals40 and all criterion totals10 are tied. Predeclared quality/evidence/app rotation selects quality; no lower-quality claim.",
+    "retire": "/root/resume14_quality",
+    "physicalDeletionSupported": false,
+    "replacementStatus": "actually_spawned"
+  },
+  "rotation": {
+    "checkedAt": "2026-10-16T05:23:25.263756+00:00",
+    "reason": "complete tie40/40; fourcriteria10each; predeclared quality/evidence/app",
+    "retired": "/root/resume14_quality",
+    "interruptPreviousStatus": "completed",
+    "physicallyDeleted": false,
+    "replacement": "/root/replacement14_gate",
+    "activeRoster": [
+      "/root/resume14_evidence",
+      "/root/resume14_app",
+      "/root/replacement14_gate"
+    ],
+    "scope": "docs/operations/production-content-gate-v044-20261016.md",
+    "replacementStatus": "same recorded ID resumed after usage limit; audit in progress",
+    "replacementAudit": "operations/production-content-gate-v044-20261016.md",
+    "initialSupplementalAcceptances": "resume-20261016-1400-supplemental-reviews.json"
+  },
+  "productPR": {
+    "number": 31,
+    "head": "74ee5f1db6831cb0f66d148be25ffef42dab72b8",
+    "merged": true,
+    "mergeSha": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6"
+  },
+  "localFailuresContinued": [
+    {
+      "stage": "root peer supplemental validator",
+      "code": "TypeError reading optional requiredChanges; workerapp uses acceptance.requiredFixes, actualreviews unmodified; rootvalidatorcorrected andPASS"
+    },
+    {
+      "stage": "root git pull default sandbox",
+      "code": "proxy port8080 connection denied before Gitnetwork; unchangednormalproxy withadditionalnetworkpermission actualffpull success"
+    }
+  ],
+  "resumption": {
+    "checkedAt": "2026-10-16T10:04:47.001779+00:00",
+    "reason": "Explicit resume requests coalesced with same interrupted Issue30; no newinitialteam. Runtime354/current/enforced and actualrepo/API rechecked.",
+    "source": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+    "docs": "4b19570a1dbd4698777aaf461d77999c8ad5bbc6",
+    "productionStill": "eb9161b3/48c58d5/false-none",
+    "replacementFirstTurn": "usage_limit_error, no completed artifact",
+    "replacementSameIdFollowup": "actually resumed and acknowledged; no new worker ID",
+    "backgroundDevelopmentClaimed": false
+  },
+  "cleanMergeVerification": {
+    "sourceSha": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+    "mainCI": "resume-20261016-1400-main-ci.json",
+    "reproducibility": "resume-20261016-1400-reproducibility.json",
+    "sameMAppBrowsers": [
+      31,
+      31
+    ],
+    "previewId": "49393954-5169-429d-863d-69df9f67439f",
+    "previewHTTP": "27checks/1attempt PASS",
+    "remotePreview": {
+      "run": 38884926232,
+      "state": "success",
+      "actualBrowser": 31,
+      "seconds": 48.6,
+      "httpAttempts": 1
+    },
+    "production": {
+      "deploymentId": "82b1b848-5d5f-4892-a15c-0a8a5265dff0",
+      "createdAt": "2026-10-16T10:08:06.337032Z",
+      "sourceSha": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+      "firstHTTP": "27checks/1attempt PASS",
+      "ordinaryPolicyHTTP": "privacy+guide+adstxt200/newcopyobserved; ordinarybytesdiffer/pinned separate",
+      "evidence": "resume-20261016-1400-production-policy-observed.json",
+      "actualRecovery": {
+        "old": "48c58d5/eb9161b3",
+        "new": "86090cf/82b1b848",
+        "oldHTTP": "27/1PASS",
+        "newHTTP": "27/1PASS",
+        "summary": "resume-20261016-1400-recovery-node-summary.json",
+        "attemptsThisRun": 1
+      },
+      "remoteRun": 38885429674,
+      "remoteState": "failure",
+      "remoteBrowser": {
+        "passed": 29,
+        "failed": 2
+      }
+    }
+  },
+  "automation": "resume-20261016-1400-automations.json",
+  "followup": {
+    "baseSourceSha": "86090cf8ac9fca79ebe1d890c8f1bb3c592f1aa6",
+    "branch": "codex/30-js-off-contact-20261016",
+    "reason": "Actual production JSoff report links obstructed by email-protection transformation; release held until actualnewSHA gates pass.",
+    "appScope": [
+      "src/pages/songs/[id].astro",
+      "src/pages/contact.astro",
+      "src/pages/privacy.astro emailanchoronly",
+      "src/components/ContactEmail.astro ifneeded",
+      "docs/engineering/guide-deferred-cases-20261016-1400.md followupsection"
+    ],
+    "rootScope": [
+      "e2e/deferred-guide.spec.ts",
+      "Git/CI/release/deploy/commonreports"
+    ],
+    "browserPath": "Browser/control-browser skill read, available/deferredtoolscan found0browser/jsCUA tools. Userexplicitlypermits existing nonBrowserharness; normalPlaywright/systemChromium fallback. No install/TLSbypass.",
+    "targetFlow": "guide case -> exact song -> JSoff keyboard report mailto with original subject/body; contact andprivacy usable direct email links",
+    "head": "25b178ffbd8916413c482b8fc9066b61d09b5e62",
+    "localPreviewBrowser": 31,
+    "localMarkerSongPages": 3317,
+    "localTypeErrors": 0,
+    "productionLocal": "31 PASS (1.0m), cleanH25b178f",
+    "pr": {
+      "number": 32,
+      "url": "https://github.com/jpop-today/jpoptoday/pull/32",
+      "head": "25b178ffbd8916413c482b8fc9066b61d09b5e62",
+      "merged": true,
+      "mergeSha": "20de2bd985c994c8e92ffde40a35df55173a9af0"
+    },
+    "nativeArtifactAttachment": "Called for PR32; host result not returned after bounded wait; cell terminated, attachment unconfirmed. Ordinary GitHub PR URL verified.",
+    "H2CI": "4 actualsuccess; exactpush314/type0/31+31",
+    "sourceReviews": "resume-20261016-1400-contact-fix-source-reviews.json",
+    "finalM2Gates": "in_progress",
+    "finalMainCI": {
+      "app": 38886849822,
+      "contracts": 38886849872,
+      "conclusion": "success",
+      "unit": 314,
+      "typeErrors": 0,
+      "previewBrowser": 31,
+      "productionBrowser": 31
+    },
+    "finalPreview": {
+      "deploymentId": "914d714a-daf7-43c4-8c1b-7805b022944b",
+      "url": "https://914d714a.jpoptoday-preview.pages.dev",
+      "strict27": true,
+      "attempts": 1,
+      "remoteRun": 38887088270,
+      "remoteState": "success",
+      "remoteBrowser": 31,
+      "remoteSeconds": 49.3
+    },
+    "M2Production": {
+      "deploymentId": "3711936b-e75d-42f9-9e52-af9e2d312f55",
+      "sourceSha": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+      "ordinaryDirectMailto3PayloadsPreserved": true,
+      "strictFirstHTTP": "BODY_MISMATCH/contact17attempts/60sdeadline failure",
+      "actualMarkerTransformation": "contact/privacy wholebytes equal after only33bytepairedmarkersremoved"
+    }
+  },
+  "markerFollowup": {
+    "baseSource": "20de2bd985c994c8e92ffde40a35df55173a9af0",
+    "branch": "codex/30-email-marker-verification-20261016",
+    "rootFiles": [
+      "scripts/verify-deployment.mjs",
+      "tests/deployment-healthcheck.test.mjs"
+    ],
+    "targetedTests": 76,
+    "targetedFailed": 0,
+    "fullUnit": "actual318 passed/0failed",
+    "directJSoffE2EContractChanged": false,
+    "newInitialWorkers": 0,
+    "head": "bec6d04a264f9464002240d6bf19ad24d35965a7",
+    "pr": 33,
+    "unit": 318,
+    "unitFailed": 0,
+    "localActualM2HTTP": "27/1PASS using updatedverifier, not newdeployedSHA",
+    "nativeAttachment": "Called PR33, 5second bounded unconfirmed; subsequentcellterminated, no attachedclaim",
+    "merged": true,
+    "mergeSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "H3CI": "4actualsuccess/exactpush318/type0/31+31",
+    "sourceReviews": "resume-20261016-1400-marker-fix-source-reviews.json",
+    "mainCI": "actual318/type0/31+31 app38888357099/contracts38888357160 success",
+    "reproducibility": "marker-fix-reproducibility.json both3347fullpath/hash2builds",
+    "preview": {
+      "id": "c06ff6d6-9c19-4751-8cd6-d8c5be39507e",
+      "url": "https://c06ff6d6.jpoptoday-preview.pages.dev",
+      "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+      "state": "verified",
+      "strict": "27/1PASS",
+      "remoteRun": 38888585713,
+      "remoteBrowser": 31,
+      "remoteSeconds": 50.4
+    },
+    "production": {
+      "id": "b91efaaa-b971-442b-b520-1505968ef532",
+      "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+      "firstHTTP": {
+        "passed": true,
+        "checks": 27,
+        "attempts": 2,
+        "firstFailureCode": "REQUEST_TIMEOUT"
+      },
+      "directMailtoOriginalPayloads3": true,
+      "recovery": {
+        "passed": true,
+        "oldHTTPChecks": 27,
+        "oldAttempts": 1,
+        "newHTTPChecks": 27,
+        "newAttempts": 1,
+        "receipt": "resume-20261016-1400-marker-fix-recovery-node-summary.json",
+        "scope": "First for finalM3, second controlled recovery in overallIssue30; M1 earlier separately preserved"
+      },
+      "remoteProduction": "actual sameM success",
+      "remoteRun": 38889097513,
+      "finalActualAPIExpected": "b91efaaa/Mf959f36 after actualrestore",
+      "remoteBrowser": 31
+    }
+  },
+  "lastObserved": "2026-10-16T10:46:36.033254+00:00",
+  "tagAction": "actual annotated1503836a→M3 and v044 Release414863520 verified after pause",
+  "resumptions": [
+    {
+      "checkedAt": "2026-10-16T16:02:27.646094+00:00",
+      "KSTDate": "2026-10-17",
+      "sameRun": true,
+      "newInitialWorkers": 0,
+      "environmentRevision": "372/current/running/enforced/bindingsready",
+      "source": "f959f3671b8aeb766fd469558634f9680635e58c",
+      "docs": "4b19570a1dbd4698777aaf461d77999c8ad5bbc6",
+      "productionActualAPI": "b91efaaa/Mf959/false-none",
+      "releaseAlreadyPublishedAt": "2026-10-16T10:59:31Z",
+      "continuationScope": "Only unfinished documentation/report/delivery closure; do not redeploy/release again or claim AI worked during usage pause"
+    }
+  ],
+  "release": {
+    "version": "0.4.4",
+    "tag": "v0.4.4",
+    "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "annotatedTagSha": "1503836a52b93fab3aa3ed78883828ff44a5027e",
+    "tagTargetType": "commit",
+    "tagTargetSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "releaseId": 414863520,
+    "publishedAt": "2026-10-16T10:59:31Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.4",
+    "workflowRun": 38890640129,
+    "state": "published",
+    "verifiedAt": "2026-10-16T16:02:15.604Z",
+    "scope": "Actual Release/ref/annotatedtag and safe selected workflow logs read after interrupted run; publishing by existing Actions is not uninterrupted AI work.",
+    "notification": {
+      "state": "sent",
+      "sentAt": "2026-10-16T10:59:32.2047361Z",
+      "attempts": 1,
+      "workflowRun": 38890640129,
+      "scope": "Explicit release sender; completed manager report separate"
+    },
+    "safeResults": [
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:57:48.8791278Z Reviewed release identity verified v0.4.4"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:02.6585743Z ℹ tests 318"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:02.6586593Z ℹ pass 318"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:02.6587009Z ℹ fail 0"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:09.9490155Z - 0 errors"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:09.9490609Z - 0 warnings"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:09.9491021Z - 0 hints"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:59:18.5146894Z   31 passed (40.2s)"
+      },
+      {
+        "jobId": 116939603834,
+        "line": "2026-10-16T10:59:31.5177735Z https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.4"
+      },
+      {
+        "jobId": 116939603834,
+        "line": "2026-10-16T10:59:32.2047361Z Discord notification sent (1 attempt)."
+      }
+    ]
+  },
+  "finalVerification": {
+    "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "previewRun": 38888585713,
+    "productionRun": 38889097513,
+    "remotePreviewBrowser": 31,
+    "remoteProductionBrowser": 31,
+    "localReproducibility": "marker-fix-reproducibility.json",
+    "recovery": "marker-fix-recovery-node-summary.json"
+  },
+  "releaseActual": {
+    "version": "0.4.4",
+    "tag": "v0.4.4",
+    "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "annotatedTagSha": "1503836a52b93fab3aa3ed78883828ff44a5027e",
+    "tagTargetType": "commit",
+    "tagTargetSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "releaseId": 414863520,
+    "publishedAt": "2026-10-16T10:59:31Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.4",
+    "workflowRun": 38890640129,
+    "state": "published",
+    "verifiedAt": "2026-10-16T16:02:15.604Z",
+    "scope": "Actual Release/ref/annotatedtag and safe selected workflow logs read after interrupted run; publishing by existing Actions is not uninterrupted AI work.",
+    "notification": {
+      "state": "sent",
+      "sentAt": "2026-10-16T10:59:32.2047361Z",
+      "attempts": 1,
+      "workflowRun": 38890640129,
+      "scope": "Explicit release sender; completed manager report separate"
+    },
+    "safeResults": [
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:57:48.8791278Z Reviewed release identity verified v0.4.4"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:02.6585743Z ℹ tests 318"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:02.6586593Z ℹ pass 318"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:02.6587009Z ℹ fail 0"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:09.9490155Z - 0 errors"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:09.9490609Z - 0 warnings"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:58:09.9491021Z - 0 hints"
+      },
+      {
+        "jobId": 116939015889,
+        "line": "2026-10-16T10:59:18.5146894Z   31 passed (40.2s)"
+      },
+      {
+        "jobId": 116939603834,
+        "line": "2026-10-16T10:59:31.5177735Z https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.4"
+      },
+      {
+        "jobId": 116939603834,
+        "line": "2026-10-16T10:59:32.2047361Z Discord notification sent (1 attempt)."
+      }
+    ]
+  },
+  "finalSupplementalReviewEvidence": "resume-20261016-1400-final-supplemental-reviews.json",
+  "finalSupplementalActualAcceptances": 2
+}

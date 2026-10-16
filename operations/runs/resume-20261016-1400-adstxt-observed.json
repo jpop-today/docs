@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-16T05:04:03.363Z",
+  "path": "/ads.txt",
+  "status": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "bytes": 59,
+  "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+  "looksLikeHTML": false,
+  "googleAuthorizedSellerRows": 1,
+  "actualAccountMatch": "unknown; publisher values not logged",
+  "scope": "Safe HTTP response classification only; no rawbody or publisherID retained"
+}

@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-16T10:47:37.237275+00:00",
+  "tag": "v0.4.4",
+  "annotatedTagSha": "1503836a52b93fab3aa3ed78883828ff44a5027e",
+  "tagTargetSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "actualPushExitCode": 0,
+  "releaseState": "pending_actualworkflowpublish"
+}
