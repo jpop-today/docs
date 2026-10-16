@@ -4,7 +4,7 @@
   "timezone": "Asia/Seoul",
   "phase": "complete",
   "runId": "resume-20261016-1400",
-  "recordedAt": "2026-10-16T16:04:08.236118+00:00",
+  "recordedAt": "2026-10-16T16:19:33.544484+00:00",
   "productCompletedAt": "2026-10-16T10:59:31Z",
   "title": "10월16일 · v0.4.4 실제 보류 사례·개인정보 안내 운영 반영",
   "summary": "10월16일 v0.4.4를 jpop.today에 배포했습니다. 번호 확정을 보류한 실제 사례에서 곡 상세로 이동할 수 있고, 운영 분석 코드에 맞춰 개인정보 안내를 바로잡았습니다. JavaScript 없는 제보·문의 링크도 복구했습니다. 단위318개·타입 오류0·같은 SHA의 미리보기/운영 브라우저 각각31개와 실제 이전 버전 복구·재적용 검증을 통과했습니다. AdSense 신청·심사 상태는 미확인입니다.",
@@ -39,7 +39,7 @@
     "318unit/type0·local31+31·sameM actualremote31+31·각target3347files전체로컬재현과 실제HTTP27 PASS",
     "실제 v043 rollback API/27검사→v044 restore API/27검사 각1attempt PASS",
     "실제6평가·동점사전순서교체·독립감사/두원담당읽기수용·v044 실제Release/ReleaseDiscord 확인",
-    "실제운영 JSoff29/2실패의 이메일 보호 결함을 공개3anchor email_off 범위로 보완하고 새M2 운영31/31로 재검증"
+    "실제운영 JSoff29/2실패의 이메일 보호 결함을 공개3anchor email_off 범위로 보완하고 최종M3 실제운영31/31로 재검증"
   ],
   "nextPlan": [
     "Issue6: 미검토곡의 공식metadata 전체 제목·가수·버전을 대조하고 확인 가능한 번호 근거를 보강한다. SAM 명의·생략된 Ado 부제는 추가 근거 전 보류한다.",
@@ -458,15 +458,34 @@
       "scope": "Explicit release sender; completed manager report separate"
     },
     "completed": {
-      "state": "pending_saved_report_merge_and_actual_workflow_delivery",
+      "id": 38930361073,
+      "jobId": 117072482326,
       "workflow": "discord.yml",
       "mode": "completed",
-      "reportDate": "2026-10-16"
+      "reportDate": "2026-10-16",
+      "sourceSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+      "productSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+      "state": "sent",
+      "attempts": 1,
+      "sentAt": "2026-10-16T16:14:31.8649811Z",
+      "safeResults": [
+        "2026-10-16T16:14:31.3754942Z Report prepared: completed (2026-10-16); delivery not yet confirmed.",
+        "2026-10-16T16:14:31.8649811Z Discord notification sent (1 attempt)."
+      ],
+      "checkedAt": "2026-10-16T16:16:20.792390+00:00",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38930361073",
+      "scope": "Actual saved completed report from merged report R, separate from Release sender. Product date Oct16 KST; closure and delivery Oct17 KST. Only allowlisted outcome lines retained; no destination, secrets, raw logs or env."
     }
   },
   "documentation": {
-    "state": "prepared_for_reviewable_PR",
-    "releaseRecord": "https://github.com/jpop-today/docs/blob/main/operations/releases/v0.4.4-20261016.md"
+    "state": "evidence_PR_merged_delivery_receipt_recorded",
+    "evidencePR": 18,
+    "evidenceMainSha": "c99ef7fc7a9168026224172068250f1cd89c234d",
+    "sourceReportPR": 34,
+    "sourceReportMainSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+    "releaseRecord": "https://github.com/jpop-today/docs/blob/main/operations/releases/v0.4.4-20261016.md",
+    "postDeliveryReceipt": "https://github.com/jpop-today/docs/blob/main/operations/runs/resume-20261016-1400-completed-discord.json",
+    "scope": "This post-delivery receipt is submitted through a final reviewable docs PR. Its eventual merge SHA is recorded in Issue30; no recursive self-receipt PR is required."
   },
   "links": {
     "issue": "https://github.com/jpop-today/jpoptoday/issues/30",
@@ -479,6 +498,19 @@
     "closureKSTDate": "2026-10-17",
     "sameInterruptedRun": true,
     "newOct17ProductRelease": false,
-    "reason": "Product/Release actually completed Oct16; unfinished documentation and manager completed report close after midnight without inventing a new daily product release."
+    "reason": "Product/Release actually completed Oct16; unfinished documentation and manager completed report close after midnight without inventing a new daily product release.",
+    "completedReportSentAtUTC": "2026-10-16T16:14:31.8649811Z",
+    "completedReportKSTDate": "2026-10-17"
+  },
+  "postDeliveryChecks": {
+    "checkedAt": "2026-10-16T16:19:33.544484+00:00",
+    "firstMetadataRequest": "resume-20261016-1400-final-metadata-timeout.json",
+    "firstMetadataResult": "REQUEST_TIMEOUT (8000ms); no response received; cause unknown",
+    "subsequentFullStrictHTTP": "resume-20261016-1400-final-production-http.json",
+    "subsequentStrictPassed": true,
+    "subsequentStrictAttempts": 1,
+    "subsequentStrictChecks": 27,
+    "productionAPI": "resume-20261016-1400-final-production-api.json",
+    "scope": "Actual new post-delivery observations; preserve single-fetch timeout and full strict27/1 recovery without changing sent report or inventing a root cause. No deploy or rollback was performed during this final check."
   }
 }

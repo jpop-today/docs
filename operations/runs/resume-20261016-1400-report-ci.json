@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-10-16 16:16:19 UTC",
+  "scope": "Report-only PR34 final head checks. These local CI artifact/browser results do not replace actual product M3 deployment evidence.",
+  "headSha": "c9beb4911f1549364dc1437e3d0809d6f239a62e",
+  "headChecks": [
+    {
+      "id": 38930009480,
+      "name": "contracts",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "c9beb4911f1549364dc1437e3d0809d6f239a62e",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38930009480"
+    },
+    {
+      "id": 38930009474,
+      "name": "app",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "c9beb4911f1549364dc1437e3d0809d6f239a62e",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38930009474"
+    },
+    {
+      "id": 38929992427,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "c9beb4911f1549364dc1437e3d0809d6f239a62e",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38929992427"
+    },
+    {
+      "id": 38929992396,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "c9beb4911f1549364dc1437e3d0809d6f239a62e",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38929992396"
+    }
+  ],
+  "pushJobSafeResults": [
+    {
+      "jobId": 117071217284,
+      "lines": [
+        "2026-10-16T16:12:00.5469781Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source c9beb4911f1549364dc1437e3d0809d6f239a62e",
+        "2026-10-16T16:12:53.2011997Z   31 passed (30.5s)"
+      ]
+    },
+    {
+      "jobId": 117071217837,
+      "lines": [
+        "2026-10-16T16:11:56.2437189Z ℹ tests 318",
+        "2026-10-16T16:11:56.2437819Z ℹ pass 318",
+        "2026-10-16T16:11:56.2438464Z ℹ fail 0",
+        "2026-10-16T16:12:01.1454340Z - 0 errors",
+        "2026-10-16T16:12:01.1454861Z - 0 warnings",
+        "2026-10-16T16:12:01.1455150Z - 0 hints",
+        "2026-10-16T16:12:06.1414675Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source c9beb4911f1549364dc1437e3d0809d6f239a62e",
+        "2026-10-16T16:12:55.2516796Z   31 passed (28.8s)"
+      ]
+    }
+  ],
+  "initialHead": "ecb1c2e678c6b76add27214e3768ff7f7b99b9d0",
+  "correction": "Before delivery, root corrected an audit sentence attributing actual production31 to M2. Actual remote production31 belongs to final M3; original candidate/failures preserved in Git and receipts.",
+  "mainSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "mainChecks": [
+    {
+      "id": 38930302141,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38930302141"
+    },
+    {
+      "id": 38930302083,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38930302083"
+    }
+  ],
+  "mainJobs": [
+    {
+      "id": 117072273527,
+      "name": "app",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 117072273995,
+      "name": "production-artifact",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "additionalSafeResults": [
+    {
+      "jobId": 117072273527,
+      "scope": "main R CI artifact/browser",
+      "lines": [
+        "2026-10-16T16:14:15.0682771Z ℹ tests 318",
+        "2026-10-16T16:14:15.0683348Z ℹ pass 318",
+        "2026-10-16T16:14:15.0683610Z ℹ fail 0",
+        "2026-10-16T16:14:20.7565818Z - 0 errors",
+        "2026-10-16T16:14:20.7566103Z - 0 warnings",
+        "2026-10-16T16:14:20.7566349Z - 0 hints",
+        "2026-10-16T16:14:25.4968366Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 2964f7ea3f8c43f147422107f40629f51c010698",
+        "2026-10-16T16:15:17.7029316Z   31 passed (30.6s)"
+      ]
+    },
+    {
+      "jobId": 117072273995,
+      "scope": "main R CI artifact/browser",
+      "lines": [
+        "2026-10-16T16:14:18.2530785Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source 2964f7ea3f8c43f147422107f40629f51c010698",
+        "2026-10-16T16:15:21.1030884Z   31 passed (39.0s)"
+      ]
+    },
+    {
+      "jobId": 117071275070,
+      "scope": "PR synthetic merge artifact/browser",
+      "lines": [
+        "2026-10-16T16:12:09.8098592Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (45 indexable), 3347 files; source 945098723be191b07e43f859b760698940afc992",
+        "2026-10-16T16:13:17.6498024Z   31 passed (40.5s)"
+      ]
+    },
+    {
+      "jobId": 117071275470,
+      "scope": "PR synthetic merge artifact/browser",
+      "lines": [
+        "2026-10-16T16:12:05.0188479Z ℹ tests 318",
+        "2026-10-16T16:12:05.0188731Z ℹ pass 318",
+        "2026-10-16T16:12:05.0188850Z ℹ fail 0",
+        "2026-10-16T16:12:09.5555459Z - 0 errors",
+        "2026-10-16T16:12:09.5555649Z - 0 warnings",
+        "2026-10-16T16:12:09.5555765Z - 0 hints",
+        "2026-10-16T16:12:14.0524364Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 945098723be191b07e43f859b760698940afc992",
+        "2026-10-16T16:13:02.8788629Z   31 passed (30.3s)"
+      ]
+    }
+  ],
+  "artifactBoundary": "Push artifact source is report H; PR artifact source is synthetic merge 945098723be191b07e43f859b760698940afc992; main artifact source is report R. These checks are not new deployments or replacements for final product M3 deployment proof."
+}
