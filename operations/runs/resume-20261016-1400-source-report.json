@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-16T16:16:20.792073+00:00",
+  "sourcePR": 34,
+  "url": "https://github.com/jpop-today/jpoptoday/pull/34",
+  "headSha": "c9beb4911f1549364dc1437e3d0809d6f239a62e",
+  "mainSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "productSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "changedFiles": [
+    "reports/daily/2026-10-16.json",
+    "reports/runs/resume-20261016-0400.json"
+  ],
+  "reportSHA256": "f23ce7f15e64d506bcfd2fa6ffbb441fa04ab0008d3228a63b8b08fa8b3ccf21",
+  "docsEvidencePR": 18,
+  "docsEvidenceMainSha": "c99ef7fc7a9168026224172068250f1cd89c234d",
+  "attachmentConfirmed": {
+    "sourcePR34": true,
+    "docsPR18": true
+  },
+  "scope": "Source is the pre-delivery report snapshot; docs add actual delivery receipt. Report-only merge is not a product deploy; product/tag/production remain M3. Prior v0.4.3 source report bytes preserved exactly in reports/runs/resume-20261016-0400.json."
+}

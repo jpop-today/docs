@@ -1,0 +1,19 @@
+{
+  "id": 38930361073,
+  "jobId": 117072482326,
+  "workflow": "discord.yml",
+  "mode": "completed",
+  "reportDate": "2026-10-16",
+  "sourceSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "productSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+  "state": "sent",
+  "attempts": 1,
+  "sentAt": "2026-10-16T16:14:31.8649811Z",
+  "safeResults": [
+    "2026-10-16T16:14:31.3754942Z Report prepared: completed (2026-10-16); delivery not yet confirmed.",
+    "2026-10-16T16:14:31.8649811Z Discord notification sent (1 attempt)."
+  ],
+  "checkedAt": "2026-10-16T16:16:20.792390+00:00",
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38930361073",
+  "scope": "Actual saved completed report from merged report R, separate from Release sender. Product date Oct16 KST; closure and delivery Oct17 KST. Only allowlisted outcome lines retained; no destination, secrets, raw logs or env."
+}

@@ -4,7 +4,7 @@
   "date": "2026-10-16",
   "timezone": "Asia/Seoul",
   "startedAt": "2026-10-16T04:59:33.042995+00:00",
-  "phase": "product_released_closure_docs_report_pending",
+  "phase": "product_released_report_delivered",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/30",
   "base": {
     "source": "312c6b687c504cf82090ad26bdd9d829b99a105f",
@@ -107,10 +107,29 @@
       "attempts": 1,
       "workflowRun": 38890640129,
       "scope": "Explicit release sender; completed manager report separate"
+    },
+    "completed": {
+      "id": 38930361073,
+      "jobId": 117072482326,
+      "workflow": "discord.yml",
+      "mode": "completed",
+      "reportDate": "2026-10-16",
+      "sourceSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+      "productSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+      "state": "sent",
+      "attempts": 1,
+      "sentAt": "2026-10-16T16:14:31.8649811Z",
+      "safeResults": [
+        "2026-10-16T16:14:31.3754942Z Report prepared: completed (2026-10-16); delivery not yet confirmed.",
+        "2026-10-16T16:14:31.8649811Z Discord notification sent (1 attempt)."
+      ],
+      "checkedAt": "2026-10-16T16:16:20.792390+00:00",
+      "url": "https://github.com/jpop-today/jpoptoday/actions/runs/38930361073",
+      "scope": "Actual saved completed report from merged report R, separate from Release sender. Product date Oct16 KST; closure and delivery Oct17 KST. Only allowlisted outcome lines retained; no destination, secrets, raw logs or env."
     }
   },
   "workersActuallyCreated": true,
-  "updatedAt": "2026-10-16T16:04:08.236118+00:00",
+  "updatedAt": "2026-10-16T16:19:33.544484+00:00",
   "localBeforePrivacy": {
     "unit": 314,
     "failed": 0,
@@ -414,7 +433,7 @@
       "remoteBrowser": 31
     }
   },
-  "lastObserved": "2026-10-16T10:46:36.033254+00:00",
+  "lastObserved": "2026-10-16T16:19:33.544484+00:00",
   "tagAction": "actual annotated1503836a→M3 and v044 Release414863520 verified after pause",
   "resumptions": [
     {
@@ -572,5 +591,50 @@
     ]
   },
   "finalSupplementalReviewEvidence": "resume-20261016-1400-final-supplemental-reviews.json",
-  "finalSupplementalActualAcceptances": 2
+  "finalSupplementalActualAcceptances": 2,
+  "integration": {
+    "checkedAt": "2026-10-16T16:16:20.792073+00:00",
+    "sourcePR": 34,
+    "url": "https://github.com/jpop-today/jpoptoday/pull/34",
+    "headSha": "c9beb4911f1549364dc1437e3d0809d6f239a62e",
+    "mainSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+    "productSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "changedFiles": [
+      "reports/daily/2026-10-16.json",
+      "reports/runs/resume-20261016-0400.json"
+    ],
+    "reportSHA256": "f23ce7f15e64d506bcfd2fa6ffbb441fa04ab0008d3228a63b8b08fa8b3ccf21",
+    "docsEvidencePR": 18,
+    "docsEvidenceMainSha": "c99ef7fc7a9168026224172068250f1cd89c234d",
+    "attachmentConfirmed": {
+      "sourcePR34": true,
+      "docsPR18": true
+    },
+    "scope": "Source is the pre-delivery report snapshot; docs add actual delivery receipt. Report-only merge is not a product deploy; product/tag/production remain M3. Prior v0.4.3 source report bytes preserved exactly in reports/runs/resume-20261016-0400.json."
+  },
+  "closure": {
+    "productKSTDate": "2026-10-16",
+    "reportKSTDate": "2026-10-17",
+    "sameInterruptedRun": true,
+    "initialWorkerCount": 3,
+    "additionalInitialWorkersOnResume": 0,
+    "sourceTreeClean": true,
+    "finalProductionAPI": "resume-20261016-1400-final-production-api.json",
+    "reportCI": "resume-20261016-1400-report-ci.json",
+    "sourceReport": "resume-20261016-1400-source-report.json",
+    "completionReceiptPublication": "Final reviewable docs receipt PR; actual merge belongs to GitHub Issue30 closing receipt.",
+    "scope": "All product, Release, evidence integration and manager report delivery are actual. Receipt publication itself is reviewable Git history, not a new product release.",
+    "finalProductionHTTP": "resume-20261016-1400-final-production-http.json",
+    "postDeliveryChecks": {
+      "checkedAt": "2026-10-16T16:19:33.544484+00:00",
+      "firstMetadataRequest": "resume-20261016-1400-final-metadata-timeout.json",
+      "firstMetadataResult": "REQUEST_TIMEOUT (8000ms); no response received; cause unknown",
+      "subsequentFullStrictHTTP": "resume-20261016-1400-final-production-http.json",
+      "subsequentStrictPassed": true,
+      "subsequentStrictAttempts": 1,
+      "subsequentStrictChecks": 27,
+      "productionAPI": "resume-20261016-1400-final-production-api.json",
+      "scope": "Actual new post-delivery observations; preserve single-fetch timeout and full strict27/1 recovery without changing sent report or inventing a root cause. No deploy or rollback was performed during this final check."
+    }
+  }
 }

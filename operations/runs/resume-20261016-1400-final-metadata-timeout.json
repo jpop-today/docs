@@ -1,0 +1,11 @@
+{
+  "observedAt": "2026-10-16 16:18:32 UTC",
+  "url": "https://jpop.today/build-info.json (unique verification query)",
+  "scope": "First fresh single-metadata read after report-only merge; no response body or headers obtained; earlier full strict27 successes remain separately dated.",
+  "passed": false,
+  "code": "REQUEST_TIMEOUT",
+  "requestTimeoutMs": 8000,
+  "subsequentReceipt": "resume-20261016-1400-final-production-http.json",
+  "diagnosticReadAfterFailure": "Attempt to read nonexistent output failed; the failed single-fetch helper did not save a receipt automatically. Root explicitly preserves this observed error here.",
+  "cause": "unknown; do not infer outage or CDN cause from one timed-out request."
+}
