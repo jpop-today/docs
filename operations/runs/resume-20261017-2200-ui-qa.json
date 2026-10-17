@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-17T13:24:20.128604+00:00",
+  "artifactScope": "root dirty preview base2964f7e after boolean and mobile layout followups; not clean CI or a deploy",
+  "screenshots": [
+    {
+      "source": "/tmp/jpop35-app-qa/search-desktop.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-initial-search-desktop.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa/search-tablet.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-initial-search-tablet.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/favorites-mobile.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-favorites-mobile.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/home-mobile-results.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-home-mobile-results.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/home-mobile.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-home-mobile.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/js-off-favorites.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-js-off-favorites.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/js-off-home.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-js-off-home.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/js-off-search.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-js-off-search.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/search-desktop.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-search-desktop.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/search-mobile-results.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-search-mobile-results.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/search-mobile.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-search-mobile.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/search-short-results.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-search-short-results.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/search-short.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-search-short.png"
+    },
+    {
+      "source": "/tmp/jpop35-app-qa-fixed/search-tablet.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/app-fixed-search-tablet.png"
+    },
+    {
+      "source": "/tmp/jpop-resume22-quality/confirmed-search-desktop.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/quality-initial-confirmed-search-desktop.png"
+    },
+    {
+      "source": "/tmp/jpop-resume22-quality/confirmed-search-js-off-mobile.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/quality-initial-confirmed-search-js-off-mobile.png"
+    },
+    {
+      "source": "/tmp/jpop-resume22-quality/confirmed-search-mobile-both.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/quality-initial-confirmed-search-mobile-both.png"
+    },
+    {
+      "source": "/tmp/jpop-resume22-quality/fixed/confirmed-search-desktop.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/quality-fixed-confirmed-search-desktop.png"
+    },
+    {
+      "source": "/tmp/jpop-resume22-quality/fixed/confirmed-search-js-off-mobile.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/quality-fixed-confirmed-search-js-off-mobile.png"
+    },
+    {
+      "source": "/tmp/jpop-resume22-quality/fixed/confirmed-search-mobile-both.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/quality-fixed-confirmed-search-mobile-both.png"
+    },
+    {
+      "source": "/tmp/jpop-resume22-quality/fixed/confirmed-search-mobile-provider-rows.png",
+      "preserved": "engineering/design/confirmed-search-20261017-2200/quality-fixed-confirmed-search-mobile-provider-rows.png"
+    }
+  ],
+  "initialVisualFailures": {
+    "app": "resume-20261017-2200-app-initial-qa.json",
+    "quality": "initial7E2E passed then screenshot showed badge overlap/vertical wrapping; geometry8th failed on first route before next routes",
+    "sourcePNG": "engineering/design/confirmed-search-20261017-2200/quality-initial-confirmed-search-mobile-both.png"
+  },
+  "fixed": {
+    "app": "resume-20261017-2200-app-fixed-qa.json",
+    "actualAppFlows": 9,
+    "actualAppScreenshots": 12,
+    "qualityTargetedE2E": 8,
+    "qualityPassed": 8,
+    "qualityDurationSeconds": 16.7,
+    "qualityUnitGroups": 7,
+    "qualityUnitPassed": 7,
+    "pageIdentity": true,
+    "nonBlank": true,
+    "noOverlay": true,
+    "jsConsoleRelevantErrors": 0,
+    "jsOffConsole": "not separately collected",
+    "providerRowGeometry": "home/search32rows, favorites3rows, JSoffSSR5rows passed label/number/badge separation and 44px targets"
+  },
+  "scope": "Actual worker receipts/screenshots copied by root after handoff. Root directly inspected initial and fixed mobile PNG. Initial failures remain separate. Source geometry/E2E asserts unchanged during capture; remote/clean/production/recovery gates pending."
+}

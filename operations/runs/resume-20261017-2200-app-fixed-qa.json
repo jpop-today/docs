@@ -1,0 +1,509 @@
+{
+  "runId": "resume-20261017-2200",
+  "owner": "/root/resume22_app",
+  "startedAt": "2026-10-17T13:21:59.075Z",
+  "environment": {
+    "origin": "http://127.0.0.1:4321",
+    "browser": "system Chromium /usr/bin/chromium",
+    "browserPlugin": "not callable: discovered Browser js/CUA tools 0",
+    "source": "root dirty preview artifact based on 2964f7ea3f8c43f147422107f40629f51c010698",
+    "cleanCommitOrDeploymentClaim": false
+  },
+  "checks": [
+    {
+      "label": "search-desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "route": "/search/",
+      "title": "오늘 부를 JPOP 찾기 | jpop.today",
+      "url": "http://127.0.0.1:4321/search/?number=confirmed-ky&number=confirmed-tj",
+      "count": "27곡",
+      "targets": [
+        {
+          "filter": "all",
+          "width": 61.453125,
+          "height": 52
+        },
+        {
+          "filter": "has-tj",
+          "width": 116.703125,
+          "height": 52
+        },
+        {
+          "filter": "has-ky",
+          "width": 129.28125,
+          "height": 52
+        },
+        {
+          "filter": "confirmed-tj",
+          "width": 116.703125,
+          "height": 52
+        },
+        {
+          "filter": "confirmed-ky",
+          "width": 129.28125,
+          "height": 52
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "palette": {
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "body": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)"
+      },
+      "consoleHealth": [],
+      "providerLayout": null,
+      "pass": true,
+      "identity": true,
+      "notBlank": true,
+      "noOverlay": true,
+      "overflow": false,
+      "keyboardSpaceEnterPressedAndUrl": true,
+      "screenshot": "/tmp/jpop35-app-qa-fixed/search-desktop.png"
+    },
+    {
+      "label": "search-tablet",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "route": "/search/",
+      "title": "오늘 부를 JPOP 찾기 | jpop.today",
+      "url": "http://127.0.0.1:4321/search/?number=confirmed-ky&number=confirmed-tj",
+      "count": "27곡",
+      "targets": [
+        {
+          "filter": "all",
+          "width": 61.453125,
+          "height": 52
+        },
+        {
+          "filter": "has-tj",
+          "width": 116.703125,
+          "height": 52
+        },
+        {
+          "filter": "has-ky",
+          "width": 129.28125,
+          "height": 52
+        },
+        {
+          "filter": "confirmed-tj",
+          "width": 116.703125,
+          "height": 52
+        },
+        {
+          "filter": "confirmed-ky",
+          "width": 129.28125,
+          "height": 52
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "palette": {
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "body": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)"
+      },
+      "consoleHealth": [],
+      "providerLayout": null,
+      "pass": true,
+      "identity": true,
+      "notBlank": true,
+      "noOverlay": true,
+      "overflow": false,
+      "keyboardSpaceEnterPressedAndUrl": true,
+      "screenshot": "/tmp/jpop35-app-qa-fixed/search-tablet.png"
+    },
+    {
+      "label": "search-mobile",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "route": "/search/",
+      "title": "오늘 부를 JPOP 찾기 | jpop.today",
+      "url": "http://127.0.0.1:4321/search/?number=confirmed-ky&number=confirmed-tj",
+      "count": "27곡",
+      "targets": [
+        {
+          "filter": "all",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "filter": "has-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "has-ky",
+          "width": 99.046875,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-ky",
+          "width": 99.046875,
+          "height": 44
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "palette": {
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "body": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)"
+      },
+      "consoleHealth": [],
+      "providerLayout": {
+        "cells": [
+          {
+            "x": 16,
+            "y": 776.78125,
+            "width": 138,
+            "height": 64,
+            "buttonHeight": 44,
+            "badge": {
+              "x": 46,
+              "right": 154,
+              "top": 824.78125,
+              "bottom": 840.78125,
+              "whiteSpace": "nowrap"
+            }
+          },
+          {
+            "x": 162,
+            "y": 776.78125,
+            "width": 138,
+            "height": 64,
+            "buttonHeight": 44,
+            "badge": {
+              "x": 192,
+              "right": 300,
+              "top": 824.78125,
+              "bottom": 840.78125,
+              "whiteSpace": "nowrap"
+            }
+          }
+        ],
+        "saveHeight": 44,
+        "saveWidth": 44
+      },
+      "pass": true,
+      "identity": true,
+      "notBlank": true,
+      "noOverlay": true,
+      "overflow": false,
+      "keyboardSpaceEnterPressedAndUrl": true,
+      "screenshot": "/tmp/jpop35-app-qa-fixed/search-mobile.png"
+    },
+    {
+      "label": "search-short",
+      "viewport": {
+        "width": 360,
+        "height": 320
+      },
+      "route": "/search/",
+      "title": "오늘 부를 JPOP 찾기 | jpop.today",
+      "url": "http://127.0.0.1:4321/search/?number=confirmed-ky&number=confirmed-tj",
+      "count": "27곡",
+      "targets": [
+        {
+          "filter": "all",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "filter": "has-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "has-ky",
+          "width": 99.046875,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-ky",
+          "width": 99.046875,
+          "height": 44
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "palette": {
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "body": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)"
+      },
+      "consoleHealth": [],
+      "providerLayout": {
+        "cells": [
+          {
+            "x": 16,
+            "y": 481.78125,
+            "width": 138,
+            "height": 64,
+            "buttonHeight": 44,
+            "badge": {
+              "x": 46,
+              "right": 154,
+              "top": 529.78125,
+              "bottom": 545.78125,
+              "whiteSpace": "nowrap"
+            }
+          },
+          {
+            "x": 162,
+            "y": 481.78125,
+            "width": 138,
+            "height": 64,
+            "buttonHeight": 44,
+            "badge": {
+              "x": 192,
+              "right": 300,
+              "top": 529.78125,
+              "bottom": 545.78125,
+              "whiteSpace": "nowrap"
+            }
+          }
+        ],
+        "saveHeight": 44,
+        "saveWidth": 44
+      },
+      "pass": true,
+      "identity": true,
+      "notBlank": true,
+      "noOverlay": true,
+      "overflow": false,
+      "keyboardSpaceEnterPressedAndUrl": true,
+      "screenshot": "/tmp/jpop35-app-qa-fixed/search-short.png"
+    },
+    {
+      "label": "home-mobile",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "route": "/",
+      "title": "오늘 부를 JPOP 찾기 | jpop.today",
+      "url": "http://127.0.0.1:4321/?number=confirmed-ky&number=confirmed-tj",
+      "count": "27곡",
+      "targets": [
+        {
+          "filter": "all",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "filter": "has-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "has-ky",
+          "width": 99.046875,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-ky",
+          "width": 99.046875,
+          "height": 44
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "palette": {
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "body": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)"
+      },
+      "consoleHealth": [],
+      "providerLayout": {
+        "cells": [
+          {
+            "x": 16,
+            "y": 776.78125,
+            "width": 138,
+            "height": 64,
+            "buttonHeight": 44,
+            "badge": {
+              "x": 46,
+              "right": 154,
+              "top": 824.78125,
+              "bottom": 840.78125,
+              "whiteSpace": "nowrap"
+            }
+          },
+          {
+            "x": 162,
+            "y": 776.78125,
+            "width": 138,
+            "height": 64,
+            "buttonHeight": 44,
+            "badge": {
+              "x": 192,
+              "right": 300,
+              "top": 824.78125,
+              "bottom": 840.78125,
+              "whiteSpace": "nowrap"
+            }
+          }
+        ],
+        "saveHeight": 44,
+        "saveWidth": 44
+      },
+      "pass": true,
+      "identity": true,
+      "notBlank": true,
+      "noOverlay": true,
+      "overflow": false,
+      "keyboardSpaceEnterPressedAndUrl": true,
+      "screenshot": "/tmp/jpop35-app-qa-fixed/home-mobile.png"
+    },
+    {
+      "label": "favorites-mobile",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "route": "/favorites/",
+      "title": "내 즐겨찾기 | jpop.today",
+      "url": "http://127.0.0.1:4321/favorites/?number=confirmed-ky&number=confirmed-tj",
+      "count": "0곡",
+      "targets": [
+        {
+          "filter": "all",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "filter": "has-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "has-ky",
+          "width": 99.046875,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-tj",
+          "width": 88.8125,
+          "height": 44
+        },
+        {
+          "filter": "confirmed-ky",
+          "width": 99.046875,
+          "height": 44
+        }
+      ],
+      "focus": {
+        "style": "solid",
+        "width": "3px"
+      },
+      "palette": {
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "body": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)"
+      },
+      "consoleHealth": [],
+      "providerLayout": null,
+      "pass": true,
+      "identity": true,
+      "notBlank": true,
+      "noOverlay": true,
+      "overflow": false,
+      "keyboardSpaceEnterPressedAndUrl": true,
+      "screenshot": "/tmp/jpop35-app-qa-fixed/favorites-mobile.png"
+    },
+    {
+      "label": "js-off-/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "route": "/",
+      "pass": true,
+      "allFiveDisabled": true,
+      "honestFallback": true,
+      "overflow": false,
+      "fallbackLinks44": true,
+      "keyboardFallbackNavigation": "http://127.0.0.1:4321/coverage/",
+      "screenshot": "/tmp/jpop35-app-qa-fixed/js-off-home.png"
+    },
+    {
+      "label": "js-off-/search/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "route": "/search/",
+      "pass": true,
+      "allFiveDisabled": true,
+      "honestFallback": true,
+      "overflow": false,
+      "fallbackLinks44": true,
+      "keyboardFallbackNavigation": "http://127.0.0.1:4321/coverage/",
+      "screenshot": "/tmp/jpop35-app-qa-fixed/js-off-search.png"
+    },
+    {
+      "label": "js-off-/favorites/",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "route": "/favorites/",
+      "pass": true,
+      "allFiveDisabled": true,
+      "honestFallback": true,
+      "overflow": false,
+      "fallbackLinks44": true,
+      "keyboardFallbackNavigation": "http://127.0.0.1:4321/coverage/",
+      "screenshot": "/tmp/jpop35-app-qa-fixed/js-off-favorites.png"
+    }
+  ],
+  "screenshots": [
+    "/tmp/jpop35-app-qa-fixed/search-desktop.png",
+    "/tmp/jpop35-app-qa-fixed/search-tablet.png",
+    "/tmp/jpop35-app-qa-fixed/search-mobile.png",
+    "/tmp/jpop35-app-qa-fixed/search-mobile-results.png",
+    "/tmp/jpop35-app-qa-fixed/search-short.png",
+    "/tmp/jpop35-app-qa-fixed/search-short-results.png",
+    "/tmp/jpop35-app-qa-fixed/home-mobile.png",
+    "/tmp/jpop35-app-qa-fixed/home-mobile-results.png",
+    "/tmp/jpop35-app-qa-fixed/favorites-mobile.png",
+    "/tmp/jpop35-app-qa-fixed/js-off-home.png",
+    "/tmp/jpop35-app-qa-fixed/js-off-search.png",
+    "/tmp/jpop35-app-qa-fixed/js-off-favorites.png"
+  ],
+  "errors": [],
+  "buildInfo": {
+    "sourceSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+    "target": "preview"
+  },
+  "pass": true,
+  "completedAt": "2026-10-17T13:22:09.197Z"
+}

@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-17T18:06:07.741837+00:00",
+  "note": "Existing unfinished Issue35; restored workspace, prior tmp logs unavailable; no new product deployment claimed.",
+  "issue": {
+    "number": 35,
+    "state": "open",
+    "updatedAt": "2026-10-17T13:28:54Z"
+  },
+  "prs": [],
+  "sourceMain": {
+    "sha": "2964f7ea3f8c43f147422107f40629f51c010698"
+  },
+  "docsMain": {
+    "sha": "d679cf57592b285a30d762784fdb62ae0bf73581"
+  },
+  "productionAPI": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "b91efaaa-b971-442b-b520-1505968ef532",
+      "url": "https://b91efaaa.todayjpop.pages.dev",
+      "created_on": "2026-10-16T10:40:43.517147Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-16T10:40:44.951044Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "f959f3671b8aeb766fd469558634f9680635e58c",
+          "commit_message": "Merge pull request #33 from jpop-today/codex/30-email-marker-verification-20261016\r\n\r\n이메일 원문 비교를 유지하며 Cloudflare 범위 주석 처리 검증",
+          "commit_dirty": false
+        }
+      }
+    }
+  },
+  "productionHTTP": {
+    "read": "failed",
+    "safeType": "HTTPError",
+    "note": "Initial Python HTTP error preserved; actual supported Node proxy strict verification later succeeded27checks/1attempt. See resumed-baseline-http."
+  },
+  "artifactRecovery": {
+    "workflowRun": 38889097513,
+    "artifactId": 12040794225,
+    "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "target": "production",
+    "files": 3347,
+    "download": "CLI redirect forbidden; purpose-built GitHub artifact connector then workspace download succeeded",
+    "credentialURLs": "not retained in committed evidence",
+    "localPath": "/tmp/jpop-v044-production-f959f36"
+  }
+}

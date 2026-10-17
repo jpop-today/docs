@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261017-2200",
+  "date": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "startedAt": "2026-10-17T13:00:05Z",
+  "phase": "source_pr_ci",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/35",
+  "base": {
+    "source": "2964f7ea3f8c43f147422107f40629f51c010698",
+    "docs": "d679cf57592b285a30d762784fdb62ae0bf73581",
+    "org": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+  },
+  "branch": "codex/35-confirmed-search-20261017",
+  "tieBreakOrder": [
+    "quality",
+    "evidence",
+    "app"
+  ],
+  "environment": {
+    "revision": "443",
+    "observationsCurrent": true,
+    "phase": "running",
+    "httpPolicy": "unrestricted/enforced",
+    "cfBindings": "ready with actual read success",
+    "vpnConfigured": false
+  },
+  "coordination": {
+    "collaborationObserved": [
+      "/root"
+    ],
+    "sameRepoOtherActiveManagerObserved": false,
+    "appThreadList": "own jpop thread active; old docs thread idle; no distributed lock guarantee",
+    "sourceOpenPRs": 0,
+    "docsOpenPRs": 0,
+    "sourceDirty": false,
+    "docsDirty": false
+  },
+  "productionBaseline": {
+    "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "deployment": "b91efaaa-b971-442b-b520-1505968ef532",
+    "automaticProduction": false,
+    "automaticPreview": "none",
+    "api": "resume-20261017-2200-baseline-api.json",
+    "http": "resume-20261017-2200-baseline-http.json"
+  },
+  "workers": {
+    "evidence": {
+      "id": "/root/resume22_evidence",
+      "files": [
+        "source:data/reviewed/provider-corrections.json",
+        "docs:data/provider-review-20261017-2200.md",
+        "docs:data/provider-review-requests-20261017-2200.json"
+      ]
+    },
+    "app": {
+      "id": "/root/resume22_app",
+      "files": [
+        "source:src/components/Search.astro",
+        "source:src/scripts/app.ts",
+        "docs:engineering/confirmed-search-20261017-2200.md"
+      ]
+    },
+    "quality": {
+      "id": "/root/resume22_quality",
+      "files": [
+        "source:tests/confirmed-search.test.mjs",
+        "source:e2e/confirmed-search.spec.ts",
+        "docs:engineering/confirmed-search-quality-20261017-2200.md"
+      ]
+    }
+  },
+  "workersActuallyCreated": 3,
+  "rootOnly": [
+    "Git",
+    "package/lockfile",
+    "CI/deploy",
+    "shared contracts",
+    "product/spec",
+    "operations/status/roadmap/daily/releases/runs",
+    "reports",
+    "existing e2e/deferred-guide.spec.ts append-preserving regression correction"
+  ],
+  "adsense": {
+    "stage": "preparing",
+    "accountApplicationReview": "unknown"
+  },
+  "notifications": {
+    "start": {
+      "state": "sent",
+      "run": 39035294667,
+      "job": 117403772588,
+      "sentAt": "2026-10-17T13:07:58.6096559Z",
+      "attempts": 1,
+      "evidence": "resume-20261017-2200-start-discord.json"
+    }
+  },
+  "updatedAt": "2026-10-17T18:17:29.152491+00:00",
+  "automation": {
+    "state": "enabled_schedules_unchanged",
+    "evidence": "resume-20261017-2200-automations.json"
+  },
+  "localEvidence": "resume-20261017-2200-local.json",
+  "evidenceResult": {
+    "requests": 7,
+    "confirmed": 7,
+    "ledgerEntries": 84,
+    "originalPrefixEntries": 77,
+    "safeIDs": 32,
+    "safeTJ": 32,
+    "safeKY": 27,
+    "note": "Actual editorial review/source/proofs in data/provider-review-20261017-2200.md"
+  },
+  "resumedAt": "2026-10-17T18:04:37Z",
+  "previousPeerReviewFailure": {
+    "workers": [
+      "/root/resume22_evidence",
+      "/root/resume22_app",
+      "/root/resume22_quality"
+    ],
+    "result": "all3 usage-limit error during requested read-only review; no scores produced; new roster shows only root, prior worker records unavailable",
+    "ranking": "blocked/comparison unavailable; usage failure is not artifact quality score",
+    "physicalDeletion": false
+  },
+  "handoffTeam": {
+    "workers": {
+      "evidence": "/root/resume35_evidence",
+      "app": "/root/resume35_app",
+      "quality": "/root/resume35_quality"
+    },
+    "count": 3,
+    "basis": "previous same-run artifacts inherited; old3 unavailable; no other active collaboration manager observed",
+    "tieBreakOrder": [
+      "quality",
+      "evidence",
+      "app"
+    ],
+    "rotation": {
+      "checkedAt": "2026-10-17T18:14:57.366114+00:00",
+      "reviews": "resume-20261017-2200-reviews.json",
+      "sixActualReviews": true,
+      "totals": {
+        "evidence": 40,
+        "app": 39,
+        "quality": 40
+      },
+      "excluded": "/root/resume35_app",
+      "reason": "One actual peer records nth-of-type(3) row-template coupling as maintainability4; other dimensions accepted. No fabricated correctness failure or volume ranking. Others tied40.",
+      "interrupt": "called, prior completed status returned",
+      "replacement": "/root/resume35_replacement",
+      "replacementCount": 1,
+      "active": [
+        "/root/resume35_evidence",
+        "/root/resume35_quality",
+        "/root/resume35_replacement"
+      ],
+      "physicalDeletion": false
+    }
+  },
+  "environmentRecheck": {
+    "statusTool": "requested, exceeded20s; current readiness not inferred from old443",
+    "actualShell": "available /workspace same dirtywork preserved",
+    "actualAPI": "Cloudflare project read succeeded; GitHub gh API issue/main/PR read succeeded",
+    "threadList": "native call exceeded20s; cross-chat visibility blocked",
+    "tmp": "previous tmp logs gone, original39 followup result not established; durable docs/21PNG retained; canonical checks rerun",
+    "subsequentStatus": {
+      "phase": "running",
+      "observationsCurrent": true,
+      "specRevision": "459",
+      "network": "unrestricted/enforced",
+      "CloudflareSecretBinding": "ready"
+    }
+  },
+  "sourcePR": {
+    "url": "https://github.com/jpop-today/jpoptoday/pull/36",
+    "head": "ae1332d64912f4a7caf9eeb939f73b550c12369c",
+    "base": "2964f7ea3f8c43f147422107f40629f51c010698",
+    "createdAt": "2026-10-17T18:15:23Z",
+    "appAttachment": "tool requested; host response timed out; no success claim"
+  },
+  "localRerun": {
+    "canonicalTests": 325,
+    "typeErrors": 0,
+    "fullE2EBeforeFinalExtraAssertions": 39,
+    "latestStrengthenedTargeted": 8,
+    "previewArtifact": {
+      "files": 3347,
+      "html": 3336,
+      "indexable": 0
+    },
+    "evidence": [
+      "resume-20261017-2200-resumed-local.json",
+      "resume-20261017-2200-resumed-e2e.json",
+      "resume-20261017-2200-nonempty-e2e.json"
+    ]
+  },
+  "productionRechecked": {
+    "api": "resume-20261017-2200-resume1804.json",
+    "http": "resume-20261017-2200-resumed-baseline-http.json",
+    "strictChecks": 27,
+    "attempts": 1,
+    "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c"
+  }
+}

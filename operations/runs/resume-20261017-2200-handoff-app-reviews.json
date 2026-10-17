@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261017-2200",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/35",
+  "reviewer": "/root/resume35_app",
+  "reviewedAt": "2026-10-17T18:12:13Z",
+  "sourceBaseSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "docsBaseSha": "d679cf57592b285a30d762784fdb62ae0bf73581",
+  "reviewScope": "Actual read-only peer evaluation of the restarted handoff owners. Original implementation and provider/browser runs remain attributed to resume22 workers. No source edits, Git operations, provider requests, builds or tests were performed by this reviewer during peer evaluation.",
+  "reviews": [
+    {
+      "reviewer": "/root/resume35_app",
+      "candidate": "/root/resume35_evidence",
+      "originalContributor": "/root/resume22_evidence",
+      "reviewedAt": "2026-10-17T18:12:13Z",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "현재 ledger의 추가77..83과 요청7건·분리된 편집판단7건을 직접 읽었다. 업체별 번호문자열/전체제목/가수/공식URL/checkedAt/응답hash/이유가 대응하고, KY43862에 없는16th·KY44466에 없는OST를 생성하지 않았다. Tani KY는 미조회 unknown이며 기존 SAM/Ado KY 보류를 승인하지 않는다. 원77 보존은 인계 담당의 실제 base 검증과 root의 고정prefix 회귀39/39 결과로 확인하며, 본 리뷰어가 base Git 비교를 새로 실행했다고 주장하지 않는다.",
+        "evidence": "requests JSON 17–185의 실제 후보는 unreviewed를 유지하고 188–375의 제목/가수/버전별 판단·원조회시각과 분리된다. 524–597의 새 담당 인계에는 providerRequestsPerformed0·원담당 귀속·검사스키마 가정실패와 수정후성공이 남아 있다. 현재 ledger raw SHA256 dbef4ae6…0356cc1을 파일에서 직접 산출해 문서/JSON의 hash와 대조했다. 원응답 미보존으로 재파싱 불가 및 원격/권리/심사 미검증 경계를 명시한다.",
+        "value": "기존 관측4곡의7업체 번호에 대한 실제 제목·가수 대조 근거를 제공해 공식확인 검색의 안전한 선택범위를 TJ28→32/KY24→27·합집합28→32곡으로 넓혔다. 번호59개와 곡32개를 구분하고 차트수집일/순위·음원동일성·재배포권리를 부풀리지 않아 사용자가 업체별 근거를 판단할 수 있다.",
+        "maintainability": "원본 staging/chart/ID/URL/storage를 건드리지 않는 append 범위와7개 원후보→판단→ledger 인덱스를 남겼다. 새 담당은 기존 source를 다시 수정하거나 provider 조회를 중복하지 않고 원77/rawprefix·동결파일·비대상3313곡·unknown/보류를 검증했다. 소실된/tmp와 재시작 검증시각/담당을 구분해 다음 인계가 과거 실행을 재실행으로 오인하지 않게 한다."
+      },
+      "reason": "할당된 근거 보강과 재시작 인계 수용기준을 실제 파일에 근거해 충족한다. 정적 shape 검증을 편집 대조로 대신하지 않고 원 관측·판단·인계 책임을 분리했다. 코드 양이나 발언량으로 점수를 정하지 않았다.",
+      "evidence": [
+        {
+          "repository": "jpoptoday",
+          "path": "data/reviewed/provider-corrections.json",
+          "lines": "1162-1266",
+          "sha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+          "read": "Seven complete appended confirmation objects read; current raw file hash computed read-only."
+        },
+        {
+          "repository": "docs",
+          "path": "data/provider-review-requests-20261017-2200.json",
+          "lines": "1-599",
+          "sha256": "a20f35375bb2e4706fae37c6f12b4dc5257059533e9aad68de1ea701a4d58a02"
+        },
+        {
+          "repository": "docs",
+          "path": "data/provider-review-20261017-2200.md",
+          "lines": "1-159",
+          "sha256": "e2eebabd95bc241b7309441f1119f5a798c151a2eeecc059cd0c5dc939769dbb"
+        },
+        {
+          "repository": "jpoptoday",
+          "path": "e2e/deferred-guide.spec.ts",
+          "lines": "99-110",
+          "read": "Root-owned append compatibility keeps >=77 and fixed SHA256 of complete original77 prefix; current whole-ledger build hash comparison remains at132. Root full39 log was read as a separate execution receipt."
+        }
+      ],
+      "limits": [
+        "This reviewer did not perform any of the original seven provider requests, reparse the unavailable raw HTML, or rerun the handoff owner's Git baseline assertions.",
+        "Original77/raw-prefix preservation and independent before/after projection execution are attributed to the evidence handoff owner; current prefix regression success is attributed to root.",
+        "Metadata matching does not establish audio/model/region availability, redistribution rights, Google account state or AdSense approval.",
+        "Clean-SHA CI, actual preview/production and rollback/restore remain root release gates."
+      ],
+      "requiredChanges": []
+    },
+    {
+      "reviewer": "/root/resume35_app",
+      "candidate": "/root/resume35_quality",
+      "originalContributor": "/root/resume22_quality",
+      "reviewedAt": "2026-10-17T18:12:13Z",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "단위7그룹은 양업체/AND/선행0·status/conflict/provenance 거절·기존q/has/only/tag/anime/artist·SAM/Ado보류/원버전억제·ID/저장raw불변을 직접 검증한다. 실자료 oracle은 ledger와staging/정정후중복수로 독립계산하고 matcher를 기대값에 재사용하지 않는다. 최신 E2E216–265는 geometry 전에 비어 있지 않은 정확한 행수/ID를 요구하고44px의 높이·폭을 모두 검사해 빈행/폭미달 누락을 보완했다.",
+        "evidence": "테스트2파일 전체와 품질문서81행, root의 실제 실행로그를 직접 읽었다. canonical unit325/325·type0/0/0·dirty preview artifact3347files/3336HTML/0index·최신targeted8/8(13.6s)·전체39/39(1.2m)는 root 실행이며 본 리뷰어 실행이 아니다. 최초7PASS 뒤 PNG발견→8번째FAIL→수정8PASS와 재시작후 assertion 보완을 각각 별도 사건으로 보존했다.",
+        "value": "기존 저장값과 URL복원을 유지하면서 공식확인과 관측을 구별하는 주요 사용자흐름을 검사한다. 실제360px 업체badge겹침을 페이지전체overflow 성공으로 놓치지 않고 발견해 홈/검색/저장/JS-off행의 bbox회귀로 만들었다. 원래브랜드·44px·keyboard·0건≠미수록 검사도 사용자의 실제 조작에 대응한다.",
+        "maintainability": "확인곡수를 고정하지 않고 독립ID집합을 계산하며, 더보기종료는 동결staging수의 유한상한과 매번 엄격한 행수증가로 검증한다. 공용계약·제품소스·Git/package/CI/deploy의 root소유를 지키고 재시작으로 소실된/tmp실행을 새담당의 성공으로 세지 않는다. 새보완은 같은8번째 검사 안에 한정했고 기존회귀/엄격게이트를 삭제하지 않았다."
+      },
+      "reason": "할당된 하네스와 재시작 인계의 수용기준을 충족하며, 실제 발견한 모바일 결함 및 빈 목록 거짓 성공/폭 누락을 의미 있는 회귀로 보완했다. 새 assertion이 들어간 최종 파일 hash와 root가 실행한 전체39 통과를 직접 읽었고, 원격 게이트와 구분한다.",
+      "evidence": [
+        {
+          "repository": "jpoptoday",
+          "path": "tests/confirmed-search.test.mjs",
+          "lines": "1-172",
+          "sha256": "e0603e17f871db4d215ed8285f422107828733992a5b2412e3d3e87611171f68"
+        },
+        {
+          "repository": "jpoptoday",
+          "path": "e2e/confirmed-search.spec.ts",
+          "lines": "1-266",
+          "sha256": "3f18d9c0e404a8c83a32383950b3a88882d05aa42bbd92e31090de1817e8906b"
+        },
+        {
+          "repository": "docs",
+          "path": "engineering/confirmed-search-quality-20261017-2200.md",
+          "lines": "1-81",
+          "sha256": "51b12677687041b3402f87ec3fdb2e0191b97134feebf711faa6733fe467c9bf"
+        },
+        {
+          "kind": "root-executed-current-local-log-read",
+          "paths": [
+            "/tmp/jpop35-resumed-unit.log",
+            "/tmp/jpop35-resumed-type.log",
+            "/tmp/jpop35-resumed-preview-artifact.log",
+            "/tmp/jpop35-resumed-mobile-nonempty.log",
+            "/tmp/jpop35-resumed-preview-e2e.log"
+          ],
+          "results": "325/325 unit; type0errors/0warnings/0hints; preview3347files/3336HTML/0index; new8/8 in13.6s; full39/39 in1.2m. Dirty artifact based on2964f7e."
+        }
+      ],
+      "limits": [
+        "The root's current local logs were read directly; the reviewer did not rerun tests or mutate source/test/Git/shared server.",
+        "The original PNGs/receipts were inspected as historical evidence, not as screenshots generated by the handoff owner or reviewer.",
+        "Current local39 success does not establish clean-SHA CI, actual remote preview/production, rollback/restore or a release.",
+        "Other browser engines, real devices, assistive technology and field performance were not independently exercised by this reviewer."
+      ],
+      "requiredChanges": []
+    }
+  ],
+  "ranking": "No relative worker ranking is inferred from these two reviews. Both satisfy their assigned acceptance criteria; root must combine all six actual peer evaluations and apply the predeclared tie rule if needed."
+}

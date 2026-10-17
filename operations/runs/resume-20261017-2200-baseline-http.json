@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-17T13:03:17.420Z",
+  "url": "https://jpop.today/build-info.json (unique query)",
+  "attempts": [
+    {
+      "attempt": 1,
+      "at": "2026-10-17T13:03:10.327Z",
+      "status": 200,
+      "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+      "sha256": "1c2e2ef9ad2e1d1cb38a867f5a7c903bb89cac6293d6a60f14e98706f5d003aa",
+      "passed": true
+    }
+  ],
+  "scope": "Fresh initial metadata HTTP read only; full product checks remain separately dated."
+}

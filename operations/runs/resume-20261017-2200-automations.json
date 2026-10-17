@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-17 13:09:39 UTC",
+  "automations": [
+    {
+      "id": "6acf109ec1808191b09a2414e2de80af",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "last_run_time": "2026-10-17T12:57:23.841162+00:00",
+      "thread_id": "01a133a5-efbf-7671-8128-6c1b54be8015",
+      "default_timezone": "Asia/Seoul"
+    },
+    {
+      "id": "6acdccd99030819180ea1c9d907d9f55",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "last_run_time": "2026-10-17T00:04:40.734508+00:00",
+      "thread_id": "01a133a5-efbf-7671-8128-6c1b54be8015",
+      "default_timezone": "Asia/Seoul"
+    }
+  ],
+  "changed": false,
+  "scope": "Actual safe matching automation read only. Schedule/lastRun are not proof of completed AI development or 24h operation."
+}

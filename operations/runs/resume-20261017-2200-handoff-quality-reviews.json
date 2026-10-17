@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261017-2200",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/35",
+  "kind": "actual-read-only-handoff-peer-reviews",
+  "reviewer": "/root/resume35_quality",
+  "sourceBaseSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "docsBaseSha": "d679cf57592b285a30d762784fdb62ae0bf73581",
+  "evaluatedResponsibility": "resume35 인계 담당의 보존·검토·실제후속검증 및 원산출물 수용 책임; 원 resume22 구현/조회/QA의 실행주체는 그대로 보존",
+  "reviewedAt": "2026-10-17T18:13:09.802567Z",
+  "reviews": [
+    {
+      "reviewer": "/root/resume35_quality",
+      "candidate": "/root/resume35_evidence",
+      "reviewedAt": "2026-10-17T18:13:09.802567Z",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "현재 ledger77..83(소스1161~1265행)의 7개 전체 title/artist·번호문자열·URL·checkedAt·responseSha256·reason을 원 unreviewed 후보 및 별도 editorialReview와 직접 대조해 모두 일치했다. base2964f7e의 실제 Git 바이트와 첫77객체/순서/최상위metadata/raw prefix, 동결5파일이 동일했다. KY43862에 없는16th·KY44466에 없는OST를 만들지 않고 실제 부제·feature 명의를 보존한다. Tani KYnull·기존SAM/Ado KY보류를 새확인으로 변경하지 않는 명시적 범위와 실제 ledger에 맞는다.",
+        "evidence": "자료 문서 전체와 requestsJSON의 최초 요청7개/별도판단7개/원본보존·검증시도/handoffReview를 읽었다. 원조회/편집주체 resume22_evidence와 재개 담당 resume35_evidence를 구분하고 과거 체크시각/해시/unreviewed를 보존한다. 새 담당은 providerRequestsPerformed0과 원응답 재파싱 불가를 명시하며, 자신의 projection-schema 가정 실패와 수정 후 독립검증을 모두 남겼다. 원 공급자 응답을 내가 재조회/파싱한 것으로 평가하지 않는다.",
+        "value": "current/playlist4ID의 실제 근거7번호를 보강해 TJ28→32곡·KY24→27곡의 공식 확인 탐색을 확장한다. 번호가 없는 Tani KY나 판단보류 SAM/Ado를 미수록/확인으로 추정하지 않아 필터를 믿고 선택하는 사용자의 실제 번호 확인 문제를 개선한다. 59번호와32곡을 구분하며 새차트/전체카탈로그/권리·AdSense 승인을 주장하지 않는다.",
+        "maintainability": "별도 append-only ledger와 원 후보→편집판단→정확한 ledger index의 연결을 유지해 원77을 덮지 않는다. base/branch/실제 actor·시각/hash·frozen 입력·실패·현재 검증 한계를 명시해 /tmp 소실 뒤에도 자료를 재개할 수 있다. 기존 helper·staging/chart/identity/globalCSS를 변경하지 않으며 새 담당의 검사 오류를 데이터 수정으로 감추지 않았다. 할당 범위에 필수 보완을 요구할 실제 결함을 발견하지 못했다."
+      },
+      "reason": "Issue35 자료·콘텐츠 근거의 지정4ID/7조회·개별편집판단·원77/동결자료/unknown 보존과 정직한 재시작 인계 기준을 충족한다. 원 요청의 수행과 재개 담당의 독립 파일 검증 책임을 구분하여 수용한다.",
+      "evidence": [
+        "/workspace/jpoptoday/data/reviewed/provider-corrections.json:1161",
+        "/workspace/docs/data/provider-review-20261017-2200.md:16",
+        "/workspace/docs/data/provider-review-20261017-2200.md:40",
+        "/workspace/docs/data/provider-review-20261017-2200.md:107",
+        "/workspace/docs/data/provider-review-20261017-2200.md:151",
+        "/workspace/docs/data/provider-review-requests-20261017-2200.json:17",
+        "/workspace/docs/data/provider-review-requests-20261017-2200.json:190",
+        "/workspace/docs/data/provider-review-requests-20261017-2200.json:522",
+        "읽기전용 git show 2964f7ea3f8c43f147422107f40629f51c010698:data/reviewed/provider-corrections.json 및 현재 JSON 대조:77→84·원77객체/순서/상위metadata/rawprefix 동일·새7 candidate/judgment/ledger 전체필드 일치·현재rawSHA256 dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1·동결5파일 base바이트/hash 동일"
+      ],
+      "acceptance": "accepted_for_assigned_handoff_scope",
+      "requiredChanges": [],
+      "limitations": [
+        "이 평가자는 공급자 요청/원HTML 재파싱·음원/반주기 모델·권리·Google계정/심사를 수행하지 않았다. HTTP200/hash는 보존된 원조회 영수증의 관측이다.",
+        "후보·별도판단·ledger 및 base/frozen 파일의 읽기 대조만 직접 수행했다. 새 담당의 Node projection 검증은 영속 handoffReview를 읽은 것이며 내 실행으로 쓰지 않는다.",
+        "현재 dirty source의 자료 수용이며 clean-SHA CI·두target재현·실제 preview/운영·old복구/new재적용·Release는 root의 별도 미완료 게이트다."
+      ]
+    },
+    {
+      "reviewer": "/root/resume35_quality",
+      "candidate": "/root/resume35_app",
+      "reviewedAt": "2026-10-17T18:13:09.802567Z",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "Search.astro 전체와 app.ts 전체/diff를 직접 읽었다. 기존 number URL토글·전체의 number만해제·조건해제의전체query초기화·page reset·history·storage/ID경로는 유지하고 새 confirmed-tj/ky 라벨과 선택업체 범위/AND/0건≠미수록/JSoff미적용 안내를 추가한다. 공용 matcher를 계속 사용해 앱에서 별도 느슨한 확인 판정을 만들지 않는다. 번호/저장 데이터·globalCSS를 바꾸지 않고 data-list-view한정 grid와44px 조건을 적용한다.",
+        "evidence": "앱 문서의 원22담당 QA와 새35인계절, 최초fail JSON/수정후9흐름12PNG JSON/UI색인을 직접 읽었다. 초기모바일 겹침·수정후업체행·JSoff검색·빈favorites·desktop PNG5개를 실제 열어 기록과 대조했다. 최초43.921875px실패 및 배지 겹침을 보존하며 수정후에는 라벨/번호/배지가 분리되고 선택범위/0건/JSoff 안내와 원색을 읽을 수 있다. 인계 담당이 과거 브라우저를 자신이 실행했다고 쓰지 않고 /tmp 소실과 dirty local/원격pending을 명시한다.",
+        "value": "검색/홈/저장에서 공식 확인 근거가 있는 업체별 곡만 골라 번호를 사용하게 하고 둘 선택의 교집합 및 다른업체의 관측 가능성을 이해하게 한다. 0건과 미수록을 구분하고 JSoff 사용자는 현재 SSR의 미적용과 실제 근거목록/가이드로 회복할 수 있다. 실제360px 겹침/세로배지와 작은목표를 해결하여 노래방에서 번호 읽기·복사·저장의 사용성을 개선한다.",
+        "maintainability": "기존 Search컴포넌트/URL handler/공용 matcher를 확장하고 공통 라벨맵을 summary/recent에서 재사용한다. 스타일은 소유 Search의 조건 영역과 data-list-view모바일에 한정되며 chart/globalCSS·의존성·공용계약·storage 스키마를 수정하지 않는다. 실제 초기실패→보완→영속JSON/PNG와 sourcebase/담당/미실행 게이트를 남겨 재개가 가능하다. 인계 검토에서 추가 제품 수정이 필요한 실증 결함을 발견하지 못했다."
+      },
+      "reason": "Issue35 앱·디자인의 업체별 확인 탐색, 기존 URL/저장 호환, 사실에 맞는 안내와 JSoff/360px/키보드/브랜드 기준을 할당된 로컬·인계 범위에서 충족한다. 원 QA와 현재 인계 책임 및 원격 미완료를 분리하여 수용한다.",
+      "evidence": [
+        "/workspace/jpoptoday/src/components/Search.astro:9",
+        "/workspace/jpoptoday/src/components/Search.astro:19",
+        "/workspace/jpoptoday/src/components/Search.astro:21",
+        "/workspace/jpoptoday/src/scripts/app.ts:6",
+        "/workspace/jpoptoday/src/scripts/app.ts:120",
+        "/workspace/jpoptoday/src/scripts/app.ts:179",
+        "/workspace/docs/engineering/confirmed-search-20261017-2200.md:28",
+        "/workspace/docs/engineering/confirmed-search-20261017-2200.md:53",
+        "/workspace/docs/operations/runs/resume-20261017-2200-app-initial-qa.json:1",
+        "/workspace/docs/operations/runs/resume-20261017-2200-app-fixed-qa.json:1",
+        "/workspace/docs/operations/runs/resume-20261017-2200-app-fixed-qa.json:443",
+        "/workspace/docs/operations/runs/resume-20261017-2200-ui-qa.json:90",
+        "/workspace/docs/engineering/design/confirmed-search-20261017-2200/quality-initial-confirmed-search-mobile-both.png",
+        "/workspace/docs/engineering/design/confirmed-search-20261017-2200/quality-fixed-confirmed-search-mobile-provider-rows.png",
+        "/workspace/docs/engineering/design/confirmed-search-20261017-2200/app-fixed-js-off-search.png",
+        "/workspace/docs/engineering/design/confirmed-search-20261017-2200/app-fixed-favorites-mobile.png",
+        "/workspace/docs/engineering/design/confirmed-search-20261017-2200/app-fixed-search-desktop.png"
+      ],
+      "acceptance": "accepted_for_assigned_handoff_scope",
+      "requiredChanges": [],
+      "limitations": [
+        "원9흐름/12PNG의 실행자는 resume22_app이다. 이 평가자는 영속JSON/PNG와 현재 소스/diff를 직접 읽었으며 새 브라우저를 실행하지 않았다.",
+        "JSoff3개 console은 원래 별도 수집되지 않았으며 실제기기·다른엔진·보조기술·필드성능을 검증했다고 쓰지 않는다.",
+        "원QA는 base2964f7e dirty preview이다. 재개 canonical325/type0/artifact 및 39PASS 영수증은 root 결과로 읽었고 최신품질 assertion후 전체39재실행 최종판정·clean-SHA CI/실제preview·운영·복구/Release는 이 평가로 대체하지 않는다."
+      ]
+    }
+  ],
+  "ranking": "두 배정계약의 충족근거가 각20점으로 동률이다. 변화량·말수로 순위를 만들지 않으며 총6개와 root 실제 검증/사전 동률규칙 없이는 최저/교체를 정하지 않는다.",
+  "readOnlyBoundary": {
+    "sourceChanged": false,
+    "existingDocsChanged": false,
+    "gitMutated": false,
+    "testsOrBrowserRun": false,
+    "providerRequests": 0,
+    "onlyNewOwnedFile": "/workspace/docs/operations/runs/resume-20261017-2200-handoff-quality-reviews.json"
+  }
+}
