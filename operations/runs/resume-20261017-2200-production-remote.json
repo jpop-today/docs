@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-17 18:30:04 UTC",
+  "run": 39058025419,
+  "job": 117469942325,
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "state": "success",
+  "e2e": 39,
+  "localProductionE2E": 39,
+  "verifyOnly": true,
+  "actionsCloudflareBindings": "missing/deploy skipped, actual managed cloud deployment separately verified",
+  "safeVerificationLines": [
+    "2026-10-17T18:25:54.0538193Z ℹ tests 325",
+    "2026-10-17T18:25:54.0538971Z ℹ pass 325",
+    "2026-10-17T18:25:54.0539185Z ℹ fail 0",
+    "2026-10-17T18:26:00.8340009Z - 0 errors",
+    "2026-10-17T18:26:00.8340366Z - 0 warnings",
+    "2026-10-17T18:26:00.8340690Z - 0 hints",
+    "2026-10-17T18:26:07.3120628Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source ed22f924536d28fa990d7688b6ba352446984140",
+    "2026-10-17T18:26:14.2718198Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (49 indexable), 3347 files; source ed22f924536d28fa990d7688b6ba352446984140",
+    "2026-10-17T18:27:26.2140917Z   39 passed (48.5s)",
+    "2026-10-17T18:27:26.2478679Z \u001b[36;1mconsole.log(ready ? 'Cloudflare Actions bindings configured' : 'Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available');\u001b[0m",
+    "2026-10-17T18:27:26.2907753Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+    "2026-10-17T18:28:36.2472432Z   39 passed (1.1m)"
+  ],
+  "scope": "Same-M CI/preview bytes/local39 and actual jpop.today SHA/browser39; managed deployment preserved"
+}

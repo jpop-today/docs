@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-17T18:31:28.819234+00:00",
+  "reads": [
+    {
+      "repo": "jpop-today/.github",
+      "resource": "commits/main",
+      "sha": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+    },
+    {
+      "repo": "jpop-today/jpoptoday",
+      "resource": "commits/main",
+      "sha": "ed22f924536d28fa990d7688b6ba352446984140"
+    },
+    {
+      "repo": "jpop-today/docs",
+      "resource": "commits/main",
+      "sha": "d679cf57592b285a30d762784fdb62ae0bf73581"
+    },
+    {
+      "repo": "jpop-today/docs",
+      "resource": "pulls/1",
+      "state": "closed",
+      "merged": false,
+      "head": "d1948d4134beadfcd99670b554d5cb5c7941147c"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "requestedAt": "2026-10-17T18:25:29.348454+00:00",
+  "workflow": "production.yml",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "previewURL": "https://cbf1faa6.jpoptoday-preview.pages.dev",
+  "verifyOnly": true,
+  "dispatchExitCode": 0
+}

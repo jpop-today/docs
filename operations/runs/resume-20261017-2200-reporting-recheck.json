@@ -1,0 +1,45 @@
+{
+  "sourceMain": {
+    "sha": "ed22f924536d28fa990d7688b6ba352446984140"
+  },
+  "docsMain": {
+    "sha": "d679cf57592b285a30d762784fdb62ae0bf73581"
+  },
+  "sourcePRs": [],
+  "docsPRs": [
+    {
+      "number": 20,
+      "head": "04103e5d1219db4fa314afcb178274c4ee7ab12d",
+      "title": "Issue35 공식 확인 검색 스펙·실제 근거·검증 및 인계 평가"
+    }
+  ],
+  "issue": {
+    "number": 35,
+    "state": "open",
+    "updatedAt": "2026-10-17T18:24:04Z"
+  },
+  "release": {
+    "id": 415990362,
+    "tag": "v0.4.5",
+    "publishedAt": "2026-10-17T18:32:55Z",
+    "draft": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.5"
+  },
+  "production": {
+    "deployment": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+    "sha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    }
+  },
+  "checkedAt": "2026-10-17T20:59:55.912893+00:00",
+  "scope": "Reporting resume after interrupted turn; no new implementation/deploy/Release/worker."
+}

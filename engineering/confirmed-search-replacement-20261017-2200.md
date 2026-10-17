@@ -69,3 +69,23 @@ base2964와 현재의 `data/staging/legacy-catalog.json`, `data/chart-snapshot.j
 | `data/reviewed/provider-corrections.json` raw bytes | `dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1` |
 
 문서의 상대 링크는 실제 로컬 대상과 대조했다. 후속 실행 결과를 전달받기 전까지 위 관측 범위를 유지한다.
+
+## 후속 읽기 · clean M의 CI·재현·실제 preview
+
+2026-10-17T18:23:17Z(10월18일03:23:17 KST)에 새 읽기 턴에서 현재 source HEAD `ed22f924536d28fa990d7688b6ba352446984140`와 clean status를 직접 확인했다. 이는 [소스 PR36](https://github.com/jpop-today/jpoptoday/pull/36) 병합 M이며 원 base/첫 감사 HEAD와 구분한다. 환경은459/current/running으로 재확인했다. 아래의 **새 영수증만 추가로 읽었으며** 위의 원6개 평가 점수·이유나 소스는 바꾸지 않았다.
+
+| 새 게이트 | 실제 읽은 결과와 SHA | 근거 |
+| --- | --- | --- |
+| main 앱·계약 CI | 같은 M의 app39057562960: canonical325/0fail, 타입0/0/0, preview artifact3347files/3336HTML/0index·브라우저39 PASS/52.9초, production artifact3347files/3336HTML/49index·브라우저39 PASS/33.4초. 별도 contracts39057563024도325/0fail. | [main CI의 허용된 실제 로그 행](../operations/runs/resume-20261017-2200-ci-main.json). 이전 dirty39나 targeted8로 최신 assertion의 전체 통과를 대신하지 않고, 이 같은 M의 CI39+39를 후속 근거로 읽었다. |
+| 두 target 재현 |18:19:25.182797Z–18:19:57.099745Z, target마다 clean M으로2회 빌드. 각3347 전체 파일 집합과 모든 파일 SHA256이 동일하고 metadata dirty:false다. 두 target은 같은 catalog/ledger/chart hash를 사용하며 target별 manifest는 구분된다. | [전체 파일 재현 영수증](../operations/runs/resume-20261017-2200-reproducibility.json). **전체 CI archive와 로컬의 비교는 미실행**이며 이 결과로 주장하지 않는다. |
+| 실제 전용 preview 배포 | 기존 c06ff6d6/Mf959f36에서 `cbf1faa6-973e-4b81-8360-df914d92bc4f`/동일 M으로 변경되고 API status success. 실제 URL은 [cbf1faa6 preview](https://cbf1faa6.jpoptoday-preview.pages.dev). | [관리자 cloud 배포/API 영수증](../operations/runs/resume-20261017-2200-preview-deployment.json),18:21:24.796239Z. 전용 preview 프로젝트이며 jpop.today 운영 전환과 다르다. |
+| 실제 preview 엄격 HTTP |18:22:01.463Z–18:22:04.530Z, 같은 M/target preview·27check/1attempt PASS. 전후 build-info, catalog/본문/자산과 expected artifact의 일치·비공개/없는 경로404를 읽었다. | [preview HTTP 영수증](../operations/runs/resume-20261017-2200-preview-http.json). 정상 바이트/정책 게이트의 관측 범위이며 모든 CDN 동시 상태나 Google 승인을 뜻하지 않는다. |
+
+이 후속은 root 실행의 영수증을 읽은 감사이며 이 담당이 CI·빌드·배포·HTTP를 중복 실행한 것이 아니다. 실제 배포 URL을 대상으로 하는 원격 preview workflow39057771259는 관리자 마지막 통보에서 진행 중이므로 이 문서에서 성공으로 확정하지 않는다. 실제 jpop.today의 새 M 운영·원격 브라우저, old rollback→new restore, Release는 아직 이 턴에서 수신/읽지 않은 후속 게이트다. main의 production artifact39 PASS를 실제 운영 브라우저39 PASS로 바꾸지 않는다. 새 사실을 추가한 뒤 이 문서를 다시 동결한다.
+
+
+## 관리자 인계 마감 · 2026-10-17T21:01:05.112337+00:00
+
+이 절의 작성/읽기 주체는 root다. 교체 담당이 마지막으로 직접 동결한 범위는 위18:23:17Z 코드/CI·재현·전용preview HTTP 감사다. 이후 원격운영/복구/Release 읽기 추가요청은 실행 중단으로 새 교체담당 결과를 남기지 못했고, 지금 협업목록은 root만 관측된다. 이 후속을 교체 담당이 읽었다고 기록하거나 원6평가 점수를 바꾸지 않는다. 추가 worker 없이 기존 인계 자료로 보고를 마감한다.
+
+관리자는 [자료 담당 최종 보충수용](../operations/runs/resume-20261017-2200-final-evidence-acceptance.json)과 [품질 담당 최종 보충수용](../operations/runs/resume-20261017-2200-final-quality-acceptance.json)을 읽고 실제sameM 원격preview39/운영39·oldv04427/1→첫구카탈로그거부→newv04527/2, Release415990362·태그M/ReleaseDiscordsent1과 일치함을 확인했다. 이 두 기록은 각 기존 담당의 실제18:35 최종 읽기이며 새 점수가 아니다. [재개 API 상태](../operations/runs/resume-20261017-2200-reporting-recheck.json)와 [새 운영 엄격 HTTP](../operations/runs/resume-20261017-2200-reporting-resume-http.json)는 여전히 제품M/a268291a·27검사/1시도 성공이다. 최초 복원 CATALOG_MISMATCH와 짧은3회 원문URL 관측을 보존하며 전체CDN/연속업타임·Google승인을 보장하지 않는다. 교체 코드 감사의 현재 추가수정없음 판단과 실제최종통합 게이트를 수용한다. 관리자 완료보고·송신은 해당run의 후속 영수증에서 별도 확인한다.

@@ -4,7 +4,7 @@
   "date": "2026-10-17",
   "timezone": "Asia/Seoul",
   "startedAt": "2026-10-17T13:00:05Z",
-  "phase": "source_pr_ci",
+  "phase": "product_complete_reporting",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/35",
   "base": {
     "source": "2964f7ea3f8c43f147422107f40629f51c010698",
@@ -93,6 +93,9 @@
       "sentAt": "2026-10-17T13:07:58.6096559Z",
       "attempts": 1,
       "evidence": "resume-20261017-2200-start-discord.json"
+    },
+    "completed": {
+      "state": "pending_after_saved_report_main_merge"
     }
   },
   "updatedAt": "2026-10-17T18:17:29.152491+00:00",
@@ -176,7 +179,9 @@
     "head": "ae1332d64912f4a7caf9eeb939f73b550c12369c",
     "base": "2964f7ea3f8c43f147422107f40629f51c010698",
     "createdAt": "2026-10-17T18:15:23Z",
-    "appAttachment": "tool requested; host response timed out; no success claim"
+    "appAttachment": "tool requested; host response timed out; no success claim",
+    "merged": true,
+    "mergeSha": "ed22f924536d28fa990d7688b6ba352446984140"
   },
   "localRerun": {
     "canonicalTests": 325,
@@ -200,5 +205,118 @@
     "strictChecks": 27,
     "attempts": 1,
     "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c"
+  },
+  "productSourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "docsPR": {
+    "number": 20,
+    "head": "04103e5d1219db4fa314afcb178274c4ee7ab12d",
+    "state": "open",
+    "nativeAttachment": "requested,timeout; not claimed successful"
+  },
+  "sameSourceCI": {
+    "evidence": "resume-20261017-2200-ci-main.json",
+    "appRun": 39057562960,
+    "contractsRun": 39057563024,
+    "canonicalTests": 325,
+    "typeErrors": 0,
+    "previewE2E": 39,
+    "productionArtifactE2E": 39
+  },
+  "reproducibility": "resume-20261017-2200-reproducibility.json",
+  "preview": {
+    "deployment": "cbf1faa6-973e-4b81-8360-df914d92bc4f",
+    "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "strictHTTP": {
+      "checks": 27,
+      "attempts": 1,
+      "evidence": "resume-20261017-2200-preview-http.json"
+    },
+    "remoteWorkflow": 39057771259,
+    "remoteState": "success",
+    "e2e": 39,
+    "remoteEvidence": "resume-20261017-2200-preview-remote.json"
+  },
+  "production": {
+    "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "deployment": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+    "managedCloud": "success",
+    "strictHTTP": {
+      "checks": 27,
+      "attempts": 1,
+      "evidence": "resume-20261017-2200-production-http.json"
+    },
+    "workflow": 39058025419,
+    "verifyOnly": true,
+    "remoteState": "success",
+    "recovery": "success",
+    "e2e": 39,
+    "remoteEvidence": "resume-20261017-2200-production-remote.json",
+    "recoveryEvidence": "resume-20261017-2200-recovery.json",
+    "rollbackAttempts": 1,
+    "restoreAttempts": 2,
+    "restoreFirstCode": "CATALOG_MISMATCH"
+  },
+  "productCompletedAt": "2026-10-17T18:35:12.214096+00:00",
+  "completedKoreanDate": "2026-10-18",
+  "release": {
+    "checkedAt": "2026-10-17T18:34:03.355016+00:00",
+    "version": "0.4.5",
+    "tag": "v0.4.5",
+    "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "state": "published",
+    "releaseId": 415990362,
+    "publishedAt": "2026-10-17T18:32:55Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.5",
+    "annotatedTagSha": "ab52dcda99338db23278ecbb877085d89a9a16b5",
+    "tagTargetSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "tagTargetType": "commit",
+    "workflowRun": 39058435099,
+    "workflowConclusion": "success",
+    "notification": {
+      "state": "sent",
+      "attempts": 1,
+      "sentAt": "2026-10-17T18:32:56.2624361Z",
+      "job": 117471526188,
+      "safeLogEvidence": "resume-20261017-2200-release-logs.json"
+    },
+    "verification": {
+      "canonicalUnit": 325,
+      "e2e": 39,
+      "logs": "resume-20261017-2200-release-logs.json"
+    }
+  },
+  "reportingResume": {
+    "checkedAt": "2026-10-17T21:01:05.112337+00:00",
+    "actualCollaborationRoster": [
+      "/root"
+    ],
+    "newWorkersCreated": 0,
+    "purpose": "Complete remaining docs/report/notification integration for verified Issue35; no new independent product work",
+    "environmentStatusTool": "timeout10s; current revision not asserted from prior459",
+    "threadList": "timeout5s; no distributed lock claim",
+    "actualGitHubAndCloudflareAPI": "success; sourceM/docsPR20only/release415990362/productiona268 unchanged",
+    "actualHTTP": {
+      "checks": 27,
+      "attempts": 1,
+      "evidence": "resume-20261017-2200-reporting-resume-http.json"
+    }
+  },
+  "managerFinalAcceptance": {
+    "checkedAt": "2026-10-17T21:01:05.112337+00:00",
+    "sixScoresFrozen": true,
+    "finalSupplementalEvidence": [
+      "resume-20261017-2200-final-evidence-acceptance.json",
+      "resume-20261017-2200-final-quality-acceptance.json"
+    ],
+    "sameProductM": "ed22f924536d28fa990d7688b6ba352446984140",
+    "actualFreshHTTP": 27,
+    "replacementCodeAudit": "Actual source/selector/base/provenance/CI-preview audit completed. Later optional remote-audit followup interrupted before output; root closes integration with two saved final peer supplements and actual receipts. No fabricated replacement read/vote.",
+    "documentationValidation": {
+      "relativeTargets": 124,
+      "missing": 0,
+      "runJSONParsed": 44
+    }
   }
 }

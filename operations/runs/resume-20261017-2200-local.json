@@ -58,6 +58,19 @@
       "cause": "existing deferred-guide ledger total fixed at77; independently reviewed append7 makes84",
       "evidence": "/tmp/jpop-20261017-full-preview-e2e.log",
       "correction": "root preserves original77 parsed-prefix SHA256, minimum77; exact deferred pairs and full current ledger/build hash remain required"
+    },
+    {
+      "stage": "old CI artifact retrieval after environment restart",
+      "result": "CLI redirect forbidden. Error output included a temporary signed artifact URL; connector metadata was also initially printed without sufficient filtering. No URL/value retained in committed files. Subsequent diagnostics allowlisted, retrieval completed via purpose-built connector plus workspace file download.",
+      "correction": "Suppress CLI stderr and raw connector result; retain artifact ID/name/SHA/bytes only. Temporary download metadata dropped from session store."
+    },
+    {
+      "stage": "actual production rollback/restore",
+      "result": "oldv044 rollback27checks/1attempt passed. Newv045 restore first attempt rejected old catalog bytes with CATALOG_MISMATCH; second attempt27checks passed. Strict retry gate unchanged.",
+      "oldCatalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+      "newCatalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "evidence": "resume-20261017-2200-restore-http.json",
+      "scope": "Bounded observed responses, not all CDN convergence/continuous uptime"
     }
   ],
   "verification": {

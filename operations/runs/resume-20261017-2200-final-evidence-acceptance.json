@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261017-2200",
+  "reviewer": "/root/resume35_evidence",
+  "reviewedAt": "2026-10-17T18:35:16.703421Z",
+  "status": "accepted_with_explicit_boundaries",
+  "method": "Read existing actual root receipts, all rollback/restore check records and final frozen artifact; read-only Git show for source identity. No provider/HTTP/browser/test/deploy rerun. Only this new acceptance JSON was written.",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "readFiles": [
+    {
+      "file": "operations/runs/resume-20261017-2200-ci-main.json",
+      "sha256": "3fa88a0ee11db4f68522671ba00bf0e19008a409f1b1513389c52a71df1dc66c"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-preview-remote.json",
+      "sha256": "6b5dfaea7bcc446763b2778bd15d53b42fff6b144b53f0c3e2b6da51cc85f0fb"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-preview-http.json",
+      "sha256": "148c6d1a1967c432ad06806c1e322a6d22e37d00cb7fbeb68bf7da813e48177a"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-production-deployment.json",
+      "sha256": "087b0858837ec80cfa09515690a3eada0ef9755cefce863dedb433b8e91c7ee0"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-production-remote.json",
+      "sha256": "9dda5428d9e0fbf137959f50220e890c72b5e0c8ee8f72c34cbaf1b4e528a3a9"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-production-http.json",
+      "sha256": "f0a73015ef293b9b97c8732a150682f3b1fe066e1f8f9643e6723832c3017f5f"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-recovery.json",
+      "sha256": "492bbce65de5ea85b54b883e27c0be19cce315df667d1fe0f3f4f90ea850ef3e"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-rollback-http.json",
+      "sha256": "0bc880c735af4eb4d96603de02f27d3b22b618a872e3af95f0c59fb0b162c7e2"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-restore-http.json",
+      "sha256": "bedb815c7a187783b7d31c791454f28e22ab2be072433c349007533858f75cd4"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-reproducibility.json",
+      "sha256": "f0699670b0c00679d999256357f440ec09c8c92f2e40224e6279300424cac223"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-release.json",
+      "sha256": "6b9db8c184a1f609cd1a61228b92025ca6cb6dac9b13ebdbb8ec52e114e9eab2"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-release-logs.json",
+      "sha256": "7d0e9f3cca52afec01089c63e9dd3fcf45d17791b0def237817e2ef3ce924fae"
+    },
+    {
+      "file": "operations/runs/resume-20261017-2200-origin-observe.json",
+      "sha256": "ee36dd65d6838688683ad58df78f8f09593618ab098ef9f5f65f2995f69c12c4"
+    }
+  ],
+  "sourceAndData": {
+    "baseSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+    "mainLedgerBytesIdenticalToReviewedWorktree": true,
+    "original77ObjectsOrderAndRawPrefixPreserved": true,
+    "appendedConfirm": 7,
+    "ledgerEntries": 84,
+    "rawLedgerSha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+    "serializedLedgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+    "frozenProductionCatalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+    "actualHttpCatalogHashEqualsFrozenArtifact": true,
+    "sevenExactProviderEntriesMatchLedger": true,
+    "taniKyUnknownUnchanged": true,
+    "samAdoKyDeferredUnchanged": true,
+    "stableIds": 3317
+  },
+  "ciAndRemote": {
+    "mainCiRun": 39057562960,
+    "contractsRun": 39057563024,
+    "canonicalUnit": 325,
+    "typeErrorsWarningsHints": [
+      0,
+      0,
+      0
+    ],
+    "mainPreviewAndProductionE2E": [
+      39,
+      39
+    ],
+    "actualPreviewRun": 39057771259,
+    "actualPreviewE2E": 39,
+    "actualProductionRun": 39058025419,
+    "actualProductionE2E": 39,
+    "productionDeploymentId": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+    "deploymentMethod": "managed cloud",
+    "actionsCloudflareBindings": "missing; verify_only workflow deployment skipped, managed deployment is separate"
+  },
+  "recovery": {
+    "oldSourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "oldDeploymentId": "b91efaaa-b971-442b-b520-1505968ef532",
+    "rollback": {
+      "passed": true,
+      "attempts": 1,
+      "checks": 27,
+      "checkedAt": "2026-10-17T18:30:38.217Z"
+    },
+    "restoreFirstRejected": {
+      "code": "CATALOG_MISMATCH",
+      "checksBeforeStop": 2,
+      "newMetadataPassed": true,
+      "actualCatalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+      "expectedCatalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "observation": "The actual catalog hash equals the verified old rollback catalog; new metadata alone was correctly insufficient."
+    },
+    "restoreFinal": {
+      "passed": true,
+      "attempts": 2,
+      "checks": 27,
+      "checkedAt": "2026-10-17T18:30:43.741Z"
+    },
+    "personalSourceDevAndFalseNonePreserved": true,
+    "normalizationBoundary": "Expected artifact comparisons retain the existing narrowly scoped Cloudflare email-exclusion marker normalization; no general body mismatch acceptance."
+  },
+  "originFollowup": {
+    "startedAt": "2026-10-17T18:32:29.577Z",
+    "checkedAt": "2026-10-17T18:33:00.097Z",
+    "rounds": 3,
+    "allPlainMetadataCatalogMetadataSameMAndNewHash": true,
+    "scope": "Three ordinary build-info/catalog/build-info observations over a short bounded interval after recovery. No all-CDN or continuous uptime claim."
+  },
+  "releaseObservation": {
+    "earlierParentRequestState": "Release run39058435099 was still pending when this supplemental task was assigned. This is a separate later receipt read, not a retrospective success claim.",
+    "receiptReadAt": "2026-10-17T18:35:16.703421Z",
+    "state": "published",
+    "releaseId": 415990362,
+    "publishedAt": "2026-10-17T18:32:55Z",
+    "annotatedTagSha": "ab52dcda99338db23278ecbb877085d89a9a16b5",
+    "targetSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "workflowRun": 39058435099,
+    "canonicalUnit": 325,
+    "e2e": 39,
+    "discord": {
+      "state": "sent",
+      "attempts": 1,
+      "sentAt": "2026-10-17T18:32:56.2624361Z",
+      "job": 117471526188,
+      "safeLogEvidence": "resume-20261017-2200-release-logs.json"
+    },
+    "scope": "Actual release and release notification receipts read; final manager completion report/Discord are separate root followups."
+  },
+  "originalSixReviews": {
+    "count": 6,
+    "scoresChanged": false,
+    "filesModified": false,
+    "frozenFileSha256": {
+      "resume-20261017-2200-reviews.json": "2961c1f645f3e69cb108dda45b56e288a7fd518c6fe9f2e113a87b33754d5881",
+      "resume-20261017-2200-handoff-evidence-reviews.json": "91b813f3acd6454a4269b1f04abbca28e0098acb1560eac09ee7358ab9254baf",
+      "resume-20261017-2200-handoff-app-reviews.json": "05e332c39ee6a3264990e03c84c3a1140ed5ebeb2e71a5e7194b877c58416a5f",
+      "resume-20261017-2200-handoff-quality-reviews.json": "8510cae2176c506d295d0e04fa546a9e7fac0191853aefe81a50815ee4349b9d"
+    }
+  },
+  "accepted": [
+    "Same-M reviewed source data, canonical CI and actual preview/production39 evidence form a consistent chain.",
+    "Actual old27/1 rollback and new first rejected stale catalog then27/2 restore preserve failure and recovery separately.",
+    "Current reviewed7 official entries and prior77/deferred/unknown semantics match the frozen artifact whose catalog hash was actually served.",
+    "The later published Release and sent1 release notification are supported by newly read explicit receipts."
+  ],
+  "unconfirmed": [
+    "This reviewer did not independently issue network/provider/deploy requests; root receipts and source/artifact identity were read directly.",
+    "Full CI archive versus local every-file comparison was not performed; local two-build reproducibility receipt states this boundary.",
+    "The actual production browser39 completed before rollback/restore; the post-restore check is strict27 plus three bounded ordinary origin observations, not a new post-restore39 run.",
+    "All-CDN convergence, continuous uptime, actual devices/other engines/assistive technology and AdSense account/submission/approval/rights/legal consent remain unestablished.",
+    "Report-only PRs, final manager Discord and final docs integration remain root followups."
+  ],
+  "requiredChanges": []
+}

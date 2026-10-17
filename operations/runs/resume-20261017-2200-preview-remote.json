@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-17 18:24:31 UTC",
+  "run": 39057771259,
+  "job": 117469191589,
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "url": "https://cbf1faa6.jpoptoday-preview.pages.dev",
+  "state": "success",
+  "e2e": 39,
+  "safeVerificationLines": [
+    "2026-10-17T18:22:26.7428872Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source ed22f924536d28fa990d7688b6ba352446984140",
+    "2026-10-17T18:24:02.6991957Z   39 passed (1.1m)"
+  ],
+  "scope": "Actual deployed Pages, clean same-M frozen artifact and browser"
+}

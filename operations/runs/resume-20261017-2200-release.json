@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-17T18:34:03.355016+00:00",
+  "version": "0.4.5",
+  "tag": "v0.4.5",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "state": "published",
+  "releaseId": 415990362,
+  "publishedAt": "2026-10-17T18:32:55Z",
+  "draft": false,
+  "prerelease": false,
+  "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.5",
+  "annotatedTagSha": "ab52dcda99338db23278ecbb877085d89a9a16b5",
+  "tagTargetSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "tagTargetType": "commit",
+  "workflowRun": 39058435099,
+  "workflowConclusion": "success",
+  "notification": {
+    "state": "sent",
+    "attempts": 1,
+    "sentAt": "2026-10-17T18:32:56.2624361Z",
+    "job": 117471526188,
+    "safeLogEvidence": "resume-20261017-2200-release-logs.json"
+  },
+  "verification": {
+    "canonicalUnit": 325,
+    "e2e": 39,
+    "logs": "resume-20261017-2200-release-logs.json"
+  }
+}
