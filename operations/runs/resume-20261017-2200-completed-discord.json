@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-17 21:06:53 UTC",
+  "state": "sent",
+  "run": 39069426289,
+  "job": 117503754599,
+  "sourceSha": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+  "productSourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "reportDate": "2026-10-18",
+  "mode": "completed",
+  "attempts": 1,
+  "sentAt": "2026-10-17T21:05:09.4330074Z",
+  "safeResults": [
+    "2026-10-17T21:05:09.1399377Z Report prepared: completed (2026-10-18); delivery not yet confirmed.",
+    "2026-10-17T21:05:09.4330074Z Discord notification sent (1 attempt)."
+  ],
+  "scope": "Exactly one explicit manager completed dispatch through existing workflow/Actions binding; Release notice and automatic CI notifications separate. No webhook value read or retained by manager.",
+  "payloadIdentity": "Saved reports/daily/2026-10-18.json title/summary/four fields/url match prepared local payload and docs; same content used for final chat."
+}

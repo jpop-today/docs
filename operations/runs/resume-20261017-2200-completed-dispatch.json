@@ -1,0 +1,9 @@
+{
+  "requestedAt": "2026-10-17T21:05:02.858948+00:00",
+  "workflow": "discord.yml",
+  "mode": "completed",
+  "reportDate": "2026-10-18",
+  "sourceRef": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+  "exitCode": 0,
+  "scope": "Exactly one explicit completed dispatch; existing workflow reads Actions secret safely, no webhook read by manager"
+}

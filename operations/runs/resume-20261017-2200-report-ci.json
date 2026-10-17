@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-17T21:07:23.312642+00:00",
+  "reportSha": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+  "productSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "scope": "Main report-only R CI. Runtime/tag/preview remain independently verified product M; reports never deployed.",
+  "runs": [
+    {
+      "run": 39069403911,
+      "name": "app",
+      "sha": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 117503681237,
+          "name": "app",
+          "conclusion": "success"
+        },
+        {
+          "id": 117503681359,
+          "name": "production-artifact",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "run": 39069403817,
+      "name": "contracts",
+      "sha": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "id": 117503680669,
+          "name": "contracts",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}
