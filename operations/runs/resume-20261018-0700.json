@@ -1,0 +1,86 @@
+{
+  "runId": "resume-20261018-0700",
+  "issue": 38,
+  "state": "in_progress",
+  "startedAt": "2026-10-17T22:01:33Z",
+  "timezone": "Asia/Seoul",
+  "base": {
+    "source": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+    "docs": "dbc3196441c01368d621c6b65b29c1ddede1a1e2",
+    "org": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+  },
+  "branch": "codex/38-favorites-export-status",
+  "goal": "즐겨찾기 복사 텍스트에서 업체별 검증 상태 보존",
+  "roster": [
+    {
+      "id": "/root/resume38_evidence",
+      "role": "자료·콘텐츠",
+      "files": [
+        "src/content/guides.ts:build-your-setlist",
+        "docs/content/favorites-export-20261018-0700.md"
+      ]
+    },
+    {
+      "id": "/root/resume38_app",
+      "role": "앱·디자인",
+      "files": [
+        "contracts/favorites-export.mjs",
+        "src/scripts/app.ts",
+        "src/pages/favorites.astro",
+        "docs/engineering/favorites-export-20261018-0700.md"
+      ]
+    },
+    {
+      "id": "/root/resume38_quality",
+      "role": "하네스·품질",
+      "files": [
+        "tests/favorites-export.test.mjs",
+        "e2e/favorites-export.spec.ts",
+        "e2e/app.spec.ts:bulkcopy assertion",
+        "docs/engineering/favorites-export-quality-20261018-0700.md"
+      ]
+    }
+  ],
+  "integrator": "root only Git/package/lock/type/CI/deploy",
+  "tieBreakOrder": [
+    "/root/resume38_quality",
+    "/root/resume38_evidence",
+    "/root/resume38_app"
+  ],
+  "baseline": {
+    "product": "ed22f924536d28fa990d7688b6ba352446984140",
+    "version": "0.4.5",
+    "deployment": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+    "http": "27 checks/1 attempt",
+    "openPrCounts": {
+      "source": 0,
+      "docs": 0,
+      "org": 0
+    },
+    "uncommittedBeforeWork": false,
+    "collaboration": "root only",
+    "crossChat": "list_threads timeout; no global lock claimed",
+    "environment": {
+      "observationsCurrent": true,
+      "revision": "468",
+      "phase": "running",
+      "network": "unrestricted/enforced",
+      "cfToken": "ready",
+      "cfAccount": "ready"
+    },
+    "cli": "GitHub read and docs main ff synchronization restored, prior branch/history preserved",
+    "exportReproduction": "resume-20261018-0700-baseline-export.json"
+  },
+  "schedule": "09KST and hourly unchanged; no token reset trigger or infinite session claim",
+  "adsense": {
+    "technical": "preparing",
+    "account": "unknown",
+    "application": "unknown",
+    "approval": "unknown"
+  },
+  "baselineTestSelection": [
+    "suppressed: no tests matched (not pass)",
+    "reviewed corrections: 1 passed against pinned previous dist (3.3s), export still lacks labels"
+  ],
+  "contracts": "Issue38 + product/spec.md; raw ledger84/staging/chart/3317 IDs and old URL/storage/brand fixed"
+}

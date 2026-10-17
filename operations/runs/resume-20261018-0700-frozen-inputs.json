@@ -1,0 +1,25 @@
+{
+  "base": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+  "inputs": {
+    "data/staging/legacy-catalog.json": {
+      "sha256": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+      "sameAsBase": true
+    },
+    "data/chart-snapshot.json": {
+      "sha256": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+      "sameAsBase": true
+    },
+    "data/reviewed/provider-corrections.json": {
+      "sha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+      "sameAsBase": true
+    },
+    "data/legacy-identity-baseline.json": {
+      "sha256": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+      "sameAsBase": true
+    },
+    "src/styles/global.css": {
+      "sha256": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889",
+      "sameAsBase": true
+    }
+  }
+}

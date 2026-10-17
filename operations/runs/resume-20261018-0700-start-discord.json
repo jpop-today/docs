@@ -1,0 +1,12 @@
+{
+  "run": 39073628192,
+  "job": 117516170790,
+  "checkedAt": "2026-10-17T22:06:09.265909+00:00",
+  "logReadExit": 0,
+  "delivery": "sent",
+  "selectedDeliveryLines": [
+    "notify\tDeliver or explicitly skip missing secret\t2026-10-17T22:05:33.2108195Z Discord notification sent (1 attempt)."
+  ],
+  "dispatch": "resume-20261018-0700-start-dispatch.json",
+  "secret": "Actions binding only; no value read"
+}
