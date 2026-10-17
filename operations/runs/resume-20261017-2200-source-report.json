@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-17T21:05:00.761118+00:00",
+  "pr": 37,
+  "head": "858f310d077572080007be0f196dd64c7e8fb338",
+  "mergeSha": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+  "productSourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "changedFiles": [
+    "reports/daily/2026-10-18.json",
+    "reports/runs/resume-20261017-2200.json"
+  ],
+  "onlyReportsDiffer": true,
+  "deploymentPerformed": false,
+  "notificationPayloadMatchesSavedReportAndDocs": true,
+  "payloadSha256": "737177110405a1e42f3a37d4a7e007fadc3cf1f4b4c2123b2f3b071be30fa5ce"
+}

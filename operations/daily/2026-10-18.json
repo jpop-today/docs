@@ -93,5 +93,19 @@
     "application": "unknown",
     "approval": "unknown"
   },
-  "evidenceURL": "https://github.com/jpop-today/docs/blob/main/operations/runs/resume-20261017-2200.json"
+  "evidenceURL": "https://github.com/jpop-today/docs/blob/main/operations/runs/resume-20261017-2200.json",
+  "sourceReport": {
+    "pr": 37,
+    "mergeSha": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+    "productSourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "reportsOnly": true
+  },
+  "completedNotification": {
+    "run": 39069426289,
+    "job": 117503754599,
+    "state": "sent",
+    "sentAt": "2026-10-17T21:05:09.4330074Z",
+    "attempts": 1
+  },
+  "reportingCompletedAt": "2026-10-17T21:08:59.412425+00:00"
 }

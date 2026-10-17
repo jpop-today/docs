@@ -1,0 +1,17 @@
+{
+  "updates": [
+    {
+      "issue": 6,
+      "commentId": 6241103363
+    },
+    {
+      "issue": 15,
+      "commentId": 6241104332
+    },
+    {
+      "issue": 9,
+      "commentId": 6241105422
+    }
+  ],
+  "scope": "Actual parent Issue6/15/9 notes; broader unfinished work remains open"
+}

@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-17T21:07:23.813926+00:00",
+  "sourceReportSha": "3ca14f80a1e0dbdf055882d195751c4d889a0db6",
+  "actual": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": []
+    },
+    "deployment": {
+      "id": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+      "url": "https://a268291a.todayjpop.pages.dev",
+      "created_on": "2026-10-17T18:24:52.165658Z",
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-17T18:24:54.295777Z",
+        "status": "success"
+      },
+      "deployment_trigger": {
+        "type": "ad_hoc",
+        "metadata": {
+          "branch": "dev",
+          "commit_hash": "ed22f924536d28fa990d7688b6ba352446984140",
+          "commit_message": "Merge pull request #36 from jpop-today/codex/35-confirmed-search-20261017\r\n\r\n\uc5c5\uccb4\ubcc4 \uacf5\uc2dd \ud655\uc778 \uac80\uc0c9\uacfc \ubaa8\ubc14\uc77c \ubc88\ud638 \ud589 \uac1c\uc120",
+          "commit_dirty": false
+        }
+      }
+    }
+  }
+}
