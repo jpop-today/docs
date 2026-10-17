@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-17 18:22:18 UTC",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "scope": "Actual same-M main CI job logs, allowlisted verification lines only",
+  "jobs": [
+    {
+      "id": 117468566156,
+      "name": "app",
+      "run": 39057562960,
+      "safeLines": [
+        "2026-10-17T18:19:33.0346450Z ℹ tests 325",
+        "2026-10-17T18:19:33.0347861Z ℹ pass 325",
+        "2026-10-17T18:19:33.0348248Z ℹ fail 0",
+        "2026-10-17T18:19:40.0785043Z - 0 errors",
+        "2026-10-17T18:19:40.0785435Z - 0 warnings",
+        "2026-10-17T18:19:40.0785833Z - 0 hints",
+        "2026-10-17T18:19:46.8979983Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source ed22f924536d28fa990d7688b6ba352446984140",
+        "2026-10-17T18:21:06.8423563Z   39 passed (52.9s)"
+      ]
+    },
+    {
+      "id": 117468566310,
+      "name": "production-artifact",
+      "run": 39057562960,
+      "safeLines": [
+        "2026-10-17T18:19:26.1034787Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (49 indexable), 3347 files; source ed22f924536d28fa990d7688b6ba352446984140",
+        "2026-10-17T18:20:19.8522548Z   39 passed (33.4s)"
+      ]
+    },
+    {
+      "id": 117468566484,
+      "name": "contracts",
+      "run": 39057563024,
+      "safeLines": [
+        "2026-10-17T18:19:20.4476044Z # tests 325",
+        "2026-10-17T18:19:20.4476400Z # pass 325",
+        "2026-10-17T18:19:20.4476556Z # fail 0"
+      ]
+    }
+  ]
+}

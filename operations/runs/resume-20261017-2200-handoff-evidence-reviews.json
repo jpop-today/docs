@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261017-2200",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/35",
+  "sourceBaseSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "docsBaseSha": "d679cf57592b285a30d762784fdb62ae0bf73581",
+  "reviewer": "/root/resume35_evidence",
+  "reviewedAt": "2026-10-17T18:12:42.771737Z",
+  "method": "Read-only actual file/JSON/log inspection and direct PNG viewing; no delegated or fabricated votes. Scores assess final inherited scope acceptance under each new handoff worker, not claim they authored historical work.",
+  "currentRootLogsRead": [
+    "/tmp/jpop35-resumed-unit.log",
+    "/tmp/jpop35-resumed-type.log",
+    "/tmp/jpop35-resumed-preview-artifact.log",
+    "/tmp/jpop35-resumed-preview-e2e.log"
+  ],
+  "reviews": [
+    {
+      "reviewer": "/root/resume35_evidence",
+      "candidate": "/root/resume35_app",
+      "reviewedAt": "2026-10-17T18:12:42.771737Z",
+      "scope": "Issue35 final inherited app files and handoff acceptance; original implementation/QA actor remains /root/resume22_app. Read-only peer review.",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "criterionReasons": {
+        "correctness": "Search exposes confirmed-tj/confirmed-ky through the existing number-toggle path. Existing q/tag/artist are retained when 전체 clears only number/page; 조건 해제 retains its established all-query reset. The shared matcher provides AND and the UI independently explains provider-specific evidence, observed other-provider values, zero is not unlisted, and honest disabled JavaScript-off SSR. No new number, date or approval claim is generated.",
+        "evidence": "I read both durable initial/fixed QA JSON records, their index and app handoff doc; directly opened initial overlapping mobile, fixed provider rows, JavaScript-off search and fixed desktop PNGs. The failed43.921875px target and later9-flow/12-PNG receipt are preserved separately. I also read the current root canonical325/type0/whole39 browser logs, which support current dirty-preview behavior without claiming CI or production.",
+        "value": "Users can select evidence-backed numbers for their actual provider, combine both providers, preserve their search and saved IDs, and recover from zero results. The fixed mobile layout makes number and provider badges readable while the JavaScript-off links lead to existing evidence guidance.",
+        "maintainability": "New labels are centralized and UI changes remain in the assigned shared Search/app files with global brand bytes unchanged. A limited maintenance cost remains: Search-scoped :global mobile row rules and nth-of-type(3) depend on the current SongRow/generated row div order. Current fixtures and geometry tests verify that structure, but future row-template changes must explicitly revisit these selectors."
+      },
+      "reason": "Current Issue35 app acceptance has no blocking defect in the reviewed files/evidence. The4 in maintainability records the actual positional row-CSS coupling, not change volume or message count.",
+      "evidence": [
+        {
+          "file": "jpoptoday/src/components/Search.astro",
+          "line": 8,
+          "observation": "Accessible5-button group, provider scope explanation and disabled JS-off fallback; scoped44px/mobile grid below."
+        },
+        {
+          "file": "jpoptoday/src/scripts/app.ts",
+          "line": 120,
+          "observation": "Existing URL/toggle/all/reset/history/storage paths retained."
+        },
+        {
+          "file": "jpoptoday/src/scripts/app.ts",
+          "line": 150,
+          "observation": "Stable ID rows preserve actual provider number/status/badge/copy/save data."
+        },
+        {
+          "file": "jpoptoday/src/scripts/app.ts",
+          "line": 188,
+          "observation": "Explicit official-filter zero-result wording and shared Korean labels."
+        },
+        {
+          "file": "docs/engineering/confirmed-search-20261017-2200.md",
+          "line": 53,
+          "observation": "New handoff actor and historical QA/direct-view/absent-tmp boundary."
+        },
+        {
+          "file": "docs/operations/runs/resume-20261017-2200-app-initial-qa.json",
+          "line": 126,
+          "observation": "Actual first target failure remains pass:false."
+        },
+        {
+          "file": "docs/operations/runs/resume-20261017-2200-app-fixed-qa.json",
+          "line": 502,
+          "observation": "Historical9-flow receipt has noerrors and actual completion timestamp."
+        },
+        {
+          "file": "docs/operations/runs/resume-20261017-2200-ui-qa.json",
+          "line": 90,
+          "observation": "Initial failures versus fixed boundedlocal results and durable PNG mappings."
+        }
+      ],
+      "directlyViewedPngs": [
+        "engineering/design/confirmed-search-20261017-2200/quality-initial-confirmed-search-mobile-both.png",
+        "engineering/design/confirmed-search-20261017-2200/quality-fixed-confirmed-search-mobile-provider-rows.png",
+        "engineering/design/confirmed-search-20261017-2200/app-fixed-js-off-search.png",
+        "engineering/design/confirmed-search-20261017-2200/app-fixed-search-desktop.png"
+      ],
+      "limits": [
+        "No browser execution by this reviewer; root executed the current local39suite and historical workers executed the preserved screenshots.",
+        "Real devices, other engines, assistive technology, clean-SHA CI, actual preview/production/recovery/Release remain separate gates.",
+        "The positional CSS observation is nonblocking; no source change is required before this acceptance."
+      ],
+      "requiredChanges": [],
+      "fileHashes": {
+        "/workspace/jpoptoday/src/components/Search.astro": "3425674f4b3e622b190def5bce46fda6bad1b4fc49be53ebfa0c080900a2410c",
+        "/workspace/jpoptoday/src/scripts/app.ts": "690882d17f94c7d058980078cdca892386b3d80ddccb7db03d21cdf1b3751ba2"
+      }
+    },
+    {
+      "reviewer": "/root/resume35_evidence",
+      "candidate": "/root/resume35_quality",
+      "reviewedAt": "2026-10-17T18:12:42.771737Z",
+      "scope": "Issue35 final unit/E2E files and handoff acceptance; original tests/QA actor remains /root/resume22_quality, current geometry strengthening belongs to /root/resume35_quality. Read-only peer review.",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "Unit and E2E expected IDs derive independently from reviewed ledger actions, current/playlist raw metadata and post-correction provider duplicate counts, without calling the production matcher as oracle. Tests reject malformed/observed/unknown/suppressed/conflicting cases, retain SAM/Ado KY deferrals, AND/URL/history/legacy/storage semantics, and compare exact IDs. Final geometry demands nonempty exact ID/count sets before checking overlap/nowrap and both dimensions of44px copy targets.",
+        "evidence": "I read the complete7-group unit file,8-test E2E file, original fail/fix and restart handoff doc plus the durable UI index and4directly-viewed PNGs. Final E2E SHA2563f18d9c0e404a8c83a32383950b3a88882d05aa42bbd92e31090de1817e8906b matches the announced final file. Current root logs show canonical325pass/0fail, type0 and whole39pass; historical8pass is explicitly not reused as proof of the later assertion changes.",
+        "value": "The harness catches the concrete badge collision that generic page-overflow checks missed, guards against an empty-result vacuous geometry PASS, and prevents observed/deferred data being presented as official evidence or silently rewriting saved bytes. These cover the product risks of this release rather than merely mirroring implementation functions.",
+        "maintainability": "The oracle adapts to reviewed ledger growth, and allVisibleIds uses the frozen catalog bound plus strict row-count progress instead of a hardcoded5click count. Reusable browser helpers keep repeated behavior consistent; synthetic data are clearly marked and the new assertions strengthen the existing eighth test without adding unrelated infrastructure or weakening canonical gates."
+      },
+      "reason": "The final harness demonstrates the required provider evidence distinctions and browser/storage contracts, and the current root rerun supports acceptance. No blocking or required source change found.",
+      "evidence": [
+        {
+          "file": "jpoptoday/tests/confirmed-search.test.mjs",
+          "line": 24,
+          "observation": "Independent synthetic provider/AND, leading-zero and fail-closed cases through line94."
+        },
+        {
+          "file": "jpoptoday/tests/confirmed-search.test.mjs",
+          "line": 102,
+          "observation": "Raw+ledger+post-correction duplicate count independent oracle and exact public evidence check."
+        },
+        {
+          "file": "jpoptoday/tests/confirmed-search.test.mjs",
+          "line": 136,
+          "observation": "Real deferred/suppressed counterexamples and frozen storage/URL preservation."
+        },
+        {
+          "file": "jpoptoday/e2e/confirmed-search.spec.ts",
+          "line": 12,
+          "observation": "Independent actualledger oracle and bounded progress load-more helper."
+        },
+        {
+          "file": "jpoptoday/e2e/confirmed-search.spec.ts",
+          "line": 77,
+          "observation": "URL/page/history/reset plus legacy/favorites/raw storage integration through line165."
+        },
+        {
+          "file": "jpoptoday/e2e/confirmed-search.spec.ts",
+          "line": 167,
+          "observation": "Slow load disabled/JSoff fallback, focus/keyboard/gradient/44px checks."
+        },
+        {
+          "file": "jpoptoday/e2e/confirmed-search.spec.ts",
+          "line": 216,
+          "observation": "Actual row bbox with exact nonempty ID sets and width+height44px target check."
+        },
+        {
+          "file": "docs/engineering/confirmed-search-quality-20261017-2200.md",
+          "line": 73,
+          "observation": "Correct new actor, inherited evidence boundary, actual final assertions and root rerun distinction."
+        }
+      ],
+      "limits": [
+        "Reviewer did not execute a duplicate test/server/build; read current root logs and preserved evidence only.",
+        "The root common contracts/deferred-guide append-compatible regression are dependencies, not owned quality worker changes.",
+        "No official-provider requery, rights, AdSense account, clean-SHA CI or remote deployment assertion by this review."
+      ],
+      "requiredChanges": [],
+      "fileHashes": {
+        "/workspace/jpoptoday/tests/confirmed-search.test.mjs": "e0603e17f871db4d215ed8285f422107828733992a5b2412e3d3e87611171f68",
+        "/workspace/jpoptoday/e2e/confirmed-search.spec.ts": "3f18d9c0e404a8c83a32383950b3a88882d05aa42bbd92e31090de1817e8906b"
+      }
+    }
+  ]
+}

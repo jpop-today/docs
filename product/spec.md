@@ -112,3 +112,16 @@ ADS-001 준비점검은실제공식정책/운영증거와계정·권리/문의�
 ### Issue30 엄격 비교 보완 · 처리된 이메일 범위 주석
 
 최종후보 M20de2bd 운영에서 공개3직접mailto/원래전체payload 보존과보호href없음을실제확인했지만, Cloudflare는email_off개폐주석을제거했다. 기존verifier는contact의BODY_MISMATCH를17attempt/총60초실패로보존했다. root만 `scripts/verify-deployment.mjs`와 `tests/deployment-healthcheck.test.mjs`를보완한다. 신뢰한expectedartifact에정확한paired email_off로둘러싸인mailtoanchor가있고 actual의동일raw주소·query/entity·label·attribute·개수가맞는경우에만그쌍을복원해전체바이트를대조한다. 임의주석/추가script/다른본문·누락/중복·수신자/제목/본문/label변화는허용하지않는다. 이명시적JSoff직접메일범위의anchor가다시CF보호href로변하면기존복호화정규화로수용하지않고거부한다. 기존unmarked이메일보호계약은계속지원한다. 기존실패를덮지않고새SHA CI/preview/운영/복구를다시검증하며E2E직접mailto요구를유지한다.
+
+
+## 업체별 공식 확인곡 검색 · Issue35 (2026-10-17)
+
+SEARCH-001/DATA-001/SONG-001/FAVORITES-001/CONTENT-001/DESIGN-001: 기존 number 필터에 `confirmed-tj`, `confirmed-ky`를 추가한다. 검색/홈/저장의 기존 q·has/only·tag·anime/artist·page·history·URL/storage 의미와값을보존하고선택조건은AND로해석한다. 두업체를모두선택하면양쪽에근거가있는곡만통과한다. 전체버튼은number조건을해제하며기존검색어/다른필터는그대로다. 공유URL·새로고침·뒤로가기/조건해제·0건안내와키보드/360px·JSoff비활성안내를검증한다. 선택하지않은업체의관측번호를공식확인으로포장하거나0건을공식미수록으로설명하지않는다.
+
+공식확인판정은기존 `confirmedNumbers`와정확히같이 current/playlist·provider-confirmed·conflict:false·문자열번호·일치하는공식numeric URL·실제근거필드조건을재사용한다. Node전용artist그룹과browser-safe판정을분리하되기존export/API·원검증의의미를변경하지않는다. 원본관측/unknown/suppress·archived/chart-only·근거누락/충돌은공식확인필터에서제외한다. 실제제목·가수·버전검토는projection shape검사로대신하지않는다.
+
+동결차트20/22/24/25위current/playlist4ID의TJ4/KY3관측7번호만실제metadata-only조회후개별검토한다. 기존ledger77항목/순서/전체내용을유지하고근거가확보된confirm/suppress만append한다. Tani Yuuki의없는KY번호나chart-only곡의명의·미수록/새ID·권리를추정하지않고,가져온시각을새차트기간/수집시각으로바꾸지않는다. 실제조회실패/판단보류는별도후보/이유로보존하며마지막정상자료를유지한다. 3317ID/URL/storage·동결staging/chart·번호문자열·unknown/미수록구분·blue#4f7cff→pink#ff7aa8/pinkmintblue·preview전체noindex/광고없음을유지한다. 독립실자료/반례와의미있는unit/type·artifact/browser·두target재현·같은SHA CI/actualpreview·실제old복구→new재적용/운영후의미있는Release만만든다. Google계정/신청/심사는실제결과전unknown이다.
+
+### Issue35 기존 보류 사례 검증의 append 호환
+
+실제 전체 E2E39개 중36통과/3실패는 기존 deferred-guide 검사가 ledger의 총77건을 고정하여 실제 검토7건 추가와 충돌한 결과다. root 소유범위를 `e2e/deferred-guide.spec.ts`로 확장한다. 원77항목의 전체내용·순서를 base2964f7e에서 독립 산출한 고정 SHA256으로 보존 검증하고 최소77건을 요구한다. SAM/Ado의 정확한 원번호·근거·금영보류 검사와 현재 전체ledger의 build-info SHA256 비교는 유지한다. 새항목의 적법성은 기존 전체ledger 계약과 신규 독립 실제자료 검증으로 계속 확인하며 길이 상수만84로 바꾸거나 실패 검사를 삭제하지 않는다. 품질담당은 소유 E2E의 더보기 상한을 동결자료 수와 엄격한 진행검사로 보완한다. 최초실패/수정후 실제결과를 각각 보존한다.

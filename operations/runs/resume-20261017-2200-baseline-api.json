@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-17T13:01:26.280141+00:00",
+  "project": "todayjpop",
+  "domains": [
+    "todayjpop.pages.dev",
+    "jpop.today"
+  ],
+  "source": {
+    "owner": "kim75503",
+    "repo_name": "todayjpop",
+    "production_branch": "dev",
+    "production_deployments_enabled": false,
+    "preview_deployment_setting": "none"
+  },
+  "deployment": {
+    "id": "b91efaaa-b971-442b-b520-1505968ef532",
+    "url": "https://b91efaaa.todayjpop.pages.dev",
+    "created_on": "2026-10-16T10:40:43.517147Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-16T10:40:44.951044Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "dev",
+        "commit_hash": "f959f3671b8aeb766fd469558634f9680635e58c",
+        "commit_message": "Merge pull request #33 from jpop-today/codex/30-email-marker-verification-20261016\r\n\r\n이메일 원문 비교를 유지하며 Cloudflare 범위 주석 처리 검증",
+        "commit_dirty": false
+      }
+    }
+  }
+}

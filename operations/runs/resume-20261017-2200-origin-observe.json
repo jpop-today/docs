@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-10-17T18:32:29.577Z",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "scope": "Three ordinary build-info/catalog/build-info observations over a short bounded interval after recovery. No all-CDN or continuous uptime claim.",
+  "rounds": [
+    {
+      "at": "2026-10-17T18:32:29.578Z",
+      "passed": true,
+      "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "beforeSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "afterSha": "ed22f924536d28fa990d7688b6ba352446984140"
+    },
+    {
+      "at": "2026-10-17T18:32:45.904Z",
+      "passed": true,
+      "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "beforeSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "afterSha": "ed22f924536d28fa990d7688b6ba352446984140"
+    },
+    {
+      "at": "2026-10-17T18:32:55.809Z",
+      "passed": true,
+      "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "beforeSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "afterSha": "ed22f924536d28fa990d7688b6ba352446984140"
+    }
+  ],
+  "passed": true,
+  "checkedAt": "2026-10-17T18:33:00.097Z"
+}

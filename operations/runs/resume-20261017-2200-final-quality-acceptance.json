@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261017-2200",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/35",
+  "reviewer": "/root/resume35_quality",
+  "kind": "supplemental-final-read-only-quality-acceptance",
+  "reviewedAt": "2026-10-17T18:35:31.981366Z",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "acceptance": "accepted_for_verified_product_ci_preview_production_and_recovery_scope",
+  "method": "Saved sanitized root receipts/source/frozen metadata were directly read and cross-checked. No new CI/test/browser/provider/HTTP/deployment execution by this reviewer; no source/Git/package/workflow modification.",
+  "sourceVerification": {
+    "observedAt": "2026-10-17T18:34:04Z",
+    "actualHead": "ed22f924536d28fa990d7688b6ba352446984140",
+    "actualWorktreeAtObservation": "clean",
+    "latestE2ESha256": "3f18d9c0e404a8c83a32383950b3a88882d05aa42bbd92e31090de1817e8906b",
+    "latestE2EEqualsProductM": true,
+    "strictGateFiles": [
+      {
+        "path": "/workspace/jpoptoday/scripts/verify-deployment.mjs",
+        "sha256": "b89c9db01c3af9b4af6d119c5763361d8146c3c574981f59d0803f5ad9930b96",
+        "byteIdenticalToBaseRAndProductM": true
+      },
+      {
+        "path": "/workspace/jpoptoday/scripts/verify-dist.mjs",
+        "sha256": "b2454e4761eacee103d329b9e6b5c90a5388d5375d6575276d8ea7910f822d15",
+        "byteIdenticalToBaseRAndProductM": true
+      },
+      {
+        "path": "/workspace/jpoptoday/tests/deployment-healthcheck.test.mjs",
+        "sha256": "7e31b8e8a72da2920e4ecbf936d1538906e6cc3ee9d6a4d07c1697d3b44ef390",
+        "byteIdenticalToBaseRAndProductM": true
+      }
+    ],
+    "comparisonMethod": "Read-only git rev-parse/status/show against base2964f7e and productM; SHA256 of current bytes. No Git mutation.",
+    "frozenInputAndBrandFiles": [
+      {
+        "path": "/workspace/jpoptoday/data/staging/legacy-catalog.json",
+        "actualRawSha256": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+        "baselineRawSha256": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+        "unchanged": true,
+        "scope": "frozen input/brand unchanged"
+      },
+      {
+        "path": "/workspace/jpoptoday/data/chart-snapshot.json",
+        "actualRawSha256": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+        "baselineRawSha256": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+        "unchanged": true,
+        "scope": "frozen input/brand unchanged"
+      },
+      {
+        "path": "/workspace/jpoptoday/data/legacy-identity-baseline.json",
+        "actualRawSha256": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+        "baselineRawSha256": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+        "unchanged": true,
+        "scope": "frozen input/brand unchanged"
+      },
+      {
+        "path": "/workspace/jpoptoday/src/styles/global.css",
+        "actualRawSha256": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889",
+        "baselineRawSha256": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889",
+        "unchanged": true,
+        "scope": "frozen input/brand unchanged"
+      },
+      {
+        "path": "/workspace/jpoptoday/data/reviewed/provider-corrections.json",
+        "actualRawSha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+        "baselineRawSha256": "a2d8ea8e9eba737a38a1f2968a0a1687498bf04fb0f8742ea7f42eedaef8f708",
+        "unchanged": false,
+        "scope": "reviewed append77→84 intentionally changed; original77 separately preserved"
+      }
+    ],
+    "rawVersusSemanticHash": "Raw reviewed-ledger bytes hash dbef4ae6…0356cc1 differs by definition from build-info ledgerSha2565275c44e…39370, which hashes parsed JSON.stringify. Raw frozen chart7ade2989…91da97 likewise differs from build-info chart971bacf9…40b9. These were not treated as inconsistent."
+  },
+  "ciAcceptance": {
+    "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "appRun": 39057562960,
+    "contractsRun": 39057563024,
+    "canonicalUnit": 325,
+    "unitFailed": 0,
+    "typeErrors": 0,
+    "typeWarnings": 0,
+    "typeHints": 0,
+    "previewE2E": 39,
+    "productionArtifactE2E": 39,
+    "previewArtifact": {
+      "files": 3347,
+      "html": 3336,
+      "indexable": 0
+    },
+    "productionArtifact": {
+      "files": 3347,
+      "html": 3336,
+      "indexable": 49
+    },
+    "evidence": "resume-20261017-2200-ci-main.json; actual allowlisted main job logs"
+  },
+  "artifactAcceptance": {
+    "localCleanMetadata": [
+      {
+        "target": "preview",
+        "path": "/tmp/jpop-v045-preview-ed22f92/build-info.json",
+        "metadata": {
+          "schemaVersion": 2,
+          "target": "preview",
+          "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+          "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+          "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+          "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+          "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+          "songCount": 3317,
+          "currentSongCount": 3313,
+          "dirty": false
+        }
+      },
+      {
+        "target": "production",
+        "path": "/tmp/jpop-v045-production-ed22f92/build-info.json",
+        "metadata": {
+          "schemaVersion": 2,
+          "target": "production",
+          "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+          "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+          "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+          "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+          "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+          "songCount": 3317,
+          "currentSongCount": 3313,
+          "dirty": false
+        }
+      }
+    ],
+    "twoBuildsPerTarget": true,
+    "everyFileSetAndByteEquality": "root reproducibility receipt records PASS for each target3347 files/3336HTML; this reviewer checked pinned metadata/receipt consistency and did not rerun builds",
+    "fullCIArchiveComparison": "not_performed"
+  },
+  "remoteAcceptance": {
+    "preview": {
+      "run": 39057771259,
+      "job": 117469191589,
+      "url": "https://cbf1faa6.jpoptoday-preview.pages.dev",
+      "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "state": "success",
+      "e2e": 39,
+      "strictHTTP": {
+        "checks": 27,
+        "attempts": 1,
+        "evidence": "resume-20261017-2200-preview-http.json"
+      }
+    },
+    "production": {
+      "run": 39058025419,
+      "job": 117469942325,
+      "url": "https://jpop.today",
+      "deployment": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+      "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "state": "success",
+      "remoteE2E": 39,
+      "localE2E": 39,
+      "verifyOnly": true,
+      "actionsBindings": "missing/deploy skipped; managed cloud deployment is separately recorded",
+      "strictHTTP": {
+        "checks": 27,
+        "attempts": 1,
+        "evidence": "resume-20261017-2200-production-http.json"
+      }
+    }
+  },
+  "recoveryAcceptance": {
+    "rootAction": "actual oldv044 rollback then newv045 restore, restoration attempted in finally",
+    "oldSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+    "newSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "oldDeployment": "b91efaaa-b971-442b-b520-1505968ef532",
+    "newDeployment": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+    "rollback": {
+      "passed": true,
+      "attempts": 1,
+      "checks": 27
+    },
+    "restore": {
+      "passed": true,
+      "attempts": 2,
+      "successfulChecks": 27,
+      "firstFailureCode": "CATALOG_MISMATCH",
+      "firstOldCatalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+      "expectedAndFinalNewCatalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "firstFailurePreserved": true
+    },
+    "limits": {
+      "maxAttempts": 30,
+      "totalTimeoutMs": 60000,
+      "requestTimeoutMs": 8000,
+      "retryDelayMs": 2000,
+      "maxResponseBytes": 4194304
+    },
+    "strictBehavior": "Each attempt compares first metadata to frozen expected, catalog exact bytes, selected HTML/assets/404 bytes and final metadata. Same existing constrained CF email normalization remains; no gate weakening to accept old/mixed catalog. First wrong catalog was rejected, not called success.",
+    "apiSourceMetadata": "personal kim75503/todayjpop/dev kept; production_deployments_enabled=false / preview_deployment_setting=none throughout saved recovery APIs",
+    "observationScope": "Observed origin/selected artifact consistency within these bounded attempts; not all CDN nodes or guaranteed continuous uptime"
+  },
+  "laterReleaseObservation": {
+    "initialHandoff": "Release39058435099 was pending at the supplemental review request; no published claim was made from that state",
+    "newReceiptRead": "After root supplied release.json/release-logs.json, this reviewer directly read them and accepted the new completed observation",
+    "version": "0.4.5",
+    "state": "published",
+    "releaseId": 415990362,
+    "publishedAt": "2026-10-17T18:32:55Z",
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.5",
+    "annotatedTagSha": "ab52dcda99338db23278ecbb877085d89a9a16b5",
+    "tagTargetSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "workflowRun": 39058435099,
+    "workflowConclusion": "success",
+    "releaseCI": {
+      "canonicalUnit": 325,
+      "e2e": 39
+    },
+    "releaseDiscord": {
+      "state": "sent",
+      "attempts": 1,
+      "sentAt": "2026-10-17T18:32:56.2624361Z",
+      "job": 117471526188,
+      "safeLogEvidence": "resume-20261017-2200-release-logs.json"
+    },
+    "notificationScope": "Release event only; manager completed report and its Discord are separate root steps"
+  },
+  "boundedOriginObservation": {
+    "startedAt": "2026-10-17T18:32:29.577Z",
+    "checkedAt": "2026-10-17T18:33:00.097Z",
+    "rounds": 3,
+    "ordinaryMetadataCatalogMetadataAllSameNewM": true,
+    "scope": "Three saved ordinary request rounds over a short interval after restore; no continuous uptime/all-CDN claim"
+  },
+  "originalPeerReviews": {
+    "path": "/workspace/docs/operations/runs/resume-20261017-2200-reviews.json",
+    "scoresFrozen": true,
+    "changedByThisSupplement": false,
+    "additionalVote": false,
+    "scoreSnapshotSha256": "930083b86bedc002c64ec440db2438d76cdb9494ff58cb2833d158669aca09c9",
+    "snapshot": [
+      {
+        "reviewer": "/root/resume35_app",
+        "candidate": "/root/resume35_evidence",
+        "reviewedAt": "2026-10-17T18:12:13Z",
+        "scores": {
+          "correctness": 5,
+          "evidence": 5,
+          "value": 5,
+          "maintainability": 5
+        }
+      },
+      {
+        "reviewer": "/root/resume35_app",
+        "candidate": "/root/resume35_quality",
+        "reviewedAt": "2026-10-17T18:12:13Z",
+        "scores": {
+          "correctness": 5,
+          "evidence": 5,
+          "value": 5,
+          "maintainability": 5
+        }
+      },
+      {
+        "reviewer": "/root/resume35_evidence",
+        "candidate": "/root/resume35_app",
+        "reviewedAt": "2026-10-17T18:12:42.771737Z",
+        "scores": {
+          "correctness": 5,
+          "evidence": 5,
+          "value": 5,
+          "maintainability": 4
+        }
+      },
+      {
+        "reviewer": "/root/resume35_evidence",
+        "candidate": "/root/resume35_quality",
+        "reviewedAt": "2026-10-17T18:12:42.771737Z",
+        "scores": {
+          "correctness": 5,
+          "evidence": 5,
+          "value": 5,
+          "maintainability": 5
+        }
+      },
+      {
+        "reviewer": "/root/resume35_quality",
+        "candidate": "/root/resume35_evidence",
+        "reviewedAt": "2026-10-17T18:13:09.802567Z",
+        "scores": {
+          "correctness": 5,
+          "evidence": 5,
+          "value": 5,
+          "maintainability": 5
+        }
+      },
+      {
+        "reviewer": "/root/resume35_quality",
+        "candidate": "/root/resume35_app",
+        "reviewedAt": "2026-10-17T18:13:09.802567Z",
+        "scores": {
+          "correctness": 5,
+          "evidence": 5,
+          "value": 5,
+          "maintainability": 5
+        }
+      }
+    ],
+    "note": "This is supplemental acceptance of later actual gates; original six scores/reasons and any root rotation decision are not re-scored or replaced."
+  },
+  "evidenceFiles": [
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-ci-main.json",
+      "sha256": "3fa88a0ee11db4f68522671ba00bf0e19008a409f1b1513389c52a71df1dc66c"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-preview-remote.json",
+      "sha256": "6b5dfaea7bcc446763b2778bd15d53b42fff6b144b53f0c3e2b6da51cc85f0fb"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-production-remote.json",
+      "sha256": "9dda5428d9e0fbf137959f50220e890c72b5e0c8ee8f72c34cbaf1b4e528a3a9"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-recovery.json",
+      "sha256": "492bbce65de5ea85b54b883e27c0be19cce315df667d1fe0f3f4f90ea850ef3e"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-rollback-http.json",
+      "sha256": "0bc880c735af4eb4d96603de02f27d3b22b618a872e3af95f0c59fb0b162c7e2"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-restore-http.json",
+      "sha256": "bedb815c7a187783b7d31c791454f28e22ab2be072433c349007533858f75cd4"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-preview-http.json",
+      "sha256": "148c6d1a1967c432ad06806c1e322a6d22e37d00cb7fbeb68bf7da813e48177a"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-production-http.json",
+      "sha256": "f0a73015ef293b9b97c8732a150682f3b1fe066e1f8f9643e6723832c3017f5f"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-reproducibility.json",
+      "sha256": "f0699670b0c00679d999256357f440ec09c8c92f2e40224e6279300424cac223"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-release.json",
+      "sha256": "6b9db8c184a1f609cd1a61228b92025ca6cb6dac9b13ebdbb8ec52e114e9eab2"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-release-logs.json",
+      "sha256": "7d0e9f3cca52afec01089c63e9dd3fcf45d17791b0def237817e2ef3ce924fae"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-origin-observe.json",
+      "sha256": "ee36dd65d6838688683ad58df78f8f09593618ab098ef9f5f65f2995f69c12c4"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-nonempty-e2e.json",
+      "sha256": "e0009bac70ab84ec9cb39f5dfce4d6ebc8ad4a99c53ead87d60f7b8e59577094"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-reviews.json",
+      "sha256": "2961c1f645f3e69cb108dda45b56e288a7fd518c6fe9f2e113a87b33754d5881"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261017-2200-handoff-quality-reviews.json",
+      "sha256": "8510cae2176c506d295d0e04fa546a9e7fac0191853aefe81a50815ee4349b9d"
+    }
+  ],
+  "requiredChanges": [],
+  "notVerifiedOrRemaining": [
+    "This reviewer did not issue new provider/API/HTTP requests, run tests/browser/builds or perform deployment/rollback; directly read saved root receipts and source/frozen bytes.",
+    "Full CI artifact archive versus local every-file comparison was not performed; two local builds per target and selected remote strict bytes are the actual reproducibility scopes.",
+    "Real devices, other browser engines, assistive technologies and field performance are not established by these Chromium/receipt checks.",
+    "Whole metadata/image/lyric/audio redistribution rights, actual contact receipt/response, account owner/ads.txt identity/consent and Google AdSense submission/review result remain separate unverified operator/policy gates. Product release is not AdSense approval.",
+    "Final docs/daily18/source-report integration and manager-completed Discord were pending root steps at this read; Release Discord sent1 does not establish those steps."
+  ],
+  "boundary": {
+    "onlyWrittenFile": "/workspace/docs/operations/runs/resume-20261017-2200-final-quality-acceptance.json",
+    "existingFilesModified": false,
+    "sourceModified": false,
+    "gitMutated": false,
+    "packageOrCIModified": false,
+    "deploymentsPerformed": 0,
+    "testExecutions": 0,
+    "originalSixScoresModified": false
+  }
+}

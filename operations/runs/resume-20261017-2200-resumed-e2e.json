@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-17T18:10:14.794978+00:00",
+  "target": "dirty local preview after restored environment",
+  "exitCode": 0,
+  "log": "/tmp/jpop35-resumed-preview-e2e.log",
+  "summary": [
+    "39 passed (1.2m)"
+  ]
+}

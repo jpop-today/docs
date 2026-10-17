@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "runId": "resume-20261017-2200",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/35",
+  "sourceBaseSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "collector": "scripts/provider-metadata.py fetch_metadata; inherited ProxyHandler and HTTPS CA trust; timeout20s/MAX2MiB; exact numeric URL",
+  "startedAt": "2026-10-17T13:06:54.460740Z",
+  "finishedAt": "2026-10-17T13:07:09.838140Z",
+  "verification": "unreviewed-candidates; editorial judgments are separate",
+  "scope": {
+    "currentPlaylistIds": 4,
+    "allowedOfficialQueries": 7,
+    "actualOfficialQueries": 7,
+    "missingKyNotQueried": "jpop-playlist-tani-yuuki-w-x-y-43434ad678",
+    "chartOnlyExcluded": true
+  },
+  "requests": [
+    {
+      "songId": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+      "chartRank": 20,
+      "stagingTitle": "シルエット",
+      "stagingArtist": "KANA-BOON",
+      "provider": "tj",
+      "observedNumber": "28214",
+      "requestedAt": "2026-10-17T13:06:54.460751Z",
+      "candidate": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "28214",
+        "title": "シルエット(NARUTO-ナルト- 16th OP)",
+        "artist": "KANA-BOON",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28214&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28214&strWord=Y",
+        "checkedAt": "2026-10-17T13:06:56.244122Z",
+        "responseSha256": "93061854fb8fa0703b5b907f85765a698e339b8869b3cd9f4ea12cdc8e04eb0d",
+        "responseBytes": 49213,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "status": "fetched_unreviewed"
+    },
+    {
+      "songId": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+      "chartRank": 20,
+      "stagingTitle": "シルエット",
+      "stagingArtist": "KANA-BOON",
+      "provider": "ky",
+      "observedNumber": "43862",
+      "requestedAt": "2026-10-17T13:06:56.244457Z",
+      "candidate": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "43862",
+        "title": "シルエット (\"NARUTO-ナルト- 疾風伝\"OP)",
+        "artist": "KANA-BOON",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43862",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43862",
+        "checkedAt": "2026-10-17T13:06:59.502802Z",
+        "responseSha256": "f65894a000bdf4bd15c41015c2c813a7a8fd641426ba5ec788fc74e20f75bff9",
+        "responseBytes": 40966,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "status": "fetched_unreviewed"
+    },
+    {
+      "songId": "jpop-playlist-tani-yuuki-w-x-y-43434ad678",
+      "chartRank": 22,
+      "stagingTitle": "W / X / Y",
+      "stagingArtist": "Tani Yuuki",
+      "provider": "tj",
+      "observedNumber": "52444",
+      "requestedAt": "2026-10-17T13:06:59.503504Z",
+      "candidate": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "52444",
+        "title": "W / X / Y",
+        "artist": "Tani Yuuki",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52444&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52444&strWord=Y",
+        "checkedAt": "2026-10-17T13:07:01.038505Z",
+        "responseSha256": "9d222b7aee0a98e15d182a1dafe4c883c29faddc2762fa76d5e1402cf549f761",
+        "responseBytes": 49228,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "status": "fetched_unreviewed"
+    },
+    {
+      "songId": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+      "chartRank": 24,
+      "stagingTitle": "青と夏",
+      "stagingArtist": "Mrs. GREEN APPLE",
+      "provider": "tj",
+      "observedNumber": "68127",
+      "requestedAt": "2026-10-17T13:07:01.039716Z",
+      "candidate": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "68127",
+        "title": "青と夏(映画'青夏 きみに恋した30日' OST)",
+        "artist": "Mrs. Green Apple",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68127&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68127&strWord=Y",
+        "checkedAt": "2026-10-17T13:07:02.030760Z",
+        "responseSha256": "2613ebe66de4ea373ba0fe65a30da260c8cd6c254c7c7d8dee64f5c35cad33ae",
+        "responseBytes": 49282,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "status": "fetched_unreviewed"
+    },
+    {
+      "songId": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+      "chartRank": 24,
+      "stagingTitle": "青と夏",
+      "stagingArtist": "Mrs. GREEN APPLE",
+      "provider": "ky",
+      "observedNumber": "44466",
+      "requestedAt": "2026-10-17T13:07:02.030964Z",
+      "candidate": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "44466",
+        "title": "青と夏 (映画\"青夏 きみに恋した30日\")",
+        "artist": "Mrs. GREEN APPLE",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44466",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44466",
+        "checkedAt": "2026-10-17T13:07:06.340055Z",
+        "responseSha256": "0ff186fef867ac0263da512da962b2de640afe6225c1432afc35bd9d8489a9e4",
+        "responseBytes": 46420,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "status": "fetched_unreviewed"
+    },
+    {
+      "songId": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+      "chartRank": 25,
+      "stagingTitle": "モニタリング",
+      "stagingArtist": "DECO*27",
+      "provider": "tj",
+      "observedNumber": "52468",
+      "requestedAt": "2026-10-17T13:07:06.341145Z",
+      "candidate": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "52468",
+        "title": "モニタリング",
+        "artist": "DECO*27(Feat.初音ミク)",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52468&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52468&strWord=Y",
+        "checkedAt": "2026-10-17T13:07:06.981424Z",
+        "responseSha256": "43829489694925b5eef0ecd2e46b7be23ed9a4532fd9cad15ce7aa241c0e7124",
+        "responseBytes": 49247,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "status": "fetched_unreviewed"
+    },
+    {
+      "songId": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+      "chartRank": 25,
+      "stagingTitle": "モニタリング",
+      "stagingArtist": "DECO*27",
+      "provider": "ky",
+      "observedNumber": "57766",
+      "requestedAt": "2026-10-17T13:07:06.982012Z",
+      "candidate": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "57766",
+        "title": "モニタリング",
+        "artist": "DECO*27 feat.初音ミク",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57766",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=57766",
+        "checkedAt": "2026-10-17T13:07:09.837464Z",
+        "responseSha256": "9d23064efa2f8142baa5cd1e6a3f0e7e3339a7881da85dd8e4892d9041be8b4e",
+        "responseBytes": 57073,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "status": "fetched_unreviewed"
+    }
+  ],
+  "collectorSha256": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+  "editorialReview": {
+    "reviewedAt": "2026-10-17T13:08:15.816795Z",
+    "reviewer": "/root/resume22_evidence",
+    "criteria": "full number/title/performer/version cell vs unchanged staging and frozen chart; no projection-shape substitute",
+    "confirmed": 7,
+    "suppressed": 0,
+    "deferred": 0,
+    "decisions": [
+      {
+        "songId": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+        "provider": "tj",
+        "number": "28214",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-17T13:08:15.816795Z",
+        "reviewer": "/root/resume22_evidence",
+        "candidateVerificationPreserved": "unreviewed",
+        "staging": {
+          "title": "シルエット",
+          "artist": "KANA-BOON",
+          "origin": "playlist",
+          "availability": "current"
+        },
+        "frozenChart": {
+          "rank": 20,
+          "canonicalId": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+          "title": "シルエット(NARUTO-ナルト- 16th OP)",
+          "artist": "KANA-BOON",
+          "tjNumber": "28214"
+        },
+        "reason": "공식 전체 제목 シルエット(NARUTO-ナルト- 16th OP)와 가수 KANA-BOON은 동결차트20위의 전체 원문과 일치하며 동일 canonicalId의 staging シルエット / KANA-BOON에 대응합니다. 공식 부제를 그대로 보존하며 오디오·반주기 모델의 동일성은 판단하지 않습니다.",
+        "appendedLedgerIndex": 77
+      },
+      {
+        "songId": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+        "provider": "ky",
+        "number": "43862",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-17T13:08:15.816795Z",
+        "reviewer": "/root/resume22_evidence",
+        "candidateVerificationPreserved": "unreviewed",
+        "staging": {
+          "title": "シルエット",
+          "artist": "KANA-BOON",
+          "origin": "playlist",
+          "availability": "current"
+        },
+        "frozenChart": {
+          "rank": 20,
+          "canonicalId": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+          "title": "シルエット(NARUTO-ナルト- 16th OP)",
+          "artist": "KANA-BOON",
+          "tjNumber": "28214"
+        },
+        "reason": "공식 전체 제목 シルエット (\"NARUTO-ナルト- 疾風伝\"OP)와 가수 KANA-BOON을 직접 읽었습니다. staging 본제 シルエット 및 동결차트20위의 KANA-BOON·NARUTO OP 표기에 대응하며 다른 가수·편곡·버전 표시는 없습니다. 금영의 疾風伝 부제를 그대로 보존하고 생략되지 않은 셀에 없는 16th나 오디오 동일성을 추가하지 않습니다.",
+        "appendedLedgerIndex": 78
+      },
+      {
+        "songId": "jpop-playlist-tani-yuuki-w-x-y-43434ad678",
+        "provider": "tj",
+        "number": "52444",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-17T13:08:15.816795Z",
+        "reviewer": "/root/resume22_evidence",
+        "candidateVerificationPreserved": "unreviewed",
+        "staging": {
+          "title": "W / X / Y",
+          "artist": "Tani Yuuki",
+          "origin": "playlist",
+          "availability": "current"
+        },
+        "frozenChart": {
+          "rank": 22,
+          "canonicalId": "jpop-playlist-tani-yuuki-w-x-y-43434ad678",
+          "title": "W / X / Y",
+          "artist": "Tani Yuuki",
+          "tjNumber": "52444"
+        },
+        "reason": "공식 전체 제목 W / X / Y와 가수 Tani Yuuki가 staging 및 동일 canonicalId의 동결차트22위 원문과 정확히 일치합니다. 원본 unknown인 금영 번호를 추정하거나 추가하지 않습니다.",
+        "appendedLedgerIndex": 79
+      },
+      {
+        "songId": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+        "provider": "tj",
+        "number": "68127",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-17T13:08:15.816795Z",
+        "reviewer": "/root/resume22_evidence",
+        "candidateVerificationPreserved": "unreviewed",
+        "staging": {
+          "title": "青と夏",
+          "artist": "Mrs. GREEN APPLE",
+          "origin": "playlist",
+          "availability": "current"
+        },
+        "frozenChart": {
+          "rank": 24,
+          "canonicalId": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+          "title": "青と夏(映画'青夏 きみに恋した30日' OST)",
+          "artist": "Mrs. Green Apple",
+          "tjNumber": "68127"
+        },
+        "reason": "공식 전체 제목 青と夏(映画'青夏 きみに恋した30日' OST)와 가수 Mrs. Green Apple은 동결차트24위의 전체 원문과 정확히 일치합니다. staging의 青と夏 / Mrs. GREEN APPLE과는 가수의 대소문자 및 공식 영화 부제 표기 차이이며 원문 부제를 보존합니다. 별도 녹음·편곡 동일성을 추정하지 않습니다.",
+        "appendedLedgerIndex": 80
+      },
+      {
+        "songId": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+        "provider": "ky",
+        "number": "44466",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-17T13:08:15.816795Z",
+        "reviewer": "/root/resume22_evidence",
+        "candidateVerificationPreserved": "unreviewed",
+        "staging": {
+          "title": "青と夏",
+          "artist": "Mrs. GREEN APPLE",
+          "origin": "playlist",
+          "availability": "current"
+        },
+        "frozenChart": {
+          "rank": 24,
+          "canonicalId": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+          "title": "青と夏(映画'青夏 きみに恋した30日' OST)",
+          "artist": "Mrs. Green Apple",
+          "tjNumber": "68127"
+        },
+        "reason": "공식 전체 제목 青と夏 (映画\"青夏 きみに恋した30日\")와 가수 Mrs. GREEN APPLE을 직접 읽었습니다. staging의 본제·가수와 일치하며 동결차트24위의 같은 영화 제목과도 대응합니다. 괄호 공백·인용부호와 OST 표기 유무의 차이를 검토하고 금영의 전체 표기를 그대로 보존하며 숨은 버전·오디오 동일성을 추정하지 않습니다.",
+        "appendedLedgerIndex": 81
+      },
+      {
+        "songId": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+        "provider": "tj",
+        "number": "52468",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-17T13:08:15.816795Z",
+        "reviewer": "/root/resume22_evidence",
+        "candidateVerificationPreserved": "unreviewed",
+        "staging": {
+          "title": "モニタリング",
+          "artist": "DECO*27",
+          "origin": "playlist",
+          "availability": "current"
+        },
+        "frozenChart": {
+          "rank": 25,
+          "canonicalId": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+          "title": "モニタリング",
+          "artist": "DECO*27(Feat.初音ミク)",
+          "tjNumber": "52468"
+        },
+        "reason": "공식 전체 제목 モニタリング와 가수 DECO*27(Feat.初音ミク)는 동결차트25위의 전체 원문과 정확히 일치하며 staging의 モニタリング / DECO*27와 동일 canonicalId에 연결됩니다. 初音ミク feature 명의는 실제 공식 셀 및 차트의 동일한 전체 명의를 근거로 그대로 보존하며 별칭·권리를 추정하지 않습니다.",
+        "appendedLedgerIndex": 82
+      },
+      {
+        "songId": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+        "provider": "ky",
+        "number": "57766",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-17T13:08:15.816795Z",
+        "reviewer": "/root/resume22_evidence",
+        "candidateVerificationPreserved": "unreviewed",
+        "staging": {
+          "title": "モニタリング",
+          "artist": "DECO*27",
+          "origin": "playlist",
+          "availability": "current"
+        },
+        "frozenChart": {
+          "rank": 25,
+          "canonicalId": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+          "title": "モニタリング",
+          "artist": "DECO*27(Feat.初音ミク)",
+          "tjNumber": "52468"
+        },
+        "reason": "공식 전체 제목 モニタリング와 가수 DECO*27 feat.初音ミク를 직접 읽었습니다. staging 본제·DECO*27 및 동결차트25위의 DECO*27(Feat.初音ミク)와 본제·주명의·feature 명의가 대응하며 차이는 괄호와 Feat. 대소문자 표기입니다. 공식 전체 명의를 보존하고 다른 가수의 별칭·녹음 동일성은 생성하지 않습니다.",
+        "appendedLedgerIndex": 83
+      }
+    ],
+    "notReviewed": [
+      "Tani Yuuki KY null; no request/no unlisted inference",
+      "existing SAM/samfree KY43185 deferred unchanged",
+      "existing Ado KY76509 truncated title deferred unchanged"
+    ],
+    "boundaries": [
+      "No raw HTML or lyrics persisted",
+      "responseSha256 covers actual fetched full bytes; raw body not retained, hash alone cannot reparse",
+      "No audio/model availability/metadata reuse rights/AdSense account or review results established",
+      "frozen chart period/fetchedAt unchanged; official checkedAt is not a new chart date"
+    ]
+  },
+  "preservationBeforeValidation": {
+    "baselineLedgerBytesSha256": "a2d8ea8e9eba737a38a1f2968a0a1687498bf04fb0f8742ea7f42eedaef8f708",
+    "appendedLedgerBytesSha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+    "baselineEntries": 77,
+    "appendedEntries": 7,
+    "resultEntries": 84,
+    "baselineObjectsOrderAndContentsEqual": true,
+    "baselineBytesPrefixPreserved": true,
+    "checkedAt": "2026-10-17T13:08:15.816795Z"
+  },
+  "validation": {
+    "checkedAt": "2026-10-17T13:09:35.583Z",
+    "status": "passed",
+    "ledgerEntries": 84,
+    "confirm": 71,
+    "suppress": 13,
+    "stableIds": 3317,
+    "stableUrls": 3317,
+    "unaffectedSongObjects": 3313,
+    "newConfirmedProviders": [
+      {
+        "id": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+        "provider": "tj",
+        "number": "52468",
+        "status": "provider-confirmed",
+        "conflict": false
+      },
+      {
+        "id": "jpop-playlist-deco-27-モニタリンク-ed5c141bdb",
+        "provider": "ky",
+        "number": "57766",
+        "status": "provider-confirmed",
+        "conflict": false
+      },
+      {
+        "id": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+        "provider": "tj",
+        "number": "28214",
+        "status": "provider-confirmed",
+        "conflict": false
+      },
+      {
+        "id": "jpop-playlist-kana-boon-シルエット-52bb3cbb6c",
+        "provider": "ky",
+        "number": "43862",
+        "status": "provider-confirmed",
+        "conflict": false
+      },
+      {
+        "id": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+        "provider": "tj",
+        "number": "68127",
+        "status": "provider-confirmed",
+        "conflict": false
+      },
+      {
+        "id": "jpop-playlist-mrs-green-apple-青と夏-89182753e8",
+        "provider": "ky",
+        "number": "44466",
+        "status": "provider-confirmed",
+        "conflict": false
+      },
+      {
+        "id": "jpop-playlist-tani-yuuki-w-x-y-43434ad678",
+        "provider": "tj",
+        "number": "52444",
+        "status": "provider-confirmed",
+        "conflict": false
+      }
+    ],
+    "baselineSafeCounts": {
+      "playlistSongs": 3299,
+      "tj": 28,
+      "ky": 24,
+      "both": 24,
+      "union": 28
+    },
+    "newSafeCounts": {
+      "playlistSongs": 3299,
+      "tj": 32,
+      "ky": 27,
+      "both": 27,
+      "union": 32
+    },
+    "baselineChartSafeCounts": {
+      "playlistSongs": 86,
+      "tj": 19,
+      "ky": 17,
+      "both": 17,
+      "union": 19
+    },
+    "newChartSafeCounts": {
+      "playlistSongs": 86,
+      "tj": 23,
+      "ky": 20,
+      "both": 20,
+      "union": 23
+    },
+    "taniKyUnknownUnchanged": true,
+    "samAdoKyDeferredUnchanged": true,
+    "publicContainsResponseHash": false,
+    "unlistedInferred": false,
+    "command": "Python git-show baseline wrapper -> node --input-type=module -e [independent validate/apply/IDs/URLs/non-target/unknown/frozen checks]",
+    "baselineObjectsOrderContentsPreserved": true,
+    "baselineTopLevelMetadataPreserved": true,
+    "baselineRawBytesPrefixPreserved": true,
+    "baselineLedgerBytesSha256": "a2d8ea8e9eba737a38a1f2968a0a1687498bf04fb0f8742ea7f42eedaef8f708",
+    "appendedLedgerBytesSha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+    "frozenFileHashes": {
+      "data/staging/legacy-catalog.json": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+      "data/chart-snapshot.json": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+      "data/legacy-identity-baseline.json": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+      "scripts/provider-metadata.py": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+      "src/styles/global.css": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889"
+    },
+    "dirtyContractHashes": {
+      "contracts/provider-corrections.mjs": "0a47a59126a9cbefad85c4d3bfd11d9215eda145046ba0835aa5dffa19237fdc",
+      "contracts/public-catalog.mjs": "15c284c6d3561fa509aa742a97622f4fa2eacaea10760622c4708345ba5bd761",
+      "contracts/provider-lookup.mjs": "f315791975dded9c1aa7e11bed102e0410d36b9fa8cc80e7881004f848d404ab",
+      "contracts/confirmed-discovery.mjs": "cfb02262ea6f4a682766c8bae88395ebd23c22ff3fe405e535fae7997980fed1"
+    },
+    "limits": [
+      "dirty-worktree contract imports; not clean-SHA CI/build/browser/deployment evidence",
+      "raw official response not retained; hashes cannot independently reparse original response"
+    ]
+  },
+  "verificationAttempts": [
+    {
+      "command": "node --input-type=module [real-input check using execFileSync git]",
+      "result": "failed_before_validation",
+      "code": "spawnSync git EPERM",
+      "detail": "sandbox process-spawn restriction; no data assertion was executed; no network or product failure inferred"
+    },
+    {
+      "command": "Python git-show baseline wrapper -> node --input-type=module -e [independent validate/apply/IDs/URLs/non-target/unknown/frozen checks]",
+      "result": "passed",
+      "checkedAt": "2026-10-17T13:09:35.583Z"
+    },
+    {
+      "command": "node --test --test-isolation=none tests/provider-corrections.test.mjs",
+      "result": "passed",
+      "tests": 8,
+      "pass": 8,
+      "fail": 0,
+      "durationMs": 46.190788
+    }
+  ],
+  "handoffReview": {
+    "checkedAt": "2026-10-17T18:10:05.972965Z",
+    "reviewer": "/root/resume35_evidence",
+    "kind": "handoff-file-and-git-baseline-verification",
+    "sourceBaseSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+    "status": "passed",
+    "providerRequestsPerformed": 0,
+    "originalRequestActorPreserved": "/root/resume22_evidence",
+    "baselineLedgerEntries": 77,
+    "ledgerEntries": 84,
+    "appendedConfirm": 7,
+    "candidateJudgmentEntryTriples": 7,
+    "baselineLedgerBytesSha256": "a2d8ea8e9eba737a38a1f2968a0a1687498bf04fb0f8742ea7f42eedaef8f708",
+    "currentLedgerBytesSha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+    "baselineObjectsOrderContentsPreserved": true,
+    "baselineTopLevelMetadataPreserved": true,
+    "baselineRawPrefixPreserved": true,
+    "projection": {
+      "status": "passed",
+      "stableIds": 3317,
+      "stableUrls": 3317,
+      "unchangedSongObjects": 3313,
+      "taniKyUnknownUnchanged": true,
+      "samAdoKyDeferredUnchanged": true,
+      "counts": {
+        "before": {
+          "tj": 28,
+          "ky": 24,
+          "both": 24,
+          "union": 28
+        },
+        "after": {
+          "tj": 32,
+          "ky": 27,
+          "both": 27,
+          "union": 32
+        },
+        "chartBefore": {
+          "tj": 19,
+          "ky": 17,
+          "both": 17,
+          "union": 19
+        },
+        "chartAfter": {
+          "tj": 23,
+          "ky": 20,
+          "both": 20,
+          "union": 23
+        }
+      }
+    },
+    "frozenFilesByteIdenticalToBase": true,
+    "sourceDataModifiedByHandoffReviewer": false,
+    "verificationAttempts": [
+      {
+        "result": "failed_checker_schema_assumption",
+        "detail": "Comparison incorrectly required the durable five-field frozenChart projection to equal the original chart object including its legacy id; stopped before Node projection checks. No product or source data changed."
+      },
+      {
+        "result": "passed",
+        "checkedAt": "2026-10-17T18:10:05.972965Z",
+        "detail": "Compared exact rank/canonicalId/title/artist/tjNumber projection, then all seven candidate/judgment/ledger triples, original 77 prefix and metadata, frozen bytes, actual validate/apply projection, stable IDs/URLs and deferred/unknown cases."
+      }
+    ],
+    "absentHistoricalTemporaryPaths": [
+      "/tmp/jpop-20261017-dirty-unit-boolean-fix.log",
+      "/tmp/jpop35-app-qa/report.json",
+      "/tmp/jpop-resume22-quality/targeted-fixed.txt"
+    ],
+    "limits": [
+      "Original seven provider requests and editorial decisions remain attributed to /root/resume22_evidence. No provider requery, new checkedAt or original response reparse.",
+      "Historical temporary paths above were absent at this handoff; original logs/scripts were not recovered or executed by this reviewer.",
+      "Current dirty-worktree validate/apply and file/base comparison only; whole-suite/type/artifact/browser/clean-SHA CI/deployment/Release remain root gates."
+    ]
+  }
+}

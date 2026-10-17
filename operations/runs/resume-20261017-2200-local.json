@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-10-17T13:29:26.153051+00:00",
+  "sourceScope": "dirty working tree on sourcebase2964f7e; no new clean SHA/deploy",
+  "failures": [
+    {
+      "command": "npm run check (initial default and explicit network capability)",
+      "result": "Astro telemetry config mkdir failed outside writable workspace",
+      "safeCode": "ENOENT_CONFIG_DIRECTORY",
+      "evidence": "/tmp/jpop-20261017-dirty-type.log and /tmp/jpop-20261017-dirty-type-network-grant.log",
+      "correction": "Supported ASTRO_TELEMETRY_DISABLED=1, inherited HOME/proxy/CA unchanged"
+    },
+    {
+      "command": "npm test (default sandbox/isolation)",
+      "result": "Default sandbox/isolation runner reported 25 test files:19passed/6failed with generic test failed messages. No detailed error code was present; exact failure cause is unconfirmed.",
+      "safeFailureCounts": {
+        "failedFiles": 6,
+        "passedFiles": 19
+      },
+      "durationLongestMs": 152564.734883,
+      "evidence": "/tmp/jpop-20261017-dirty-unit.log",
+      "correction": "Explicit network capability and --test-isolation=none runs actual individual checks; no source assertion weakened",
+      "safeErrorMarkerCounts": {
+        "EPERM": 0,
+        "EACCES": 0,
+        "ETIMEDOUT": 0,
+        "testTimeoutFailure": 0,
+        "ERR_TEST_FAILURE": 0
+      }
+    },
+    {
+      "command": "root attempt to inspect/stop its known test PID",
+      "result": "cwd inspection permission denied; no signal sent. Process naturally ended with failure before final signal attempt.",
+      "scope": "Do not claim cancellation succeeded."
+    },
+    {
+      "command": "loopback port inspection without network capability",
+      "result": "socket creation EPERM; explicit network capability then confirmed port4321 free",
+      "safeCode": "EPERM"
+    },
+    {
+      "command": "first dirty preview verify:dist",
+      "exitCode": 1,
+      "safeError": "private staging or unreviewed evidence payload is forbidden",
+      "file": "_astro/Layout.astro_astro_type_script_index_0_lang.Br7q4WL8.js",
+      "observedCause": "Browser matcher retained confirmedNumbers runtime evidence copy object; strict artifact gate rejected evidence:{...}. No serialized raw/private payload or public deployment was established by this error.",
+      "correction": "Shared boolean hasConfirmedNumber used by matcher; server confirmedNumbers keeps copied evidence and legacy API. Dead-code elimination removes server projection from browser; verifier untouched."
+    },
+    {
+      "stage": "actual rendered mobile validation",
+      "result": "Targeted7 E2E passed but direct screenshot review found provider badge overlap/vertical wrapping on360px; app QA also found all-filter width43.921875px below44. New eighth geometry regression then reproduced failure on initial route; later routes not reached.",
+      "evidence": "/tmp/jpop-resume22-quality/confirmed-search-mobile-both.png; /tmp/jpop35-app-qa/report.json; /tmp/jpop-resume22-quality/mobile-before-fix.txt",
+      "correction": "Search.astro scoped44px/provider layout fix followed by actual8/8 targeted E2E16.7s and app9flows/12PNG success; original failures preserved."
+    },
+    {
+      "command": "full local preview E2E39",
+      "passed": 36,
+      "failed": 3,
+      "cause": "existing deferred-guide ledger total fixed at77; independently reviewed append7 makes84",
+      "evidence": "/tmp/jpop-20261017-full-preview-e2e.log",
+      "correction": "root preserves original77 parsed-prefix SHA256, minimum77; exact deferred pairs and full current ledger/build hash remain required"
+    },
+    {
+      "stage": "old CI artifact retrieval after environment restart",
+      "result": "CLI redirect forbidden. Error output included a temporary signed artifact URL; connector metadata was also initially printed without sufficient filtering. No URL/value retained in committed files. Subsequent diagnostics allowlisted, retrieval completed via purpose-built connector plus workspace file download.",
+      "correction": "Suppress CLI stderr and raw connector result; retain artifact ID/name/SHA/bytes only. Temporary download metadata dropped from session store."
+    },
+    {
+      "stage": "actual production rollback/restore",
+      "result": "oldv044 rollback27checks/1attempt passed. Newv045 restore first attempt rejected old catalog bytes with CATALOG_MISMATCH; second attempt27checks passed. Strict retry gate unchanged.",
+      "oldCatalogSha256": "742a490b8a6f2f0f2e45ae3663c6f659c959bd112391f0b25fa70d50f6bfe2d3",
+      "newCatalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "evidence": "resume-20261017-2200-restore-http.json",
+      "scope": "Bounded observed responses, not all CDN convergence/continuous uptime"
+    }
+  ],
+  "verification": {
+    "unit": {
+      "command": "node --test --test-isolation=none tests/*.test.mjs (expanded by Python glob); explicit network capability",
+      "exitCode": 0,
+      "tests": 325,
+      "passed": 325,
+      "failed": 0,
+      "skipped": 0,
+      "log": "/tmp/jpop-20261017-dirty-unit-capability.log"
+    },
+    "type": {
+      "command": "ASTRO_TELEMETRY_DISABLED=1 npm run check; explicit network capability",
+      "exitCode": 0,
+      "checkedFiles": 26,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0,
+      "log": "/tmp/jpop-20261017-dirty-type-telemetry-off.log"
+    },
+    "previewBuild": {
+      "command": "ASTRO_TELEMETRY_DISABLED=1 JPOP_BUILD_TARGET=preview npm run build; explicit network capability",
+      "exitCode": 0,
+      "log": "/tmp/jpop-20261017-dirty-preview-build.log"
+    },
+    "unitAfterBooleanFix": {
+      "command": "node --test --test-isolation=none tests/*.test.mjs (expanded glob), explicit network capability",
+      "tests": 325,
+      "passed": 325,
+      "failed": 0,
+      "skipped": 0,
+      "exitCode": 0,
+      "log": "/tmp/jpop-20261017-dirty-unit-boolean-fix.log"
+    },
+    "previewAfterBooleanFix": {
+      "buildExitCode": 0,
+      "verifyExitCode": 0,
+      "files": 3347,
+      "html": 3336,
+      "indexed": 0,
+      "sourceSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+      "dirty": true,
+      "buildLog": "/tmp/jpop-20261017-dirty-preview-boolean-build.log",
+      "verifyLog": "/tmp/jpop-20261017-dirty-preview-boolean-verify.log"
+    },
+    "typeAfterBooleanFix": {
+      "exitCode": 0,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0,
+      "log": "/tmp/jpop-20261017-dirty-type-boolean.log"
+    }
+  },
+  "browser": {
+    "classification": "skill listed; associated callable Browser runtime/js/CUA/tab tools absent (0 matches)",
+    "fallback": "Existing Playwright/system Chromium allowed by user harness; root-managed local built-artifact server; no new deps or TLS bypass",
+    "flow": "search/home/favorites -> provider-confirmed condition/URL/history/clear -> matching confirmed evidence and unchanged saved IDs"
+  },
+  "scope": "Local failures and actual subsequent results preserved. Clean SHA CI, repeated frozen builds, real remote preview/production/recovery/release not yet executed."
+}

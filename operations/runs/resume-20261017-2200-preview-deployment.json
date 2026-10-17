@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-17T18:21:24.796239+00:00",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "action": "managed-cloud-deploy",
+  "before": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "c06ff6d6-9c19-4751-8cd6-d8c5be39507e",
+      "url": "https://c06ff6d6.jpoptoday-preview.pages.dev",
+      "sourceSha": "f959f3671b8aeb766fd469558634f9680635e58c",
+      "createdAt": "2026-10-16T10:38:07.985167Z",
+      "status": "success"
+    }
+  },
+  "after": {
+    "project": "jpoptoday-preview",
+    "domains": [
+      "jpoptoday-preview.pages.dev"
+    ],
+    "source": {
+      "owner": null,
+      "repo_name": null,
+      "production_branch": null,
+      "production_deployments_enabled": null,
+      "preview_deployment_setting": null
+    },
+    "deployment": {
+      "id": "cbf1faa6-973e-4b81-8360-df914d92bc4f",
+      "url": "https://cbf1faa6.jpoptoday-preview.pages.dev",
+      "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "createdAt": "2026-10-17T18:21:22.282317Z",
+      "status": "success"
+    }
+  },
+  "scope": "Actual API/CLI deployment; Actions binding separately observed"
+}

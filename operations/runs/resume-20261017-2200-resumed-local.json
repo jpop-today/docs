@@ -1,0 +1,36 @@
+{
+  "startedAt": "2026-10-17T18:08:02.184044+00:00",
+  "sourceScope": "Issue35 current dirty work, preserved base2964f7e",
+  "checks": [
+    {
+      "name": "unit",
+      "exitCode": 0,
+      "log": "/tmp/jpop35-resumed-unit.log",
+      "summary": [
+        "canonical npm test:325tests/325pass/0fail/0skip"
+      ]
+    },
+    {
+      "name": "type",
+      "exitCode": 0,
+      "log": "/tmp/jpop35-resumed-type.log",
+      "summary": [
+        "26files,0errors/0warnings/0hints"
+      ]
+    },
+    {
+      "name": "preview-build",
+      "exitCode": 0,
+      "log": "/tmp/jpop35-resumed-preview-build.log",
+      "summary": []
+    },
+    {
+      "name": "preview-artifact",
+      "exitCode": 0,
+      "log": "/tmp/jpop35-resumed-preview-artifact.log",
+      "summary": [
+        "3347files/3336HTML/0indexable"
+      ]
+    }
+  ]
+}

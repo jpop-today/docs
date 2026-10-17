@@ -1,0 +1,16 @@
+{
+  "id": 39035294667,
+  "jobId": 117403772588,
+  "workflow": "discord.yml",
+  "mode": "message",
+  "state": "sent",
+  "attempts": 1,
+  "sentAt": "2026-10-17T13:07:58.6096559Z",
+  "safeResults": [
+    "2026-10-17T13:07:58.3212652Z Report prepared: message (2026-10-17); delivery not yet confirmed.",
+    "2026-10-17T13:07:58.6096559Z Discord notification sent (1 attempt)."
+  ],
+  "sourceSha": "2964f7ea3f8c43f147422107f40629f51c010698",
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/39035294667",
+  "scope": "Actual start report. No webhook URL, credentials, full env or raw logs retained."
+}
