@@ -1,0 +1,147 @@
+{
+  "checkedAt": "2026-10-18T03:28:56.996900+00:00",
+  "head": [
+    {
+      "id": 39093484433,
+      "name": "contracts",
+      "event": "pull_request",
+      "head_sha": "69a2ae58cb076b8d5d060fec76822ec2cf73e081",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39093484433",
+      "jobs": [
+        {
+          "id": 117574957357,
+          "name": "contracts",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:24:07Z",
+          "completed_at": "2026-10-18T03:24:20Z"
+        }
+      ]
+    },
+    {
+      "id": 39093484431,
+      "name": "app",
+      "event": "pull_request",
+      "head_sha": "69a2ae58cb076b8d5d060fec76822ec2cf73e081",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39093484431",
+      "jobs": [
+        {
+          "id": 117574957489,
+          "name": "production-artifact",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:24:07Z",
+          "completed_at": "2026-10-18T03:25:30Z"
+        },
+        {
+          "id": 117574957632,
+          "name": "app",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:24:07Z",
+          "completed_at": "2026-10-18T03:25:56Z"
+        }
+      ]
+    },
+    {
+      "id": 39093470069,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "69a2ae58cb076b8d5d060fec76822ec2cf73e081",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39093470069",
+      "jobs": [
+        {
+          "id": 117574913571,
+          "name": "contracts",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:23:52Z",
+          "completed_at": "2026-10-18T03:24:04Z"
+        }
+      ]
+    },
+    {
+      "id": 39093470057,
+      "name": "app",
+      "event": "push",
+      "head_sha": "69a2ae58cb076b8d5d060fec76822ec2cf73e081",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39093470057",
+      "jobs": [
+        {
+          "id": 117574913656,
+          "name": "production-artifact",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:23:52Z",
+          "completed_at": "2026-10-18T03:25:18Z"
+        },
+        {
+          "id": 117574913811,
+          "name": "app",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:23:52Z",
+          "completed_at": "2026-10-18T03:25:14Z"
+        }
+      ]
+    }
+  ],
+  "main": [
+    {
+      "id": 39093627242,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39093627242",
+      "jobs": [
+        {
+          "id": 117575382465,
+          "name": "contracts",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:26:30Z",
+          "completed_at": "2026-10-18T03:26:42Z"
+        }
+      ]
+    },
+    {
+      "id": 39093627203,
+      "name": "app",
+      "event": "push",
+      "head_sha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39093627203",
+      "jobs": [
+        {
+          "id": 117575382248,
+          "name": "app",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:26:30Z",
+          "completed_at": "2026-10-18T03:28:23Z"
+        },
+        {
+          "id": 117575382462,
+          "name": "production-artifact",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T03:26:30Z",
+          "completed_at": "2026-10-18T03:28:12Z"
+        }
+      ]
+    }
+  ],
+  "allSixSuccess": true,
+  "scope": "report-only PR40 push/PR four and merge-main app/contracts two; product verification and actual deployed SHA remain M110c583e, no report redeploy"
+}

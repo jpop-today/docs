@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-18T03:29:57.457012+00:00",
+  "state": "complete",
+  "sourceReport": {
+    "checkedAt": "2026-10-18T03:26:41.869983+00:00",
+    "pr": 40,
+    "head": "69a2ae58cb076b8d5d060fec76822ec2cf73e081",
+    "mergeSha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+    "productSourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "documentation": {
+      "pr": 22,
+      "main": "f1719d3504ad43612c63c0c695357c7dec62f180"
+    },
+    "changedFiles": [
+      "reports/daily/2026-10-18.json",
+      "reports/runs/resume-20261017-2200-completed-daily-snapshot.json",
+      "reports/runs/resume-20261018-0700.json"
+    ],
+    "onlyReportsDiffer": true,
+    "deploymentPerformed": false,
+    "notificationPayloadMatchesSavedReportAndDocs": true,
+    "payloadSha256": "ec169a16fa65d7f1c9c7b28f0e54a989a15ff8f312c5c8e4eead49f392a3772a"
+  },
+  "reportCI": {
+    "path": "resume-20261018-0700-report-ci.json",
+    "allSixSuccess": true
+  },
+  "completedNotification": {
+    "checkedAt": "2026-10-18T03:29:23.499635+00:00",
+    "state": "sent",
+    "run": 39093771695,
+    "job": 117575822535,
+    "conclusion": "success",
+    "sourceSha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+    "productSourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "reportDate": "2026-10-18",
+    "mode": "completed",
+    "attempts": 1,
+    "sentAt": "2026-10-18T03:29:06.8399956Z",
+    "safeResults": [
+      "2026-10-18T03:29:06.5114229Z Report prepared: completed (2026-10-18); delivery not yet confirmed.",
+      "2026-10-18T03:29:06.8399956Z Discord notification sent (1 attempt)."
+    ],
+    "scope": "Exactly one explicit manager completed dispatch through existing workflow/Actions binding; release notice and automatic CI notifications separate. No webhook value read or retained.",
+    "payloadIdentity": "Saved source report title/summary/four fields/url equal local formatDiscordPayload result and docs core; same content reported to chat."
+  },
+  "documentation": {
+    "evidencePR": 22,
+    "evidenceMerge": "f1719d3504ad43612c63c0c695357c7dec62f180",
+    "finalReceiptPR": "assigned after creation; merge recorded in Issue38 to avoid recursive commit"
+  },
+  "production": {
+    "checkedAt": "2026-10-18T03:26:47.780849+00:00",
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "bff966cf-c7af-41cf-b406-21cd007b28de",
+      "url": "https://bff966cf.todayjpop.pages.dev",
+      "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "createdAt": "2026-10-18T03:05:38.53579Z",
+      "status": "success"
+    }
+  },
+  "finalHTTP": {
+    "path": "resume-20261018-0700-final-production-http.json",
+    "attempts": 1,
+    "checks": 27
+  },
+  "payloadCoreMatches": true,
+  "attachmentHost": "PR attachment calls attempted; host result timed out/unconfirmed. PR creation/merge independently verified through GitHub.",
+  "wholeProjectOrGoogleApprovalClaimed": false,
+  "scheduleModified": false
+}
