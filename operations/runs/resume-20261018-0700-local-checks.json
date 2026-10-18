@@ -1,0 +1,37 @@
+{
+  "startedAt": "2026-10-17T22:06:23.756667+00:00",
+  "target": "working tree before commit; result SHA pending",
+  "results": [
+    {
+      "name": "unit",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit": 0,
+      "selected": [
+        "ℹ tests 332",
+        "ℹ suites 0",
+        "ℹ pass 332",
+        "ℹ fail 0"
+      ],
+      "log": "/tmp/jpop38-unit.log"
+    },
+    {
+      "name": "type",
+      "command": [
+        "npm",
+        "run",
+        "check"
+      ],
+      "exit": 0,
+      "selected": [
+        "Result (26 files): ",
+        "- 0 errors",
+        "- 0 warnings",
+        "- 0 hints"
+      ],
+      "log": "/tmp/jpop38-type.log"
+    }
+  ]
+}

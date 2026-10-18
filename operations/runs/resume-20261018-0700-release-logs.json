@@ -1,0 +1,25 @@
+{
+  "run": 39092755809,
+  "jobs": [
+    {
+      "job": 117572775145,
+      "logReadExit": 0,
+      "selected": [
+        "verify\tRun npm test\t2026-10-18T03:12:03.6154130Z ℹ tests 332",
+        "verify\tRun npm test\t2026-10-18T03:12:03.6154377Z ℹ pass 332",
+        "verify\tRun npm test\t2026-10-18T03:12:03.6154500Z ℹ fail 0",
+        "verify\tRun npm run check\t2026-10-18T03:12:07.8089978Z - 0 errors",
+        "verify\tRun npm run check\t2026-10-18T03:12:07.8090153Z - 0 warnings",
+        "verify\tRun npm run check\t2026-10-18T03:12:07.8090274Z - 0 hints",
+        "verify\tRun npm run test:e2e\t2026-10-18T03:13:02.2981996Z   44 passed (32.7s)"
+      ]
+    },
+    {
+      "job": 117573022406,
+      "logReadExit": 0,
+      "selected": [
+        "publish\tDeliver release notice or skip missing secret\t2026-10-18T03:13:15.0578566Z Discord notification sent (1 attempt)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "reviewer": "/root/resume38_evidence",
+  "accepted": true,
+  "readAt": "2026-10-18T03:18:37.346891+00:00",
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "reviewedFiles": [
+    {
+      "path": "/workspace/docs/engineering/favorites-export-quality-20261018-0700.md",
+      "sha256": "2d04d982bac8b71fc4175e96618641adb96e101c6e24bfd00418ba20e8ed0d04"
+    },
+    {
+      "path": "/workspace/docs/engineering/favorites-export-replacement-20261018-0700.md",
+      "sha256": "76359d0e8a96955d07d801ce9bbc067d8daafcbc07cfcc81d2962672052799b4"
+    },
+    {
+      "path": "/workspace/docs/engineering/favorites-export-quality-20261018-0700-reviewed-snapshot.md",
+      "sha256": "429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe"
+    },
+    {
+      "path": "/workspace/docs/operations/production-content-gate-v046-20261018.md",
+      "sha256": "141d2484d8b570403e84337ce3a8571c46b44906192a81e254e537adf48a9313"
+    },
+    {
+      "path": "/workspace/docs/product/spec.md",
+      "sha256": "2dcc7cdb1ffd006b73f58294fd45d55e9329bd666712860febe2bcc1de465dc1"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-main-ci-logs.json",
+      "sha256": "0c22ff370b9f8ac48e4b4a3240035021cadd2b2951492f6b02ac0993689c429c"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-reproducibility.json",
+      "sha256": "286e80c9e4bede9d1704b4f3db9a1f2997c19a954a6f31460981322bd8a2b3fc"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-preview-remote-logs.json",
+      "sha256": "f594d0eb189c01ebd632fb932f2ade3ebdf2f8291de06dfed84f7a95e055e58e"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-production-remote-logs.json",
+      "sha256": "6d93edb0760bd2e9c7e3a543a937dbfdd93e23a45c4b60a44d81a01e032ff79f"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-recovery.json",
+      "sha256": "a32841a0445da9c9f926c23750dde58a78d1d7a4bce423c5ecf64bfd8a2ac4c6"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-rollback-http.json",
+      "sha256": "d3a23b95221c695761bc314f500738204bf2c1070dc9873ab79805abda8bbf94"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-restore-http.json",
+      "sha256": "4873d8ebe37ea4e9f57f788cad76ce446ff78702c7adc06e8466daeb771de220"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-postrestore-http.json",
+      "sha256": "c1356ff7bd710d7be14700d184fe106ebaf132a11146daba671f184997d73401"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-postrestore-site.json",
+      "sha256": "c65fcdfdb3944f4884318246cd2f2148e330e5af3a6024e16f12acfa5d34a157"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-release.json",
+      "sha256": "898573967c8cd373ad7e9664865366db6c2120fa1231fcb52e674ba0835dae98"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-release-logs.json",
+      "sha256": "db7cc2955583d56b1b8fb634da55fe3bfd0f261be120e7d1c9dc0f16b4afc124"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-main-preservation.json",
+      "sha256": "507ee1e36b434c8c71a15707347ccfff2a9329708a38ba2ab7a872c39e734861"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-reviews.json",
+      "sha256": "c75a76092cc4402fd86adb49c3eef7df08d08f9995a834987e52d21d06facb79"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-reviews-app.json",
+      "sha256": "cd9c385ff67298c27ca20580bb397d15561c236255dca44853f792f6bdda3d70"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-reviews-evidence.json",
+      "sha256": "b83078e0a411d35f40deede99663f41ad9af81ed36c89fd22c48bafea3c86114"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-reviews-quality.json",
+      "sha256": "a611b03da7bd3252b966db115ee19d87efd9a712720b0efd2995980217d763f1"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-main-ci.json",
+      "sha256": "96a064d9ec29bc6bc28f0989782c1a9d430bf494588858adc266ab1ca5fff087"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-preview-remote.json",
+      "sha256": "ca18a4e19016fa017a78776ab57fe16480efcae0eb0e20f5de2ee34678b50b56"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-production-remote.json",
+      "sha256": "d473a63b36a16678a2cf6ca7e344d4f0dc79a3e988b2a71243f323d062038855"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-policy-http.json",
+      "sha256": "53e66131909980b9dca324283eecd0408e236833321fc452d0cb34b9d6b4f38b"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261018-0700-frozen-inputs.json",
+      "sha256": "670b78ead21235652ea770026d49df7eb9f0254c1705964d415a5e9de724fa25"
+    },
+    {
+      "path": "/workspace/jpoptoday/data/staging/legacy-catalog.json",
+      "sha256": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3"
+    },
+    {
+      "path": "/workspace/jpoptoday/data/chart-snapshot.json",
+      "sha256": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97"
+    },
+    {
+      "path": "/workspace/jpoptoday/data/reviewed/provider-corrections.json",
+      "sha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1"
+    },
+    {
+      "path": "/workspace/jpoptoday/data/legacy-identity-baseline.json",
+      "sha256": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8"
+    },
+    {
+      "path": "/workspace/jpoptoday/src/styles/global.css",
+      "sha256": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889"
+    },
+    {
+      "path": "/workspace/jpoptoday/src/content/guides.ts",
+      "sha256": "fffb68fed9612d497e7781a31a2ee6ca07d23da14e68d7bb17f45786512585c6"
+    }
+  ],
+  "findings": [],
+  "verifiedFacts": {
+    "traceabilityRepair": "품질 문서는 원 평가시점 snapshot의 첫 스펙 앵커만 실제 날짜 포함 제목에 맞춰 정정한 본문으로 시작하고 후속 구획을 추가한다. snapshot429d...와 원 평가3JSON hash가 보존됐다. 원6개 평가40/40/38과 교체 기록을 읽었으며 새 점수나 재평가를 만들지 않았다.",
+    "sameSourceChain": {
+      "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "mainRuns": [
+        39091961070,
+        39091961101
+      ],
+      "mainLogs": "canonical332/332·타입0/0/0·preview44/production44 결과줄 확인",
+      "remotePreview": {
+        "run": 39092193863,
+        "job": 117571108562,
+        "passed": 44
+      },
+      "remoteProduction": {
+        "run": 39092435736,
+        "job": 117571818772,
+        "passed": 44,
+        "timing": "복구 시험 전"
+      }
+    },
+    "frozenInputs": {
+      "fiveInputAndCssByteHashesMatch": true,
+      "guideByteHashUnchangedSinceOriginalReview": true,
+      "metadataHashes": {
+        "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+        "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9"
+      },
+      "note": "새 제공사 조회·번호 확인일·명의/버전 동일성·권리 판정을 추가한 변경이 아니다. 기존 ledger84/3317ID와 원래 브랜드 자료를 보존한다."
+    },
+    "reproducibility": {
+      "localCleanBuildsPerTarget": 2,
+      "filesPerTarget": 3347,
+      "htmlPerTarget": 3336,
+      "sameFullFileSetAndEveryByte": true,
+      "previewIndexable": 0,
+      "productionIndexable": 49,
+      "scope": "기존 root 영수증 직접 읽기; CI archive 전체와의 비교는 미실행"
+    },
+    "recovery": {
+      "project": "todayjpop",
+      "domain": "jpop.today",
+      "oldDeployment": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+      "newDeployment": "bff966cf-c7af-41cf-b406-21cd007b28de",
+      "oldSourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "newSourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "actualApiOrder": [
+        "rollback",
+        "restore"
+      ],
+      "restoreAttemptedInFinally": true,
+      "http": [
+        {
+          "receipt": "operations/runs/resume-20261018-0700-rollback-http.json",
+          "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+          "target": "production",
+          "checkedAt": "2026-10-18T03:10:59.700Z",
+          "checks": 27,
+          "attempts": 1,
+          "expectedArtifactHashChecks": 25,
+          "passed": true
+        },
+        {
+          "receipt": "operations/runs/resume-20261018-0700-restore-http.json",
+          "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+          "target": "production",
+          "checkedAt": "2026-10-18T03:11:03.190Z",
+          "checks": 27,
+          "attempts": 1,
+          "expectedArtifactHashChecks": 25,
+          "passed": true
+        },
+        {
+          "receipt": "operations/runs/resume-20261018-0700-postrestore-http.json",
+          "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+          "target": "production",
+          "checkedAt": "2026-10-18T03:11:47.343Z",
+          "checks": 27,
+          "attempts": 1,
+          "expectedArtifactHashChecks": 25,
+          "passed": true
+        }
+      ]
+    },
+    "ordinaryPostrestore": {
+      "checkedAt": "2026-10-18T03:13:26.846Z",
+      "count": 5,
+      "paths": [
+        "/build-info.json",
+        "/favorites/",
+        "/guides/build-your-setlist/",
+        "/catalog.json",
+        "/build-info.json"
+      ],
+      "all200AndPass": true,
+      "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123"
+    },
+    "privateAndPolicyBoundary": "rollback/restore/postrestore 각 실제 27검사의 비공개 staging·관리script·내부report 및 임의없는경로404와 기대본문hash를 읽었다. 콘텐츠 게이트의 preview전체noindex·무광고/favorites양target noindex는 artifact 검증의 범위다. 새 권리/실제확인일/Google 심사 결과가 없으며 계정·소유권·신청·승인은 unknown이다.",
+    "release": {
+      "tag": "v0.4.6",
+      "annotatedObject": "5fee402924df9f97c5635e74910fb08709b35996",
+      "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "releaseId": 416205945,
+      "publishedAt": "2026-10-18T03:13:14Z",
+      "draft": false,
+      "prerelease": false,
+      "workflowRun": 39092755809,
+      "releaseNotice": "release-logs의03:13:15.0578566Z Discord sent1attempt를 읽음; 관리자 완료 보고와 별개"
+    },
+    "operationsBoundary": "production workflow의 CF Actionsbinding missing/deploy skipped 실제 줄과 API의 root managed 배포를 구분한다. 개인 Git source metadata/dev·자동false/none을 보존한 기록이며 자동 CI 배포 binding 설정 완료를 주장하지 않는다."
+  },
+  "limits": [
+    "이 담당은 기존 파일·JSON·hash를 읽고 이 허용된 수용JSON만 신규 저장했다. Git/제품 코드·테스트·서버·브라우저·CI·HTTP·배포·새 worker 실행은 하지 않았다.",
+    "수용은 root가 수행한 실제 영수증 연결에 대한 독립 읽기 판단이며 이 담당의 새 외부 API/HTTP 실행이나 최신 글로벌 상태 관측이 아니다.",
+    "원격 preview44/production44는 실제 복구 전에 실행됐다. 복구 후 증거는 엄격27/1과 일반URL5개이며 복구 후 전체44 재실행을 주장하지 않는다.",
+    "전체 CDN 위치·지속 가동·24시간 세션·매시간 성공을 보장하지 않는다. 두 target 전체 로컬 재현을 전체 CI ZIP 비교로 확대하지 않는다.",
+    "OS 실제 clipboard 권한·Firefox/WebKit·필드 성능·실제 광고 노출/클릭을 검사하지 않았다. artifact 광고없음은 모든 외부 설정의 포괄적 증명이 아니다.",
+    "Google 계정 본인정보·소유권·약관/법적 동의·자료 권리·문의 실수신·ads.txt 실제 계정 일치는 별도 운영자 단계다. 공개 ads.txt 형식200 관측을 계정일치/승인으로 해석하지 않는다.",
+    "원6개 평가와 당시 점수·실패·미실행 원문을 보존한다. 링크 정정 후 새 점수·가짜 투표·물리 삭제 주장은 없다. 과거 /tmp 원시로그나 artifact의 현재 존재를 추정하지 않는다."
+  ]
+}

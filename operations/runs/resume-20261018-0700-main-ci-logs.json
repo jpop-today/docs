@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-18T03:01:55.444429+00:00",
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "jobs": [
+    {
+      "job": 117570407477,
+      "exit": 0,
+      "selected": [
+        "app\tVerify contracts and app read model\t2026-10-18T02:58:45.2799922Z ℹ tests 332",
+        "app\tVerify contracts and app read model\t2026-10-18T02:58:45.2800506Z ℹ pass 332",
+        "app\tVerify contracts and app read model\t2026-10-18T02:58:45.2800757Z ℹ fail 0",
+        "app\tCheck Astro types\t2026-10-18T02:58:50.9651580Z - 0 errors",
+        "app\tCheck Astro types\t2026-10-18T02:58:50.9651792Z - 0 warnings",
+        "app\tCheck Astro types\t2026-10-18T02:58:50.9651965Z - 0 hints",
+        "app\tVerify browser behavior\t2026-10-18T03:00:03.8692965Z   44 passed (43.4s)"
+      ]
+    },
+    {
+      "job": 117570407595,
+      "exit": 0,
+      "selected": [
+        "production-artifact\tRun npm run test:e2e\t2026-10-18T02:59:59.7314651Z   44 passed (54.2s)"
+      ]
+    },
+    {
+      "job": 117570407412,
+      "exit": 0,
+      "selected": []
+    }
+  ]
+}

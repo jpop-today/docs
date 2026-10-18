@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-18T03:06:14.527013+00:00",
+  "workflow": "production.yml",
+  "payload": {
+    "ref": "main",
+    "inputs": {
+      "source_sha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "preview_url": "https://cf872f59.jpoptoday-preview.pages.dev",
+      "verify_only": true
+    }
+  },
+  "exit": 0
+}

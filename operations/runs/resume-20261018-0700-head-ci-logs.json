@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-17T22:14:36.258930+00:00",
+  "scope": "Completed H1 push jobs only; PR app pending at last read",
+  "jobs": [
+    {
+      "job": 117517295504,
+      "exit": 0,
+      "selected": [
+        "production-artifact\tRun npm run test:e2e\t2026-10-17T22:12:39.0949847Z   44 passed (53.3s)"
+      ]
+    },
+    {
+      "job": 117517295693,
+      "exit": 0,
+      "selected": [
+        "app\tVerify contracts and app read model\t2026-10-17T22:11:20.8814953Z ℹ tests 332",
+        "app\tVerify contracts and app read model\t2026-10-17T22:11:20.8815247Z ℹ pass 332",
+        "app\tVerify contracts and app read model\t2026-10-17T22:11:20.8815400Z ℹ fail 0",
+        "app\tCheck Astro types\t2026-10-17T22:11:25.7081777Z - 0 errors",
+        "app\tCheck Astro types\t2026-10-17T22:11:25.7081993Z - 0 warnings",
+        "app\tCheck Astro types\t2026-10-17T22:11:25.7082156Z - 0 hints",
+        "app\tVerify browser behavior\t2026-10-17T22:12:27.2161212Z   44 passed (37.8s)"
+      ]
+    },
+    {
+      "job": 117517295651,
+      "exit": 0,
+      "selected": []
+    }
+  ]
+}

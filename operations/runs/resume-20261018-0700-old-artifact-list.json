@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-18T02:57:09.482653+00:00",
+  "runs": [
+    {
+      "run": 39057562960,
+      "artifacts": [
+        {
+          "id": 12110610105,
+          "name": "jpoptoday-production-dist-ed22f924536d28fa990d7688b6ba352446984140",
+          "expired": false,
+          "size_in_bytes": 8828085
+        },
+        {
+          "id": 12110306969,
+          "name": "jpoptoday-dist-ed22f924536d28fa990d7688b6ba352446984140",
+          "expired": false,
+          "size_in_bytes": 8826870
+        }
+      ]
+    },
+    {
+      "run": 39058025419,
+      "artifacts": [
+        {
+          "id": 12110875407,
+          "name": "production-healthchecks-ed22f924536d28fa990d7688b6ba352446984140",
+          "expired": false,
+          "size_in_bytes": 4824
+        },
+        {
+          "id": 12110531488,
+          "name": "production-dist-ed22f924536d28fa990d7688b6ba352446984140",
+          "expired": false,
+          "size_in_bytes": 8828085
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-18T03:13:26.846Z",
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "scope": "Ordinary URL response checks after rollback/restore, no query; not all CDN positions or continuous uptime",
+  "checks": [
+    {
+      "path": "/build-info.json",
+      "status": 200,
+      "sha256": "428c3c29ef5d92d257a86234cd1db7c1774e60299c49cf80d9eee1389104ceeb",
+      "pass": true
+    },
+    {
+      "path": "/favorites/",
+      "status": 200,
+      "sha256": "4a369a2dffd62b84683e55186893e6cf4a6119c1fcea363a1aa11c27112759d3",
+      "pass": true
+    },
+    {
+      "path": "/guides/build-your-setlist/",
+      "status": 200,
+      "sha256": "a3378b26765dcf18bbb41cc5e5bf3011006381e1f9d10f919ca9d622bf3aa629",
+      "pass": true
+    },
+    {
+      "path": "/catalog.json",
+      "status": 200,
+      "sha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+      "pass": true
+    },
+    {
+      "path": "/build-info.json",
+      "status": 200,
+      "sha256": "428c3c29ef5d92d257a86234cd1db7c1774e60299c49cf80d9eee1389104ceeb",
+      "pass": true
+    }
+  ],
+  "success": true
+}

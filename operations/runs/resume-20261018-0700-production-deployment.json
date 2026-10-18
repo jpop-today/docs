@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-18T03:05:41.201181+00:00",
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "action": "managed-cloud-deploy",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "a268291a-1d00-4fa0-b8a5-c32e5e14202a",
+      "url": "https://a268291a.todayjpop.pages.dev",
+      "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+      "createdAt": "2026-10-17T18:24:52.165658Z",
+      "status": "success"
+    }
+  },
+  "after": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "bff966cf-c7af-41cf-b406-21cd007b28de",
+      "url": "https://bff966cf.todayjpop.pages.dev",
+      "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "createdAt": "2026-10-18T03:05:38.53579Z",
+      "status": "success"
+    }
+  },
+  "scope": "Actual API/CLI deployment; Actions binding observed separately"
+}

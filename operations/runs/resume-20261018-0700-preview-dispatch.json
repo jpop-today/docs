@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T03:02:17.066225+00:00",
+  "workflow": "deployed-preview.yml",
+  "payload": {
+    "ref": "main",
+    "inputs": {
+      "deployment_url": "https://cf872f59.jpoptoday-preview.pages.dev",
+      "source_sha": "110c583ec3460b4ca5e3b153deef7278d856f8a3"
+    }
+  },
+  "exit": 0
+}

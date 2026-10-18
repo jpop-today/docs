@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-17T22:09:53.082867+00:00",
+  "sourceSha": "6edc05c512f999f38c07c1ba0d3e38892198a133",
+  "target": "preview",
+  "browser": "Browser skill read; callable Browser control tools absent; existing Playwright/system Chromium fallback authorized by browser verification scope",
+  "results": [
+    {
+      "name": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit": 0,
+      "log": "/tmp/jpop38-head-build.log",
+      "selected": []
+    },
+    {
+      "name": "artifact",
+      "command": [
+        "npm",
+        "run",
+        "verify:dist"
+      ],
+      "exit": 0,
+      "log": "/tmp/jpop38-head-artifact.log",
+      "selected": []
+    },
+    {
+      "name": "e2e",
+      "command": [
+        "npm",
+        "run",
+        "test:e2e"
+      ],
+      "exit": 1,
+      "log": "/tmp/jpop38-head-e2e.log",
+      "selected": [
+        "Running 44 tests using 1 worker",
+        "    Error: expect(locator).toContainText(expected) failed",
+        "    Error: expect(received).toMatch(expected)",
+        "  2 failed",
+        "  42 passed (1.5m)"
+      ]
+    }
+  ]
+}

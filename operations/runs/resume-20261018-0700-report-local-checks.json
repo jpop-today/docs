@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-18T03:22:07.694641+00:00",
+  "validReport": true,
+  "sourceDocsDailyIdentical": true,
+  "originalReviewJsonHashesPreserved": true,
+  "reviewAdapter": "normalized",
+  "evaluation": {
+    "evidence": 40,
+    "app": 40,
+    "quality": 38
+  },
+  "runJsonParsed": 48,
+  "checkedLocalLinkTargets": 53,
+  "failures": [
+    {
+      "step": "root report-shape inspection",
+      "reason": "initial rg looked for absent contracts/report.mjs; actual validator in scripts/build-report.mjs was read next",
+      "productEffect": false
+    },
+    {
+      "step": "root evaluation recheck",
+      "reason": "initial call used nonexistent reviews property; existing normalized adapter rerun verified original six scores",
+      "productEffect": false
+    }
+  ],
+  "notExecuted": [
+    "new product tests or deployment for report-only files"
+  ]
+}

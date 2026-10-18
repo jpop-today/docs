@@ -1,0 +1,9 @@
+{
+  "requestedAt": "2026-10-17T22:05:26.026373+00:00",
+  "title": "jpop.today · Issue38 재개 시작",
+  "message": "한국시간 18일07시 재개: 어제17일에는 v0.4.4 문서·완료보고와 구식PR 정리를 마쳤고, 오늘03시대 v0.4.5 제품·실제운영·복구·Release,06시대 완료보고까지 마쳤습니다. 현재 운영 ed22f924/a268291a와 엄격HTTP27/1을 재확인했습니다. 이번 Issue38은 즐겨찾기 복사텍스트에 빠진 업체별 공식확인·관측·확인필요 구분을 보존하는 실제 개선입니다. 새3담당이 콘텐츠/앱/독립검증을 나눠 맡고 같은SHA CI·preview·복구·운영을 확인합니다. AdSense 기술준비preparing, 실제계정·신청·심사unknown이며 권리·문의실수신·ads.txt 계정일치·본인정보/법적동의는 운영자확인이 남았습니다. Actions binding 인계와09시 예약은 별개이며 예약을변경하지않습니다.",
+  "exit": 0,
+  "state": "dispatched",
+  "workflow": "discord.yml",
+  "secrets": "Actions binding only; no value read"
+}

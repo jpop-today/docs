@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-17T22:05:21.896Z",
+  "target": "local pinned v0.4.5 production artifact",
+  "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+  "flow": "favorites mixed provider -> bulkcopy denied -> manual text dialog",
+  "id": "jpop-playlist-ado-逆光-c8c1ba8b20",
+  "expectedProviderStates": {
+    "tj": "provider-confirmed",
+    "ky": "observed-unverified"
+  },
+  "exportText": "逆光 · Ado | TJ 68868 | 금영 76509",
+  "missingProviderStateLabels": true,
+  "rawPreserved": true,
+  "viewport": {
+    "width": 360,
+    "height": 900
+  },
+  "pageErrors": [],
+  "screenshot": "/tmp/jpop38-baseline-mobile.png"
+}
