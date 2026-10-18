@@ -1,7 +1,7 @@
 # 즐겨찾기 번호 내보내기 품질 인계 · 2026-10-18 07시 재개
 
 - Issue: [jpoptoday#38](https://github.com/jpop-today/jpoptoday/issues/38), run `resume-20261018-0700`.
-- 스펙: [FAVORITES-001/DATA-001/CONTENT-001/DESIGN-001](../product/spec.md#즐겨찾기-번호-목록의-상태-보존--issue38).
+- 스펙: [FAVORITES-001/DATA-001/CONTENT-001/DESIGN-001](../product/spec.md#즐겨찾기-번호-목록의-상태-보존--issue38-2026-10-18).
 - 담당: 실제 collaboration `/root/resume38_quality`. 기준 source `3ca14f80a1e0dbdf055882d195751c4d889a0db6`, docs `dbc3196441c01368d621c6b65b29c1ddede1a1e2`.
 - 소유: 신규 `tests/favorites-export.test.mjs`, 신규 `e2e/favorites-export.spec.ts`, 기존 `e2e/app.spec.ts` bulk 복사 기대문자열 한 행, 이 문서. Git·package/lock·CI·공용계약·서버·브라우저 실행·배포는 root만 수행한다.
 - 초기 인계 시 소스 diff 없음. 이후 다른 담당/root 소유 변경은 읽기만 했으며 덮어쓰지 않았다. 새 외부조회나 Google 심사 확인을 수행하지 않았다.
@@ -42,10 +42,26 @@ unit과 E2E의 실제자료 기대값은 formatter·`hasConfirmedNumber`·`match
 | `node --test --test-isolation=none tests/favorites-export.test.mjs` | 7개 test/7pass/0fail, 약168ms. 전체3317곡 독립 export 문자열 포함 |
 | root 인계 메시지 | canonical `npm test`332/332, Astro26files0error/0warning/0hint라고 root가 실제 관측하여 전달함. 품질담당 직접 실행은 아님 |
 
-E2E5개는 작성했으며 이 문서 최초 인계 시 root 실행 대기다. root가 서버/port·canonical browser·target build/CI·실제preview/production·rollback 검증을 단독 수행하고 실행 결과를 후속 기록한다. 이 단계에서 브라우저 통과·스크린샷 확인·배포 성공·AdSense 신청/승인을 주장하지 않는다. Screenshot 옵션은 root의 외부 `JPOP_SCREENSHOT_DIR`에 desktop/mobile-fallback/mobile-guidance/JS-off4종을 남기게 했다.
+E2E5개는 최초 인계 시 root 실행 대기였다. root가 서버/port·canonical browser·target build/CI·실제preview/production·rollback 검증을 단독 수행한다. Screenshot 옵션은 root의 외부 `JPOP_SCREENSHOT_DIR`에 desktop/mobile-fallback/mobile-guidance/JS-off4종을 남기게 했다. 이 단계에서 최종 브라우저 통과·배포 성공·AdSense 신청/승인을 주장하지 않는다.
+
+### 최초 실제 브라우저 실패와 수정
+
+root가 source H `6edc05c512f999f38c07c1ba0d3e38892198a133`에서 실행한 전체44개는42pass/2fail이었다. 실제 로그 `/tmp/jpop38-head-e2e.log`, [실행 JSON](../operations/runs/resume-20261018-0700-head-browser.json)을 읽었다. 새 clipboard 성공/거부·키보드/전체선택/44px/360px·>30/page2·AND·empty/raw 보존4개는 통과했지만, 새 JS-off 안내 검사는 `<noscript>` parent의 `toContainText`가 빈 문자열을 받아 실패했다. 기존 비교 가이드 날짜 검사는 이번에 실제 갱신한 setlist까지 과거날짜로 고정해 별도로 실패했다. 후자는 root의 추가 소유범위이며 품질담당은 수정하지 않았다.
+
+실제 compiled `dist/favorites/index.html`에는 `<noscript><p>개인 저장 목록을 읽고 번호 목록을 복사하려면 JavaScript가 필요합니다.</p></noscript>`가 있었다. 설치된 Playwright `shouldSkipForTextMatching`은 `NOSCRIPT` 자체를 text matching에서 명시적으로 제외하므로 parent 선택이 적절하지 않았다. 품질담당은 JS-off context를 유지하고 `noscript > p`의 **정확한 전체 문구와 실제 visible**을 요구하도록 좁혀 수정했다. 검사를 HTML 문자열 존재만으로 대체하거나 안내/비활성/넘침 검사를 제거하지 않았다. root의 [실제 JS-off 관측](../operations/runs/resume-20261018-0700-js-off-observed.json)은 childVisible/bodyIncludesNotice=true와 정확한 문구를 확인했다. 수정 후 test rerun은 별도로 기다리며 최초 실패를 통과로 덮어쓰지 않는다.
 
 프런트엔드 품질 skill은 읽었으나 품질담당은 Browser/Playwright를 직접 실행하지 않았다. root는 현재 Browser 도구 가용 여부와 실제 선택 경로를 별도 증거에 남긴다.
 
 ## 인계와 평가 경계
 
 최종 result SHA·root의 실제 브라우저/전체검증·6개 동료평가·교체·배포는 통합 기록을 따른다. 이 문서는 아직 수행하지 않은 peer 평가나 최저 순위를 만들지 않는다. 테스트 변화량과 테스트 수는 worker 순위 근거가 아니다.
+
+## 교체 담당 후속 인계 · 2026-10-18
+
+위 본문은 원 품질담당의 실행·실패·대기 범위를 보존한다. 평가시점의 정확한 원문은 [읽기 스냅샷](favorites-export-quality-20261018-0700-reviewed-snapshot.md)에 있으며 SHA256 `429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe`다. 교체 담당 `/root/resume38_replacement`는 실제 제목 `즐겨찾기 번호 목록의 상태 보존 · Issue38 (2026-10-18)`와 대조해 첫 스펙 링크에 빠진 날짜를 보완했다. 원문 스냅샷의 잘못된 링크도 당시 평가 근거로 그대로 둔다.
+
+[원 6개 평가와 관리자 판단](../operations/runs/resume-20261018-0700-reviews.json), 세 개별 평가 JSON의 원문·해시·점수(자료40/앱40/품질38)는 수정하지 않았다. 두 동료가 같은 링크 추적 결함에 유지보수성4를 준 결과이며, 교체는 root가 기록한 active roster 제외·실제 interrupt·신규 담당 영입이다. 물리 삭제나 새로운 투표를 주장하지 않는다.
+
+후속 읽기에서 root의 H1 `1ca336de00d60ac95d426165f5f26d02b2b454df` [focused7 통과](../operations/runs/resume-20261018-0700-fixed-browser.json)와 [push CI 로그](../operations/runs/resume-20261018-0700-head-ci-logs.json)의332/332·타입0·preview44/production44 통과를 확인했다. 이는 위 본문의 최초 인계 후 추가된 실행 증거다. [당시 CI 상태](../operations/runs/resume-20261018-0700-head-ci-final.json)의 PR app 진행 중 관측을 새 완료 결과로 바꾸지 않는다. 최종 M·실제 원격 preview/운영·복구는 아직 이 문서에서 수용하지 않았으며 [교체 감사](favorites-export-replacement-20261018-0700.md)의 후속 영수증 읽기를 따른다. 교체 담당은 소스·테스트·브라우저·Git·CI·배포를 실행하거나 변경하지 않았다.
+
+이후 root의 M `110c583ec3460b4ca5e3b153deef7278d856f8a3` main CI·두 target 전체3347파일 반복재현·전용 preview 엄격27/1 영수증을 추가로 읽었다. 위 대기는 이 후속 증거 이전 상태이며, 실제 원격 브라우저·운영/복구 수용 여부는 [감사 문서의 단계별 기록](favorites-export-replacement-20261018-0700.md)을 따른다.

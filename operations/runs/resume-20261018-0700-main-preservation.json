@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-18T03:01:28.851642+00:00",
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "fiveFrozenInputAndGlobalCssHashesMatch": true,
+  "originalReviewJsonHashesMatch": true,
+  "reviewedQualitySnapshotSha256": "429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe",
+  "scoresUnchanged": {
+    "totals": {
+      "/root/resume38_evidence": 40,
+      "/root/resume38_app": 40,
+      "/root/resume38_quality": 38
+    },
+    "lowest": [
+      "/root/resume38_quality"
+    ],
+    "maximum": 40
+  },
+  "scope": "Read-only data/source/review preservation after actual replacement edits; no fresh provider lookup"
+}

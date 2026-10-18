@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-18T03:02:57.573Z",
+  "url": "https://jpop.today/ads.txt",
+  "status": 200,
+  "contentType": "text/plain; charset=utf-8",
+  "bytes": 59,
+  "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+  "googleSellerFormatRows": 1,
+  "html": false,
+  "accountMatch": "unknown; publisher value not logged",
+  "scope": "Public text file presence/format only; no account, ownership, legal consent, application or approval verified"
+}

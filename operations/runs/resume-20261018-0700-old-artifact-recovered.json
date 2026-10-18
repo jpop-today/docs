@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-18T02:58:55.253128+00:00",
+  "artifactId": 12110531488,
+  "run": 39058025419,
+  "zipBytes": 8828085,
+  "zipSha256": "d7f89d44778cc13f370216a6f94cd9406532bff58dacb11e536fbc1b60b7f544",
+  "files": 3347,
+  "metadata": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "ed22f924536d28fa990d7688b6ba352446984140",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+    "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "scope": "Original v045 CI artifact recovered after /tmp loss; no old rebuild; actual origin comparison follows"
+}

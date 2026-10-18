@@ -82,5 +82,72 @@
     "suppressed: no tests matched (not pass)",
     "reviewed corrections: 1 passed against pinned previous dist (3.3s), export still lacks labels"
   ],
-  "contracts": "Issue38 + product/spec.md; raw ledger84/staging/chart/3317 IDs and old URL/storage/brand fixed"
+  "contracts": "Issue38 + product/spec.md; raw ledger84/staging/chart/3317 IDs and old URL/storage/brand fixed",
+  "sourceHead": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+  "sourcePr": 39,
+  "integrationAdditionalOwnership": [
+    "root: e2e/title-artist-guide.spec.ts exact setlist date/other historical dates"
+  ],
+  "verification": {
+    "unit": "npm test332/332 workingtree",
+    "types": "Astro26files0error0warning0hint",
+    "initialBrowser": "H6edc05c preview44:42pass/2fail, preserved head-browser.json",
+    "correction": "Playwright NOSCRIPT parent skip vs actual child DOM visibility; intentional setlistdate18 vs unchanged olddate14",
+    "focused": "H1ca336d clean build/artifact +7E2E PASS9.1s; fixed-browser.json",
+    "ci": "sameM110c583e app39091961070/contracts39091961101 success;332/type0/44+44 actual selected logs",
+    "remote": "preview39092193863 actual44 success; production verification/recovery pending",
+    "repro": "target3347file sets/everyfile bytes equal over2clean builds; preview0/production49index"
+  },
+  "startDiscord": {
+    "state": "sent",
+    "run": 39073628192,
+    "job": 117516170790,
+    "at": "2026-10-17T22:05:33.2108195Z",
+    "attempts": 1
+  },
+  "resumptions": [
+    {
+      "at": "2026-10-18T02:55:47Z",
+      "reason": "explicit repeated user resume after actual usage-limit/environment interruption; not inferred from token reset",
+      "environment": {
+        "revision": "483",
+        "observationsCurrent": true,
+        "phase": "running",
+        "CFbindings": "ready"
+      },
+      "collaboration": "root only initially; same replacement ID resumed via followup, no new initial team",
+      "crossChat": "list_threads timeout; no global lock claim",
+      "source": "1ca336de00d60ac95d426165f5f26d02b2b454df clean; main3ca14f8; PR39open",
+      "docs": "32bb6e4 + prior uncommitted evidence preserved; remote main dbc3196",
+      "tmp": "helpers/pinned old artifact lost; original v045 CI ZIP recovered, original data unchanged"
+    }
+  ],
+  "merge": {
+    "pr": 39,
+    "head": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+    "sha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "merged": true
+  },
+  "reviews": "resume-20261018-0700-reviews.json",
+  "replacement": {
+    "id": "/root/resume38_replacement",
+    "initialState": "actualspawn then usage-limit failure",
+    "resume": "same ID actualfollowup",
+    "state": "anchor/snapshot/codeaudit complete; sameM/remote/recovery pending",
+    "physicalDeletion": false
+  },
+  "preview": {
+    "id": "cf872f59-4a1d-42bd-b05b-f9c410bc9388",
+    "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "http": "27/1",
+    "remote": 39092193863
+  },
+  "production": {
+    "id": "bff966cf-c7af-41cf-b406-21cd007b28de",
+    "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "api": "success",
+    "http": "in progress",
+    "remote": "pending",
+    "recovery": "pending"
+  }
 }

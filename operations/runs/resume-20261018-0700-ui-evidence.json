@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-17T22:11:59.443662+00:00",
+  "head": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+  "before": "pinned v0.4.5/ed22f924 local",
+  "after": "clean preview H1/focused7 passed",
+  "screenshots": [
+    {
+      "file": "engineering/design/favorites-export-20261018-0700/before-mobile.png",
+      "sha256": "3e6103b7c6873411b51fd29a88bc7eea2e6f5f88e5ef0f921c83528e6e214ea8"
+    },
+    {
+      "file": "engineering/design/favorites-export-20261018-0700/favorites-export-js-off-mobile.png",
+      "sha256": "5b91807727aef27d9fe4faba5bac306cc9e5e25341be6b048a185f08ce7b6aa5"
+    },
+    {
+      "file": "engineering/design/favorites-export-20261018-0700/favorites-export-mobile-guidance.png",
+      "sha256": "8bf21b95bebcb17c6692c11ce1660c2ce0547c3c61f75ef4d2dfd878b9444355"
+    },
+    {
+      "file": "engineering/design/favorites-export-20261018-0700/favorites-export-mobile-fallback.png",
+      "sha256": "d69ce13efe54a35aaf11aec9894c18a8067c5a176bee74399395e64c5692615b"
+    },
+    {
+      "file": "engineering/design/favorites-export-20261018-0700/favorites-export-desktop.png",
+      "sha256": "7cb9875f0972385ae4a60ba291b8b11edd3c34040cd927d70f18cd5e9258e59e"
+    }
+  ],
+  "qa": "Root visual review desktop/mobile guidance/fallback/JS-off; old issue reproduced; no horizontal overflow and focus tests passed; no rendered error overlay observed",
+  "remaining": "remote/sameM/Firefox/WebKit/real OS clipboard permissions/ads not verified here"
+}

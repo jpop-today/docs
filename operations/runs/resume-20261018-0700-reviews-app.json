@@ -1,0 +1,116 @@
+{
+  "reviews": [
+    {
+      "reviewer": "/root/resume38_app",
+      "subject": "/root/resume38_evidence",
+      "readAt": "2026-10-17T22:11:50Z",
+      "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+      "reviewedFiles": [
+        {
+          "file": "/workspace/jpoptoday/src/content/guides.ts",
+          "scope": "build-your-setlist 객체와 base 대비 diff",
+          "sha256": "fffb68fed9612d497e7781a31a2ee6ca07d23da14e68d7bb17f45786512585c6"
+        },
+        {
+          "file": "/workspace/docs/content/favorites-export-20261018-0700.md",
+          "sha256": "96d9dcd05b41f2f55b337569cba299d2e8c19361eb8bdd24724c248535c6537c"
+        }
+      ],
+      "criteria": {
+        "accuracy": {
+          "score": 5,
+          "reason": "가이드의 복사 설명이 실제 formatter와 filtered 전체 전달에 부합한다. 업체별 세 상태, 페이지 밖 일치곡 포함, 충돌·제외 번호 생략, unknown과 미수록 구분을 정확히 설명한다. 본문 검토일과 제공사 조회일을 구분한다.",
+          "files": ["src/content/guides.ts", "content/favorites-export-20261018-0700.md"]
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "기준선 JSON의 Ado 상태 없는 복사 문자열을 실제로 읽었고 문서의 설명과 일치했다. 문서는 동결 자료·ledger 해시와 실제 출력 예를 제시하며 새 제공사 조회, 브라우저 통과, 배포나 Google 심사를 수행했다고 주장하지 않는다.",
+          "files": ["content/favorites-export-20261018-0700.md", "operations/runs/resume-20261018-0700-baseline-export.json"]
+        },
+        "userValue": {
+          "score": 5,
+          "reason": "메모를 전달받은 사람이 업체별 신뢰 수준을 구분하고, 전체 저장곡을 얻으려면 조건을 해제해야 함을 알 수 있다. 수동 복사와 자동 재등록 백업의 차이도 실제 이용에 필요한 설명이다.",
+          "files": ["src/content/guides.ts"]
+        },
+        "maintainability": {
+          "score": 5,
+          "reason": "실제 base diff에서 지정 가이드의 검토일과 해당 복사 절만 변경됐다. 기존 slug·앞의 두 절과 다른 가이드를 보존하며 정책을 새로운 데이터나 조회로 복제하지 않는다.",
+          "files": ["src/content/guides.ts", "content/favorites-export-20261018-0700.md"]
+        }
+      },
+      "totalScore": 20,
+      "acceptance": [
+        {"criterion": "복사 범위·상태·fallback·미수록 비추정 안내", "status": "fulfilled", "evidence": "build-your-setlist의 마지막 절 세 문단과 구현을 대조했다."},
+        {"criterion": "다른 다섯 가이드와 기존 식별자 보존", "status": "fulfilled", "evidence": "base 대비 guides.ts diff가 해당 객체 안에 한정된다."},
+        {"criterion": "새 출처·제공사 조회일·권리·심사 결과 비생성", "status": "fulfilled", "evidence": "새 sources나 확인 자료가 없고 검토일을 본문 편집일로 명시한다."},
+        {"criterion": "최종 동일 SHA CI·원격 preview·운영·복구", "status": "pending", "evidence": "관리자 통합 게이트이며 이 읽기 평가에서 완료로 판단하지 않는다."}
+      ],
+      "blockingFindings": [],
+      "optionalFindings": []
+    },
+    {
+      "reviewer": "/root/resume38_app",
+      "subject": "/root/resume38_quality",
+      "readAt": "2026-10-17T22:11:50Z",
+      "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+      "reviewedFiles": [
+        {
+          "file": "/workspace/jpoptoday/tests/favorites-export.test.mjs",
+          "sha256": "bfb6f82101427f93e1e043d1ba4c302f5824bb6c97797d553b7f0437eae5aa24"
+        },
+        {
+          "file": "/workspace/jpoptoday/e2e/favorites-export.spec.ts",
+          "sha256": "f9a1320e4e2f86bd1ba9cb3509d0cc45484b91f58ec14cf1becc8f251c9fa97e"
+        },
+        {
+          "file": "/workspace/jpoptoday/e2e/app.spec.ts",
+          "scope": "기존 bulk-copy 기대문자열 한 행과 주변 보존 assertion",
+          "sha256": "6cc8e5ebc7d841889741c596fb1aa27dcbadebee7cc478025f112ccbf805890d"
+        },
+        {
+          "file": "/workspace/docs/engineering/favorites-export-quality-20261018-0700.md",
+          "sha256": "429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe"
+        }
+      ],
+      "criteria": {
+        "accuracy": {
+          "score": 5,
+          "reason": "formatter와 confirmation predicate를 기대값 계산에 쓰지 않고 raw·ledger·중복 번호 빈도로 실제 문자열을 계산한다. 합성 반례로 잘못된 공식 근거·충돌·suppression·관측 0/긴 문자열·선행 0의 경계를 검사한다. JS-off 수정은 실제 비활성 context의 child 전체 문구와 visibility를 요구한다.",
+          "files": ["tests/favorites-export.test.mjs", "e2e/favorites-export.spec.ts"]
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "최초 H6edc 브라우저 42/2 실패, JS-off childVisible=true 관측, 수정 H1ca focused7/7 통과 JSON을 실제 읽었다. 문서는 초기 실패와 직접 실행·root 전달·대기 범위를 구분한다. root의 별도 날짜 회귀 수정은 품질 담당 기여로 계산하지 않았다.",
+          "files": ["engineering/favorites-export-quality-20261018-0700.md", "operations/runs/resume-20261018-0700-head-browser.json", "operations/runs/resume-20261018-0700-js-off-observed.json", "operations/runs/resume-20261018-0700-fixed-browser.json"]
+        },
+        "userValue": {
+          "score": 5,
+          "reason": "잘못된 상태가 메모에 전파되는 문제와 저장 원문 손상을 직접 방어한다. 30곡 초과·page2·업체 AND·빈목록의 기존 클립보드 보존, 360px 수동선택·키보드 복귀·44px·안내와 noindex를 실제 사용자 흐름으로 검사한다.",
+          "files": ["tests/favorites-export.test.mjs", "e2e/favorites-export.spec.ts", "e2e/app.spec.ts"]
+        },
+        "maintainability": {
+          "score": 4,
+          "reason": "동결 자료에서 정확한 ID·순서·문자열을 계산하고 최초 실패를 보존한 점은 좋다. 다만 인계 문서 4행의 spec fragment가 실제 날짜를 포함한 heading과 달라 해당 절로 바로 이동할 수 없다.",
+          "files": ["engineering/favorites-export-quality-20261018-0700.md"]
+        }
+      },
+      "totalScore": 19,
+      "acceptance": [
+        {"criterion": "독립 oracle·malformed·호환 문자열·원문 불변", "status": "fulfilled", "evidence": "unit 7개 구현을 읽었고 관리자 canonical332/332 결과와 연결했다."},
+        {"criterion": "clipboard 성공/거부·키보드·모바일·필터 전체·빈목록·JS-off", "status": "fulfilled", "evidence": "H1ca fixed-browser.json의 focused7/7에는 신규 E2E5개와 root의 가이드 회귀2개가 포함된다. 최초42/2 실패 기록도 보존돼 있다."},
+        {"criterion": "문서에서 스펙 절로 직접 연결", "status": "finding", "evidence": "quality 문서 fragment 끝에 실제 heading의 -2026-10-18이 빠져 있다."},
+        {"criterion": "최종 H1 전체 E2E·동일 SHA CI·원격 검증·복구", "status": "pending", "evidence": "현재 읽은 수정 후 영수증은 focused7이며 최종 전체·원격 게이트 완료로 확대하지 않는다."}
+      ],
+      "blockingFindings": [],
+      "optionalFindings": [
+        {
+          "file": "/workspace/docs/engineering/favorites-export-quality-20261018-0700.md",
+          "line": 4,
+          "finding": "제품 스펙 fragment가 날짜를 제외해 실제 heading과 불일치한다.",
+          "suggestion": "../product/spec.md#즐겨찾기-번호-목록의-상태-보존--issue38-2026-10-18 로 정정한다."
+        }
+      ]
+    }
+  ],
+  "limits": "읽기 전용 평가다. 파일·Git·서버·브라우저를 변경하거나 실행하지 않았고, worker 순위·배포·AdSense 승인 여부를 결정하지 않았다."
+}

@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-17T22:11:24.548052+00:00",
+  "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+  "target": "preview",
+  "results": [
+    {
+      "name": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit": 0,
+      "log": "/tmp/jpop38-fixed-build.log",
+      "selected": []
+    },
+    {
+      "name": "artifact",
+      "command": [
+        "npm",
+        "run",
+        "verify:dist"
+      ],
+      "exit": 0,
+      "log": "/tmp/jpop38-fixed-artifact.log",
+      "selected": []
+    },
+    {
+      "name": "e2e",
+      "command": [
+        "npm",
+        "run",
+        "test:e2e",
+        "--",
+        "e2e/favorites-export.spec.ts",
+        "e2e/title-artist-guide.spec.ts"
+      ],
+      "exit": 0,
+      "log": "/tmp/jpop38-fixed-e2e.log",
+      "selected": [
+        "Running 7 tests using 1 worker",
+        "  7 passed (9.1s)"
+      ]
+    }
+  ]
+}

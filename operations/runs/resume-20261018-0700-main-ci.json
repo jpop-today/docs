@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-18T03:01:06.260714+00:00",
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "runs": [
+    {
+      "id": 39091961070,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "jobs": [
+        {
+          "id": 117570407477,
+          "name": "app",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 117570407595,
+          "name": "production-artifact",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 39091961101,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "jobs": [
+        {
+          "id": 117570407412,
+          "name": "contracts",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}

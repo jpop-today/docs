@@ -1,0 +1,584 @@
+{
+  "checkedAt": "2026-10-17T22:13:56.825Z",
+  "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+  "originals": [
+    {
+      "path": "operations/runs/resume-20261018-0700-reviews-app.json",
+      "sha256": "cd9c385ff67298c27ca20580bb397d15561c236255dca44853f792f6bdda3d70",
+      "reviews": [
+        {
+          "reviewer": "/root/resume38_app",
+          "subject": "/root/resume38_evidence",
+          "readAt": "2026-10-17T22:11:50Z",
+          "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+          "reviewedFiles": [
+            {
+              "file": "/workspace/jpoptoday/src/content/guides.ts",
+              "scope": "build-your-setlist 객체와 base 대비 diff",
+              "sha256": "fffb68fed9612d497e7781a31a2ee6ca07d23da14e68d7bb17f45786512585c6"
+            },
+            {
+              "file": "/workspace/docs/content/favorites-export-20261018-0700.md",
+              "sha256": "96d9dcd05b41f2f55b337569cba299d2e8c19361eb8bdd24724c248535c6537c"
+            }
+          ],
+          "criteria": {
+            "accuracy": {
+              "score": 5,
+              "reason": "가이드의 복사 설명이 실제 formatter와 filtered 전체 전달에 부합한다. 업체별 세 상태, 페이지 밖 일치곡 포함, 충돌·제외 번호 생략, unknown과 미수록 구분을 정확히 설명한다. 본문 검토일과 제공사 조회일을 구분한다.",
+              "files": [
+                "src/content/guides.ts",
+                "content/favorites-export-20261018-0700.md"
+              ]
+            },
+            "evidence": {
+              "score": 5,
+              "reason": "기준선 JSON의 Ado 상태 없는 복사 문자열을 실제로 읽었고 문서의 설명과 일치했다. 문서는 동결 자료·ledger 해시와 실제 출력 예를 제시하며 새 제공사 조회, 브라우저 통과, 배포나 Google 심사를 수행했다고 주장하지 않는다.",
+              "files": [
+                "content/favorites-export-20261018-0700.md",
+                "operations/runs/resume-20261018-0700-baseline-export.json"
+              ]
+            },
+            "userValue": {
+              "score": 5,
+              "reason": "메모를 전달받은 사람이 업체별 신뢰 수준을 구분하고, 전체 저장곡을 얻으려면 조건을 해제해야 함을 알 수 있다. 수동 복사와 자동 재등록 백업의 차이도 실제 이용에 필요한 설명이다.",
+              "files": [
+                "src/content/guides.ts"
+              ]
+            },
+            "maintainability": {
+              "score": 5,
+              "reason": "실제 base diff에서 지정 가이드의 검토일과 해당 복사 절만 변경됐다. 기존 slug·앞의 두 절과 다른 가이드를 보존하며 정책을 새로운 데이터나 조회로 복제하지 않는다.",
+              "files": [
+                "src/content/guides.ts",
+                "content/favorites-export-20261018-0700.md"
+              ]
+            }
+          },
+          "totalScore": 20,
+          "acceptance": [
+            {
+              "criterion": "복사 범위·상태·fallback·미수록 비추정 안내",
+              "status": "fulfilled",
+              "evidence": "build-your-setlist의 마지막 절 세 문단과 구현을 대조했다."
+            },
+            {
+              "criterion": "다른 다섯 가이드와 기존 식별자 보존",
+              "status": "fulfilled",
+              "evidence": "base 대비 guides.ts diff가 해당 객체 안에 한정된다."
+            },
+            {
+              "criterion": "새 출처·제공사 조회일·권리·심사 결과 비생성",
+              "status": "fulfilled",
+              "evidence": "새 sources나 확인 자료가 없고 검토일을 본문 편집일로 명시한다."
+            },
+            {
+              "criterion": "최종 동일 SHA CI·원격 preview·운영·복구",
+              "status": "pending",
+              "evidence": "관리자 통합 게이트이며 이 읽기 평가에서 완료로 판단하지 않는다."
+            }
+          ],
+          "blockingFindings": [],
+          "optionalFindings": []
+        },
+        {
+          "reviewer": "/root/resume38_app",
+          "subject": "/root/resume38_quality",
+          "readAt": "2026-10-17T22:11:50Z",
+          "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+          "reviewedFiles": [
+            {
+              "file": "/workspace/jpoptoday/tests/favorites-export.test.mjs",
+              "sha256": "bfb6f82101427f93e1e043d1ba4c302f5824bb6c97797d553b7f0437eae5aa24"
+            },
+            {
+              "file": "/workspace/jpoptoday/e2e/favorites-export.spec.ts",
+              "sha256": "f9a1320e4e2f86bd1ba9cb3509d0cc45484b91f58ec14cf1becc8f251c9fa97e"
+            },
+            {
+              "file": "/workspace/jpoptoday/e2e/app.spec.ts",
+              "scope": "기존 bulk-copy 기대문자열 한 행과 주변 보존 assertion",
+              "sha256": "6cc8e5ebc7d841889741c596fb1aa27dcbadebee7cc478025f112ccbf805890d"
+            },
+            {
+              "file": "/workspace/docs/engineering/favorites-export-quality-20261018-0700.md",
+              "sha256": "429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe"
+            }
+          ],
+          "criteria": {
+            "accuracy": {
+              "score": 5,
+              "reason": "formatter와 confirmation predicate를 기대값 계산에 쓰지 않고 raw·ledger·중복 번호 빈도로 실제 문자열을 계산한다. 합성 반례로 잘못된 공식 근거·충돌·suppression·관측 0/긴 문자열·선행 0의 경계를 검사한다. JS-off 수정은 실제 비활성 context의 child 전체 문구와 visibility를 요구한다.",
+              "files": [
+                "tests/favorites-export.test.mjs",
+                "e2e/favorites-export.spec.ts"
+              ]
+            },
+            "evidence": {
+              "score": 5,
+              "reason": "최초 H6edc 브라우저 42/2 실패, JS-off childVisible=true 관측, 수정 H1ca focused7/7 통과 JSON을 실제 읽었다. 문서는 초기 실패와 직접 실행·root 전달·대기 범위를 구분한다. root의 별도 날짜 회귀 수정은 품질 담당 기여로 계산하지 않았다.",
+              "files": [
+                "engineering/favorites-export-quality-20261018-0700.md",
+                "operations/runs/resume-20261018-0700-head-browser.json",
+                "operations/runs/resume-20261018-0700-js-off-observed.json",
+                "operations/runs/resume-20261018-0700-fixed-browser.json"
+              ]
+            },
+            "userValue": {
+              "score": 5,
+              "reason": "잘못된 상태가 메모에 전파되는 문제와 저장 원문 손상을 직접 방어한다. 30곡 초과·page2·업체 AND·빈목록의 기존 클립보드 보존, 360px 수동선택·키보드 복귀·44px·안내와 noindex를 실제 사용자 흐름으로 검사한다.",
+              "files": [
+                "tests/favorites-export.test.mjs",
+                "e2e/favorites-export.spec.ts",
+                "e2e/app.spec.ts"
+              ]
+            },
+            "maintainability": {
+              "score": 4,
+              "reason": "동결 자료에서 정확한 ID·순서·문자열을 계산하고 최초 실패를 보존한 점은 좋다. 다만 인계 문서 4행의 spec fragment가 실제 날짜를 포함한 heading과 달라 해당 절로 바로 이동할 수 없다.",
+              "files": [
+                "engineering/favorites-export-quality-20261018-0700.md"
+              ]
+            }
+          },
+          "totalScore": 19,
+          "acceptance": [
+            {
+              "criterion": "독립 oracle·malformed·호환 문자열·원문 불변",
+              "status": "fulfilled",
+              "evidence": "unit 7개 구현을 읽었고 관리자 canonical332/332 결과와 연결했다."
+            },
+            {
+              "criterion": "clipboard 성공/거부·키보드·모바일·필터 전체·빈목록·JS-off",
+              "status": "fulfilled",
+              "evidence": "H1ca fixed-browser.json의 focused7/7에는 신규 E2E5개와 root의 가이드 회귀2개가 포함된다. 최초42/2 실패 기록도 보존돼 있다."
+            },
+            {
+              "criterion": "문서에서 스펙 절로 직접 연결",
+              "status": "finding",
+              "evidence": "quality 문서 fragment 끝에 실제 heading의 -2026-10-18이 빠져 있다."
+            },
+            {
+              "criterion": "최종 H1 전체 E2E·동일 SHA CI·원격 검증·복구",
+              "status": "pending",
+              "evidence": "현재 읽은 수정 후 영수증은 focused7이며 최종 전체·원격 게이트 완료로 확대하지 않는다."
+            }
+          ],
+          "blockingFindings": [],
+          "optionalFindings": [
+            {
+              "file": "/workspace/docs/engineering/favorites-export-quality-20261018-0700.md",
+              "line": 4,
+              "finding": "제품 스펙 fragment가 날짜를 제외해 실제 heading과 불일치한다.",
+              "suggestion": "../product/spec.md#즐겨찾기-번호-목록의-상태-보존--issue38-2026-10-18 로 정정한다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "operations/runs/resume-20261018-0700-reviews-evidence.json",
+      "sha256": "b83078e0a411d35f40deede99663f41ad9af81ed36c89fd22c48bafea3c86114",
+      "reviews": [
+        {
+          "reviewer": "/root/resume38_evidence",
+          "subject": "/root/resume38_app",
+          "readAt": "2026-10-17T22:12:17Z",
+          "reviewedFiles": [
+            {
+              "path": "jpoptoday/contracts/favorites-export.mjs",
+              "sha256": "025a1dc15b76c9a05ad3864295a2049fe16ae206a912b5befb3c3bdd8466f26d"
+            },
+            {
+              "path": "jpoptoday/src/scripts/app.ts",
+              "sha256": "1b6124c3b9ab47ae59290ec6399cd41b27c20ee7f89f08b32acbd31931f4f2b4"
+            },
+            {
+              "path": "jpoptoday/src/pages/favorites.astro",
+              "sha256": "5dbddad0d37330a23a588fcb5ec6ed665579e6ba8f145d65004734277b9c2732"
+            },
+            {
+              "path": "docs/engineering/favorites-export-20261018-0700.md",
+              "sha256": "d9cc95a6669d3ab58d833e53309cef9ecfc4d4ba2eba5b676a1db2a97a72bd75"
+            }
+          ],
+          "criteria": {
+            "accuracy": {
+              "score": 5,
+              "reason": "formatProvider가 기존 hasConfirmedNumber를 그대로 사용한다. 관측은 observed-unverified·conflict:false·숫자 문자열만 내보내며 나머지는 번호 없는 확인 필요다. Ado/samfree의 TJ 확인을 금영 관측으로 확대하지 않고 suppress의 previousNumber를 읽지 않는다."
+            },
+            "evidence": {
+              "score": 5,
+              "reason": "인계 문서의 함수·분기·filtered 전체 전달·기존 clipboard fallback 설명이 실제 코드와 일치한다. 직접 읽은 root 영수증은 working-tree canonical332/type0, H1 build/artifact 및 focused7 통과를 구분하고 첫 H의42통과/2실패를 보존한다. 담당자 자신의 브라우저 실행이나 배포 성공을 주장하지 않는다."
+            },
+            "userValue": {
+              "score": 5,
+              "reason": "복사한 텍스트만 받은 사람도 업체별 확인 수준을 알 수 있다. app.ts가 화면의 slice와 별개인 filtered 전체를 전달하고, favorites.astro가 필터 범위·더보기 전 포함·미수록 비추정을 버튼 설명으로 연결한다. 실제 360px fallback 이미지에서 선택된 전체 텍스트와 읽을 수 있는 모달을 확인했다."
+            },
+            "maintainability": {
+              "score": 5,
+              "reason": "순수 formatter가 저장·DOM·clipboard와 분리되고 기존 확인 predicate를 재사용한다. 앱 연결은 import와 단일 호출로 한정하며 저장·URL·정렬·fallback 경로를 변경하지 않아 상태 판정 중복이 작다."
+            }
+          },
+          "total": 20,
+          "acceptance": [
+            {
+              "criterion": "업체별 공식 확인/관측·미확인/확인 필요와 충돌 번호 비노출",
+              "status": "충족",
+              "reason": "코드 분기 및 실제 동결자료 출력과 일치한다."
+            },
+            {
+              "criterion": "검색·필터 전체 일치곡, 저장원문·미해결 ID·기존 순서 보존",
+              "status": "충족",
+              "reason": "filtered 전체 전달과 기존 저장·렌더 경로 유지, focused 브라우저 검증을 확인했다."
+            },
+            {
+              "criterion": "수동선택·키보드·360px·JS-off 안내",
+              "status": "충족",
+              "reason": "H1 focused7과 fallback/JS-off 실제 이미지 및 JS-off childVisible 관측을 읽었다."
+            },
+            {
+              "criterion": "같은 SHA 전체 CI/preview/운영·복구",
+              "status": "보류",
+              "reason": "현재 읽은 증거는 로컬 H1 focused7까지이며 배포 완료 증거가 아니다."
+            }
+          ],
+          "blockingFindings": [],
+          "optionalFindings": []
+        },
+        {
+          "reviewer": "/root/resume38_evidence",
+          "subject": "/root/resume38_quality",
+          "readAt": "2026-10-17T22:12:17Z",
+          "reviewedFiles": [
+            {
+              "path": "jpoptoday/tests/favorites-export.test.mjs",
+              "sha256": "bfb6f82101427f93e1e043d1ba4c302f5824bb6c97797d553b7f0437eae5aa24"
+            },
+            {
+              "path": "jpoptoday/e2e/favorites-export.spec.ts",
+              "sha256": "f9a1320e4e2f86bd1ba9cb3509d0cc45484b91f58ec14cf1becc8f251c9fa97e"
+            },
+            {
+              "path": "jpoptoday/e2e/app.spec.ts",
+              "scope": "reviewed-corrections 테스트의 bulk 복사 기대값과 주변 기존 assertions",
+              "sha256": "6cc8e5ebc7d841889741c596fb1aa27dcbadebee7cc478025f112ccbf805890d"
+            },
+            {
+              "path": "docs/engineering/favorites-export-quality-20261018-0700.md",
+              "sha256": "429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe"
+            }
+          ],
+          "criteria": {
+            "accuracy": {
+              "score": 5,
+              "reason": "독립 기대값이 formatter/hasConfirmedNumber/matchesSong을 호출하지 않고 raw+ledger+정정 후 번호 빈도로 계산된다. 잘못된 공식 URL·근거 누락·archived/chart-only·충돌·suppress를 반례로 검증하고 관측의 선행0/0/긴 숫자 문자열 계약도 별도로 보호한다."
+            },
+            "evidence": {
+              "score": 5,
+              "reason": "실제3317곡 exact 비교와 비어 있지 않은 실제 충돌 사례를 요구한다. 첫42/2 실패를 기록하고 JS-off의 noscript parent 추출 문제를 실제 childVisible 관측으로 확인한 뒤 child 전체 문구+visible 검사로 고쳤다. H1 fixed-browser.json에서 해당 수정이 포함된 focused7/7 통과를 직접 읽었다."
+            },
+            "userValue": {
+              "score": 5,
+              "reason": "성공/거부 clipboard 호출과 이전 값 보존, readonly 전체선택·Enter/Space/Escape·focus 복원, 44px 양축·모달 경계, 30곡 초과/page2 전체 복사·AND 교집합·0곡·미해결 ID 원문을 검사한다. 실제 사용자 손실이나 잘못된 확인 표시를 발견할 수 있는 흐름이다."
+            },
+            "maintainability": {
+              "score": 4,
+              "reason": "테스트는 pure unit과 실제 브라우저 흐름을 구분하고 기존 assertions를 보존한다. 다만 품질 인계 문서 첫 스펙 링크의 fragment는 '#즐겨찾기-번호-목록의-상태-보존--issue38'로 끝나며 실제 제품 heading의 날짜까지 포함한 anchor와 다르다. 사양 절로 바로 이동하는 추적 링크를 보완할 수 있다."
+            }
+          },
+          "total": 19,
+          "acceptance": [
+            {
+              "criterion": "독립 실자료 oracle·혼합 상태·형식 오류·문자열/원문 불변",
+              "status": "충족",
+              "reason": "7개 unit 그룹과 전체자료 exact 비교의 실제 코드를 읽었다. canonical332 성공 영수증도 확인했다."
+            },
+            {
+              "criterion": "실제 clipboard/fallback·필터 전체·빈 결과·키보드/360px·JS-off",
+              "status": "충족",
+              "reason": "5개 신규 E2E의 assertions와 H1 focused7 통과, JS-off DOM 관측 및 두 실제 이미지를 확인했다."
+            },
+            {
+              "criterion": "검증 실패와 미실행 범위의 정직한 기록",
+              "status": "충족",
+              "reason": "초기42/2와 수정 후 focused7을 분리한다. root 소유 가이드 날짜 보완을 품질 담당의 기여로 계산하지 않았다."
+            },
+            {
+              "criterion": "H1 전체44·같은 SHA 원격/복구 검증",
+              "status": "보류",
+              "reason": "읽은 H1 결과는 focused7이며 전체44나 원격 배포 성공으로 확대하지 않는다."
+            }
+          ],
+          "blockingFindings": [],
+          "optionalFindings": [
+            {
+              "path": "docs/engineering/favorites-export-quality-20261018-0700.md",
+              "finding": "제품 스펙 링크 fragment에 실제 heading 날짜를 포함한다.",
+              "suggestedFragment": "#즐겨찾기-번호-목록의-상태-보존--issue38-2026-10-18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "operations/runs/resume-20261018-0700-reviews-quality.json",
+      "sha256": "a611b03da7bd3252b966db115ee19d87efd9a712720b0efd2995980217d763f1",
+      "reviews": [
+        {
+          "reviewer": "/root/resume38_quality",
+          "subject": "/root/resume38_evidence",
+          "readAt": "2026-10-17T22:12:07Z",
+          "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+          "reviewedFiles": [
+            {
+              "path": "src/content/guides.ts",
+              "scope": "build-your-setlist 객체",
+              "sha256": "fffb68fed9612d497e7781a31a2ee6ca07d23da14e68d7bb17f45786512585c6"
+            },
+            {
+              "path": "docs/content/favorites-export-20261018-0700.md",
+              "sha256": "96d9dcd05b41f2f55b337569cba299d2e8c19361eb8bdd24724c248535c6537c"
+            }
+          ],
+          "accuracy": {
+            "score": 5,
+            "reason": "가이드의 번호 목록 절이 filtered 전체/다른 페이지 포함·세 업체상태·TJ확인≠KY확인·suppress/충돌 비노출·미수록 비추정을 실제 formatter/app 동작과 일치하게 설명한다. reviewedAt18일은 편집일이며 제공사 조회일과 명시적으로 구분했다."
+          },
+          "evidence": {
+            "score": 5,
+            "reason": "자료 문서는 고정 v045 baseline의 Ado plaintext와 새 순수실행 예를 구분하고 실제 raw/ledger/chart SHA 및 84ledger/13suppress/4conflict를 기록한다. 읽은 source guides SHA는 문서의 fffb68...과 일치한다. 기존 SAM/Ado 보류·Tani KYnull·튜링러브 suppress 근거를 새조회/동일성확정으로 바꾸지 않는다. 첫 비교EPERM도 실패로 보존했다."
+          },
+          "userValue": {
+            "score": 5,
+            "reason": "메모를 받은 사람에게 업체상태가 전달되는 목적, 필터를 해제해야 저장전체라는 주의, 수동선택과 자동등록백업의 차이를 현재 선곡 흐름 안에서 설명한다. 노래방 업체/최신번호 재확인을 구체적으로 안내한다."
+          },
+          "maintainability": {
+            "score": 5,
+            "reason": "공개 변경은 해당 객체의 번호목록 절·실제편집일로 제한하고 앞2절/나머지5가이드 보존 비교를 문서화했다. formatter/기존predicate/ledger 책임과 브라우저·배포 미실행을 분리해 근거 추적이 가능하다."
+          },
+          "total": 20,
+          "acceptance": [
+            {
+              "item": "가이드의 새 내보내기 범위·상태·JS/fallback·백업경계 설명",
+              "status": "fulfilled",
+              "evidence": "src/content/guides.ts build-your-setlist 3번째절 직접읽기"
+            },
+            {
+              "item": "실제자료 근거·조회일/편집일 분리·타5가이드 보존기록",
+              "status": "fulfilled",
+              "evidence": "content handoff 문서와 현재 guides SHA 일치; 새조회 주장 없음"
+            },
+            {
+              "item": "root H1 focused 브라우저",
+              "status": "fulfilled",
+              "evidence": "fixed-browser.json 직접읽기: H1 preview build/verify exit0, favorites5+comparison2=7pass9.1s. 첫H6edc42/2실패 보존"
+            },
+            {
+              "item": "동일SHA 전체CI/실제preview/복구/운영",
+              "status": "pending",
+              "evidence": "평가시 아직 root 통합 단계; 담당의 본문 품질과 별개 게이트"
+            }
+          ],
+          "blocking": [],
+          "optionalFindings": []
+        },
+        {
+          "reviewer": "/root/resume38_quality",
+          "subject": "/root/resume38_app",
+          "readAt": "2026-10-17T22:12:07Z",
+          "sourceSha": "1ca336de00d60ac95d426165f5f26d02b2b454df",
+          "reviewedFiles": [
+            {
+              "path": "contracts/favorites-export.mjs",
+              "sha256": "025a1dc15b76c9a05ad3864295a2049fe16ae206a912b5befb3c3bdd8466f26d"
+            },
+            {
+              "path": "src/scripts/app.ts",
+              "sha256": "1b6124c3b9ab47ae59290ec6399cd41b27c20ee7f89f08b32acbd31931f4f2b4"
+            },
+            {
+              "path": "src/pages/favorites.astro",
+              "sha256": "5dbddad0d37330a23a588fcb5ec6ed665579e6ba8f145d65004734277b9c2732"
+            },
+            {
+              "path": "docs/engineering/favorites-export-20261018-0700.md",
+              "sha256": "d9cc95a6669d3ab58d833e53309cef9ecfc4d4ba2eba5b676a1db2a97a72bd75"
+            }
+          ],
+          "accuracy": {
+            "score": 5,
+            "reason": "formatter는 업체별 hasConfirmedNumber만 공식확인으로 재사용하고 observed-unverified/conflict:false/숫자string만 관측으로 내보낸다. malformed confirmed·unknown·suppress·충돌은 번호 없이 확인필요다. 기존관측0/longnumeric/선행0을 보존하며 한업체확인을 다른업체로 확대하지 않는다."
+          },
+          "evidence": {
+            "score": 5,
+            "reason": "본인이 실행한 독립unit7개에서 전3317곡 raw+ledger+번호빈도 oracle exact출력 및 부정URL/근거/immutable/rawstorage 통과를 확인했다. root H6edc의 신규4흐름 성공·noscript parent실패를 구분하며 H1 fixed-browser.json의 실제7/7을 읽었다. 앱문서는 자체 브라우저·CI·배포 미실행을 정직하게 남긴다."
+          },
+          "userValue": {
+            "score": 5,
+            "reason": "app의 filtered전체 전달로 페이지2/미표시곡까지 현재조건 전체가 복사된다. 360px 실제 root 캡처 mobile-guidance와 mobile-fallback을 view_image로 읽어 안내 가독성·넘침없음·선택된 수동텍스트를 확인했다. 버튼 accessible name 유지/aria-describedby·JSoff 제한 안내가 사용자 선택을 돕는다."
+          },
+          "maintainability": {
+            "score": 5,
+            "reason": "browser-safe 순수formatter를 분리하고 기존 공식판정·copy/fallback·storage/filter/URL 경로를 재사용한다. 새 global상태·Node의존·CSS 복제 없이 빈배열/순서/입력불변을 유지하며 범위가 작고 문서 책임구분이 명확하다."
+          },
+          "total": 20,
+          "acceptance": [
+            {
+              "item": "업체별 엄격확인/관측/확인필요·번호string·불변성",
+              "status": "fulfilled",
+              "evidence": "formatter 직접읽기와 독립 unit7 실제PASS"
+            },
+            {
+              "item": "전체matching>30/page2·AND필터·clipboard 성공/거부·빈목록/raw보존",
+              "status": "fulfilled",
+              "evidence": "root H1 focused favorites5 테스트 전체PASS JSON 직접읽기"
+            },
+            {
+              "item": "360px/keyboard/JSoff/상태안내 연결",
+              "status": "fulfilled",
+              "evidence": "H1 focusedPASS; JSoff-observed.json childVisible/bodyIncludesNotice true; root mobile 2PNG 직접읽기"
+            },
+            {
+              "item": "같은SHA 전체CI/실제preview/복구/운영",
+              "status": "pending",
+              "evidence": "root 통합 단계로 별도확정 필요"
+            }
+          ],
+          "blocking": [],
+          "optionalFindings": []
+        }
+      ]
+    }
+  ],
+  "normalization": "Only schema-key adapter accuracy→correctness,userValue→value,subject→candidate and lossless JSON stringify of original file evidence. Scores/reasons/originals preserved.",
+  "normalized": [
+    {
+      "reviewer": "/root/resume38_app",
+      "candidate": "/root/resume38_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: 가이드의 복사 설명이 실제 formatter와 filtered 전체 전달에 부합한다. 업체별 세 상태, 페이지 밖 일치곡 포함, 충돌·제외 번호 생략, unknown과 미수록 구분을 정확히 설명한다. 본문 검토일과 제공사 조회일을 구분한다.\nevidence: 기준선 JSON의 Ado 상태 없는 복사 문자열을 실제로 읽었고 문서의 설명과 일치했다. 문서는 동결 자료·ledger 해시와 실제 출력 예를 제시하며 새 제공사 조회, 브라우저 통과, 배포나 Google 심사를 수행했다고 주장하지 않는다.\nvalue: 메모를 전달받은 사람이 업체별 신뢰 수준을 구분하고, 전체 저장곡을 얻으려면 조건을 해제해야 함을 알 수 있다. 수동 복사와 자동 재등록 백업의 차이도 실제 이용에 필요한 설명이다.\nmaintainability: 실제 base diff에서 지정 가이드의 검토일과 해당 복사 절만 변경됐다. 기존 slug·앞의 두 절과 다른 가이드를 보존하며 정책을 새로운 데이터나 조회로 복제하지 않는다.",
+      "evidence": [
+        "{\"file\":\"/workspace/jpoptoday/src/content/guides.ts\",\"scope\":\"build-your-setlist 객체와 base 대비 diff\",\"sha256\":\"fffb68fed9612d497e7781a31a2ee6ca07d23da14e68d7bb17f45786512585c6\"}",
+        "{\"file\":\"/workspace/docs/content/favorites-export-20261018-0700.md\",\"sha256\":\"96d9dcd05b41f2f55b337569cba299d2e8c19361eb8bdd24724c248535c6537c\"}"
+      ]
+    },
+    {
+      "reviewer": "/root/resume38_app",
+      "candidate": "/root/resume38_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "correctness: formatter와 confirmation predicate를 기대값 계산에 쓰지 않고 raw·ledger·중복 번호 빈도로 실제 문자열을 계산한다. 합성 반례로 잘못된 공식 근거·충돌·suppression·관측 0/긴 문자열·선행 0의 경계를 검사한다. JS-off 수정은 실제 비활성 context의 child 전체 문구와 visibility를 요구한다.\nevidence: 최초 H6edc 브라우저 42/2 실패, JS-off childVisible=true 관측, 수정 H1ca focused7/7 통과 JSON을 실제 읽었다. 문서는 초기 실패와 직접 실행·root 전달·대기 범위를 구분한다. root의 별도 날짜 회귀 수정은 품질 담당 기여로 계산하지 않았다.\nvalue: 잘못된 상태가 메모에 전파되는 문제와 저장 원문 손상을 직접 방어한다. 30곡 초과·page2·업체 AND·빈목록의 기존 클립보드 보존, 360px 수동선택·키보드 복귀·44px·안내와 noindex를 실제 사용자 흐름으로 검사한다.\nmaintainability: 동결 자료에서 정확한 ID·순서·문자열을 계산하고 최초 실패를 보존한 점은 좋다. 다만 인계 문서 4행의 spec fragment가 실제 날짜를 포함한 heading과 달라 해당 절로 바로 이동할 수 없다.",
+      "evidence": [
+        "{\"file\":\"/workspace/jpoptoday/tests/favorites-export.test.mjs\",\"sha256\":\"bfb6f82101427f93e1e043d1ba4c302f5824bb6c97797d553b7f0437eae5aa24\"}",
+        "{\"file\":\"/workspace/jpoptoday/e2e/favorites-export.spec.ts\",\"sha256\":\"f9a1320e4e2f86bd1ba9cb3509d0cc45484b91f58ec14cf1becc8f251c9fa97e\"}",
+        "{\"file\":\"/workspace/jpoptoday/e2e/app.spec.ts\",\"scope\":\"기존 bulk-copy 기대문자열 한 행과 주변 보존 assertion\",\"sha256\":\"6cc8e5ebc7d841889741c596fb1aa27dcbadebee7cc478025f112ccbf805890d\"}",
+        "{\"file\":\"/workspace/docs/engineering/favorites-export-quality-20261018-0700.md\",\"sha256\":\"429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe\"}"
+      ]
+    },
+    {
+      "reviewer": "/root/resume38_evidence",
+      "candidate": "/root/resume38_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: formatProvider가 기존 hasConfirmedNumber를 그대로 사용한다. 관측은 observed-unverified·conflict:false·숫자 문자열만 내보내며 나머지는 번호 없는 확인 필요다. Ado/samfree의 TJ 확인을 금영 관측으로 확대하지 않고 suppress의 previousNumber를 읽지 않는다.\nevidence: 인계 문서의 함수·분기·filtered 전체 전달·기존 clipboard fallback 설명이 실제 코드와 일치한다. 직접 읽은 root 영수증은 working-tree canonical332/type0, H1 build/artifact 및 focused7 통과를 구분하고 첫 H의42통과/2실패를 보존한다. 담당자 자신의 브라우저 실행이나 배포 성공을 주장하지 않는다.\nvalue: 복사한 텍스트만 받은 사람도 업체별 확인 수준을 알 수 있다. app.ts가 화면의 slice와 별개인 filtered 전체를 전달하고, favorites.astro가 필터 범위·더보기 전 포함·미수록 비추정을 버튼 설명으로 연결한다. 실제 360px fallback 이미지에서 선택된 전체 텍스트와 읽을 수 있는 모달을 확인했다.\nmaintainability: 순수 formatter가 저장·DOM·clipboard와 분리되고 기존 확인 predicate를 재사용한다. 앱 연결은 import와 단일 호출로 한정하며 저장·URL·정렬·fallback 경로를 변경하지 않아 상태 판정 중복이 작다.",
+      "evidence": [
+        "{\"path\":\"jpoptoday/contracts/favorites-export.mjs\",\"sha256\":\"025a1dc15b76c9a05ad3864295a2049fe16ae206a912b5befb3c3bdd8466f26d\"}",
+        "{\"path\":\"jpoptoday/src/scripts/app.ts\",\"sha256\":\"1b6124c3b9ab47ae59290ec6399cd41b27c20ee7f89f08b32acbd31931f4f2b4\"}",
+        "{\"path\":\"jpoptoday/src/pages/favorites.astro\",\"sha256\":\"5dbddad0d37330a23a588fcb5ec6ed665579e6ba8f145d65004734277b9c2732\"}",
+        "{\"path\":\"docs/engineering/favorites-export-20261018-0700.md\",\"sha256\":\"d9cc95a6669d3ab58d833e53309cef9ecfc4d4ba2eba5b676a1db2a97a72bd75\"}"
+      ]
+    },
+    {
+      "reviewer": "/root/resume38_evidence",
+      "candidate": "/root/resume38_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "correctness: 독립 기대값이 formatter/hasConfirmedNumber/matchesSong을 호출하지 않고 raw+ledger+정정 후 번호 빈도로 계산된다. 잘못된 공식 URL·근거 누락·archived/chart-only·충돌·suppress를 반례로 검증하고 관측의 선행0/0/긴 숫자 문자열 계약도 별도로 보호한다.\nevidence: 실제3317곡 exact 비교와 비어 있지 않은 실제 충돌 사례를 요구한다. 첫42/2 실패를 기록하고 JS-off의 noscript parent 추출 문제를 실제 childVisible 관측으로 확인한 뒤 child 전체 문구+visible 검사로 고쳤다. H1 fixed-browser.json에서 해당 수정이 포함된 focused7/7 통과를 직접 읽었다.\nvalue: 성공/거부 clipboard 호출과 이전 값 보존, readonly 전체선택·Enter/Space/Escape·focus 복원, 44px 양축·모달 경계, 30곡 초과/page2 전체 복사·AND 교집합·0곡·미해결 ID 원문을 검사한다. 실제 사용자 손실이나 잘못된 확인 표시를 발견할 수 있는 흐름이다.\nmaintainability: 테스트는 pure unit과 실제 브라우저 흐름을 구분하고 기존 assertions를 보존한다. 다만 품질 인계 문서 첫 스펙 링크의 fragment는 '#즐겨찾기-번호-목록의-상태-보존--issue38'로 끝나며 실제 제품 heading의 날짜까지 포함한 anchor와 다르다. 사양 절로 바로 이동하는 추적 링크를 보완할 수 있다.",
+      "evidence": [
+        "{\"path\":\"jpoptoday/tests/favorites-export.test.mjs\",\"sha256\":\"bfb6f82101427f93e1e043d1ba4c302f5824bb6c97797d553b7f0437eae5aa24\"}",
+        "{\"path\":\"jpoptoday/e2e/favorites-export.spec.ts\",\"sha256\":\"f9a1320e4e2f86bd1ba9cb3509d0cc45484b91f58ec14cf1becc8f251c9fa97e\"}",
+        "{\"path\":\"jpoptoday/e2e/app.spec.ts\",\"scope\":\"reviewed-corrections 테스트의 bulk 복사 기대값과 주변 기존 assertions\",\"sha256\":\"6cc8e5ebc7d841889741c596fb1aa27dcbadebee7cc478025f112ccbf805890d\"}",
+        "{\"path\":\"docs/engineering/favorites-export-quality-20261018-0700.md\",\"sha256\":\"429d914a5c135383960db811773c1b866e7609355473124b8e3bcbdf88804ffe\"}"
+      ]
+    },
+    {
+      "reviewer": "/root/resume38_quality",
+      "candidate": "/root/resume38_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: 가이드의 번호 목록 절이 filtered 전체/다른 페이지 포함·세 업체상태·TJ확인≠KY확인·suppress/충돌 비노출·미수록 비추정을 실제 formatter/app 동작과 일치하게 설명한다. reviewedAt18일은 편집일이며 제공사 조회일과 명시적으로 구분했다.\nevidence: 자료 문서는 고정 v045 baseline의 Ado plaintext와 새 순수실행 예를 구분하고 실제 raw/ledger/chart SHA 및 84ledger/13suppress/4conflict를 기록한다. 읽은 source guides SHA는 문서의 fffb68...과 일치한다. 기존 SAM/Ado 보류·Tani KYnull·튜링러브 suppress 근거를 새조회/동일성확정으로 바꾸지 않는다. 첫 비교EPERM도 실패로 보존했다.\nvalue: 메모를 받은 사람에게 업체상태가 전달되는 목적, 필터를 해제해야 저장전체라는 주의, 수동선택과 자동등록백업의 차이를 현재 선곡 흐름 안에서 설명한다. 노래방 업체/최신번호 재확인을 구체적으로 안내한다.\nmaintainability: 공개 변경은 해당 객체의 번호목록 절·실제편집일로 제한하고 앞2절/나머지5가이드 보존 비교를 문서화했다. formatter/기존predicate/ledger 책임과 브라우저·배포 미실행을 분리해 근거 추적이 가능하다.",
+      "evidence": [
+        "{\"path\":\"src/content/guides.ts\",\"scope\":\"build-your-setlist 객체\",\"sha256\":\"fffb68fed9612d497e7781a31a2ee6ca07d23da14e68d7bb17f45786512585c6\"}",
+        "{\"path\":\"docs/content/favorites-export-20261018-0700.md\",\"sha256\":\"96d9dcd05b41f2f55b337569cba299d2e8c19361eb8bdd24724c248535c6537c\"}"
+      ]
+    },
+    {
+      "reviewer": "/root/resume38_quality",
+      "candidate": "/root/resume38_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: formatter는 업체별 hasConfirmedNumber만 공식확인으로 재사용하고 observed-unverified/conflict:false/숫자string만 관측으로 내보낸다. malformed confirmed·unknown·suppress·충돌은 번호 없이 확인필요다. 기존관측0/longnumeric/선행0을 보존하며 한업체확인을 다른업체로 확대하지 않는다.\nevidence: 본인이 실행한 독립unit7개에서 전3317곡 raw+ledger+번호빈도 oracle exact출력 및 부정URL/근거/immutable/rawstorage 통과를 확인했다. root H6edc의 신규4흐름 성공·noscript parent실패를 구분하며 H1 fixed-browser.json의 실제7/7을 읽었다. 앱문서는 자체 브라우저·CI·배포 미실행을 정직하게 남긴다.\nvalue: app의 filtered전체 전달로 페이지2/미표시곡까지 현재조건 전체가 복사된다. 360px 실제 root 캡처 mobile-guidance와 mobile-fallback을 view_image로 읽어 안내 가독성·넘침없음·선택된 수동텍스트를 확인했다. 버튼 accessible name 유지/aria-describedby·JSoff 제한 안내가 사용자 선택을 돕는다.\nmaintainability: browser-safe 순수formatter를 분리하고 기존 공식판정·copy/fallback·storage/filter/URL 경로를 재사용한다. 새 global상태·Node의존·CSS 복제 없이 빈배열/순서/입력불변을 유지하며 범위가 작고 문서 책임구분이 명확하다.",
+      "evidence": [
+        "{\"path\":\"contracts/favorites-export.mjs\",\"sha256\":\"025a1dc15b76c9a05ad3864295a2049fe16ae206a912b5befb3c3bdd8466f26d\"}",
+        "{\"path\":\"src/scripts/app.ts\",\"sha256\":\"1b6124c3b9ab47ae59290ec6399cd41b27c20ee7f89f08b32acbd31931f4f2b4\"}",
+        "{\"path\":\"src/pages/favorites.astro\",\"sha256\":\"5dbddad0d37330a23a588fcb5ec6ed665579e6ba8f145d65004734277b9c2732\"}",
+        "{\"path\":\"docs/engineering/favorites-export-20261018-0700.md\",\"sha256\":\"d9cc95a6669d3ab58d833e53309cef9ecfc4d4ba2eba5b676a1db2a97a72bd75\"}"
+      ]
+    }
+  ],
+  "evaluation": {
+    "totals": {
+      "/root/resume38_evidence": 40,
+      "/root/resume38_app": 40,
+      "/root/resume38_quality": 38
+    },
+    "lowest": [
+      "/root/resume38_quality"
+    ],
+    "maximum": 40
+  },
+  "hashesMatched": 20,
+  "managerAssessment": "Root read all six reviews and code/evidence. No blocking source defect. Quality document anchor missing actual heading date independently found by both reviewers, maintainability4 each, other criteria5. Remaining evidence/app tied40; no quantity ranking. Initial42/2 failures and focused7 are preserved; sameSHA fullCI/remote/recovery remain gates.",
+  "rotation": {
+    "selected": "/root/resume38_quality",
+    "reason": "lowest38 vs40/40; same concrete traceability finding in two actual peer reviews",
+    "tieBreakOrder": [
+      "/root/resume38_quality",
+      "/root/resume38_evidence",
+      "/root/resume38_app"
+    ],
+    "tieBreakApplied": false,
+    "state": "same replacement resumed; document anchor fixed, reviewed snapshot preserved, code/frozen/CI/preview HTTP audit complete; final remote pending",
+    "physicalDeletion": "unsupported/not claimed; original artifacts and peer scores preserved",
+    "excluded": "/root/resume38_quality",
+    "interruptResult": "previous_status completed; actual interrupt called",
+    "replacement": "/root/resume38_replacement",
+    "interruption": "actual usage-limit failure on first turn; no fake deletion/replacement success; same canonical agent followup after restored environment"
+  }
+}
