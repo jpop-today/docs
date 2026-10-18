@@ -214,5 +214,18 @@
   "finalProductionHTTP": "resume-20261018-0700-final-production-http.json",
   "completedHandoff": "resume-20261018-0700-completed-handoff.json",
   "reportCI": "resume-20261018-0700-report-ci.json",
-  "finalAssessment": "Issue38 product/deploy/recovery/release/review/hand-off complete; Issue6/9/15 and operator Google steps remain open. No new independent team or product redeploy for report R."
+  "finalAssessment": "Issue38 product/deploy/recovery/release/review/hand-off complete; Issue6/9/15 and operator Google steps remain open. No new independent team or product redeploy for report R.",
+  "rosterScope": "Original three assignments preserved as initial roster; completed active roster below reflects actual quality exclusion and one replacement.",
+  "activeRosterAtCompletion": [
+    "/root/resume38_evidence",
+    "/root/resume38_app",
+    "/root/resume38_replacement"
+  ],
+  "excludedRosterAtCompletion": [
+    {
+      "id": "/root/resume38_quality",
+      "reason": "Two real peer maintainability findings; total38 vs40/40",
+      "physicalDeletion": false
+    }
+  ]
 }
