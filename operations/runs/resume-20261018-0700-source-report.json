@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-18T03:26:41.869983+00:00",
+  "pr": 40,
+  "head": "69a2ae58cb076b8d5d060fec76822ec2cf73e081",
+  "mergeSha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+  "productSourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "documentation": {
+    "pr": 22,
+    "main": "f1719d3504ad43612c63c0c695357c7dec62f180"
+  },
+  "changedFiles": [
+    "reports/daily/2026-10-18.json",
+    "reports/runs/resume-20261017-2200-completed-daily-snapshot.json",
+    "reports/runs/resume-20261018-0700.json"
+  ],
+  "onlyReportsDiffer": true,
+  "deploymentPerformed": false,
+  "notificationPayloadMatchesSavedReportAndDocs": true,
+  "payloadSha256": "ec169a16fa65d7f1c9c7b28f0e54a989a15ff8f312c5c8e4eead49f392a3772a"
+}
