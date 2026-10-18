@@ -574,11 +574,30 @@
       "/root/resume38_app"
     ],
     "tieBreakApplied": false,
-    "state": "same replacement resumed; document anchor fixed, reviewed snapshot preserved, code/frozen/CI/preview HTTP audit complete; final remote pending",
+    "state": "completed; same replacement fixed traceability and audited final evidence; other two original peers accepted read-only with no blocking findings",
     "physicalDeletion": "unsupported/not claimed; original artifacts and peer scores preserved",
     "excluded": "/root/resume38_quality",
     "interruptResult": "previous_status completed; actual interrupt called",
     "replacement": "/root/resume38_replacement",
-    "interruption": "actual usage-limit failure on first turn; no fake deletion/replacement success; same canonical agent followup after restored environment"
-  }
+    "interruption": "actual usage-limit failure on first turn; no fake deletion/replacement success; same canonical agent followup after restored environment",
+    "replacementDocumentSha256": "76359d0e8a96955d07d801ce9bbc067d8daafcbc07cfcc81d2962672052799b4",
+    "finalPeerAcceptances": [
+      {
+        "path": "resume-20261018-0700-final-app-acceptance.json",
+        "sha256": "8acb7e106bd61f73fde59ab399badef42cec3c65773279fa76685eff9a82ec79",
+        "accepted": true
+      },
+      {
+        "path": "resume-20261018-0700-final-evidence-acceptance.json",
+        "sha256": "85b290c5dcb547e606d63a2b4c1466ca2ed6208303ede7660c9d0ec831e887a1",
+        "accepted": true
+      }
+    ]
+  },
+  "hashComparisonScope": {
+    "comparisons": 20,
+    "uniqueReviewedFiles": 10,
+    "note": "Same artifact is read by two peers; 20 comparisons are not 20 unique files"
+  },
+  "managerFinalAssessment": "Root read both supplemental acceptances and actual sameM332/type0/CI44+44/remote44+44, two-target3347 every-file local reproducibility, real rollback27/1→restore27/1, postrestore27/1+ordinary5/5, release416205945 and safe release notification marker. Original six scores and original review JSON hashes preserved. Full CI ZIP comparison/OS clipboard/whole CDN/Google approval not inferred."
 }

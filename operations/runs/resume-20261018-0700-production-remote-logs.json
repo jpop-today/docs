@@ -1,0 +1,17 @@
+{
+  "run": 39092435736,
+  "job": 117571818772,
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "logReadExit": 0,
+  "selected": [
+    "deploy\tRun npm test\t2026-10-18T03:06:35.7037640Z ℹ tests 332",
+    "deploy\tRun npm test\t2026-10-18T03:06:35.7038206Z ℹ pass 332",
+    "deploy\tRun npm test\t2026-10-18T03:06:35.7038466Z ℹ fail 0",
+    "deploy\tRun npm run check\t2026-10-18T03:06:41.0549564Z - 0 errors",
+    "deploy\tRun npm run check\t2026-10-18T03:06:41.0549947Z - 0 warnings",
+    "deploy\tRun npm run check\t2026-10-18T03:06:41.0550568Z - 0 hints",
+    "deploy\tRun npm run test:e2e\t2026-10-18T03:07:55.7639320Z   44 passed (41.9s)",
+    "deploy\tCheck Actions deployment bindings without exposing values\t2026-10-18T03:07:55.8289088Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+    "deploy\tVerify actual production SHA and browser behavior\t2026-10-18T03:08:59.9804733Z   44 passed (59.0s)"
+  ]
+}

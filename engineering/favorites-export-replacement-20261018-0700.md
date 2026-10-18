@@ -50,9 +50,31 @@ root가 PR39 병합으로 인계한 최종 M은 `110c583ec3460b4ca5e3b153deef727
 | [M 재현](../operations/runs/resume-20261018-0700-reproducibility.json) | root가 target별 두 번 clean build의 전체 파일 집합/매 파일 SHA256을 비교해 각각3347파일 동일을 확인했다. HTML3336, preview 색인0/production49, dirty:false다. 해당 M의 로컬332/332·26files 타입0도 별도 기록돼 있다. CI archive 전체와 로컬 전체의 바이트 비교는 수행하지 않았다고 명시돼 있다. |
 | [보존 재확인](../operations/runs/resume-20261018-0700-main-preservation.json) | 동결5입력·CSS/원3평가/원 품질 스냅샷 hash와40/40/38점 보존을 root가 확인했다. 교체 담당도 formatter/unit/E2E 파일 hash를 다시 읽어 원 리뷰와 일치함을 확인했다. |
 | [이전 정상 artifact 회수](../operations/runs/resume-20261018-0700-old-artifact-recovered.json) | `/tmp` 소실 후 기존 v0.4.5 CI run39058025419의 artifact12110531488을 회수했다.3347파일·old source ed22f924·production/dirty:false와 입력hash를 기록한다. 과거 SHA를 새로 빌드한 복구물은 아니다. 실제 rollback 실행 증거는 아직 아니다. |
-| [전용 preview API](../operations/runs/resume-20261018-0700-preview-deployment.json)·[엄격 HTTP](../operations/runs/resume-20261018-0700-preview-http.json) | `jpoptoday-preview` deployment `cf872f59-4a1d-42bd-b05b-f9c410bc9388`, 같은 M, 2026-10-18T03:01:10.636946Z 생성. 실제 URL의 strict27검사/1시도 PASS, 모든 체크의 실제/기대 artifact hash가 일치한다. |
+| [전용 preview API](../operations/runs/resume-20261018-0700-preview-deployment.json)·[엄격 HTTP](../operations/runs/resume-20261018-0700-preview-http.json) | `jpoptoday-preview` deployment `cf872f59-4a1d-42bd-b05b-f9c410bc9388`, 같은 M, 2026-10-18T03:01:10.636946Z 생성. 실제 URL의 strict27검사/1시도 PASS다. 시작/끝 metadata 검사2개와 본문·asset·비공개 경로25개의 기대 artifact hash 검사를 구분해 읽었다. |
 | [preview 원격 workflow dispatch](../operations/runs/resume-20261018-0700-preview-dispatch.json) | `deployed-preview.yml`에 같은 M과 위 전용 URL을 전달한 exit0만 확인했다. workflow 원격44의 완료 증거는 아직 읽지 않았다. |
 
 재현된 preview/production 및 실제 preview HTTP의 catalog SHA256은 `97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123`, ledger `5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370`, chart `971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9`로 모두 일치했다. sourceSha가 바뀌어도 입력값은 기존 v0.4.5와 같아 번호·검토 근거를 새로 늘린 변경으로 계산하지 않는다. preview 전체 noindex와 production49 색인 범위는 각 target의 artifact 검증 관측이며, 실제 광고 노출·Google 심사 결과를 검사한 것은 아니다.
 
-실제 preview 원격44·신규 M 운영 전환/원격 브라우저·이전 v0.4.5 rollback→신규 M 재적용·Release는 현재 이 감사에서 **대기**다. 기존 운영을 재확인한 ed22f924 HTTP와 새 전용 preview를 구분한다. root가 새 영수증을 남기면 동일한 sourceSha·metadata hash·target·deployment와 실패/재시도/미실행 경계를 독립 읽기로 대조한다. 이 문서는 아직 운영 전환·권리·광고 동작·AdSense 신청/승인을 확정하지 않는다.
+## 실제 원격 preview·운영 후속 읽기
+
+[원격 preview workflow](../operations/runs/resume-20261018-0700-preview-remote.json) run39092193863/job117571108562는 같은 M에서 completed/success다. [실제 결과줄](../operations/runs/resume-20261018-0700-preview-remote-logs.json)의 `Verify actual Pages behavior`44pass/1.2분을 직접 읽어 앞 절의 dispatch 대기를 해소한다.
+
+[운영 API 영수증](../operations/runs/resume-20261018-0700-production-deployment.json)은 `todayjpop`/`jpop.today`의 기존 v0.4.5 deployment a268291a에서 신규 `bff966cf-c7af-41cf-b406-21cd007b28de`로 전환했음을 기록한다. 신규 생성시각은 2026-10-18T03:05:38.53579Z, sourceSha는 같은 M이다. 개인 Git metadata kim75503/todayjpop/dev와 자동 production false/preview none은 보존돼 있다. [실제 운영 HTTP](../operations/runs/resume-20261018-0700-production-http.json)는 같은 M·production·동일 catalog/ledger/chart hash로27검사/1시도 PASS다. metadata2개와 기대 artifact hash25개를 분리해 대조했고 모든 passed 및 실제/정규화 hash 일치를 확인했다.
+
+[운영 검증 workflow](../operations/runs/resume-20261018-0700-production-remote.json) run39092435736/job117571818772와 [실제 결과줄](../operations/runs/resume-20261018-0700-production-remote-logs.json)은 같은 M의332/332·타입0/0/0·로컬44/41.9초와 **실제 production44/59.0초** 성공을 기록한다. `Check Actions deployment bindings`의 실제 줄은 Cloudflare Actions binding missing/deployment skipped이고 deploy step도 skipped다. root의 managed 배포와 workflow의 verify-only 검증 성공을 구분하며 자동 배포 binding이 설정됐다고 쓰지 않는다.
+
+## 실제 rollback·재적용 후속 읽기
+
+[복구 API 기록](../operations/runs/resume-20261018-0700-recovery.json)의 실제 실행은 2026-10-18T03:10:46.371212Z부터03:11:03.223826Z까지다. `todayjpop`이 신규 bff966cf/M에서 이전 정상 a268291a/ed22f924로 되돌아간 뒤 같은 신규 bff966cf/M으로 돌아왔고 두 API step·최종 success가 true다. 복원은 finally에서 시도하도록 기록돼 있으며 리소스 삭제는 없다.
+
+[이전 v0.4.5 HTTP](../operations/runs/resume-20261018-0700-rollback-http.json)는 old source `ed22f924536d28fa990d7688b6ba352446984140`에서27검사/1시도 PASS, [신규 재적용 HTTP](../operations/runs/resume-20261018-0700-restore-http.json)는 최종 M에서27검사/1시도 PASS다. API deployment ID·각 sourceSha·target production을 직접 대조했고, 두 HTTP의 metadata2개/기대 artifact hash25개와 모든 passed 및 실제/정규화 hash 일치를 읽었다. 두 버전이 같은 자료 입력hash를 유지한다는 사실을 버전 전환 확인의 대용으로 쓰지 않았다. 이전 코드의 자체 재빌드나 문서상 복구계획을 실제 rollback으로 계산한 것이 아니다.
+
+## 최종 post-restore·Release 읽기와 인계
+
+[추가 post-restore 엄격 HTTP](../operations/runs/resume-20261018-0700-postrestore-http.json)는 2026-10-18T03:11:47.343Z에 같은 M·production·동일한 세 자료hash로27검사/1시도 PASS다. 각 passed·metadata2개/기대 artifact hash25개도 직접 대조했다. [일반 URL 관측](../operations/runs/resume-20261018-0700-postrestore-site.json)은 03:13:26.846Z에 쿼리 없는 `/build-info.json`→`/favorites/`→`/guides/build-your-setlist/`→`/catalog.json`→`/build-info.json`5회 모두200/PASS를 기록하며 catalog hash도 일치한다. 이 영수증의 범위는 해당 응답5개이며 전 CDN 위치·지속 가동 보장으로 확대하지 않는다.
+
+[Release API 영수증](../operations/runs/resume-20261018-0700-release.json)은 실제 published `v0.4.6`, release ID416205945, 2026-10-18T03:13:14Z, draft:false/prerelease:false다. annotated tag object `5fee402924df9f97c5635e74910fb08709b35996`와 제품 M의 연결이 기록돼 있다. [Release workflow 실제 결과줄](../operations/runs/resume-20261018-0700-release-logs.json)은 run39092755809의332/332·타입0/0/0·브라우저44/32.7초와 publish job117573022406의 **03:13:15.0578566Z Discord sent/1attempt**를 확인한다. 이는 Release 알림이며 관리자 완료 보고 송신과 구분한다. 이 담당은 webhook·시크릿 값을 읽거나 송신하지 않았다.
+
+앞 절들의 대기는 각 증거를 아직 읽지 않았던 시점의 범위다. 최종 읽기에서 같은 M의 main CI→두 target 로컬 전체재현→실제 preview44→managed 운영 배포/엄격27→실제 production44→old 복구27/1→M 재적용27/1→추가 엄격27/일반5→실제 published Release의 연결을 수용했다. 원 six peer 점수·원 실패42/2·working tree와 clean H1/M의 구분·사용량 중단/`/tmp` 소실·CI archive 전체 비교 미실행·Actions binding missing은 그대로 남는다.
+
+교체 담당의 완료 범위는 지정 문서 보완과 영수증의 독립 읽기 감사다. Git·제품 소스/테스트·CI·HTTP·브라우저·배포·새 외부 조회·새 worker 실행을 수행하지 않았고, root와 두 원 담당의 후속 수용 판단을 대신하지 않는다. AdSense는 기술 준비와 Google 계정/신청/실제 심사를 분리하며 권리·실제 광고 노출·승인을 확정하지 않는다. 이 문서는 이 지점에서 후속 동료 읽기를 위해 동결한다.

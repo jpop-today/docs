@@ -1,7 +1,7 @@
 {
   "runId": "resume-20261018-0700",
   "issue": 38,
-  "state": "in_progress",
+  "state": "product_complete_reporting_pending",
   "startedAt": "2026-10-17T22:01:33Z",
   "timezone": "Asia/Seoul",
   "base": {
@@ -89,14 +89,13 @@
     "root: e2e/title-artist-guide.spec.ts exact setlist date/other historical dates"
   ],
   "verification": {
-    "unit": "npm test332/332 workingtree",
-    "types": "Astro26files0error0warning0hint",
-    "initialBrowser": "H6edc05c preview44:42pass/2fail, preserved head-browser.json",
-    "correction": "Playwright NOSCRIPT parent skip vs actual child DOM visibility; intentional setlistdate18 vs unchanged olddate14",
-    "focused": "H1ca336d clean build/artifact +7E2E PASS9.1s; fixed-browser.json",
-    "ci": "sameM110c583e app39091961070/contracts39091961101 success;332/type0/44+44 actual selected logs",
-    "remote": "preview39092193863 actual44 success; production verification/recovery pending",
-    "repro": "target3347file sets/everyfile bytes equal over2clean builds; preview0/production49index"
+    "unit": "M332/332",
+    "types": "M26files0/0/0",
+    "initial": "H6edc42/2 preserved; JSoff extractor/date assumptions fixed; H1focused7",
+    "ci": "sameMapp/contracts and44+44 success",
+    "repro": "each target3347 allfiles/everybyte repeat equal;0/49index",
+    "remote": "actual preview44/production44 success",
+    "recovery": "actual v045 rollback then Mrestore both strict27pass"
   },
   "startDiscord": {
     "state": "sent",
@@ -131,9 +130,9 @@
   "reviews": "resume-20261018-0700-reviews.json",
   "replacement": {
     "id": "/root/resume38_replacement",
-    "initialState": "actualspawn then usage-limit failure",
-    "resume": "same ID actualfollowup",
-    "state": "anchor/snapshot/codeaudit complete; sameM/remote/recovery pending",
+    "firstTurn": "usage-limit failed",
+    "resumed": "same canonical agent",
+    "state": "document fix and independent final evidence audit accepted by other two original peers",
     "physicalDeletion": false
   },
   "preview": {
@@ -146,8 +145,29 @@
     "id": "bff966cf-c7af-41cf-b406-21cd007b28de",
     "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
     "api": "success",
-    "http": "in progress",
-    "remote": "pending",
-    "recovery": "pending"
-  }
+    "http": "27/1",
+    "remote": 39092435736,
+    "recovery": "olda268/ed22 strict27/1 -> newbff/M strict27/1, actual API+HTTP",
+    "remoteTests": 44,
+    "postrestore": "strict27/1 and ordinary5/5"
+  },
+  "release": {
+    "checkedAt": "2026-10-18T03:13:56.950723+00:00",
+    "version": "0.4.6",
+    "tag": "v0.4.6",
+    "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "annotatedObject": "5fee402924df9f97c5635e74910fb08709b35996",
+    "releaseId": 416205945,
+    "publishedAt": "2026-10-18T03:13:14Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.6",
+    "workflowRun": 39092755809,
+    "workflowConclusion": "success"
+  },
+  "productCompletedAt": "2026-10-18T03:21:15.813795+00:00",
+  "finalPeerAcceptances": [
+    "final-app-acceptance",
+    "final-evidence-acceptance"
+  ]
 }
