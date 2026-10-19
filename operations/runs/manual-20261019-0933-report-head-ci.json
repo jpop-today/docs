@@ -1,19 +1,7 @@
 {
-  "checkedAt": "2026-10-19T06:23:25.160260+00:00",
+  "checkedAt": "2026-10-19T06:25:41.531147+00:00",
   "sourceSha": "222de8221fc7d8d9e6fc2d749d57450e5f68a21c",
   "runs": [
-    {
-      "id": 39209534469,
-      "name": "app",
-      "event": "pull_request",
-      "head_sha": "222de8221fc7d8d9e6fc2d749d57450e5f68a21c",
-      "head_branch": "codex/41-v047-completed-report",
-      "status": "in_progress",
-      "conclusion": null,
-      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39209534469",
-      "created_at": "2026-10-19T06:22:28Z",
-      "updated_at": "2026-10-19T06:22:37Z"
-    },
     {
       "id": 39209534417,
       "name": "contracts",
@@ -27,16 +15,16 @@
       "updated_at": "2026-10-19T06:22:43Z"
     },
     {
-      "id": 39209528930,
+      "id": 39209534469,
       "name": "app",
-      "event": "push",
+      "event": "pull_request",
       "head_sha": "222de8221fc7d8d9e6fc2d749d57450e5f68a21c",
       "head_branch": "codex/41-v047-completed-report",
-      "status": "in_progress",
-      "conclusion": null,
-      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39209528930",
-      "created_at": "2026-10-19T06:22:24Z",
-      "updated_at": "2026-10-19T06:22:28Z"
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39209534469",
+      "created_at": "2026-10-19T06:22:28Z",
+      "updated_at": "2026-10-19T06:24:47Z"
     },
     {
       "id": 39209528991,
@@ -49,8 +37,20 @@
       "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39209528991",
       "created_at": "2026-10-19T06:22:24Z",
       "updated_at": "2026-10-19T06:22:41Z"
+    },
+    {
+      "id": 39209528930,
+      "name": "app",
+      "event": "push",
+      "head_sha": "222de8221fc7d8d9e6fc2d749d57450e5f68a21c",
+      "head_branch": "codex/41-v047-completed-report",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39209528930",
+      "created_at": "2026-10-19T06:22:24Z",
+      "updated_at": "2026-10-19T06:24:30Z"
     }
   ],
-  "allCompleted": false,
-  "allSuccess": false
+  "allCompleted": true,
+  "allSuccess": true
 }
