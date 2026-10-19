@@ -1,0 +1,14 @@
+{
+  "requestedAt": "2026-10-19T06:31:34.499214+00:00",
+  "workflow": "discord.yml",
+  "ref": "main",
+  "sourceMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "inputs": {
+    "mode": "completed",
+    "report_date": "2026-10-19"
+  },
+  "payload": "manual-20261019-0933-completed-payload.json",
+  "state": "accepted; actual delivery not yet confirmed",
+  "accepted": true,
+  "runId": 39210427043
+}

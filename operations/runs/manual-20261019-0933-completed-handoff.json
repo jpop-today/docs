@@ -1,0 +1,124 @@
+{
+  "recordedAt": "2026-10-19T06:34:21.252953+00:00",
+  "runId": "manual-20261019-0933",
+  "state": "completed",
+  "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "sourceReportMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "documentationAtProductRecord": {
+    "repo": "docs",
+    "pr": 24,
+    "head": "a7db65be6a8d4a0e6cb0a4eb4cfac7d3178b5b69",
+    "mergeSha": "4cb78484fcc468dcca4e94e8f1361f39b3ad3585",
+    "checkedAt": "2026-10-19T06:28:34.290147+00:00",
+    "initialPreconditionAttempt": "Earlier precondition assertion aborted before merge; exact initial response not retained. Subsequent actual head/CLEAN/OPEN/empty-checks read verified, then merged without bypass."
+  },
+  "report": {
+    "repo": "jpoptoday",
+    "pr": 43,
+    "head": "222de8221fc7d8d9e6fc2d749d57450e5f68a21c",
+    "mergeSha": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+    "checkedAt": "2026-10-19T06:28:38.412125+00:00",
+    "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "productNotRedeployed": true,
+    "changedPaths": [
+      "reports/daily/2026-10-19.json",
+      "reports/runs/manual-20261019-0933-completed-daily.json"
+    ]
+  },
+  "reportCI": {
+    "head": "manual-20261019-0933-report-head-ci.json",
+    "main": "manual-20261019-0933-report-main-ci.json",
+    "successRuns": 6
+  },
+  "release": {
+    "checkedAt": "2026-10-19T06:18:15.519318+00:00",
+    "version": "0.4.7",
+    "tag": "v0.4.7",
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "annotatedObject": "51ae7eb1bf89ae89979621b80b678e824de44837",
+    "releaseId": 416964550,
+    "publishedAt": "2026-10-19T06:17:09Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.7",
+    "workflowRun": 39208859072,
+    "workflowConclusion": "success"
+  },
+  "production": {
+    "checkedAt": "2026-10-19T06:29:36.538724+00:00",
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+      "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+      "status": "success"
+    },
+    "sourceReportMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8"
+  },
+  "productionHTTP": {
+    "file": "manual-20261019-0933-final-production-http.json",
+    "passed": true,
+    "checks": 27,
+    "attempts": 1
+  },
+  "recovery": {
+    "rollbackChecks": 27,
+    "rollbackAttempts": 1,
+    "restoreChecks": 27,
+    "restoreAttempts": 2,
+    "firstRestoreFailure": "BODY_MISMATCH at /; preserved in raw receipt",
+    "additionalPostrestoreChecks": 27,
+    "additionalPostrestoreAttempts": 1,
+    "ordinaryURLs": 9
+  },
+  "notification": {
+    "runId": 39210427043,
+    "jobId": 117922344337,
+    "sourceMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+    "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "workflow": "discord.yml",
+    "mode": "completed",
+    "reportDate": "2026-10-19",
+    "state": "sent",
+    "attempts": 1,
+    "sentAt": "2026-10-19T06:31:43.5670650Z",
+    "payloadCoreSha256": "c31b18e31537980dd38e25e4719a169b3c59f126fc9d5f393e757ea802f75769",
+    "selectedActualResultLines": [
+      {
+        "at": "2026-10-19T06:31:43.2531083Z",
+        "result": "Report prepared: completed (2026-10-19); delivery not yet confirmed."
+      },
+      {
+        "at": "2026-10-19T06:31:43.5670650Z",
+        "result": "Discord notification sent (1 attempt)."
+      }
+    ],
+    "scope": "Actual saved-main workflow delivery, one manager completion dispatch. No webhook value or raw environment retained."
+  },
+  "coreEquality": {
+    "matchesSavedSourceMainAndDocs": true,
+    "sha256": "c31b18e31537980dd38e25e4719a169b3c59f126fc9d5f393e757ea802f75769"
+  },
+  "publication": "This receipt is published through a reviewable docs PR; final mergeSHA is supplied by actual GitHub metadata to avoid recursive commits.",
+  "remaining": [
+    "AdSense account/application/approval unknown and technical preparing",
+    "Operator identity/legal consent, rights, real contact delivery and ads.txt account match",
+    "Issue6 evidence/original content and Issue15 safe Actions binding followup"
+  ],
+  "limits": [
+    "remote49 precedes recovery; no full49 rerun after restore",
+    "all-file local reproducibility; no full CI ZIP-to-local comparison",
+    "no physical agent deletion, forcepush or irreversible resource deletion",
+    "no24h/infinite session, hourly success or token-reset detection guarantee"
+  ]
+}

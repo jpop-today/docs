@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-19T06:30:54.682444+00:00",
+  "sourceMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "githubBlob": "bf517052a2e2a482daf7c2f17cfb9929aa8b075c",
+  "savedReport": "reports/daily/2026-10-19.json",
+  "sameAsLocal": true,
+  "coreSha256": "c31b18e31537980dd38e25e4719a169b3c59f126fc9d5f393e757ea802f75769",
+  "core": {
+    "title": "10월19일 · v0.4.7 운영 반영",
+    "summary": "충돌4개 ID·8업체 번호의 표시·복사를 보류했습니다. 기존 근거·URL·저장값·브랜드를 보존했습니다.",
+    "fields": [
+      {
+        "name": "검증",
+        "value": "단위377·타입오류0, 같은 SHA 실제 preview49/운영49·target별3347파일 재현·실제 복구27개(1회)→재적용27개(2회)·재적용 뒤9URL 검사를 통과했습니다."
+      },
+      {
+        "name": "협업·실패",
+        "value": "실제6평가40/40/40 동률로 사전 순서에 따라 품질 담당을 교체하고 후속2평가를 수용했습니다. 초기 검사 실패·검증기 우회4건 보완·사용량 중단을 보존했습니다. 재적용 첫 본문 불일치는2회째 통과했습니다."
+      },
+      {
+        "name": "예약·운영",
+        "value": "매일09시/hourly 기존 예약을 재활성화해 유지합니다. 이번 배포는 관리자 수행이며 Actions CFbinding 미설정 후속이 남았습니다."
+      },
+      {
+        "name": "AdSense",
+        "value": "실제 계정·신청·승인은 미확인입니다. 운영자의 권리·문의 실수신·ads.txt 계정 일치·본인정보/법적 동의와 후속 제품 개선이 남았습니다."
+      }
+    ],
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.7"
+  },
+  "delivery": "not yet requested; separate actual workflow receipt required"
+}

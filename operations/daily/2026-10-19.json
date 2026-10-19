@@ -66,7 +66,7 @@
     "pr": 42,
     "headSha": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
     "baseSha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
-    "reportSha": "assigned by report-only PR; final docs receipt records it without recursive source commit"
+    "reportSha": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8"
   },
   "production": {
     "id": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
@@ -111,6 +111,40 @@
     "physicalDeletion": false
   },
   "completedNotification": {
-    "state": "pending separate saved-main workflow dispatch and actual delivery receipt"
+    "runId": 39210427043,
+    "jobId": 117922344337,
+    "sourceMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+    "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "workflow": "discord.yml",
+    "mode": "completed",
+    "reportDate": "2026-10-19",
+    "state": "sent",
+    "attempts": 1,
+    "sentAt": "2026-10-19T06:31:43.5670650Z",
+    "payloadCoreSha256": "c31b18e31537980dd38e25e4719a169b3c59f126fc9d5f393e757ea802f75769",
+    "selectedActualResultLines": [
+      {
+        "at": "2026-10-19T06:31:43.2531083Z",
+        "result": "Report prepared: completed (2026-10-19); delivery not yet confirmed."
+      },
+      {
+        "at": "2026-10-19T06:31:43.5670650Z",
+        "result": "Discord notification sent (1 attempt)."
+      }
+    ],
+    "scope": "Actual saved-main workflow delivery, one manager completion dispatch. No webhook value or raw environment retained."
+  },
+  "documentationReceipt": {
+    "repo": "docs",
+    "pr": 24,
+    "head": "a7db65be6a8d4a0e6cb0a4eb4cfac7d3178b5b69",
+    "mergeSha": "4cb78484fcc468dcca4e94e8f1361f39b3ad3585",
+    "checkedAt": "2026-10-19T06:28:34.290147+00:00",
+    "initialPreconditionAttempt": "Earlier precondition assertion aborted before merge; exact initial response not retained. Subsequent actual head/CLEAN/OPEN/empty-checks read verified, then merged without bypass."
+  },
+  "reportCI": {
+    "head": "manual-20261019-0933-report-head-ci.json",
+    "main": "manual-20261019-0933-report-main-ci.json",
+    "successRuns": 6
   }
 }

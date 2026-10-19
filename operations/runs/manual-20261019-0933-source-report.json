@@ -1,0 +1,13 @@
+{
+  "repo": "jpoptoday",
+  "pr": 43,
+  "head": "222de8221fc7d8d9e6fc2d749d57450e5f68a21c",
+  "mergeSha": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "checkedAt": "2026-10-19T06:28:38.412125+00:00",
+  "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "productNotRedeployed": true,
+  "changedPaths": [
+    "reports/daily/2026-10-19.json",
+    "reports/runs/manual-20261019-0933-completed-daily.json"
+  ]
+}
