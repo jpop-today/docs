@@ -129,3 +129,5 @@ canonical377/type0·같은 M CI49+49·실제 preview49/운영49·각target3347�
 실제Actions CFbinding missing/deployskip과 관리자managed배포/verify_only를 구분한다. 개인Git source/dev metadata·자동false/none·도메인/이력을 보존했다. 실제두예약peek enabled·기존Asia/Seoul09시/hourly일정은불변이며 nextRun null을 성공보장으로 쓰지 않는다. AdSense preparing, 실제계정/신청/승인은unknown이다. 운영자의권리·문의실수신·ads.txt실계정일치·본인정보/약관/법적동의가남았다. 현재Node ads.txt200/59bytes/Google판매자형식1행이며값은보존하지않았다. 앞선urllib403은클라이언트관측으로원인/Google봇차단을확정하지않는다.
 
 [실제 인계](daily/2026-10-19.md) · [run](runs/manual-20261019-0933.json). 토큰 초기화가 아니라 명시재개지시와 현재환경/API/Git상태로 같은run을 이어갔으며 hourly추가지시는중복팀/수정없이합쳤다.
+
+Issue41 최종보고R49d6806·문서PR24와관리자완료Discord39210427043 actual15:31:43KST sent1·보고6CI/최종M API strict27/1을 [완료 인계](runs/manual-20261019-0933-completed-handoff.json)에보존한다. sourceR은reports2JSON만 제품M과다르고재배포하지않았다.

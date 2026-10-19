@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-19T06:29:36.538724+00:00",
+  "project": "todayjpop",
+  "domains": [
+    "todayjpop.pages.dev",
+    "jpop.today"
+  ],
+  "source": {
+    "owner": "kim75503",
+    "repo_name": "todayjpop",
+    "production_branch": "dev",
+    "production_deployments_enabled": false,
+    "preview_deployment_setting": "none"
+  },
+  "deployment": {
+    "id": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "status": "success"
+  },
+  "sourceReportMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8"
+}

@@ -1,0 +1,8 @@
+{
+  "repo": "docs",
+  "pr": 24,
+  "head": "a7db65be6a8d4a0e6cb0a4eb4cfac7d3178b5b69",
+  "mergeSha": "4cb78484fcc468dcca4e94e8f1361f39b3ad3585",
+  "checkedAt": "2026-10-19T06:28:34.290147+00:00",
+  "initialPreconditionAttempt": "Earlier precondition assertion aborted before merge; exact initial response not retained. Subsequent actual head/CLEAN/OPEN/empty-checks read verified, then merged without bypass."
+}

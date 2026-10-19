@@ -1,0 +1,24 @@
+{
+  "runId": 39210427043,
+  "jobId": 117922344337,
+  "sourceMain": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "workflow": "discord.yml",
+  "mode": "completed",
+  "reportDate": "2026-10-19",
+  "state": "sent",
+  "attempts": 1,
+  "sentAt": "2026-10-19T06:31:43.5670650Z",
+  "payloadCoreSha256": "c31b18e31537980dd38e25e4719a169b3c59f126fc9d5f393e757ea802f75769",
+  "selectedActualResultLines": [
+    {
+      "at": "2026-10-19T06:31:43.2531083Z",
+      "result": "Report prepared: completed (2026-10-19); delivery not yet confirmed."
+    },
+    {
+      "at": "2026-10-19T06:31:43.5670650Z",
+      "result": "Discord notification sent (1 attempt)."
+    }
+  ],
+  "scope": "Actual saved-main workflow delivery, one manager completion dispatch. No webhook value or raw environment retained."
+}

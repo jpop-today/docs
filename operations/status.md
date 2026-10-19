@@ -9,6 +9,8 @@ canonical377/type0·같은 M CI49+49·실제 preview49/운영49·각target3347�
 실제Actions CFbinding missing/deployskip과 관리자managed배포/verify_only를 구분한다. 개인Git source/dev metadata·자동false/none·도메인/이력을 보존했다. 실제두예약peek enabled·기존Asia/Seoul09시/hourly일정은불변이며 nextRun null을 성공보장으로 쓰지 않는다. AdSense preparing, 실제계정/신청/승인은unknown이다. 운영자의권리·문의실수신·ads.txt실계정일치·본인정보/약관/법적동의가남았다. 현재Node ads.txt200/59bytes/Google판매자형식1행이며값은보존하지않았다. 앞선urllib403은클라이언트관측으로원인/Google봇차단을확정하지않는다.
 
 [실행](runs/manual-20261019-0933.json) · [릴리스](releases/v0.4.7-20261019.md) · [정책게이트](production-content-gate-v047-20261019.md) · [19일보](daily/2026-10-19.json). 보고R/Discord마감은 최종인계 영수증을 따른다.
+최종 전달: docs PR24/main4cb78484·보고 PR43/main R `49d6806bb00e813bb3dcda15a22f2cf8d2d21da8` 병합, 보고 candidate/main6CI success. 관리자 완료 Discord39210427043/job117922344337는2026-10-19 15:31:43KST actualsent1attempt다. [송신 영수증](runs/manual-20261019-0933-completed-discord.json)·[최종 인계](runs/manual-20261019-0933-completed-handoff.json)·[보고 SHA](runs/manual-20261019-0933-source-report.json)·[최종 API](runs/manual-20261019-0933-final-production-api.json)·[최종 strict27/1](runs/manual-20261019-0933-final-production-http.json)을 따른다. R은 제품M과reports2JSON만 다르며 재배포하지 않았다. source의immutable pre-delivery metadata와실제송신을구분하고채팅/Discord/일일보의core는동일하다.
+
 
 ## 직전 v0.4.6 완료 이력
 
