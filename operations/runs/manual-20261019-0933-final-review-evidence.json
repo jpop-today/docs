@@ -1,0 +1,217 @@
+{
+  "runId": "manual-20261019-0933",
+  "reviewer": "/root/run41_evidence",
+  "readAt": "2026-10-19T06:24:27.887261+00:00",
+  "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "accepted": true,
+  "mode": "final-read-only-evidence-audit",
+  "changesToOriginalScoresOrRanking": false,
+  "reviewedFiles": [
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-main-ci-logs.json",
+      "sha256": "28fe8bf470cb45e13f4462367450350a274daef493a5711c26c074332c241885"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-preview-logs.json",
+      "sha256": "44da927bec24b385506125e8266f32f6a3c7854074c5248ddf8b14353c6c4f72"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-production-logs.json",
+      "sha256": "07c1fab1af6fbb6b2fff417f2a8dee11a93597a4366ed9a077d8d512de4dfeb7"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-reproducibility.json",
+      "sha256": "f3550f6d63e3b04c814163b3c3a33a8cf755a3733fe5c15f3d917ac3c158dae6"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-recovery.json",
+      "sha256": "d44d016eeceb878f1c1479936aab14a5baf81edc288b3821dce7adcecca9cb73"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-rollback-http.json",
+      "sha256": "90b2885b13d104d1ec818ed1ebb5eac2f26eab4cff013c0d01788ab96a620221"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-restore-http.json",
+      "sha256": "d43ee01b099aa4a9c3cdb3acf5c1587b935a84a306360dc145a8a6631e158c70"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-postrestore-http.json",
+      "sha256": "5e2bd25b96d55821d82c582e8815dab54e7f1debecfdc141357b9c0b746d31d6"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-postrestore-site.json",
+      "sha256": "2bd734eae69f40a87454b26feaeb09b83aa2dcc92ef73b49f4f2632ff1c9f2a2"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-release.json",
+      "sha256": "d0c8b6ee02f2f90c32e570c0302354794d7189b04effaaa482748e463f080716"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-main-preservation.json",
+      "sha256": "e209456a8f518d9dd1fa588a6be32eb80b1f5da7aa5f9e89b24d393bc7fca19c"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-reviews.json",
+      "sha256": "949876f42db0ea888bbcced94047242f8869f137f9bbd0075ba2a15537dba8ad"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-replacement-review-app.json",
+      "sha256": "9d9d42b8e5458658d94fd0f25c70db7133a6847ec6c5b65dbdcb7368aa10ea4a"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-replacement-review-evidence.json",
+      "sha256": "3c087913dc040561fea793272e45cb4b2a3f01677d76c872786c4083e8398ac9"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-report-correction.json",
+      "sha256": "bce482d7268a104fb81039c72fb449d23454b592d647e758bb04eb67ca8f2121"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933-final-review-app-initial.json",
+      "sha256": "0e9360fccaf0643bf7e9a77648baf37609e8d0411a7372633922e0a0536da9d9"
+    },
+    {
+      "path": "docs/operations/daily/2026-10-19.md",
+      "sha256": "548522d6cc9d8783de98bb1e3c88d43b144d8a664b80149426b170a26f9d69e5"
+    },
+    {
+      "path": "docs/operations/releases/v0.4.7-20261019.md",
+      "sha256": "69a5d7cbce2185a37c8d96a0ab3ef9732cd189571d653e8695ec2f3522cfc398"
+    },
+    {
+      "path": "docs/operations/production-content-gate-v047-20261019.md",
+      "sha256": "c747da0a05f942b768555a3c79dcdfc6c49e4a91a70b030be8b55f687c5e30f7"
+    },
+    {
+      "path": "docs/operations/status.md",
+      "sha256": "e1d1f2b3b4331fc0d347b7b70951e1c876e911640374c4fc204d5677ddbf6f2a"
+    },
+    {
+      "path": "docs/operations/roadmap.md",
+      "sha256": "8271befe15a5b1139de7cff7989cb1ef2cb0b355a651fea4458df929c580e5be"
+    },
+    {
+      "path": "docs/operations/continuous-development.md",
+      "sha256": "9a19254a3043d6142f34fc85ff126f10f8b4746881bb8acf5cc320c5279cf443"
+    },
+    {
+      "path": "docs/operations/daily/2026-10-19.json",
+      "sha256": "d15638b09e98fb4b58ac022af067981de134336471857291ef3d3001598697ec"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261019-0933.json",
+      "sha256": "a89486c8a5cdd7eedbbec1f827cdfc8b8f1509ce1dedc9d157de6650ea95bf39"
+    },
+    {
+      "path": "jpoptoday/reports/daily/2026-10-19.json",
+      "sha256": "d15638b09e98fb4b58ac022af067981de134336471857291ef3d3001598697ec"
+    },
+    {
+      "path": "jpoptoday/reports/runs/manual-20261019-0933-completed-daily.json",
+      "sha256": "d15638b09e98fb4b58ac022af067981de134336471857291ef3d3001598697ec"
+    }
+  ],
+  "checks": {
+    "productAndReportBoundary": "실제 로컬 보고HEAD222de8221fc7d8d9e6fc2d749d57450e5f68a21c의 부모는 최초보고78d368e291476c5bcb0b8118270f0f399816abbb이며 M과차이는reports JSON2개뿐이다. 제품M/태그/운영과 보고H를 구분한다. 보고PR merge/새H CI통과를 이 읽기로 주장하지 않는다.",
+    "CI": "같은M39183167199의 actual timestamped 결과377/type26files0errors0warnings0hints 및 preview49/production-artifact49를 실제 읽었다.",
+    "remote": "실제preview39207856597=49, production verify_only39208294414=local49+actualorigin49. 실제CF Actionsbindingsmissing/deployskip이며 rootmanaged배포와 구분된다.",
+    "reproducibility": "각target3347files/3336HTML의clean local두번 전체fileset/every-filehash일치, preview0/production49 indexable. 전체CI ZIP과로컬 전파일비교는 미실행이다.",
+    "recovery": {
+      "oldDeployment": "bff966cf-c7af-41cf-b406-21cd007b28de",
+      "oldSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+      "oldChecks": 27,
+      "oldAttempts": 1,
+      "newDeployment": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+      "newSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+      "newSuccessfulChecks": 27,
+      "newAttempts": 2,
+      "firstNewFailure": {
+        "code": "BODY_MISMATCH",
+        "path": "/",
+        "checksBeforeFailure": 3
+      },
+      "postrestoreStrictChecks": 27,
+      "postrestoreStrictAttempts": 1,
+      "ordinaryURLs": 9,
+      "beforeAndAfterSourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+      "remote49Timing": "복구시험 전에 실제성공. 복구후전체49재실행주장없음."
+    },
+    "release": {
+      "id": 416964550,
+      "publishedAt": "2026-10-19T06:17:09Z",
+      "KST": "2026-10-19 15:17:09",
+      "version": "0.4.7",
+      "workflowRun": 39208859072,
+      "draft": false,
+      "prerelease": false,
+      "sameM": true
+    },
+    "reportingState": "제품·검증·운영·Release는완료. rootrun은product_complete_report_handoff_pending이며3개보고JSON은전체byte까지동일하고 completedNotification은pending이다. docs PR/보고PR 최종CI·merge/저장main 완료송신과실제delivery는root가후속증거로마감해야한다.",
+    "originalPeerComparisons": {
+      "actualReviews": 6,
+      "totals": [
+        40,
+        40,
+        40
+      ],
+      "fileHashComparisons": 16,
+      "uniqueReviewedFiles": 8,
+      "allMatch": true,
+      "supplementalReviews": 2,
+      "supplementalScores": [
+        20,
+        20
+      ],
+      "tieScope": "사전quality,evidence,app동률순서교체1; 품질열등/물리삭제주장없음"
+    },
+    "markdownFileLinks": {
+      "checked": 136,
+      "missing": 0,
+      "scope": "해당6개MD의로컬파일target존재; 모든fragment/외부URL HTTP를 새실행한것은아님"
+    },
+    "inputPreservation": {
+      "data/staging/legacy-catalog.json": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+      "data/reviewed/provider-corrections.json": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+      "data/chart-snapshot.json": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+      "data/legacy-identity-baseline.json": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+      "src/styles/global.css": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889"
+    },
+    "guidePreservation": "guides.ts227f848b70a9a5077f8cc8486dc1998cb4f6ba70cec2e6a469854506af61ee62가최초자료/두peer동결hash와같다. 기존14일조회와19일본문편집/새조회없음, 나머지5글전체바이트·객체보존의이전검증을유지한다.",
+    "adsense": "technicalpreparing·account/application/approvalunknown. ads.txt현재200/59bytes/Google판매자형식1행은실제계정일치/권리/신청/승인증거가아니며값을읽거나보존하지않았다. urllib403은클라이언트관측이며Google봇차단원인으로확정하지않는다.",
+    "automation": "저장된실제peek의기존두예약enabled·Asia/Seoul09시/hourly일정불변을문서가사용한다. nextRunnull을실행보장으로쓰지않는다. 리뷰어가예약을변경하거나새작업을시작하지않았다."
+  },
+  "preservedOriginalReviewHashes": {
+    "operations/runs/manual-20261019-0933-reviews-app.json": "db6597b19787712ee448f300471615ff0d7b8372c6bd5b2ee838f6891596f8d7",
+    "operations/runs/manual-20261019-0933-reviews-evidence.json": "e76fcdefd4c66502de21ad66cbf0107acb5e103d6896c49954e3fd9c5ded7dbf",
+    "operations/runs/manual-20261019-0933-reviews-quality.json": "6df1be41bbec4fb6c6d6f7a6fdfc184e181456702b3552283a0f550e0e106f33"
+  },
+  "findings": [
+    {
+      "id": "restore-attempt-count",
+      "initialStatus": "report-correction-required",
+      "initialObservation": "최초 source3JSON completed와docs daily/release/status/continuous/content-policy는재적용27/1로서술했지만 restore-http는첫 / BODY_MISMATCH3checks실패후2번째27통과였다. 구조화restoreAttempts2와서술이모순됐다.",
+      "status": "resolved-and-reread",
+      "resolution": "root가원래보고·SHA/최초H를report-correction.json에보존하고신규forward보고commit222de82로고쳤다. 실제재읽기에서검증core2회·실패core첫본문불일치2회째통과·completed27/2 및현재MD27/2를확인했다. raw실패영수증은보존됐다."
+    },
+    {
+      "id": "stale-candidate-state",
+      "initialStatus": "report-correction-required",
+      "initialObservation": "rootrun productionCandidate.status가remote검증/복구pending인채로제품완료필드와공존했고과거관측임이명시되지않았다.",
+      "status": "resolved-and-reread",
+      "resolution": "현재status는superseded verified와remote49복구전/rollback27/1→restore27/2/postrestore27/1+9를명시한다. previousStatus·supersededAt·finalEvidence를남겨과거상태를보존하고완료보고/Discordpending과구분했다."
+    }
+  ],
+  "unresolvedFindings": [],
+  "pendingHandoff": [
+    "보고PR43의최종H222de82 CI/merge·docs PR의실제최종SHA",
+    "saved-main완료Discord의단일dispatch와actualdelivery영수증",
+    "최종인계시실제사이트API/HTTP재확인(리뷰어는새HTTP미실행)"
+  ],
+  "limits": [
+    "기존actual영수증을읽고교차계산했다. GitHub/Cloudflare API·HTTP·브라우저·서버·테스트·CI·배포를리뷰어가새실행한것은아니다.",
+    "복구후범위는strict27/1과일반URL9개다. 원격49복구후재실행/전체CDN동시전환/필드성능/다른엔진/OSclipboard실제허가/Google결과를주장하지않는다.",
+    "최초보조hash검사는다른담당리뷰의file/path스키마차이로KeyError후중단했다. 원문스키마를읽고읽기전용adapter를적용해16비교/8고유파일모두실제재대조했다. 원문review수정없음.",
+    "이새허용JSON만작성했으며제품파일·원6peer·후속review·최종보고/문서·Git/package/lockfile/workflow는수정하지않았다. 원점수/순위를덮어쓰지않는다."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "startedAt": "2026-10-19T00:51:02.632582+00:00",
+  "scope": "working tree before product commit; clean same-SHA gates remain separate",
+  "steps": [
+    {
+      "name": "artifact",
+      "exit": 0,
+      "selected": [
+        "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951 (dirty local build)"
+      ]
+    },
+    {
+      "name": "browser",
+      "exit": 0,
+      "selected": [
+        "  49 passed (2.0m)"
+      ]
+    }
+  ],
+  "finishedAt": "2026-10-19T00:53:03.791456+00:00",
+  "buildInfo": {
+    "schemaVersion": 2,
+    "target": "preview",
+    "sourceSha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+    "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": true
+  },
+  "success": true
+}

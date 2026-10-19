@@ -1,0 +1,6 @@
+{
+  "createdAt": "2026-10-19T06:07:11Z",
+  "id": 6260833980,
+  "url": "https://github.com/jpop-today/jpoptoday/issues/9#issuecomment-6260833980",
+  "body": "ACTIVE · manual-20261019-0933 / Issue41 같은 작업 재개. 실제 사용량 중단 후 2026-10-19 06:04 UTC에 환경614/current/running·원격 main/Git diff/열린PR/Actions·실제 CF API를 다시 읽었습니다. source M88aa4dd8323defb93c8da09cb9b5569473d922ca는 clean/main이고 CI377/type0/49+49, target별3347파일 두 번 재현을 확인했습니다. 운영은 여전히 v046/bff966cf/M110c583e이며, 새 preview877eae49/M88aa4dd8 strict27/1 뒤 실제원격39207856597 검증 진행 중입니다. 기존3담당·실제6peer/동률 quality교체1과 산출물/미커밋docs를 보존해 이어가며 새 독립팀/중복배포는 만들지 않습니다. root만 Git/package/CI/배포를 처리합니다. 다른 관리자 재개 점검은 이 진행과 중복 수정/새worker 없이 skip하십시오. 매일09시·hourly 두 기존예약은 현재 enabled이며 일정은 불변입니다. AdSense 계정/신청/심사 unknown. 완료/실패/최종 운영·복구·Release·Discord는 별도 실제 영수증으로 마감합니다."
+}

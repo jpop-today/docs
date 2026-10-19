@@ -116,3 +116,16 @@ GitHub Actions의 테스트·빌드·배포 workflow와 에이전트 개발 실�
 기존매일09시와hourly예약은유지하고token초기화이벤트를감지한다고하지않는다.이번run완료와오늘전체개발/AdSense실제승인을구분하며안전한자료수집하네스·미검토근거와고유콘텐츠/운영자계정후속을계속한다.
 
 동일03시run의최종전달: docsPR10/main d2c713b·보고PR21/main R7ed3f7e 병합, 완료Discord38653964082는10월15일08:25:22KST actualsent1attempt. 보고R은제품Mfc54989와reports한파일만다르며운영M257를유지한다. 기존09시/hourly actualpeek enabled/일정불변. [송신/병합영수증](runs/resume-20261015-0300-completed-discord.json)·[다음Issue20](https://github.com/jpop-today/jpoptoday/issues/20)이인계기준이다.
+
+
+## 2026-10-19 · 실제 중단 뒤 같은 Issue41 완성
+
+v0.4.7 / 제품·태그 M `88aa4dd8323defb93c8da09cb9b5569473d922ca` / todayjpop·jpop.today `3ad0bb17-2331-4192-b02a-23645ff5e02b`. 충돌4개ID/8업체의 번호 표시·개별 복사·잘못된 공식 상태를 세 생성 지점에서 보류하고 TJ/금영 가이드의 기존 Hump Back 조회 근거와 현재 보류를 연결했다. raw/ledger84·3317ID·카탈로그 bytes·기존URL/storage·원래 gradient/palette는 보존했다. 새 조회/권리/Google 결과는 만들지 않았다.
+
+초기3담당의 실제6peer/hash대조/evaluateTeam은40/40/40동률이다. 사전quality/evidence/app 순서로 품질active를 제외하고 실제interrupt(이미completed) 후 신규교체1을 영입했다. 물리삭제나 품질열등을 주장하지 않는다. 최초artifact번호요구 실패와 교체의 실제우회4개(44노드37pass/7fail=leaf4+parent3)를 보존하고 root보완 후45pass를 확인했으며 다른두담당이 후속20/20으로 수용했다. 사용량 자동승인검토중단과06:04UTC 환경614/API/Git재확인·같은run 재개, 즉시dispatch목록empty뒤중복호출없이재조회 성공, gh로그읽기실패→연결GitHub읽기성공도 구분한다.
+
+canonical377/type0·같은 M CI49+49·실제 preview49/운영49·각target3347파일/3336HTML 전체2회 재현(0/49index)·실제oldv04627/1→newv04727/2(첫 / BODY_MISMATCH 뒤 재시도 통과) 복구/재적용을 확인했다. 이후 strict27/1과 일반 URL/충돌상세9개에서 전후M과 실제 보류를 확인했다. 원격49는 복구 시험 전이며 복구 뒤 전체49를 다시 실행한 것은 아니다. 전체CI ZIP과 모든 로컬 bytes 비교·다른엔진·OSclipboard실제허가·필드성능·전체CDN 동시전환은 검증하지 않았다.
+
+실제Actions CFbinding missing/deployskip과 관리자managed배포/verify_only를 구분한다. 개인Git source/dev metadata·자동false/none·도메인/이력을 보존했다. 실제두예약peek enabled·기존Asia/Seoul09시/hourly일정은불변이며 nextRun null을 성공보장으로 쓰지 않는다. AdSense preparing, 실제계정/신청/승인은unknown이다. 운영자의권리·문의실수신·ads.txt실계정일치·본인정보/약관/법적동의가남았다. 현재Node ads.txt200/59bytes/Google판매자형식1행이며값은보존하지않았다. 앞선urllib403은클라이언트관측으로원인/Google봇차단을확정하지않는다.
+
+[실제 인계](daily/2026-10-19.md) · [run](runs/manual-20261019-0933.json). 토큰 초기화가 아니라 명시재개지시와 현재환경/API/Git상태로 같은run을 이어갔으며 hourly추가지시는중복팀/수정없이합쳤다.

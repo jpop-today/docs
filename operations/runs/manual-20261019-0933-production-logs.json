@@ -1,0 +1,77 @@
+{
+  "runId": 39208294414,
+  "jobId": 117915833240,
+  "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "conclusion": "success",
+  "scope": "Managed production already deployed. Workflow verify_only; local49 and actual origin49 precede recovery test.",
+  "selectedActualResultLines": [
+    {
+      "at": "2026-10-19T06:09:48.0796881Z",
+      "result": "ℹ tests 377"
+    },
+    {
+      "at": "2026-10-19T06:09:48.0797519Z",
+      "result": "ℹ pass 377"
+    },
+    {
+      "at": "2026-10-19T06:09:48.0797807Z",
+      "result": "ℹ fail 0"
+    },
+    {
+      "at": "2026-10-19T06:09:53.1978981Z",
+      "result": "Result (26 files):"
+    },
+    {
+      "at": "2026-10-19T06:09:53.1979614Z",
+      "result": "- 0 errors"
+    },
+    {
+      "at": "2026-10-19T06:09:53.1980001Z",
+      "result": "- 0 warnings"
+    },
+    {
+      "at": "2026-10-19T06:09:53.1980354Z",
+      "result": "- 0 hints"
+    },
+    {
+      "at": "2026-10-19T06:09:59.1026198Z",
+      "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 88aa4dd8323defb93c8da09cb9b5569473d922ca"
+    },
+    {
+      "at": "2026-10-19T06:10:04.6626621Z",
+      "result": "Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (49 indexable), 3347 files; source 88aa4dd8323defb93c8da09cb9b5569473d922ca"
+    },
+    {
+      "at": "2026-10-19T06:10:07.7640440Z",
+      "result": {
+        "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+        "target": "preview",
+        "attempts": 1,
+        "passed": true,
+        "code": null
+      }
+    },
+    {
+      "at": "2026-10-19T06:11:24.8423349Z",
+      "result": "49 passed (56.2s)"
+    },
+    {
+      "at": "2026-10-19T06:11:24.8976151Z",
+      "result": "Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available"
+    },
+    {
+      "at": "2026-10-19T06:11:28.5890137Z",
+      "result": {
+        "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+        "target": "production",
+        "attempts": 1,
+        "passed": true,
+        "code": null
+      }
+    },
+    {
+      "at": "2026-10-19T06:12:49.6854977Z",
+      "result": "49 passed (1.3m)"
+    }
+  ]
+}

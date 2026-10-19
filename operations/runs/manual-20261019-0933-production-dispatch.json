@@ -1,0 +1,14 @@
+{
+  "requestedAt": "2026-10-19T06:09:28.010466+00:00",
+  "workflow": "production.yml",
+  "ref": "main",
+  "inputs": {
+    "source_sha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "preview_url": "https://877eae49.jpoptoday-preview.pages.dev",
+    "verify_only": true
+  },
+  "scope": "verify already managed-deployed production; no duplicate workflow deploy",
+  "status": "pending",
+  "accepted": true,
+  "runId": 39208294414
+}

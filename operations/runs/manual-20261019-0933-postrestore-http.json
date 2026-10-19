@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "url": "https://jpop.today",
+  "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "target": "production",
+  "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+  "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+  "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+  "startedAt": "2026-10-19T06:14:15.420Z",
+  "checkedAt": "2026-10-19T06:14:18.229Z",
+  "durationMs": 2809,
+  "limits": {
+    "maxAttempts": 30,
+    "totalTimeoutMs": 60000,
+    "requestTimeoutMs": 8000,
+    "retryDelayMs": 2000,
+    "maxResponseBytes": 4194304
+  },
+  "attempts": [
+    {
+      "number": 1,
+      "startedAt": "2026-10-19T06:14:15.420Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "ab58d16d01c953a10b1c253d1a81c6099514ceccc2b1e4bd187dbfe1e9fc38f3",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1794209,
+          "sha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+          "passed": true,
+          "expectedSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 15870,
+          "sha256": "d8dd12e1938390ab865617249b3940dc92bacea3156da1862c6eb32e291283f9",
+          "passed": true,
+          "expectedSha256": "d8dd12e1938390ab865617249b3940dc92bacea3156da1862c6eb32e291283f9"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 5308,
+          "sha256": "242d42f6a86af83907d1fbc223591e8c140d762096078e2c725c0daadf49eca4",
+          "passed": true,
+          "expectedSha256": "242d42f6a86af83907d1fbc223591e8c140d762096078e2c725c0daadf49eca4"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 15879,
+          "sha256": "aa7479302e0ff86c3eb383a00f4ce23f2a3bb707fd5ea02f6162ceedd6bc14b1",
+          "passed": true,
+          "expectedSha256": "aa7479302e0ff86c3eb383a00f4ce23f2a3bb707fd5ea02f6162ceedd6bc14b1"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 8115,
+          "sha256": "672c82b91d0916f99c2b4922eb174bf0ce68253be46150d69f82e6594e282c3c",
+          "passed": true,
+          "expectedSha256": "672c82b91d0916f99c2b4922eb174bf0ce68253be46150d69f82e6594e282c3c"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2571,
+          "sha256": "face43a0cef9e19288dbd6284224dd53def26c83d9fc6632ba524152b4055adc",
+          "passed": true,
+          "expectedSha256": "face43a0cef9e19288dbd6284224dd53def26c83d9fc6632ba524152b4055adc"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3847,
+          "sha256": "e5615d3e13b5e4e605aa574a0cda1b20e77c7e0807b545e558159958f1345963",
+          "passed": true,
+          "expectedSha256": "e5615d3e13b5e4e605aa574a0cda1b20e77c7e0807b545e558159958f1345963"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 8498,
+          "sha256": "7deb1e0a7a854378987573933999470118269b49a555673c33511820a5f8f8a6",
+          "passed": true,
+          "expectedSha256": "7deb1e0a7a854378987573933999470118269b49a555673c33511820a5f8f8a6"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4041,
+          "sha256": "913d7d0132830b313423a5c5a80ad3ef76d748dea0bd80485e2a93df73cbda40",
+          "passed": true,
+          "expectedSha256": "913d7d0132830b313423a5c5a80ad3ef76d748dea0bd80485e2a93df73cbda40"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3026,
+          "sha256": "ab327fde6c0324924ba773fdaf5e098941f0004e9aba8f98949cdf481775b5d2",
+          "passed": true,
+          "expectedSha256": "e15944a9b3af1a0a402670a26f7ada5d0c7fc2efdbb6b160d21542a0927c149c",
+          "rawSha256": "ab327fde6c0324924ba773fdaf5e098941f0004e9aba8f98949cdf481775b5d2",
+          "normalizedSha256": "e15944a9b3af1a0a402670a26f7ada5d0c7fc2efdbb6b160d21542a0927c149c",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/privacy/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 5326,
+          "sha256": "450ef3c5a18b67594e35bb0c6e6e570fd0b14ad42b825a8933fc187191ff28a7",
+          "passed": true,
+          "expectedSha256": "8121dd0d24009e6651bcf3655a9b19dc16b391928ecb08af73471e0cae308e39",
+          "rawSha256": "450ef3c5a18b67594e35bb0c6e6e570fd0b14ad42b825a8933fc187191ff28a7",
+          "normalizedSha256": "8121dd0d24009e6651bcf3655a9b19dc16b391928ecb08af73471e0cae308e39",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/faq/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3314,
+          "sha256": "021e52c83def264ec276f53a44541fbc602731dc17cbc72176ec782dd0cb34db",
+          "passed": true,
+          "expectedSha256": "021e52c83def264ec276f53a44541fbc602731dc17cbc72176ec782dd0cb34db"
+        },
+        {
+          "path": "/coverage/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 77947,
+          "sha256": "5e781d1e242ec6b21d0c58ac72189c923ed60a230e322d0d4f27488698e6948f",
+          "passed": true,
+          "expectedSha256": "5e781d1e242ec6b21d0c58ac72189c923ed60a230e322d0d4f27488698e6948f"
+        },
+        {
+          "path": "/chart/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 218575,
+          "sha256": "ace0de9f2dac97b93ffc959946288e4314bd01b9fc41c771ea45e2d066d0a92e",
+          "passed": true,
+          "expectedSha256": "ace0de9f2dac97b93ffc959946288e4314bd01b9fc41c771ea45e2d066d0a92e"
+        },
+        {
+          "path": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 5549,
+          "sha256": "b9ce04341c0bf590b6d654a33dfe06db8f0daf67da377ac8fef7a4857c93312a",
+          "passed": true,
+          "expectedSha256": "79dbc8409bf086f0137aa7053a865703261bd836de45a0b63144a0df96222842",
+          "rawSha256": "b9ce04341c0bf590b6d654a33dfe06db8f0daf67da377ac8fef7a4857c93312a",
+          "normalizedSha256": "79dbc8409bf086f0137aa7053a865703261bd836de45a0b63144a0df96222842",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/songs/jpop-playlist-don-t-say-lazy-ca9960cc97/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 5275,
+          "sha256": "0876245247a71251d3b098d776607b85454db8a5ef7dc1c840a28f07a968646f",
+          "passed": true,
+          "expectedSha256": "074b9a482b0567737a0b41ea78129b28937291f9268071a95499af45f8981643",
+          "rawSha256": "0876245247a71251d3b098d776607b85454db8a5ef7dc1c840a28f07a968646f",
+          "normalizedSha256": "074b9a482b0567737a0b41ea78129b28937291f9268071a95499af45f8981643",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/artists/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 129609,
+          "sha256": "b55cdda2bd41b3d0fff9482eb0595eccb2ca17775f2a25ba9645c65fa9d98354",
+          "passed": true,
+          "expectedSha256": "b55cdda2bd41b3d0fff9482eb0595eccb2ca17775f2a25ba9645c65fa9d98354"
+        },
+        {
+          "path": "/guides/title-artist-variants/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 16834,
+          "sha256": "b06e48d303e7e95be9f7e3525ff706e067ef39abd43bada950c9a07f0dc8f754",
+          "passed": true,
+          "expectedSha256": "b06e48d303e7e95be9f7e3525ff706e067ef39abd43bada950c9a07f0dc8f754"
+        },
+        {
+          "path": "/_astro/Layout.CZDZ98xf.css",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 11051,
+          "sha256": "1b468eac975d14f4aaaffa80619e298000afa02b30103e52bffde64e5ffb0bd5",
+          "passed": true,
+          "expectedSha256": "1b468eac975d14f4aaaffa80619e298000afa02b30103e52bffde64e5ffb0bd5"
+        },
+        {
+          "path": "/_astro/Layout.astro_astro_type_script_index_0_lang.CZ1vzHwH.js",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 22193,
+          "sha256": "839f7a122cb5b897c937543ced77a65fd68723d018224a2b8bfb70e0318838a0",
+          "passed": true,
+          "expectedSha256": "839f7a122cb5b897c937543ced77a65fd68723d018224a2b8bfb70e0318838a0"
+        },
+        {
+          "path": "/data/staging/legacy-catalog.json",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/scripts/manage-production.py",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/reports/daily/healthcheck.json",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/not-found-healthcheck",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "ab58d16d01c953a10b1c253d1a81c6099514ceccc2b1e4bd187dbfe1e9fc38f3",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "code": null
+    }
+  ],
+  "passed": true,
+  "code": null,
+  "scope": "Observed HTTP origin and artifact byte consistency; separate CI/content/browser gates; no global CDN or AdSense approval claim"
+}

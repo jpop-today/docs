@@ -1,0 +1,16 @@
+{
+  "runId": 39207856597,
+  "jobId": 117914505381,
+  "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "conclusion": "success",
+  "selectedActualResultLines": [
+    {
+      "at": "2026-10-19T06:05:07.3500688Z",
+      "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 88aa4dd8323defb93c8da09cb9b5569473d922ca"
+    },
+    {
+      "at": "2026-10-19T06:06:59.9742408Z",
+      "result": "49 passed (1.5m)"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "runId": "manual-20261019-0933",
+  "reviewer": "/root/run41_app",
+  "recordedAt": "2026-10-19T06:22:06.448371+00:00",
+  "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "accepted": false,
+  "reviewedFiles": [
+    {
+      "file": "/workspace/jpoptoday/reports/daily/2026-10-19.json",
+      "sha256": "1fed1892ee143705b1aff3ab374b8681224e590d2eacfd1d015b0f55a4059852"
+    },
+    {
+      "file": "/workspace/jpoptoday/reports/runs/manual-20261019-0933-completed-daily.json",
+      "sha256": "1fed1892ee143705b1aff3ab374b8681224e590d2eacfd1d015b0f55a4059852"
+    },
+    {
+      "file": "/workspace/docs/operations/daily/2026-10-19.json",
+      "sha256": "1fed1892ee143705b1aff3ab374b8681224e590d2eacfd1d015b0f55a4059852"
+    },
+    {
+      "file": "/workspace/docs/operations/daily/2026-10-19.md",
+      "sha256": "425d8a7d66f27a4d48ef57488eb3de1688fc802bd93b0caa2d3c3a7a8f0321d4"
+    },
+    {
+      "file": "/workspace/docs/operations/releases/v0.4.7-20261019.md",
+      "sha256": "90752bd913de77766d650de0a79afbe21ae2d8dfc51f6cbfda1812bfa822f050"
+    },
+    {
+      "file": "/workspace/docs/operations/status.md",
+      "sha256": "1c93ffbb0c6deaa7efef421ebc27b880d9d6c45569299dcd70bd3a577c2ffbc3"
+    },
+    {
+      "file": "/workspace/docs/operations/roadmap.md",
+      "sha256": "8271befe15a5b1139de7cff7989cb1ef2cb0b355a651fea4458df929c580e5be"
+    },
+    {
+      "file": "/workspace/docs/operations/continuous-development.md",
+      "sha256": "5a0e6737c7a1fda60ec9988d333e7c1af6b3365f38ab0cc51adf0780fb6206cb"
+    },
+    {
+      "file": "/workspace/docs/operations/production-content-gate-v047-20261019.md",
+      "sha256": "754fa055b32a93fe14528b0f402fe1d8f179eadab02e9882ec83d59e25547c5d"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933.json",
+      "sha256": "4d74b1f3e896802ce199df0fd8723e40f1c399c25abe75850a4631af500cd0db"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-main-ci-logs.json",
+      "sha256": "28fe8bf470cb45e13f4462367450350a274daef493a5711c26c074332c241885"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-preview-logs.json",
+      "sha256": "44da927bec24b385506125e8266f32f6a3c7854074c5248ddf8b14353c6c4f72"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-production-logs.json",
+      "sha256": "07c1fab1af6fbb6b2fff417f2a8dee11a93597a4366ed9a077d8d512de4dfeb7"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-reproducibility.json",
+      "sha256": "f3550f6d63e3b04c814163b3c3a33a8cf755a3733fe5c15f3d917ac3c158dae6"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-recovery.json",
+      "sha256": "d44d016eeceb878f1c1479936aab14a5baf81edc288b3821dce7adcecca9cb73"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-rollback-http.json",
+      "sha256": "90b2885b13d104d1ec818ed1ebb5eac2f26eab4cff013c0d01788ab96a620221"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-restore-http.json",
+      "sha256": "d43ee01b099aa4a9c3cdb3acf5c1587b935a84a306360dc145a8a6631e158c70"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-postrestore-http.json",
+      "sha256": "5e2bd25b96d55821d82c582e8815dab54e7f1debecfdc141357b9c0b746d31d6"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-postrestore-site.json",
+      "sha256": "2bd734eae69f40a87454b26feaeb09b83aa2dcc92ef73b49f4f2632ff1c9f2a2"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-release.json",
+      "sha256": "d0c8b6ee02f2f90c32e570c0302354794d7189b04effaaa482748e463f080716"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-main-preservation.json",
+      "sha256": "e209456a8f518d9dd1fa588a6be32eb80b1f5da7aa5f9e89b24d393bc7fca19c"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-reviews.json",
+      "sha256": "949876f42db0ea888bbcced94047242f8869f137f9bbd0075ba2a15537dba8ad"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-after-usage-resume.json",
+      "sha256": "c743271197a7eac4be27927f2a12bf3d88394ab728624100c9c2d298662d3744"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-ui-evidence.json",
+      "sha256": "97bd7094451a4e2d9b23a581975c5b0540b50e4e06736d5d499d2a3e26e3676a"
+    }
+  ],
+  "checks": {
+    "threeCompletedReportJSONObjectsExactlyEqual": true,
+    "sameMAllRequiredReceipts": true,
+    "CI": "377/type26files0errors-warning-hints; sameM app49 and production-artifact49 read from allowlisted timestamped logs",
+    "remote": "preview49; production verify_only local49+actualorigin49. Both remote sequences precede recovery.",
+    "reproducibility": "Two clean local builds per target,3347files/3336HTML,0preview49production indexable; every byte and full file-set equal. Full CI archive/local comparison not performed.",
+    "actualRecovery": {
+      "oldHTTPChecks": 27,
+      "oldAttempts": 1,
+      "newHTTPChecks": 27,
+      "newAttempts": 2,
+      "firstNewFailure": "BODY_MISMATCH on /; metadata and catalog passed; actual006622... vs expectedd8dd...",
+      "postrestoreStrictChecks": 27,
+      "postrestoreStrictAttempts": 1,
+      "ordinaryURLs": 9,
+      "sourceBeforeAndAfter": "88aa4dd8323defb93c8da09cb9b5569473d922ca"
+    },
+    "release": {
+      "id": 416964550,
+      "version": "0.4.7",
+      "publishedAt": "2026-10-19T06:17:09Z",
+      "workflowRun": 39208859072,
+      "sameProductSha": true,
+      "draft": false,
+      "prerelease": false
+    },
+    "reportingState": "Product/runtime/Release complete; rootrun explicitly product_complete_report_handoff_pending. completedNotification remains pending, not sent. Source report merge and docs PR final receipts remain root work.",
+    "adsense": "preparing; actual account/application/approval unknown. ads.txt200/59bytes/1sellerformat row does not prove account match/rights/submission/approval. No publisher value read or retained.",
+    "scopeAndBindings": "Actual workflow deploy skipped for missing CF Actions bindings; managed deployment is separate. CF source metadata/dev/automaticfalse-none is preserved. No deployment automated-success inference.",
+    "originalReviewsAndRotation": "Original6peer 40/40/40 and supplemental2reviews preserved by exact hashes; tie-break rotation is not quality inferiority or physical deletion. No original score/rank overwritten."
+  },
+  "preservedReviewHashes": {
+    "reviews-app": "db6597b19787712ee448f300471615ff0d7b8372c6bd5b2ee838f6891596f8d7",
+    "reviews-evidence": "e76fcdefd4c66502de21ad66cbf0107acb5e103d6896c49954e3fd9c5ded7dbf",
+    "reviews-quality": "6df1be41bbec4fb6c6d6f7a6fdfc184e181456702b3552283a0f550e0e106f33",
+    "replacement-review-app": "9d9d42b8e5458658d94fd0f25c70db7133a6847ec6c5b65dbdcb7368aa10ea4a",
+    "replacement-review-evidence": "3c087913dc040561fea793272e45cb4b2a3f01677d76c872786c4083e8398ac9"
+  },
+  "relativeLinks": [
+    {
+      "file": "/workspace/docs/operations/daily/2026-10-19.md",
+      "relativeTargetsChecked": 4,
+      "missing": [],
+      "scope": "file targets only; remote URL HTTP and all fragment navigation not re-executed"
+    },
+    {
+      "file": "/workspace/docs/operations/releases/v0.4.7-20261019.md",
+      "relativeTargetsChecked": 5,
+      "missing": [],
+      "scope": "file targets only; remote URL HTTP and all fragment navigation not re-executed"
+    },
+    {
+      "file": "/workspace/docs/operations/status.md",
+      "relativeTargetsChecked": 86,
+      "missing": [],
+      "scope": "file targets only; remote URL HTTP and all fragment navigation not re-executed"
+    },
+    {
+      "file": "/workspace/docs/operations/roadmap.md",
+      "relativeTargetsChecked": 9,
+      "missing": [],
+      "scope": "file targets only; remote URL HTTP and all fragment navigation not re-executed"
+    },
+    {
+      "file": "/workspace/docs/operations/continuous-development.md",
+      "relativeTargetsChecked": 22,
+      "missing": [],
+      "scope": "file targets only; remote URL HTTP and all fragment navigation not re-executed"
+    },
+    {
+      "file": "/workspace/docs/operations/production-content-gate-v047-20261019.md",
+      "relativeTargetsChecked": 10,
+      "missing": [],
+      "scope": "file targets only; remote URL HTTP and all fragment navigation not re-executed"
+    }
+  ],
+  "findings": [
+    {
+      "id": "restore-attempt-count",
+      "status": "open",
+      "severity": "report-correction-required",
+      "files": [
+        "/workspace/docs/operations/daily/2026-10-19.md",
+        "/workspace/docs/operations/releases/v0.4.7-20261019.md",
+        "/workspace/docs/operations/status.md",
+        "/workspace/docs/operations/continuous-development.md",
+        "/workspace/docs/operations/production-content-gate-v047-20261019.md",
+        "/workspace/jpoptoday/reports/daily/2026-10-19.json",
+        "/workspace/jpoptoday/reports/runs/manual-20261019-0933-completed-daily.json",
+        "/workspace/docs/operations/daily/2026-10-19.json"
+      ],
+      "finding": "Actual restore attempt1 BODY_MISMATCH on / then attempt2 passed27checks, but narrative records newv04727/1. Report recovery.restoreAttempts is already2, creating an internal mismatch.",
+      "requiredChange": "State oldv04627/1→newv04727/2, preserve first BODY_MISMATCH, and keep subsequent postrestore strict27/1 separate. Do not rewrite raw receipts."
+    },
+    {
+      "id": "stale-candidate-state",
+      "status": "open",
+      "severity": "report-correction-required",
+      "files": [
+        "/workspace/docs/operations/runs/manual-20261019-0933.json"
+      ],
+      "finding": "productionCandidate.status still says remote verification and recovery pending while current production/recovery/release receipts prove completion. Candidate historical scope/time is not explicit.",
+      "requiredChange": "Mark candidate state as historical/superseded or point it to completed final production/recovery receipts; keep completed report/Discord pending distinct."
+    }
+  ],
+  "visualRead": {
+    "mode": "Read existing local PNGs with view_image; no browser/server execution",
+    "files": [
+      {
+        "file": "/workspace/docs/engineering/design/conflicted-numbers-20261019-0933/before-detail-mobile.png",
+        "sha256": "6331f98bb3a0d55672fae0c595a4dd8a739307488560a3d5991dd3e0b67e5346"
+      },
+      {
+        "file": "/workspace/docs/engineering/design/conflicted-numbers-20261019-0933/after-detail-mobile.png",
+        "sha256": "bf9b75863534595174abff2389fe0e19e7d61424940f8c7b4a62e8d48b8a7d6f"
+      },
+      {
+        "file": "/workspace/docs/engineering/design/conflicted-numbers-20261019-0933/after-search-mobile.png",
+        "sha256": "72fe9d50e3f9db70dc4a4b1f0d00ec0c15a305d5d9c1facce688d8363b32612f"
+      }
+    ],
+    "observed": "Before displayed Hump Back TJ52756/KY76548 buttons and current official labels. After has two explicit conflict/recheck states, no number buttons, retained historical title/artist/date/source links and corrected other-item wording. Search two original IDs both withhold provider cells; text wraps within360px without visible overlap; original gradient/palette retained. These are working preview screenshots, not new live/other-engine/OSclipboard tests."
+  },
+  "unchangedProductAndSourceReportBoundary": "Read-only current source HEAD78d368e291476c5bcb0b8118270f0f399816abbb differs from productM only in reports/daily/2026-10-19.json and reports/runs/manual-20261019-0933-completed-daily.json. Product files and original reviewed hashes were rechecked unchanged. This is an observed local report commit, not proof of report PR merge.",
+  "limits": [
+    "No fresh GitHub/Cloudflare HTTP/browser/test/CI/deploy was run by this reviewer. Existing actual receipts were read and cross-compared.",
+    "Remote49 occurred before rollback; after restore strict27 and9ordinaryURLs were read. No postrestore remote49/fullCDN/field performance/otherengine/OSclipboard permission/Google result claim.",
+    "Only this allowed final-review-app.json was written. Product,原6peer,supplementalreviews,otherfinaldocs and Git/package/workflows unchanged by reviewer."
+  ]
+}

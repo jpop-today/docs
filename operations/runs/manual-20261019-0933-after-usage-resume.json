@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-19T06:04:00.096133+00:00",
+  "environment": "revision614/current/running/unrestricted-enforced/CF bindings ready; values not retained",
+  "resumeReason": "explicit user resumes after actual automatic-approval usage-limit interruption; same run and original workers; no new independent team",
+  "repos": [
+    {
+      "name": "jpoptoday",
+      "head": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+      "branch": "main",
+      "dirtyPaths": [],
+      "remoteMain": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+      "openPRs": []
+    },
+    {
+      "name": "docs",
+      "head": "ea1b6cac498ada996b5ed6dc6a001d0270a37f98",
+      "branch": "codex/41-conflicted-number-controls",
+      "dirtyPaths": [
+        " M product/spec.md",
+        "?? content/conflicted-numbers-20261019-0933.md",
+        "?? engineering/conflicted-numbers-20261019-0933.md",
+        "?? engineering/conflicted-numbers-artifact-audit-20261019-0933.md",
+        "?? engineering/conflicted-numbers-quality-20261019-0933.md",
+        "?? engineering/design/conflicted-numbers-20261019-0933/",
+        "?? operations/production-content-gate-v047-20261019.md",
+        "?? operations/runs/manual-20261019-0933-baseline-browser.json",
+        "?? operations/runs/manual-20261019-0933-baseline-http.json",
+        "?? operations/runs/manual-20261019-0933-fixed-working-browser.json",
+        "?? operations/runs/manual-20261019-0933-frozen-inputs.json",
+        "?? operations/runs/manual-20261019-0933-head-ci.json",
+        "?? operations/runs/manual-20261019-0933-invalid-ci-lookup.json",
+        "?? operations/runs/manual-20261019-0933-local-checks.json",
+        "?? operations/runs/manual-20261019-0933-main-ci.json",
+        "?? operations/runs/manual-20261019-0933-main-preservation.json",
+        "?? operations/runs/manual-20261019-0933-precommit.json",
+        "?? operations/runs/manual-20261019-0933-preview-deployment.json",
+        "?? operations/runs/manual-20261019-0933-product-pr.json",
+        "?? operations/runs/manual-20261019-0933-replacement-review-app.json",
+        "?? operations/runs/manual-20261019-0933-replacement-review-evidence.json",
+        "?? operations/runs/manual-20261019-0933-reproducibility.json",
+        "?? operations/runs/manual-20261019-0933-reviews-app.json",
+        "?? operations/runs/manual-20261019-0933-reviews-evidence.json",
+        "?? operations/runs/manual-20261019-0933-reviews-quality.json",
+        "?? operations/runs/manual-20261019-0933-reviews.json",
+        "?? operations/runs/manual-20261019-0933-start-discord.json",
+        "?? operations/runs/manual-20261019-0933-start-dispatch.json",
+        "?? operations/runs/manual-20261019-0933-ui-evidence.json",
+        "?? operations/runs/manual-20261019-0933-working-browser.json",
+        "?? operations/runs/manual-20261019-0933.json"
+      ],
+      "remoteMain": "ea1b6cac498ada996b5ed6dc6a001d0270a37f98",
+      "openPRs": []
+    },
+    {
+      "name": ".github",
+      "head": "b7aad18fe2f793453b6505bb150f359d05ae3554",
+      "branch": "main",
+      "dirtyPaths": [],
+      "remoteMain": "b7aad18fe2f793453b6505bb150f359d05ae3554",
+      "openPRs": []
+    }
+  ],
+  "production": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "id": "bff966cf-c7af-41cf-b406-21cd007b28de",
+    "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "status": "success"
+  },
+  "activeActions": []
+}

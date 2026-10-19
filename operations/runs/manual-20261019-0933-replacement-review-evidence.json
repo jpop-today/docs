@@ -1,0 +1,71 @@
+{
+  "runId": "manual-20261019-0933",
+  "reviewer": "/root/run41_evidence",
+  "subject": "/root/run41_replacement",
+  "readAt": "2026-10-19T00:55:31Z",
+  "mode": "read-only-artifact-review",
+  "sourceBase": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+  "docsBase": "ea1b6cac498ada996b5ed6dc6a001d0270a37f98",
+  "reviewedFiles": [
+    { "path": "jpoptoday/tests/conflict-artifact.test.mjs", "sha256": "e71a450a5457f71e3d567fe63e590fc7b663273f58d37459b57463f534ef4e8f", "owner": "/root/run41_replacement" },
+    { "path": "docs/engineering/conflicted-numbers-artifact-audit-20261019-0933.md", "sha256": "a3726883790e800b56fff3d9a0f06273396bcf04562e3766a48d36143fb03a27", "owner": "/root/run41_replacement" },
+    { "path": "jpoptoday/scripts/verify-dist.mjs", "sha256": "5b2c3e20ae1426f457a69e8b4b3df44febe63a26fe9e758005e29f99b44054ce", "owner": "/root", "scope": "새 verifyDetailNumbers와 실제 verifyHtml 연결·기존 검증 diff를 읽었다. root 수정의 기여를 replacement에 전가하지 않는다." }
+  ],
+  "criteria": {
+    "accuracy": {
+      "score": 5,
+      "reason": "합성 HTML의 허용/거부 기대는 앱 predicate·renderer·formatter 호출로 산출하지 않는다. 교체 담당은 boolean/empty data-copy, unknown 단독 숫자, button→span 등 실제 우회를 반례로 만들었고, 최종 검증기는 업체 제목·두 section·현재 표시/역사 근거 경계와 정확한 문자열/button/payload를 검사한다. 선행0·업체 혼합·과거 번호/날짜의 보존과 unknown≠미수록을 함께 보호한다.",
+      "evidence": [
+        { "path": "jpoptoday/tests/conflict-artifact.test.mjs", "sha256": "e71a450a5457f71e3d567fe63e590fc7b663273f58d37459b57463f534ef4e8f" },
+        { "path": "jpoptoday/scripts/verify-dist.mjs", "sha256": "5b2c3e20ae1426f457a69e8b4b3df44febe63a26fe9e758005e29f99b44054ce" }
+      ]
+    },
+    "evidence": {
+      "score": 5,
+      "reason": "감사문서가 첫 sandbox tests1 실패와 실제 반례 tests44/pass37/fail7을 구분하고 후자는 leaf4+부모3임을 명시한다. 최초 테스트/검증기 hash와 수정 전 우회를 보존했다. 최종45/45 직접 실행 로그, root 전체377/377·artifact 성공 로그와49 browser 성공 영수증을 이 리뷰에서 실제 읽었다. working dirty build를 clean commit CI/preview/운영 성공으로 확대하지 않는다.",
+      "evidence": [
+        { "path": "docs/engineering/conflicted-numbers-artifact-audit-20261019-0933.md", "sha256": "a3726883790e800b56fff3d9a0f06273396bcf04562e3766a48d36143fb03a27" },
+        { "path": "/tmp/jpop41-artifact-negative-fixed.log", "sha256": "3e9482e91b07a43a3b903e815332d374c488ec5a98332f4c94a49161e19920fb" },
+        { "path": "docs/operations/runs/manual-20261019-0933-precommit.json", "sha256": "f79cea9c1c915f9935262bfef6838f6ec43743c8d718d784c32a2084c944bd41" }
+      ]
+    },
+    "userValue": {
+      "score": 5,
+      "reason": "충돌 안내만 넣고 복사 동작을 남기는 변경, unknown 업체에 다시 숫자를 넣는 변경, 정상 복사를 키보드 버튼이 아닌 span으로 바꾸는 변경을 실제 배포 artifact 게이트가 거부하도록 한다. 역사 근거의 번호나 설명의2단계/날짜는 허용해 근거 보존과 사용자 안내를 훼손하지 않는다. 기존 E2E49는 별도 실제 렌더·동작 검증이며 이 합성 회귀로 대체하지 않는다.",
+      "evidence": [
+        { "path": "jpoptoday/tests/conflict-artifact.test.mjs", "sha256": "e71a450a5457f71e3d567fe63e590fc7b663273f58d37459b57463f534ef4e8f" },
+        { "path": "docs/operations/runs/manual-20261019-0933-fixed-working-browser.json", "sha256": "a13c5abceed0f69c8439bafea9013baefcc06cdf7a02e475d6d5f27721a88739" }
+      ]
+    },
+    "maintainability": {
+      "score": 5,
+      "reason": "새 테스트는 서버·브라우저·provider 요청 없이 exported 검증 경계를 호출하며, 명시된 합성 fixtures와 표 형식 반례가 어떤 계약을 보호하는지 드러낸다. root가 공유 검증기를 수정하고 교체 담당이 반례/감사를 소유하는 범위를 지켰다. fixed Astro 구조에 한정된 정적 검사라는 한계와 같은SHA 후속 게이트를 문서로 분명히 남긴다. 처음6peer/동률/기존 담당의 기록을 덮지 않는다.",
+      "evidence": [
+        { "path": "jpoptoday/tests/conflict-artifact.test.mjs", "sha256": "e71a450a5457f71e3d567fe63e590fc7b663273f58d37459b57463f534ef4e8f" },
+        { "path": "docs/engineering/conflicted-numbers-artifact-audit-20261019-0933.md", "sha256": "a3726883790e800b56fff3d9a0f06273396bcf04562e3766a48d36143fb03a27" }
+      ]
+    }
+  },
+  "total": 20,
+  "acceptance": [
+    { "criterion": "실제 네 우회에 대한 독립 부정 회귀와 자연문 숫자 오탐 방지", "status": "수용", "reason": "최종45개 전체 코드와 실제45/45 로그를 읽었다. 첫4leaf 실패는 감사문서에 보존됐다." },
+    { "criterion": "working 전체 unit/artifact/browser 및 보존 입력", "status": "읽은 범위에서 수용", "reason": "root377/377, preview3347파일/3336HTML·0index·dirty 및49browser를 읽었다. 원자료5hash와 source/target 범위는 precommit에 명시돼 있다." },
+    { "criterion": "clean 동일SHA CI/각target 재현/preview·실제 복구·운영/Release", "status": "보류", "reason": "이 평가 시점에 이 단계의 성공 증거를 읽지 않았다. working-tree 통과를 운영 배포 승인으로 간주하지 않는다." }
+  ],
+  "blockingFindings": [],
+  "optionalFindings": [],
+  "limits": [
+    "verifyDetailNumbers는 현재 Astro의 detail-numbers 두section과 verification-note 순서를 검사하는 한정된 정적 검증기다. 임의 HTML을 위한 완전한 DOM/보안 파서가 아니다. 임의 구조의 모든 우회 차단을 주장하지 않는다.",
+    "최초44/37/7 raw 실행 로그는 이 리뷰에서 직접 읽지 않았다. 그 수치·당시hash/4leaf 분리는 실제 감사문서와 root 인계를 읽은 근거다. 최종45/45와377/377·artifact·49browser는 실제 현재 로그/영수증을 직접 읽었다.",
+    "이 리뷰어는 root가 시각 검토했다는 precommit 기록을 읽었으나 이번 후속 평가에서 PNG를 직접 열거나 브라우저를 실행하지 않았다. OS clipboard·다른 브라우저 엔진·실제 Google 신청/심사를 확인한 것이 아니다."
+  ],
+  "readValidationEvidence": [
+    { "path": "/tmp/jpop41-artifact-negative-fixed.log", "sha256": "3e9482e91b07a43a3b903e815332d374c488ec5a98332f4c94a49161e19920fb", "observed": "tests45/pass45/fail0/cancelled0/skipped0/todo0" },
+    { "path": "/tmp/jpop41-precommit-unit.log", "sha256": "baf79386d5a3bbaba251ad0dc07ad56ab76da5795e89e6f745ba2366aa9a0d2a", "observed": "pass377/fail0/cancelled0/skipped0/todo0" },
+    { "path": "/tmp/jpop41-precommit-artifact.log", "sha256": "14aedbe536daffc56954278331d205014fc310fda9d6348f5c9985b37951c499", "observed": "preview3317정적곡/3336HTML/0index/3347files/source base dirty local build" },
+    { "path": "/tmp/jpop41-fixed-working-browser.log", "sha256": "0401dc366a7b22cf5ba0a2274316066b2acd9623132fdf99e814f45675c506d2", "observed": "49 passed (2.0m)" },
+    { "path": "docs/operations/runs/manual-20261019-0933-fixed-working-browser.json", "sha256": "a13c5abceed0f69c8439bafea9013baefcc06cdf7a02e475d6d5f27721a88739", "observed": "artifact0/browser0, source1fd6...dirty=true, targetpreview" },
+    { "path": "docs/operations/runs/manual-20261019-0933-precommit.json", "sha256": "f79cea9c1c915f9935262bfef6838f6ec43743c8d718d784c32a2084c944bd41", "observed": "unit377/377; artifact3347/3336/0index; browser49; frozen5hash" }
+  ],
+  "executionBoundary": "후속3개 파일·diff·로그/영수증을 읽고 허용된 이 새 리뷰 JSON만 작성했다. 원문 가이드·이전 리뷰·다른 담당 파일과 Git/package/lockfile/CI/서버/브라우저/배포는 수정·실행하지 않았다. /tmp 읽기 탐색에서 codex-daemon-1000 디렉터리는 Permission denied였으며 관련 명시 로그 파일의 읽기는 성공했다. 최초 세 담당의40/40/40은 동률이며 교체를 품질 열등/물리삭제로 표현하지 않는다. 이 후속20점은 새 산출물의 근거 평가이며 원점수·순위나 배포 승인을 덮어쓰지 않는다."
+}
