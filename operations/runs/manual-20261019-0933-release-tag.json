@@ -1,0 +1,9 @@
+{
+  "pushedAt": "2026-10-19T06:15:22.103875+00:00",
+  "tag": "v0.4.7",
+  "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "annotatedObject": "51ae7eb1bf89ae89979621b80b678e824de44837",
+  "productionDeployment": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+  "gates": "sameM CI/preview/production, actual recovery and postrestore probes success",
+  "releaseWorkflow": "pending separate lookup; tag is not published-release proof"
+}

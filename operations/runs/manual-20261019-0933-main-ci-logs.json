@@ -1,0 +1,64 @@
+{
+  "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "runId": 39183167199,
+  "conclusion": "success",
+  "scope": "Connected GitHub job logs; only allowlisted timestamped actual result lines retained; initial gh log client failure preserved separately",
+  "jobs": [
+    {
+      "id": 117840049423,
+      "name": "app",
+      "selectedActualResultLines": [
+        {
+          "at": "2026-10-19T00:58:43.2795376Z",
+          "result": "ℹ tests 377"
+        },
+        {
+          "at": "2026-10-19T00:58:43.2795913Z",
+          "result": "ℹ pass 377"
+        },
+        {
+          "at": "2026-10-19T00:58:43.2796164Z",
+          "result": "ℹ fail 0"
+        },
+        {
+          "at": "2026-10-19T00:58:48.8097683Z",
+          "result": "Result (26 files):"
+        },
+        {
+          "at": "2026-10-19T00:58:48.8098011Z",
+          "result": "- 0 errors"
+        },
+        {
+          "at": "2026-10-19T00:58:48.8098225Z",
+          "result": "- 0 warnings"
+        },
+        {
+          "at": "2026-10-19T00:58:48.8098400Z",
+          "result": "- 0 hints"
+        },
+        {
+          "at": "2026-10-19T00:58:53.8421754Z",
+          "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 88aa4dd8323defb93c8da09cb9b5569473d922ca"
+        },
+        {
+          "at": "2026-10-19T01:00:15.3227536Z",
+          "result": "49 passed (57.4s)"
+        }
+      ]
+    },
+    {
+      "id": 117840049568,
+      "name": "production-artifact",
+      "selectedActualResultLines": [
+        {
+          "at": "2026-10-19T00:58:46.7911546Z",
+          "result": "Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (49 indexable), 3347 files; source 88aa4dd8323defb93c8da09cb9b5569473d922ca"
+        },
+        {
+          "at": "2026-10-19T01:00:19.0240687Z",
+          "result": "49 passed (1.2m)"
+        }
+      ]
+    }
+  ]
+}

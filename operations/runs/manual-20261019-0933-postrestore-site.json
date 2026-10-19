@@ -1,0 +1,92 @@
+{
+  "startedAt": "2026-10-19T06:14:18.319Z",
+  "scope": "Actual ordinary origin URLs after recovery. Static bodies and source identity; full remote49 occurred before rollback, not repeated after it.",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "d8dd12e1938390ab865617249b3940dc92bacea3156da1862c6eb32e291283f9"
+    },
+    {
+      "route": "/search/?q=Hump%20Back",
+      "status": 200,
+      "sha256": "aa7479302e0ff86c3eb383a00f4ce23f2a3bb707fd5ea02f6162ceedd6bc14b1"
+    },
+    {
+      "route": "/favorites/",
+      "status": 200,
+      "sha256": "672c82b91d0916f99c2b4922eb174bf0ce68253be46150d69f82e6594e282c3c"
+    },
+    {
+      "route": "/guides/tj-ky-numbers/",
+      "status": 200,
+      "sha256": "7deb1e0a7a854378987573933999470118269b49a555673c33511820a5f8f8a6"
+    },
+    {
+      "route": "/chart/",
+      "status": 200,
+      "sha256": "ace0de9f2dac97b93ffc959946288e4314bd01b9fc41c771ea45e2d066d0a92e"
+    },
+    {
+      "route": "/songs/hump-back-%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88-%E3%83%98-%E3%83%8D%E3%83%83%E3%82%BB-%E9%80%B2%E7%A0%94%E3%82%BB-%E3%83%9F-%E9%AB%98%E6%A0%A1%E8%AC%9B%E5%BA%A7-cm/",
+      "status": 200,
+      "conflictProviders": 2,
+      "withheldControls": true,
+      "preservedEvidence": true
+    },
+    {
+      "route": "/songs/jpop-playlist-hump-back-%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88-29d81a757e/",
+      "status": 200,
+      "conflictProviders": 2,
+      "withheldControls": true,
+      "preservedEvidence": true
+    },
+    {
+      "route": "/songs/jpop-playlist-%E6%A4%8E%E5%90%8D%E6%9E%97%E6%AA%8E-%E4%B8%B8%E3%83%8E%E5%86%85%E3%82%B5%E3%83%86-%E3%82%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-da51e27aca/",
+      "status": 200,
+      "conflictProviders": 2,
+      "withheldControls": true,
+      "preservedEvidence": true
+    },
+    {
+      "route": "/songs/%E6%A4%8E%E5%90%8D%E6%9E%97%E6%AA%8E-%E4%B8%B8%E3%81%AE%E5%86%85%E3%82%B5%E3%83%86-%E3%82%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/",
+      "status": 200,
+      "conflictProviders": 2,
+      "withheldControls": true,
+      "preservedEvidence": true
+    }
+  ],
+  "before": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+    "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "adsTxt": {
+    "status": 200,
+    "bytes": 59,
+    "googleSellerRows": 1,
+    "accountMatch": "unknown; publisher value not retained",
+    "scope": "Current client observation; non200 does not establish origin-side cause or Google crawler access"
+  },
+  "after": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+    "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "success": true,
+  "finishedAt": "2026-10-19T06:14:19.699Z"
+}

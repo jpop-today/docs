@@ -1,5 +1,17 @@
 # 실행 상태
 
+최신 제품 완료: v0.4.7 / 제품·태그 M `88aa4dd8323defb93c8da09cb9b5569473d922ca` / todayjpop·jpop.today `3ad0bb17-2331-4192-b02a-23645ff5e02b`. 충돌4개ID/8업체의 번호 표시·개별 복사·잘못된 공식 상태를 세 생성 지점에서 보류하고 TJ/금영 가이드의 기존 Hump Back 조회 근거와 현재 보류를 연결했다. raw/ledger84·3317ID·카탈로그 bytes·기존URL/storage·원래 gradient/palette는 보존했다. 새 조회/권리/Google 결과는 만들지 않았다.
+
+canonical377/type0·같은 M CI49+49·실제 preview49/운영49·각target3347파일/3336HTML 전체2회 재현(0/49index)·실제oldv04627/1→newv04727/2(첫 / BODY_MISMATCH 뒤 재시도 통과) 복구/재적용을 확인했다. 이후 strict27/1과 일반 URL/충돌상세9개에서 전후M과 실제 보류를 확인했다. 원격49는 복구 시험 전이며 복구 뒤 전체49를 다시 실행한 것은 아니다. 전체CI ZIP과 모든 로컬 bytes 비교·다른엔진·OSclipboard실제허가·필드성능·전체CDN 동시전환은 검증하지 않았다.
+
+초기3담당의 실제6peer/hash대조/evaluateTeam은40/40/40동률이다. 사전quality/evidence/app 순서로 품질active를 제외하고 실제interrupt(이미completed) 후 신규교체1을 영입했다. 물리삭제나 품질열등을 주장하지 않는다. 최초artifact번호요구 실패와 교체의 실제우회4개(44노드37pass/7fail=leaf4+parent3)를 보존하고 root보완 후45pass를 확인했으며 다른두담당이 후속20/20으로 수용했다. 사용량 자동승인검토중단과06:04UTC 환경614/API/Git재확인·같은run 재개, 즉시dispatch목록empty뒤중복호출없이재조회 성공, gh로그읽기실패→연결GitHub읽기성공도 구분한다.
+
+실제Actions CFbinding missing/deployskip과 관리자managed배포/verify_only를 구분한다. 개인Git source/dev metadata·자동false/none·도메인/이력을 보존했다. 실제두예약peek enabled·기존Asia/Seoul09시/hourly일정은불변이며 nextRun null을 성공보장으로 쓰지 않는다. AdSense preparing, 실제계정/신청/승인은unknown이다. 운영자의권리·문의실수신·ads.txt실계정일치·본인정보/약관/법적동의가남았다. 현재Node ads.txt200/59bytes/Google판매자형식1행이며값은보존하지않았다. 앞선urllib403은클라이언트관측으로원인/Google봇차단을확정하지않는다.
+
+[실행](runs/manual-20261019-0933.json) · [릴리스](releases/v0.4.7-20261019.md) · [정책게이트](production-content-gate-v047-20261019.md) · [19일보](daily/2026-10-19.json). 보고R/Discord마감은 최종인계 영수증을 따른다.
+
+## 직전 v0.4.6 완료 이력
+
 최신 제품 완료: **v0.4.6 / M `110c583ec3460b4ca5e3b153deef7278d856f8a3` / todayjpop·jpop.today `bff966cf-c7af-41cf-b406-21cd007b28de`**. 즐겨찾기 복사 목록의 업체별 상태·충돌/제외번호 비노출·가이드 해당절을 반영했다. canonical332/type0·같은M CI44+44/actualpreview44/운영44·각target3347전체재현·실제oldv04527→newv04627복구와Release를 확인했다. [실행](runs/resume-20261018-0700.json)·[릴리스](releases/v0.4.6-20261018.md)·[정책게이트](production-content-gate-v046-20261018.md)를 따른다. 초기42/2·usage/tmp소실과 실제6평가40/40/38·품질교체1/같은ID재개·원문보존을 구분한다. 새공식조회없음·ledger84/3317ID/동결자료/번호string/URL/storage/브랜드유지. 보고/송신 마감은 바로 아래 영수증을 따르며 AdSense preparing·실제계정/신청/승인은unknown이다.
 
 최종 전달: 문서 PR22/main f1719d3·보고 PR40/main R `1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951`를 병합했고 보고 push/PR4개+main app/contracts2개가 모두 success다. R과 제품/tag/운영 M은 reports JSON 세 파일만 다르며 재배포하지 않았다. 관리자 완료 Discord 39093771695/job117575822535은 2026-10-18 12:29:06 KST actual sent1attempt다. [완료 전달](runs/resume-20261018-0700-completed-handoff.json)·[송신](runs/resume-20261018-0700-completed-discord.json)·[보고 CI](runs/resume-20261018-0700-report-ci.json)·[최종 API](runs/resume-20261018-0700-final-production-api.json)·[최종 엄격27/1](runs/resume-20261018-0700-final-production-http.json)을 따른다. 운영자의 계정/권리/문의/ads.txt 확인과 실제 Google 결과는 별도이며 Issue6/9/15는 계속 추적한다.

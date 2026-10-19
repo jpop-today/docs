@@ -1,0 +1,13 @@
+{
+  "requestedAt": "2026-10-19T06:04:45.927197+00:00",
+  "workflow": "deployed-preview.yml",
+  "ref": "main",
+  "inputs": {
+    "source_sha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "deployment_url": "https://877eae49.jpoptoday-preview.pages.dev"
+  },
+  "accepted": true,
+  "result": "pending; request acceptance is not verification success",
+  "runId": 39207856597,
+  "initialLookup": "Immediate list empty after accepted dispatch; no redispatch; subsequent lookup found unique run"
+}

@@ -133,3 +133,13 @@ FAVORITES-001/DATA-001/CONTENT-001: 번호 목록 복사는 현재 검색·필�
 순수 browser-safe formatter와 실제 clipboard 성공/거부 후 수동선택·빈목록·필터/전체내보내기·키보드/360px·JavaScript 없는 안내를 검증한다. 기존 저장원문/미해결ID·선행0·URL/storage를 보존하고 자동등록 백업으로 설명하지 않는다. 즐겨찾기 안내와 기존 선곡가이드의 해당 절만 새 동작에 맞추며 다른5글은 보존한다. ledger84·동결자료/3317ID·브랜드 palette·unknown 구분을 유지한다. preview전체noindex/무광고·같은SHA CI/preview·두target재현·실제복구와 운영검증 후에만 릴리스한다. Google 계정·신청/승인은 별도 미확인이다.
 
 최초 전체44브라우저의42통과/2실패는 noscript 부모의 텍스트 추출과 기존 가이드 날짜 고정에서 발생했다. root는 `e2e/title-artist-guide.spec.ts`만 추가 소유해 의도적으로 편집한 setlist의 실제18일 본문일자와 새 상태 설명을 별도 요구하고, 나머지 네 초기 가이드의14일·기존 비교글의 역사적 근거 검사를 유지한다. 다른5글 전체객체/일자는 자료담당의 base바이트/객체 비교로 보존한다. noscript 검사는 실제 JS-off 자식본문/가시성을 확인한 뒤 그 자식을 검사하며 원문의 안내나 비활성 요구를 없애지 않는다. 첫 실패는 별도 영수증으로 보존한다.
+
+## 충돌 번호의 화면·개별 복사 보류 · Issue41 (2026-10-19)
+
+DATA-001/SONG-001/FAVORITES-001/CONTENT-001/DESIGN-001: 공식 확인 문구는 기존 엄격 `hasConfirmedNumber` 판정을 따른다. 업체의 `conflict=true`이면 정적 목록·동적 검색/즐겨찾기·곡 상세 모두 해당 번호 표시와 개별 복사를 보류하고, 색상 외 텍스트로 번호 충돌·재확인 필요를 안내한다. 보류는 미수록 확인을 뜻하지 않는다. 기존 raw·ledger84·공식 대조 이력/실제 확인일·3317 ID·URL/localStorage는 보존한다. 충돌 없는 공식 확인·관측 번호의 복사와 업체별 혼합 상태는 유지한다.
+
+기존 TJ/금영 이용 가이드의 관련 설명만 실제 기존 사례와 함께 보강한다. 편집일과 번호 조회일을 구분하고 다른5가이드·출처 시각·권리/심사 상태를 만들지 않는다. 실제 충돌 자료의 업체별 부정 UI/복사 검사, 정상·관측·혼합·unknown/suppress 대조, storage 원문·360px/키보드/JS-off·브랜드·preview noindex/무광고 및 동일 SHA CI/실제 복구/운영을 수용한다.
+
+root 추가 소유는 기존 `e2e/title-artist-guide.spec.ts`의 TJ/금영 가이드 실제19일 편집과 다른3글14일·setlist18일 보존 검사, `e2e/app.spec.ts`의 기존 공식 확인 positive fixture 선택이다. ledger 첫 confirm이 실제 conflict일 수 있으므로 current/playlist/nonconflict인 대조를 고르며 기존 suppression·공식 근거·저장·복사 검사를 유지한다. 신규 품질 담당의 전체 conflict4ID/8업체 부정검사는 별도로 유지한다.
+
+첫 통합 artifact 검사가 충돌 번호의 본문 노출을 요구해 실패한 기록은 보존한다. 총관리자 추가 범위 `scripts/verify-dist.mjs`는 업체별 표시 영역과 역사 근거를 나누어 충돌의 번호·복사·공식 상태 재노출을 거부하고 정상 번호·복사 검사를 유지한다. 교체 담당의 독립 `tests/conflict-artifact.test.mjs`는 혼합 업체·선행0·역사 링크 보존과 부정 변형을 검증한다.

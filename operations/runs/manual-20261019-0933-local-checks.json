@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-19T00:45:12.855728+00:00",
+  "scope": "working source tree before product commit",
+  "unit": {
+    "result": "332/332",
+    "selected": [
+      "ℹ tests 332",
+      "ℹ pass 332",
+      "ℹ fail 0"
+    ]
+  },
+  "types": {
+    "files": 26,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0,
+    "selected": [
+      "Result (26 files): ",
+      "- 0 errors",
+      "- 0 warnings",
+      "- 0 hints"
+    ]
+  },
+  "notClaimed": "clean H/M CI, preview, production or new Google review"
+}

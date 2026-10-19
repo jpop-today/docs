@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-19T00:44:32.294354+00:00",
+  "run": 39181954016,
+  "job": 117836398514,
+  "state": "sent",
+  "sourceSha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+  "sentAt": "2026-10-19T00:42:13.5940770Z",
+  "safeResults": [
+    "2026-10-19T00:42:13.3021550Z Report prepared: message (2026-10-19); delivery not yet confirmed.",
+    "2026-10-19T00:42:13.5940770Z Discord notification sent (1 attempt)."
+  ],
+  "scope": "one explicit manager start report; same message as chat; secret-bearing existing workflow only"
+}

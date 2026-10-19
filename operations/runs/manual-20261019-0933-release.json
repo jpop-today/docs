@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-19T06:18:15.519318+00:00",
+  "version": "0.4.7",
+  "tag": "v0.4.7",
+  "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "annotatedObject": "51ae7eb1bf89ae89979621b80b678e824de44837",
+  "releaseId": 416964550,
+  "publishedAt": "2026-10-19T06:17:09Z",
+  "draft": false,
+  "prerelease": false,
+  "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.7",
+  "workflowRun": 39208859072,
+  "workflowConclusion": "success"
+}

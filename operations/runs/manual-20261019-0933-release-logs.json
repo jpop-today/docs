@@ -1,0 +1,60 @@
+{
+  "runId": 39208859072,
+  "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "jobs": [
+    {
+      "id": 117917539363,
+      "name": "verify",
+      "conclusion": "success",
+      "selectedActualResultLines": [
+        {
+          "at": "2026-10-19T06:15:39.3907608Z",
+          "result": "ℹ tests 377"
+        },
+        {
+          "at": "2026-10-19T06:15:39.3908216Z",
+          "result": "ℹ pass 377"
+        },
+        {
+          "at": "2026-10-19T06:15:39.3908473Z",
+          "result": "ℹ fail 0"
+        },
+        {
+          "at": "2026-10-19T06:15:43.9169646Z",
+          "result": "Result (26 files):"
+        },
+        {
+          "at": "2026-10-19T06:15:43.9169960Z",
+          "result": "- 0 errors"
+        },
+        {
+          "at": "2026-10-19T06:15:43.9170273Z",
+          "result": "- 0 warnings"
+        },
+        {
+          "at": "2026-10-19T06:15:43.9170671Z",
+          "result": "- 0 hints"
+        },
+        {
+          "at": "2026-10-19T06:15:48.7350500Z",
+          "result": "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 88aa4dd8323defb93c8da09cb9b5569473d922ca"
+        },
+        {
+          "at": "2026-10-19T06:16:59.0093687Z",
+          "result": "49 passed (51.4s)"
+        }
+      ]
+    },
+    {
+      "id": 117918031534,
+      "name": "publish",
+      "conclusion": "success",
+      "selectedActualResultLines": [
+        {
+          "at": "2026-10-19T06:17:10.2851486Z",
+          "result": "Discord notification sent (1 attempt)."
+        }
+      ]
+    }
+  ]
+}

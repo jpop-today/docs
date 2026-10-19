@@ -1,0 +1,232 @@
+{
+  "runId": "manual-20261019-0933",
+  "trigger": "explicit user resume and execute now",
+  "startedAt": "2026-10-19T00:33:15Z",
+  "state": "product_complete_report_handoff_pending",
+  "issue": 41,
+  "sourceBase": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+  "docsBase": "ea1b6cac498ada996b5ed6dc6a001d0270a37f98",
+  "orgBase": "b7aad18fe2f793453b6505bb150f359d05ae3554",
+  "branch": "codex/41-conflicted-number-controls",
+  "environment": {
+    "revision": 570,
+    "observationsCurrent": true,
+    "phase": "running",
+    "network": "unrestricted/enforced",
+    "cloudflareBindings": "ready; values not retained"
+  },
+  "baseline": {
+    "productSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+    "deployment": "bff966cf-c7af-41cf-b406-21cd007b28de",
+    "actualHTTP": "manual-20261019-0933-baseline-http.json",
+    "initialDirty": false,
+    "openPRs": 0,
+    "activeActions": 0,
+    "collaborationObserved": "root only; no global cross-chat absence assertion"
+  },
+  "scope": "withhold conflicted numbers and false official copy labels on static/dynamic rows and details; preserve all raw inputs and source evidence",
+  "tieBreakOrder": [
+    "quality",
+    "evidence",
+    "app"
+  ],
+  "roster": [
+    {
+      "id": "/root/run41_evidence",
+      "role": "자료·콘텐츠",
+      "files": [
+        "src/content/guides.ts:tj-ky-numbers",
+        "docs/content/conflicted-numbers-20261019-0933.md"
+      ]
+    },
+    {
+      "id": "/root/run41_app",
+      "role": "앱·디자인",
+      "files": [
+        "src/components/SongRow.astro",
+        "src/pages/songs/[id].astro",
+        "src/scripts/app.ts:renderRow+imports",
+        "docs/engineering/conflicted-numbers-20261019-0933.md"
+      ]
+    },
+    {
+      "id": "/root/run41_quality",
+      "role": "하네스·품질",
+      "files": [
+        "e2e/conflicted-numbers.spec.ts",
+        "tests/conflicted-number-policy.test.mjs if independently meaningful",
+        "docs/engineering/conflicted-numbers-quality-20261019-0933.md"
+      ]
+    }
+  ],
+  "automation": {
+    "hourly": "6acf109ec1808191b09a2414e2de80af",
+    "daily": "6acdccd99030819180ea1c9d907d9f55",
+    "enabled": true,
+    "cadenceChanged": false,
+    "extraRunNowDispatched": false
+  },
+  "initialFailures": [
+    {
+      "step": "npm preview default sandbox",
+      "result": "Astro telemetry could not create config under /home/agent; no HOME override; retried with ASTRO_TELEMETRY_DISABLED=1"
+    },
+    {
+      "step": "preview and Chromium default sandbox",
+      "result": "preview exited; Chromium crashpad setsockopt EPERM; ordinary localhost/browser retry requests network permission; not counted as rendered baseline success"
+    },
+    {
+      "step": "root local listener diagnostic",
+      "result": "ss without extra network permission: netlink EPERM; no absence inference or global process kill"
+    },
+    {
+      "step": "gh main job log read",
+      "result": "exit1; raw output suppressed; cause not classified; connected purpose-built GitHub log read succeeded"
+    }
+  ],
+  "adsense": {
+    "technical": "preparing",
+    "account": "unknown",
+    "application": "unknown",
+    "approval": "unknown"
+  },
+  "scopeObservedByQuality": {
+    "conflictSongIDs": 4,
+    "providerCells": 8,
+    "cases": "Hump Back and 椎名林檎 each keep separate playlist/chart IDs; no merging"
+  },
+  "rootAdditionalFiles": [
+    "e2e/title-artist-guide.spec.ts: intentional tj-ky19 vs unaffected14/setlist18 dates",
+    "e2e/app.spec.ts: nonconflict positive confirm control; suppression/evidence/storage assertions preserved",
+    "scripts/verify-dist.mjs: provider-scoped conflict withholding and normal-number artifact gate"
+  ],
+  "rotation": {
+    "at": "2026-10-19T00:50:49.473647+00:00",
+    "reviews": "manual-20261019-0933-reviews.json",
+    "allTotals": 40,
+    "selected": "/root/run41_quality",
+    "tieBreak": "predeclared quality,evidence,app; no inferred quality difference",
+    "interruptPreviousStatus": "completed",
+    "physicalDeletion": false,
+    "replacement": "/root/run41_replacement",
+    "replacementFiles": [
+      "tests/conflict-artifact.test.mjs",
+      "docs/engineering/conflicted-numbers-artifact-audit-20261019-0933.md"
+    ],
+    "activeRoster": [
+      "/root/run41_evidence",
+      "/root/run41_app",
+      "/root/run41_replacement"
+    ],
+    "supplementalReviews": [
+      {
+        "file": "operations/runs/manual-20261019-0933-replacement-review-app.json",
+        "sha256": "9d9d42b8e5458658d94fd0f25c70db7133a6847ec6c5b65dbdcb7368aa10ea4a"
+      },
+      {
+        "file": "operations/runs/manual-20261019-0933-replacement-review-evidence.json",
+        "sha256": "3c087913dc040561fea793272e45cb4b2a3f01677d76c872786c4083e8398ac9"
+      }
+    ],
+    "managerReadSupplementalAt": "2026-10-19T00:56:51.486329+00:00"
+  },
+  "productPR": {
+    "url": "https://github.com/jpop-today/jpoptoday/pull/42",
+    "head": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
+    "attachment": "actual tool succeeded",
+    "status": "merged; main same-SHA app/contracts success"
+  },
+  "validation": {
+    "precommit": "manual-20261019-0933-precommit.json",
+    "unit": 377,
+    "browser": 49,
+    "artifactNegative": 45,
+    "firstFailure": "manual-20261019-0933-working-browser.json"
+  },
+  "usageInterruption": {
+    "observedBeforeOrAt": "2026-10-19T06:03:20Z",
+    "exactInitialFailureTime": "not captured",
+    "step": "read GitHub job logs through network-enabled exec",
+    "error": "Automatic approval review could not run because usage limit was reached; action did not execute; not an unsafe determination",
+    "resumption": "explicit user resume prompts; actual06:03 environment614; same run/workers; network permission re-request succeeded after current state checks",
+    "receipt": "manual-20261019-0933-after-usage-resume.json"
+  },
+  "productSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "preview": {
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "id": "877eae49-6b30-4181-b4f3-acf6f1326b8d",
+    "url": "https://877eae49.jpoptoday-preview.pages.dev",
+    "strictHTTP": "27/1",
+    "remoteRun": 39207856597,
+    "remoteTests": 49,
+    "conclusion": "success"
+  },
+  "sameSourceCI": "manual-20261019-0933-main-ci-logs.json",
+  "reproducibility": "manual-20261019-0933-reproducibility.json",
+  "productionCandidate": {
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "id": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+    "strictHTTP": "27/1",
+    "remoteRun": 39208294414,
+    "status": "superseded by verified production; remote49 before recovery; rollback27/1→restore27/2; postrestore27/1+9URLs",
+    "previousStatus": "managed deploy done; remote verification and actual recovery pending",
+    "supersededAt": "2026-10-19T06:22:16.898425+00:00",
+    "finalEvidence": "manual-20261019-0933-recovery.json"
+  },
+  "productCompletedAt": "2026-10-19T06:18:23.854856+00:00",
+  "release": {
+    "checkedAt": "2026-10-19T06:18:15.519318+00:00",
+    "version": "0.4.7",
+    "tag": "v0.4.7",
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "annotatedObject": "51ae7eb1bf89ae89979621b80b678e824de44837",
+    "releaseId": 416964550,
+    "publishedAt": "2026-10-19T06:17:09Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.7",
+    "workflowRun": 39208859072,
+    "workflowConclusion": "success"
+  },
+  "production": {
+    "id": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+    "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+    "strictHTTP": "27/1",
+    "remoteRun": 39208294414,
+    "remoteTests": 49,
+    "recovery": "manual-20261019-0933-recovery.json",
+    "postrestore": "manual-20261019-0933-postrestore-site.json",
+    "actionsCFBindings": "missing; managed deploy and workflow verify_only are separate"
+  },
+  "completedReport": {
+    "source": "reports/daily/2026-10-19.json",
+    "docs": "operations/daily/2026-10-19.json",
+    "sameFullJSONAtPreparation": true,
+    "notification": "pending separate dispatch; never claimed sent"
+  },
+  "policyHTTPClientObservation": {
+    "urllib": "403; cause not classified",
+    "NodeSessionProxy": "200/textplain/59bytes/Google seller format; account match unknown",
+    "finalObservation": "manual-20261019-0933-postrestore-site.json"
+  },
+  "reportCorrection": "manual-20261019-0933-report-correction.json",
+  "finalPeerReviews": {
+    "managerReadAt": "2026-10-19T06:25:34.558241+00:00",
+    "reviews": [
+      {
+        "role": "app",
+        "file": "operations/runs/manual-20261019-0933-final-review-app.json",
+        "sha256": "cbc4e8cca91ae118668830cb2534d3b759a1d02729509e4cceaa6e5f112e7776",
+        "accepted": true
+      },
+      {
+        "role": "evidence",
+        "file": "operations/runs/manual-20261019-0933-final-review-evidence.json",
+        "sha256": "eb4f76f971d1b83adb8295461014398f775e3ade6649a0b1866349f671deff37",
+        "accepted": true
+      }
+    ],
+    "reportFindingsResolved": 2,
+    "scope": "Actual two report findings preserved and fixed; original6scores unchanged"
+  }
+}

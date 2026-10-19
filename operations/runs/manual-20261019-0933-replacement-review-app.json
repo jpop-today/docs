@@ -1,0 +1,78 @@
+{
+  "runId": "manual-20261019-0933",
+  "issue": 41,
+  "reviewer": "/root/run41_app",
+  "subject": "/root/run41_replacement",
+  "reviewCompletedBeforeOrAt": "2026-10-19T00:55:10Z",
+  "timeMeaning": "actual clock observation after reading the final test, audit, verifier, diff and existing working receipts; not a test execution timestamp",
+  "sourceBase": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+  "reviewedState": "working tree files identified by SHA256; no final commit/deployment inference",
+  "reviewedFiles": [
+    {
+      "file": "/workspace/jpoptoday/tests/conflict-artifact.test.mjs",
+      "sha256": "e71a450a5457f71e3d567fe63e590fc7b663273f58d37459b57463f534ef4e8f",
+      "owner": "/root/run41_replacement"
+    },
+    {
+      "file": "/workspace/docs/engineering/conflicted-numbers-artifact-audit-20261019-0933.md",
+      "sha256": "a3726883790e800b56fff3d9a0f06273396bcf04562e3766a48d36143fb03a27",
+      "owner": "/root/run41_replacement"
+    },
+    {
+      "file": "/workspace/jpoptoday/scripts/verify-dist.mjs",
+      "sha256": "5b2c3e20ae1426f457a69e8b4b3df44febe63a26fe9e758005e29f99b44054ce",
+      "owner": "/root",
+      "scope": "verifyDetailNumbers and its verifyHtml integration; base diff preserves other artifact boundaries"
+    }
+  ],
+  "criteria": {
+    "accuracy": {
+      "score": 5,
+      "reason": "합성 HTML과 입력 객체로 conflict/unknown의 복사 권한 부재, 정상 업체의 정확한 문자열·실제 button, 엄격 공식 표기와 업체별 경계를 독립적으로 명시한다. 현재 표시와 역사 verification-note를 분리해 원번호·출처·정정사유를 삭제하지 않는다. 합성2001년 날짜는 실제 제공사 조회라고 주장하지 않는다.",
+      "files": ["tests/conflict-artifact.test.mjs", "scripts/verify-dist.mjs", "engineering/conflicted-numbers-artifact-audit-20261019-0933.md"]
+    },
+    "evidence": {
+      "score": 5,
+      "reason": "최종 테스트 전체와 공유 검증기 원문·base diff를 읽었다. boolean data-copy 거부, unknown 단독숫자 거부, 비button action 거부의 실제 보완이 각 negative fixture와 맞는다. 감사는 최초44/37/7을 leaf4+부모3으로 구분하고 sandbox 자식 실패를 별도 기록하며 수정후45/45 실행을 명시한다. 이45실행은 replacement의 감사/인계에 기록된 결과이고 reviewer가 재실행한 것이 아니다. 별도 root fixed-working-browser 영수증의 artifact0·49passed·dirty=true를 직접 읽어 clean CI와 구분했다.",
+      "files": ["tests/conflict-artifact.test.mjs", "scripts/verify-dist.mjs", "engineering/conflicted-numbers-artifact-audit-20261019-0933.md", "operations/runs/manual-20261019-0933-fixed-working-browser.json"]
+    },
+    "userValue": {
+      "score": 5,
+      "reason": "충돌 번호를 다시 버튼/비button 동작으로 노출하거나 근거 없는 공식 문구로 포장한 artifact를 막는다. 정상 업체의 선행0·번호·키보드 button을 보존하고 unknown의 날짜/2단계 자연문과 과거 근거를 허용해 정보 손실·잘못된 미수록 추정을 피한다. 서로 다른 업체나 본문 밖 번호로 정상 검사를 속이지 못하게 한다.",
+      "files": ["tests/conflict-artifact.test.mjs", "scripts/verify-dist.mjs"]
+    },
+    "maintainability": {
+      "score": 5,
+      "reason": "테스트는 명시적인 합성 fixture와 mutation 그룹으로 나뉘며 앱 렌더/formatter를 기대값 생성에 호출하지 않는다. root export의 순수 검증과 CLI 실행 guard를 통해 새 테스트가 서버/배포를 실행하지 않는다. 공유 diff는 기존 canonical·crawler·private payload·동결 catalog/metadata 게이트를 보존한다. 현재 Astro의 두 section/verification-note 구조를 위한 제한된 검사라는 한계를 감사에 분명히 적어 완전한 HTML 보안 검증이라고 확대하지 않는다.",
+      "files": ["tests/conflict-artifact.test.mjs", "scripts/verify-dist.mjs", "engineering/conflicted-numbers-artifact-audit-20261019-0933.md"]
+    }
+  },
+  "totalScore": 20,
+  "vote": "accept",
+  "observedIntegrationEvidence": [
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-fixed-working-browser.json",
+      "sha256": "a13c5abceed0f69c8439bafea9013baefcc06cdf7a02e475d6d5f27721a88739",
+      "observation": "Root working tree preview artifact3317songs/3336HTML/3347files/0indexable and full49browser passed. sourceSha is base1fd6ece7 and dirty=true. Receipt00:51:02..00:53:03 precedes final verifier hash audit00:53:54; it is not proof of a final clean-commit build or of the later final verifier full regression."
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261019-0933-working-browser.json",
+      "observation": "Earlier build0/artifact1 was already read and preserved in the original reviews-app.json. It remains a real initial failure and is not overwritten by this supplementary acceptance."
+    }
+  ],
+  "acceptance": [
+    {
+      "criterion": "후속 독립 negative/positive fixture와 최초 우회 보완",
+      "status": "fulfilled",
+      "evidence": "최종 test/verifier source와 감사의 최초·최종hash/leaf수/실행구분을 실제 읽었으며 blocking finding은 없다."
+    },
+    {
+      "criterion": "root 최종 전체 unit·artifact·sameSHA CI·preview·복구·운영",
+      "status": "pending",
+      "evidence": "root는 최종377전체unit/artifact가 진행 중이라고 인계했다. 이 reviewer는 그 완료 영수증을 아직 읽지 않았고,49dirty-working 결과로 최종 clean CI/배포 게이트를 대신하지 않는다."
+    }
+  ],
+  "blockingFindings": [],
+  "optionalFindings": [],
+  "limits": "이 허용된 새 리뷰 JSON만 작성했다. 최초6peer 원문·소유 앱/문서·대상 test/verifier를 수정하지 않았다. Git/package/CI/browser/server/deploy를 실행하지 않았고, worker 순위·교체 결정이나 Google 심사 상태를 새로 판단하지 않았다."
+}

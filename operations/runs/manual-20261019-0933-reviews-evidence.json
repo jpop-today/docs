@@ -1,0 +1,149 @@
+{
+  "runId": "manual-20261019-0933",
+  "sourceBase": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+  "docsBase": "ea1b6cac498ada996b5ed6dc6a001d0270a37f98",
+  "reviewer": "/root/run41_evidence",
+  "readAt": "2026-10-19T00:44:51Z",
+  "mode": "read-only-artifact-review",
+  "sourceBinding": "아래 hash의 공유 작업트리 산출물을 읽었다. base SHA를 결과 commit SHA로 주장하지 않는다.",
+  "reviews": [
+    {
+      "reviewer": "/root/run41_evidence",
+      "subject": "/root/run41_app",
+      "readAt": "2026-10-19T00:44:51Z",
+      "reviewedFiles": [
+        { "path": "jpoptoday/src/components/SongRow.astro", "sha256": "8d5600ca5822f0afe9476ace1ff8cef0d541370382d49469feaf51826078e798" },
+        { "path": "jpoptoday/src/pages/songs/[id].astro", "sha256": "129476535ca52b34650b10547b01fe33871774bce797b70c2a8fddd6d56aa027" },
+        { "path": "jpoptoday/src/scripts/app.ts", "sha256": "b8499f1cd1476114083d96d8d0ddb84f440ddadd117dd578870e599764c41110" },
+        { "path": "docs/engineering/conflicted-numbers-20261019-0933.md", "sha256": "5483619f821bcbcec9a4d44be5b15c14c1ffe2805c87c297bbb21be671ba7ee5" }
+      ],
+      "criteria": {
+        "accuracy": {
+          "score": 5,
+          "reason": "정적 SongRow·동적 row·곡 상세의 업체별 분기 모두 conflict를 먼저 검사해 번호/data-copy/복사 버튼을 만들지 않는다. 공식 문구는 기존 엄격 hasConfirmedNumber를 재사용하며 비충돌 관측 번호는 그대로 복사한다. 최종 상세는 서로 다른 곡/버전을 확정하지 않고 '다른 항목과의 번호 충돌'로 설명한다. 실제 4ID/8셀의 보존된 조회 이력과 충돌 상태를 구분한다.",
+          "evidence": [
+            { "path": "jpoptoday/src/components/SongRow.astro", "sha256": "8d5600ca5822f0afe9476ace1ff8cef0d541370382d49469feaf51826078e798" },
+            { "path": "jpoptoday/src/pages/songs/[id].astro", "sha256": "129476535ca52b34650b10547b01fe33871774bce797b70c2a8fddd6d56aa027" },
+            { "path": "jpoptoday/src/scripts/app.ts", "sha256": "b8499f1cd1476114083d96d8d0ddb84f440ddadd117dd578870e599764c41110" }
+          ]
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "인계문서의 세 생성지점·strict 조건·기존 evidence/correction/report 보존이 실제 diff와 일치한다. raw/ledger의 실제 기존 조회 제목·checkedAt·충돌을 직접 읽었으며 문서가 새 조회나 unit/type/browser/CI/배포 성공을 주장하지 않는다. 최초 문구 지적·보완 전 hash와 최종 보완을 보존한다. 이 점수는 읽기 근거와 검증 인계의 적절성을 평가하며 실행하지 않은 런타임 통과를 뜻하지 않는다.",
+          "evidence": [
+            { "path": "docs/engineering/conflicted-numbers-20261019-0933.md", "sha256": "5483619f821bcbcec9a4d44be5b15c14c1ffe2805c87c297bbb21be671ba7ee5" },
+            { "path": "jpoptoday/data/staging/legacy-catalog.json", "sha256": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3" },
+            { "path": "jpoptoday/data/reviewed/provider-corrections.json", "sha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1" }
+          ]
+        },
+        "userValue": {
+          "score": 5,
+          "reason": "조회 기록이 있다는 이유로 미해결 충돌 번호를 복사하는 경로를 세 화면 생성 지점에서 닫는다. 색상 외 충돌/재확인 텍스트와 상세의 미수록 비추정·기존 공식 대조 결과/날짜·제보 경로를 남겨 사용자가 보류 이유와 다음 확인 경로를 읽을 수 있다. 한 업체의 확인을 다른 업체로 확대하지 않는다. 실제 360px/키보드 사용성은 root의 별도 실행을 기다린다.",
+          "evidence": [
+            { "path": "jpoptoday/src/pages/songs/[id].astro", "sha256": "129476535ca52b34650b10547b01fe33871774bce797b70c2a8fddd6d56aa027" },
+            { "path": "jpoptoday/src/components/SongRow.astro", "sha256": "8d5600ca5822f0afe9476ace1ff8cef0d541370382d49469feaf51826078e798" }
+          ]
+        },
+        "maintainability": {
+          "score": 5,
+          "reason": "새 판정 복제나 데이터 변경 없이 기존 browser-safe 엄격 predicate를 세 표시 지점에서 직접 재사용한다. diff는 번호 생성 분기와 관련 안내로 좁고, 저장·URL·검색·clipboard fallback·bulk formatter·CSS의 기존 구현을 유지한다. 분기 문구와 소유 범위·미실행 검증·후속 실행 기록을 인계문서에서 찾을 수 있다.",
+          "evidence": [
+            { "path": "jpoptoday/src/scripts/app.ts", "sha256": "b8499f1cd1476114083d96d8d0ddb84f440ddadd117dd578870e599764c41110" },
+            { "path": "docs/engineering/conflicted-numbers-20261019-0933.md", "sha256": "5483619f821bcbcec9a4d44be5b15c14c1ffe2805c87c297bbb21be671ba7ee5" }
+          ]
+        }
+      },
+      "total": 20,
+      "resolvedFindings": [
+        {
+          "finding": "최초 새 상세와 기존 하단 notice의 '다른 곡·버전'이 곡/버전 차이를 이미 판정한 듯 읽힐 수 있었다.",
+          "before": { "path": "jpoptoday/src/pages/songs/[id].astro", "sha256": "040d2e07cf4eba286a9cad2cdee3d7143ccce1626482ea5d4b7dce6ab77aa94c" },
+          "resolution": "root가 지적을 수용해 앱 담당에게 본인 범위 수정을 지시했다. 자료 담당은 앱 파일을 수정하지 않았으며, 보완된 '다른 항목과의 번호 충돌' 및 '같은 번호를 가진 다른 항목'을 실제 재읽었다.",
+          "after": { "path": "jpoptoday/src/pages/songs/[id].astro", "sha256": "129476535ca52b34650b10547b01fe33871774bce797b70c2a8fddd6d56aa027" },
+          "status": "resolved-before-final-review"
+        }
+      ],
+      "blockingFindings": [],
+      "optionalFindings": [],
+      "acceptance": [
+        { "criterion": "충돌 우선 보류·엄격 공식 표시·원자료/근거/URL/저장 경로 보존", "status": "코드·기존 자료 읽기에서 충족", "reason": "삼생성지점 diff와 기존 raw/ledger 및 독립 중복 집계를 읽었다." },
+        { "criterion": "실제 unit/type/build/artifact/360px·키보드·JS-off 및 같은 SHA 원격 CI/preview/복구/운영", "status": "보류", "reason": "평가 시점에 이 검사의 성공 영수증을 읽지 않았으며 root 실제 실행으로 확인해야 한다." }
+      ]
+    },
+    {
+      "reviewer": "/root/run41_evidence",
+      "subject": "/root/run41_quality",
+      "readAt": "2026-10-19T00:44:51Z",
+      "reviewedFiles": [
+        { "path": "jpoptoday/e2e/conflicted-numbers.spec.ts", "sha256": "c6ec7a8766b727d9da6291eb7a6acb0333f107b9fc6914ecc832d194d7582acc" },
+        { "path": "docs/engineering/conflicted-numbers-quality-20261019-0933.md", "sha256": "db951cfa0fd9627f93bda6751f89c4d9ef8186c30908905be75a008b730ddc8b" }
+      ],
+      "criteria": {
+        "accuracy": {
+          "score": 5,
+          "reason": "앱 표시/확인/export/projection helper를 import하지 않고 raw 번호에 ledger의 명시 정정을 적용한 뒤 전체 중복 빈도로 conflict를 계산한다. 직접 별도 집계한 3317/84/4ID8셀·차트28/37과 일치한다. Hump Back 외 椎名林檎를 놓치지 않으며 전체6634업체의 공개 근거·사유·원번호·상태와 raw identity allowlist를 정확 비교한다. 실제 단일업체 conflict 사례가 없다는 한계도 명시한다.",
+          "evidence": [
+            { "path": "jpoptoday/e2e/conflicted-numbers.spec.ts", "sha256": "c6ec7a8766b727d9da6291eb7a6acb0333f107b9fc6914ecc832d194d7582acc" },
+            { "path": "jpoptoday/data/reviewed/provider-corrections.json", "sha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1" }
+          ]
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "실제 8개 충돌 셀의 숫자/data-copy/버튼/공식 배지가 없음을 요구하고 정상·관측·혼합·suppress·unknown을 별도 대조한다. 현재 문서는 syntax diagnostics0와 raw 읽기 계산만 실행했고 semantic type/E2E/배포는 미실행임을 정확히 나눈다. 존재하지 않는 파일 읽기·fixture 탐색 교정도 보존한다. 기존 회귀의 첫 confirm=충돌·가이드 날짜 전제 충돌을 찾아 root에 인계하고 본인 범위 밖 assertion을 임의 수정하지 않았다. 점수는 이 실제 검사 설계/인계의 근거이며 테스트 실행 통과 점수가 아니다.",
+          "evidence": [
+            { "path": "docs/engineering/conflicted-numbers-quality-20261019-0933.md", "sha256": "db951cfa0fd9627f93bda6751f89c4d9ef8186c30908905be75a008b730ddc8b" },
+            { "path": "jpoptoday/e2e/conflicted-numbers.spec.ts", "sha256": "c6ec7a8766b727d9da6291eb7a6acb0333f107b9fc6914ecc832d194d7582acc" }
+          ]
+        },
+        "userValue": {
+          "score": 5,
+          "reason": "SSR home5/chart100/충돌 상세4, 동적 검색·즐겨찾기 및 안전한 실제 개별/bulk clipboard mock을 연결해 사용자 오복사와 상태 불일치를 잡는다. 원문 공백·중첩 object·선행0·미해결 ID 보존, 기존 URL/canonical, Enter/Space/Escape·readonly 전체선택·focus 복귀·44px·360px overflow·palette·광고/크롤러 경계를 검사한다. OS clipboard 실제 허가나 Google 심사 확인으로 확대하지 않는다.",
+          "evidence": [
+            { "path": "jpoptoday/e2e/conflicted-numbers.spec.ts", "sha256": "c6ec7a8766b727d9da6291eb7a6acb0333f107b9fc6914ecc832d194d7582acc" },
+            { "path": "docs/engineering/conflicted-numbers-quality-20261019-0933.md", "sha256": "db951cfa0fd9627f93bda6751f89c4d9ef8186c30908905be75a008b730ddc8b" }
+          ]
+        },
+        "maintainability": {
+          "score": 5,
+          "reason": "독립 oracle과 공통 assertRow/assertDetail로 세 렌더 생성 지점의 의미를 함께 보호하고 앱 구현 문자열을 unit으로 복제하지 않는다. 보존 hash·실제 4ID8셀·차트 순위를 명시해 입력이 바뀌면 재검토하도록 한다. 기존 strict predicate의 부정 URL·근거/형식·chart-only 검사는 기존 favorites-export 계약에 남겨 중복 파일을 늘리지 않았다. 원문 링크는 실제 날짜 포함 spec 절과 기존 root 실행 JSON에 연결된다.",
+          "evidence": [
+            { "path": "jpoptoday/e2e/conflicted-numbers.spec.ts", "sha256": "c6ec7a8766b727d9da6291eb7a6acb0333f107b9fc6914ecc832d194d7582acc" },
+            { "path": "docs/engineering/conflicted-numbers-quality-20261019-0933.md", "sha256": "db951cfa0fd9627f93bda6751f89c4d9ef8186c30908905be75a008b730ddc8b" }
+          ]
+        }
+      },
+      "total": 20,
+      "blockingFindings": [],
+      "optionalFindings": [],
+      "acceptance": [
+        { "criterion": "독립 실제 자료 oracle·전체 conflict 및 정적/동적/상세·호환/접근성/정책 회귀 설계", "status": "코드 읽기에서 충족", "reason": "신규5개 E2E의 전체 assertion을 읽고 별도 raw/ledger 집계로 4ID8셀·차트28/37을 대조했다." },
+        { "criterion": "새5개 및 전체 회귀 실제 실행·동일 SHA 원격/복구 검증", "status": "보류", "reason": "평가 시점에 root의 이 성공 영수증을 읽지 않았고 직접 실행하지 않았다." }
+      ]
+    }
+  ],
+  "independentReadComputation": {
+    "readAt": "2026-10-19T00:44:36.083Z",
+    "method": "Node fs로 raw/ledger를 읽고 앱 helper 없이 명시 number 정정과 전체 업체별 빈도를 재계산",
+    "songs": 3317,
+    "ledgerEntries": 84,
+    "conflictingIds": 4,
+    "conflictingProviderCells": 8,
+    "chartRanks": [28, 37]
+  },
+  "executionBoundary": "평가대상 파일은 읽기 전용이며 이 허가된 리뷰 JSON만 새로 기록했다. Git 쓰기·제품 파일 수정·서버·브라우저·unit/type/build·CI·배포·새 worker 생성은 없다. 첫 보조 rg는 존재하지 않는 tests/confirmed-numbers.test.mjs 경로로 exit2였고 이어질 Node가 실행되지 않았다. rg -l로 실제 tests/favorites-export.test.mjs를 찾아 읽고 별도 Node 읽기 집계를 성공했다. 이를 새 테스트 실행 성공으로 만들지 않는다. 순위·동률·교체 및 모든 실제 실행/배포 수용은 관리자가 확인한다. 변경량이나 말 수로 점수를 정하지 않았다.",
+  "subsequentValidationReads": {
+    "readAt": "2026-10-19T00:46:06Z",
+    "originalReviewsPreserved": true,
+    "evidence": [
+      { "path": "docs/operations/runs/manual-20261019-0933-baseline-browser.json", "sha256": "85a50890ac74c265892d6be41a1f11400da7a5a98c77e304104c407c3ebd5da7" },
+      { "path": "docs/operations/runs/manual-20261019-0933-local-checks.json", "sha256": "74e135e76a79f7a508fe52e97d9a858ae2c26197c8230796ada59bb1340803d9" },
+      { "path": "docs/operations/runs/manual-20261019-0933-working-browser.json", "sha256": "e87591c2072472394b6462a899c8e7326c648ca57acbff66245fd9b26bae86c9" }
+    ],
+    "observations": [
+      "기존 운영M110c583e의 pinned production artifact를 로컬로 연 실제 Chromium 기준선에서 conflict true인 Hump Back의 두 번호가 복사 버튼/공식 문구로 보이는 결함이 재현됐다. 오류 배열은0이며 실제 origin 전면 body/hash 검증은 별도 HTTP 영수증이다.",
+      "관리자 working-tree local-checks의 unit332/332, 타입26파일 errors0/warnings0/hints0을 실제 읽었다. clean 같은SHA CI/preview/운영 통과로 확대하지 않는다.",
+      "working-browser 첫 영수증은 build exit0 다음 artifact exit1이다. 첫 Hump Back chart-only 상세의 tj observed number가 static body에 없다는 기존 검증 전제에서 중단했다. 새 정책은 충돌 번호를 본문에서 보류하므로 root 소유 verify-dist의 계약 전제를 검토해야 한다. 49개 browser 성공이나 해당 실패 해결을 아직 관찰하지 않았다."
+    ],
+    "remainingAcceptance": "artifact 실패 보완과 실제 전체 browser, clean sameSHA CI/preview/복구/운영은 아직 보류다. 관리자에게 실제 실패를 알렸고 공용 검증 파일을 직접 수정하지 않았다. 이 후속 읽기는 최초 네 기준 점수나 동료 원문을 덮어쓰지 않는다."
+  }
+}

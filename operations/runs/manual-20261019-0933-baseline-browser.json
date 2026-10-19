@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-19T00:40:52.055Z",
+  "sourceSha": "110c583ec3460b4ca5e3b153deef7278d856f8a3",
+  "artifact": "pinned v0.4.6 production served locally; actual origin full-hash HTTP receipt separate",
+  "browser": "system Chromium/Playwright with ordinary network permission; Browser skill listed but no callable js/runtime/CUA tools; authorized project fallback",
+  "songId": "jpop-playlist-hump-back-拝啓-少年よ-29d81a757e",
+  "providers": {
+    "tj": {
+      "status": "provider-confirmed",
+      "observedNumber": "52756",
+      "conflict": true,
+      "evidence": {
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52756&strWord=Y",
+        "checkedAt": "2026-10-14T14:17:54.373164+09:00",
+        "title": "拝啓, 少年よ('ベネッセ 進研ゼミ 高校講座' CM)",
+        "artist": "Hump Back"
+      },
+      "correction": {
+        "reason": "원본 拝啓、少年よ와 TJ의 拝啓, 少年よ는 구두점 차이이며 가수 Hump Back이 일치합니다. TJ의 CM 부제는 공식 표기 그대로 보존합니다.",
+        "previousNumber": "52756"
+      }
+    },
+    "ky": {
+      "status": "provider-confirmed",
+      "observedNumber": "76548",
+      "conflict": true,
+      "evidence": {
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=76548",
+        "checkedAt": "2026-10-14T14:17:57.828211+09:00",
+        "title": "拝啓、少年よ",
+        "artist": "Hump Back"
+      },
+      "correction": {
+        "reason": "금영 공식 번호 검색의 제목 拝啓、少年よ와 가수 Hump Back이 원본 곡과 일치합니다.",
+        "previousNumber": "76548"
+      }
+    }
+  },
+  "observations": [
+    {
+      "path": "/songs/jpop-playlist-hump-back-%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88-29d81a757e/",
+      "title": "拝啓、少年よ · Hump Back 노래방 번호 | jpop.today",
+      "text": "TJ\n52756\n\n공식 검색에서 확인\n\n원본 拝啓、少年よ와 TJ의 拝啓, 少年よ는 구두점 차이이며 가수 Hump Back이 일치합니다. TJ의 CM 부제는 공식 표기 그대로 보존합니다.\n\n공식 대조 결과\n拝啓, 少年よ('ベネッセ 進研ゼミ 高校講座' CM) · Hump Back\n확인일: 2026-10-14T14:17:54.373164+09:00\n\n금영\n76548\n\n공식 검색에서 확인\n\n금영 공식 번호 검색의 제목 拝啓、少年よ와 가수 Hump Back이 원본 곡과 일치합니다.\n\n공식 대조 결과\n拝啓、少年よ · Hump Back\n확인일: 2026-10-14T14:17:57.828211+09:00",
+      "copyControls": [
+        {
+          "number": "52756",
+          "label": "tj 번호 복사"
+        },
+        {
+          "number": "76548",
+          "label": "ky 번호 복사"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "path": "/search/?q=%E6%8B%9D%E5%95%93%E3%80%81%E5%B0%91%E5%B9%B4%E3%82%88",
+      "title": "오늘 부를 JPOP 찾기 | jpop.today",
+      "text": "拝啓、少年よ\n\n친애하는 소년이여 · 험프 백\n\nTJ\n52756\n공식 확인\n금영\n76548\n공식 확인",
+      "copyControls": [
+        {
+          "number": "52756",
+          "label": "拝啓、少年よ TJ 공식 확인 번호 52756 복사"
+        },
+        {
+          "number": "76548",
+          "label": "拝啓、少年よ 금영 공식 확인 번호 76548 복사"
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

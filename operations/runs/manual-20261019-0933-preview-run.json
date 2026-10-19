@@ -1,0 +1,9 @@
+{
+  "recordedAt": "2026-10-19T06:08:30.601551+00:00",
+  "databaseId": 39207856597,
+  "headSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/jpop-today/jpoptoday/actions/runs/39207856597",
+  "logs": "manual-20261019-0933-preview-logs.json"
+}

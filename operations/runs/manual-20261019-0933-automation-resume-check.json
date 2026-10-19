@@ -1,0 +1,25 @@
+{
+  "timePrecision": "automation lookup occurred before this actual recording time; exact lookup time not separately captured",
+  "automations": [
+    {
+      "id": "6acdccd99030819180ea1c9d907d9f55",
+      "title": "jpop.today 일일 개발",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Asia/Seoul",
+      "lastRun": "2026-10-17T23:55:20.735119+00:00",
+      "nextRun": null
+    },
+    {
+      "id": "6acf109ec1808191b09a2414e2de80af",
+      "title": "jpop.today 개발 재개",
+      "enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Asia/Seoul",
+      "lastRun": "2026-10-19T06:02:21.466661+00:00",
+      "nextRun": null
+    }
+  ],
+  "scope": "read-only current lookup; no schedule changes or extra run-now; null nextRun is not a promise",
+  "recordedAt": "2026-10-19T06:06:41.569843+00:00"
+}

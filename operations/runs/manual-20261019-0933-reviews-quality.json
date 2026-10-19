@@ -1,0 +1,137 @@
+{
+  "reviews": [
+    {
+      "reviewer": "/root/run41_quality",
+      "subject": "/root/run41_evidence",
+      "readAt": "2026-10-19T00:44:52Z",
+      "sourceBase": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+      "snapshot": "uncommitted final owned files; exact hashes below, not a merged product SHA",
+      "reviewedFiles": [
+        {
+          "path": "src/content/guides.ts",
+          "sha256": "227f848b70a9a5077f8cc8486dc1998cb4f6ba70cec2e6a469854506af61ee62"
+        },
+        {
+          "path": "docs/content/conflicted-numbers-20261019-0933.md",
+          "sha256": "34e24908decdc340428a5942fce11a4ca2a7bd9d9cf0fc7a9a5cf6e631a6307b"
+        }
+      ],
+      "accuracy": {
+        "score": 5,
+        "reason": "실제 가이드 diff의 tj-ky-numbers 관련 절은 충돌 항목 번호·개별복사 보류와 미수록 비추정을 정확히 설명한다. Hump Back 원제/두 ID/업체별 과거 제목·시각을 실제 ledger와 대조했으며 같은 곡·버전으로 합치거나 차이가 확정됐다고 쓰지 않는다. 19일은 실제 편집일이고14일 조회와 분리했다."
+      },
+      "evidence": {
+        "score": 5,
+        "reason": "본 리뷰자가 git show base 원문과 현재 guides를 별도 Node import해 다른5가이드 전체객체 불변, 새2출처 URL/checkedAt의 ledger일치,2상세URL의 실제 rawID존재를 직접 확인했다. 자료doc의 staging/ledger/source/doc hash와 현재실파일을 대조했다. 새조회·권리·Google승인 주장이 없고 초기EPERM읽기실패를 성공으로 숨기지 않았다."
+      },
+      "userValue": {
+        "score": 5,
+        "reason": "충돌 안내를 본 사용자가 두 기존 상세와 과거 공식 근거를 비교하고 현재 업체·기기의 제목/가수/버전을 다시 대조하도록 구체적으로 연결한다. 보류된 번호를 본문에서 예약용값으로 다시 노출하지 않으며 오류제보와 빈번호 비추정 안내가 있다."
+      },
+      "maintainability": {
+        "score": 5,
+        "reason": "public 변경은 tj-ky-numbers 객체의 관련절/실제편집일/기존근거2건 재사용으로 제한된다. 원자료·타5글·stable상세주소를 보존하고 자체읽기계산/미실행브라우저·배포를 문서에서 구분한다. 정확한spec anchor와 실행기록 링크가 존재해 후속검증 경계가 명확하다."
+      },
+      "total": 20,
+      "acceptance": [
+        {
+          "item": "기존근거/실제조회일·편집일 구분과 다른5글 보존",
+          "status": "fulfilled",
+          "evidence": "reviewer git-show base→Node whole-object comparison; 5 unchanged true/2 source ledgerMatches true/2 raw ID links true"
+        },
+        {
+          "item": "관련 가이드 렌더·브라우저 및 sameSHA CI/preview/실제복구/운영",
+          "status": "pending",
+          "evidence": "root 통합검증 단계. 이 읽기평가는 미실행 게이트를 통과로 계산하지 않는다."
+        }
+      ],
+      "blocking": [],
+      "optionalFindings": []
+    },
+    {
+      "reviewer": "/root/run41_quality",
+      "subject": "/root/run41_app",
+      "readAt": "2026-10-19T00:44:52Z",
+      "sourceBase": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+      "snapshot": "final wording correction read; uncommitted hashes below, not a merged product SHA",
+      "reviewedFiles": [
+        {
+          "path": "src/components/SongRow.astro",
+          "sha256": "8d5600ca5822f0afe9476ace1ff8cef0d541370382d49469feaf51826078e798"
+        },
+        {
+          "path": "src/pages/songs/[id].astro",
+          "sha256": "129476535ca52b34650b10547b01fe33871774bce797b70c2a8fddd6d56aa027"
+        },
+        {
+          "path": "src/scripts/app.ts",
+          "sha256": "b8499f1cd1476114083d96d8d0ddb84f440ddadd117dd578870e599764c41110"
+        },
+        {
+          "path": "docs/engineering/conflicted-numbers-20261019-0933.md",
+          "sha256": "5483619f821bcbcec9a4d44be5b15c14c1ffe2805c87c297bbb21be671ba7ee5"
+        }
+      ],
+      "accuracy": {
+        "score": 5,
+        "reason": "최종 세생성점은 업체별 conflict 우선 분기에서 숫자/button/data-copy를 만들지 않으며 기존 strict hasConfirmedNumber만 공식 라벨/배지/상세표현에 재사용한다. 최종 detail129476...은 다른항목과번호충돌이라고 표현해 곡·버전차이를 확정하지 않는다. evidence/correction/제보/미수록비추정과 nonconflict 문자열은 보존했다."
+      },
+      "evidence": {
+        "score": 5,
+        "reason": "본 리뷰자가 수정후3source+doc를 실제 읽고 hash를 확인했다. root baseline-browser.json의 pinnedv046상세·검색에서 conflicttrue인 HumpBack 번호/공식라벨/copy가 동시에노출된 사실과 원자료독립4ID/8셀을 대조해 수정대상을 확인했다. 앱doc는 자체브라우저/타입/CI 미실행을 명시하고 자료동료 문구지적/수정전hash/수정이력을 보존한다. root 최종렌더는 아직별도대기다."
+      },
+      "userValue": {
+        "score": 5,
+        "reason": "검색·즐겨찾기·정적차트·상세의 불일치를 같은 보류상태로 통일하고 색상외충돌/재확인텍스트를 제공한다. 공식이력은 계속읽을수있지만 안전한현재복사값과 구분된다. 정상업체/관측번호복사 및 기존저장/URL/제보행동을 보존한다. 실제360px렌더/키보드사용성은 root검증전 완료로주장하지않는다."
+      },
+      "maintainability": {
+        "score": 5,
+        "reason": "새확인규칙/중복상태를 만들지않고 기존 browser-safe strict predicate를 SSR/동적DOM양쪽에서 재사용한다. 기존업체셀·copy핸들러/storage/filter/history/bulkformatter/globalCSS를 고치지않는 작은범위이며 담당문서는4실제충돌ID·미실행검증·최종문구보완이력으로추적가능하다."
+      },
+      "total": 20,
+      "acceptance": [
+        {
+          "item": "세생성점의 업체별충돌보류·strict공식라벨·근거/URL/storage보존 코드읽기",
+          "status": "fulfilled",
+          "evidence": "final SongRow8d5600.../detail129476.../app b8499f... + doc548361... directly read"
+        },
+        {
+          "item": "실제 all8 conflict/대조군/SSR·dynamic/360px·JSoff·keyboard 및 sameSHA CI/preview/복구/운영",
+          "status": "pending",
+          "evidence": "독립 신규5회귀 준비, root 실행 대기. baseline성공을 수정후실행으로 바꾸지 않는다."
+        }
+      ],
+      "resolvedFindings": [
+        {
+          "finder": "/root/run41_evidence",
+          "finding": "다른곡·버전이라는표현이항목동일성의차이를확정하는것으로읽힐수있음",
+          "beforeDetailSha256": "040d2e07cf4eba286a9cad2cdee3d7143ccce1626482ea5d4b7dce6ab77aa94c",
+          "resolution": "최종detail129476...의 다른항목과의번호충돌 표현과 앱doc의 보완이력을 본리뷰자가읽었다."
+        }
+      ],
+      "blocking": [],
+      "optionalFindings": []
+    }
+  ],
+  "comparisonBoundary": "두 최종 담당 산출물에서 현재 미해결 코드/자료 결함을 찾지 못해 각각20점이다. 미실행 통합게이트는 acceptance pending으로 보존한다. 개선전finding을 숨기거나 새가짜감점을 만들지않으며 팀순위/active교체는 root가 실제6리뷰·실제검증·사전동률규칙에 따라 결정한다.",
+  "rootEvidenceRead": {
+    "receipts": [
+      {
+        "path": "docs/operations/runs/manual-20261019-0933-baseline-browser.json",
+        "sha256": "85a50890ac74c265892d6be41a1f11400da7a5a98c77e304104c407c3ebd5da7"
+      },
+      {
+        "path": "docs/operations/runs/manual-20261019-0933-local-checks.json",
+        "sha256": "74e135e76a79f7a508fe52e97d9a858ae2c26197c8230796ada59bb1340803d9"
+      },
+      {
+        "path": "docs/operations/runs/manual-20261019-0933-working-browser.json",
+        "sha256": "e87591c2072472394b6462a899c8e7326c648ca57acbff66245fd9b26bae86c9"
+      }
+    ],
+    "localChecks": "working tree332/332, type26files errors0/warnings0/hints0",
+    "initialArtifact": "working build exit0, verify-dist exit1; observed-number static-body invariant conflicts with intended withholding on HumpBack TJ. This is failure, not E2E PASS.",
+    "browserStatus": "New full-suite result not yet available; existing baseline proves old behavior only.",
+    "stillPending": "clean same-SHA CI/preview/production/recovery/Release remain separate root gates."
+  }
+}

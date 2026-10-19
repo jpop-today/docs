@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-19T00:58:02.232047+00:00",
+  "sourceSha": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
+  "runs": [
+    {
+      "id": 39182945843,
+      "name": "contracts",
+      "event": "pull_request",
+      "head_sha": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
+      "head_branch": "codex/41-conflicted-number-controls",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39182945843",
+      "created_at": "2026-10-19T00:55:25Z",
+      "updated_at": "2026-10-19T00:55:40Z"
+    },
+    {
+      "id": 39182945845,
+      "name": "app",
+      "event": "pull_request",
+      "head_sha": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
+      "head_branch": "codex/41-conflicted-number-controls",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39182945845",
+      "created_at": "2026-10-19T00:55:25Z",
+      "updated_at": "2026-10-19T00:57:48Z"
+    },
+    {
+      "id": 39182941738,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
+      "head_branch": "codex/41-conflicted-number-controls",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39182941738",
+      "created_at": "2026-10-19T00:55:21Z",
+      "updated_at": "2026-10-19T00:55:35Z"
+    },
+    {
+      "id": 39182941706,
+      "name": "app",
+      "event": "push",
+      "head_sha": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
+      "head_branch": "codex/41-conflicted-number-controls",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39182941706",
+      "created_at": "2026-10-19T00:55:21Z",
+      "updated_at": "2026-10-19T00:57:45Z"
+    }
+  ],
+  "allCompleted": true,
+  "allSuccess": true
+}

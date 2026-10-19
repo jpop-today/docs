@@ -1,0 +1,132 @@
+{
+  "runId": "manual-20261019-0933",
+  "readAt": "2026-10-19T00:49:51.024811+00:00",
+  "originals": [
+    {
+      "file": "operations/runs/manual-20261019-0933-reviews-app.json",
+      "sha256": "db6597b19787712ee448f300471615ff0d7b8372c6bd5b2ee838f6891596f8d7"
+    },
+    {
+      "file": "operations/runs/manual-20261019-0933-reviews-evidence.json",
+      "sha256": "e76fcdefd4c66502de21ad66cbf0107acb5e103d6896c49954e3fd9c5ded7dbf"
+    },
+    {
+      "file": "operations/runs/manual-20261019-0933-reviews-quality.json",
+      "sha256": "6df1be41bbec4fb6c6d6f7a6fdfc184e181456702b3552283a0f550e0e106f33"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "/root/run41_app",
+      "candidate": "/root/run41_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "Hump Back2ID의 공식 조회 이력과 현재 충돌·보류를 구분하고 앱과 같은 문구/미수록 비추정이며 전체8셀 중 사례하나임을 명시.\n제가 base git show 원문과 현재를 별도 Python계산으로 대조해 tj-ky 객체 밖 전체바이트 동일, 두 상세href를 unquote해 원본ID존재, Hump Back ledger4건 모두URL/checkedAt와 본문일치,19편집일을 확인했습니다(제공사 신규조회 없음).\n과거조회→현재복사가능성 오인을 실제 사례+두기존상세+공식검색/제보동선으로 해결하며 예약용 원번호를 본문에 재노출하지 않음.\n관련절/본글실제편집일/기존2출처 재사용으로 좁고 다른5글바이트보존·실패/미실행한계 인계가 분명함.",
+      "evidence": [
+        "/workspace/jpoptoday/src/content/guides.ts:sha256:227f848b70a9a5077f8cc8486dc1998cb4f6ba70cec2e6a469854506af61ee62",
+        "/workspace/docs/content/conflicted-numbers-20261019-0933.md:sha256:34e24908decdc340428a5942fce11a4ca2a7bd9d9cf0fc7a9a5cf6e631a6307b"
+      ]
+    },
+    {
+      "reviewer": "/root/run41_app",
+      "candidate": "/root/run41_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "신규 E2E 5개를 전체 읽었다. 앱 판정·formatter·projection helper를 기대값에 import하지 않고 raw→명시 ledger action/number→전체 업체별 중복 빈도로 conflict와 current/playlist 공식 기대값을 계산한다. Hump Back과 椎名林檎의4ID/8셀·chart28/37은 제가 읽은 실제 모델 집계와 같으며, 실제 동결자료에 한 업체만 conflict인 곡이 없다는 한계를 명시한다.\n3317 ID의 공개 metadata와6634업체를 독립 raw/ledger에 전체 대조하고 frozen3hash/ledger84를 고정한다. 충돌의 숫자·data-copy·공식 배지 부재와 기존 evidence URL/checkedAt/정정사유 보존을 각각 요구한다. 문서는 syntax0과 semantic/browser 미실행을 구분하고 초기 sandbox 실패나 경로 읽기 실패를 통과로 바꾸지 않는다. 실제 전체 실행 결과는 root 게이트로 남아 있다.\nJS-off home/chart100/실제4상세와 dynamic search/favorites를 직접 비교하고 정상 공식·관측·혼합·suppress·unknown을 대조한다. SAM두업체 개별복사·bulk보류, 중첩object/선행0/공백/unresolved ID를 가진 저장원문 불변, 360px 키보드 fallback·focus복귀·44px·overflow·브랜드·noads/noindex를 사용자 흐름으로 방어한다.\n독립 oracle와 assertRow/assertDetail은 새 테스트 파일 안에서 공통화하고 앱 helper에 의존하지 않는다. 실제자료가 제공하지 않는 fixture를 꾸미지 않으며 UI문자열 unit을 중복 생성하지 않았다. 기존2회귀 전제충돌을 root에 인계하고 범위밖 파일은 수정하지 않았으며 문서 스펙 fragment는 실제 Issue41 제목·날짜와 일치한다.",
+      "evidence": [
+        "/workspace/jpoptoday/e2e/conflicted-numbers.spec.ts:sha256:c6ec7a8766b727d9da6291eb7a6acb0333f107b9fc6914ecc832d194d7582acc",
+        "/workspace/docs/engineering/conflicted-numbers-quality-20261019-0933.md:sha256:db951cfa0fd9627f93bda6751f89c4d9ef8186c30908905be75a008b730ddc8b"
+      ]
+    },
+    {
+      "reviewer": "/root/run41_evidence",
+      "candidate": "/root/run41_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "정적 SongRow·동적 row·곡 상세의 업체별 분기 모두 conflict를 먼저 검사해 번호/data-copy/복사 버튼을 만들지 않는다. 공식 문구는 기존 엄격 hasConfirmedNumber를 재사용하며 비충돌 관측 번호는 그대로 복사한다. 최종 상세는 서로 다른 곡/버전을 확정하지 않고 '다른 항목과의 번호 충돌'로 설명한다. 실제 4ID/8셀의 보존된 조회 이력과 충돌 상태를 구분한다.\n인계문서의 세 생성지점·strict 조건·기존 evidence/correction/report 보존이 실제 diff와 일치한다. raw/ledger의 실제 기존 조회 제목·checkedAt·충돌을 직접 읽었으며 문서가 새 조회나 unit/type/browser/CI/배포 성공을 주장하지 않는다. 최초 문구 지적·보완 전 hash와 최종 보완을 보존한다. 이 점수는 읽기 근거와 검증 인계의 적절성을 평가하며 실행하지 않은 런타임 통과를 뜻하지 않는다.\n조회 기록이 있다는 이유로 미해결 충돌 번호를 복사하는 경로를 세 화면 생성 지점에서 닫는다. 색상 외 충돌/재확인 텍스트와 상세의 미수록 비추정·기존 공식 대조 결과/날짜·제보 경로를 남겨 사용자가 보류 이유와 다음 확인 경로를 읽을 수 있다. 한 업체의 확인을 다른 업체로 확대하지 않는다. 실제 360px/키보드 사용성은 root의 별도 실행을 기다린다.\n새 판정 복제나 데이터 변경 없이 기존 browser-safe 엄격 predicate를 세 표시 지점에서 직접 재사용한다. diff는 번호 생성 분기와 관련 안내로 좁고, 저장·URL·검색·clipboard fallback·bulk formatter·CSS의 기존 구현을 유지한다. 분기 문구와 소유 범위·미실행 검증·후속 실행 기록을 인계문서에서 찾을 수 있다.",
+      "evidence": [
+        "/workspace/jpoptoday/src/components/SongRow.astro:sha256:8d5600ca5822f0afe9476ace1ff8cef0d541370382d49469feaf51826078e798",
+        "/workspace/jpoptoday/src/pages/songs/[id].astro:sha256:129476535ca52b34650b10547b01fe33871774bce797b70c2a8fddd6d56aa027",
+        "/workspace/jpoptoday/src/scripts/app.ts:sha256:b8499f1cd1476114083d96d8d0ddb84f440ddadd117dd578870e599764c41110",
+        "/workspace/docs/engineering/conflicted-numbers-20261019-0933.md:sha256:5483619f821bcbcec9a4d44be5b15c14c1ffe2805c87c297bbb21be671ba7ee5"
+      ]
+    },
+    {
+      "reviewer": "/root/run41_evidence",
+      "candidate": "/root/run41_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "앱 표시/확인/export/projection helper를 import하지 않고 raw 번호에 ledger의 명시 정정을 적용한 뒤 전체 중복 빈도로 conflict를 계산한다. 직접 별도 집계한 3317/84/4ID8셀·차트28/37과 일치한다. Hump Back 외 椎名林檎를 놓치지 않으며 전체6634업체의 공개 근거·사유·원번호·상태와 raw identity allowlist를 정확 비교한다. 실제 단일업체 conflict 사례가 없다는 한계도 명시한다.\n실제 8개 충돌 셀의 숫자/data-copy/버튼/공식 배지가 없음을 요구하고 정상·관측·혼합·suppress·unknown을 별도 대조한다. 현재 문서는 syntax diagnostics0와 raw 읽기 계산만 실행했고 semantic type/E2E/배포는 미실행임을 정확히 나눈다. 존재하지 않는 파일 읽기·fixture 탐색 교정도 보존한다. 기존 회귀의 첫 confirm=충돌·가이드 날짜 전제 충돌을 찾아 root에 인계하고 본인 범위 밖 assertion을 임의 수정하지 않았다. 점수는 이 실제 검사 설계/인계의 근거이며 테스트 실행 통과 점수가 아니다.\nSSR home5/chart100/충돌 상세4, 동적 검색·즐겨찾기 및 안전한 실제 개별/bulk clipboard mock을 연결해 사용자 오복사와 상태 불일치를 잡는다. 원문 공백·중첩 object·선행0·미해결 ID 보존, 기존 URL/canonical, Enter/Space/Escape·readonly 전체선택·focus 복귀·44px·360px overflow·palette·광고/크롤러 경계를 검사한다. OS clipboard 실제 허가나 Google 심사 확인으로 확대하지 않는다.\n독립 oracle과 공통 assertRow/assertDetail로 세 렌더 생성 지점의 의미를 함께 보호하고 앱 구현 문자열을 unit으로 복제하지 않는다. 보존 hash·실제 4ID8셀·차트 순위를 명시해 입력이 바뀌면 재검토하도록 한다. 기존 strict predicate의 부정 URL·근거/형식·chart-only 검사는 기존 favorites-export 계약에 남겨 중복 파일을 늘리지 않았다. 원문 링크는 실제 날짜 포함 spec 절과 기존 root 실행 JSON에 연결된다.",
+      "evidence": [
+        "/workspace/jpoptoday/e2e/conflicted-numbers.spec.ts:sha256:c6ec7a8766b727d9da6291eb7a6acb0333f107b9fc6914ecc832d194d7582acc",
+        "/workspace/docs/engineering/conflicted-numbers-quality-20261019-0933.md:sha256:db951cfa0fd9627f93bda6751f89c4d9ef8186c30908905be75a008b730ddc8b"
+      ]
+    },
+    {
+      "reviewer": "/root/run41_quality",
+      "candidate": "/root/run41_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "실제 가이드 diff의 tj-ky-numbers 관련 절은 충돌 항목 번호·개별복사 보류와 미수록 비추정을 정확히 설명한다. Hump Back 원제/두 ID/업체별 과거 제목·시각을 실제 ledger와 대조했으며 같은 곡·버전으로 합치거나 차이가 확정됐다고 쓰지 않는다. 19일은 실제 편집일이고14일 조회와 분리했다.\n본 리뷰자가 git show base 원문과 현재 guides를 별도 Node import해 다른5가이드 전체객체 불변, 새2출처 URL/checkedAt의 ledger일치,2상세URL의 실제 rawID존재를 직접 확인했다. 자료doc의 staging/ledger/source/doc hash와 현재실파일을 대조했다. 새조회·권리·Google승인 주장이 없고 초기EPERM읽기실패를 성공으로 숨기지 않았다.\n충돌 안내를 본 사용자가 두 기존 상세와 과거 공식 근거를 비교하고 현재 업체·기기의 제목/가수/버전을 다시 대조하도록 구체적으로 연결한다. 보류된 번호를 본문에서 예약용값으로 다시 노출하지 않으며 오류제보와 빈번호 비추정 안내가 있다.\npublic 변경은 tj-ky-numbers 객체의 관련절/실제편집일/기존근거2건 재사용으로 제한된다. 원자료·타5글·stable상세주소를 보존하고 자체읽기계산/미실행브라우저·배포를 문서에서 구분한다. 정확한spec anchor와 실행기록 링크가 존재해 후속검증 경계가 명확하다.",
+      "evidence": [
+        "/workspace/jpoptoday/src/content/guides.ts:sha256:227f848b70a9a5077f8cc8486dc1998cb4f6ba70cec2e6a469854506af61ee62",
+        "/workspace/docs/content/conflicted-numbers-20261019-0933.md:sha256:34e24908decdc340428a5942fce11a4ca2a7bd9d9cf0fc7a9a5cf6e631a6307b"
+      ]
+    },
+    {
+      "reviewer": "/root/run41_quality",
+      "candidate": "/root/run41_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "최종 세생성점은 업체별 conflict 우선 분기에서 숫자/button/data-copy를 만들지 않으며 기존 strict hasConfirmedNumber만 공식 라벨/배지/상세표현에 재사용한다. 최종 detail129476...은 다른항목과번호충돌이라고 표현해 곡·버전차이를 확정하지 않는다. evidence/correction/제보/미수록비추정과 nonconflict 문자열은 보존했다.\n본 리뷰자가 수정후3source+doc를 실제 읽고 hash를 확인했다. root baseline-browser.json의 pinnedv046상세·검색에서 conflicttrue인 HumpBack 번호/공식라벨/copy가 동시에노출된 사실과 원자료독립4ID/8셀을 대조해 수정대상을 확인했다. 앱doc는 자체브라우저/타입/CI 미실행을 명시하고 자료동료 문구지적/수정전hash/수정이력을 보존한다. root 최종렌더는 아직별도대기다.\n검색·즐겨찾기·정적차트·상세의 불일치를 같은 보류상태로 통일하고 색상외충돌/재확인텍스트를 제공한다. 공식이력은 계속읽을수있지만 안전한현재복사값과 구분된다. 정상업체/관측번호복사 및 기존저장/URL/제보행동을 보존한다. 실제360px렌더/키보드사용성은 root검증전 완료로주장하지않는다.\n새확인규칙/중복상태를 만들지않고 기존 browser-safe strict predicate를 SSR/동적DOM양쪽에서 재사용한다. 기존업체셀·copy핸들러/storage/filter/history/bulkformatter/globalCSS를 고치지않는 작은범위이며 담당문서는4실제충돌ID·미실행검증·최종문구보완이력으로추적가능하다.",
+      "evidence": [
+        "/workspace/jpoptoday/src/components/SongRow.astro:sha256:8d5600ca5822f0afe9476ace1ff8cef0d541370382d49469feaf51826078e798",
+        "/workspace/jpoptoday/src/pages/songs/[id].astro:sha256:129476535ca52b34650b10547b01fe33871774bce797b70c2a8fddd6d56aa027",
+        "/workspace/jpoptoday/src/scripts/app.ts:sha256:b8499f1cd1476114083d96d8d0ddb84f440ddadd117dd578870e599764c41110",
+        "/workspace/docs/engineering/conflicted-numbers-20261019-0933.md:sha256:5483619f821bcbcec9a4d44be5b15c14c1ffe2805c87c297bbb21be671ba7ee5"
+      ]
+    }
+  ],
+  "managerValidation": {
+    "actual": "working unit332/332; type26 files/0 errors; pinned baseline browser reproduced bug; first artifact failure preserved",
+    "pending": "updated artifact/full browser/clean sameSHA CI/deployment/recovery"
+  },
+  "tieBreak": "All final artifacts tied40/40. Predeclared quality,evidence,app; no unsupported quality ranking. Select quality for rotation; physical deletion unsupported and not claimed.",
+  "evaluation": {
+    "totals": {
+      "/root/run41_evidence": 40,
+      "/root/run41_app": 40,
+      "/root/run41_quality": 40
+    },
+    "lowest": [
+      "/root/run41_evidence",
+      "/root/run41_app",
+      "/root/run41_quality"
+    ],
+    "maximum": 40
+  }
+}

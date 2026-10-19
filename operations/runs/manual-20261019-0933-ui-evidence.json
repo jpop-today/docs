@@ -1,0 +1,69 @@
+{
+  "startedAt": "2026-10-19T00:54:27.852Z",
+  "scope": "working preview; clean same-SHA remote gates separate",
+  "checks": [
+    {
+      "name": "after-detail-mobile",
+      "route": "/songs/jpop-playlist-hump-back-%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88-29d81a757e/",
+      "w": 360,
+      "js": true,
+      "h1": "拝啓、少年よ",
+      "overflow": false,
+      "screenshot": "/workspace/docs/engineering/design/conflicted-numbers-20261019-0933/after-detail-mobile.png"
+    },
+    {
+      "name": "after-search-mobile",
+      "route": "/search/?q=Hump%20Back",
+      "w": 360,
+      "js": true,
+      "h1": "오늘 부를 JPOP를 찾아보세요.",
+      "overflow": false,
+      "screenshot": "/workspace/docs/engineering/design/conflicted-numbers-20261019-0933/after-search-mobile.png"
+    },
+    {
+      "name": "after-detail-desktop",
+      "route": "/songs/jpop-playlist-hump-back-%E6%8B%9D%E5%95%93-%E5%B0%91%E5%B9%B4%E3%82%88-29d81a757e/",
+      "w": 1440,
+      "js": true,
+      "h1": "拝啓、少年よ",
+      "overflow": false,
+      "screenshot": "/workspace/docs/engineering/design/conflicted-numbers-20261019-0933/after-detail-desktop.png"
+    },
+    {
+      "name": "after-guide-js-off-mobile",
+      "route": "/guides/tj-ky-numbers/",
+      "w": 360,
+      "js": false,
+      "h1": "TJ와 금영, 같은 곡인데 번호가 다를 때",
+      "overflow": false,
+      "screenshot": "/workspace/docs/engineering/design/conflicted-numbers-20261019-0933/after-guide-js-off-mobile.png"
+    }
+  ],
+  "errors": [],
+  "success": true,
+  "finishedAt": "2026-10-19T00:54:34.206Z",
+  "buildInfo": {
+    "schemaVersion": 2,
+    "target": "preview",
+    "sourceSha": "1fd6ece7afb4ea7ebddf318f3ef6fa9dafa57951",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "97c906d17795a94be30a546332366b819f2bc6e0eded600ce75a9643304d4123",
+    "ledgerSha256": "5275c44ef1cd30a57b0cf633be33be16d5be500ed8ee4446012cda54be939370",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": true
+  },
+  "visuallyReadByRoot": [
+    "after-detail-mobile.png",
+    "after-search-mobile.png"
+  ],
+  "screenshotHashes": {
+    "after-detail-desktop.png": "68557aa92535fdfa5284e125c6858b24f5676458059b7c4adec03b7c57f4950a",
+    "after-search-mobile.png": "72fe9d50e3f9db70dc4a4b1f0d00ec0c15a305d5d9c1facce688d8363b32612f",
+    "after-detail-mobile.png": "bf9b75863534595174abff2389fe0e19e7d61424940f8c7b4a62e8d48b8a7d6f",
+    "after-guide-js-off-mobile.png": "32b0c33f4e2491735cc4441ee1ca51c1d224a79e1f86e0be1133d4407663f1d9",
+    "before-detail-mobile.png": "6331f98bb3a0d55672fae0c595a4dd8a739307488560a3d5991dd3e0b67e5346",
+    "before-search-mobile.png": "2f36687744a71eba622bfd242e9bd7182adf88c4ecdf422c1c9749bd55dea048"
+  }
+}

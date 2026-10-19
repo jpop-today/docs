@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-19T00:58:24.836993+00:00",
+  "pr": 42,
+  "url": "https://github.com/jpop-today/jpoptoday/pull/42",
+  "head": "dc73505895a689fe50fd6e6b5b8830092e7e3ba3",
+  "mergeSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+  "merged": true,
+  "attachment": "actual tool succeeded",
+  "beforeMergeCI": "manual-20261019-0933-head-ci.json"
+}
