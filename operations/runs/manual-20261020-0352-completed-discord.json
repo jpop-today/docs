@@ -1,0 +1,15 @@
+{
+  "runId": "manual-20261020-0352",
+  "workflow": "discord.yml",
+  "runIdGitHub": 39347541026,
+  "jobId": 118383673721,
+  "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "state": "sent",
+  "attempts": 1,
+  "sentAt": "2026-10-20T00:25:27.9502967Z",
+  "selectedActualResultLines": [
+    "2026-10-20T00:25:27.5707943Z Report prepared: completed (2026-10-20); delivery not yet confirmed.",
+    "2026-10-20T00:25:27.9502967Z Discord notification sent (1 attempt)."
+  ],
+  "scope": "Existing completed-mode workflow read saved 2026-10-20 main report; actual sender line, no secret values or whole environment retained."
+}

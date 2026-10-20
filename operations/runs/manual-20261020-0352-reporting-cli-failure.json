@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-20T00:20:16.737267+00:00",
+  "action": "gh pr edit docs26 --body-file",
+  "result": "failed: GraphQL deprecated Projects(classic) field repository.pullRequest.projectCards",
+  "scope": "PR metadata update only; gh pr ready separately succeeded. Body corrected with connected GitHub REST update tool; no product change or duplicate PR.",
+  "additionalObservedReadFailure": {
+    "action": "gh actions runs read for report-head",
+    "exitCode": 1,
+    "cause": "not established; raw stderr suppressed by helper",
+    "fallback": "connected GitHub read succeeded; three success and one app in_progress observed"
+  },
+  "rootReceiptPatchError": "apply_patch rejected delete+add same file; no change applied. Root then wrote the intended live CI snapshot using quoted JSON argument."
+}

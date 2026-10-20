@@ -1,7 +1,7 @@
 {
   "runId": "manual-20261020-0352",
   "issue": 44,
-  "state": "product_completed_reporting",
+  "state": "product_completed_reported",
   "startedAt": "2026-10-19T18:54:20.093376+00:00",
   "timezone": "Asia/Seoul",
   "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
@@ -54,7 +54,11 @@
     "safe Actions CF binding"
   ],
   "coordination": "Continued same Issue44 under repeated prompts; no new initial team. Logical roster preserved; runtime list returned root only after completed workers.",
-  "next": "Merge docs and report-only PR, confirm main CI and send identical saved completion through existing Discord workflow; receipt recorded separately.",
+  "next": [
+    "Issue6 미검토 공식근거·제목/가수/버전과 자체 콘텐츠·선곡 동선, 차트 갱신과 실패 last-good 보존을 이어 검토한다.",
+    "Issue15 안전한 Actions CFbinding과 실제 자동배포 후속을 운영자 설정과 연계한다. 현재 managed 배포와 구분한다.",
+    "운영자가 Google 계정/소유권·신청/실제 통지·본인정보/약관/법적 동의, 자료권리·문의 실수신·ads.txt 실제 계정 일치를 확인한다."
+  ],
   "coordinationComment": {
     "id": 6274829131,
     "at": "2026-10-19T18:54:37Z"
@@ -151,5 +155,72 @@
     "artifactEach": 3347,
     "localReproPerTarget": 2,
     "postrestoreURLs": 10
+  },
+  "sourceReport": {
+    "checkedAt": "2026-10-20T00:22:48.262986+00:00",
+    "pr": 46,
+    "headSha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+    "reportMain": "4d4c021e668d49c39057e76558c21b30735b8d98",
+    "productMain": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "changedFromProduct": [
+      "reports/daily/2026-10-20.json",
+      "reports/runs/manual-20261020-0352.json"
+    ],
+    "productionRedeployed": false,
+    "scope": "R preserves all product code; operating/tag SHA remains M"
+  },
+  "completedReportingAt": "2026-10-20T00:26:31.650708+00:00",
+  "reportMainCI": {
+    "phase": "report-main",
+    "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+    "runs": [
+      {
+        "id": 39347238321,
+        "name": "contracts",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 39347238413,
+        "name": "app",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "allSuccess": true
+  },
+  "notification": {
+    "runId": "manual-20261020-0352",
+    "workflow": "discord.yml",
+    "runIdGitHub": 39347541026,
+    "jobId": 118383673721,
+    "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+    "state": "sent",
+    "attempts": 1,
+    "sentAt": "2026-10-20T00:25:27.9502967Z",
+    "selectedActualResultLines": [
+      "2026-10-20T00:25:27.5707943Z Report prepared: completed (2026-10-20); delivery not yet confirmed.",
+      "2026-10-20T00:25:27.9502967Z Discord notification sent (1 attempt)."
+    ],
+    "scope": "Existing completed-mode workflow read saved 2026-10-20 main report; actual sender line, no secret values or whole environment retained."
+  },
+  "documentation": {
+    "pr": 26,
+    "scope": "Final evidence in this reviewable PR; expected-head merge result is recorded in GitHub PR metadata and Issue9 completion comment, avoiding recursive self-SHA commits"
+  },
+  "remaining": {
+    "technical": "preparing",
+    "account": "unknown",
+    "application": "unknown",
+    "approval": "unknown",
+    "adsTxt": {
+      "status": 200,
+      "bytes": 59,
+      "googleSellerRows": 1,
+      "accountMatch": "unknown; publisher value not retained",
+      "scope": "Client observation does not establish Google crawler access or operator account match"
+    }
   }
 }

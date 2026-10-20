@@ -1,0 +1,9 @@
+{
+  "run": 39346358401,
+  "job": 118379796816,
+  "sourceWorkflowRun": 39345873779,
+  "selected": [
+    "2026-10-20T00:13:35.1560907Z Report prepared: event (2026-10-20); delivery not yet confirmed.",
+    "2026-10-20T00:13:35.5177213Z Discord notification sent (1 attempt)."
+  ]
+}

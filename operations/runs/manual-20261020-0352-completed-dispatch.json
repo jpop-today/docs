@@ -1,0 +1,14 @@
+{
+  "acceptedAt": "2026-10-20T00:25:21.443728+00:00",
+  "workflow": "discord.yml",
+  "sourceReportMain": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "payload": {
+    "ref": "main",
+    "inputs": {
+      "mode": "completed",
+      "report_date": "2026-10-20"
+    }
+  },
+  "accepted": true,
+  "scope": "Single completion dispatch after report main CI success; saved core matches source/docs. Actual delivery observed separately."
+}

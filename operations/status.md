@@ -16,6 +16,10 @@ AdSense: 실제 계정·신청·승인은 미확인입니다. 운영자의 권�
 
 [릴리스](releases/v0.4.8-20261020.md) · [실행](runs/manual-20261020-0352.json) · [20일보](daily/2026-10-20.json) · [정책게이트](production-content-gate-v048-20261020.md)
 
+## 전달 마감 · 2026-10-20
+
+최종 보고 PR46/main R `4d4c021e668d49c39057e76558c21b30735b8d98`와 head4/main2 CI success를 확인했다. 관리자 완료 Discord39347541026/job118383673721는 2026-10-20T00:25:27.9502967Z actualsent1attempt다. [송신 영수증](runs/manual-20261020-0352-completed-discord.json)·[최종 인계](runs/manual-20261020-0352-completed-handoff.json)·[보고 SHA](runs/manual-20261020-0352-source-report.json)·[최종 API](runs/manual-20261020-0352-final-production-api.json)·[보고 뒤 strict27/1](runs/manual-20261020-0352-delivery-production-http.json)을 따른다. 문서 전달은 본 PR26이며 실제병합SHA는 GitHub PR metadata/Issue9 완료댓글에서 확인한다. R은 제품M과 reports두JSON만 다르며 재배포하지 않았다. 소스·일일보의 pre-delivery metadata와 위 실제송신을 구분한다.
+
 # 직전 v0.4.7 완료 이력
 
 최신 제품 완료: v0.4.7 / 제품·태그 M `88aa4dd8323defb93c8da09cb9b5569473d922ca` / todayjpop·jpop.today `3ad0bb17-2331-4192-b02a-23645ff5e02b`. 충돌4개ID/8업체의 번호 표시·개별 복사·잘못된 공식 상태를 세 생성 지점에서 보류하고 TJ/금영 가이드의 기존 Hump Back 조회 근거와 현재 보류를 연결했다. raw/ledger84·3317ID·카탈로그 bytes·기존URL/storage·원래 gradient/palette는 보존했다. 새 조회/권리/Google 결과는 만들지 않았다.
