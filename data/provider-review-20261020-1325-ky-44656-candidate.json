@@ -1,0 +1,14 @@
+{
+  "artist": "YOASOBI",
+  "checkedAt": "2026-10-20T04:27:30.847513Z",
+  "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44656",
+  "number": "44656",
+  "provider": "ky",
+  "responseBytes": 54281,
+  "responseSha256": "ad1910655fdda3109a8ecb0bd749aec4f234a6e48183a8c3a1f77378ad1e8b41",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "夜に駆ける",
+  "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44656",
+  "verification": "unreviewed"
+}

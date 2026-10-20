@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-20T12:42:30.146336+00:00",
+  "runId": "manual-20261020-1325",
+  "productSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "tag": "v0.4.9",
+  "release": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.9",
+  "productionDeployment": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+  "reportPR": 50,
+  "reportMainSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "reportCI": {
+    "headChecks": 4,
+    "mainChecks": 2,
+    "allSuccess": true
+  },
+  "docsPR": 27,
+  "docsFinalSha": "Use actual merged PR metadata and final Issue9 comment; this receipt precedes its own Git commit.",
+  "completedDiscord": {
+    "checkedAt": "2026-10-20T12:40:46.074Z",
+    "run": 39423909000,
+    "job": 118631496994,
+    "conclusion": "success",
+    "state": "sent",
+    "reportMainSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+    "checkoutEvidence": [
+      "2026-10-20T12:39:10.4188740Z e52f0566b13bb7879e4c44eed3dd81c326956f70"
+    ],
+    "sender": [
+      "2026-10-20T12:39:11.3629902Z Discord notification sent (1 attempt)."
+    ],
+    "savedCore": "manual-20261020-1325-completion-core.json",
+    "payloadCheck": "manual-20261020-1325-core-payload-check.json",
+    "scope": "Actual existing notification workflow single completed dispatch, exact report R checkout and dated saved core. Secret values, destination and body not retained."
+  },
+  "finalProductionHTTP": "manual-20261020-1325-delivery-production-http.json",
+  "finalProductionAPI": "manual-20261020-1325-delivery-production-api.json",
+  "actualSite": "https://jpop.today",
+  "sourceReportVsProduct": [
+    "reports/daily/2026-10-20.json",
+    "reports/runs/manual-20261020-1325.json"
+  ],
+  "redeployedReport": false,
+  "initialReviews": 6,
+  "originalReplacementReviews": 2,
+  "additionalR2ReadEvaluations": 5,
+  "initialTotals": [
+    40,
+    40,
+    38
+  ],
+  "excluded": "/root/run47_quality",
+  "replacement": "/root/run47_replacement",
+  "physicalDeletion": false,
+  "schedules": "Existing09:00/hourly schedules were not modified; their enabled state was not newly verified in this run.",
+  "adsense": "technical preparing; account/application/approval unknown; no ads clicks or legal/account consent actions",
+  "scope": "Actual product/release/report/notification complete; final docs merge results and latest repository heads verified separately."
+}

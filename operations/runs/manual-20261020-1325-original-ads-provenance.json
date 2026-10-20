@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-20T07:32:26.226538+00:00",
+  "originalRepository": "kim75503/todayjpop",
+  "refRead": "dev",
+  "originalBlob": "aeee54215b01df4256bd69a3eaec9c95226d0850",
+  "originalPath": "ads.txt",
+  "bytes": 59,
+  "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+  "googleSellerRows": 1,
+  "valuesLogged": false,
+  "accountMatch": "unknown; preserve original public file byte-for-byte, no fabricated publisher identity or approval",
+  "scope": "Actual public Git blob read, not an operator account or Google approval result.",
+  "immutableCommit": "744b90ba1c99b60134dcc57e347b408f61557cd0",
+  "commitTree": "9d7cbe9c0b65203fb73431604a3f45d784925ecb",
+  "restorationSourcePath": "public/ads.txt"
+}

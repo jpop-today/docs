@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-20T12:31:11.298658+00:00",
+  "scope": "Actual modified and new final docs before delivery; local target existence only, not all remote links or anchors",
+  "files": 28,
+  "parsedJSON": 21,
+  "localLinks": 190,
+  "broken": [],
+  "publisherValueAbsent": true,
+  "reportPR": 50,
+  "reportHead": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+  "attachment": "Native attach returned pull_request URL successfully for PR50; actual subsequent attachments are in artifact-attachments receipt; earlier no-result claims apply only to prior attempts"
+}

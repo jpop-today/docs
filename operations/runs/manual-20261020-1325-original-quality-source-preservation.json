@@ -1,0 +1,12 @@
+[
+  {
+    "file": "/tmp/jpop47-original-chart-both-evidence.test.mjs",
+    "sha256": "7ce6bdc86b89dbbb242f3a3ee31c1626af49c2cc4064ecc76b0da2d691a4502f",
+    "scope": "Reconstructed the exact earlier read source and verified against its independently recorded whole-file hash. No refactor-before backup was created."
+  },
+  {
+    "file": "/tmp/jpop47-original-chart-both.spec.ts",
+    "sha256": "c4cde5a1af4a73ed23a22b2a7acfd9fa7f38eb3f18f52a7dea6357aef0a3f294",
+    "scope": "Reconstructed the exact earlier read source and verified against its independently recorded whole-file hash. No refactor-before backup was created."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "artist": "あいみょん",
+  "checkedAt": "2026-10-20T04:27:31.646254Z",
+  "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28927&strWord=Y",
+  "number": "28927",
+  "provider": "tj",
+  "responseBytes": 49210,
+  "responseSha256": "6bd310807c19bfda1bdaa8ed274cb36baff38a4ddc082e020b55de7696234ca9",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "マリーゴールド",
+  "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28927&strWord=Y",
+  "verification": "unreviewed"
+}

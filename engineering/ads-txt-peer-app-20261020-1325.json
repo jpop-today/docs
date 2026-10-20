@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "revision": "r2",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/47",
+  "reviewer": "/root/run47_app",
+  "reviewedAt": "2026-10-20T12:07:05.131031+00:00",
+  "sourceBase": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "branch": "codex/issue47-ads-txt",
+  "sourceStatus": "Read reviewed file bytes; local validation receipts were dirty M1; root subsequently reported clean candidate e531ccb8c82c4b95f7360b8626f668456c262aa3 committed/pushed with draft PR49; final CI/deploy pending. This reviewer did not independently re-query Git status or verify the reported clean candidate.",
+  "writeScope": "Only docs/engineering/ads-txt-peer-app-20261020-1325.json; all other files read-only; no tests/browser/server/build/Git/package/CI/deployment/spawn performed by this reviewer",
+  "readEvidenceSha256": {
+    "jpoptoday/public/ads.txt": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+    "jpoptoday/scripts/finalize-artifact.mjs": "e491a5333cd28cc280e57ad05ef06a31e4732811ab4db25f85fa08fa019e444b",
+    "jpoptoday/scripts/verify-dist.mjs": "558e68ac9a836e6e5c4c3710267f891dcba0e7e1a5a79bbd58bdd52d79b0d2c9",
+    "jpoptoday/scripts/verify-deployment.mjs": "9282917772e865d5f8b4f9be1d5bd44a9b8dfd700abba7ce40f4a57d6f8568fe",
+    "jpoptoday/tests/deployment-healthcheck.test.mjs": "df1ac10b6703fee547cd12ee4db5c15daeddd07e61f55cf6505623abee22a740",
+    "jpoptoday/tests/ads-txt-artifact.test.mjs": "49c9893e93fafbaf59031912108615f7753c3a3dc461850406487c45ff721e07",
+    "jpoptoday/e2e/ads-txt.spec.ts": "b472430d614f7d38254b1a769fe28b1cbaafa9e6493bda508dce357ef76c707a",
+    "jpoptoday/releases/v0.4.9.md": "86b33553f89fa51ae6c99c66cd805ccf40b45fb8d5d990708df6cc902cee1a95",
+    "docs/engineering/ads-txt-quality-20261020-1325.md": "5b7fb50c61a6c2775a2228ab1ba517701a934dd2cac4e74acc8ff7a6d7b26efb",
+    "docs/data/ads-txt-restoration-20261020-1325.md": "7bfb2334ac29d2b4580f140231908016d032e710c72e482d7c8f56ee17513b3b",
+    "docs/operations/runs/manual-20261020-1325-r2-working-validation.json": "1dd81579026d705e16a96e075b886fde20fca5b1e096b247558eb294eb11fc0f",
+    "docs/operations/runs/manual-20261020-1325-postrestore-site.json": "9e20e150513fdaadc4ea2c35a69a5e55b5ccc716fc7f4fda3f7534348c170b5b",
+    "docs/operations/runs/manual-20261020-1325-ads-txt-recheck.json": "446ac0b297a07cd6094a4afc8046daeae6e6b0ecc5c90e35c4a73993911b3931",
+    "docs/operations/runs/manual-20261020-1325-original-ads-provenance.json": "ebdbc371b62752a8a72f43cf2e9069ac44fa548565c538f1ccdc074c1e00ea4d",
+    "docs/operations/runs/manual-20261020-1325-r2-initial-artifact-failure.log": "d19f1ee6ba9bf40c3029f355fa0fb4bc364eddd0df7e98ffcbaae9db6be6ffa7",
+    "docs/engineering/chart-both-peer-app-20261020-1325.json": "70bf100763f799239b08e550fe4b2a5b7204659f44a3c8f43dd19a6e92646756",
+    "docs/engineering/chart-both-replacement-peer-app-20261020-1325.json": "9ca9156dd98e9a0bbee65dbb540464b7497a40f1b2e96a4a5f188808638dd10d",
+    "/tmp/jpop47-r2-working-unit.log": "ead553641732a768d22a16173fa45d8c9260ace02098641e19e77e171bb29dfa",
+    "/tmp/jpop47-r2-working-type.log": "4fd209aaaf6b9daee0adda1713d07ca7f12cf13ba8fcc14a2af7c0ca7976d5a6",
+    "/tmp/jpop47-r2-healthcheck-unit.log": "5178e0a745114e1e004058d953f3155f46d29537bffa944aab8a3276c5ec1be5",
+    "/tmp/jpop47-r2-working-artifact.log": "b6b8be9d35514961771aa3a020c6defc1baadc03f05ac0a149f3bc44ee9c0eea",
+    "/tmp/jpop47-r2-working-production-artifact.log": "d19f1ee6ba9bf40c3029f355fa0fb4bc364eddd0df7e98ffcbaae9db6be6ffa7",
+    "/tmp/jpop47-r2-working-production-artifact-fixed.log": "359527bdc5146964c06cc76451471d0bf931f37aa4ae6604e052079e84d2cea6",
+    "/tmp/jpop47-r2-replacement-ads-artifact.log": "edad5cebf65d08110c13ed436ebf19405c4bfe62ae23c5ca4834b8bfe649097f",
+    "/tmp/jpop47-r2-replacement-ads-artifact-final.log": "9a2f9e5c969b65aab8b1ee365509cf372b99b45410d23a4af2276716538c4ded",
+    "/tmp/jpop47-r2-replacement-ads-types.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/tmp/jpop47-r2-preview-browser.log": "8b407af068789afe3680f02fd1f03532634d1add1ee6af37ab1f3e66745abf55",
+    "/tmp/jpop47-r2-production-browser.log": "c2d4670e7e3eafe2179641106b933af3bde468fe98283925fc83c884b2dcf6b2",
+    "/tmp/jpop47-r2-production-route-proof.json": "e6ffd503d8ae8ad7aa647487929f005af6b465090c2126405e70b1a79c8ae3d8",
+    "/tmp/jpop47-r2-preview-browser-results/.last-run.json": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "/tmp/jpop47-r2-production-browser-results/.last-run.json": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+  },
+  "reviewerReadChecks": {
+    "sellerBytes": 59,
+    "sellerSha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+    "originalGitBlobSha1": "aeee54215b01df4256bd69a3eaec9c95226d0850",
+    "publisherValueOrBodyPrinted": false,
+    "checkedLogsContainPublisherValue": false,
+    "stableProductHashesUnchanged": {
+      "jpoptoday/src/pages/chart.astro": "15ff7494c168473389381fb6655ef34b00af420e84cece092fbec33d652ad2f0",
+      "jpoptoday/src/content/guides.ts": "0d73f37804dec248e5d4d06ebdddde55990c0fd5e20049ffbb3d3e40c1fbc116",
+      "jpoptoday/data/chart-snapshot.json": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+      "jpoptoday/src/styles/global.css": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889"
+    },
+    "originalAppPeerAndReplacementPeerHashesUnchanged": true,
+    "countsReadFromActualLogs": {
+      "fullUnitPass": 524,
+      "typeErrors": 0,
+      "healthcheckNodesPass": 81,
+      "artifactInitialTestPass": 18,
+      "artifactInitialTestFail": 1,
+      "artifactFinalNodesPass": 23,
+      "previewTargetedE2EPass": 5,
+      "productionTargetedE2EPass": 5
+    }
+  },
+  "pipelineReadFindings": [
+    {
+      "file": "jpoptoday/scripts/finalize-artifact.mjs",
+      "line": 7,
+      "finding": "Only preview removes dist/ads.txt; no source mutation or change to existing crawler policy generation."
+    },
+    {
+      "file": "jpoptoday/scripts/verify-dist.mjs",
+      "line": 56,
+      "finding": "Walk allowlist accepts only exact root ads.txt; arbitrary or nested text paths remain disallowed and symbolic links remain rejected."
+    },
+    {
+      "file": "jpoptoday/scripts/verify-dist.mjs",
+      "line": 370,
+      "finding": "Production requires nonempty bounded Buffer bytes exactly equal to the source reference and a single strict seller row; preview requires file absence. Integration at404 reads actual artifact presence and public reference."
+    },
+    {
+      "file": "jpoptoday/scripts/verify-deployment.mjs",
+      "line": 291,
+      "finding": "A production artifact containing the file adds /ads.txt; an older frozen artifact without it stays recoverable. Preview artifact containing it is rejected."
+    },
+    {
+      "file": "jpoptoday/scripts/verify-deployment.mjs",
+      "line": 329,
+      "finding": "Actual HTTP must return200, no redirect and text/plain. Resource loop374 plus matchBytes350 requires exact bytes; HTML-only email normalization cannot modify plain seller bytes."
+    },
+    {
+      "file": "jpoptoday/releases/v0.4.9.md",
+      "line": 9,
+      "finding": "Release prose separates the first404 finding, original-byte restoration and final deployment receipts; no account-match/approval/activation claim."
+    }
+  ],
+  "reviews": [
+    {
+      "candidate": "/root/run47_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "vote": "accept",
+      "blockingFindings": [],
+      "criteriaEvidence": {
+        "correctness": [
+          {
+            "file": "docs/data/ads-txt-restoration-20261020-1325.md",
+            "line": 7,
+            "reason": "Separates ten ordinary200 routes from the same receipt ads404, and separately identifies four404 rechecks. Does not infer cause/time/Googlebot state."
+          },
+          {
+            "file": "docs/data/ads-txt-restoration-20261020-1325.md",
+            "line": 17,
+            "reason": "Immutable commit/tree/blob chain,59bytes and SHA256 match original provenance receipt and reviewer local Git-blob hash calculation."
+          }
+        ],
+        "evidence": [
+          {
+            "file": "docs/data/ads-txt-restoration-20261020-1325.md",
+            "line": 24,
+            "reason": "Documents actual independent commit/tree GET timestamps and links while avoiding seller body fetch or public values. Reviewer cross-checked root immutable provenance receipt and local blob identity, not a new GitHub GET."
+          },
+          {
+            "file": "docs/data/ads-txt-restoration-20261020-1325.md",
+            "line": 42,
+            "reason": "All three listed persistent receipt hashes match the files read by this reviewer."
+          }
+        ],
+        "value": [
+          {
+            "file": "docs/data/ads-txt-restoration-20261020-1325.md",
+            "line": 32,
+            "reason": "States a concrete production200/plain/original-bytes and preview404/noindex/noads target, addressing the actual missing seller file instead of treating general site health as success."
+          },
+          {
+            "file": "docs/data/ads-txt-restoration-20261020-1325.md",
+            "line": 28,
+            "reason": "Makes the remaining operator account/ownership/legal/Google decision boundary explicit; original-byte restoration is not advertising activation."
+          }
+        ],
+        "maintainability": [
+          {
+            "file": "docs/data/ads-txt-restoration-20261020-1325.md",
+            "line": 34,
+            "reason": "Pins old-release recovery to its own artifact and preserves prior observations and six-plus-two reviews. Stable links and hashes allow later checks without publishing seller contents."
+          }
+        ]
+      },
+      "limitations": [
+        "The reviewer did not repeat provider/Google/account or GitHub API calls. Independent immutable commit/tree GETs are the evidence role documented observation; local byte/blob identity and the root provenance receipt were checked here.",
+        "No final r2 clean-SHA CI,external preview,production recovery or final HTTP success is established by this document. Those remain root gates."
+      ]
+    },
+    {
+      "candidate": "/root/run47_replacement",
+      "role": "r2 quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "vote": "accept",
+      "blockingFindings": [],
+      "criteriaEvidence": {
+        "correctness": [
+          {
+            "file": "jpoptoday/tests/ads-txt-artifact.test.mjs",
+            "line": 20,
+            "reason": "Pins original byte length/hash and seller format independently from the target function; accepts unchanged buffers and rejects missing,modified,truncated,extended,duplicate and HTML variants."
+          },
+          {
+            "file": "jpoptoday/tests/ads-txt-artifact.test.mjs",
+            "line": 52,
+            "reason": "Preview accepts only undefined file absence, rejects null,empty file and original seller file without loosening production reference checks."
+          },
+          {
+            "file": "jpoptoday/e2e/ads-txt.spec.ts",
+            "line": 10,
+            "reason": "Actual build target selects production200/plain/exact59byte/hash versus preview404/noindex/no seller. Redirects are disabled and responses never become assertion body values."
+          },
+          {
+            "file": "jpoptoday/tests/deployment-healthcheck.test.mjs",
+            "line": 61,
+            "reason": "Root HTTP cases add exactly one resource, reject stale bytes/404/wrong MIME and verify diagnostics exclude the seller value; old-artifact/preview cases remain separate at92."
+          }
+        ],
+        "evidence": [
+          {
+            "file": "docs/engineering/ads-txt-quality-20261020-1325.md",
+            "line": 22,
+            "reason": "Initial18pass/1fail preview-null test assumption is honestly separated from root implementation failure; original and final23pass logs were read and hashed."
+          },
+          {
+            "file": "docs/engineering/ads-txt-quality-20261020-1325.md",
+            "line": 37,
+            "reason": "Actual preview5/5 and production5/5 logs and dedicated .last-run files agree. Local production route proof is200/plain/59bytes/exact hash and dirty M1; no clean-SHA or external claim."
+          },
+          {
+            "file": "docs/engineering/ads-txt-quality-20261020-1325.md",
+            "line": 45,
+            "reason": "Root old-allowlist rejection is preserved in the persistent failure log identical to original temporary bytes, followed by exact-root allowlist fix and actual3348-file production artifact success."
+          }
+        ],
+        "value": [
+          {
+            "file": "jpoptoday/e2e/ads-txt.spec.ts",
+            "line": 18,
+            "reason": "Guards the actual discovered deployment gap that ordinary chart/search200 routes missed, and prevents preview leakage without requesting/clicking ads."
+          },
+          {
+            "file": "docs/engineering/ads-txt-quality-20261020-1325.md",
+            "line": 39,
+            "reason": "New ads1 runs alongside unchanged chart4 in each target, protecting original100rows,strict intersection,ID/URL/JS-off/keyboard/storage flows while completing the operational handover."
+          }
+        ],
+        "maintainability": [
+          {
+            "file": "jpoptoday/e2e/ads-txt.spec.ts",
+            "line": 8,
+            "reason": "New test alone disables trace to keep seller bytes out of failure artifacts; existing chart tracing remains intact. Hash/boolean/length assertions avoid value disclosure."
+          },
+          {
+            "file": "jpoptoday/tests/ads-txt-artifact.test.mjs",
+            "line": 14,
+            "reason": "Small source-only tests exercise the exported gate, preserve buffers and use safe rejection diagnostics without extra framework/runtime state."
+          },
+          {
+            "file": "docs/engineering/ads-txt-quality-20261020-1325.md",
+            "line": 43,
+            "reason": "Final code differs from earlier preview-tested version only by trace-off; this coverage timing is explicit rather than claiming final-byte preview execution. Root must run final58/target same-SHA gates."
+          }
+        ]
+      },
+      "limitations": [
+        "New source-only test exercises verifyAdsTxt, not the whole artifact walk. Exact-root allowlist integration is supported by code review and root actual full artifact execution; no generic filesystem-attack coverage is claimed.",
+        "Preview targeted5 ran before trace-off-only source change; final production5 ran current code. Final current-code two-target58,clean same-SHA CI,remote preview,production,recovery and Release are not completed by this role.",
+        "Single local Chromium/server and synthetic HTTP fixtures do not prove Google crawler access,operator account match,legal consent or AdSense approval."
+      ]
+    }
+  ],
+  "decisionBoundary": "Two r2 accept reviews,20/20 each,do not overwrite original six plus replacement two reviews or recompute prior active-roster rankings. Root retains Git/CI/deployment/Release authority and must satisfy final same-SHA gates."
+}

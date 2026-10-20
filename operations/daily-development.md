@@ -127,3 +127,18 @@ root는 일일 보고를 Issue#9와 PR/릴리스에서 찾을 수 있게 연결�
 소스 discord-report/release workflow와보고/송신기 구현을병합했고 [v0.2.0](https://github.com/jpop-today/jpoptoday/releases/tag/v0.2.0), [v0.2.1](https://github.com/jpop-today/jpoptoday/releases/tag/v0.2.1)을 실제게시했다. Actions 관리자보고와Release알림 실제sent를확인했다. 클라우드envmissing과ActionsSecret구성은구분하며 [Discord운영](discord-setup.md)을따른다. 오전Actionscron은설정했고단독cron실행/정시송신은아직미관측이다.
 
 전일과오늘실제리뷰6개씩·교체도구결과·개선/실패/후속은 [13일](daily/2026-10-13.md), [14일](daily/2026-10-14.md) 및각평가JSON에기록한다. scripts/build-report.mjs가실제schema/phase와평가형태를검증하고root가파일·점수/이유의의미를직접확인한다. 캡처3개는docs영속상대파일로보존했으며, 임시독립감사전체와핵심영속회귀의재현범위는 [재현안내](../engineering/reproduce-daily-qa.md)에구분한다.
+
+
+## 2026-10-20 · 추가 독립 실행의 팀·검증·보고
+
+보관한 차트에서 TJ·금영 모두 확인된27곡을 JavaScript 없이 펼쳐 볼 수 있습니다. 공식7근거를 추가해 직전36곡·67번호에서40곡·74번호로 확인 범위를 늘리고 차트 가이드를 보강했습니다. 발견한 ads.txt 404는 원본59바이트 복원과 운영 응답 검사로 보완했습니다.
+
+검증: 단위524·타입오류0, 같은 SHA CI58+58·실제 preview58/운영58, preview3347·production3348파일 두 번 재현, 실제 복구27/1→재적용28/2과 재적용 뒤10URL·ads.txt200/원본일치를 통과했습니다.
+
+협업·실패: 실제6평가40/40/38로 품질 담당을 교체했습니다. 검증 누락5건을 보완해 감사68검사·후속2평가를 수용했고, ads.txt 보완도 독립 읽기평가와 반례 검사로 확인했습니다. 첫 실패·사용량 중단·원소스는 보존했습니다.
+
+예약·운영: 매일09시/hourly 기존 예약은 변경하지 않았습니다. Actions CFbinding은 미설정이며 관리형 환경으로 배포했습니다.
+
+AdSense: 실제 계정·신청·승인은 미확인입니다. 운영자의 권리·문의 실수신·ads.txt 계정 일치·본인정보/법적 동의와 실제 Google 심사 결과가 필요합니다.
+
+기존 initial3명과 중단diff를 보존했고 사용량 오류 뒤 같은 ID를 재개했다. 원6평가40/40/38, 실제품질제외/교체1,5우회보완과후속2평가·ads r2후속읽기를 보존하며 물리삭제·토큰reset자동감지·무기한세션을 주장하지 않는다. 같은날앞선v048 완료는 snapshot/Release로 보존했다. [이번실행](runs/manual-20261020-1325.json)·[릴리스](releases/v0.4.9-20261020.md).

@@ -148,3 +148,16 @@ root 추가 소유는 기존 `e2e/title-artist-guide.spec.ts`의 TJ/금영 가�
 ## 두 업체 공식 확인곡 탐색 · Issue44 (2026-10-20)
 
 DATA-001/CONTENT-001/SEARCH-001/DESIGN-001: 동결차트27/29/30/31위 current playlist 4ID의 미검토 관측 번호를 metadata-only 실제 공식 조회·제목/가수/버전 검토 후 ledger84 끝에 근거 있는 항목만 append한다. 실패/불명은 보류하고 raw·마지막정상·3317ID·번호string·URL/storage와 다른5가이드를 보존한다. /artists/ 전역/가수index/그룹의 두업체 확인곡 수는 strict confirmedNumbers의 TJ/KY ID교집합이다. 기존업체별수·합집합/anchor·명의그룹을 유지한다. 전역 링크는 /search/?number=confirmed-tj&number=confirmed-ky 의 AND 조건이며 JS필요/정적대안을 안내한다. find-japanese-songs만 실제 사용흐름·조건해제·0곡≠미수록을 보강하며 새조회일/권리/추천/음원동일성/Google결과를 만들지 않는다. 독립자료오라클·JSoff/360px/키보드·preview전체noindex/noads·같은SHA CI/실제preview/복구/운영을 수용한다. 상세실행은 [Issue44](https://github.com/jpop-today/jpoptoday/issues/44)와 [run](../operations/runs/manual-20261020-0352.json)을 따른다.
+
+
+## 차트의 두 업체 확인곡 탐색 · Issue47 (2026-10-20)
+
+DATA-001/CONTENT-001/SEARCH-001/DESIGN-001: 기존100곡의순위/원문/차트기간·수집시각과provider별목록·합집합을보존한다. strict confirmedNumbers로같은ID에TJ와금영이각각있는교집합수와원래TJ순위순정적바로가기를추가한다. native details등의선택적열기·JSoff/360px/키보드44px/원행→상세를제공한다. 두업체확인은모든기기수록/권리/금영인기순위/오늘최신차트를뜻하지않고0은미수록아니다.
+
+동결32~35위 currentplaylist4ID의관측번호7건만metadata-only실제공식조회·전체제목/가수/부제편집판단후기존92항목뒤근거있는것만append한다. プロポーズ KYnull은unknown으로보존한다. 기존92전체객체/순서·raw/chart/3317ID·URL/storage·원브랜드·타5가이드보존. read-tj-chart만실제편집일20일과새사용흐름/실제대조사례를보강하며조회일/권리/음원동일성/Google결과를만들지않는다. 독립raw+ledger/public오라클·원100순위/anchor·보류부정사례·unit/type/artifact/browser·두target재현·같은SHA CI/actualpreview/실제복구/운영을확인한다. 상세범위는 [Issue47](https://github.com/jpop-today/jpoptoday/issues/47)와 [실행](../operations/runs/manual-20261020-1325.json)을따른다.
+
+### 실제 운영 후속 · 원본 ads.txt 복원
+
+M7ced2f6b의 실제 main CI/preview/운영57·복구/재적용·일반10URL은 통과했으나, 2026-10-20T07:28Z의 운영/기본도메인/이전배포 URL에서 `/ads.txt`404를 재확인했다. 이전200/59bytes 기록과의 차이는 사실이며 변경 원인·시점·Google봇/계정 상태를 추정하지 않는다. 조직 artifact에는 해당 파일이 없고, 원본 개인repo의 immutable commit744b90ba1c99b60134dcc57e347b408f61557cd0에 기존 ads.txt blob aeee54215b01df4256bd69a3eaec9c95226d0850(59bytes, SHA256485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80)이 실제 존재한다. 새 게시자 값을 만들지 않고 이 공개 원본의 bytes만 복원한다. 계정 일치·소유권·약관/법적동의·Google심사는 operator unknown이다.
+
+root 추가소유는 public/ads.txt와 finalize-artifact/verify-dist/verify-deployment, 운영 게이트/Release 통합이다. production만 원본과 정확히 같은 seller파일을 제공하고 preview는 파일을 제거해 전체noindex/무광고를 유지한다. artifact는 누락·변조·preview유출을 거부하고 실제HTTP gate는 ads파일이 있는 확정production artifact에서 상태200·text/plain·전체bytes를 비교한다. 기존동결release에없는파일을 요구해 복구를 막지 않는다. 기존27검사/바이트·이메일/metadata보호는 약화하지 않는다. 실제 `/ads.txt` 및 preview404/noindex E2E와 부정 artifact/HTTP 반례를 검증한다. 새동일mainSHA CI/전용preview·production·실제old복구→new재적용/최종사이트검사 뒤에만 미발행v0.4.9를릴리스한다. 처음M7ced의 CI/배포/실패와 원6+후속2평가는 덮어쓰지 않고 같은run의 r2 영수증으로 후속을 구분한다. 신규초기팀·중복배포·계정/광고 활성화는 만들지 않는다.

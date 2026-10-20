@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "followUp": "r2 ads.txt restoration",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/47",
+  "reviewedAt": "2026-10-20T12:08:40.180864Z",
+  "reviewer": "/root/run47_evidence",
+  "sourceBase": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "branch": "codex/issue47-ads-txt",
+  "reviewMethod": "READONLYactualsource/finalqualitydocument/failureandworkinglog/receipt. WRITEonlythisnewpeerJSON; nosuite/Git/build/server/deploy/provider/GoogleAPIexecution. Publisheridentifiers/sellerbodywereneverprinted.",
+  "originalSixPlusTwoReviewsPreserved": true,
+  "rankingOrRosterChanged": false,
+  "reviews": [
+    {
+      "candidate": "/root",
+      "role": "r2 production-only restoration implementation and shared gates",
+      "selfReview": false,
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "criteria": {
+        "correctness": {
+          "score": 5,
+          "reason": "finalize는preview에서ads파일만제거하고production복원을유지한다. verify-dist는루트ads.txt한경로만allowlist에추가하고production정확Buffer일치/UTF8·단일seller형식과previewundefined부재를요구한다. verify-deployment는확정artifact에ads파일이있는production에만요청을추가하고200·text/plain·전체bytes를고정한다. 파일없는과거artifact복구와기존metadata·byte·CF메일보호·deadline/nonce/비공개404검사를유지한다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/scripts/finalize-artifact.mjs",
+            "/workspace/jpoptoday/scripts/verify-dist.mjs",
+            "/workspace/jpoptoday/scripts/verify-deployment.mjs",
+            "/workspace/jpoptoday/tests/deployment-healthcheck.test.mjs"
+          ],
+          "limits": "파일원본과계정일치/Google봇접근/심사결과는별개다. HTTP검사전artifact는별도verify-dist를통과해야한다."
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "원404·immutable59hash·r2working영수증과실제unit524/type0/health81/targetartifact로그를직접읽었다. productionallowlist실패를영속보존하고루트한경로허용후3348검증통과를구분한다. 두target의실제5browser와localproduction200/textplain/59hash증거가맞으며 source/실행근거hash를기록했다.",
+          "evidenceFiles": [
+            "/workspace/docs/operations/runs/manual-20261020-1325-r2-working-validation.json",
+            "/workspace/docs/operations/runs/manual-20261020-1325-ads-txt-recheck.json",
+            "/workspace/docs/operations/runs/manual-20261020-1325-original-ads-provenance.json",
+            "/workspace/docs/operations/runs/manual-20261020-1325-r2-initial-artifact-failure.log",
+            "/tmp/jpop47-r2-healthcheck-unit.log",
+            "/tmp/jpop47-r2-working-unit.log",
+            "/tmp/jpop47-r2-working-type.log",
+            "/tmp/jpop47-r2-working-artifact.log",
+            "/tmp/jpop47-r2-working-production-artifact-fixed.log",
+            "/tmp/jpop47-r2-preview-browser.log",
+            "/tmp/jpop47-r2-production-browser.log",
+            "/tmp/jpop47-r2-production-route-proof.json"
+          ],
+          "limits": "dirty7ced작업본의실제결과이며새cleanSHA CI·원격preview/운영·실제복구완료를이리뷰가확정하지않는다. 정적목록상기존27+ads1=28이지만외부r2의28통과영수증은이평가에서읽지않았다."
+        },
+        "value": {
+          "score": 5,
+          "reason": "일반10URL성공과분리해확인된ads404를원본bytes복원으로보완하고이파일을빠뜨리는artifact/HTTP게이트공백을줄인다. preview판매자선언유출은막고새파일이없던정상release의복구는계속허용하므로실제운영전환과안전한복구에가치가있다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/scripts/finalize-artifact.mjs",
+            "/workspace/jpoptoday/scripts/verify-dist.mjs",
+            "/workspace/jpoptoday/scripts/verify-deployment.mjs",
+            "/workspace/docs/operations/runs/manual-20261020-1325-r2-working-validation.json",
+            "/workspace/docs/operations/runs/manual-20261020-1325-ads-txt-recheck.json",
+            "/workspace/docs/operations/runs/manual-20261020-1325-original-ads-provenance.json",
+            "/tmp/jpop47-r2-production-route-proof.json"
+          ],
+          "limits": "새publisher생성/광고활성화·클릭·계정신청/법적동의·AdSense승인을수행하거나보장하는변경이아니다."
+        },
+        "maintainability": {
+          "score": 5,
+          "reason": "복원원본과검증기대Buffer를같은public파일로연결하고immutablehash는독립회귀에고정한다. 새export검사로unit가능하며verify-dist는읽기전용·정확루트allowlist를유지한다. HTTP는기존resource루프에선택적경로하나를추가해기존byte/시간제한/메타데이터·원자영수증기반을재사용하고진단에는본문/게시자값대신hash·크기·안전code만남긴다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/scripts/finalize-artifact.mjs",
+            "/workspace/jpoptoday/scripts/verify-dist.mjs",
+            "/workspace/jpoptoday/scripts/verify-deployment.mjs",
+            "/workspace/jpoptoday/tests/ads-txt-artifact.test.mjs",
+            "/workspace/jpoptoday/tests/deployment-healthcheck.test.mjs"
+          ],
+          "limits": "current원본참조bytes는CI의고정hash회귀와함께신뢰한다. 이것이Google계정의게시자일치검증을대신하지않는다."
+        }
+      },
+      "issues": [],
+      "decision": "accept_implementation_for_remaining_same_sha_release_gates"
+    },
+    {
+      "candidate": "/root/run47_replacement",
+      "role": "r2 independent artifact and actual target-specific HTTP quality",
+      "selfReview": false,
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "criteria": {
+        "correctness": {
+          "score": 5,
+          "reason": "artifact는원본59/hash/행수·Buffer불변과누락/null/빈값/잘림/변조/여분공백·개행/중복행/HTML/reference자체오류를검사한다. preview는undefined만부재로보고올바른원본도거부한다. HTTP E2E는actualtarget을읽어production200/textplain/정확59hash와preview404/noindex·seller0을분기하며response본문을assertion에넘기지않는다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/tests/ads-txt-artifact.test.mjs",
+            "/workspace/jpoptoday/e2e/ads-txt.spec.ts",
+            "/workspace/docs/engineering/ads-txt-quality-20261020-1325.md"
+          ],
+          "limits": "이는확정파일형식/전송검증이며Google계정일치·권리·동의·심사를검증하지않는다."
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "초기18pass1fail은previewnull을부재로잘못가정한테스트오류이며로그를보존하고엄격구현을느슨하게하지않았다. 수정후23pass와actualpreview5/production5·last-runpassed/실제local59증거를읽었다. 초기preview실행hash와최종traceoff추가hash의차이도문서에명시했고rootallowlist실패와본인테스트가정실패를구분했다.",
+          "evidenceFiles": [
+            "/workspace/docs/engineering/ads-txt-quality-20261020-1325.md",
+            "/tmp/jpop47-r2-replacement-ads-artifact.log",
+            "/tmp/jpop47-r2-replacement-ads-artifact-final.log",
+            "/tmp/jpop47-r2-preview-browser.log",
+            "/tmp/jpop47-r2-production-browser.log",
+            "/tmp/jpop47-r2-production-route-proof.json",
+            "/tmp/jpop47-r2-preview-browser-results/.last-run.json",
+            "/tmp/jpop47-r2-production-browser-results/.last-run.json"
+          ],
+          "limits": "최종traceoff를포함한두target전체sameSHA58·원격/실제복구는root후속게이트다. preview5는trace설정전코드실행이며HTTPassertion은같다는범위까지만판단한다."
+        },
+        "value": {
+          "score": 5,
+          "reason": "원본추정이나형식만확인하는수준을넘어전체bytes와preview부재를검사해누락/변조/미리보기유출을막는다. 기존chart4와함께양target5를실행해번호·원100행/URL/JSoff360/keyboard/storage/가이드회귀도유지했고actualseller값과본문이실행근거로유출되지않게했다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/tests/ads-txt-artifact.test.mjs",
+            "/workspace/jpoptoday/e2e/ads-txt.spec.ts",
+            "/workspace/docs/engineering/ads-txt-quality-20261020-1325.md",
+            "/tmp/jpop47-r2-preview-browser.log",
+            "/tmp/jpop47-r2-production-browser.log"
+          ],
+          "limits": "보조기술/모든브라우저·모든CDN·Google광고의실제표시나클릭을시험한것으로확대하지않는다."
+        },
+        "maintainability": {
+          "score": 5,
+          "reason": "새테스트2파일의범위가명확하고기존fixture/helper를불필요하게바꾸지않는다. unit은원본값을메모리에서만읽고boolean/길이/hash로검사하며adsE2E만traceoff로본문저장을차단한다. 기존chart의trace와검사를그대로두고문서에실패·정정·dirtylocal한계를기록해후속같은SHA검증을안전하게이어갈수있다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/tests/ads-txt-artifact.test.mjs",
+            "/workspace/jpoptoday/e2e/ads-txt.spec.ts",
+            "/workspace/docs/engineering/ads-txt-quality-20261020-1325.md"
+          ],
+          "limits": "임시로그/routeproof는현재실제읽은근거이며CI입력으로의존하지않는다. 영속요약/소스회귀와최종rootrelease기록을함께따라야한다."
+        }
+      },
+      "issues": [],
+      "decision": "accept_quality_deliverable_for_remaining_same_sha_release_gates"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "/workspace/jpoptoday/scripts/finalize-artifact.mjs",
+      "sha256": "e491a5333cd28cc280e57ad05ef06a31e4732811ab4db25f85fa08fa019e444b",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "전체읽기: preview ads파일제거/production유지; 기존crawler생성유지"
+    },
+    {
+      "file": "/workspace/jpoptoday/scripts/verify-dist.mjs",
+      "sha256": "558e68ac9a836e6e5c4c3710267f891dcba0e7e1a5a79bbd58bdd52d79b0d2c9",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "ads정확바이트/strict형식/preview부재·루트allowlist·기존artifact통합읽기"
+    },
+    {
+      "file": "/workspace/jpoptoday/scripts/verify-deployment.mjs",
+      "sha256": "9282917772e865d5f8b4f9be1d5bd44a9b8dfd700abba7ce40f4a57d6f8568fe",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "전체읽기: 확정productionartifact에있는ads만추가HTTP고정; text/plain/전체bytes/기존안전진단·동결복구유지"
+    },
+    {
+      "file": "/workspace/jpoptoday/tests/ads-txt-artifact.test.mjs",
+      "sha256": "49c9893e93fafbaf59031912108615f7753c3a3dc461850406487c45ff721e07",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "전체읽기: immutable59hash/입력불변·변조/누락/reference부정·preview부재검사"
+    },
+    {
+      "file": "/workspace/jpoptoday/tests/deployment-healthcheck.test.mjs",
+      "sha256": "df1ac10b6703fee547cd12ee4db5c15daeddd07e61f55cf6505623abee22a740",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "새ads2테스트·fixture·기존회귀선언읽기: 추가1요청·stale/404/MIME거부·진단비노출·preview/구release호환"
+    },
+    {
+      "file": "/workspace/jpoptoday/e2e/ads-txt.spec.ts",
+      "sha256": "b472430d614f7d38254b1a769fe28b1cbaafa9e6493bda508dce357ef76c707a",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "전체읽기: target별실제HTTP·59hash/seller행수/HTML·광고코드부재/preview404noindex·traceoff"
+    },
+    {
+      "file": "/workspace/docs/engineering/ads-txt-quality-20261020-1325.md",
+      "sha256": "5b7fb50c61a6c2775a2228ab1ba517701a934dd2cac4e74acc8ff7a6d7b26efb",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "최종읽기: 실제실패구분·23artifact·target별5browser·dirtylocal한계·최종hash"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261020-1325-r2-working-validation.json",
+      "sha256": "1dd81579026d705e16a96e075b886fde20fca5b1e096b247558eb294eb11fc0f",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제dirtyworking524/type0/health81/preview3347·production3348receipt읽기"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261020-1325-ads-txt-recheck.json",
+      "sha256": "446ac0b297a07cd6094a4afc8046daeae6e6b0ecc5c90e35c4a73993911b3931",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "종전운영ads4URL404실제영수증읽기"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261020-1325-original-ads-provenance.json",
+      "sha256": "ebdbc371b62752a8a72f43cf2e9069ac44fa548565c538f1ccdc074c1e00ea4d",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "원immutablecommit/blob·59hash·계정unknown기록읽기"
+    },
+    {
+      "file": "/workspace/docs/data/ads-txt-restoration-20261020-1325.md",
+      "sha256": "7bfb2334ac29d2b4580f140231908016d032e710c72e482d7c8f56ee17513b3b",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "독립GitHub commit/tree/blob와current59hash에대한기존자료근거; 본인작성분평가아님"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261020-1325-r2-initial-artifact-failure.log",
+      "sha256": "d19f1ee6ba9bf40c3029f355fa0fb4bc364eddd0df7e98ffcbaae9db6be6ffa7",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제productionallowlist첫통합실패읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-replacement-ads-artifact.log",
+      "sha256": "edad5cebf65d08110c13ed436ebf19405c4bfe62ae23c5ca4834b8bfe649097f",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제18pass1fail의previewnull테스트가정오류로그읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-replacement-ads-artifact-final.log",
+      "sha256": "9a2f9e5c969b65aab8b1ee365509cf372b99b45410d23a4af2276716538c4ded",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "수정후23pass/fail0/skip0로그읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-healthcheck-unit.log",
+      "sha256": "5178e0a745114e1e004058d953f3155f46d29537bffa944aab8a3276c5ec1be5",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제healthcheck81pass/fail0/skip0요약읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-working-unit.log",
+      "sha256": "ead553641732a768d22a16173fa45d8c9260ace02098641e19e77e171bb29dfa",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제전체unit524pass/fail0/skip0요약읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-working-type.log",
+      "sha256": "4fd209aaaf6b9daee0adda1713d07ca7f12cf13ba8fcc14a2af7c0ca7976d5a6",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제26파일0error/0warning/0hint읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-working-artifact.log",
+      "sha256": "b6b8be9d35514961771aa3a020c6defc1baadc03f05ac0a149f3bc44ee9c0eea",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제preview3347/3336HTML/0index읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-working-production-artifact-fixed.log",
+      "sha256": "359527bdc5146964c06cc76451471d0bf931f37aa4ae6604e052079e84d2cea6",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제production3348/3336HTML/57index읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-preview-browser.log",
+      "sha256": "8b407af068789afe3680f02fd1f03532634d1add1ee6af37ab1f3e66745abf55",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제previewads1+chart4=5pass20.6초로그읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-production-browser.log",
+      "sha256": "c2d4670e7e3eafe2179641106b933af3bde468fe98283925fc83c884b2dcf6b2",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제productionads1+chart4=5pass19.5초로그읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-production-route-proof.json",
+      "sha256": "e6ffd503d8ae8ad7aa647487929f005af6b465090c2126405e70b1a79c8ae3d8",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "실제localproduction200/textplain/59hash/1행증거읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-preview-browser-results/.last-run.json",
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "actualpassed/failedTests[]읽기"
+    },
+    {
+      "file": "/tmp/jpop47-r2-production-browser-results/.last-run.json",
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "reviewMethod": "read_only_actual_file",
+      "scope": "actualpassed/failedTests[]읽기"
+    }
+  ],
+  "httpGateScope": {
+    "oldFrozenArtifactWithoutAds": "existing27requestgate/rollbackretained",
+    "newVerifiedProductionArtifactWithAds": "addsoneordinary/ads.txtrequest:expected28with200/textplain/exactbytes",
+    "preview": "artifactmustexcludeads;actualE2E404/noindex/seller0",
+    "externalR2Run28VerifiedByThisReview": false
+  },
+  "privacyReadCheck": {
+    "actualSellerIdentifierAndBodyComparedInMemoryOnly": true,
+    "reviewedEvidenceFilesChecked": 12,
+    "actualSellerIdentifierOrWholeBodyFound": false,
+    "identifierValuesLogged": false
+  },
+  "limits": [
+    "원래6+후속2평가·순위·roster를덮어쓰거나갱신하지않는다. 본인자료MD를평가하지않았다.",
+    "workingunit524/type0/health81/preview3347·production3348/target별5는실제읽은로컬dirty영수증이며cleanSHA CI·원격배포완료가아니다.",
+    "원404원인/시점·계정일치/소유권/동의/권리/Google심사결과는unknown이다.",
+    "원본문·게시자값은문서/로그/JSON에남기지않고bytes/hash/행수/안전code만사용한다."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-20T07:18:48.256Z",
+  "run": 39385342116,
+  "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "url": "https://7cff5edc.jpoptoday-preview.pages.dev",
+  "status": "completed",
+  "conclusion": "success",
+  "tests": 57,
+  "jobs": [
+    {
+      "id": 118503722112,
+      "selected": [
+        "2026-10-20T07:15:52.5540507Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 7ced2f6b2d072db75c82d48d2196577bb04b3342",
+        "2026-10-20T07:15:54.8839211Z {\"sourceSha\":\"7ced2f6b2d072db75c82d48d2196577bb04b3342\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+        "2026-10-20T07:17:55.8044077Z   57 passed (1.7m)"
+      ]
+    }
+  ],
+  "scope": "Actual dedicated Pages preview; exact source main SHA; full browser and strict healthcheck workflow."
+}

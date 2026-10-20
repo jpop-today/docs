@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-20T07:41:28.865Z",
+  "workflowRun": 39386888097,
+  "job": 118508767472,
+  "mode": "message",
+  "selected": [
+    "2026-10-20T07:30:02.3580937Z Report prepared: message (2026-10-20); delivery not yet confirmed.",
+    "2026-10-20T07:30:02.7231663Z Discord notification sent (1 attempt)."
+  ],
+  "scope": "Same failure core as chat; actual sender result, no webhook value or full logs."
+}

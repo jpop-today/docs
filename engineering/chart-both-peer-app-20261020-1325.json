@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/47",
+  "reviewer": "/root/run47_app",
+  "reviewedAt": "2026-10-20T05:24:37.385005+00:00",
+  "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "docsBase": "1291c45fded5f9c22ec28b5bf78fa62d37b1d751",
+  "mode": "read-only peer source, receipt and execution-result review; only this new review file was written",
+  "scale": "0..5 each, assessed on correctness, actual evidence, user value and maintenance; no self-review or size/verbosity ranking",
+  "readEvidenceSha256": {
+    "jpoptoday/data/reviewed/provider-corrections.json": "d4339885092fd050c4f92b5993b7d9a1538e05ac4f0aa06128203d758f348bf3",
+    "jpoptoday/src/content/guides.ts": "0d73f37804dec248e5d4d06ebdddde55990c0fd5e20049ffbb3d3e40c1fbc116",
+    "docs/data/provider-review-20261020-1325.md": "379676fbe44dc61bb1a915ec7bea98bd542825779e6046640e3c837106473373",
+    "docs/data/provider-review-20261020-1325-requests.json": "b562d7284deed95153151f710a22e3726b96c6b9aa6ab80d98f4b3480318cc4d",
+    "docs/data/provider-review-20261020-1325-validation.json": "b1fa8edcf70d5d49f2fe00a55a01c6bb9469e4a2e11b8ccca3abd7045958f6d9",
+    "jpoptoday/e2e/chart-both.spec.ts": "c4cde5a1af4a73ed23a22b2a7acfd9fa7f38eb3f18f52a7dea6357aef0a3f294",
+    "jpoptoday/tests/chart-both-evidence.test.mjs": "7ce6bdc86b89dbbb242f3a3ee31c1626af49c2cc4064ecc76b0da2d691a4502f",
+    "docs/engineering/chart-both-quality-20261020-1325.md": "053d996895142328b467d8a3f2ee30c3f7a4528bf62595cfd6c88d363214d692",
+    "docs/data/provider-review-20261020-1325-tj-68381-candidate.json": "4f3d8abd5f4d08d0dc0d92eb5155f66f3c86974ef69480c4ca2d618cc7627d06",
+    "docs/data/provider-review-20261020-1325-ky-44656-candidate.json": "1f65bda251ae1d506cb151525392090fec7b42060add57e901d6dc238869036b",
+    "docs/data/provider-review-20261020-1325-tj-28927-candidate.json": "64c50e57a7622d9422f30aa72ba0b6e0395379ce844a70e3f939650e3cb33cde",
+    "docs/data/provider-review-20261020-1325-ky-44314-candidate.json": "b9359021f9b0bb8386bd7fd015a4d559756a6fe72833d6952f45cbc4371a4584",
+    "docs/data/provider-review-20261020-1325-tj-27121-candidate.json": "0c88b244d48ef37fb98330a69d1b4f5247ebd396be7e2ba8a5ea52525620a5f0",
+    "docs/data/provider-review-20261020-1325-ky-40403-candidate.json": "fb55408e4b165121e3153e3f49a0ef861e92cfb8a2cb8712d15a772dda47d22a",
+    "docs/data/provider-review-20261020-1325-tj-52402-candidate.json": "f3075032dfd30c520c091544380acb403eb07bfb0ae7d8d5e38190dcc603902e",
+    "/tmp/jpop47-quality-browser-results/.last-run.json": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "/tmp/jpop47-quality-receipt-audit.json": "0997e5469b9efb2fe4c624f3d3317ba7231671c986225b116c47102e0d40be67",
+    "/tmp/jpop47-quality-visual-audit.json": "225dcb29aca343e1a09eaf72e9c1b523f6809d7712534bf5f964208abca6cf6a"
+  },
+  "actualReviewerCrossCheck": {
+    "receiptCandidateDecisionLedgerCells": 7,
+    "candidateStatusPreserved": "unreviewed",
+    "identity": "full original title and artist exact in staging/chart/metadata/ledger",
+    "numbers": "string exact",
+    "officialRequest": "HTTP200, request/final URL, actual checkedAt and response hash match stored receipts; no new official lookup by this reviewer",
+    "absentKY": "not requested, null preserved"
+  },
+  "reviews": [
+    {
+      "candidate": "/root/run47_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "vote": "accept",
+      "blockingFindings": [],
+      "reasons": {
+        "correctness": [
+          "Read all seven candidate JSON, request/editorial decision records, last seven ledger entries and read-tj-chart diff. Exact full title/artist and string-number correspondence matches each of the four frozen stable IDs.",
+          "Three dual-provider pairs plus one TJ-only song are distinguished; Natori KY null/unknown is neither queried nor called unlisted. Original snapshot time and number checkedAt remain separate."
+        ],
+        "evidence": [
+          "Reviewer executed a read-only 7-cell candidate/request/decision/ledger assertion; HTTP200/request-final URL/responseSha256/checkedAt match without changing unreviewed candidates.",
+          "Read validation JSON: ordered original92 prefix and upper metadata preserved, unchanged five complete guides,3317 stable IDs/URLs,6627 other provider cells and frozen raw/chart/identity/CSS hashes. Final guide-link check uses actual final source hashes."
+        ],
+        "value": [
+          "Guide gives a concrete native-details -> original TJ rank -> existing song evidence route, with actual three-pair and one-provider examples, no hardcoded changing global count.",
+          "My independent app flow actually followed /guides/read-tj-chart/ -> /chart/#chart-both-heading and opened native details at360px without JavaScript."
+        ],
+        "maintainability": [
+          "Append-only ledger, per-request immutable unreviewed metadata, separate editorial decisions and final preservation report make future review traceable.",
+          "Only the existing chart guide changes; existing guide URL, first two sections and five other full objects stay intact; no new framework/script/storage surface."
+        ]
+      },
+      "limitations": [
+        "This is receipt cross-review, not a new HTTP lookup or audio/arrangement/rights/device support/Google review.",
+        "Local source/guide checks do not prove clean same-SHA CI, deployment or recovery; root owns those gates."
+      ]
+    },
+    {
+      "candidate": "/root/run47_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "total": 19,
+      "vote": "accept",
+      "blockingFindings": [],
+      "reasons": {
+        "correctness": [
+          "Read all four unit cases and four E2E cases. Expected sets are derived from raw staging plus ledger and whole-catalog post-correction number multiplicities, then cross-check public projection; application count/helper is not the oracle.",
+          "E2E checks exact both IDs/ranks/full identities/provider strings plus original100anchors/detail URLs, original TJ/KY/union counts, true one-provider exclusion and unknown cells. Japanese URL encoding fix preserves raw href/ID assertions."
+        ],
+        "evidence": [
+          "Read actual dedicated browser .last-run.json status passed/failedTests empty, visual audit JSON and receipt audit JSON. These agree with documented leaf4/4 and browser4/4 on the root4323 preview.",
+          "Quality log explicitly separates list-only collection, wrapper versus leaf counts, local preview versus external deployment and independent receipt review versus original official fetch.",
+          "Reviewer app QA on same local artifact separately observed27 both links,TJ31/KY27/union31,100stable anchors,JS-off keyboard/detail/guide flow,storage bytes and zero console/ad problems."
+        ],
+        "value": [
+          "Guards against union mistaken for intersection, invented KY confirmation, duplicate-number conflicts and chart rank/URL corruption rather than only mirroring rendered count.",
+          "JS-off360px navigation and raw localStorage preservation directly protect the user route and saved song compatibility."
+        ],
+        "maintainability": [
+          "Source-only literal base preservation guards work in shallow CI and do not require a docs checkout, network access or Git subprocess.",
+          "Nonblocking cost: strict numeric-evidence predicate and corrected-number set construction are duplicated in unit and E2E; future eligibility changes must intentionally update both independent oracles. Current assertions are consistent and tested, but a test-only helper with explicit independence boundary or shared checklist would reduce drift."
+        ]
+      },
+      "limitations": [
+        "No zero-cohort fixture was executed; the quality document states this boundary. Actual current27-link and one-provider exclusions are covered.",
+        "Single Chromium/local preview evidence does not establish all browsers, actual devices, same-SHA CI, recovery, production or Google approval."
+      ],
+      "followUp": [
+        {
+          "priority": "nonblocking",
+          "request": "On a later eligibility-contract change, keep the raw/ledger oracle independent of app helpers and explicitly reconcile the two test predicates to prevent drift."
+        }
+      ]
+    }
+  ],
+  "rankingDecision": "No active-roster decision or self-ranking performed by this reviewer. Root must combine all six actual peer evaluations and integration results; ties/comparability limits must remain explicit."
+}

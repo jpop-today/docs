@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-20T07:15:57.550Z",
+  "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "runs": [
+    {
+      "id": 39384999364,
+      "name": "contracts",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "7ced2f6b2d072db75c82d48d2196577bb04b3342"
+    },
+    {
+      "id": 39384999406,
+      "name": "app",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "7ced2f6b2d072db75c82d48d2196577bb04b3342"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 118502621508,
+      "selected": [
+        "2026-10-20T07:12:44.1152812Z ℹ tests 496",
+        "2026-10-20T07:12:44.1153199Z ℹ pass 496",
+        "2026-10-20T07:12:44.1153447Z ℹ fail 0",
+        "2026-10-20T07:12:49.5676055Z Result (26 files): ",
+        "2026-10-20T07:12:49.5676428Z - 0 errors",
+        "2026-10-20T07:12:49.5676710Z - 0 warnings",
+        "2026-10-20T07:12:49.5676926Z - 0 hints",
+        "2026-10-20T07:12:54.6273561Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 7ced2f6b2d072db75c82d48d2196577bb04b3342",
+        "2026-10-20T07:14:52.9532399Z   57 passed (1.5m)"
+      ]
+    },
+    {
+      "id": 118502621214,
+      "selected": [
+        "2026-10-20T07:12:40.6899680Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3347 files; source 7ced2f6b2d072db75c82d48d2196577bb04b3342",
+        "2026-10-20T07:14:14.0353667Z   57 passed (1.2m)"
+      ]
+    }
+  ],
+  "scope": "Actual exact merged-main checks; selected result lines only, no full logs or redirect URLs retained."
+}

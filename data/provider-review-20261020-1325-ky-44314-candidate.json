@@ -1,0 +1,14 @@
+{
+  "artist": "あいみょん",
+  "checkedAt": "2026-10-20T04:27:34.455094Z",
+  "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44314",
+  "number": "44314",
+  "provider": "ky",
+  "responseBytes": 47735,
+  "responseSha256": "9cac98004920d622f6b169fe403aca19c185e23973bd12d293e9eefe545d5a6b",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "マリーゴールド",
+  "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44314",
+  "verification": "unreviewed"
+}

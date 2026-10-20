@@ -1,0 +1,14 @@
+{
+  "artist": "YOASOBI",
+  "checkedAt": "2026-10-20T04:27:27.495315Z",
+  "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68381&strWord=Y",
+  "number": "68381",
+  "provider": "tj",
+  "responseBytes": 49221,
+  "responseSha256": "c99505193a90a987dfb94d68e65e029f5c883aa17c91255358e325da5215e9b7",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "夜に駆ける",
+  "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68381&strWord=Y",
+  "verification": "unreviewed"
+}

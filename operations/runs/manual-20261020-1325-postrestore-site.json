@@ -1,0 +1,117 @@
+{
+  "startedAt": "2026-10-20T07:26:45.207Z",
+  "scope": "Ordinary origin URLs after actual rollback/restore; full remote57 occurred before recovery and is not repeated here.",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "3fddc11fe7a298ccba27502fb291fb7c09ff3ecc6ac48c52649aa489a8409320"
+    },
+    {
+      "route": "/search/?number=confirmed-tj&number=confirmed-ky",
+      "status": 200,
+      "sha256": "2f87df6462a9182b437cab8502c84086000cb56e4512e8f6a46c84359fbe3975"
+    },
+    {
+      "route": "/favorites/",
+      "status": 200,
+      "sha256": "672c82b91d0916f99c2b4922eb174bf0ce68253be46150d69f82e6594e282c3c"
+    },
+    {
+      "route": "/guides/read-tj-chart/",
+      "status": 200,
+      "sha256": "3a9729bf9b7faf1b63c4f3fac87744f572880785e575e869af8b507ffaf79ebb"
+    },
+    {
+      "route": "/chart/",
+      "status": 200,
+      "sha256": "119fcc7a63c42e13c7d374139452ed2d15f529b1d8247cf41d440cebf0288e9c"
+    },
+    {
+      "route": "/artists/",
+      "status": 200,
+      "sha256": "2103136aa8083ffb0115b5c4e2dcd3bad9cc2862e3bad13c7673effd4c019a52"
+    },
+    {
+      "route": "/songs/jpop-playlist-yoasobi-%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B-677d131f3f/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "68381",
+        "44656"
+      ]
+    },
+    {
+      "route": "/songs/jpop-playlist-%E3%81%82%E3%81%84%E3%81%BF%E3%82%87%E3%82%93-%E3%83%9E%E3%83%AA-%E3%82%B3-%E3%83%AB%E3%83%88-ebdb512207/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "28927",
+        "44314"
+      ]
+    },
+    {
+      "route": "/songs/jpop-playlist-%E6%9D%BE%E7%94%B0%E8%81%96%E5%AD%90-%E9%9D%92%E3%81%84%E7%8F%8A%E7%91%9A%E7%A4%81-f8e4a0a705/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "27121",
+        "40403"
+      ]
+    },
+    {
+      "route": "/songs/jpop-playlist-%E3%81%AA%E3%81%A8%E3%82%8A-%E3%83%95-%E3%83%AD%E3%83%9B-%E3%82%B9-5b000e662c/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "52402",
+        null
+      ]
+    }
+  ],
+  "before": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+    "ledgerSha256": "2223178ec86c8aee97d84cc7d7f4cbb10a93d42498bc9090bdf9b6d5eefa1e5e",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "adsTxt": {
+    "status": 404,
+    "bytes": 2439,
+    "googleSellerRows": null,
+    "accountMatch": "unknown; publisher value not retained",
+    "scope": "Client observation does not establish Google crawler access or operator account match"
+  },
+  "after": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+    "ledgerSha256": "2223178ec86c8aee97d84cc7d7f4cbb10a93d42498bc9090bdf9b6d5eefa1e5e",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "success": true,
+  "finishedAt": "2026-10-20T07:27:01.828Z"
+}

@@ -1,0 +1,14 @@
+{
+  "artist": "松田聖子",
+  "checkedAt": "2026-10-20T04:27:35.230268Z",
+  "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27121&strWord=Y",
+  "number": "27121",
+  "provider": "tj",
+  "responseBytes": 49243,
+  "responseSha256": "7e525e011184817c54b51e17ccd0dd79e9ef58dbacf0c6e951b15a67465cc6cb",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "青い珊瑚礁",
+  "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27121&strWord=Y",
+  "verification": "unreviewed"
+}

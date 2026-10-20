@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/47",
+  "reviewer": "/root/run47_quality",
+  "reviewedAt": "2026-10-20T05:25:08.851Z",
+  "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "docsBase": "1291c45fded5f9c22ec28b5bf78fa62d37b1d751",
+  "method": "다른 두 담당의 최종 소스·영수증·검증 문서·앱 PNG를 읽기 전용으로 평가했다. 본인 산출물이나 말수·변경량에 점수를 주지 않았다. 품질 담당의 실제 독립 leaf unit4/4·브라우저4/4 및 영수증7건 교차 감사도 참고했다.",
+  "scoreScale": {
+    "minimum": 0,
+    "maximum": 5,
+    "meaningOf5": "배정된 수용 기준을 읽은 실제 소스와 수행 증거가 충족하며, 확인한 범위에서 수정이 필요한 결함이 없음. 미검증인 외부 운영·다른 브라우저·Google 심사까지 보증하는 점수가 아님."
+  },
+  "reviews": [
+    {
+      "worker": "/root/run47_evidence",
+      "recommendation": "accept",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "criteriaEvidence": {
+        "correctness": "ledger의 실제 index92~98이 32~35위4ID의 관측번호7쌍과 정확히 일치했다. full 제목·가수가 staging·동결차트·후보·별도결정·ledger에서 일치하며 プロポーズ KY는 null/unknown/evidence null/correction null이다. 독립 unit이 원92객체 전체·순서·상위metadata와 raw/chart/identity/CSS·타5가이드 전체객체를 검사해 실제4/4 통과했다.",
+        "evidence": "requests JSON의 실제7회 HTTP200/확인UTC/final URL/response hash를 candidate7개·별도 editorialReview7개·ledger7개와 읽기 교차 감사해 일치했다. candidate는 unreviewed를 유지하며 승인 결정과 추출을 분리했다. 문서는 자체 계약 검사와 브라우저·CI·운영 미실행을 구분한다. 이 평가는 최초 공식 응답을 본 역할이 새로 조회했다는 주장이 아니다.",
+        "value": "실제 확인 근거가7번호 늘어 차트 두 업체 확인곡이24→27, TJ곡이27→31로 증가한 입력과 공개동작을 확인했다. 가이드는 양쪽 확인곡 펼치기→원차트행→상세 근거라는 실제 JSoff 동선을 제공하며, TJ만 확인된 なとり를 대비 사례로 설명한다. 조회일·편집일과 오래된 차트 날짜, unknown과 미수록을 구분해 예약 오류를 줄인다.",
+        "maintainability": "기존92 항목의 수정 없이 append만 하고 다른5가이드·ID/URL·provider 셀을 보존했다. 후보→검토결정→ledger의 파일/해시/확인일 연결과 역할별 한계를 남겨 후속 재검토가 가능하다. 공개 가이드에는 변하는 총 확인곡 수를 고정하지 않았다. 수정 범위가 read-tj-chart와 검토원장에 한정돼 다른 콘텐츠 회귀면을 늘리지 않는다."
+      },
+      "readEvidence": [
+        {
+          "path": "jpoptoday/data/reviewed/provider-corrections.json",
+          "sha256": "d4339885092fd050c4f92b5993b7d9a1538e05ac4f0aa06128203d758f348bf3"
+        },
+        {
+          "path": "jpoptoday/src/content/guides.ts",
+          "sha256": "0d73f37804dec248e5d4d06ebdddde55990c0fd5e20049ffbb3d3e40c1fbc116"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325.md",
+          "sha256": "379676fbe44dc61bb1a915ec7bea98bd542825779e6046640e3c837106473373"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-requests.json",
+          "sha256": "b562d7284deed95153151f710a22e3726b96c6b9aa6ab80d98f4b3480318cc4d"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-validation.json",
+          "sha256": "b1fa8edcf70d5d49f2fe00a55a01c6bb9469e4a2e11b8ccca3abd7045958f6d9"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-tj-68381-candidate.json",
+          "sha256": "4f3d8abd5f4d08d0dc0d92eb5155f66f3c86974ef69480c4ca2d618cc7627d06"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-ky-44656-candidate.json",
+          "sha256": "1f65bda251ae1d506cb151525392090fec7b42060add57e901d6dc238869036b"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-tj-28927-candidate.json",
+          "sha256": "64c50e57a7622d9422f30aa72ba0b6e0395379ce844a70e3f939650e3cb33cde"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-ky-44314-candidate.json",
+          "sha256": "b9359021f9b0bb8386bd7fd015a4d559756a6fe72833d6952f45cbc4371a4584"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-tj-27121-candidate.json",
+          "sha256": "0c88b244d48ef37fb98330a69d1b4f5247ebd396be7e2ba8a5ea52525620a5f0"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-ky-40403-candidate.json",
+          "sha256": "fb55408e4b165121e3153e3f49a0ef861e92cfb8a2cb8712d15a772dda47d22a"
+        },
+        {
+          "path": "docs/data/provider-review-20261020-1325-tj-52402-candidate.json",
+          "sha256": "f3075032dfd30c520c091544380acb403eb07bfb0ae7d8d5e38190dcc603902e"
+        }
+      ],
+      "independentChecks": [
+        "node --test --test-isolation=none tests/chart-both-evidence.test.mjs: 실제leaf4/4 exit0",
+        "node /tmp/jpop47-quality-receipt-audit.mjs: 2026-10-20T05:19:36.010Z, request/candidate/decision/ledger7건 일치",
+        "e2e/chart-both.spec.ts 실제4/4: raw+ledger 전체 post-correction 중복도와 공개카탈로그 별도predicate, JSoff 가이드링크와 교집합 제외사례 확인"
+      ],
+      "limits": [
+        "품질 담당은 공식 제공사 응답을 재조회하지 않고 자료 담당의 실제 영수증과 후보·소스 연결을 감사했다.",
+        "메타데이터 일치는 음원·편곡·모든 현장 기기 지원·권리·Google 심사 결과를 확정하지 않는다.",
+        "외부 clean SHA CI/preview/실제복구/운영 검증은 root의 별도 게이트다."
+      ],
+      "requiredFollowups": []
+    },
+    {
+      "worker": "/root/run47_app",
+      "recommendation": "accept",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "criteriaEvidence": {
+        "correctness": "chart.astro는 strict confirmedNumbers에서 두 업체가 모두 있는 같은 ID를 원래 chartEntries 순서로 필터링한다. 독립 raw/ledger/public oracle와 실제27개 교집합·31/27/31 기존수·원100순위/앵커/상세URL·문자열번호가 E2E에서 일치했다. details 기본닫힘, 기존 업체별 목록 노출, TJ만 확인된 なとり 제외와 항상 보이는 0≠미수록/순위 고지도 확인했다.",
+        "evidence": "최종 소스와 앱 문서·QA 스크립트/결과 JSON·지정 PNG4개를 읽고 hash를 대조했다. PNG4개를 직접 열어 desktop4열/mobile2열 count와 접힘·펼침, 원제/가수/번호 줄바꿈과 눈에 보이는 focus를 확인했다. 품질 담당의 별도 실제4E2E와1366/360 JSoff 시각 감사도 같은 동작을 확인했다. 앱 문서가 dirty 로컬 preview와 초기 QA encoding/wait 오류를 구분하며 CI/운영 성공으로 확대하지 않는다.",
+        "value": "두 업체의 확인 근거가 모두 필요한 사용자가27곡을 한 목록에서 비교하고 원래 TJ순위 행·기존 상세로 바로 이동한다. JavaScript 없는 native disclosure와 키보드 조작·44px 이상 target으로 접근할 수 있다. 기본 접힘이 추가27곡의 길이를 선택사항으로 만들고 기존 두 업체 탐색을 계속 노출한다. snapshot/TJ순위·금영순위·unknown 설명은 잘못된 최신/미수록 해석을 막는다.",
+        "maintainability": "새 client script·저장 키·의존성 없이 기존 confirmedNumbers/차트 anchor/SongRow 흐름을 재사용했다. source selector와 문서의 동작 계약이 독립 테스트와 연결돼 있고 공용 CSS·브랜드 bytes는 바꾸지 않았다. 변경 범위가 단일 chart 페이지의 파생집합·정적 마크업·scoped CSS로 한정돼 데이터·URL·저장계약을 별도로 복제하지 않는다."
+      },
+      "readEvidence": [
+        {
+          "path": "jpoptoday/src/pages/chart.astro",
+          "sha256": "15ff7494c168473389381fb6655ef34b00af420e84cece092fbec33d652ad2f0"
+        },
+        {
+          "path": "docs/engineering/chart-both-20261020-1325.md",
+          "sha256": "d451cf54e9bc445a914a9ef648b45d5b0449739a7ce7c47b8db827233daf189e"
+        },
+        {
+          "path": "docs/engineering/design/chart-both-20261020-1325-desktop-closed.png",
+          "sha256": "0613b27d815ac87ff1555a262fc4fc67e52ce7cfc48ff722bdc90954ade0fae6",
+          "visuallyRead": true
+        },
+        {
+          "path": "docs/engineering/design/chart-both-20261020-1325-desktop-open.png",
+          "sha256": "fb28f81fb6bc431596b90e587151e3e8f0e2508bc344c495074d45b29ae1a1e3",
+          "visuallyRead": true
+        },
+        {
+          "path": "docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png",
+          "sha256": "b94ce815b0c47c29ec24a15abee1fd5f77bd5e91dda9b190114a274b1b98a1f9",
+          "visuallyRead": true
+        },
+        {
+          "path": "docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png",
+          "sha256": "9ce0f79003842e9f73d5cfda7d274edb1123553c20825266abd27166a4106429",
+          "visuallyRead": true
+        },
+        {
+          "path": "/tmp/jpop47-app-qa.mjs",
+          "sha256": "bfec61fe0485361e053e53ff8418586e0baa03724a095a0cc07310bc6b35d777",
+          "temporary": true
+        },
+        {
+          "path": "/tmp/jpop47-app-browser-results/report.json",
+          "sha256": "b3ebb814c127753681ba2ddcecf7245fe75e3a61376a5f95a5b3f70ae6e3a8fa",
+          "temporary": true
+        }
+      ],
+      "independentChecks": [
+        "품질 담당 e2e/chart-both.spec.ts: 2026-10-20T05:21:05Z 실제4/4 exit0/23.4초, 같은 root 로컬 서버4323",
+        "node /tmp/jpop47-quality-visual-audit.mjs: 2026-10-20T05:21:50.229Z, 1366×1000/360×800 JSoff 페이지identity/내용/overlay없음/console없음/Enter열기/27링크/넘침없음",
+        "지정 앱 PNG4개 직접이미지읽기와 각 SHA256 대조 완료"
+      ],
+      "limits": [
+        "Chromium의 로컬 preview 및1440/1366/360px를 확인했으며 다른 엔진·실제 보조기술·모든 기기를 확인한 것은 아니다.",
+        "앱 임시 QA의 공개predicate는 단순하므로 공식 근거 판정의 독립성은 품질의 별도 strict raw+ledger oracle로 보완했다.",
+        "dirty:true 로컬 build이며 clean SHA CI·외부 actual preview·복구·운영·AdSense 심사 통과를 이 평가로 주장하지 않는다."
+      ],
+      "requiredFollowups": []
+    }
+  ],
+  "comparison": {
+    "result": "tie",
+    "workers": [
+      "/root/run47_evidence",
+      "/root/run47_app"
+    ],
+    "reason": "두 담당 모두 자신의 배정 수용기준을 실제 소스·검증·범위구분으로 충족했다. 자료의 근거 정확성과 앱의 사용흐름은 상호 보완적이며 관측한 결함으로 차등할 근거가 없어 동률이다. 변경량·문서 길이·말수로 순위를 만들지 않는다. 본인을 포함한6개 평가와 최종 roster 결정은 root가 확인한다.",
+    "releaseDecision": "이 두 평가만으로 운영을 승인하지 않음. root의 같은SHA 전체검증·preview·실제복구·정책게이트·운영HTTP 확인을 기다린다."
+  }
+}

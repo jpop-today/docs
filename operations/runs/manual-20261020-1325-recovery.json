@@ -1,0 +1,86 @@
+{
+  "startedAt": "2026-10-20T07:24:52.436015+00:00",
+  "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "86b77f8f-1ca4-4b93-9483-7893a22e4817",
+      "url": "https://86b77f8f.todayjpop.pages.dev",
+      "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+      "createdAt": "2026-10-20T07:19:04.643246Z",
+      "status": "success"
+    }
+  },
+  "oldTarget": {
+    "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+    "sha": "4870024cba877be8b4006a9036934086e7e1d6f7"
+  },
+  "scope": "Actual v048 rollback then v049 restore; restoration attempted in finally. No resource deletion.",
+  "steps": [
+    {
+      "action": "rollback",
+      "api": {
+        "project": "todayjpop",
+        "domains": [
+          "todayjpop.pages.dev",
+          "jpop.today"
+        ],
+        "source": {
+          "owner": "kim75503",
+          "repo_name": "todayjpop",
+          "production_branch": "dev",
+          "production_deployments_enabled": false,
+          "preview_deployment_setting": "none"
+        },
+        "deployment": {
+          "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+          "url": "https://ca7a98a4.todayjpop.pages.dev",
+          "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+          "createdAt": "2026-10-20T00:07:59.645677Z",
+          "status": "success"
+        }
+      },
+      "http": "manual-20261020-1325-rollback-http.json",
+      "success": true
+    },
+    {
+      "action": "restore",
+      "api": {
+        "project": "todayjpop",
+        "domains": [
+          "todayjpop.pages.dev",
+          "jpop.today"
+        ],
+        "source": {
+          "owner": "kim75503",
+          "repo_name": "todayjpop",
+          "production_branch": "dev",
+          "production_deployments_enabled": false,
+          "preview_deployment_setting": "none"
+        },
+        "deployment": {
+          "id": "86b77f8f-1ca4-4b93-9483-7893a22e4817",
+          "url": "https://86b77f8f.todayjpop.pages.dev",
+          "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+          "createdAt": "2026-10-20T07:19:04.643246Z",
+          "status": "success"
+        }
+      },
+      "http": "manual-20261020-1325-restore-http.json",
+      "success": true
+    }
+  ],
+  "finishedAt": "2026-10-20T07:25:30.197214+00:00",
+  "success": true
+}

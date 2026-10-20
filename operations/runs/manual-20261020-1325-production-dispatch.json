@@ -1,0 +1,13 @@
+{
+  "requestedAt": "2026-10-20T07:19:39.561894+00:00",
+  "workflow": "production.yml",
+  "request": {
+    "ref": "main",
+    "inputs": {
+      "source_sha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+      "preview_url": "https://7cff5edc.jpoptoday-preview.pages.dev",
+      "verify_only": true
+    }
+  },
+  "scope": "Verify actual managed deployment; do not trigger a second deployment"
+}

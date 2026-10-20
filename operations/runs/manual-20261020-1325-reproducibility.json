@@ -1,0 +1,69 @@
+{
+  "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "startedAt": "2026-10-20T07:12:40.066456+00:00",
+  "scope": "Two clean local builds per target; full file-set and every-file SHA256. Full CI archive comparison not performed.",
+  "checks": [
+    {
+      "name": "unit",
+      "exit": 0,
+      "selected": [
+        "ℹ tests 496",
+        "ℹ pass 496",
+        "ℹ fail 0"
+      ]
+    },
+    {
+      "name": "type",
+      "exit": 0,
+      "selected": [
+        "Result (26 files): ",
+        "- 0 errors",
+        "- 0 warnings",
+        "- 0 hints"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "target": "preview",
+      "metadata": {
+        "schemaVersion": 2,
+        "target": "preview",
+        "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+        "ledgerSha256": "2223178ec86c8aee97d84cc7d7f4cbb10a93d42498bc9090bdf9b6d5eefa1e5e",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": false
+      },
+      "files": 3347,
+      "html": 3336,
+      "indexable": 0,
+      "sameFullFileSetAndEveryByte": true,
+      "manifestSha256": "322c91c12d8bbc9c2eff41308896b5d814a1fe4f324ec286128d9f77e0909b86"
+    },
+    {
+      "target": "production",
+      "metadata": {
+        "schemaVersion": 2,
+        "target": "production",
+        "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+        "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+        "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+        "ledgerSha256": "2223178ec86c8aee97d84cc7d7f4cbb10a93d42498bc9090bdf9b6d5eefa1e5e",
+        "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+        "songCount": 3317,
+        "currentSongCount": 3313,
+        "dirty": false
+      },
+      "files": 3347,
+      "html": 3336,
+      "indexable": 57,
+      "sameFullFileSetAndEveryByte": true,
+      "manifestSha256": "dcac829b26b2abc41c9a09c75b8378f26e6bdb37c5ca6a5286d96d80eb9e163a"
+    }
+  ],
+  "finishedAt": "2026-10-20T07:13:34.182899+00:00"
+}

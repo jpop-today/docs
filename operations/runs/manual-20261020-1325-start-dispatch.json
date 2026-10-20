@@ -1,0 +1,15 @@
+{
+  "acceptedAt": "2026-10-20T04:28:06.094096+00:00",
+  "workflow": "discord.yml",
+  "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "payload": {
+    "ref": "main",
+    "inputs": {
+      "mode": "message",
+      "title": "10월20일 추가 개발 · Issue47 시작",
+      "message": "어제는 v0.4.7의 충돌 번호 보류를 완료했고, 오늘은 v0.4.8을 운영에 반영했습니다. 이번 추가 작업은 Issue #47이며, 자료·앱·품질 담당 3명을 실제 배정했습니다. 차트 32~35위의 관측 번호 7건을 대조하고, TJ·금영 양쪽 확인곡을 JavaScript 없이도 찾을 수 있게 개선합니다. AdSense 실제 신청·승인은 여전히 미확인입니다."
+    }
+  },
+  "accepted": true,
+  "scope": "Single accepted dispatch; actual delivery checked separately"
+}

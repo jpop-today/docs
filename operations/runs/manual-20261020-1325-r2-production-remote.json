@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-20T12:23:12.716Z",
+  "run": 39421248875,
+  "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "status": "completed",
+  "conclusion": "success",
+  "tests": 58,
+  "actionsCFBindings": "missing",
+  "verifyOnly": true,
+  "jobs": [
+    {
+      "id": 118622446786,
+      "selected": [
+        "2026-10-20T12:18:42.1318275Z ℹ tests 524",
+        "2026-10-20T12:18:42.1318664Z ℹ pass 524",
+        "2026-10-20T12:18:42.1318847Z ℹ fail 0",
+        "2026-10-20T12:18:47.1999724Z Result (26 files): ",
+        "2026-10-20T12:18:47.1999933Z - 0 errors",
+        "2026-10-20T12:18:47.2000103Z - 0 warnings",
+        "2026-10-20T12:18:47.2000222Z - 0 hints",
+        "2026-10-20T12:18:51.7329919Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source c6903c88a03acc98bd32cc1444c0f3654a60c595",
+        "2026-10-20T12:18:56.4099831Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source c6903c88a03acc98bd32cc1444c0f3654a60c595",
+        "2026-10-20T12:18:58.8397720Z {\"sourceSha\":\"c6903c88a03acc98bd32cc1444c0f3654a60c595\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+        "2026-10-20T12:20:30.6689132Z   58 passed (1.2m)",
+        "2026-10-20T12:20:30.7403210Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+        "2026-10-20T12:20:34.5129290Z {\"sourceSha\":\"c6903c88a03acc98bd32cc1444c0f3654a60c595\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}",
+        "2026-10-20T12:22:35.2959633Z   58 passed (2.0m)"
+      ]
+    }
+  ],
+  "bindingEvidence": [
+    "2026-10-20T12:20:30.7403210Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available"
+  ],
+  "scope": "Managed production actual; verify-only independently ran local production58 then actual origin58; no duplicate deployment. Actual recovery follows separately."
+}

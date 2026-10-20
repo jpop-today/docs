@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "startedAt": "2026-10-20T04:27:25.698252+00:00",
+  "helperSha256": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+  "baselineHashes": {
+    "data/reviewed/provider-corrections.json": "a0d23d04cc705d444325f1ea8662cc00044fcba3f86074c66800569840a6eae9",
+    "src/content/guides.ts": "7478cbdcbb8286597000cb0bbe3d4ea4703a3b4e316e7bf2c34d863c6cfc1e61",
+    "data/staging/legacy-catalog.json": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+    "data/chart-snapshot.json": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+    "data/legacy-identity-baseline.json": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+    "src/styles/global.css": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889"
+  },
+  "requests": [
+    {
+      "rank": 32,
+      "songId": "jpop-playlist-yoasobi-夜に駆ける-677d131f3f",
+      "provider": "tj",
+      "number": "68381",
+      "stagingTitle": "夜に駆ける",
+      "stagingArtist": "YOASOBI",
+      "chartTitle": "夜に駆ける",
+      "chartArtist": "YOASOBI",
+      "startedAt": "2026-10-20T04:27:25.705279+00:00",
+      "candidateFile": "data/provider-review-20261020-1325-tj-68381-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "68381",
+        "title": "夜に駆ける",
+        "artist": "YOASOBI",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68381&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68381&strWord=Y",
+        "checkedAt": "2026-10-20T04:27:27.495315Z",
+        "responseSha256": "c99505193a90a987dfb94d68e65e029f5c883aa17c91255358e325da5215e9b7",
+        "responseBytes": 49221,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-20T04:27:27.497557+00:00"
+    },
+    {
+      "rank": 32,
+      "songId": "jpop-playlist-yoasobi-夜に駆ける-677d131f3f",
+      "provider": "ky",
+      "number": "44656",
+      "stagingTitle": "夜に駆ける",
+      "stagingArtist": "YOASOBI",
+      "chartTitle": "夜に駆ける",
+      "chartArtist": "YOASOBI",
+      "startedAt": "2026-10-20T04:27:27.497873+00:00",
+      "candidateFile": "data/provider-review-20261020-1325-ky-44656-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "44656",
+        "title": "夜に駆ける",
+        "artist": "YOASOBI",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44656",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44656",
+        "checkedAt": "2026-10-20T04:27:30.847513Z",
+        "responseSha256": "ad1910655fdda3109a8ecb0bd749aec4f234a6e48183a8c3a1f77378ad1e8b41",
+        "responseBytes": 54281,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-20T04:27:30.849303+00:00"
+    },
+    {
+      "rank": 33,
+      "songId": "jpop-playlist-あいみょん-マリ-コ-ルト-ebdb512207",
+      "provider": "tj",
+      "number": "28927",
+      "stagingTitle": "マリーゴールド",
+      "stagingArtist": "あいみょん",
+      "chartTitle": "マリーゴールド",
+      "chartArtist": "あいみょん",
+      "startedAt": "2026-10-20T04:27:30.849682+00:00",
+      "candidateFile": "data/provider-review-20261020-1325-tj-28927-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "28927",
+        "title": "マリーゴールド",
+        "artist": "あいみょん",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28927&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=28927&strWord=Y",
+        "checkedAt": "2026-10-20T04:27:31.646254Z",
+        "responseSha256": "6bd310807c19bfda1bdaa8ed274cb36baff38a4ddc082e020b55de7696234ca9",
+        "responseBytes": 49210,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-20T04:27:31.647770+00:00"
+    },
+    {
+      "rank": 33,
+      "songId": "jpop-playlist-あいみょん-マリ-コ-ルト-ebdb512207",
+      "provider": "ky",
+      "number": "44314",
+      "stagingTitle": "マリーゴールド",
+      "stagingArtist": "あいみょん",
+      "chartTitle": "マリーゴールド",
+      "chartArtist": "あいみょん",
+      "startedAt": "2026-10-20T04:27:31.648345+00:00",
+      "candidateFile": "data/provider-review-20261020-1325-ky-44314-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "44314",
+        "title": "マリーゴールド",
+        "artist": "あいみょん",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44314",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44314",
+        "checkedAt": "2026-10-20T04:27:34.455094Z",
+        "responseSha256": "9cac98004920d622f6b169fe403aca19c185e23973bd12d293e9eefe545d5a6b",
+        "responseBytes": 47735,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-20T04:27:34.456769+00:00"
+    },
+    {
+      "rank": 34,
+      "songId": "jpop-playlist-松田聖子-青い珊瑚礁-f8e4a0a705",
+      "provider": "tj",
+      "number": "27121",
+      "stagingTitle": "青い珊瑚礁",
+      "stagingArtist": "松田聖子",
+      "chartTitle": "青い珊瑚礁",
+      "chartArtist": "松田聖子",
+      "startedAt": "2026-10-20T04:27:34.457403+00:00",
+      "candidateFile": "data/provider-review-20261020-1325-tj-27121-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "27121",
+        "title": "青い珊瑚礁",
+        "artist": "松田聖子",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27121&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27121&strWord=Y",
+        "checkedAt": "2026-10-20T04:27:35.230268Z",
+        "responseSha256": "7e525e011184817c54b51e17ccd0dd79e9ef58dbacf0c6e951b15a67465cc6cb",
+        "responseBytes": 49243,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-20T04:27:35.231981+00:00"
+    },
+    {
+      "rank": 34,
+      "songId": "jpop-playlist-松田聖子-青い珊瑚礁-f8e4a0a705",
+      "provider": "ky",
+      "number": "40403",
+      "stagingTitle": "青い珊瑚礁",
+      "stagingArtist": "松田聖子",
+      "chartTitle": "青い珊瑚礁",
+      "chartArtist": "松田聖子",
+      "startedAt": "2026-10-20T04:27:35.232640+00:00",
+      "candidateFile": "data/provider-review-20261020-1325-ky-40403-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "40403",
+        "title": "青い珊瑚礁",
+        "artist": "松田聖子",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=40403",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=40403",
+        "checkedAt": "2026-10-20T04:27:38.365949Z",
+        "responseSha256": "35e0bd196b3df621d9c4c08eb89d07d10758477a1d4055cd5b123d476d12eceb",
+        "responseBytes": 39724,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-20T04:27:38.367338+00:00"
+    },
+    {
+      "rank": 35,
+      "songId": "jpop-playlist-なとり-フ-ロホ-ス-5b000e662c",
+      "provider": "tj",
+      "number": "52402",
+      "stagingTitle": "プロポーズ",
+      "stagingArtist": "なとり",
+      "chartTitle": "プロポーズ",
+      "chartArtist": "なとり",
+      "startedAt": "2026-10-20T04:27:38.368010+00:00",
+      "candidateFile": "data/provider-review-20261020-1325-tj-52402-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "52402",
+        "title": "プロポーズ",
+        "artist": "なとり",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52402&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52402&strWord=Y",
+        "checkedAt": "2026-10-20T04:27:39.732463Z",
+        "responseSha256": "1b350067961642ab834c6f9b99e3afd41183602be741803d3df07f6bb44309c5",
+        "responseBytes": 49231,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-20T04:27:39.734207+00:00"
+    }
+  ],
+  "notRequested": [
+    {
+      "rank": 35,
+      "songId": "jpop-playlist-なとり-フ-ロホ-ス-5b000e662c",
+      "provider": "ky",
+      "number": null,
+      "reason": "No observed number. Preserve unknown; do not infer unlisted or substitute another provider number."
+    }
+  ],
+  "finishedAt": "2026-10-20T04:27:39.734638+00:00",
+  "editorialReview": {
+    "reviewedAt": "2026-10-20T04:28:59.474980Z",
+    "reviewer": "/root/run47_evidence",
+    "scope": "Full metadata identity comparison. Candidates remain unreviewed; separate decisions authorize limited ledger append. No audio/arrangement/rights/device/Google inference.",
+    "decisions": [
+      {
+        "rank": 32,
+        "songId": "jpop-playlist-yoasobi-夜に駆ける-677d131f3f",
+        "provider": "tj",
+        "number": "68381",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-20T04:28:59.474980Z",
+        "reviewer": "jpop.today 편집 / run47_evidence",
+        "fullStagingIdentity": {
+          "title": "夜に駆ける",
+          "artist": "YOASOBI"
+        },
+        "fullFrozenChartIdentity": {
+          "title": "夜に駆ける",
+          "artist": "YOASOBI"
+        },
+        "fullOfficialIdentity": {
+          "title": "夜に駆ける",
+          "artist": "YOASOBI"
+        },
+        "reason": "TJ 공식 전체 제목 夜に駆ける와 가수 YOASOBI가 staging 및 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡·모든 현장 기기 지원이나 자료 권리를 추정하지 않습니다.",
+        "candidateFile": "data/provider-review-20261020-1325-tj-68381-candidate.json"
+      },
+      {
+        "rank": 32,
+        "songId": "jpop-playlist-yoasobi-夜に駆ける-677d131f3f",
+        "provider": "ky",
+        "number": "44656",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-20T04:28:59.474980Z",
+        "reviewer": "jpop.today 편집 / run47_evidence",
+        "fullStagingIdentity": {
+          "title": "夜に駆ける",
+          "artist": "YOASOBI"
+        },
+        "fullFrozenChartIdentity": {
+          "title": "夜に駆ける",
+          "artist": "YOASOBI"
+        },
+        "fullOfficialIdentity": {
+          "title": "夜に駆ける",
+          "artist": "YOASOBI"
+        },
+        "reason": "금영 공식 전체 제목 夜に駆ける와 가수 YOASOBI가 staging 및 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡·모든 현장 기기 지원이나 자료 권리를 추정하지 않습니다.",
+        "candidateFile": "data/provider-review-20261020-1325-ky-44656-candidate.json"
+      },
+      {
+        "rank": 33,
+        "songId": "jpop-playlist-あいみょん-マリ-コ-ルト-ebdb512207",
+        "provider": "tj",
+        "number": "28927",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-20T04:28:59.474980Z",
+        "reviewer": "jpop.today 편집 / run47_evidence",
+        "fullStagingIdentity": {
+          "title": "マリーゴールド",
+          "artist": "あいみょん"
+        },
+        "fullFrozenChartIdentity": {
+          "title": "マリーゴールド",
+          "artist": "あいみょん"
+        },
+        "fullOfficialIdentity": {
+          "title": "マリーゴールド",
+          "artist": "あいみょん"
+        },
+        "reason": "TJ 공식 전체 제목 マリーゴールド와 가수 あいみょん가 staging 및 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡·모든 현장 기기 지원이나 자료 권리를 추정하지 않습니다.",
+        "candidateFile": "data/provider-review-20261020-1325-tj-28927-candidate.json"
+      },
+      {
+        "rank": 33,
+        "songId": "jpop-playlist-あいみょん-マリ-コ-ルト-ebdb512207",
+        "provider": "ky",
+        "number": "44314",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-20T04:28:59.474980Z",
+        "reviewer": "jpop.today 편집 / run47_evidence",
+        "fullStagingIdentity": {
+          "title": "マリーゴールド",
+          "artist": "あいみょん"
+        },
+        "fullFrozenChartIdentity": {
+          "title": "マリーゴールド",
+          "artist": "あいみょん"
+        },
+        "fullOfficialIdentity": {
+          "title": "マリーゴールド",
+          "artist": "あいみょん"
+        },
+        "reason": "금영 공식 전체 제목 マリーゴールド와 가수 あいみょん가 staging 및 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡·모든 현장 기기 지원이나 자료 권리를 추정하지 않습니다.",
+        "candidateFile": "data/provider-review-20261020-1325-ky-44314-candidate.json"
+      },
+      {
+        "rank": 34,
+        "songId": "jpop-playlist-松田聖子-青い珊瑚礁-f8e4a0a705",
+        "provider": "tj",
+        "number": "27121",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-20T04:28:59.474980Z",
+        "reviewer": "jpop.today 편집 / run47_evidence",
+        "fullStagingIdentity": {
+          "title": "青い珊瑚礁",
+          "artist": "松田聖子"
+        },
+        "fullFrozenChartIdentity": {
+          "title": "青い珊瑚礁",
+          "artist": "松田聖子"
+        },
+        "fullOfficialIdentity": {
+          "title": "青い珊瑚礁",
+          "artist": "松田聖子"
+        },
+        "reason": "TJ 공식 전체 제목 青い珊瑚礁와 가수 松田聖子가 staging 및 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡·모든 현장 기기 지원이나 자료 권리를 추정하지 않습니다.",
+        "candidateFile": "data/provider-review-20261020-1325-tj-27121-candidate.json"
+      },
+      {
+        "rank": 34,
+        "songId": "jpop-playlist-松田聖子-青い珊瑚礁-f8e4a0a705",
+        "provider": "ky",
+        "number": "40403",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-20T04:28:59.474980Z",
+        "reviewer": "jpop.today 편집 / run47_evidence",
+        "fullStagingIdentity": {
+          "title": "青い珊瑚礁",
+          "artist": "松田聖子"
+        },
+        "fullFrozenChartIdentity": {
+          "title": "青い珊瑚礁",
+          "artist": "松田聖子"
+        },
+        "fullOfficialIdentity": {
+          "title": "青い珊瑚礁",
+          "artist": "松田聖子"
+        },
+        "reason": "금영 공식 전체 제목 青い珊瑚礁와 가수 松田聖子가 staging 및 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡·모든 현장 기기 지원이나 자료 권리를 추정하지 않습니다.",
+        "candidateFile": "data/provider-review-20261020-1325-ky-40403-candidate.json"
+      },
+      {
+        "rank": 35,
+        "songId": "jpop-playlist-なとり-フ-ロホ-ス-5b000e662c",
+        "provider": "tj",
+        "number": "52402",
+        "decision": "confirm",
+        "reviewedAt": "2026-10-20T04:28:59.474980Z",
+        "reviewer": "jpop.today 편집 / run47_evidence",
+        "fullStagingIdentity": {
+          "title": "プロポーズ",
+          "artist": "なとり"
+        },
+        "fullFrozenChartIdentity": {
+          "title": "プロポーズ",
+          "artist": "なとり"
+        },
+        "fullOfficialIdentity": {
+          "title": "プロポーズ",
+          "artist": "なとり"
+        },
+        "reason": "TJ 공식 전체 제목 プロポーズ와 가수 なとり가 staging 및 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡·모든 현장 기기 지원이나 자료 권리를 추정하지 않습니다.",
+        "candidateFile": "data/provider-review-20261020-1325-tj-52402-candidate.json"
+      }
+    ],
+    "confirmed": 7,
+    "suppressed": 0,
+    "deferred": 0,
+    "unknownPreserved": [
+      {
+        "rank": 35,
+        "songId": "jpop-playlist-なとり-フ-ロホ-ス-5b000e662c",
+        "provider": "ky",
+        "number": null,
+        "reason": "No observed number. Preserve unknown; do not infer unlisted or substitute another provider number."
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "runId": "manual-20261020-1325",
+  "readAt": "2026-10-20T05:25:27.472832+00:00",
+  "originals": [
+    {
+      "file": "engineering/chart-both-peer-app-20261020-1325.json",
+      "sha256": "70bf100763f799239b08e550fe4b2a5b7204659f44a3c8f43dd19a6e92646756"
+    },
+    {
+      "file": "engineering/chart-both-peer-evidence-20261020-1325.json",
+      "sha256": "b0755d81187fb4c2308b6d3b007b1f4a70615a1385cd3aaca57ec54700d35812"
+    },
+    {
+      "file": "engineering/chart-both-peer-quality-20261020-1325.json",
+      "sha256": "dbef04846b8eb3f33b2df397e5198c9ec63620fb3ac1570c710cb6de0a87d8fe"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "/root/run47_app",
+      "candidate": "/root/run47_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "{\"correctness\": [\"Read all seven candidate JSON, request/editorial decision records, last seven ledger entries and read-tj-chart diff. Exact full title/artist and string-number correspondence matches each of the four frozen stable IDs.\", \"Three dual-provider pairs plus one TJ-only song are distinguished; Natori KY null/unknown is neither queried nor called unlisted. Original snapshot time and number checkedAt remain separate.\"], \"evidence\": [\"Reviewer executed a read-only 7-cell candidate/request/decision/ledger assertion; HTTP200/request-final URL/responseSha256/checkedAt match without changing unreviewed candidates.\", \"Read validation JSON: ordered original92 prefix and upper metadata preserved, unchanged five complete guides,3317 stable IDs/URLs,6627 other provider cells and frozen raw/chart/identity/CSS hashes. Final guide-link check uses actual final source hashes.\"], \"value\": [\"Guide gives a concrete native-details -> original TJ rank -> existing song evidence route, with actual three-pair and one-provider examples, no hardcoded changing global count.\", \"My independent app flow actually followed /guides/read-tj-chart/ -> /chart/#chart-both-heading and opened native details at360px without JavaScript.\"], \"maintainability\": [\"Append-only ledger, per-request immutable unreviewed metadata, separate editorial decisions and final preservation report make future review traceable.\", \"Only the existing chart guide changes; existing guide URL, first two sections and five other full objects stay intact; no new framework/script/storage surface.\"]}",
+      "evidence": [
+        "engineering/chart-both-peer-app-20261020-1325.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run47_app",
+      "candidate": "/root/run47_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "{\"correctness\": [\"Read all four unit cases and four E2E cases. Expected sets are derived from raw staging plus ledger and whole-catalog post-correction number multiplicities, then cross-check public projection; application count/helper is not the oracle.\", \"E2E checks exact both IDs/ranks/full identities/provider strings plus original100anchors/detail URLs, original TJ/KY/union counts, true one-provider exclusion and unknown cells. Japanese URL encoding fix preserves raw href/ID assertions.\"], \"evidence\": [\"Read actual dedicated browser .last-run.json status passed/failedTests empty, visual audit JSON and receipt audit JSON. These agree with documented leaf4/4 and browser4/4 on the root4323 preview.\", \"Quality log explicitly separates list-only collection, wrapper versus leaf counts, local preview versus external deployment and independent receipt review versus original official fetch.\", \"Reviewer app QA on same local artifact separately observed27 both links,TJ31/KY27/union31,100stable anchors,JS-off keyboard/detail/guide flow,storage bytes and zero console/ad problems.\"], \"value\": [\"Guards against union mistaken for intersection, invented KY confirmation, duplicate-number conflicts and chart rank/URL corruption rather than only mirroring rendered count.\", \"JS-off360px navigation and raw localStorage preservation directly protect the user route and saved song compatibility.\"], \"maintainability\": [\"Source-only literal base preservation guards work in shallow CI and do not require a docs checkout, network access or Git subprocess.\", \"Nonblocking cost: strict numeric-evidence predicate and corrected-number set construction are duplicated in unit and E2E; future eligibility changes must intentionally update both independent oracles. Current assertions are consistent and tested, but a test-only helper with explicit independence boundary or shared checklist would reduce drift.\"]}",
+      "evidence": [
+        "engineering/chart-both-peer-app-20261020-1325.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run47_evidence",
+      "candidate": "/root/run47_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "{\"correctness\": {\"score\": 5, \"reason\": \"chartEntries에서 기존 strict confirmedNumbers에 TJ와 KY가 각각 있는 같은 ID만 bothEntries로 선택한다. canonicalId/100행/원TJ순위/기존 chart-ID anchor와 SongRow를 유지하며, 기본 닫힌 native details와 바깥 note가 교집합·오래된 차트·금영순위 아님·0≠미수록을 정확히 설명한다. 실제 report의 차트 TJ31/KY27/union31/both27과 새 3쌍 포함/なとり 제외가 독립 quality oracle와 맞는다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/src/pages/chart.astro\", \"/tmp/jpop47-app-browser-results/report.json\", \"/workspace/jpoptoday/tests/chart-both-evidence.test.mjs\", \"/workspace/jpoptoday/e2e/chart-both.spec.ts\"], \"limits\": \"이 평가는 현재 frozen 입력의 탐색 동작이며 모든 기기 지원이나 최신 순위·공식 미수록 증거를 만들지 않는다.\"}, \"evidence\": {\"score\": 5, \"reason\": \"최종 app MD와 실제 05:21:46~56Z report가 source15ff7494…와 dirty:true local preview를 명시하고 세 context 모두 passed를 기록했다. 네 PNG를 직접 view_image로 읽어 desktop4칸/360px2칸 count, 실제 닫힘/펼침, 원문/양쪽 번호, 파란 focus와 mint패널의 글자·간격/넘침 없는 상태를 확인했다. 이전 QA URL encoding/이동대기 오류와 수정도 숨기지 않았다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/src/pages/chart.astro\", \"/workspace/docs/engineering/chart-both-20261020-1325.md\", \"/tmp/jpop47-app-browser-results/report.json\", \"/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-closed.png\", \"/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-open.png\", \"/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png\", \"/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png\"], \"limits\": \"브라우저를 리뷰어가 다시 실행하지는 않았다. 담당자의 실제 결과·source와 렌더 PNG를 읽었으며 원격preview/CI/production 검증으로 확대하지 않는다.\"}, \"value\": {\"score\": 5, \"reason\": \"TJ·금영을 번갈아 쓰는 방문자가 같은 곡의 두 번호를 한 목록에서 비교한 뒤 원TJ행과 기존 상세 근거를 따라갈 수 있다. 기존 업체별 목록은 접지 않고 양쪽 목록만 선택적으로 열게 해 기본 화면의 추가 길이를 제한했다. JS-off/360px에서도 native 키보드 흐름과 최소 폭260px/높이78.578125px을 실제 측정했고 문서·PNG에서 확인된다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/src/pages/chart.astro\", \"/workspace/docs/engineering/chart-both-20261020-1325.md\", \"/tmp/jpop47-app-browser-results/report.json\", \"/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png\", \"/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png\"], \"limits\": \"실제 보조기술 사용성, 다른 브라우저, 모든 화면크기나 현장 기기의 예약 결과는 확인하지 않았다.\"}, \"maintainability\": {\"score\": 5, \"reason\": \"기존 strict helper와 chartEntries를 재사용하고 chart.astro의 국소 CSS/SSR markup만 추가했다. 새 client script, package, 저장 키, 별도 서버나 전역 CSS 수정 없이 native details로 작동한다. stable data selectors와 anchor를 인계 문서에 명시했고 고정 count를 source에 넣지 않아 후속 ledger append를 따른다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/src/pages/chart.astro\", \"/workspace/docs/engineering/chart-both-20261020-1325.md\"], \"limits\": \"27곡 펼친 목록의 길이는 사용자 선택의 결과이며 현재 범위의 blocker로 판단하지 않았다.\"}}",
+      "evidence": [
+        "engineering/chart-both-peer-evidence-20261020-1325.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run47_evidence",
+      "candidate": "/root/run47_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "reason": "{\"correctness\": {\"score\": 5, \"reason\": \"unit과 E2E는 앱 count/lookup helper를 oracle로 쓰지 않고 raw+ledger에서 보정 후 번호의 전체 카탈로그 중복수를 세어 current/playlist/confirm·엄격 공식 numeric URL·전체 근거의 ID 집합을 만든다. public projection과 HTTP catalog의 별도 predicate와 대조하고 실제 KYnull·samfree/Ado 보류·교집합<합집합 부정 경계를 검사한다. 원92 전체/순서/상위metadata·raw/chart/identity/CSS·타5가이드 전체hash도 보존 검사한다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/tests/chart-both-evidence.test.mjs\", \"/workspace/jpoptoday/e2e/chart-both.spec.ts\"], \"limits\": \"동일 raw/ledger에서 만든 독립 모델 검사이며 공식 응답 재조회나 미확인 권리의 증명이 아니다.\"}, \"evidence\": {\"score\": 5, \"reason\": \"최종 품질 문서는 wrapper1/1와 leaf4/4, --list4와 실제E2E4/4를 구분한다. E2E c4cde5…·unit7ce6bd… hash를 실제 파일로 확인했고 .last-run은 passed/failedTests[]였다. 별도 receipt audit7건,1366/360 JS-off visual JSON의 실제시각과 범위도 읽었다. 기본 sandbox EPERM과 성공한 읽기 경로·로컬 관측 한계를 기록했다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/tests/chart-both-evidence.test.mjs\", \"/workspace/jpoptoday/e2e/chart-both.spec.ts\", \"/workspace/docs/engineering/chart-both-quality-20261020-1325.md\", \"/tmp/jpop47-quality-browser-results/.last-run.json\", \"/tmp/jpop47-quality-visual-audit.json\", \"/tmp/jpop47-quality-receipt-audit.json\"], \"limits\": \"리뷰어가 suite를 재실행하지 않았다. root 전체57 E2E의 진행/결과, 같은SHA CI·외부preview·복구·운영은 이 두 담당 평가에서 미확정이다.\"}, \"value\": {\"score\": 5, \"reason\": \"단순 snapshot수 상수검사에 그치지 않고 잘못된 union 계산/제목·번호누락/원100행·상세URL변경/한업체 근거의 다른업체 확대/저장원문 덮어쓰기를 실제 사용자흐름에서 잡는다. JSoff360/키보드/focus·44px/guidebacklink/console/noads·robots 검사로 데이터와 공개동선 양쪽 회귀를 막는다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/tests/chart-both-evidence.test.mjs\", \"/workspace/jpoptoday/e2e/chart-both.spec.ts\", \"/workspace/docs/engineering/chart-both-quality-20261020-1325.md\"], \"limits\": \"실제0곡 dataset나 모든 브라우저·보조기술을 실행한 검증은 아니며 문서도 그렇게 한정한다. 이 범위 밖 검증을 수행했다고 가정해 감점하지 않았다.\"}, \"maintainability\": {\"score\": 4, \"reason\": \"source-only 고정 base hash/최소99+정확7쌍은 shallow CI에서 Git/docs/network 없이 재현하고 후속 append도 허용해 유용하다. 다만 길이가 긴 strictnumericURL predicate와 raw/ledger multiplicity oracle가 unit의 numericEvidence와 E2E의 evidenceMatches/rawProviderIds에 거의 같은 내용으로 두 번 존재해 정책 변경 때 두 테스트가 서로 달라질 유지보수 지점이 남는다. 앱 helper를 쓰지 않는 독립성은 그대로 지키면서 test전용 모델을 정리할 여지가 있다.\", \"evidenceFiles\": [\"/workspace/jpoptoday/tests/chart-both-evidence.test.mjs\", \"/workspace/jpoptoday/e2e/chart-both.spec.ts\"], \"limits\": \"현재 모델이나 결과가 잘못됐다는 결함은 발견하지 않았다. 낮은 1점은 확인한 중복 검증모델의 유지보수 부담이며 변경량·말수·작업유형으로 정한 순위가 아니다.\"}}",
+      "evidence": [
+        "engineering/chart-both-peer-evidence-20261020-1325.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run47_quality",
+      "candidate": "/root/run47_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "{\"correctness\": \"ledger의 실제 index92~98이 32~35위4ID의 관측번호7쌍과 정확히 일치했다. full 제목·가수가 staging·동결차트·후보·별도결정·ledger에서 일치하며 プロポーズ KY는 null/unknown/evidence null/correction null이다. 독립 unit이 원92객체 전체·순서·상위metadata와 raw/chart/identity/CSS·타5가이드 전체객체를 검사해 실제4/4 통과했다.\", \"evidence\": \"requests JSON의 실제7회 HTTP200/확인UTC/final URL/response hash를 candidate7개·별도 editorialReview7개·ledger7개와 읽기 교차 감사해 일치했다. candidate는 unreviewed를 유지하며 승인 결정과 추출을 분리했다. 문서는 자체 계약 검사와 브라우저·CI·운영 미실행을 구분한다. 이 평가는 최초 공식 응답을 본 역할이 새로 조회했다는 주장이 아니다.\", \"value\": \"실제 확인 근거가7번호 늘어 차트 두 업체 확인곡이24→27, TJ곡이27→31로 증가한 입력과 공개동작을 확인했다. 가이드는 양쪽 확인곡 펼치기→원차트행→상세 근거라는 실제 JSoff 동선을 제공하며, TJ만 확인된 なとり를 대비 사례로 설명한다. 조회일·편집일과 오래된 차트 날짜, unknown과 미수록을 구분해 예약 오류를 줄인다.\", \"maintainability\": \"기존92 항목의 수정 없이 append만 하고 다른5가이드·ID/URL·provider 셀을 보존했다. 후보→검토결정→ledger의 파일/해시/확인일 연결과 역할별 한계를 남겨 후속 재검토가 가능하다. 공개 가이드에는 변하는 총 확인곡 수를 고정하지 않았다. 수정 범위가 read-tj-chart와 검토원장에 한정돼 다른 콘텐츠 회귀면을 늘리지 않는다.\"}",
+      "evidence": [
+        "engineering/chart-both-peer-quality-20261020-1325.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run47_quality",
+      "candidate": "/root/run47_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "{\"correctness\": \"chart.astro는 strict confirmedNumbers에서 두 업체가 모두 있는 같은 ID를 원래 chartEntries 순서로 필터링한다. 독립 raw/ledger/public oracle와 실제27개 교집합·31/27/31 기존수·원100순위/앵커/상세URL·문자열번호가 E2E에서 일치했다. details 기본닫힘, 기존 업체별 목록 노출, TJ만 확인된 なとり 제외와 항상 보이는 0≠미수록/순위 고지도 확인했다.\", \"evidence\": \"최종 소스와 앱 문서·QA 스크립트/결과 JSON·지정 PNG4개를 읽고 hash를 대조했다. PNG4개를 직접 열어 desktop4열/mobile2열 count와 접힘·펼침, 원제/가수/번호 줄바꿈과 눈에 보이는 focus를 확인했다. 품질 담당의 별도 실제4E2E와1366/360 JSoff 시각 감사도 같은 동작을 확인했다. 앱 문서가 dirty 로컬 preview와 초기 QA encoding/wait 오류를 구분하며 CI/운영 성공으로 확대하지 않는다.\", \"value\": \"두 업체의 확인 근거가 모두 필요한 사용자가27곡을 한 목록에서 비교하고 원래 TJ순위 행·기존 상세로 바로 이동한다. JavaScript 없는 native disclosure와 키보드 조작·44px 이상 target으로 접근할 수 있다. 기본 접힘이 추가27곡의 길이를 선택사항으로 만들고 기존 두 업체 탐색을 계속 노출한다. snapshot/TJ순위·금영순위·unknown 설명은 잘못된 최신/미수록 해석을 막는다.\", \"maintainability\": \"새 client script·저장 키·의존성 없이 기존 confirmedNumbers/차트 anchor/SongRow 흐름을 재사용했다. source selector와 문서의 동작 계약이 독립 테스트와 연결돼 있고 공용 CSS·브랜드 bytes는 바꾸지 않았다. 변경 범위가 단일 chart 페이지의 파생집합·정적 마크업·scoped CSS로 한정돼 데이터·URL·저장계약을 별도로 복제하지 않는다.\"}",
+      "evidence": [
+        "engineering/chart-both-peer-quality-20261020-1325.json"
+      ]
+    }
+  ],
+  "managerChecks": {
+    "actualSourceAndDocumentHashesVerified": [
+      "/tmp/jpop47-app-browser-results/report.json",
+      "/tmp/jpop47-app-qa.mjs",
+      "/tmp/jpop47-quality-browser-results/.last-run.json",
+      "/tmp/jpop47-quality-receipt-audit.json",
+      "/tmp/jpop47-quality-visual-audit.json",
+      "/workspace/docs/data/provider-review-20261020-1325-ky-40403-candidate.json",
+      "/workspace/docs/data/provider-review-20261020-1325-ky-44314-candidate.json",
+      "/workspace/docs/data/provider-review-20261020-1325-ky-44656-candidate.json",
+      "/workspace/docs/data/provider-review-20261020-1325-requests.json",
+      "/workspace/docs/data/provider-review-20261020-1325-tj-27121-candidate.json",
+      "/workspace/docs/data/provider-review-20261020-1325-tj-28927-candidate.json",
+      "/workspace/docs/data/provider-review-20261020-1325-tj-52402-candidate.json",
+      "/workspace/docs/data/provider-review-20261020-1325-tj-68381-candidate.json",
+      "/workspace/docs/data/provider-review-20261020-1325-validation.json",
+      "/workspace/docs/data/provider-review-20261020-1325.md",
+      "/workspace/docs/engineering/chart-both-20261020-1325.md",
+      "/workspace/docs/engineering/chart-both-quality-20261020-1325.md",
+      "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-closed.png",
+      "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-open.png",
+      "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png",
+      "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png",
+      "/workspace/jpoptoday/data/reviewed/provider-corrections.json",
+      "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+      "/workspace/jpoptoday/src/content/guides.ts",
+      "/workspace/jpoptoday/src/pages/chart.astro",
+      "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs"
+    ],
+    "temporaryEvidenceDrift": [],
+    "explanation": "Root read all six criteria/reasons and actual files; its separate root receipt audit rerun may update temporary audit JSON only. Original reviewer evidence and final source/docs preserved.",
+    "workingUnit": 428,
+    "workingTypeErrors": 0,
+    "workingArtifactFiles": 3347,
+    "workingBrowser": 57,
+    "rootDesktopAndMobileImagesRead": true
+  },
+  "tieBreakOrder": [
+    "quality",
+    "evidence",
+    "app"
+  ],
+  "evaluation": {
+    "totals": {
+      "/root/run47_evidence": 40,
+      "/root/run47_app": 40,
+      "/root/run47_quality": 38
+    },
+    "lowest": [
+      "/root/run47_quality"
+    ],
+    "maximum": 40
+  }
+}

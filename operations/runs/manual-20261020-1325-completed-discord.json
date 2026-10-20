@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-20T12:40:46.074Z",
+  "run": 39423909000,
+  "job": 118631496994,
+  "conclusion": "success",
+  "state": "sent",
+  "reportMainSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "checkoutEvidence": [
+    "2026-10-20T12:39:10.4188740Z e52f0566b13bb7879e4c44eed3dd81c326956f70"
+  ],
+  "sender": [
+    "2026-10-20T12:39:11.3629902Z Discord notification sent (1 attempt)."
+  ],
+  "savedCore": "manual-20261020-1325-completion-core.json",
+  "payloadCheck": "manual-20261020-1325-core-payload-check.json",
+  "scope": "Actual existing notification workflow single completed dispatch, exact report R checkout and dated saved core. Secret values, destination and body not retained."
+}

@@ -1,0 +1,5 @@
+
+> jpoptoday@0.4.9 verify:dist
+> node scripts/verify-dist.mjs
+
+Artifact verification failed: ads.txt: unapproved artifact file type or location

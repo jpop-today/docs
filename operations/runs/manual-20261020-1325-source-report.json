@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-20T12:36:44.497883+00:00",
+  "pr": 50,
+  "headSha": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+  "reportMainSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "productSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "filesDifferentFromProduct": [
+    "reports/daily/2026-10-20.json",
+    "reports/runs/manual-20261020-1325.json"
+  ],
+  "redeployed": false,
+  "mainCI": "success",
+  "mainCIReceipt": "manual-20261020-1325-report-main-ci.json"
+}

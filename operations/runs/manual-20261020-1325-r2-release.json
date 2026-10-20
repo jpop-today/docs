@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-20T12:29:44.803426+00:00",
+  "tag": "v0.4.9",
+  "tagObject": "932e38148553e3c03fd9a34abf52bb546b272c2f",
+  "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "id": 418373623,
+  "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.9",
+  "publishedAt": "2026-10-20T12:28:29Z",
+  "draft": false,
+  "prerelease": false,
+  "workflow": 39422100980,
+  "workflowConclusion": "success",
+  "scope": "Actual GitHub Release and annotated tag target; published by existing release.yml, no manual duplicate Release"
+}
