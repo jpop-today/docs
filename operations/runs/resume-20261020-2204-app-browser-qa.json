@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-10-20T18:04:43.833Z",
+  "base": "http://127.0.0.1:4321",
+  "browser": "system Chromium through Playwright; Browser js tool unavailable",
+  "checks": {
+    "pageIdentity": true,
+    "meaningfulPage": true,
+    "noFrameworkOverlay": true,
+    "downloadIgnoresFilterAndPreservesObjects": true,
+    "readOnlyPreviewAndCancellation": true,
+    "minimumControlHeights": {
+      "#favorites-backup > summary": 48,
+      "#download-favorites-backup": 50,
+      "#favorites-backup-file": 56,
+      "#merge-favorites-backup": 50,
+      "#cancel-favorites-backup": 50
+    },
+    "explicitKeyboardMergePreservesExistingMetadataUnknown": true,
+    "mobileNoHorizontalOverflow": true,
+    "jsOffNativeDetailsDisabledControls": true,
+    "consoleHealthy": true
+  },
+  "screenshots": [
+    "/tmp/r51-app-desktop.png",
+    "/tmp/r51-app-mobile-preview.png"
+  ],
+  "consoleRelevant": [],
+  "finishedAt": "2026-10-20T18:04:51.576Z",
+  "result": "passed"
+}

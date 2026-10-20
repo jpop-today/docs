@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-20T18:10:38.635785+00:00",
+  "decisionEvidence": "resume-20261020-2204-reviews.json",
+  "excluded": "/root/r51_quality",
+  "interruptActualPreviousStatus": "completed",
+  "newAgent": "/root/r51_recovery_audit",
+  "activeRoster": [
+    "/root/r51_evidence",
+    "/root/r51_app",
+    "/root/r51_recovery_audit"
+  ],
+  "initialCount": 3,
+  "replacementCount": 1,
+  "physicalDeletion": false,
+  "reason": "Actual missing browser verification for rollback failure warning, score39 vs40/40",
+  "scope": [
+    "e2e/favorites-backup-recovery.spec.ts",
+    "docs/engineering/favorites-backup-recovery-resume-20261020-2204.md"
+  ],
+  "noOriginalHistoryRemoval": true
+}

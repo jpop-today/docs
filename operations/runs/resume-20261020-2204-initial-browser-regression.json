@@ -1,0 +1,11 @@
+{
+  "readAt": "2026-10-20T18:11:24.342411+00:00",
+  "command": "JPOP_TEST_BASE_URL=http://127.0.0.1:4321 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e -- --ignore-snapshots --output=/tmp/jpop51-root-e2e --grep-invert backup|보관",
+  "tests": 58,
+  "passed": 57,
+  "failed": 1,
+  "failure": "e2e/favorites-export.spec.ts:187 old exact JavaScript-off notice omitted new file-backup functions",
+  "resolution": "Root changed only that notice expectation to exact new notice; full final browser suite being rerun",
+  "log": "/tmp/jpop51-root-existing-e2e.log",
+  "scope": "Initial dirty candidate only; original failure log retained"
+}

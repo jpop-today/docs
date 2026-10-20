@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-20T17:59:47.004000+00:00",
+  "runId": "resume-20261020-2204",
+  "reason": "same Issue51 after actual usage-limit interruption; no new initial team",
+  "environment": {
+    "revision": 900,
+    "current": true,
+    "running": true,
+    "connected": true,
+    "cfBindingReadiness": "ready"
+  },
+  "state": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+      "url": "https://b2b87099.todayjpop.pages.dev",
+      "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+      "createdAt": "2026-10-20T12:17:29.515674Z",
+      "status": "success"
+    }
+  }
+}

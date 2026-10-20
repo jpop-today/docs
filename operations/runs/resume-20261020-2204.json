@@ -1,0 +1,159 @@
+{
+  "runId": "resume-20261020-2204",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/51",
+  "state": "merged_pending_preview",
+  "startedAt": "2026-10-20T13:05:57Z",
+  "timezone": "Asia/Seoul",
+  "resumedAt": "2026-10-20T17:59:47.004000+00:00",
+  "base": {
+    "source": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+    "docs": "60e40985d7fdd2d3f0c7ed1f2c4246a275d1260a",
+    "organization": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+  },
+  "spec": [
+    "FAVORITES-001",
+    "DATA-001",
+    "CONTENT-001",
+    "PRIVACY-001",
+    "HARNESS-001",
+    "DESIGN-001",
+    "RELEASE-001"
+  ],
+  "adr": [
+    "002",
+    "003",
+    "008"
+  ],
+  "problem": "Number memo cannot restore stable IDs, unknown entries and original metadata after browser-data removal or device transfer. Add local JSON backup/preview/explicit merge.",
+  "invariants": {
+    "providerLedgerEntries": 99,
+    "safeSongIds": 40,
+    "safeProviderNumbers": 74,
+    "stableIds": 3317,
+    "rawChartLedgerAndBrand": "unchanged",
+    "numberStrings": "preserved",
+    "unknownIsNotUnlisted": true,
+    "storageKey": "jpop_today_favorites",
+    "preview": "all noindex/no ads"
+  },
+  "team": {
+    "initialCount": 3,
+    "workers": [
+      {
+        "id": "/root/r51_evidence",
+        "role": "자료·콘텐츠 근거",
+        "files": [
+          "src/content/guides.ts#build-your-setlist",
+          "docs/data/favorites-backup-resume-20261020-2204.md"
+        ]
+      },
+      {
+        "id": "/root/r51_app",
+        "role": "앱·디자인",
+        "files": [
+          "src/scripts/app.ts",
+          "src/pages/favorites.astro",
+          "docs/engineering/favorites-backup-resume-20261020-2204.md"
+        ]
+      },
+      {
+        "id": "/root/r51_quality",
+        "role": "하네스·품질",
+        "files": [
+          "tests/favorites-backup.test.mjs",
+          "e2e/favorites-backup.spec.ts",
+          "docs/engineering/favorites-backup-quality-resume-20261020-2204.md"
+        ]
+      }
+    ],
+    "rootOwnership": [
+      "Git/package/lock/CI/deployment",
+      "contracts/favorites-backup.mjs + .d.mts",
+      "contracts/legacy-compatibility.mjs atomic candidate merge",
+      "src/pages/privacy.astro",
+      "existing e2e/title-artist-guide.spec.ts date assertion",
+      "existing e2e/favorites-export.spec.ts JS-off notice assertion",
+      "existing tests/chart-both-evidence.test.mjs historical guide guard adjustment",
+      "spec/ADR/operations integration",
+      "e2e/helpers/backup-network.mjs",
+      "tests/favorites-backup-network.test.mjs",
+      "test-only request-listener integration in two new specs"
+    ],
+    "tieBreakBeforeScores": [
+      "/root/r51_quality",
+      "/root/r51_evidence",
+      "/root/r51_app"
+    ],
+    "reviews": "resume-20261020-2204-reviews.json",
+    "physicalDeletionSupported": false,
+    "replacement": "resume-20261020-2204-replacement.json"
+  },
+  "interruptions": [
+    {
+      "kind": "actual usage limit",
+      "workers": [
+        "/root/r51_app",
+        "/root/r51_quality",
+        "/root/r51_evidence"
+      ],
+      "action": "Preserved all uncommitted files; followed up same three IDs after fresh environment/API/read preflight. No new initial team."
+    },
+    {
+      "kind": "second actual usage limit",
+      "resumedAt": "2026-10-20T23:00:15Z",
+      "environmentRevision": 964,
+      "workers": [
+        "/root/r51_app",
+        "/root/r51_evidence"
+      ],
+      "action": "Same agent IDs followed up after fresh GitHub/Git/API/HTTP preflight; no new initial team. Preserved source draft PR52 and docs PR28."
+    }
+  ],
+  "verification": {
+    "localIntegration": "resume-20261020-2204-local-integration.json",
+    "appQa": "resume-20261020-2204-app-browser-qa.json",
+    "qualityUnit": 45,
+    "qualityActualBrowser": 16,
+    "finalFullSuite": "in_progress",
+    "ci": "pending",
+    "deployment": "not started",
+    "unit": 573,
+    "typeFiles": 26,
+    "typeErrors": 0,
+    "localFullBeforeRecoveryExtension": 74,
+    "replacementRecovery": 6,
+    "finalRootNetworkFeatureRecovery": 22,
+    "rootNetworkV2PeerReview": "resume-20261020-2204-root-network-v2-peer-validation.json",
+    "replacementPeerReview": "resume-20261020-2204-replacement-peer-validation.json",
+    "exactFinalHeadCi": "resume-20261020-2204-final-head-ci.json",
+    "mainCi": "in progress",
+    "reproducibility": "in progress"
+  },
+  "notification": {
+    "start": "resume-20261020-2204-start-notification.json",
+    "completed": "pending; never duplicate start"
+  },
+  "adsense": {
+    "state": "preparing",
+    "account": "unknown",
+    "application": "unknown",
+    "actualApproval": "unknown",
+    "operatorSteps": [
+      "rights review",
+      "contact mailbox actual receipt",
+      "ads.txt account ownership match",
+      "identity and legal consent",
+      "actual Google review result"
+    ]
+  },
+  "schedules": {
+    "changed": false,
+    "daily09AndHourly": "existing schedules untouched; enabled/current execution not newly confirmed",
+    "unlimitedSessionGuaranteed": false
+  },
+  "sourcePr": 52,
+  "docsPr": 28,
+  "sourceBranch": "codex/51-favorites-backup",
+  "sourceHead": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+  "productSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c"
+}

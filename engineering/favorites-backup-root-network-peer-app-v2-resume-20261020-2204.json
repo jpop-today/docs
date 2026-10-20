@@ -1,0 +1,91 @@
+{
+  "reviewer": "/root/r51_app",
+  "readAt": "2026-10-20T23:04:30Z",
+  "reviews": [
+    {
+      "candidate": "/root",
+      "scope": "Issue51 root network harness mixed-encoding follow-up v2",
+      "filesRead": [
+        {
+          "path": "jpoptoday/e2e/helpers/backup-network.mjs",
+          "sha256": "a45d3f2f9489f5fda8d328f222de8b7dd02f3c82f4b61a50e9e15f8719f924c8"
+        },
+        {
+          "path": "jpoptoday/tests/favorites-backup-network.test.mjs",
+          "sha256": "278217f357d4af4e04e83d2be0de774610c36e7aa8346e8239148877835145bf"
+        },
+        {
+          "path": "docs/engineering/favorites-backup-root-network-peer-app-resume-20261020-2204.json",
+          "sha256": "2e69ed3e102de2dedc7a16d1ba72f8ff0be5658d9425447e00c6a074687b059f"
+        },
+        {
+          "path": "docs/engineering/audit-evidence/network-mixed-encoding-first-failure.log",
+          "sha256": "ddf162fbb01b21e767431ccb93aa856abac7a56b76ca0a12a98dc5d3da3e16a6"
+        }
+      ],
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "evidence": {
+        "correctness": [
+          "v2 helper/tests 전체를 실제 읽었다. raw query 성분/파싱된 URL query·path·hash/body/JSON의 모든 key·string을 독립 queue에서 검사한다. 유효 percent byte run을 각각 TextDecoder로 해석하므로 무관한 literal%·잘못된 UTF8가 다른 필드의 검사를 중단하지 않는다.",
+          "매 decode 결과를 queue에 다시 넣고 JSON을 재해석해 percent encoding과 JSON unicode escape의 조합을 검사한다. seen 집합으로 같은 문자열을 중복 처리하지 않으며 canary 검사 뒤에만 read/좁은 analytics 분류를 허용한다.",
+          "최초 제보한 두 합성 반례를 직접 재실행해 둘 다 favorite-data-in-request를 반환함을 assert했다. literal100%를 가진 정상 analytics 대조는 analytics로 유지됨도 확인했다. 제품 파일 처리 코드를 수정한 것으로 해석하지 않는다."
+        ],
+        "evidence": [
+          "보존한 첫 확장 로그를 실제 읽어 부모4검사 중3pass/1fail과 GET raw JSON query의 read 오분류를 확인했다. raw query 성분을 추가한 현재 구현의 이유와 맞으며 과거 실패를 덮지 않았다.",
+          "현재 /tmp/jpop51-network-mixed-encoding-unit.log의 tests4/pass4/fail0과 /tmp/jpop51-mixed-encoding-browser.log의22passed(27.3s)를 직접 읽었다. 등록 수나 기존22통과만으로 새 검사 성공을 추정하지 않았다.",
+          "원평가16/20 changes-needed JSON hash2e69...를 실제 대조했고 그대로 보존했다. 이 신규 평가가 원평가 당시의 두 우회를 소급해 없애지 않는다. public CF script의 endpoint 코드 읽기와 실제 analyticsPOST 송신 관측을 구분한다."
+        ],
+        "value": [
+          "파일 canary를 숨긴 혼합 encoding은 analytics 예외보다 먼저 거부하면서 정상 analytics는 파일 업로드로 오인하지 않는다.",
+          "예외 대상 analytics를204로 막아 QA 통계 송신을 피하고, 위반 kind만 보존해 사용자 payload/전체URL/token/파일 내용을 기록하지 않는 기존 방식을 유지한다."
+        ],
+        "maintainability": [
+          "새 혼합 반례 두 부모검사를 기존 두 검사에 추가해 literal%·malformed byte·중복 percent·percent JSON unicode·nested string/key와 정상 대조를 구체적으로 남겼다.",
+          "공용 test-only helper로 유지하며 실제 앱/Git/배포 정책과 분리한다. 원본 snapshot/처음 실패/원평가/수정 뒤 실행을 별도 증거로 보존해 이후 검토가 가능하다."
+        ]
+      },
+      "reproductions": [
+        {
+          "case": "Unicode canary percentEncoded + unrelated literal100% in valid analytics JSON",
+          "expected": "favorite-data-in-request",
+          "actual": "favorite-data-in-request",
+          "result": "passed"
+        },
+        {
+          "case": "percentEncoded JSON whose canary uses JSON unicode escapes, nested inside analytics JSON",
+          "expected": "favorite-data-in-request",
+          "actual": "favorite-data-in-request",
+          "result": "passed"
+        },
+        {
+          "case": "normal minimum analytics JSON with literal100% and nonprivate percent note",
+          "expected": "analytics",
+          "actual": "analytics",
+          "result": "passed"
+        }
+      ],
+      "issues": [],
+      "verdict": "accept"
+    }
+  ],
+  "supersedesForCurrentCandidateOnly": {
+    "path": "engineering/favorites-backup-root-network-peer-app-resume-20261020-2204.json",
+    "previousVerdict": "changes-needed",
+    "previousScore": 16,
+    "preserved": true,
+    "resolvedIssueIds": [
+      "mixed-percent-decode-short-circuit",
+      "percent-json-unicode-combination"
+    ]
+  },
+  "limitations": [
+    "검토한 hash의 test-only classifier와 합성 입력 및 로컬22E2E에 대한 수용이다. 모든 임의 변환/암호화/압축된 외부 송신의 부재를 canary만으로 입증하는 것은 아니며 현재 앱의 외부 호출 부재 읽기와 좁은 예외 기준을 함께 적용한다.",
+    "이 동료 평가는 실제 CF analytics POST 송신/Google 계정·심사 결과를 관측한 것이 아니다. 확정 SHA CI·원격 preview·운영 배포·실제 배포 복구는 root의 별도 증거가 필요하다.",
+    "sourcePR52의 초기 head CI와 현재 미커밋 보완의 CI를 구분한다. 보완 뒤 확정 head의 CI/동일 SHA 게이트를 통과했다고 여기서 미리 기록하지 않는다."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/r51_quality",
+  "readAt": "2026-10-20T18:07:48Z",
+  "runId": "resume-20261020-2204",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/51",
+  "scope": "후보 소스/문서 읽기 전용 평가. 후보 수정·Git·CI·배포 없음. 각 담당의 freeze 통보 뒤 실제 bytes/hash를 대조했다. 판정은 담당 산출물 수용이며 CI/운영/Google심사 완료를 뜻하지 않는다.",
+  "reviews": [
+    {
+      "candidate": "/root/r51_evidence",
+      "filesRead": [
+        { "path": "/workspace/jpoptoday/src/content/guides.ts", "sha256": "10e6d44443894f492052c0f5162ab93c3cb7195f7b37e4738cce4d67a7eba5cb" },
+        { "path": "/workspace/docs/data/favorites-backup-resume-20261020-2204.md", "sha256": "859708c7a50f36534982e5ab824944ed6e235ba9091110f5419bb83e7ac0e070" }
+      ],
+      "scores": { "correctness": 5, "evidence": 5, "value": 5, "maintainability": 5 },
+      "evidence": {
+        "correctness": [
+          "build-your-setlist 객체의 파일 전체목록/읽기전용 선택/별도 합치기/기존 항목과 미해결ID 보존/256KiB/세션 제한이 실제 app 및 ADR008과 일치한다. 최종 문구는 known count를 현재 곡 자료의 ID 대조로 명시하고 이미 즐겨찾기에 있는 개수로 오인하지 않게 했다.",
+          "본문 확인일2026-10-21은 실제 같은 run의21일 검토·보완을 설명하며 provider checkedAt와 구분한다. 번호 메모는 복원파일이 아니라는 기존 문맥과 unknown≠공식미수록을 유지했다. 권리/Google승인/새 공식조회 주장이 없다."
+        ],
+        "evidence": [
+          "이 평가자가 source base e52f056의 guides.ts를 git show로 읽고 slug 객체별 bytes를 독립 비교했다. 다른5가이드는 날짜·본문·출처 포함 정확히 같았다.",
+          "후보 문서는 실제 구현 읽기·합성 Node 대조·브라우저 미실행을 구분한다. 후보가 발견한 손상 원문 values=[]의 빈 정상백업 오인 문제는 앱 guard와 이 평가자의 실제 E2E 초기손상/접근거절4사례 및 유효세션 구조파일 검사로 보완 결과를 확인했다."
+        ],
+        "value": [
+          "브라우저 데이터 삭제·기기 이동 전에 곡 식별자/기존 metadata/unknown을 사용자가 직접 보관하고 다른 브라우저에서 합치는 절차를 제공한다. 기존 번호 복사와 서로 다른 용도를 설명해 사용자 실수를 줄인다.",
+          "파일에 기존 추가정보가 들어갈 수 있다는 보관/공유 주의, 업로드·자동동기화 없음, 파일 생성 실패를 복구 성공으로 읽지 말라는 안내가 실제 사용 판단에 도움이 된다."
+        ],
+        "maintainability": [
+          "하나의 기존 guide 객체와 지정 근거문서만 변경하고 기존URL/다른5본문/공식출처를 보존했다. 보존 대상별 hash와 ADR/API/실제 화면의 연결이 있어 다음 변경에서 대조할 수 있다.",
+          "제품 글에 내부 run/검증/계정 결과를 끼워 넣지 않고 근거문서에서 실행 범위와 미실행 경계를 기록했다. 전체 통합569/type0은 root 보고이며 이 평가에서 재실행한 결과로 바꾸지 않았다."
+        ]
+      },
+      "issues": [],
+      "verdict": "accept"
+    },
+    {
+      "candidate": "/root/r51_app",
+      "filesRead": [
+        { "path": "/workspace/jpoptoday/src/scripts/app.ts", "sha256": "f2637e881f431bd4c4a35de31d8e17b951dfa16c26c8e0ba35bc7e79215f8ff2" },
+        { "path": "/workspace/jpoptoday/src/pages/favorites.astro", "sha256": "49a9cead09c080819d7eabb6f00ce5447c0262c629c39833746371e1964931d5" },
+        { "path": "/workspace/docs/engineering/favorites-backup-resume-20261020-2204.md", "sha256": "122c3f6e70da72ff2cf143afca726041ef74eeaa5bff80077a39a5146f682be1" }
+      ],
+      "scores": { "correctness": 5, "evidence": 5, "value": 5, "maintainability": 5 },
+      "evidence": {
+        "correctness": [
+          "실제 app diff 전체와 favorites markup을 읽었다. 파일 선택은 읽기 전용이고 명시 merge에서 expectedRaw를 원자적 공유계약에 전달한다. UTF8 fatal/size guard, generation 무효화, 같은탭 저장/실제 다른탭 localStorage 변경의 확인 취소, sessionStorage clear 비간섭이 구현되어 있다.",
+          "초기 손상/읽기 실패의 빈 placeholder를 정상백업으로 내보내지 않고 유효 세션만 보관할 때 읽지 못한 원본이 빠졌음을 안내한다. 복구 실패/동시변경 진단에는 원본 보존 성공을 주장하지 않는다. unknown 항목은 textContent로만 표시하며 metadata가 provider 확인을 바꾸지 않는다."
+        ],
+        "evidence": [
+          "이 평가자가 실제 unit45 및 최신 root build의 Playwright16개를 실행해 모두 통과했다. 다운로드 파일 실제읽기/필터무관전체·metadata/unknown/확인전쓰기0/명시단일쓰기·다른실제탭·거절저장·확인후읽기거절·느린파일취소·손상원문·JSoff/360px/키보드·XSS/noindex/noads가 포함된다.",
+          "후보의 /tmp/r51-app-browser-qa.json도 직접 읽었다. desktop/mobile의 실제 flow/최소높이48·50·56·50·50px/콘솔 건강 PASS와 첫 noscript selector 실패 보존·재실행을 구분한다. root 통합569/type0 보고와 실제 로컬 QA를 원격CI/배포 완료로 확대하지 않았다."
+        ],
+        "value": [
+          "단순 번호복사만 있던 즐겨찾기에 stable ID/legacy 객체/unknown을 보관하고 다른 브라우저 목록에 추가하는 실제 흐름을 제공한다. 기존 목록을 비우지 않는 명시 합치기·취소와 원본손상 안내가 사용자의 기존 선택을 보호한다.",
+          "native details로 선택적으로 열며 파일 input label/role=status/JSoff disabled 안내·모바일44px 이상 제어를 제공한다. 기존 색상과 번호 복사/목록 표시를 유지한다."
+        ],
+        "maintainability": [
+          "MAX_BYTES/parse/format/merge는 root 공유계약을 재사용하고 저장 호출을 여러 save 루프로 복제하지 않는다. backupMessage/invalidateBackup이 상태와 취소를 한곳에서 다뤄 오래된 파일 읽기 결과의 재적용을 막는다.",
+          "스타일은 favorites scoped 범위이며 전역CSS·package·CI·URL/storage key를 바꾸지 않았다. 고정 파일명과 textContent 안내를 쓰고 파일 내용/사용자값을 로그에 출력하지 않는다. 문서에 실제 selector·한계·실패·브라우저 증거가 있어 후속 회귀검사와 연결된다."
+        ]
+      },
+      "issues": [],
+      "verdict": "accept"
+    }
+  ]
+}

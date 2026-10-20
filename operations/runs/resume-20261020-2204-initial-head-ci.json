@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-20T23:04:37.731464+00:00",
+  "sourceSha": "66380bc161c321ad950673f556b740f133e3b32e",
+  "runs": [
+    {
+      "id": 39474270209,
+      "name": "contracts",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "66380bc161c321ad950673f556b740f133e3b32e"
+    },
+    {
+      "id": 39474270217,
+      "name": "app",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "66380bc161c321ad950673f556b740f133e3b32e"
+    },
+    {
+      "id": 39474225968,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "66380bc161c321ad950673f556b740f133e3b32e"
+    },
+    {
+      "id": 39474226062,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "66380bc161c321ad950673f556b740f133e3b32e"
+    }
+  ],
+  "scope": "Initial head push/PR passed before later mixed-encoding harness correction. Does not validate new working changes or actual deployment."
+}

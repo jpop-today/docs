@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-20T18:04:43.508604+00:00",
+  "candidateBase": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "dirty": true,
+  "unit": {
+    "tests": 569,
+    "pass": 569,
+    "fail": 0,
+    "command": "ASTRO_TELEMETRY_DISABLED=1 npm test",
+    "log": "/tmp/jpop51-integrated-2-unit.log"
+  },
+  "type": {
+    "files": 26,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "artifact": {
+    "target": "preview",
+    "files": 3347,
+    "html": 3336,
+    "indexable": 0
+  },
+  "priorFailures": [
+    {
+      "log": "/tmp/jpop51-initial-unit.log",
+      "tests": 568,
+      "pass": 567,
+      "fail": 1,
+      "reason": "Historic setlist object frozen before intentional Issue51 edit; updated four unrelated guide guards and Issue51 assertions"
+    },
+    {
+      "log": "/tmp/jpop51-integrated-network-unit.log",
+      "tests": 569,
+      "pass": 568,
+      "fail": 1,
+      "reason": "Root added assertion expected English ID but actual Korean guide uses 곡 식별자; corrected assertion"
+    },
+    {
+      "log": "/tmp/jpop51-integrated-unit.log",
+      "reason": "Network-isolated test runner CLI/network probes incomplete/hung and file-level failures; exact owned process tree terminated after network-enabled complete suite passed",
+      "terminatedOwnedPidCount": 6
+    }
+  ],
+  "scope": "Local integration only, not clean product SHA CI/deployment. All original logs preserved."
+}

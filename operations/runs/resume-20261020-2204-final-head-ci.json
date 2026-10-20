@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-20T23:09:48.528408+00:00",
+  "sourceSha": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+  "runs": [
+    {
+      "id": 39512711373,
+      "name": "contracts",
+      "event": "pull_request",
+      "head_sha": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39512711487,
+      "name": "app",
+      "event": "pull_request",
+      "head_sha": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39512704208,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39512704013,
+      "name": "app",
+      "event": "push",
+      "head_sha": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "scope": "Exact push head CI and separately PR synthetic merge CI. Actual final main SHA verification follows merge."
+}

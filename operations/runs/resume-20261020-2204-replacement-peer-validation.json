@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-20T23:07:22.808874+00:00",
+  "managerActuallyReadBoth": true,
+  "reviews": [
+    {
+      "file": "engineering/favorites-backup-replacement-peer-app-resume-20261020-2204.json",
+      "sha256": "e22cc7a432515c7ece5be4f0e75782f1b6cd34bec11cc527a65f309b6ad64dd7",
+      "score": 20,
+      "sourceHistoricalHashValidatedAgainstPreservedSnapshot": true
+    },
+    {
+      "file": "engineering/favorites-backup-replacement-peer-evidence-resume-20261020-2204.json",
+      "sha256": "32ad529d99f1e0c44741284441772b34f7e69b2247f303699d1e0ffd395cf57e",
+      "score": 20,
+      "sourceHistoricalHashValidatedAgainstPreservedSnapshot": true
+    }
+  ],
+  "localRecoveryBrowser": {
+    "first": 6,
+    "strengthened": 6
+  },
+  "originalSixReviewsPreserved": true,
+  "scope": "Two actual peer reads of replacement audit before later root network helper delta. Root network follow-up has separate two reviews."
+}

@@ -1,0 +1,116 @@
+
+> jpoptoday@0.4.10 test:e2e
+> playwright test --ignore-snapshots --output=/tmp/jpop51-root-e2e --grep-invert backup|보관
+
+
+Running 58 tests using 1 worker
+
+(node:70546) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 e2e/ads-txt.spec.ts:10:1 › ads.txt preserves the original plain seller bytes only in production and stays absent from preview (32ms)
+(node:70558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 e2e/app.spec.ts:9:1 › slow catalog keeps state controls disabled until handlers and storage are ready (1.7s)
+  ✓   3 e2e/app.spec.ts:19:1 › search, provider filters, URL restore and back navigation (1.8s)
+  ✓   4 e2e/app.spec.ts:31:1 › legacy query/detail and favorites hash routes connect to the preserved ID (2.0s)
+  ✓   5 e2e/app.spec.ts:37:1 › existing string/object/missing favorites survive reads, saving and removal (1.5s)
+  ✓   6 e2e/app.spec.ts:44:1 › corrupted storage remains intact while session favorites can be used (1.9s)
+  ✓   7 e2e/app.spec.ts:53:1 › successful reads with denied local writes still restore session favorites on navigation (2.3s)
+  ✓   8 e2e/app.spec.ts:68:1 › clipboard denial opens a usable fallback and unknown numbers have no copy control (2.4s)
+  ✓   9 e2e/app.spec.ts:76:1 › static detail and guide bodies work without JavaScript; archived ID still exists (2.1s)
+  ✓  10 e2e/app.spec.ts:82:1 › mobile keyboard search, overflow, current count and screenshots (1.9s)
+  ✓  11 e2e/app.spec.ts:90:1 › public boundary and actual 404; crawler behavior follows the artifact target without ads (146ms)
+  ✓  12 e2e/app.spec.ts:101:1 › reviewed corrections remove wrong-number copy controls and show the official evidence (4.2s)
+  ✓  13 e2e/app.spec.ts:136:1 › chart ranks link to stable identities after snapshot rank changes (3.5s)
+  ✓  14 e2e/app.spec.ts:147:1 › original blue-pink branding and pink-mint-blue background remain visible without mobile overflow (4.0s)
+  ✓  15 e2e/app.spec.ts:169:1 › actual sitemap and route metadata enforce preview and reviewed-production boundaries (419ms)
+  ✓  16 e2e/artist-both.spec.ts:127:1 › both-provider counts equal the independent real intersection in every static artist group and index (16.5s)
+  ✓  17 e2e/artist-both.spec.ts:142:1 › 360px keyboard directory entry restores exact AND results and preserves existing favorites bytes (2.3s)
+  ✓  18 e2e/artist-both.spec.ts:185:1 › JavaScript-off mobile keeps both counts, exact artist anchors and the honest disabled-search fallback (8.1s)
+  ✓  19 e2e/artist-both.spec.ts:209:1 › first search guide explains two-provider AND, clearing conditions and the JavaScript-free artist alternative (1.1s)
+  ✓  20 e2e/artist-provider-counts.spec.ts:86:1 › provider counts independently match distinct reviewed song IDs globally and for every artist index and group (10.0s)
+  ✓  21 e2e/artist-provider-counts.spec.ts:106:1 › provider counts and zero-count meaning remain available at 360px without JavaScript and keyboard links keep the existing song URL (10.4s)
+  ✓  22 e2e/artists.spec.ts:15:1 › artist directory independently matches the served reviewed catalog, identity, numbers, evidence and crawler target (10.2s)
+  ✓  23 e2e/artists.spec.ts:69:1 › artist anchors and existing song details work without JavaScript at 360px using the keyboard (1.2s)
+  ✓  24 e2e/artists.spec.ts:108:1 › artist discovery preserves existing object favorites, unresolved IDs and the legacy song URL when saving a new song (2.0s)
+  ✓  25 e2e/chart-both.spec.ts:99:1 › chart both-provider discovery matches independent raw, ledger, public and frozen-rank oracles (6.7s)
+  ✓  26 e2e/chart-both.spec.ts:119:1 › native both disclosure works at 360px without JavaScript and preserves exact rank/detail anchors (6.6s)
+  ✓  27 e2e/chart-both.spec.ts:143:1 › opening, navigating and reloading chart shortcuts do not rewrite the existing favorites bytes (2.1s)
+  ✓  28 e2e/chart-both.spec.ts:162:1 › reviewed chart guide links the native two-provider flow and keeps the snapshot/unknown boundaries without JavaScript (1.1s)
+  ✓  29 e2e/chart-confirmed-navigation.spec.ts:112:1 › chart SSR counts and provider shortcuts independently match frozen ranks and safe distinct IDs (4.6s)
+  ✓  30 e2e/chart-confirmed-navigation.spec.ts:131:1 › chart provider navigation remains reachable at 360px with JS off and keyboard links keep the exact detail URL (5.1s)
+  ✓  31 e2e/confirmed-search.spec.ts:50:1 › official provider search matches the independent real ledger and uses AND for both selections (2.5s)
+  ✓  32 e2e/confirmed-search.spec.ts:77:1 › URL restore, page reset and browser history retain existing q, tag and observed number conditions (1.7s)
+  ✓  33 e2e/confirmed-search.spec.ts:111:1 › real deferred KY observations and suppressed original version cannot appear as confirmed search matches (2.0s)
+  ✓  34 e2e/confirmed-search.spec.ts:130:1 › confirmed search recovers from an empty result without turning an unknown result into unlisted (1.2s)
+  ✓  35 e2e/confirmed-search.spec.ts:141:1 › legacy search and detail URLs retain stable IDs while favorites filters preserve original storage bytes (1.8s)
+  ✓  36 e2e/confirmed-search.spec.ts:167:1 › new filters remain disabled while catalog loads and offer an honest JavaScript-off fallback (1.6s)
+  ✓  37 e2e/confirmed-search.spec.ts:189:1 › keyboard and responsive confirmation controls keep original gradients, visible focus and 44px targets (1.9s)
+  ✓  38 e2e/confirmed-search.spec.ts:216:1 › mobile search and saved rows separate both providers and keep confirmation badges on one line (2.8s)
+  ✓  39 e2e/conflicted-numbers.spec.ts:121:1 › frozen actual inputs and public catalog retain all conflict numbers, evidence and stable identities (5.4s)
+  ✓  40 e2e/conflicted-numbers.spec.ts:154:1 › JavaScript-off home, all static chart rows and all actual conflict details withhold unsafe controls (19.8s)
+  ✓  41 e2e/conflicted-numbers.spec.ts:177:1 › dynamic search and favorites suppress every real conflict while safe individual and bulk copies preserve storage (3.3s)
+  ✓  42 e2e/conflicted-numbers.spec.ts:205:1 › nonconflict detail copy contrast, legacy conflict URL and mobile keyboard fallback keep existing behavior (2.7s)
+  ✓  43 e2e/conflicted-numbers.spec.ts:233:1 › conflict surfaces follow artifact crawler boundaries and make no advertising requests (2.7s)
+  ✓  44 e2e/coverage.spec.ts:9:1 › coverage distinguishes provider numbers, song IDs and unknown within the playlist denominator (3.5s)
+  ✓  45 e2e/coverage.spec.ts:51:1 › coverage exposes reviewed string numbers and their official identity, time and stable detail routes (6.2s)
+  ✓  46 e2e/coverage.spec.ts:103:1 › coverage works without JavaScript at 360px with keyboard links and the original palette (1.0s)
+  ✓  47 e2e/deferred-guide.spec.ts:126:1 › deferred guide SSR links and historical sources match independent catalog and ledger evidence (1.1s)
+  ✓  48 e2e/deferred-guide.spec.ts:154:27 › samfree guide to exact detail, evidence and report works by keyboard with JS off at 360px (4.1s)
+  ✓  49 e2e/deferred-guide.spec.ts:154:27 › ado guide to exact detail, evidence and report works by keyboard with JS off at 360px (4.0s)
+  ✓  50 e2e/favorites-export.spec.ts:76:1 › successful clipboard export preserves each real provider state and exact legacy storage bytes (1.1s)
+  ✓  51 e2e/favorites-export.spec.ts:108:1 › clipboard denial leaves a selected read-only manual copy fallback usable by keyboard at 360px (1.0s)
+  ✓  52 e2e/favorites-export.spec.ts:137:1 › filtered export includes every matching saved song beyond 30 and page two, then respects both-provider AND (1.2s)
+  ✓  53 e2e/favorites-export.spec.ts:162:1 › search narrows the copied set and empty matching or unresolved-only lists never overwrite clipboard (1.4s)
+  ✘  54 e2e/favorites-export.spec.ts:187:1 › export guidance is associated with the control, keeps the palette and explains JavaScript-off limits (6.3s)
+(node:73795) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  55 e2e/guide.spec.ts:3:1 › number-checking guide renders correction cases and dated official sources without JavaScript (1.3s)
+  ✓  56 e2e/guide.spec.ts:39:1 › home provides a direct entry to reviewed numbers while all six guides remain available (1.2s)
+  ✓  57 e2e/title-artist-guide.spec.ts:12:1 › title and artist guide presents original comparison advice, exact historical sources and target-appropriate indexing (897ms)
+  ✓  58 e2e/title-artist-guide.spec.ts:51:1 › guide index reaches the comparison guide without JavaScript at 360px and leaves older review dates unchanged (969ms)
+
+
+  1) e2e/favorites-export.spec.ts:187:1 › export guidance is associated with the control, keeps the palette and explains JavaScript-off limits 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('[data-list-view="favorites"] > noscript > p')
+    Expected: "개인 저장 목록을 읽고 번호 목록을 복사하려면 JavaScript가 필요합니다."
+    Received: "개인 저장 목록 읽기, 번호 목록 복사와 파일 보관·가져오기에는 JavaScript가 필요합니다. 파일을 선택해도 자동으로 저장하지 않습니다."
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" locator('[data-list-view="favorites"] > noscript > p') with timeout 5000ms
+      - waiting for locator('[data-list-view="favorites"] > noscript > p')
+        14 × locator resolved to <p data-astro-cid-uogwtcmr="">개인 저장 목록 읽기, 번호 목록 복사와 파일 보관·가져오기에는 JavaScript가 필…</p>
+           - unexpected value "개인 저장 목록 읽기, 번호 목록 복사와 파일 보관·가져오기에는 JavaScript가 필요합니다. 파일을 선택해도 자동으로 저장하지 않습니다."
+
+
+      209 |     // child in a real JavaScript-disabled context, including visibility.
+      210 |     const noScriptNotice = staticPage.locator('[data-list-view="favorites"] > noscript > p');
+    > 211 |     await expect(noScriptNotice).toHaveText('개인 저장 목록을 읽고 번호 목록을 복사하려면 JavaScript가 필요합니다.');
+          |                                  ^
+      212 |     await expect(noScriptNotice).toBeVisible();
+      213 |     await expect(staticPage.locator('#favorites-export-status')).toContainText('관측·미확인');
+      214 |     expect(await staticPage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+        at /workspace/jpoptoday/e2e/favorites-export.spec.ts:211:34
+
+    Error Context: ../../tmp/jpop51-root-e2e/favorites-export-export-gu-ca30c-lains-JavaScript-off-limits/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../tmp/jpop51-root-e2e/favorites-export-export-gu-ca30c-lains-JavaScript-off-limits/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../tmp/jpop51-root-e2e/favorites-export-export-gu-ca30c-lains-JavaScript-off-limits/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e/favorites-export.spec.ts:187:1 › export guidance is associated with the control, keeps the palette and explains JavaScript-off limits 
+  57 passed (3.5m)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

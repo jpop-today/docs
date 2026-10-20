@@ -1,0 +1,26 @@
+{
+  "savedAt": "2026-10-20T18:13:15.384681+00:00",
+  "files": [
+    {
+      "file": "engineering/audit-evidence/favorites-backup-initial-unit-resume-20261020-2204.log",
+      "sha256": "8a3c247562e4c091e77ab27033ce7665e1e737aefee1719e229c54659552bcc7",
+      "bytes": 49006
+    },
+    {
+      "file": "engineering/audit-evidence/favorites-backup-restricted-unit-resume-20261020-2204.log",
+      "sha256": "b1c325f31be99b0308ab28fd522b4719396bf02aa44ba0e86c5230f976fc3929",
+      "bytes": 3673
+    },
+    {
+      "file": "engineering/audit-evidence/favorites-backup-english-id-assertion-resume-20261020-2204.log",
+      "sha256": "836d835433922bc3dd2695e5e5d647db5bd72c4b6b0c08dcde8916cd218ddab8",
+      "bytes": 48914
+    },
+    {
+      "file": "engineering/audit-evidence/favorites-backup-first-browser-resume-20261020-2204.log",
+      "sha256": "b719e6bf43c26d37d70a5f540a9b1be4ace6705a13b75f913a3354f041d254b3",
+      "bytes": 12332
+    }
+  ],
+  "scope": "Exact existing safe test/QA outputs retained; ads seller contents absent. Product failures versus harness expectations/network sandbox are distinguished in local-integration/initial-browser-regression receipts."
+}

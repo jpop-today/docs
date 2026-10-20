@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-20T18:12:24.957602+00:00",
+  "sourceBase": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "protectedDataPublicStylesDiff": [],
+  "fiveUnchangedGuides": [
+    {
+      "slug": "find-japanese-songs",
+      "sameFullObjectBytes": true,
+      "sha256": "f33c6dc099745dc46a134dcd09c51a35e672b6a1eb8f1162d6451de741d5dc25"
+    },
+    {
+      "slug": "tj-ky-numbers",
+      "sameFullObjectBytes": true,
+      "sha256": "db41fd75b53292ff43e9c40fce28f1d0082335b8f4cc7097274ad09fb6f1945e"
+    },
+    {
+      "slug": "read-tj-chart",
+      "sameFullObjectBytes": true,
+      "sha256": "727d71f2cb72f917056b01bcf815731b3b848bb30396ca1183cdea10a7e5d888"
+    },
+    {
+      "slug": "checking-song-numbers",
+      "sameFullObjectBytes": true,
+      "sha256": "383268219d5d7359288b7caf2847d7426c06403c2a4d1cf3fd262a275e51ec83"
+    },
+    {
+      "slug": "title-artist-variants",
+      "sameFullObjectBytes": true,
+      "sha256": "bc2fc597dba74c1a1326c64f6d1a16bd0da2c918833d6bf33239f677ebd4a9b4"
+    }
+  ],
+  "publicCatalogEveryByteSameAsActualV049": true,
+  "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+  "originalAds": {
+    "bytes": 59,
+    "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+    "bodyRetainedOnlyInExistingPublicAsset": true
+  },
+  "limits": "No new provider lookup or rights/account claim; current dirty candidate, not deployment."
+}

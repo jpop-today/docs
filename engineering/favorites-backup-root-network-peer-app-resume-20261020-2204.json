@@ -1,0 +1,87 @@
+{
+  "reviewer": "/root/r51_app",
+  "readAt": "2026-10-20T18:24:14Z",
+  "reviews": [
+    {
+      "candidate": "/root",
+      "scope": "Issue51 root network harness delta before source PR",
+      "filesRead": [
+        {
+          "path": "jpoptoday/e2e/helpers/backup-network.mjs",
+          "sha256": "9632ea59c1f1e867d3fdc953c78b82a753f3e0db9b27c2c55ab8d22374e6283f"
+        },
+        {
+          "path": "jpoptoday/tests/favorites-backup-network.test.mjs",
+          "sha256": "758992f73c8f160d978b83c31f9bfa32f0b510b4c147d1887463c942f71db312"
+        },
+        {
+          "path": "jpoptoday/e2e/favorites-backup.spec.ts",
+          "sha256": "c57a83caadcc197fe394e47c208a9cbc25fd20cdbf9f8a327c791ec940ffd241"
+        },
+        {
+          "path": "jpoptoday/e2e/favorites-backup-recovery.spec.ts",
+          "sha256": "b73c43b74398db69c2ab3796c348cebac796096bdfa74155a46bcbc9947def29"
+        },
+        {
+          "path": "docs/engineering/audit-evidence/before-root-network-favorites-backup.spec.ts",
+          "sha256": "b41e851d2a154679bd6a45519c750b506a250e8bab87f059a88f775fe611432f"
+        },
+        {
+          "path": "docs/engineering/audit-evidence/before-root-network-favorites-backup-recovery.spec.ts",
+          "sha256": "e7202eaf294de93735d65c5c9494261011b8af5208e54a6b4bcaffae2ab71f93"
+        }
+      ],
+      "scores": {
+        "correctness": 3,
+        "evidence": 4,
+        "value": 5,
+        "maintainability": 4
+      },
+      "evidence": {
+        "correctness": [
+          "helper/tests 전체와 두 spec의 신구 diff를 실제 읽었다. exact HTTPS host/path·POST·최소 JSON 형태로 analytics를 좁게 구분하고 query/다른 path/유사 host/PUT를 거부하며 위반 kind만 보존하고 실제 analytics는204로 차단하는 방향은 적절하다.",
+          "구체적인 혼합 encoding 반례2건에서 favorite-data-in-request여야 하는 입력을 analytics로 분류했다. 무관한 literal% 때문에 전체 decode가 중단되는 점과 decode 뒤 JSON unicode를 다시 해석하지 않는 검증 누락이 있다."
+        ],
+        "evidence": [
+          "실제 public beacon 검사 JSON은 GET200/31853bytes/hash637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e의 코드 endpoint 읽기이며 실제 POST 송신 관측이 아니라고 명시한다.",
+          "실제 root22E2E 로그27.6s PASS를 읽었다. snapshot과의 diff는 공용 helper import와 nonGET listener 교체뿐이며 기존 download/storage/unknown/rollback assertion을 제거하지 않았다.",
+          "합성 Node 반례를 직접 실행해 mixedLiteralPercentAndEncodedCanary=analytics, percentEncodedJsonUnicodeCanary=analytics, 기대값=favorite-data-in-request를 얻었다. 입력 payload·실제 token·사용자 파일은 기록하지 않았다."
+        ],
+        "value": [
+          "무관한 analyticsPOST를 파일 전송으로 오인하지 않으면서 GET query와 analytics 예외 내부의 파일 canary도 검사하는 방향이 적절하다.",
+          "QA 방문 통계를 실제 송신하지 않는 route204와 비공개 내용을 로그에 남기지 않는 kind 기록이 유용하다."
+        ],
+        "maintainability": [
+          "세 request 감시를 작은 test-only 공용 helper로 모으고 원본 후보 snapshot과 기존 평가 hash를 보존했다.",
+          "단일 연결 문자열 전체의 decode에 의존하면 별도 필드의 잘못된 percent가 다른 필드 검사를 막으므로 독립 component/JSON 문자열별 정규화와 혼합 반례 검사가 필요하다."
+        ]
+      },
+      "issues": [
+        {
+          "severity": "blocking-for-stated-harness-acceptance",
+          "id": "mixed-percent-decode-short-circuit",
+          "finding": "유효한 analytics JSON의 note에 encodeURIComponent(Unicode canary), 별도 필드에 literal 100%가 있으면 decodeURIComponent(inspected 전체)가 throw하여 encoded canary를 놓치고 analytics로 허용한다.",
+          "reproduction": "canary=synthetic-private-backup-日本語; beacon 최소 필드+note:encodeURIComponent(canary),progress:100%; exact analytics endpoint의 POST를 분류하면 analytics를 반환한다.",
+          "expected": "favorite-data-in-request",
+          "observed": "analytics",
+          "fixDirection": "URL/query/각 JSON string을 독립 검사하고 무관한 잘못된 percent가 다른 필드의 유효 encoding 검사를 중단하지 못하게 한다. 실제 반례를 tests에 추가한다."
+        },
+        {
+          "severity": "blocking-for-stated-harness-acceptance",
+          "id": "percent-json-unicode-combination",
+          "finding": "note가 percentEncode된 JSON이고 내부 canary는 JSON unicode escape일 때 percent decode 뒤 JSON을 재해석하지 않아 analytics로 허용한다.",
+          "reproduction": "canary를 담은 JSON의 일본어를 JSON unicode escape로 바꾼 뒤 percentEncode하여 beacon.note에 넣으면 classifier가 analytics를 반환한다.",
+          "expected": "favorite-data-in-request",
+          "observed": "analytics",
+          "fixDirection": "각 제한된 decode 단계에서 JSON/JSON 문자열의 unicode 정규화도 수행하고 지원 범위의 혼합 encoding 반례를 검사한다."
+        }
+      ],
+      "verdict": "changes-needed"
+    }
+  ],
+  "limitations": [
+    "위 반례는 test-only classifier 합성 입력의 검사 누락이며 실제 제품에서 파일을 외부 전송했다는 관측이 아니다.",
+    "source PR/확정 SHA CI/실제 preview/production은 미실행이다. 기존22localE2E PASS는 사실로 보존하며 이 반례 발견을 과거 테스트 실패로 바꾸지 않는다.",
+    "검토 hash의 최초 평가를 보존한다. root 보완 뒤에는 이 JSON을 덮어쓰지 않고 새 보충 평가에 새 hash를 기록한다."
+  ]
+}

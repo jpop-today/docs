@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-20T18:21:25.977643+00:00",
+  "basis": "Actual public beacon HTTP200/source SHA/endpoint literals in analytics-script-inspection receipt; local browser probe failed and is not claimed as actual POST delivery.",
+  "originalSnapshots": [
+    {
+      "file": "engineering/audit-evidence/before-root-network-favorites-backup.spec.ts",
+      "sha256": "b41e851d2a154679bd6a45519c750b506a250e8bab87f059a88f775fe611432f"
+    },
+    {
+      "file": "engineering/audit-evidence/before-root-network-favorites-backup-recovery.spec.ts",
+      "sha256": "e7202eaf294de93735d65c5c9494261011b8af5208e54a6b4bcaffae2ab71f93"
+    }
+  ],
+  "change": "Root test-only helper rejects file canaries in all URL/query/body including encoded forms, rejects every other write, distinguishes exact Cloudflare rum POST with recognized JSON fields, and intercepts that exact analytics route to avoid publishing QA visits. No app network behavior changed.",
+  "verification": "Pending independent helper negatives and22 feature/recovery browser cases; original peer evaluations retained before root delta."
+}

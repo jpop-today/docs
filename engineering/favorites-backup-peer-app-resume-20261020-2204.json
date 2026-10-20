@@ -1,0 +1,99 @@
+{
+  "reviewer": "/root/r51_app",
+  "readAt": "2026-10-20T18:09:05Z",
+  "reviews": [
+    {
+      "candidate": "/root/r51_evidence",
+      "filesRead": [
+        {
+          "path": "jpoptoday/src/content/guides.ts",
+          "sha256": "10e6d44443894f492052c0f5162ab93c3cb7195f7b37e4738cce4d67a7eba5cb"
+        },
+        {
+          "path": "docs/data/favorites-backup-resume-20261020-2204.md",
+          "sha256": "859708c7a50f36534982e5ab824944ed6e235ba9091110f5419bb83e7ac0e070"
+        }
+      ],
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "evidence": {
+        "correctness": [
+          "최종 build-your-setlist 5절을 실제 읽어 파일전체/필터된번호메모 구분, 선택시무변경/명시적추가합치기, unknown≠미수록, 임시저장/유효임시파일 범위를 app.ts/ADR008과 대조했다.",
+          "known count를 현재 곡 자료의 ID대조로 명시하며 기존즐겨찾기와겹친개수로오해하지않게 보강했고 actual KST21일최종편집과 provider.checkedAt를 구분한다."
+        ],
+        "evidence": [
+          "원본 base SHA git show와 현재파일을 slug경계별 독립Python으로 대조해 다른5객체 exact bytes동일과 대상reviewedAt21을 실제확인했다. 검토보조스크립트 첫배열끝추정 오류 ValueError는 후보오류가 아니며 마지막객체끝을파일끝으로수정한 대조가 통과했다.",
+          "근거문서가 실제코드읽기/합성Node/미실행브라우저를 구분한다. 손상values=[] 빈정상백업오인 경계를 실제발견·인계했고 현재guard및임시범위안내와 일치한다. 새 공식조회·권리·심사결과를 주장하지 않는다."
+        ],
+        "value": [
+          "기기이동/사이트데이터삭제전에 파일을 보관하고 다른브라우저에서 확인후합치는 실제흐름과256KiB/JS필요·재확인·공유주의를 안내한다.",
+          "기존 번호복사 메모를 복구파일로 오인하지 않게 유지하고 실패시 목록/번호메모 대안을 명시한다."
+        ],
+        "maintainability": [
+          "변경범위를 기존slug한객체로 한정해 기존URL·다른5가이드 출처/날짜를 보존한다.",
+          "정식 ADR008·개인정보·즐겨찾기 링크로 동작/정책근거를 연결하며 공개가이드에 실행보고나가짜계정상태를 넣지 않았다."
+        ]
+      },
+      "issues": [],
+      "verdict": "accept"
+    },
+    {
+      "candidate": "/root/r51_quality",
+      "filesRead": [
+        {
+          "path": "jpoptoday/tests/favorites-backup.test.mjs",
+          "sha256": "60606391f5a091504a7b7e7df6c3f9bcc22bcf5a4be3553b11e90ffb51764744"
+        },
+        {
+          "path": "jpoptoday/e2e/favorites-backup.spec.ts",
+          "sha256": "b41e851d2a154679bd6a45519c750b506a250e8bab87f059a88f775fe611432f"
+        },
+        {
+          "path": "docs/engineering/favorites-backup-quality-resume-20261020-2204.md",
+          "sha256": "bdc0014aaf0cb524ac63fd6cb7d4a8ccd7c3ce6df49df4996716fb04ac084960"
+        }
+      ],
+      "scores": {
+        "correctness": 5,
+        "evidence": 4,
+        "value": 5,
+        "maintainability": 5
+      },
+      "evidence": {
+        "correctness": [
+          "단위와E2E 전체소스를실제읽었다. expected 배열/원문을 formatter/merge출력으로만들지 않고 따로작성해 객체/순서/중복/unknown/선행0/검토alias/단일후보쓰기를 독립대조한다.",
+          "UTF8정확상한·거절·__proto__비실행·동시변경/저장직전race·쓰기후throw/readback실패/후속작성자보호·확인후읽기권한상실과session재합치기를 검사한다."
+        ],
+        "evidence": [
+          "실제 /tmp/jpop51-quality-unit-confirmed.log 마지막 tests45/pass45/fail0과 /tmp/jpop51-quality-e2e-first.log의16passed(38.2s)를 직접읽고 세파일SHA256을 대조했다. 등록수와실행수·로컬결과와CI/운영을 구분한다.",
+          "실제다운로드 JSON을 디스크에서읽어확인하고 선택/미리보기 쓰기0, 실제두번째탭 변경, 늦은File결과역전/취소, initial손상백업거부, 세션손상원본미포함고지, 360px/키보드/JSoff/noindex/noads·콘솔을 확인했다.",
+          "비차단검증한계: rollback실패/후속작성자와경쟁한 경우의 계약결과(restored=false)는단위검사하지만 새UI recoveryUnverified의 복구미확인문구는 이E2E에서 직접재현하지 않았다. 이분기에서보존성공을거짓표시하지않는 브라우저반례를후속으로 권한다."
+        ],
+        "value": [
+          "데이터손실을유발할 수 있는 원문손상/부분쓰기/경쟁변경과 무해한 빈목록을 분리해사용자의 기존선곡목록보호를 검사한다.",
+          "실제다운로드→파일선택→확인→명시합치기와거절/취소를 검증해 새기능의핵심사용자가치를 테스트한다."
+        ],
+        "maintainability": [
+          "추가2파일·명시적인합성fixture·Probe격리, 별도테스트결과/스크린샷경로로 공유서버/루트통합과 충돌하지 않는다.",
+          "원본동결ID를 읽어 실제페이지와 연결하며 파일내용/메모를 오류안내에노출하지 않는 부정검사를 유지한다. 기존코드/CI/package변경없이결과·미실행범위를 문서화했다."
+        ]
+      },
+      "issues": [
+        {
+          "severity": "non-blocking",
+          "finding": "rollback-failed/rollback-concurrent-change 계약결과는검증하나, 이때화면의 recoveryUnverified 안내가원본보존성공을주장하지않는다는브라우저검사가없다.",
+          "followUp": "별도감사에서 write후readback/rollback경쟁실패를주입해복구미확인안내·후속작성자bytes보존을확인하면좋다."
+        }
+      ],
+      "verdict": "accept"
+    }
+  ],
+  "limitations": [
+    "이평가는실제읽은최종후보파일과로컬실행로그에한정한다. root의기존58회귀재검증/전체74·동일SHA CI/preview/운영은현재진행중이며통과로기록하지않는다.",
+    "점수는변경량/말수가아닌위구체적근거에따른다. 물리삭제/교체여부는root실제조작영수증을따른다."
+  ]
+}

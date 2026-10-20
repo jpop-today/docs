@@ -1,0 +1,96 @@
+{
+  "reviewer": "/root/r51_evidence",
+  "readAt": "2026-10-20T18:08:57.088533+00:00",
+  "reviews": [
+    {
+      "candidate": "/root/r51_app",
+      "filesRead": [
+        {
+          "path": "/workspace/jpoptoday/src/scripts/app.ts",
+          "sha256": "f2637e881f431bd4c4a35de31d8e17b951dfa16c26c8e0ba35bc7e79215f8ff2"
+        },
+        {
+          "path": "/workspace/jpoptoday/src/pages/favorites.astro",
+          "sha256": "49a9cead09c080819d7eabb6f00ce5447c0262c629c39833746371e1964931d5"
+        },
+        {
+          "path": "/workspace/docs/engineering/favorites-backup-resume-20261020-2204.md",
+          "sha256": "122c3f6e70da72ff2cf143afca726041ef74eeaa5bff80077a39a5146f682be1"
+        }
+      ],
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "evidence": {
+        "correctness": [
+          "실제 app.ts/favorites.astro 전체를 읽었다. 파일 선택 핸들러는 byte size/fatal UTF8/parser 확인 뒤 pendingBackup과 개수만 바꾸고, 별도 합치기 버튼만 root 소유 mergeFavorites를 호출한다. parse/merge 자체 구현의 공로는 root와 분리했다.",
+          "확인 시 expectedRaw를 전달하고 save/remove/localStorage change와 느린 읽기 역전을 generation으로 무효화한다. sessionStorage clear를 localStorage clear로 오해하지 않는다. unknown ID는 textContent로만 표시하고 기존 번호복사는 filtered, JSON은 favorites.values 전체를 사용한다.",
+          "내가 발견한 invalid-json/shape/read-failed의 placeholder 빈파일 오인 문제는 최종 앱에서 초기 상태 export guard로 보완됐다. 유효 세션 파일은 읽을 수 없는 원본 미포함을 안내한다. rollback 진단을 읽어 원본 복구 미확인을 보존 성공으로 안내하지 않는다."
+        ],
+        "evidence": [
+          "/tmp/r51-app-browser-qa.json 실제 passed 2026-10-20T18:04:43.833Z~18:04:51.576Z를 읽었다. page identity/nonblank/no-overlay/필터0곡 전체다운로드/다른context 선택 및 취소 후 Enter merge/unknown·metadata/360px/JSoff/console0가 true이고 제어 높이는48/50/56/50/50px다.",
+          "/tmp/r51-app-browser-qa-failed-first.json의 noscript 2개 strict selector 첫 실패를 읽었으며, 최종 문서는 QA selector만 한정한 재실행임을 사실대로 구분한다. 제품 코드 실패를 지우지 않았다.",
+          "/tmp/r51-app-desktop.png와 /tmp/r51-app-mobile-preview-clean.png를 view_image로 직접 읽었다. 1440px/360px에서 겹침 없이 정상 세로 흐름·파일/개수/별도합치기 및 원래 브랜드 gradient/palette가 보인다. Playwright 로컬1엔진 QA이며 원격CI/preview/운영이나 Google 심사 완료를 증명하지 않는다."
+        ],
+        "value": [
+          "번호 텍스트 메모로 복구할 수 없던 stable ID/unknown/기존metadata를 직접 보관하고 다른 브라우저에서 안전하게 합칠 수 있게 한다. 전체자료 대조 known 개수와 기존즐겨찾기 교집합을 혼동하지 않도록 현재 곡 자료에서 찾은 ID라고 표시한다.",
+          "읽기전용 확인·취소·명시합치기·영구/임시/복구미확인 구분·개인보관주의·JSoff 제한이 실제 사용자 결정에 필요한 정보이며 자동계정동기화나 공식번호 검증 상태를 파일에서 새로 주장하지 않는다."
+        ],
+        "maintainability": [
+          "공유 포맷/validation/atomicmerge는 root 계약 모듈을 사용하고 UI는 pendingBackup/generation/invalidateBackup/recoveryUnverified의 좁은 상태로 관리한다. 기존storage/session/URL/filter 경로를 재사용해 가져오기만의 별도 저장키를 만들지 않는다.",
+          "native details/label/button/status aria-live와 scoped CSS, 고정 selector, generic errors를 사용한다. 새 dependency/package/CI/global palette 변경 없이 JSoff disabled와 기존 UI 흐름을 유지하며 문서가 파일 scope·실행 실패·미검증 범위를 연결한다."
+        ]
+      },
+      "issues": [],
+      "verdict": "accept"
+    },
+    {
+      "candidate": "/root/r51_quality",
+      "filesRead": [
+        {
+          "path": "/workspace/jpoptoday/tests/favorites-backup.test.mjs",
+          "sha256": "60606391f5a091504a7b7e7df6c3f9bcc22bcf5a4be3553b11e90ffb51764744"
+        },
+        {
+          "path": "/workspace/jpoptoday/e2e/favorites-backup.spec.ts",
+          "sha256": "b41e851d2a154679bd6a45519c750b506a250e8bab87f059a88f775fe611432f"
+        },
+        {
+          "path": "/workspace/docs/engineering/favorites-backup-quality-resume-20261020-2204.md",
+          "sha256": "bdc0014aaf0cb524ac63fd6cb7d4a8ccd7c3ce6df49df4996716fb04ac084960"
+        }
+      ],
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "evidence": {
+        "correctness": [
+          "실제 두 테스트 파일 전체와 최종 품질 문서를 읽었다. unit 기대 배열은 명시 literal/기존원문에서 작성하고 formatter나 merge의 출력으로 기대값을 만드는 자기복제가 아니다. 합성 alias 근거와 실제 provider 확인을 구분한다.",
+          "metadata/unknown/선행0/기존중복 보존, exact ID와 검토 alias만 신규중복 제거, UTF8 256KiB 경계·초과·26invalid 반례·오류정보 비노출·__proto__ 비실행을 검사한다. 직접 merge invalid 입력도 저장 전에 거부한다.",
+          "확인 후 다른탭 및 pre-write race, 손상/읽기/쓰기거절, 확인 뒤 읽기권한 상실의 마지막가독목록 보존, write-then-throw와 readback 실패의 정확원문 rollback·후속동시작성자 비덮어쓰기를 독립 memory 계측으로 대조한다. root 공유코드의 성과를 품질 담당의 구현으로 섞지 않는다."
+        ],
+        "evidence": [
+          "/tmp/jpop51-quality-unit-confirmed.log 실제 tests45/pass45/fail0를 읽었다. parent19/subtest26 집계이며 기본격리환경의 파일1개 집계와 isolationnone 실제45개 실행을 문서가 구별한다.",
+          "/tmp/jpop51-quality-e2e-first.log 실제16passed(38.2s)와 각16flow PASS를 읽었다. 기존root 단일 http://127.0.0.1:4321 서버, 별도 출력경로, 시스템 Chromium을 사용했다. QA 준비나 --list 등록 수를 실행 성공으로 쓰지 않는다.",
+          "E2E는 다운로드 파일을 실제 디스크에서 읽어 JSON 배열·원문 bytes·쓰기수를 비교하고 실제 두번째탭 변경, 키보드·360px/JSoff·unknown HTML 비실행·noindex/noads·원래 gradient/palette를 검사한다. 품질 문서는 실제로컬 결과와 전체suite/CI/운영/복구/Release/다른엔진 미검증을 분리한다."
+        ],
+        "value": [
+          "저장목록이 사라지거나 손상자료를 빈백업 성공으로 오해하는 사용자가치 위험에 직접 대응한다. 정상 happy path뿐 아니라 부분저장·동시변경·세션목록 구조를 읽고 사용자에게 표시하는 실제 상태까지 검사한다.",
+          "파일선택/취소/invalid 교체가 기존 저장을 바꾸지 않고 이전 유효후보를 남겨 잘못 적용하지 않는 것을 계측한다. UI/입력 반례가 장래 안정ID/metadata/unknown 회귀를 발견할 수 있다."
+        ],
+        "maintainability": [
+          "memory storage와 Probe helper가 writes/raw 접근을 모아 실패주입·원문비교를 재사용하고 expected 데이터는 명시적으로 유지한다. 하나의 browser server/build를 재사용하며 테스트가 운영개인정보나 실제번호조회에 의존하지 않는다.",
+          "frozen staging에서 제목+origin으로 실제ID를 고르는 E2E와 합성unit을 분리한다. 고정 semantic selector, 실제 로그·hash·한계 문서가 있어 구현을 직접 복제하거나 새 dependency/공용 CI 변경 없이 회귀를 재현할 수 있다."
+        ]
+      },
+      "issues": [],
+      "verdict": "accept"
+    }
+  ]
+}

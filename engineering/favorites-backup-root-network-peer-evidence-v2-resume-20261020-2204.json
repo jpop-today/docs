@@ -1,0 +1,109 @@
+{
+  "reviewer": "/root/r51_evidence",
+  "candidate": "/root",
+  "scope": "Issue51 root network harness follow-up; not a new worker ranking",
+  "readAt": "2026-10-20T23:04:49.949577+00:00",
+  "filesRead": [
+    {
+      "path": "/workspace/jpoptoday/e2e/helpers/backup-network.mjs",
+      "sha256": "a45d3f2f9489f5fda8d328f222de8b7dd02f3c82f4b61a50e9e15f8719f924c8"
+    },
+    {
+      "path": "/workspace/jpoptoday/tests/favorites-backup-network.test.mjs",
+      "sha256": "278217f357d4af4e04e83d2be0de774610c36e7aa8346e8239148877835145bf"
+    },
+    {
+      "path": "/workspace/jpoptoday/e2e/favorites-backup.spec.ts",
+      "sha256": "c57a83caadcc197fe394e47c208a9cbc25fd20cdbf9f8a327c791ec940ffd241"
+    },
+    {
+      "path": "/workspace/jpoptoday/e2e/favorites-backup-recovery.spec.ts",
+      "sha256": "b73c43b74398db69c2ab3796c348cebac796096bdfa74155a46bcbc9947def29"
+    },
+    {
+      "path": "/workspace/docs/engineering/audit-evidence/before-root-network-favorites-backup.spec.ts",
+      "sha256": "b41e851d2a154679bd6a45519c750b506a250e8bab87f059a88f775fe611432f"
+    },
+    {
+      "path": "/workspace/docs/engineering/audit-evidence/before-root-network-favorites-backup-recovery.spec.ts",
+      "sha256": "e7202eaf294de93735d65c5c9494261011b8af5208e54a6b4bcaffae2ab71f93"
+    },
+    {
+      "path": "/workspace/docs/engineering/audit-evidence/network-mixed-encoding-first-failure.log",
+      "sha256": "ddf162fbb01b21e767431ccb93aa856abac7a56b76ca0a12a98dc5d3da3e16a6"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261020-2204-analytics-script-inspection.json",
+      "sha256": "8694c5a6f1019e40fffadc4cb2495f88a8d2e899d21a487af4a2054914fb50dd"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261020-2204-analytics-browser-probe.json",
+      "sha256": "1187b255863fdb0c583b41924c4b802969e1c3b5e6c84ef78f12705993e957d5"
+    }
+  ],
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "evidence": {
+    "correctness": [
+      "원 helper와 최종 helper/4부모 unit·두 E2E delta를 실제 읽었다. 최종 분류기는 raw URL/query 성분과 URLSearchParams/body 및 JSON의 모든 string/key를 독립 queue로 검사한다. 유효 percent byte run을 각각 decode하고 변환된 JSON도 다시 parse하므로 무관한 literal percent/잘못된 UTF8가 다른 성분의 known canary 탐지를 중단하지 않는다.",
+      "내가 처음 재현한 GET query invalid=%와 percent-encoded canary 조합, POST progress=100%와 encoded note 조합을 최종 함수에서 직접 다시 실행해 모두 favorite-data-in-request임을 assertion으로 확인했다. 별도 %FF+2회인코딩·nested encoded key도 탐지하고 정상 beacon의 무관한 percent와 exact endpoint의 query 부정대조도 맞다.",
+      "known canary를 발견하면 GET/HEAD 및 analytics 예외보다 먼저 거부한다. analytics 분류는 exact HTTPS endpoint의 POST이며 JSON 객체의 string pageloadId/location/siteToken과 eventType1/3을 요구한다. helper는 violation 종류만 남기고 payload/URL/토큰을 저장하지 않는다.",
+      "guardBackupNetwork는 인식된 endpoint를 route204로 가로채 QA의 통계 전송을 방지하도록 구성한다. 기타 쓰기와 known canary 요청은 테스트 위반으로 계측한다. 모든 미지의 개인정보/인코딩을 탐지하는 범용 방화벽이나 모든 네트워크 요청의 선제 차단 기능으로 해석하지 않는다."
+    ],
+    "evidence": [
+      "첫 helper SHA9632ea59c1f1e867d3fdc953c78b82a753f3e0db9b27c2c55ab8d22374e6283f에서 실제 두 우회를 발견해 root에게 메시지로 인계했다. 당시 2 unit 및22 E2E(27.6s) 통과는 그 반례가 없는 범위였으며 제품에서 유출을 관측한 사실이 아니다. 최종 수정 후 원반례를 직접 실행했다.",
+      "보존된 network-mixed-encoding-first-failure.log는 실제 부모4개 중3pass/1fail이며 percent JSON/unicode가 raw query 안에 있을 때 read로 통과하던 assertion 실패를 보존한다. raw query 성분 추가 후 /tmp/jpop51-network-mixed-encoding-unit.log는 실제4pass/0fail이다.",
+      "/tmp/jpop51-mixed-encoding-browser.log의 실제22passed(27.3s)를 읽었다. 기존16 파일 흐름과6복구 반례가 보완 helper 아래 통과했다. 기존 두 spec의 delta는 helper import와 기존nonGET request listener 대체뿐이고 원snapshot SHA b41e851d2a154679bd6a45519c750b506a250e8bab87f059a88f775fe611432f/e7202eaf294de93735d65c5c9494261011b8af5208e54a6b4bcaffae2ab71f93이 원peer/교체평가와 일치한다.",
+      "analytics-script-inspection 영수증은 public beacon GET200/31853bytes/SHA637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e와 endpoint literal의 코드 관측이다. scope가 script 미실행/body 미보관/beacon 미제출/실제 POST전달 증거아님을 명시한다.",
+      "별도 v049 analytics-browser-probe 영수증은 success=false, requests=[]와 safe error name만 남겨 실패 관측을 보존한다. 이를 analytics POST 성공이나 해당 endpoint를 실제 POST로 조사했다고 바꾸어 쓰지 않는다. 새로운 CI/원격preview/운영 배포나Google 결과는 이 검토 범위에서 확인하지 않았다."
+    ],
+    "value": [
+      "기존 모든 nonGET을 파일업로드로 보던 검사에서 이미 있는 호스팅 통계를 정확히 구분하면서, 실제 즐겨찾기 합성 canary가 URL/query/body/nested JSON에 섞이는 회귀를 놓치지 않게 한다.",
+      "정상 analytics 분류가 known 파일데이터 유출을 예외처리하지 않도록 우선순위를 검증하며, QA 통계를 실제로 게시하지 않는 route를 마련한다. 잘못된 percent 한 글자 때문에 민감표식 검사가 우회되는 실제 하네스 결함을 제거했다."
+    ],
+    "maintainability": [
+      "pure classifier와 Playwright 연결 함수를 분리하고 표준 URL/TextDecoder/JSON만 사용한다. seen 집합과 queue는 각 독립 텍스트 변환을 재사용하며 새 dependency나 앱 저장계약/ID/원장/브랜드 변경을 요구하지 않는다.",
+      "원 평가대상 snapshot과 보완 전 실패로그를 보존하며 final helper와 단위/브라우저 로그 hash를 구분한다. 정상·비정상 endpoint/JSON schema·multi encoding·nested field의 명시 oracle과 독립 review 재실행으로 다음 회귀를 재현할 수 있다."
+    ]
+  },
+  "historicalFindings": [
+    {
+      "status": "fixed-in-final-review",
+      "observedBeforeSha256": "9632ea59c1f1e867d3fdc953c78b82a753f3e0db9b27c2c55ab8d22374e6283f",
+      "syntheticProbes": [
+        {
+          "inputShape": "GET ?invalid=%&data=encodeURIComponent(canary)",
+          "before": "read",
+          "after": "favorite-data-in-request"
+        },
+        {
+          "inputShape": "exact endpoint POST JSON progress=100%, note=encodeURIComponent(canary)",
+          "before": "analytics",
+          "after": "favorite-data-in-request"
+        }
+      ],
+      "scope": "Actual pure-function reproductions, not an observed production upload; review messages retained by root."
+    }
+  ],
+  "verificationReceipts": [
+    {
+      "path": "/tmp/jpop51-network-mixed-encoding-unit.log",
+      "sha256": "47e5bee53d0fc1e8ac7dea2c573073b996916c47e8b3d00a6c7582db33984367"
+    },
+    {
+      "path": "/tmp/jpop51-mixed-encoding-browser.log",
+      "sha256": "cec3218142cdd25070c06c008d9430336658e7e73300381265bc2ca3f84ba42b"
+    }
+  ],
+  "limits": [
+    "Canary-based regression inspection covers assigned synthetic identifiers/metadata and exercised encodings; it is not proof against every arbitrary private value, compression/encryption/base64 or all future beacon formats.",
+    "Exact public endpoint code-source GET and synthetic classifier tests do not prove actual analytics POST submission/delivery. The old production browser probe failed and its empty request list is not network absence proof.",
+    "Local Chromium tests are distinct from exact clean-SHA remote CI/preview/production, actual deployment rollback and Google account/application/approval. Those require root separate receipts."
+  ],
+  "issues": [],
+  "verdict": "accept"
+}

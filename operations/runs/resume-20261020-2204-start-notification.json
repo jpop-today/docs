@@ -1,0 +1,11 @@
+{
+  "runId": "resume-20261020-2204",
+  "workflowRunId": 39428119570,
+  "jobId": 118645770348,
+  "sourceSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "conclusion": "success",
+  "result": "sent",
+  "attempts": 1,
+  "actualResultLine": "2026-10-20T13:10:25.8880611Z Discord notification sent (1 attempt).",
+  "evidence": "Connected GitHub job log read; gh raw-log request failed and was not treated as delivery evidence. Existing Actions secret pathway; no secret values inspected."
+}

@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-20T18:13:15.384819+00:00",
+  "sourceBase": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "dirty": true,
+  "unit": 569,
+  "unitFailed": 0,
+  "typeFiles": 26,
+  "typeErrors": 0,
+  "typeWarnings": 0,
+  "typeHints": 0,
+  "previewFiles": 3347,
+  "previewHtml": 3336,
+  "indexable": 0,
+  "actualFullBrowser": {
+    "passed": 74,
+    "failed": 0,
+    "command": "JPOP_TEST_BASE_URL=http://127.0.0.1:4321 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e -- --output=/tmp/jpop51-final-candidate-e2e",
+    "log": "/tmp/jpop51-final-candidate-e2e.log"
+  },
+  "scope": "Dirty candidate full run before new replacement recovery cases. Later root changes: Korean privacy terminology only; shared merge comment wording only. Not clean-SHA CI/deployment."
+}

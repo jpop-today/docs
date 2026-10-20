@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-20T18:04:13.457Z",
+  "base": "http://127.0.0.1:4321",
+  "browser": "system Chromium through Playwright; Browser js tool unavailable",
+  "checks": {
+    "pageIdentity": true,
+    "meaningfulPage": true,
+    "noFrameworkOverlay": true,
+    "downloadIgnoresFilterAndPreservesObjects": true,
+    "readOnlyPreviewAndCancellation": true,
+    "minimumControlHeights": {
+      "#favorites-backup > summary": 48,
+      "#download-favorites-backup": 50,
+      "#favorites-backup-file": 56,
+      "#merge-favorites-backup": 50,
+      "#cancel-favorites-backup": 50
+    },
+    "explicitKeyboardMergePreservesExistingMetadataUnknown": true,
+    "mobileNoHorizontalOverflow": true
+  },
+  "screenshots": [
+    "/tmp/r51-app-desktop.png",
+    "/tmp/r51-app-mobile-preview.png"
+  ],
+  "consoleRelevant": [],
+  "finishedAt": "2026-10-20T18:04:16.255Z",
+  "result": "failed",
+  "failure": {
+    "name": "Error",
+    "message": "locator.textContent: Error: strict mode violation: locator('noscript') resolved to 2 elements:\n    1) <noscript>…</noscript> aka locator('noscript').first()\n    2) <noscript>…</noscript> aka locator('section').filter({ hasText: '저장한 곡0' }).locator('noscript')\n\nCall log:\n\u001b[2m  - waiting for locator('noscript')\u001b[22m\n"
+  }
+}
