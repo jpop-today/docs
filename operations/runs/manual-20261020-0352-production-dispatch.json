@@ -1,0 +1,14 @@
+{
+  "acceptedAt": "2026-10-20T00:08:41.745338+00:00",
+  "workflow": "production.yml",
+  "payload": {
+    "ref": "main",
+    "inputs": {
+      "source_sha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+      "preview_url": "https://efe6b1f6.jpoptoday-preview.pages.dev",
+      "verify_only": true
+    }
+  },
+  "accepted": true,
+  "scope": "Verify-only after actual managed deployment. No duplicate deployment by this workflow."
+}

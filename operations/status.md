@@ -1,6 +1,6 @@
 ## 현재 진행 · Issue44 / 2026-10-20 KST
 
-사용자 진행 요청의 `manual-20261020-0352`를 이어간다. [PR45](https://github.com/jpop-today/jpoptoday/pull/45) head2821e395·4CI success 뒤 mainM `4870024cba877be8b4006a9036934086e7e1d6f7`로 병합했다. 공식4ID8근거 추가·안전36ID/67번호·양쪽31탐색과 첫 검색가이드 보강, 작업tree424/type0/53browser·실제6peer40동률/사전evidence제외/실제교체1·8artifact우회root보완/47pass·후속2peer20/20을 확인했다. 두target3347파일 전체반복재현을 확인했으며 같은M main app/contracts success·CI424/type0/53+53과 actualpreview strict27/1을 확인했다. 실제preview53 browser·운영/복구/Release 마감이 남았다. 현재운영은 아래v047이며 새버전운영완료로 해석하지 않는다. 현재재개시root만 관측됐고 기존담당 완료/미커밋문서를 보존하여 같은run으로 잇는다. 09시/hourly예약 변경없음. [실행](runs/manual-20261020-0352.json)·[정책게이트](production-content-gate-v048-20261020.md).
+사용자 진행 요청의 `manual-20261020-0352`를 이어간다. [PR45](https://github.com/jpop-today/jpoptoday/pull/45) head2821e395·4CI success 뒤 mainM `4870024cba877be8b4006a9036934086e7e1d6f7`로 병합했다. 공식4ID8근거 추가·안전36ID/67번호·양쪽31탐색과 첫 검색가이드 보강, 작업tree424/type0/53browser·실제6peer40동률/사전evidence제외/실제교체1·8artifact우회root보완/47pass·후속2peer20/20을 확인했다. 두target3347파일 전체반복재현을 확인했으며 같은M main app/contracts success·CI424/type0/53+53과 actualpreview strict27/1을 확인했다. 실제preview53도 통과했다. M4870024c를 managed운영 ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca에 20일00:07:59UTC 반영했고 실제운영/복구/Release 검증은 진행중이다. 아래v047은 직전완료이며 v048전체게이트완료로 해석하지 않는다. 현재재개시root만 관측됐고 기존담당 완료/미커밋문서를 보존하여 같은run으로 잇는다. 09시/hourly예약 변경없음. [실행](runs/manual-20261020-0352.json)·[정책게이트](production-content-gate-v048-20261020.md).
 
 # 실행 상태
 

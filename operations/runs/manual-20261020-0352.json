@@ -1,7 +1,7 @@
 {
   "runId": "manual-20261020-0352",
   "issue": 44,
-  "state": "in_progress",
+  "state": "product_verified_release_pending",
   "startedAt": "2026-10-19T18:54:20.093376+00:00",
   "timezone": "Asia/Seoul",
   "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
@@ -54,7 +54,7 @@
     "safe Actions CF binding"
   ],
   "coordination": "Issue9 latest COMPLETED; no open source PR and only root in current collaboration; previous chat-list timeout does not prove global absence",
-  "next": "sameM CI/repro and actual preview, then production/recovery/release",
+  "next": "Wait verified v0.4.8 Release, publish docs/report-only PR and identical completion Discord; no further product deploy needed.",
   "coordinationComment": {
     "id": 6274829131,
     "at": "2026-10-19T18:54:37Z"
@@ -95,5 +95,18 @@
     "causeOfInterruption": "Not inferred from token reset; resumed from actual unfinished PR/deployment state"
   },
   "sourceProductMain": "4870024cba877be8b4006a9036934086e7e1d6f7",
-  "sourcePR": 45
+  "sourcePR": 45,
+  "lastActualCheck": "2026-10-20T00:15:36.861745+00:00",
+  "productionDeployment": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+  "verified": {
+    "mainCI": "424/type0/53+53",
+    "previewRemote": 39345398362,
+    "productionRemote": 39345873779,
+    "remoteTestsEach": 53,
+    "rollback": "27/1",
+    "restore": "27/1",
+    "postrestoreStrict": "27/1",
+    "postrestoreOrdinaryURLs": 10
+  },
+  "releaseWorkflow": 39346504008
 }
