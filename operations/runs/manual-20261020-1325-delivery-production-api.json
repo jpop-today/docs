@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-20T12:40:33.010389+00:00",
+  "reportMainSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "state": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+      "url": "https://b2b87099.todayjpop.pages.dev",
+      "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+      "createdAt": "2026-10-20T12:17:29.515674Z",
+      "status": "success"
+    }
+  },
+  "scope": "Report-only R did not redeploy product M; actual API checked after report main CI"
+}

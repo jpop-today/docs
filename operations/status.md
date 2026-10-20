@@ -1,5 +1,29 @@
 # 실행 상태
 
+최신 제품 완료: v0.4.9 / M `c6903c88a03acc98bd32cc1444c0f3654a60c595` / todayjpop·jpop.today `b2b87099-f708-4247-a2bc-8dcb0da0ae8f`.
+
+보관한 차트에서 TJ·금영 모두 확인된27곡을 JavaScript 없이 펼쳐 볼 수 있습니다. 공식7근거를 추가해 직전36곡·67번호에서40곡·74번호로 확인 범위를 늘리고 차트 가이드를 보강했습니다. 발견한 ads.txt 404는 원본59바이트 복원과 운영 응답 검사로 보완했습니다.
+
+검증: 단위524·타입오류0, 같은 SHA CI58+58·실제 preview58/운영58, preview3347·production3348파일 두 번 재현, 실제 복구27/1→재적용28/2과 재적용 뒤10URL·ads.txt200/원본일치를 통과했습니다.
+
+협업·실패: 실제6평가40/40/38로 품질 담당을 교체했습니다. 검증 누락5건을 보완해 감사68검사·후속2평가를 수용했고, ads.txt 보완도 독립 읽기평가와 반례 검사로 확인했습니다. 첫 실패·사용량 중단·원소스는 보존했습니다.
+
+예약·운영: 매일09시/hourly 기존 예약은 변경하지 않았습니다. Actions CFbinding은 미설정이며 관리형 환경으로 배포했습니다.
+
+AdSense: 실제 계정·신청·승인은 미확인입니다. 운영자의 권리·문의 실수신·ads.txt 계정 일치·본인정보/법적 동의와 실제 Google 심사 결과가 필요합니다.
+
+개인Git source/dev metadata·자동false/none·도메인/이력을 보존했다. 제품/tag/운영M과 보고전용R을 구분하고 실제 송신·문서전달은 최종 영수증을 따른다.
+
+[릴리스](releases/v0.4.9-20261020.md) · [실행](runs/manual-20261020-1325.json) · [일일보](daily/2026-10-20.json) · [정책게이트](production-content-gate-v049-20261020.md)
+
+
+## 최종 전달 · 2026-10-20
+
+보고 PR50/main R `e52f0566b13bb7879e4c44eed3dd81c326956f70`의 head4/main2 CI success를 확인했다. R은 제품/tag/운영 M `c6903c88a03acc98bd32cc1444c0f3654a60c595`과 reports 두JSON만 다르며 재배포하지 않았다. 관리자 완료 Discord39423909000/job118631496994는2026-10-20T12:39:11.3629902Z(21:39:11KST) actualsent1attempt다. [송신 영수증](runs/manual-20261020-1325-completed-discord.json)·[최종 인계](runs/manual-20261020-1325-completed-handoff.json)·[보고 SHA](runs/manual-20261020-1325-source-report.json)·[보고 뒤 실제API](runs/manual-20261020-1325-delivery-production-api.json)·[보고 뒤 strict28/1](runs/manual-20261020-1325-delivery-production-http.json)을 따른다. 실제문서전달은 PR27이며 자신의 최종병합SHA를 추정하지 않고 실제 GitHub PR metadata/Issue9 완료댓글로 연결한다. 소스일일보의 immutable pre-delivery metadata와 실제송신을 구분하고 채팅/Discord의 core는동일하다. 기존09시/hourly예약을변경하지않았고무기한세션을보장하지않는다.
+
+
+# 직전 v0.4.8 완료 이력
+
 최신 제품 완료: v0.4.8 / M `4870024cba877be8b4006a9036934086e7e1d6f7` / todayjpop·jpop.today `ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca`.
 
 가수별 TJ·금영 모두 확인된 곡 수와 두 업체 AND 검색을 추가했습니다. 공식4곡8근거로 안전한 확인 범위는36곡·67번호, 양쪽 확인은31곡입니다.

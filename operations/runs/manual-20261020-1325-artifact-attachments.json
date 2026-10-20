@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-20T12:31:35.743Z",
+  "scope": "Later native attachment calls; earlier no-result records remain historical, and no PR creation is repeated.",
+  "artifacts": [
+    {
+      "url": "https://github.com/jpop-today/jpoptoday/pull/50",
+      "state": "attached",
+      "checkedAt": "2026-10-20T12:31:32.573Z",
+      "observedResult": {
+        "artifact_type": "pull_request",
+        "url": "https://github.com/jpop-today/jpoptoday/pull/50"
+      }
+    },
+    {
+      "url": "https://github.com/jpop-today/jpoptoday/pull/48",
+      "state": "attached",
+      "checkedAt": "2026-10-20T12:31:33.551Z",
+      "observedResult": {
+        "artifact_type": "pull_request",
+        "url": "https://github.com/jpop-today/jpoptoday/pull/48"
+      }
+    },
+    {
+      "url": "https://github.com/jpop-today/jpoptoday/pull/49",
+      "state": "attached",
+      "checkedAt": "2026-10-20T12:31:34.667Z",
+      "observedResult": {
+        "artifact_type": "pull_request",
+        "url": "https://github.com/jpop-today/jpoptoday/pull/49"
+      }
+    },
+    {
+      "url": "https://github.com/jpop-today/docs/pull/27",
+      "state": "attached",
+      "checkedAt": "2026-10-20T12:31:35.743Z",
+      "observedResult": {
+        "artifact_type": "pull_request",
+        "url": "https://github.com/jpop-today/docs/pull/27"
+      }
+    }
+  ],
+  "resultFormat": "Native tool returned JSON text containing artifact_type and URL; parsed as successful returned attachment metadata."
+}

@@ -1,0 +1,14 @@
+{
+  "requestedAt": "2026-10-20T12:39:03.958664+00:00",
+  "workflow": "discord.yml",
+  "request": {
+    "ref": "main",
+    "inputs": {
+      "mode": "completed",
+      "report_date": "2026-10-20"
+    }
+  },
+  "sourceSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "scope": "One dispatch; read workflow metadata separately; success is not actual delivery or deployment",
+  "commandExit": 0
+}

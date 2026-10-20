@@ -1,0 +1,14 @@
+{
+  "requestedAt": "2026-10-20T12:13:27.934661+00:00",
+  "workflow": "deployed-preview.yml",
+  "request": {
+    "ref": "main",
+    "inputs": {
+      "source_sha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+      "deployment_url": "https://205778b9.jpoptoday-preview.pages.dev"
+    }
+  },
+  "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "scope": "One dispatch; read workflow metadata separately; success is not actual delivery or deployment",
+  "commandExit": 0
+}

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-20T12:29:38.752Z",
+  "workflow": 39422100980,
+  "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "workflowConclusion": "success",
+  "jobs": [
+    {
+      "id": 118625351204,
+      "name": "verify",
+      "selected": [
+        "2026-10-20T12:25:20.3167507Z Reviewed release identity verified v0.4.9",
+        "2026-10-20T12:25:33.8189086Z ℹ tests 524",
+        "2026-10-20T12:25:33.8189538Z ℹ pass 524",
+        "2026-10-20T12:25:33.8189743Z ℹ fail 0",
+        "2026-10-20T12:25:41.0231292Z Result (26 files): ",
+        "2026-10-20T12:25:41.0232173Z - 0 errors",
+        "2026-10-20T12:25:41.0232627Z - 0 warnings",
+        "2026-10-20T12:25:41.0232994Z - 0 hints",
+        "2026-10-20T12:25:48.0989100Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source c6903c88a03acc98bd32cc1444c0f3654a60c595",
+        "2026-10-20T12:28:15.5494200Z   58 passed (2.1m)"
+      ]
+    },
+    {
+      "id": 118626734780,
+      "name": "publish",
+      "selected": [
+        "2026-10-20T12:28:29.4755316Z https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.9",
+        "2026-10-20T12:28:29.8638673Z Discord notification sent (1 attempt)."
+      ]
+    }
+  ]
+}

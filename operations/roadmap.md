@@ -1,6 +1,6 @@
 # 실행 계획과 작업 큐
 
-현재 완료는 [v0.4.8](releases/v0.4.8-20261020.md)의 공식4ID/8근거·가수별 양쪽31ID 탐색/AND검색·첫 가이드와 동일M CI/실제preview53·운영53·복구·Release다. 안전한 확인은36ID/67번호이며 전체검증·Google승인이 아니다. 다음은 Issue6 미검토근거/자체콘텐츠·차트/실패lastgood, Issue15안전한Actionsbinding, 운영자의권리·문의실수신·Google계정/소유권/신청·법적동의다. [현재상태](status.md)를 따른다.
+현재 완료는 [v0.4.9](releases/v0.4.9-20261020.md)의 공식4ID/7근거·보관차트 양쪽27ID native탐색·차트가이드·기존원본ads.txt59byte복원, 같은M CI/실제preview58·운영58·복구·Release다. 안전40ID/74번호·전체양쪽34ID이며 전체검증/계정일치/Google승인은 아니다. 다음은 Issue6 미검토근거·고유콘텐츠/선곡·차트갱신/실패lastgood, Issue15안전한Actionsbinding, 운영자의권리·문의실수신·ads.txt실계정일치·Google계정/소유권/신청/법적동의다. [현재상태](status.md)를 따른다.
 
 ## 직전 계획 기록
 

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "url": "https://jpop.today",
+  "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "target": "production",
+  "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+  "ledgerSha256": "2223178ec86c8aee97d84cc7d7f4cbb10a93d42498bc9090bdf9b6d5eefa1e5e",
+  "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+  "startedAt": "2026-10-20T12:39:10.194Z",
+  "checkedAt": "2026-10-20T12:39:30.719Z",
+  "durationMs": 20525,
+  "limits": {
+    "maxAttempts": 30,
+    "totalTimeoutMs": 60000,
+    "requestTimeoutMs": 8000,
+    "retryDelayMs": 2000,
+    "maxResponseBytes": 4194304
+  },
+  "attempts": [
+    {
+      "number": 1,
+      "startedAt": "2026-10-20T12:39:10.194Z",
+      "checks": [
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5d67a1ff7db253b7cdf362f62eaaa784cc330a0b8a39b48ae618b88794768d85",
+          "passed": true
+        },
+        {
+          "path": "/catalog.json",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 1802537,
+          "sha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+          "passed": true,
+          "expectedSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5"
+        },
+        {
+          "path": "/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 15994,
+          "sha256": "3fddc11fe7a298ccba27502fb291fb7c09ff3ecc6ac48c52649aa489a8409320",
+          "passed": true,
+          "expectedSha256": "3fddc11fe7a298ccba27502fb291fb7c09ff3ecc6ac48c52649aa489a8409320"
+        },
+        {
+          "path": "/robots.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 63,
+          "sha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6",
+          "passed": true,
+          "expectedSha256": "144acf6acbbd9a9540170d46584a1b376f210eb8aeb43c4a7cc08d2d10ea74f6"
+        },
+        {
+          "path": "/sitemap.xml",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 6443,
+          "sha256": "f63f01380df992d3c265567d01a56c0da4946d9c7fbf3278b9e93567b064fe13",
+          "passed": true,
+          "expectedSha256": "f63f01380df992d3c265567d01a56c0da4946d9c7fbf3278b9e93567b064fe13"
+        },
+        {
+          "path": "/search/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 16003,
+          "sha256": "2f87df6462a9182b437cab8502c84086000cb56e4512e8f6a46c84359fbe3975",
+          "passed": true,
+          "expectedSha256": "2f87df6462a9182b437cab8502c84086000cb56e4512e8f6a46c84359fbe3975"
+        },
+        {
+          "path": "/favorites/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 8115,
+          "sha256": "672c82b91d0916f99c2b4922eb174bf0ce68253be46150d69f82e6594e282c3c",
+          "passed": true,
+          "expectedSha256": "672c82b91d0916f99c2b4922eb174bf0ce68253be46150d69f82e6594e282c3c"
+        },
+        {
+          "path": "/song/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 2571,
+          "sha256": "face43a0cef9e19288dbd6284224dd53def26c83d9fc6632ba524152b4055adc",
+          "passed": true,
+          "expectedSha256": "face43a0cef9e19288dbd6284224dd53def26c83d9fc6632ba524152b4055adc"
+        },
+        {
+          "path": "/guides/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3913,
+          "sha256": "06fe5656222329aeeda203e0fef344b53f1b90b4a55c010967390ac5a61add32",
+          "passed": true,
+          "expectedSha256": "06fe5656222329aeeda203e0fef344b53f1b90b4a55c010967390ac5a61add32"
+        },
+        {
+          "path": "/guides/tj-ky-numbers/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 8498,
+          "sha256": "7deb1e0a7a854378987573933999470118269b49a555673c33511820a5f8f8a6",
+          "passed": true,
+          "expectedSha256": "7deb1e0a7a854378987573933999470118269b49a555673c33511820a5f8f8a6"
+        },
+        {
+          "path": "/about/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 4041,
+          "sha256": "913d7d0132830b313423a5c5a80ad3ef76d748dea0bd80485e2a93df73cbda40",
+          "passed": true,
+          "expectedSha256": "913d7d0132830b313423a5c5a80ad3ef76d748dea0bd80485e2a93df73cbda40"
+        },
+        {
+          "path": "/contact/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3026,
+          "sha256": "ab327fde6c0324924ba773fdaf5e098941f0004e9aba8f98949cdf481775b5d2",
+          "passed": true,
+          "expectedSha256": "e15944a9b3af1a0a402670a26f7ada5d0c7fc2efdbb6b160d21542a0927c149c",
+          "rawSha256": "ab327fde6c0324924ba773fdaf5e098941f0004e9aba8f98949cdf481775b5d2",
+          "normalizedSha256": "e15944a9b3af1a0a402670a26f7ada5d0c7fc2efdbb6b160d21542a0927c149c",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/privacy/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 5326,
+          "sha256": "450ef3c5a18b67594e35bb0c6e6e570fd0b14ad42b825a8933fc187191ff28a7",
+          "passed": true,
+          "expectedSha256": "8121dd0d24009e6651bcf3655a9b19dc16b391928ecb08af73471e0cae308e39",
+          "rawSha256": "450ef3c5a18b67594e35bb0c6e6e570fd0b14ad42b825a8933fc187191ff28a7",
+          "normalizedSha256": "8121dd0d24009e6651bcf3655a9b19dc16b391928ecb08af73471e0cae308e39",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/faq/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 3314,
+          "sha256": "021e52c83def264ec276f53a44541fbc602731dc17cbc72176ec782dd0cb34db",
+          "passed": true,
+          "expectedSha256": "021e52c83def264ec276f53a44541fbc602731dc17cbc72176ec782dd0cb34db"
+        },
+        {
+          "path": "/coverage/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 95887,
+          "sha256": "885adb62bff120eb8993007e6e9e7c1b02d3bdec76de93af860a9bead2e7eb52",
+          "passed": true,
+          "expectedSha256": "885adb62bff120eb8993007e6e9e7c1b02d3bdec76de93af860a9bead2e7eb52"
+        },
+        {
+          "path": "/chart/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 257997,
+          "sha256": "119fcc7a63c42e13c7d374139452ed2d15f529b1d8247cf41d440cebf0288e9c",
+          "passed": true,
+          "expectedSha256": "119fcc7a63c42e13c7d374139452ed2d15f529b1d8247cf41d440cebf0288e9c"
+        },
+        {
+          "path": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 5549,
+          "sha256": "b9ce04341c0bf590b6d654a33dfe06db8f0daf67da377ac8fef7a4857c93312a",
+          "passed": true,
+          "expectedSha256": "79dbc8409bf086f0137aa7053a865703261bd836de45a0b63144a0df96222842",
+          "rawSha256": "b9ce04341c0bf590b6d654a33dfe06db8f0daf67da377ac8fef7a4857c93312a",
+          "normalizedSha256": "79dbc8409bf086f0137aa7053a865703261bd836de45a0b63144a0df96222842",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/songs/jpop-playlist-don-t-say-lazy-ca9960cc97/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 5275,
+          "sha256": "0876245247a71251d3b098d776607b85454db8a5ef7dc1c840a28f07a968646f",
+          "passed": true,
+          "expectedSha256": "074b9a482b0567737a0b41ea78129b28937291f9268071a95499af45f8981643",
+          "rawSha256": "0876245247a71251d3b098d776607b85454db8a5ef7dc1c840a28f07a968646f",
+          "normalizedSha256": "074b9a482b0567737a0b41ea78129b28937291f9268071a95499af45f8981643",
+          "normalizations": [
+            {
+              "type": "cloudflare-email-exclusion-markers",
+              "anchors": 1
+            }
+          ]
+        },
+        {
+          "path": "/artists/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 172883,
+          "sha256": "2103136aa8083ffb0115b5c4e2dcd3bad9cc2862e3bad13c7673effd4c019a52",
+          "passed": true,
+          "expectedSha256": "2103136aa8083ffb0115b5c4e2dcd3bad9cc2862e3bad13c7673effd4c019a52"
+        },
+        {
+          "path": "/guides/title-artist-variants/",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 16834,
+          "sha256": "b06e48d303e7e95be9f7e3525ff706e067ef39abd43bada950c9a07f0dc8f754",
+          "passed": true,
+          "expectedSha256": "b06e48d303e7e95be9f7e3525ff706e067ef39abd43bada950c9a07f0dc8f754"
+        },
+        {
+          "path": "/ads.txt",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 59,
+          "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+          "passed": true,
+          "expectedSha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80"
+        },
+        {
+          "path": "/_astro/Layout.CZDZ98xf.css",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 11051,
+          "sha256": "1b468eac975d14f4aaaffa80619e298000afa02b30103e52bffde64e5ffb0bd5",
+          "passed": true,
+          "expectedSha256": "1b468eac975d14f4aaaffa80619e298000afa02b30103e52bffde64e5ffb0bd5"
+        },
+        {
+          "path": "/_astro/Layout.astro_astro_type_script_index_0_lang.CZ1vzHwH.js",
+          "diagnosticNonce": false,
+          "status": 200,
+          "bytes": 22193,
+          "sha256": "839f7a122cb5b897c937543ced77a65fd68723d018224a2b8bfb70e0318838a0",
+          "passed": true,
+          "expectedSha256": "839f7a122cb5b897c937543ced77a65fd68723d018224a2b8bfb70e0318838a0"
+        },
+        {
+          "path": "/data/staging/legacy-catalog.json",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/scripts/manage-production.py",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/reports/daily/healthcheck.json",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/not-found-healthcheck",
+          "diagnosticNonce": false,
+          "status": 404,
+          "bytes": 2439,
+          "sha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a",
+          "passed": true,
+          "expectedSha256": "63ec26390803a46d63878007da45ac26e516c934d35ba244397107433d256f2a"
+        },
+        {
+          "path": "/build-info.json",
+          "diagnosticNonce": true,
+          "status": 200,
+          "bytes": 457,
+          "sha256": "5d67a1ff7db253b7cdf362f62eaaa784cc330a0b8a39b48ae618b88794768d85",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "code": null
+    }
+  ],
+  "passed": true,
+  "code": null,
+  "scope": "Observed HTTP origin and artifact byte consistency; separate CI/content/browser gates; no global CDN or AdSense approval claim"
+}

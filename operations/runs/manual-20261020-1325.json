@@ -1,7 +1,7 @@
 {
   "runId": "manual-20261020-1325",
   "issue": 47,
-  "state": "r2_merged_same_sha_gates",
+  "state": "completed",
   "startedAt": "2026-10-20T04:26:04.037951+00:00",
   "timezone": "Asia/Seoul",
   "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
@@ -42,7 +42,7 @@
     "app"
   ],
   "coordination": "Issue9 latestCOMPLETED, currentcollaborationrootonly, no openPR/diff; global absence of other chats not proven. Explicit user continue starts new product work.",
-  "next": "Both-target working and final reviewed r2 source CI/preview/production/actualrecovery before release",
+  "next": "Issue6: inspect existing observed candidates at frozen ranks36–39 before any official metadata-only review; preserve unknown/last-good. Issue15: secure Actions binding/actual automatic deployment, plus operator Google/rights/contact/account steps remain open.",
   "operators": [
     "Google account/identity/legal consent and actual result unknown",
     "rights/contact delivery/ads.txt account match",
@@ -115,7 +115,7 @@
     "state": "Tool invoked twice; no result before bounded wait; no attachment success claimed",
     "scope": "GitHub PR creation/read/CI works; desktop attachment result unavailable"
   },
-  "sourceProductMain": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "sourceProductMain": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
   "supplementalReviews": {
     "count": 2,
     "scores": [
@@ -139,12 +139,11 @@
     "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
     "managed": true,
     "remoteRun": 39385779046,
-    "gate": "Full remote browser/recovery/Release pending"
+    "gate": "Historical M1: full57 and recovery passed, then separate ads404 held Release; superseded by final r2 M and receipts."
   },
   "r2": {
     "baseSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
     "branch": "codex/issue47-ads-txt",
-    "reason": "Postrestore separate ads.txt check404 confirmed on four routes; original Git public59byte asset exists; cause/time not inferred. v049 tag/Release not created.",
     "sourceOwner": "root",
     "sourceScope": [
       "public/ads.txt",
@@ -173,7 +172,7 @@
     "workingUnit": 524,
     "typeErrors": 0,
     "workingPreviewFiles": 3347,
-    "next": "Clean M2 repeated builds; main CI; exactSHA preview then production/recovery",
+    "next": "Report-only integration and delivery; no additional deployment",
     "pr": 49,
     "headSha": "e531ccb8c82c4b95f7360b8626f668456c262aa3",
     "workingProductionFiles": 3348,
@@ -184,6 +183,145 @@
     "attachment": "Called native attach; no result within10sec; no attachment success claimed",
     "productSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
     "headCI": "all4success; exactpush58+58 and PRsyntheticmerge58+58 separated",
-    "peerAudit": "manual-20261020-1325-r2-root-peer-audit.json"
+    "peerAudit": "manual-20261020-1325-r2-root-peer-audit.json",
+    "productionDeployment": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+    "actualMainCI": [
+      524,
+      58,
+      58
+    ],
+    "remotePreview": 58,
+    "remoteProduction": 58,
+    "strictProduction": "28/2; initial metadata REQUEST_TIMEOUT preserved",
+    "actualRecovery": "old27/1 -> new28/2; initial catalog CATALOG_MISMATCH preserved",
+    "postrestore": "strict28/1,10ordinaryURLs,ads200/plain/exact59hash",
+    "tag": "v0.4.9 at c6903c88a03acc98bd32cc1444c0f3654a60c595",
+    "releaseRun": 39422100980,
+    "releaseReadFallback": "Workflow-specific fetch returned no structured content; generic runs read with exact SHA filter succeeded; no false release creation/result claim.",
+    "releaseGates": "passed; see r2 receipts",
+    "receipts": {
+      "source-merge": "manual-20261020-1325-r2-source-merge.json",
+      "head-ci-results": "manual-20261020-1325-r2-head-ci-results.json",
+      "main-ci-results": "manual-20261020-1325-r2-main-ci-results.json",
+      "reproducibility": "manual-20261020-1325-r2-reproducibility.json",
+      "preview-remote": "manual-20261020-1325-r2-preview-remote.json",
+      "production-remote": "manual-20261020-1325-r2-production-remote.json",
+      "production-http": "manual-20261020-1325-r2-production-http.json",
+      "recovery": "manual-20261020-1325-r2-recovery.json",
+      "restore-http": "manual-20261020-1325-r2-restore-http.json",
+      "postrestore-site": "manual-20261020-1325-r2-postrestore-site.json",
+      "release": "manual-20261020-1325-r2-release.json",
+      "root-peer-audit": "manual-20261020-1325-r2-root-peer-audit.json"
+    },
+    "firstProductionProbe": {
+      "attempts": 2,
+      "initialCode": "REQUEST_TIMEOUT",
+      "finalPassed": true,
+      "scope": "Actual attempt history retained; a retry success does not erase the earlier result."
+    },
+    "reasonAtStart": "Postrestore separate ads.txt check404 confirmed on four routes; original Git public59byte asset exists; cause/time not inferred. v049 tag/Release not created."
+  },
+  "productCompletedAt": "2026-10-20T12:29:49.719342+00:00",
+  "production": {
+    "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+    "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+    "remoteRun": 39421248875,
+    "remoteTests": 58,
+    "http": "28/2",
+    "recovery": {
+      "old": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+      "oldChecks": 27,
+      "newChecks": 28,
+      "rollbackAttempts": 1,
+      "restoreAttempts": 2
+    },
+    "postrestoreURLs": 10,
+    "actionsCFBindings": "missing"
+  },
+  "release": {
+    "checkedAt": "2026-10-20T12:29:44.803426+00:00",
+    "tag": "v0.4.9",
+    "tagObject": "932e38148553e3c03fd9a34abf52bb546b272c2f",
+    "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+    "id": 418373623,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.9",
+    "publishedAt": "2026-10-20T12:28:29Z",
+    "draft": false,
+    "prerelease": false,
+    "workflow": 39422100980,
+    "workflowConclusion": "success",
+    "scope": "Actual GitHub Release and annotated tag target; published by existing release.yml, no manual duplicate Release"
+  },
+  "actualValidation": {
+    "unit": 524,
+    "typeErrors": 0,
+    "artifactAuditNodes": 68,
+    "adsArtifactNodes": 23,
+    "sameMainCIBrowser": [
+      58,
+      58
+    ],
+    "previewRemote": 58,
+    "productionRemote": 58,
+    "artifactFiles": {
+      "preview": 3347,
+      "production": 3348
+    },
+    "localReproPerTarget": 2,
+    "postrestoreURLs": 10,
+    "postrestoreAdsTxt": {
+      "status": 200,
+      "bytes": 59,
+      "googleSellerRows": 1,
+      "accountMatch": "unknown; publisher value not retained",
+      "scope": "Client observation does not establish Google crawler access or operator account match",
+      "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80"
+    }
+  },
+  "phases": [
+    {
+      "phase": "initial-chart",
+      "pr": 48,
+      "productSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+      "unit": 496,
+      "browser": 57,
+      "release": "held after separate ads404; original receipts preserved"
+    },
+    {
+      "phase": "ads-r2",
+      "pr": 49,
+      "productSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+      "unit": 524,
+      "browser": 58,
+      "release": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.9"
+    }
+  ],
+  "sourceReport": {
+    "checkedAt": "2026-10-20T12:36:44.497883+00:00",
+    "pr": 50,
+    "headSha": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+    "reportMainSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+    "productSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+    "filesDifferentFromProduct": [
+      "reports/daily/2026-10-20.json",
+      "reports/runs/manual-20261020-1325.json"
+    ],
+    "redeployed": false,
+    "mainCI": "success",
+    "mainCIReceipt": "manual-20261020-1325-report-main-ci.json"
+  },
+  "completedAt": "2026-10-20T12:42:30.146336+00:00",
+  "completedNotification": {
+    "state": "sent",
+    "run": 39423909000,
+    "job": 118631496994,
+    "sender": [
+      "2026-10-20T12:39:11.3629902Z Discord notification sent (1 attempt)."
+    ],
+    "receipt": "manual-20261020-1325-completed-discord.json"
+  },
+  "documentationDelivery": {
+    "pr": 27,
+    "scope": "Final record prepared before documentation PR merge; resulting SHA is read from actual GitHub PR metadata and Issue9 final coordinator comment, never guessed."
   }
 }

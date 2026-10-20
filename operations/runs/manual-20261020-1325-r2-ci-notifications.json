@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-20T12:27:07.494Z",
+  "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "scope": "Existing workflow_run notification jobs associated with this exact main SHA; no manual duplicate CI/CD messages; only actual sender result lines retained.",
+  "runs": [
+    {
+      "run": 39421785903,
+      "job": 118624278244,
+      "conclusion": "success",
+      "sender": [
+        "2026-10-20T12:22:50.0306165Z Discord notification sent (1 attempt)."
+      ]
+    },
+    {
+      "run": 39420971308,
+      "job": 118621514473,
+      "conclusion": "success",
+      "sender": [
+        "2026-10-20T12:16:17.8481833Z Discord notification sent (1 attempt)."
+      ]
+    },
+    {
+      "run": 39420809576,
+      "job": 118620989866,
+      "conclusion": "success",
+      "sender": [
+        "2026-10-20T12:15:00.7678645Z Discord notification sent (1 attempt)."
+      ]
+    },
+    {
+      "run": 39420424926,
+      "job": 118619699881,
+      "conclusion": "success",
+      "sender": [
+        "2026-10-20T12:11:55.2012598Z Discord notification sent (1 attempt)."
+      ]
+    }
+  ]
+}

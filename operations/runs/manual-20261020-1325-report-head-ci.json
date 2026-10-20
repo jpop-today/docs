@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-20T12:34:50.544Z",
+  "sourceSha": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+  "pr": 50,
+  "productSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+  "runs": [
+    {
+      "id": 39422857302,
+      "name": "contracts",
+      "event": "pull_request",
+      "head_sha": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39422857508,
+      "name": "app",
+      "event": "pull_request",
+      "head_sha": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39422796484,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39422796004,
+      "name": "app",
+      "event": "push",
+      "head_sha": "351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 118627919234,
+      "run": 39422857302,
+      "event": "pull_request",
+      "selected": [
+        "2026-10-20T12:31:12.5034239Z # tests 524",
+        "2026-10-20T12:31:12.5034622Z # pass 524",
+        "2026-10-20T12:31:12.5034810Z # fail 0"
+      ]
+    },
+    {
+      "id": 118627920910,
+      "run": 39422857508,
+      "event": "pull_request",
+      "selected": [
+        "2026-10-20T12:31:27.0719903Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source 602bad9cd571c4a17a8ec53ab4bb752a908b0179",
+        "2026-10-20T12:33:43.4744689Z   58 passed (1.9m)"
+      ]
+    },
+    {
+      "id": 118627921426,
+      "run": 39422857508,
+      "event": "pull_request",
+      "selected": [
+        "2026-10-20T12:31:23.5252395Z ℹ tests 524",
+        "2026-10-20T12:31:23.5253442Z ℹ pass 524",
+        "2026-10-20T12:31:23.5254090Z ℹ fail 0",
+        "2026-10-20T12:31:29.5633440Z Result (26 files): ",
+        "2026-10-20T12:31:29.5634016Z - 0 errors",
+        "2026-10-20T12:31:29.5634422Z - 0 warnings",
+        "2026-10-20T12:31:29.5634832Z - 0 hints",
+        "2026-10-20T12:31:35.6639848Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 602bad9cd571c4a17a8ec53ab4bb752a908b0179",
+        "2026-10-20T12:33:38.7268369Z   58 passed (1.7m)"
+      ]
+    },
+    {
+      "id": 118627717379,
+      "run": 39422796484,
+      "event": "push",
+      "selected": [
+        "2026-10-20T12:30:47.2253813Z # tests 524",
+        "2026-10-20T12:30:47.2254412Z # pass 524",
+        "2026-10-20T12:30:47.2254714Z # fail 0"
+      ]
+    },
+    {
+      "id": 118627716380,
+      "run": 39422796004,
+      "event": "push",
+      "selected": [
+        "2026-10-20T12:30:56.9505980Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source 351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+        "2026-10-20T12:33:11.4477108Z   58 passed (1.9m)"
+      ]
+    },
+    {
+      "id": 118627716790,
+      "run": 39422796004,
+      "event": "push",
+      "selected": [
+        "2026-10-20T12:30:56.5601720Z ℹ tests 524",
+        "2026-10-20T12:30:56.5602257Z ℹ pass 524",
+        "2026-10-20T12:30:56.5602486Z ℹ fail 0",
+        "2026-10-20T12:31:03.3501531Z Result (26 files): ",
+        "2026-10-20T12:31:03.3502560Z - 0 errors",
+        "2026-10-20T12:31:03.3503500Z - 0 warnings",
+        "2026-10-20T12:31:03.3504070Z - 0 hints",
+        "2026-10-20T12:31:10.1409740Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 351a4d277f2ff478e105528ffc3e4b3eb3b15c60",
+        "2026-10-20T12:33:21.8746747Z   58 passed (1.9m)"
+      ]
+    }
+  ],
+  "scope": "Report-only PR actual4 checks; push exact head and PR synthetic-merge artifacts distinguished; no deployment."
+}
