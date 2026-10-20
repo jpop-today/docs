@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-10-20T23:31:47.674Z",
+  "status": 200,
+  "htmlSha256": "860ed4a799936fc68e00df0266a55710107f564cf1f187d4da4d9f206314bb21",
+  "scope": "Public HTML inspected; only endpoint field retained, not token/config; preceding Python HTTP403 retained as client-specific failure",
+  "endpoints": []
+}

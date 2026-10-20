@@ -1,6 +1,6 @@
 # 실행 상태
 
-진행 중: [Issue51](https://github.com/jpop-today/jpoptoday/issues/51) 즐겨찾기 수동 파일 보관·확인 후 합치기. 사용량 중단 후 같은 3담당·미커밋 작업을 보존해 재개했다. [현재 실행](runs/resume-20261020-2204.json). 아래 v0.4.9가 마지막 완료 운영이며 새 배포는 아직 수행하지 않았다.
+진행 중: [Issue51](https://github.com/jpop-today/jpoptoday/issues/51) 즐겨찾기 파일 보관·복원. PR52 M1 병합·같은 SHA CI와 실제 preview80은 통과했으나 실제 운영73pass/7unexpected-write 실패로 릴리스를 보류했다. 마지막 완료 v0.4.9로 실제 복구해 strict28/1 통과했고, 별도 운영 브라우저에서 관측한 same-origin RUM 요청을 좁게 분류·204 차단하는 [PR53](https://github.com/jpop-today/jpoptoday/pull/53)을 검증 중이다. 실패 원본과 배포 이력은 보존했다. 같은 run·기존 팀을 이어가며 [실행](runs/resume-20261020-2204.json)·[실패](runs/resume-20261020-2204-production-remote-failed.json)·[안전 복구](runs/resume-20261020-2204-safety-rollback.json)를 따른다.
 
 최신 제품 완료: v0.4.9 / M `c6903c88a03acc98bd32cc1444c0f3654a60c595` / todayjpop·jpop.today `b2b87099-f708-4247-a2bc-8dcb0da0ae8f`.
 

@@ -1,0 +1,43 @@
+{
+  "sourceSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "runId": 39513279143,
+  "jobs": [
+    {
+      "id": 118939257713,
+      "name": "production-artifact",
+      "status": "completed",
+      "conclusion": "success",
+      "selectedActualLines": [
+        "2026-10-20T23:10:55.7465411Z 74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+        "2026-10-20T23:11:08.6984595Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source 74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+        "2026-10-20T23:13:17.4959392Z   80 passed (1.8m)"
+      ]
+    },
+    {
+      "id": 118939258338,
+      "name": "app",
+      "status": "completed",
+      "conclusion": "success",
+      "selectedActualLines": [
+        "2026-10-20T23:10:55.0761359Z 74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+        "2026-10-20T23:11:15.9634092Z ℹ tests 573",
+        "2026-10-20T23:11:15.9634434Z ℹ pass 573",
+        "2026-10-20T23:11:15.9634608Z ℹ fail 0",
+        "2026-10-20T23:11:21.5913699Z Result (26 files): ",
+        "2026-10-20T23:11:21.5913962Z - 0 errors",
+        "2026-10-20T23:11:21.5914172Z - 0 warnings",
+        "2026-10-20T23:11:21.5914337Z - 0 hints",
+        "2026-10-20T23:11:26.8809903Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+        "2026-10-20T23:13:31.5459015Z   80 passed (1.7m)"
+      ]
+    }
+  ],
+  "observed": {
+    "unit": 573,
+    "typeFiles": 26,
+    "typeErrors": 0,
+    "previewBrowser": 80,
+    "productionBrowser": 80
+  },
+  "scope": "Actual final main checkout and same-SHA preview/production artifact browser jobs; actual dedicated Pages preview and origin are separate."
+}

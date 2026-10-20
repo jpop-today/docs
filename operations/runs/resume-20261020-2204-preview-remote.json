@@ -1,0 +1,16 @@
+{
+  "sourceSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "workflowRunId": 39513615446,
+  "jobId": 118940364075,
+  "conclusion": "success",
+  "deploymentUrl": "https://eea9c43a.jpoptoday-preview.pages.dev",
+  "actualBrowserPassed": 80,
+  "selectedActualLines": [
+    "2026-10-20T23:13:53.9804733Z 74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+    "2026-10-20T23:14:08.4165699Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+    "2026-10-20T23:14:10.7822371Z {\"sourceSha\":\"74e36979981a3f5d0f7d855fe81e2c9731f2351c\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T23:17:23.3026157Z   80 passed (2.8m)"
+  ],
+  "strictLocalRead": "resume-20261020-2204-preview-http.json",
+  "scope": "Actual dedicated Pages preview; clean matching artifact was rebuilt and HTTP/body/crawler checked by the workflow."
+}

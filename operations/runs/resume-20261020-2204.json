@@ -1,7 +1,7 @@
 {
   "runId": "resume-20261020-2204",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/51",
-  "state": "merged_pending_preview",
+  "state": "M1_actual_browser_failed_safety_rolled_back_fix_in_progress",
   "startedAt": "2026-10-20T13:05:57Z",
   "timezone": "Asia/Seoul",
   "resumedAt": "2026-10-20T17:59:47.004000+00:00",
@@ -126,8 +126,17 @@
     "rootNetworkV2PeerReview": "resume-20261020-2204-root-network-v2-peer-validation.json",
     "replacementPeerReview": "resume-20261020-2204-replacement-peer-validation.json",
     "exactFinalHeadCi": "resume-20261020-2204-final-head-ci.json",
-    "mainCi": "in progress",
-    "reproducibility": "in progress"
+    "mainCi": "resume-20261020-2204-main-ci-results.json",
+    "reproducibility": "resume-20261020-2204-reproducibility.json",
+    "previewDeployment": "resume-20261020-2204-preview-deployment.json",
+    "previewStrictHttp": "resume-20261020-2204-preview-http.json",
+    "previewActualBrowserRun": 39513615446,
+    "production": "pending actual origin80 and recovery",
+    "actualPreview": "resume-20261020-2204-preview-remote.json",
+    "productionDeployment": "resume-20261020-2204-production-deployment.json",
+    "release": "not yet tagged",
+    "actualProductionFailure": "resume-20261020-2204-production-remote-failed.json",
+    "safetyRollback": "resume-20261020-2204-safety-rollback.json"
   },
   "notification": {
     "start": "resume-20261020-2204-start-notification.json",

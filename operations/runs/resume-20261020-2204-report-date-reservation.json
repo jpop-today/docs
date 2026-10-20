@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-20T23:20:15.655253+00:00",
+  "date": "2026-10-21",
+  "timezone": "Asia/Seoul",
+  "runStartedDate": "2026-10-20",
+  "previousDayReport": "reports/daily/2026-10-20.json preserved unchanged",
+  "sourceDailyAlreadyExisted": false,
+  "docsDailyAlreadyExisted": false,
+  "scope": "No completed report created before actual production/recovery/release. Source productM will be distinguished from later reports-onlyR."
+}
