@@ -1,0 +1,26 @@
+{
+  "headSha": "946fce730b988a807d27701e893312a2f941c02e",
+  "run": 39516504780,
+  "app": {
+    "job": 118949827628,
+    "selected": [
+      "2026-10-20T23:40:11.0074345Z 946fce730b988a807d27701e893312a2f941c02e",
+      "2026-10-20T23:40:24.9907228Z ℹ tests 574",
+      "2026-10-20T23:40:24.9908185Z ℹ pass 574",
+      "2026-10-20T23:40:24.9908450Z ℹ fail 0",
+      "2026-10-20T23:40:30.5577112Z Result (26 files): ",
+      "2026-10-20T23:40:30.5577359Z - 0 errors",
+      "2026-10-20T23:40:35.4402521Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 946fce730b988a807d27701e893312a2f941c02e",
+      "2026-10-20T23:42:39.5342355Z   80 passed (1.7m)"
+    ]
+  },
+  "production": {
+    "id": 118949828019,
+    "selected": [
+      "2026-10-20T23:40:10.0768476Z 946fce730b988a807d27701e893312a2f941c02e",
+      "2026-10-20T23:40:20.6494124Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source 946fce730b988a807d27701e893312a2f941c02e",
+      "2026-10-20T23:41:56.1019855Z   80 passed (1.3m)"
+    ]
+  },
+  "scope": "Actual push checkout and result lines; PR synthetic checkout is separate."
+}

@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/r51_evidence",
+  "candidate": "/root",
+  "scope": "Issue51 root production network guard follow-up v3; same run, no new worker",
+  "sourceHeadRead": "946fce730b988a807d27701e893312a2f941c02e",
+  "readAt": "2026-10-20T23:46:53.568398+00:00",
+  "filesRead": [
+    {
+      "path": "/workspace/jpoptoday/e2e/helpers/backup-network.mjs",
+      "sha256": "701fe66ab08217c66afbb035cd032036497d9879b2293eaa953527d8f3a1119b"
+    },
+    {
+      "path": "/workspace/jpoptoday/tests/favorites-backup-network.test.mjs",
+      "sha256": "6c78a98d8c0af26295ed3929e39b68b72d4eeee6f9693b8fc9d8824949af54f6"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261020-2204-production-beacon-browser-observed-r2.json",
+      "sha256": "4668879c2c7bd4afda4be5453d5fe0fd4a9c70a3417d5be744d13c93bd4e5224"
+    }
+  ],
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "evidence": {
+    "correctness": [
+      "helper/test 두 파일 전체를 읽었다. allowlist에 추가한 값은 정확히 https://jpop.today/cdn-cgi/rum 하나이며 wildcard·동일호스트의 임의경로·모든pages.dev 허용으로 넓히지 않았다. POST+JSON객체의 string pageloadId/location/siteToken 및 eventType1/3 schema 검사를 유지한다.",
+      "known canary 검사는 read 및 analytics 예외보다 먼저 수행한다. v2의 독립 query/body/JSON string/key·부분percent decoding을 유지한다. 내가 발견했던 literal percent GET/POST의 canary 우회를 이 최종 함수에서 직접 다시 실행해 favorite-data-in-request 거부를 확인했다.",
+      "query/fragment/추가path/유사host/다른pages.dev/PUT/빈shape를 독립 합성 호출로 검사해 unexpected-write로 거부함을 확인했다. 정상 exact same-origin POST만 analytics로 구분하고 같은 POST에 canary가 있으면 먼저 거부한다.",
+      "두 exact endpoint의 route204 설정을 fake page adapter에서 직접 실행해 각각 status204와 고정route배열을 확인했다. request listener가 같은origin canary를 여전히 위반으로 기록하는 것도 직접 확인했다. 이는 테스트 하네스 설정 검증이며 이 리뷰가 실제 통계 POST를 전송한 것은 아니다."
+    ],
+    "evidence": [
+      "production-beacon-browser-observed-r2.json의 success=true와 metadata-only 요청1건을 실제 읽었다: POST, origin https://jpop.today, path /cdn-cgi/rum, query없음, eventType1, 필수3필드string. 본문값·token·query값이 남지 않고 타입/경로만 있어 별도 관측의 범위를 확인할 수 있다.",
+      "이 독립 운영 관측은 same-origin endpoint를 검사에 반영할 실제 근거다. 원격 M1의 과거7개 unexpected-write 요청은 정확한 요청metadata 로그가 보존되지 않았으므로 이 새관측으로 그7개의 실제경로/본문/원인을 역으로 입증했다고 쓰지 않는다.",
+      "/tmp/jpop51-r2-network-unit.log 실제 tests5/pass5/fail0를 읽었다. 두endpoint 정상/부정·knowncanary우선·모두route204·기존혼합encoding과nestedJSON 반례가 포함된다. /tmp/jpop51-r2-network-browser.log 실제22passed(27.0s)도 읽어 기존16파일흐름+6복구 경우가 로컬에서 통과함을 확인했다.",
+      "읽은 helper SHA701fe66ab08217c66afbb035cd032036497d9879b2293eaa953527d8f3a1119b, test SHA6c78a98d8c0af26295ed3929e39b68b72d4eeee6f9693b8fc9d8824949af54f6과 현재 HEAD946fce730b988a807d27701e893312a2f941c02e를 확인했다. 부모가 전달한 PR53 네CI success는 root 별도원격영수증이며 이 로컬 리뷰가 원격병합/배포를 수행하거나 확인한 것으로 섞지 않는다."
+    ],
+    "value": [
+      "실제 운영이 사용하는 same-origin RUM endpoint를 증거에 따라 구별해 호스팅통계를 파일업로드라고 오판하는 검사를 보완한다. 알려진파일데이터 canary 검사는 유지해 통계예외로 즐겨찾기 데이터 유출 회귀를 통과시키지 않는다.",
+      "후속실행의 의미와 처음73pass/7fail 결과를 구분해 실패를 숨기지 않고, QA가 통계로 게시되지 않도록 두경로를204로 가로채는 구성을 검증한다. 사용자 제품데이터·저장키·ID·공식근거·브랜드를 바꾸는 변경이 아니다."
+    ],
+    "maintainability": [
+      "단일 고정 analyticsEndpoints 배열을 classifier와 guard에서 함께 사용해 허용경로와204route가 어긋나지 않는다. 신규endpoint와 대조부정검사·인터셉트fake adapter를 좁게 추가하며 dependency/앱/CI/package 변경을 요구하지 않는다.",
+      "원v2 peer·원혼합encoding실패·원M1운영실패를 덮어쓰지 않고 새v3 읽기평가와 새로그에 최종범위를 고정한다. 네트워크전체본문·siteToken을 로그/평가자료에 남기지 않고 고정분류/해시·타입만 사용한다."
+    ]
+  },
+  "verificationReceipts": [
+    {
+      "path": "/tmp/jpop51-r2-network-unit.log",
+      "sha256": "921c86f74e629e0f1bc66f7dd6f7e25c9a87dade0db87708a0f0864376c97b30"
+    },
+    {
+      "path": "/tmp/jpop51-r2-network-browser.log",
+      "sha256": "14d21a48b6188521a7edc8852a5803a61bb218b1d97f7fa10aa68d2a3f58f39c"
+    }
+  ],
+  "limits": [
+    "별도 metadata-only production browser 관측은 same-origin POST 시도와shape의 근거다. 서버가 통계POST를 접수/처리했다는 증거나, 과거로그가없는 원격7건의 실제요청을 식별한 증거가 아니다.",
+    "운영관측 eventType은1이다. eventType3 허용은 기존분류계약/합성검사의 범위이며 이영수증에서 운영event3를 실제봤다고 주장하지 않는다.",
+    "Canary-based known synthetic content regression checks do not prove a universal DLP guarantee for every unknown private value, encoding, compression or beacon format.",
+    "5unit/22browser는 로컬검증이다. 같은최종SHA의 원격CI/preview/운영/실제복구와Release·Discord/Google계정·신청·승인은 root의 별도 실제영수증으로 확인해야 한다."
+  ],
+  "issues": [],
+  "verdict": "accept"
+}

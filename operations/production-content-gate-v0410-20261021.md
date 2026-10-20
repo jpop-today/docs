@@ -25,3 +25,11 @@ Google 정책의 과거 실제 읽기와 운영자 계정 단계는 별도다. �
 기존 원본 ads.txt 59bytes/hash는 production에서만 유지하고 모든 preview는 noindex·광고 없음이다. 개인 Git source metadata/dev·자동 false/none·도메인·이력을 보존한다. 현재 확인한 관리형 환경과 Actions의 binding 상태를 구분하며 credential을 복사하지 않는다. 기존09시/hourly 예약을 변경하지 않고 무기한 세션·정시 성공을 보장하지 않는다.
 
 확정 main SHA의 CI/두 target 전체 bytes 재현·실제 preview/운영·실제 이전v0.4.9 복구→새 결과 재적용·최종 사이트와 Release는 실행의 실제 후속 영수증으로 수용한다. 이 문단 작성 시 해당 배포는 아직 실행하지 않았다.
+
+## 첫 운영 검증 실패와 보완 · 2026-10-21 KST
+
+M1 `74e36979981a3f5d0f7d855fe81e2c9731f2351c`의 main CI80+80·실제 preview80·운영 strict28/1은 통과했으나 production workflow39514342581의 실제 origin 브라우저는73pass/7fail이었다. 모두 새 백업/복구 검사의 uploads 배열에 `unexpected-write` 한 건이 남은 실패다. 해당 로그에는 요청 주소/본문이 없으므로 그7건의 실제 요청을 소급 확정하지 않는다. v0.4.10 발행은 보류하고 이전 정상 v0.4.9 b2b87099/c6903c8로 실제 복구해 strict28/1을 통과했다. M1 배포와 실패 영수증은 보존했다.
+
+별도 읽기 전용 운영 브라우저에서 query 없는 `https://jpop.today/cdn-cgi/rum` POST·eventType1·pageloadId/location/siteToken 문자열 형식을 관측했다. 현재 관리형 proxy 공개 CA를 Chromium 신뢰 저장소에 등록해 검증했으며 전체 TLS 검증을 끄지 않았다. 본문·토큰·query 값은 보존하지 않고 QA 통계는204로 차단했다. 앞선 root HTTP에서는 beacon script가 없었고 첫 브라우저는 인증서 신뢰 오류였다는 실패/클라이언트 차이도 보존한다.
+
+PR53은 정확한 위 운영 주소만 기존 외부 주소에 더하고 모든 지정 file canary 검사를 먼저 수행한다. 임의 origin/path/query/port/method·잘못된 JSON은 계속 거부하며 두 통계 주소를204로 가로챈다. 독립 단위5와 파일/복구 브라우저22 통과, push CI 단위574·타입26파일0오류·preview80/production80을 확인했다. 제품 앱·자료·version·workflow는 이 보완에서 바꾸지 않았다. 새 main SHA의 실제 preview/운영80·복구/복원·Release는 후속 영수증으로만 확정한다.

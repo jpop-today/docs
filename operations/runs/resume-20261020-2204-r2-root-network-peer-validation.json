@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-20T23:47:51.097679+00:00",
+  "sourceHead": "946fce730b988a807d27701e893312a2f941c02e",
+  "rootReadFullReviews": true,
+  "allReadFileHashesMatch": true,
+  "reviews": [
+    {
+      "reviewer": "/root/r51_app",
+      "reviewFile": "engineering/favorites-backup-root-network-peer-app-v3-resume-20261020-2204.json",
+      "reviewSha256": "3e96f7d4b6e12f274da9e1141e9c503fa7d7523f3f4b958342c7c7655fe4a34b",
+      "total": 20,
+      "verdict": "accept"
+    },
+    {
+      "reviewer": "/root/r51_evidence",
+      "reviewFile": "engineering/favorites-backup-root-network-peer-evidence-v3-resume-20261020-2204.json",
+      "reviewSha256": "dd72a4cb908033b2dca8022afeaa64fe1d52e49ce2a0afee1236805e9ac30a54",
+      "total": 20,
+      "verdict": "accept"
+    }
+  ],
+  "originalSixAndReplacement": "Preserved; supplemental root test-only fix does not rerank original workers or create another replacement cycle"
+}

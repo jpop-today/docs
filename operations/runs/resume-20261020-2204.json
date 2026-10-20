@@ -1,7 +1,7 @@
 {
   "runId": "resume-20261020-2204",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/51",
-  "state": "M1_actual_browser_failed_safety_rolled_back_fix_in_progress",
+  "state": "r2_M2_repro_and_remote_gates_in_progress",
   "startedAt": "2026-10-20T13:05:57Z",
   "timezone": "Asia/Seoul",
   "resumedAt": "2026-10-20T17:59:47.004000+00:00",
@@ -164,5 +164,10 @@
   "docsPr": 28,
   "sourceBranch": "codex/51-favorites-backup",
   "sourceHead": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
-  "productSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c"
+  "productSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "firstProductSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "sourcePrs": [
+    52,
+    53
+  ]
 }
