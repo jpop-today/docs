@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/47",
+  "reviewer": "/root/run47_app",
+  "candidate": "/root/run47_replacement",
+  "reviewedAt": "2026-10-20T07:08:53.231968+00:00",
+  "sourceHeadRead": "e1fba4c1da996a3680875d40e148cf556db4ef51",
+  "sourceWorktreeStatusRead": "clean",
+  "scope": "Read-only source/doc/log evaluation. Only this new peer JSON is written. No new test, browser, Git mutation, build or deployment was executed by the reviewer.",
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "total": 20,
+  "vote": "accept",
+  "blockingFindings": [],
+  "readEvidenceSha256": {
+    "jpoptoday/e2e/helpers/chart-confirmed-oracle.ts": "095af32bb702af8042fe7d9307861d4bf1e5390eee8e659a9991e4609501d4d3",
+    "jpoptoday/e2e/chart-both.spec.ts": "12f82a0d199af26e62f04521617ae8d42c303382d0ee897003f6a5f92c55ffc5",
+    "jpoptoday/tests/chart-both-evidence.test.mjs": "e033b7623ca07d66b0219dc4a09ec26c12ad1e13eadb151744a3487ab9cb3ae4",
+    "jpoptoday/tests/chart-both-artifact.test.mjs": "d45f4a3232acef57acc0a6bde1bd6aff59669fe5da686d2d38070ea27bcac148",
+    "jpoptoday/scripts/verify-dist.mjs": "f5cefb53e93ccabb02a5631778541a9c3f213c2708fd1d75eb898d73e2856436",
+    "docs/engineering/chart-both-artifact-audit-20261020-1325.md": "f56d3740234c17358c18160bc7228c5e4359ff6a8b87be416e49bf55b3b4b683",
+    "docs/operations/runs/manual-20261020-1325-artifact-initial-failure.json": "2365f795de7812a27d3a5866ebf7866b8576888464e907b303d0bd6dc665e2ae",
+    "docs/operations/runs/manual-20261020-1325-artifact-initial-failure.log": "3d3c29e4d846a51ce1c39fd9e9993ff87893ae6d69dbd57661892e081452fb75",
+    "docs/operations/runs/manual-20261020-1325-working-validation.json": "3143ffb9660ec1a3d46d7b73685db24b97478d6f3394f9ef47249d186bb418b2",
+    "docs/engineering/chart-both-peer-app-20261020-1325.json": "70bf100763f799239b08e550fe4b2a5b7204659f44a3c8f43dd19a6e92646756",
+    "/tmp/jpop47-replacement-artifact-final.log": "24680d6304e1366d72aa00c2880debb1826293e436dbd5b2066b0c23849277d2",
+    "/tmp/jpop47-replacement-oracle-unit.log": "07d6190946a00b87c542530804a4f48dae1a5be3bc80205388f22dbc92aa7895",
+    "/tmp/jpop47-replacement-browser.log": "51b44ddcfe472392fd3142e0fba5e81cc0756ac1d230a75bbd30259de13d160a",
+    "/tmp/jpop47-replacement-browser-results/.last-run.json": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+  },
+  "assessment": {
+    "correctness": [
+      "Read the complete new helper, both refactored existing tests, all synthetic artifact tests and root shared verifier. Helper imports no application/contract code; raw corrected-number multiplicities and public projected eligibility remain separate functions.",
+      "Original unit checks for frozen bytes/original92 ledger and metadata/seven exact real cells/unknown or ambiguous KY/five untouched guides remain. Original four rendered tests retain HTTP hash,100rows,provider/union/intersection,full string numbers,anchors/detail,360px JS-off,keyboard/focus,storage and guide/robots/noads assertions.",
+      "New synthetic expectations explicitly accept only IDs001 and1 and preserve numbers00123/00987. Zero intersection and different one-provider IDs, archived/chart-only/conflict/unreviewed/ambiguous numeric URL cases are tested without using an application count as the expectation.",
+      "Five actual first-run false acceptances now have matching root checks: no open boolean attribute, one native summary, absent-or-zero tabindex, exactly one visible outside note and the summary aria-describedby token."
+    ],
+    "evidence": [
+      "Read and hashed the persistent initial failure JSON and full log:68nodes/62pass/6fail equals five failing mutation leaves plus their failed parent. Each leaf is Missing expected exception, not a fabricated failure count.",
+      "Initial log persistent bytes equal original temporary log hash3d3c29e4..., and test hashd45f4a32... is identical before/after root repair. Final artifact log actually says68pass/fail0/skip0.",
+      "Read real replacement unit log4/4, rendered log4/4 in19.9seconds and dedicated .last-run.json passed with no failedTests. Root working-validation document separately preserves original428/type0/artifact3347/full57 provenance.",
+      "Reviewer checked source helper imports and absence of duplicated numeric/raw model implementations in the two old tests, in addition to reading the source and logs. No test rerun was needed for this final read-only evaluation."
+    ],
+    "value": [
+      "The audit catches regressions that would expand an optional27-song list by default, remove keyboard entry, duplicate the toggle or remove the always-visible unknown/zero interpretation note while still passing data-count checks.",
+      "Preserved actual first failures distinguish real gate improvement from extra passing assertions. Leading-zero,distinct-ID,zero-cohort and off-playlist duplicate tests protect existing number and stable-ID compatibility."
+    ],
+    "maintainability": [
+      "The prior review concern is resolved: strict numeric-evidence validation and corrected-number reference sets live in one test-only TypeScript module consumed by unit and E2E, with explicit imports and erasable types.",
+      "The helper is itself exercised by explicit synthetic valid/invalid numeric URLs,complete identity,duplicate numbers outside playlist and suppression-before-counting cases. This compensates for sharing one reference model between execution layers without claiming the layers have two independent models.",
+      "Root alone changed the shared verifier; replacement source ownership remains test/helper scope. Old source,old six reviews and original failure evidence remain preserved. The prior peer-app JSON hash70bf1007... is unchanged."
+    ]
+  },
+  "actualBoundary": {
+    "referenceIndependence": "Independent from application eligibility/count implementation; unit and E2E intentionally share the same test reference model.",
+    "artifactNodes": {
+      "total": 68,
+      "leaf": 61,
+      "groupParents": 7,
+      "initialFailedLeaves": 5,
+      "initialFailedParent": 1
+    },
+    "browserEvidence": "Existing four targeted cases rerun after helper extraction on root local preview only.",
+    "fullIntegration": "Parent reports latest root fullunit496/type0/preview3347; this reviewer did not rerun those commands. Original full57 preceded replacement; replacement targeted4 is a distinct run.",
+    "notCompleted": [
+      "clean same-SHA remote CI",
+      "external preview",
+      "actual recovery",
+      "production deployment",
+      "Google account or AdSense approval"
+    ],
+    "parserLimit": "Static exposed-HTML/regex validation is bounded to generated markup and the listed mutations; it does not replace computed CSS,real keyboard/accessibility behavior or all malicious HTML parsing cases."
+  },
+  "provenance": "This is a new evaluation of replacement deliverables and root gate repair, not a rewrite of the original six scores40/40/38 or self-review. No ranking by change volume or prose length, and no physical deletion claim."
+}

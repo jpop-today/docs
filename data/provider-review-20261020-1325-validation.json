@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-10-20T04:29:38.275Z",
+  "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "ledgerEntries": {
+    "before": 92,
+    "after": 99,
+    "append": 7,
+    "confirmedBefore": 79,
+    "confirmedAfter": 86,
+    "suppress": 13
+  },
+  "preservation": {
+    "first92EntriesEqual": true,
+    "ledgerTopMetadataEqual": true,
+    "otherFiveGuidesEqual": true,
+    "originalChartGuideSectionsEqual": true,
+    "ids": 3317,
+    "allUrlsEqual": true,
+    "unmodifiedProviderCellsEqual": 6627,
+    "frozenHashes": {
+      "data/staging/legacy-catalog.json": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+      "data/chart-snapshot.json": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+      "data/legacy-identity-baseline.json": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+      "src/styles/global.css": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889"
+    },
+    "natoriKYUnknownPreserved": true
+  },
+  "strictConfirmed": {
+    "before": {
+      "tj": 36,
+      "ky": 31,
+      "union": 36,
+      "both": 31
+    },
+    "after": {
+      "tj": 40,
+      "ky": 34,
+      "union": 40,
+      "both": 34
+    },
+    "chartBefore": {
+      "tj": 27,
+      "ky": 24,
+      "union": 27,
+      "both": 24
+    },
+    "chartAfter": {
+      "tj": 31,
+      "ky": 27,
+      "union": 31,
+      "both": 27
+    }
+  },
+  "metadata": {
+    "requests": 7,
+    "candidates": 7,
+    "exactIdentityComparisons": 7,
+    "allCandidatesRemainUnreviewed": true
+  },
+  "sourceHashes": {
+    "ledger": "d4339885092fd050c4f92b5993b7d9a1538e05ac4f0aa06128203d758f348bf3",
+    "guides": "30568f8fb790d356589f959a4fa6dd8dc70244bbb3bb22dc6a6c507728032629"
+  },
+  "scope": "Actual data/contract/guide/preservation checks only; no browser, full CI, preview or production claim.",
+  "finalGuideLinkCheck": {
+    "checkedAt": "2026-10-20T04:31:58.500Z",
+    "command": "node /tmp/run47-evidence-final-check.mjs",
+    "result": "passed",
+    "chartLink": "/chart/#chart-both-heading",
+    "chartAnchorPresent": true,
+    "ledgerEntries": 99,
+    "original92EntriesPreserved": true,
+    "otherFiveGuidesWholeObjectsPreserved": true,
+    "unchangedProviderCells": 6627,
+    "candidateMetadataAndFullIdentityChecks": 7,
+    "confirmedGlobal": {
+      "tj": 40,
+      "ky": 34,
+      "union": 40,
+      "both": 34
+    },
+    "confirmedChart": {
+      "tj": 31,
+      "ky": 27,
+      "union": 31,
+      "both": 27
+    },
+    "sourceHashes": {
+      "ledger": "d4339885092fd050c4f92b5993b7d9a1538e05ac4f0aa06128203d758f348bf3",
+      "guides": "0d73f37804dec248e5d4d06ebdddde55990c0fd5e20049ffbb3d3e40c1fbc116"
+    },
+    "limits": "Actual contract/data/content/source-link checks; no browser, full suite, CI, preview or production executed by this role. Strict counts use the existing trusted predicate, not an independent UI oracle."
+  }
+}

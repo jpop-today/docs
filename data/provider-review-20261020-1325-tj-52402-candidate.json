@@ -1,0 +1,14 @@
+{
+  "artist": "なとり",
+  "checkedAt": "2026-10-20T04:27:39.732463Z",
+  "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52402&strWord=Y",
+  "number": "52402",
+  "provider": "tj",
+  "responseBytes": 49231,
+  "responseSha256": "1b350067961642ab834c6f9b99e3afd41183602be741803d3df07f6bb44309c5",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "プロポーズ",
+  "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=52402&strWord=Y",
+  "verification": "unreviewed"
+}

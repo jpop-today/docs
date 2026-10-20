@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-20T05:20:12.619519+00:00",
+  "runId": "manual-20261020-1325",
+  "event": "Existing initial three worker turns reported usage-limit errors, then the same identities resumed successfully via followup_task.",
+  "workers": [
+    "/root/run47_evidence",
+    "/root/run47_app",
+    "/root/run47_quality"
+  ],
+  "existingChangesPreserved": true,
+  "newWorkersSpawnedOnResume": 0,
+  "physicalDeletion": false,
+  "environmentRevision": "824",
+  "productionAtResume": {
+    "sha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca"
+  },
+  "scope": "Actual collaboration error/recovery and read-only environment/API/GitHub checks. No token-reset detection or 24-hour promise."
+}

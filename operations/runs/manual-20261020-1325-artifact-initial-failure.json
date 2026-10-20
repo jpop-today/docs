@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-20T07:03:42.587030+00:00",
+  "nodes": 68,
+  "pass": 62,
+  "fail": 6,
+  "failingLeafMutations": 5,
+  "failingParentNodes": 1,
+  "verifierBeforeSha256": "1f45ed3a496a892658d7464251c9fffebd4d0e98d4cc178320b7c610153447b5",
+  "testSha256": "d45f4a3232acef57acc0a6bde1bd6aff59669fe5da686d2d38070ea27bcac148",
+  "originalLogSha256": "3d3c29e4d846a51ce1c39fd9e9993ff87893ae6d69dbd57661892e081452fb75",
+  "findings": [
+    "details open default accepted",
+    "duplicate native summary accepted",
+    "summary tabindex=-1 accepted",
+    "missing visible outside scope note accepted",
+    "missing aria-describedby scope reference accepted"
+  ],
+  "rootRepair": "Only shared scripts/verify-dist.mjs modified by root; native default, single tab-reachable summary and visible outside note/reference required; existing count/identity/string/rank/eligibility checks retained.",
+  "scope": "Synthetic source-only artifact mutation proof, not provider observations or deployed behavior; original failure log preserved."
+}

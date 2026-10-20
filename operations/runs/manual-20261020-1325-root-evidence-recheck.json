@@ -1,0 +1,32 @@
+{
+  "event": "Root re-executed existing check; helper updated evidence timestamp. Original handoff restored, root result retained separately.",
+  "result": {
+    "checkedAt": "2026-10-20T05:22:21.644Z",
+    "command": "node /tmp/run47-evidence-final-check.mjs",
+    "result": "passed",
+    "chartLink": "/chart/#chart-both-heading",
+    "chartAnchorPresent": true,
+    "ledgerEntries": 99,
+    "original92EntriesPreserved": true,
+    "otherFiveGuidesWholeObjectsPreserved": true,
+    "unchangedProviderCells": 6627,
+    "candidateMetadataAndFullIdentityChecks": 7,
+    "confirmedGlobal": {
+      "tj": 40,
+      "ky": 34,
+      "union": 40,
+      "both": 34
+    },
+    "confirmedChart": {
+      "tj": 31,
+      "ky": 27,
+      "union": 31,
+      "both": 27
+    },
+    "sourceHashes": {
+      "ledger": "d4339885092fd050c4f92b5993b7d9a1538e05ac4f0aa06128203d758f348bf3",
+      "guides": "0d73f37804dec248e5d4d06ebdddde55990c0fd5e20049ffbb3d3e40c1fbc116"
+    },
+    "limits": "Actual contract/data/content/source-link checks; no browser, full suite, CI, preview or production executed by this role. Strict counts use the existing trusted predicate, not an independent UI oracle."
+  }
+}

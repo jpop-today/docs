@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-10-20T07:09:07.566Z",
+  "sourceSha": "e1fba4c1da996a3680875d40e148cf556db4ef51",
+  "runs": [
+    {
+      "id": 39384334259,
+      "name": "contracts",
+      "event": "pull_request",
+      "head_sha": "e1fba4c1da996a3680875d40e148cf556db4ef51",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39384334259"
+    },
+    {
+      "id": 39384334446,
+      "name": "app",
+      "event": "pull_request",
+      "head_sha": "e1fba4c1da996a3680875d40e148cf556db4ef51",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39384334446"
+    },
+    {
+      "id": 39384283480,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "e1fba4c1da996a3680875d40e148cf556db4ef51",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39384283480"
+    },
+    {
+      "id": 39384283479,
+      "name": "app",
+      "event": "push",
+      "head_sha": "e1fba4c1da996a3680875d40e148cf556db4ef51",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39384283479"
+    }
+  ],
+  "allSuccess": true,
+  "jobs": [
+    {
+      "id": 118500442473,
+      "selected": [
+        "2026-10-20T07:06:16.5686587Z ℹ tests 496",
+        "2026-10-20T07:06:16.5686932Z ℹ pass 496",
+        "2026-10-20T07:06:16.5687135Z ℹ fail 0",
+        "2026-10-20T07:06:22.1986677Z Result (26 files): ",
+        "2026-10-20T07:06:22.1987035Z - 0 errors",
+        "2026-10-20T07:06:22.1987317Z - 0 warnings",
+        "2026-10-20T07:06:22.1987525Z - 0 hints",
+        "2026-10-20T07:06:27.1750520Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 652bbac4e8705101826d51663a8be3c5552e0626",
+        "2026-10-20T07:08:27.6316547Z   57 passed (1.6m)"
+      ],
+      "checkoutScope": "PR synthetic merge checkout, not push-head artifact"
+    },
+    {
+      "id": 118500442865,
+      "selected": [
+        "2026-10-20T07:06:10.8467314Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3347 files; source 652bbac4e8705101826d51663a8be3c5552e0626",
+        "2026-10-20T07:07:43.8202667Z   57 passed (1.2m)"
+      ],
+      "checkoutScope": "PR synthetic merge checkout, not push-head artifact"
+    },
+    {
+      "id": 118500441094,
+      "selected": [],
+      "checkoutScope": "PR synthetic merge checkout, not push-head artifact"
+    },
+    {
+      "id": 118500283002,
+      "checkoutScope": "exact push head e1fba4c",
+      "selected": [
+        "2026-10-20T07:06:02.0741187Z ℹ tests 496",
+        "2026-10-20T07:06:02.0741556Z ℹ pass 496",
+        "2026-10-20T07:06:02.0741739Z ℹ fail 0",
+        "2026-10-20T07:06:07.7418176Z Result (26 files): ",
+        "2026-10-20T07:06:07.7418421Z - 0 errors",
+        "2026-10-20T07:06:07.7418624Z - 0 warnings",
+        "2026-10-20T07:06:07.7418789Z - 0 hints",
+        "2026-10-20T07:06:12.5607617Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source e1fba4c1da996a3680875d40e148cf556db4ef51",
+        "2026-10-20T07:08:20.2863439Z   57 passed (1.6m)"
+      ]
+    },
+    {
+      "id": 118500282516,
+      "checkoutScope": "exact push head e1fba4c",
+      "selected": [
+        "2026-10-20T07:05:43.6196021Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3347 files; source e1fba4c1da996a3680875d40e148cf556db4ef51",
+        "2026-10-20T07:07:10.0690219Z   57 passed (1.1m)"
+      ]
+    },
+    {
+      "id": 118500441094,
+      "checkoutScope": "Node22 PR contracts",
+      "selected": [
+        "2026-10-20T07:06:06.4405427Z # tests 496",
+        "2026-10-20T07:06:06.4405795Z # pass 496",
+        "2026-10-20T07:06:06.4405975Z # fail 0"
+      ]
+    }
+  ],
+  "scope": "Actual push and PR head checks, selected result lines only; full logs and redirect URLs not retained.",
+  "note": "PR app artifacts used synthetic merge652bbac4e8705101826d51663a8be3c5552e0626. Exact push head artifact SHA verified separately below. Main SHA will receive its own CI/repro/preview."
+}

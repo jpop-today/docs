@@ -1,0 +1,14 @@
+{
+  "artist": "松田聖子",
+  "checkedAt": "2026-10-20T04:27:38.365949Z",
+  "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=40403",
+  "number": "40403",
+  "provider": "ky",
+  "responseBytes": 39724,
+  "responseSha256": "35e0bd196b3df621d9c4c08eb89d07d10758477a1d4055cd5b123d476d12eceb",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "青い珊瑚礁",
+  "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=40403",
+  "verification": "unreviewed"
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/47",
+  "reviewedAt": "2026-10-20T07:11:12.935067Z",
+  "reviewer": "/root/run47_evidence",
+  "candidate": "/root/run47_replacement",
+  "selfReview": false,
+  "reviewType": "additional_final_replacement_read_only_review",
+  "originalSixReviewsPreserved": true,
+  "supersedesOriginalScores": false,
+  "reviewedSourceSha": "e1fba4c1da996a3680875d40e148cf556db4ef51",
+  "sourceShaProvenance": "root가 cleanHEAD/PR48로인계. 리뷰어는최종해시를실제파일바이트와대조했으며 Git변경/자체cleanHEAD명령은실행하지않음.",
+  "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "docsBase": "1291c45fded5f9c22ec28b5bf78fa62d37b1d751",
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "total": 20,
+  "criteria": {
+    "correctness": {
+      "score": 5,
+      "reason": "중복 strictnumericURL/보정번호중복도 모델을 test 전용 helper로 추출했고 앱·계약 import가 없다. raw/ledger membership과 public predicate는 별도 함수로 유지한다. 이전 전체파일hash로 검증한 원문과 unit 앞2테스트/모델뒤 부정경계·4번째 및 E2E observe 이후 모든 rendered assertions의 byte일치를 직접 확인했다. 새 fixture는 기대2ID를 독립 선언하고 zero·001/1·선행0·별도ID한업체·archived/chart-only/conflict/observed/불명URL을 검사한다. root verifier가 처음 허용했던5계약위반을 정확히 거부한다.",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/e2e/helpers/chart-confirmed-oracle.ts",
+        "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+        "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+        "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+        "/workspace/jpoptoday/scripts/verify-dist.mjs",
+        "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-evidence-test.txt",
+        "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-browser-test.txt"
+      ],
+      "limits": "앱으로부터 독립한 하나의 reference model이며 unit/E2E 사이에 독립한 두 모델이 있다는 뜻은 아니다."
+    },
+    "evidence": {
+      "score": 5,
+      "reason": "최초 영속로그의68노드62pass6fail을 직접 읽고 Missing expected exception인 실제5leaf와부모1을 구분했다. final68pass/fail0·unit4pass·rendered4pass19.9초/.last-run을 직접 읽었고 최종6소스/문서hash가 맞는다. 문서는 원문을 사전에backup하지 않았음을 밝히고 기존whole-filehash에 맞는복원·root영속복사를 구분하며 원실패/원평가를 보존했다.",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+        "/workspace/jpoptoday/scripts/verify-dist.mjs",
+        "/workspace/docs/engineering/chart-both-artifact-audit-20261020-1325.md",
+        "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.log",
+        "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.json",
+        "/tmp/jpop47-replacement-artifact-final.log",
+        "/tmp/jpop47-replacement-oracle-unit.log",
+        "/tmp/jpop47-replacement-browser.log",
+        "/tmp/jpop47-replacement-browser-results/.last-run.json",
+        "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-evidence-test.txt",
+        "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-browser-test.txt",
+        "/workspace/docs/engineering/chart-both-peer-evidence-20261020-1325.json",
+        "/workspace/docs/operations/runs/manual-20261020-1325-original-quality-source-preservation.json"
+      ],
+      "limits": "리뷰어는 소스/문서/실제로그 읽기와읽기전용 비교를 수행했고 suite/browser를재실행하지 않았다. Node24/Chromium 로컬실행과 root의별도Node22 CI보고/외부배포게이트를 구분한다."
+    },
+    "value": {
+      "score": 5,
+      "reason": "기본닫힘·native summary유일성·Tab인입·항상보이는 의미안내·toggle의안내연결이라는 사용자수용5조건을 artifact gate에서도 놓치지않게했다. count만맞아도 숨긴제목/번호/목록·ID/순위/URL변형·선행0손실·한업체곡의양쪽확정확대를 잡아 브라우저수용과배포전gate의실제공백을줄였다.",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+        "/workspace/jpoptoday/scripts/verify-dist.mjs",
+        "/workspace/docs/engineering/chart-both-artifact-audit-20261020-1325.md",
+        "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.log",
+        "/tmp/jpop47-replacement-artifact-final.log",
+        "/tmp/jpop47-replacement-browser.log"
+      ],
+      "limits": "합성artifact의실제5거부누락이며 배포사이트장애5건/공식데이터오류5건의발견으로확대하지않는다."
+    },
+    "maintainability": {
+      "score": 5,
+      "reason": "원peer감점근거인 unit/E2E모델중복을한파일로정리해 후속정책변경지점을줄였다. 앱helper를기대값으로쓰지않고 helper자체strictURL/선행0/목록밖중복/suppress선적용을 synthetic검사로보호한다. 원수용검사를삭제하지않았고 root-only공유verifier수정과교체담당테스트소유범위를지켰다. source-only하네스가Git history/docs/build/network없이실행되며 원실패·원평가를별도로보존한다.",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/e2e/helpers/chart-confirmed-oracle.ts",
+        "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+        "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+        "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+        "/workspace/jpoptoday/scripts/verify-dist.mjs",
+        "/workspace/docs/engineering/chart-both-artifact-audit-20261020-1325.md",
+        "/workspace/docs/engineering/chart-both-peer-evidence-20261020-1325.json"
+      ],
+      "limits": "정적visibility/regex검사는모든HTML/CSS·보조기술을포괄하지않으며 computedCSS와실제keyboard는browsergate가계속담당한다."
+    }
+  },
+  "evidence": [
+    {
+      "file": "/workspace/jpoptoday/e2e/helpers/chart-confirmed-oracle.ts",
+      "sha256": "095af32bb702af8042fe7d9307861d4bf1e5390eee8e659a9991e4609501d4d3",
+      "reviewMethod": "read_actual_file",
+      "scope": "전체읽기: test-only strict numeric URL, raw/ledger membership, public predicate; 앱/계약 import 없음"
+    },
+    {
+      "file": "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+      "sha256": "12f82a0d199af26e62f04521617ae8d42c303382d0ee897003f6a5f92c55ffc5",
+      "reviewMethod": "read_actual_file",
+      "scope": "전체읽기: shared model 인입; 원래 rendered assertion 유지"
+    },
+    {
+      "file": "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+      "sha256": "e033b7623ca07d66b0219dc4a09ec26c12ad1e13eadb151744a3487ab9cb3ae4",
+      "reviewMethod": "read_actual_file",
+      "scope": "전체읽기: 원4테스트와 원92/타5가이드/cohort7/부정경계 보존"
+    },
+    {
+      "file": "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+      "sha256": "d45f4a3232acef57acc0a6bde1bd6aff59669fe5da686d2d38070ea27bcac148",
+      "reviewMethod": "read_actual_file",
+      "scope": "전체읽기: 명시적 기대ID/zero/선행0/부적격/악성변형 및 helper 자체 부정검사"
+    },
+    {
+      "file": "/workspace/jpoptoday/scripts/verify-dist.mjs",
+      "sha256": "f5cefb53e93ccabb02a5631778541a9c3f213c2708fd1d75eb898d73e2856436",
+      "reviewMethod": "read_actual_file",
+      "scope": "영향함수/visibility·attribute·text helper 읽기: root-owned verifyChartBothDiscovery의5보완"
+    },
+    {
+      "file": "/workspace/docs/engineering/chart-both-artifact-audit-20261020-1325.md",
+      "sha256": "f56d3740234c17358c18160bc7228c5e4359ff6a8b87be416e49bf55b3b4b683",
+      "reviewMethod": "read_actual_file",
+      "scope": "최종f56d3740 문서 재읽기: 범위/독립성/최초실패/보완후실행/원본복원과보존방법/한계"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.log",
+      "sha256": "3d3c29e4d846a51ce1c39fd9e9993ff87893ae6d69dbd57661892e081452fb75",
+      "reviewMethod": "read_actual_file",
+      "scope": "최초68중62pass6fail 원로그 전체읽기; 실제5leaf+부모1"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.json",
+      "sha256": "2365f795de7812a27d3a5866ebf7866b8576888464e907b303d0bd6dc665e2ae",
+      "reviewMethod": "read_actual_file",
+      "scope": "최초실패 원장: 원verifier와동일test hash/5발견"
+    },
+    {
+      "file": "/tmp/jpop47-replacement-artifact-final.log",
+      "sha256": "24680d6304e1366d72aa00c2880debb1826293e436dbd5b2066b0c23849277d2",
+      "reviewMethod": "read_actual_file",
+      "scope": "실제동일68노드 pass68 fail0 skip0 로그전체읽기"
+    },
+    {
+      "file": "/tmp/jpop47-replacement-oracle-unit.log",
+      "sha256": "07d6190946a00b87c542530804a4f48dae1a5be3bc80205388f22dbc92aa7895",
+      "reviewMethod": "read_actual_file",
+      "scope": "실제원4leaf pass4 fail0 skip0 로그전체읽기"
+    },
+    {
+      "file": "/tmp/jpop47-replacement-browser.log",
+      "sha256": "51b44ddcfe472392fd3142e0fba5e81cc0756ac1d230a75bbd30259de13d160a",
+      "reviewMethod": "read_actual_file",
+      "scope": "실제원4rendered E2E pass4 19.9초 로그전체읽기"
+    },
+    {
+      "file": "/tmp/jpop47-replacement-browser-results/.last-run.json",
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "reviewMethod": "read_actual_file",
+      "scope": "actual passed/failedTests[]"
+    },
+    {
+      "file": "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-evidence-test.txt",
+      "sha256": "7ce6bdc86b89dbbb242f3a3ee31c1626af49c2cc4064ecc76b0da2d691a4502f",
+      "reviewMethod": "read_actual_file",
+      "scope": "기존독립기록7ce6bd 전체hash와맞는재구성원본, 읽은tmp원본과바이트일치; 사전backup주장없음"
+    },
+    {
+      "file": "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-browser-test.txt",
+      "sha256": "c4cde5a1af4a73ed23a22b2a7acfd9fa7f38eb3f18f52a7dea6357aef0a3f294",
+      "reviewMethod": "read_actual_file",
+      "scope": "기존독립기록c4cde5 전체hash와맞는재구성원본, 읽은tmp원본과바이트일치; 사전backup주장없음"
+    },
+    {
+      "file": "/workspace/docs/engineering/chart-both-peer-evidence-20261020-1325.json",
+      "sha256": "b0755d81187fb4c2308b6d3b007b1f4a70615a1385cd3aaca57ec54700d35812",
+      "reviewMethod": "read_actual_file",
+      "scope": "원래2평가와점수 바이트불변 확인"
+    },
+    {
+      "file": "/workspace/docs/operations/runs/manual-20261020-1325-original-quality-source-preservation.json",
+      "sha256": "41330fda7abb9f35f7fc98c466620c66809307db3739acf52dce642b9270d7a0",
+      "reviewMethod": "read_actual_file",
+      "scope": "원문 재구성/기존hash검증의 실제방법 및 경로"
+    }
+  ],
+  "acceptance": [
+    {
+      "criterion": "중복모델정리/앱구현으로부터독립성유지",
+      "status": "met",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/e2e/helpers/chart-confirmed-oracle.ts",
+        "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+        "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs"
+      ]
+    },
+    {
+      "criterion": "원unit4/E2E4수용보존및실제재검증",
+      "status": "met_in_source_and_actual_local_logs",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+        "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+        "/tmp/jpop47-replacement-oracle-unit.log",
+        "/tmp/jpop47-replacement-browser.log",
+        "/tmp/jpop47-replacement-browser-results/.last-run.json",
+        "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-evidence-test.txt",
+        "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-browser-test.txt"
+      ]
+    },
+    {
+      "criterion": "zero/문자열ID·선행0/부적격/hidden·identity·rank변형source-only검사",
+      "status": "met_for_declared_synthetic_cases",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+        "/tmp/jpop47-replacement-artifact-final.log"
+      ]
+    },
+    {
+      "criterion": "실제5거부누락최초실패보존및동일테스트최종차단",
+      "status": "met",
+      "evidenceFiles": [
+        "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+        "/workspace/jpoptoday/scripts/verify-dist.mjs",
+        "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.log",
+        "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.json",
+        "/tmp/jpop47-replacement-artifact-final.log"
+      ]
+    }
+  ],
+  "newBypasses": [
+    {
+      "mutation": "details open default",
+      "rootCheck": "open boolean속성없음"
+    },
+    {
+      "mutation": "duplicate summary",
+      "rootCheck": "panel summary정확히1"
+    },
+    {
+      "mutation": "summary tabindex=-1",
+      "rootCheck": "tabindex없음또는0"
+    },
+    {
+      "mutation": "outside visible note missing",
+      "rootCheck": "panel밖exposed note정확히1와같은곡/미수록경계"
+    },
+    {
+      "mutation": "summary aria-describedby missing",
+      "rootCheck": "chart-both-note토큰포함"
+    }
+  ],
+  "originalAssertionComparison": {
+    "method": "기존독립whole-filehash와맞는재구성원문을이용한읽기전용Python문자열비교. 사전backup주장없음.",
+    "firstTwoUnitTestsExact": true,
+    "postModelNegativeAssertionsAndFourthUnitExact": true,
+    "e2eObserveAndAllRenderedAssertionsExact": true,
+    "originalUnitSha256": "7ce6bdc86b89dbbb242f3a3ee31c1626af49c2cc4064ecc76b0da2d691a4502f",
+    "originalE2ESha256": "c4cde5a1af4a73ed23a22b2a7acfd9fa7f38eb3f18f52a7dea6357aef0a3f294",
+    "priorPeerSha256Unchanged": "b0755d81187fb4c2308b6d3b007b1f4a70615a1385cd3aaca57ec54700d35812"
+  },
+  "reviewNotes": [
+    "기존요청의문서hash76661d44에서최종f56d3740으로변경되어첫저장guard가쓰기를수행하기전에중단했다. 담당의완전동결통지후최종문서를다시읽고현재hash로평가했다.",
+    "추가문서의rootNode22 CI성공보고는로컬Node22실행과구분되어있다. 이리뷰가API/원격CI를직접검증한것으로확대하지않는다."
+  ],
+  "issues": [],
+  "decision": "accept_final_replacement_deliverable_for_root_integration_gates",
+  "limits": [
+    "리뷰어는새suite/browser/server/provider조회·Git/package/CI/deploy를실행하거나source/동료문서를수정하지않았다. 이신규peerJSON만작성한다.",
+    "원래6평가점수/roster기록을덮어쓰지않으며물리삭제를주장하지않는다.",
+    "root보고fullunit496/type0/이전preview3347/full57은별도실행이며교체담당이나리뷰어의실행으로전가하지않는다.",
+    "같은SHA CI/원격preview/실제복구·production/Release의최종연결은root게이트다. 아직관측하지않은성공을가정하지않는다.",
+    "합성입력/정적거부로공식미수록·현장기기지원·음원편곡/권리·Google심사결과를만들지않는다."
+  ]
+}

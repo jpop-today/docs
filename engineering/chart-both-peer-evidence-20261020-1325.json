@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "issue": "https://github.com/jpop-today/jpoptoday/issues/47",
+  "reviewedAt": "2026-10-20T05:24:35.365896Z",
+  "reviewer": "/root/run47_evidence",
+  "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "docsBase": "1291c45fded5f9c22ec28b5bf78fa62d37b1d751",
+  "method": "Read-only full source/final documents/result JSON and actual view_image of four designated app PNGs. No source or peer document edits; no suite/browser/server/Git/package/CI/deploy execution by this review.",
+  "reviews": [
+    {
+      "candidate": "/root/run47_app",
+      "reviewer": "/root/run47_evidence",
+      "selfReview": false,
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20,
+      "criteria": {
+        "correctness": {
+          "score": 5,
+          "reason": "chartEntries에서 기존 strict confirmedNumbers에 TJ와 KY가 각각 있는 같은 ID만 bothEntries로 선택한다. canonicalId/100행/원TJ순위/기존 chart-ID anchor와 SongRow를 유지하며, 기본 닫힌 native details와 바깥 note가 교집합·오래된 차트·금영순위 아님·0≠미수록을 정확히 설명한다. 실제 report의 차트 TJ31/KY27/union31/both27과 새 3쌍 포함/なとり 제외가 독립 quality oracle와 맞는다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/src/pages/chart.astro",
+            "/tmp/jpop47-app-browser-results/report.json",
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts"
+          ],
+          "limits": "이 평가는 현재 frozen 입력의 탐색 동작이며 모든 기기 지원이나 최신 순위·공식 미수록 증거를 만들지 않는다."
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "최종 app MD와 실제 05:21:46~56Z report가 source15ff7494…와 dirty:true local preview를 명시하고 세 context 모두 passed를 기록했다. 네 PNG를 직접 view_image로 읽어 desktop4칸/360px2칸 count, 실제 닫힘/펼침, 원문/양쪽 번호, 파란 focus와 mint패널의 글자·간격/넘침 없는 상태를 확인했다. 이전 QA URL encoding/이동대기 오류와 수정도 숨기지 않았다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/src/pages/chart.astro",
+            "/workspace/docs/engineering/chart-both-20261020-1325.md",
+            "/tmp/jpop47-app-browser-results/report.json",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-closed.png",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-open.png",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png"
+          ],
+          "limits": "브라우저를 리뷰어가 다시 실행하지는 않았다. 담당자의 실제 결과·source와 렌더 PNG를 읽었으며 원격preview/CI/production 검증으로 확대하지 않는다."
+        },
+        "value": {
+          "score": 5,
+          "reason": "TJ·금영을 번갈아 쓰는 방문자가 같은 곡의 두 번호를 한 목록에서 비교한 뒤 원TJ행과 기존 상세 근거를 따라갈 수 있다. 기존 업체별 목록은 접지 않고 양쪽 목록만 선택적으로 열게 해 기본 화면의 추가 길이를 제한했다. JS-off/360px에서도 native 키보드 흐름과 최소 폭260px/높이78.578125px을 실제 측정했고 문서·PNG에서 확인된다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/src/pages/chart.astro",
+            "/workspace/docs/engineering/chart-both-20261020-1325.md",
+            "/tmp/jpop47-app-browser-results/report.json",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png"
+          ],
+          "limits": "실제 보조기술 사용성, 다른 브라우저, 모든 화면크기나 현장 기기의 예약 결과는 확인하지 않았다."
+        },
+        "maintainability": {
+          "score": 5,
+          "reason": "기존 strict helper와 chartEntries를 재사용하고 chart.astro의 국소 CSS/SSR markup만 추가했다. 새 client script, package, 저장 키, 별도 서버나 전역 CSS 수정 없이 native details로 작동한다. stable data selectors와 anchor를 인계 문서에 명시했고 고정 count를 source에 넣지 않아 후속 ledger append를 따른다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/src/pages/chart.astro",
+            "/workspace/docs/engineering/chart-both-20261020-1325.md"
+          ],
+          "limits": "27곡 펼친 목록의 길이는 사용자 선택의 결과이며 현재 범위의 blocker로 판단하지 않았다."
+        }
+      },
+      "acceptance": [
+        {
+          "criterion": "strict same-ID intersection; preserve original100 ranks/provider lists/union/anchors",
+          "status": "met",
+          "evidence": [
+            "/workspace/jpoptoday/src/pages/chart.astro",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts"
+          ]
+        },
+        {
+          "criterion": "JS-off 360px native keyboard toggle→rank row→existing detail; readable brand/focus",
+          "status": "met_in_observed_local_chromium",
+          "evidence": [
+            "/workspace/docs/engineering/chart-both-20261020-1325.md",
+            "/tmp/jpop47-app-browser-results/report.json",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-closed.png",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-open.png",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png",
+            "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png"
+          ]
+        },
+        {
+          "criterion": "unknown/snapshot boundaries, storage bytes, preview noindex/noads",
+          "status": "met_in_observed_local_preview",
+          "evidence": [
+            "/workspace/jpoptoday/src/pages/chart.astro",
+            "/tmp/jpop47-app-browser-results/report.json"
+          ]
+        }
+      ],
+      "issues": [],
+      "decision": "accept_for_root_integration_gates",
+      "evidence": [
+        {
+          "file": "/workspace/jpoptoday/src/pages/chart.astro",
+          "sha256": "15ff7494c168473389381fb6655ef34b00af420e84cece092fbec33d652ad2f0",
+          "reviewMethod": "read_entire_source",
+          "scope": "same-ID strict intersection; static native disclosure; unchanged rank/anchors; responsive scoped CSS"
+        },
+        {
+          "file": "/workspace/docs/engineering/chart-both-20261020-1325.md",
+          "sha256": "d451cf54e9bc445a914a9ef648b45d5b0449739a7ce7c47b8db827233daf189e",
+          "reviewMethod": "read_final_document",
+          "scope": "actual dirty local preview validation, corrected temporary QA errors and limitations"
+        },
+        {
+          "file": "/tmp/jpop47-app-browser-results/report.json",
+          "sha256": "b3ebb814c127753681ba2ddcecf7245fe75e3a61376a5f95a5b3f70ae6e3a8fa",
+          "reviewMethod": "read_actual_result",
+          "scope": "three successful browser contexts, raw-storage bytes, exact rank/identity/numbers, counts, computed brand/targets, console and preview scope"
+        },
+        {
+          "file": "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-closed.png",
+          "sha256": "0613b27d815ac87ff1555a262fc4fc67e52ce7cfc48ff722bdc90954ade0fae6",
+          "reviewMethod": "view_image",
+          "scope": "actual closed/open desktop or 360px JS-off capture; visible text/spacing/brand/focus checked"
+        },
+        {
+          "file": "/workspace/docs/engineering/design/chart-both-20261020-1325-desktop-open.png",
+          "sha256": "fb28f81fb6bc431596b90e587151e3e8f0e2508bc344c495074d45b29ae1a1e3",
+          "reviewMethod": "view_image",
+          "scope": "actual closed/open desktop or 360px JS-off capture; visible text/spacing/brand/focus checked"
+        },
+        {
+          "file": "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-closed.png",
+          "sha256": "b94ce815b0c47c29ec24a15abee1fd5f77bd5e91dda9b190114a274b1b98a1f9",
+          "reviewMethod": "view_image",
+          "scope": "actual closed/open desktop or 360px JS-off capture; visible text/spacing/brand/focus checked"
+        },
+        {
+          "file": "/workspace/docs/engineering/design/chart-both-20261020-1325-mobile-js-off-open.png",
+          "sha256": "9ce0f79003842e9f73d5cfda7d274edb1123553c20825266abd27166a4106429",
+          "reviewMethod": "view_image",
+          "scope": "actual closed/open desktop or 360px JS-off capture; visible text/spacing/brand/focus checked"
+        }
+      ]
+    },
+    {
+      "candidate": "/root/run47_quality",
+      "reviewer": "/root/run47_evidence",
+      "selfReview": false,
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 4
+      },
+      "total": 19,
+      "criteria": {
+        "correctness": {
+          "score": 5,
+          "reason": "unit과 E2E는 앱 count/lookup helper를 oracle로 쓰지 않고 raw+ledger에서 보정 후 번호의 전체 카탈로그 중복수를 세어 current/playlist/confirm·엄격 공식 numeric URL·전체 근거의 ID 집합을 만든다. public projection과 HTTP catalog의 별도 predicate와 대조하고 실제 KYnull·samfree/Ado 보류·교집합<합집합 부정 경계를 검사한다. 원92 전체/순서/상위metadata·raw/chart/identity/CSS·타5가이드 전체hash도 보존 검사한다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts"
+          ],
+          "limits": "동일 raw/ledger에서 만든 독립 모델 검사이며 공식 응답 재조회나 미확인 권리의 증명이 아니다."
+        },
+        "evidence": {
+          "score": 5,
+          "reason": "최종 품질 문서는 wrapper1/1와 leaf4/4, --list4와 실제E2E4/4를 구분한다. E2E c4cde5…·unit7ce6bd… hash를 실제 파일로 확인했고 .last-run은 passed/failedTests[]였다. 별도 receipt audit7건,1366/360 JS-off visual JSON의 실제시각과 범위도 읽었다. 기본 sandbox EPERM과 성공한 읽기 경로·로컬 관측 한계를 기록했다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+            "/workspace/docs/engineering/chart-both-quality-20261020-1325.md",
+            "/tmp/jpop47-quality-browser-results/.last-run.json",
+            "/tmp/jpop47-quality-visual-audit.json",
+            "/tmp/jpop47-quality-receipt-audit.json"
+          ],
+          "limits": "리뷰어가 suite를 재실행하지 않았다. root 전체57 E2E의 진행/결과, 같은SHA CI·외부preview·복구·운영은 이 두 담당 평가에서 미확정이다."
+        },
+        "value": {
+          "score": 5,
+          "reason": "단순 snapshot수 상수검사에 그치지 않고 잘못된 union 계산/제목·번호누락/원100행·상세URL변경/한업체 근거의 다른업체 확대/저장원문 덮어쓰기를 실제 사용자흐름에서 잡는다. JSoff360/키보드/focus·44px/guidebacklink/console/noads·robots 검사로 데이터와 공개동선 양쪽 회귀를 막는다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+            "/workspace/docs/engineering/chart-both-quality-20261020-1325.md"
+          ],
+          "limits": "실제0곡 dataset나 모든 브라우저·보조기술을 실행한 검증은 아니며 문서도 그렇게 한정한다. 이 범위 밖 검증을 수행했다고 가정해 감점하지 않았다."
+        },
+        "maintainability": {
+          "score": 4,
+          "reason": "source-only 고정 base hash/최소99+정확7쌍은 shallow CI에서 Git/docs/network 없이 재현하고 후속 append도 허용해 유용하다. 다만 길이가 긴 strictnumericURL predicate와 raw/ledger multiplicity oracle가 unit의 numericEvidence와 E2E의 evidenceMatches/rawProviderIds에 거의 같은 내용으로 두 번 존재해 정책 변경 때 두 테스트가 서로 달라질 유지보수 지점이 남는다. 앱 helper를 쓰지 않는 독립성은 그대로 지키면서 test전용 모델을 정리할 여지가 있다.",
+          "evidenceFiles": [
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts"
+          ],
+          "limits": "현재 모델이나 결과가 잘못됐다는 결함은 발견하지 않았다. 낮은 1점은 확인한 중복 검증모델의 유지보수 부담이며 변경량·말수·작업유형으로 정한 순위가 아니다."
+        }
+      },
+      "acceptance": [
+        {
+          "criterion": "complete frozen/base preservation and seven exact reviewed evidence cells",
+          "status": "met",
+          "evidence": [
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/tmp/jpop47-quality-receipt-audit.json"
+          ]
+        },
+        {
+          "criterion": "independent raw/ledger vs public/HTTP/rendered oracles; actual negative cells",
+          "status": "met",
+          "evidence": [
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts"
+          ]
+        },
+        {
+          "criterion": "unit leaf4/4 and E2E4/4; JSoff/keyboard/storage/guide policies",
+          "status": "met_in_observed_local_chromium",
+          "evidence": [
+            "/workspace/docs/engineering/chart-both-quality-20261020-1325.md",
+            "/tmp/jpop47-quality-browser-results/.last-run.json",
+            "/tmp/jpop47-quality-visual-audit.json"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "severity": "nonblocking_maintenance",
+          "files": [
+            "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+            "/workspace/jpoptoday/e2e/chart-both.spec.ts"
+          ],
+          "reason": "독립 strict URL/보정번호 중복수 모델이 unit/E2E에 중복된다. 현재 통과 결과의 무효화 사유는 아니다.",
+          "suggestion": "후속 수정에서 앱 구현을 참조하지 않는 test전용 모델의 중복을 줄이고, 회귀/독립성을 그대로 유지하는 방식을 검토할 수 있다."
+        }
+      ],
+      "decision": "accept_for_root_integration_gates_with_nonblocking_maintenance_note",
+      "evidence": [
+        {
+          "file": "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs",
+          "sha256": "7ce6bdc86b89dbbb242f3a3ee31c1626af49c2cc4064ecc76b0da2d691a4502f",
+          "reviewMethod": "read_entire_source",
+          "scope": "four independent raw/ledger/public projection, complete baseline/guide, cohort and excluded-state tests"
+        },
+        {
+          "file": "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+          "sha256": "c4cde5a1af4a73ed23a22b2a7acfd9fa7f38eb3f18f52a7dea6357aef0a3f294",
+          "reviewMethod": "read_entire_source",
+          "scope": "four actual HTTP/rendered tests; independent corrected-number multiplicity and strict numeric URL oracles; JS-off/keyboard/storage/guide checks"
+        },
+        {
+          "file": "/workspace/docs/engineering/chart-both-quality-20261020-1325.md",
+          "sha256": "053d996895142328b467d8a3f2ee30c3f7a4528bf62595cfd6c88d363214d692",
+          "reviewMethod": "read_final_document",
+          "scope": "actual leaf unit4/4, E2E4/4, audit dates, wrapper/list distinction, source hashes, observed failure and scope limits"
+        },
+        {
+          "file": "/tmp/jpop47-quality-browser-results/.last-run.json",
+          "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+          "reviewMethod": "read_actual_result",
+          "scope": "status passed and no failedTests; per-test duration/count are separately recorded in final quality document"
+        },
+        {
+          "file": "/tmp/jpop47-quality-visual-audit.json",
+          "sha256": "225dcb29aca343e1a09eaf72e9c1b523f6809d7712534bf5f964208abca6cf6a",
+          "reviewMethod": "read_actual_result",
+          "scope": "actual 1366/360 JS-off native disclosure,27links,nooverflow and no console problems"
+        },
+        {
+          "file": "/tmp/jpop47-quality-receipt-audit.json",
+          "sha256": "0997e5469b9efb2fe4c624f3d3317ba7231671c986225b116c47102e0d40be67",
+          "reviewMethod": "read_actual_result",
+          "scope": "actual seven request/candidate/separate-decision/ledger cross comparisons and absent KY preservation"
+        }
+      ]
+    }
+  ],
+  "rootDecision": "pending: root verifies all six actual peer reviews and its actual validation; reviewer does not select/remove/replace any worker.",
+  "globalLimits": [
+    "local dirty preview evidence only; clean same-SHA CI, external preview, actual recovery and production are separate root gates",
+    "root full57 E2E was reported in progress; no success assumed",
+    "no official unlisted/rights/audio-arrangement/device support/Google approval inferred",
+    "no score based on change volume or message length; no self vote"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-20T07:12:11.669204+00:00",
+  "reviews": [
+    {
+      "file": "engineering/chart-both-replacement-peer-evidence-20261020-1325.json",
+      "sha256": "4d12581b6362c2b6c8275cd3cdf045322484f24c3b6fa10bc1980f17128e84e2",
+      "reviewer": "/root/run47_evidence",
+      "candidate": "/root/run47_replacement",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20
+    },
+    {
+      "file": "engineering/chart-both-replacement-peer-app-20261020-1325.json",
+      "sha256": "9ca9156dd98e9a0bbee65dbb540464b7497a40f1b2e96a4a5f188808638dd10d",
+      "reviewer": "/root/run47_app",
+      "candidate": "/root/run47_replacement",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "total": 20
+    }
+  ],
+  "verifiedReferences": [
+    "/tmp/jpop47-replacement-artifact-final.log",
+    "/tmp/jpop47-replacement-browser-results/.last-run.json",
+    "/tmp/jpop47-replacement-browser.log",
+    "/tmp/jpop47-replacement-oracle-unit.log",
+    "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-browser-test.txt",
+    "/workspace/docs/engineering/audit-evidence/chart-both-20261020-1325-original-evidence-test.txt",
+    "/workspace/docs/engineering/chart-both-artifact-audit-20261020-1325.md",
+    "/workspace/docs/engineering/chart-both-peer-app-20261020-1325.json",
+    "/workspace/docs/engineering/chart-both-peer-evidence-20261020-1325.json",
+    "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.json",
+    "/workspace/docs/operations/runs/manual-20261020-1325-artifact-initial-failure.log",
+    "/workspace/docs/operations/runs/manual-20261020-1325-original-quality-source-preservation.json",
+    "/workspace/docs/operations/runs/manual-20261020-1325-working-validation.json",
+    "/workspace/jpoptoday/e2e/chart-both.spec.ts",
+    "/workspace/jpoptoday/e2e/helpers/chart-confirmed-oracle.ts",
+    "/workspace/jpoptoday/scripts/verify-dist.mjs",
+    "/workspace/jpoptoday/tests/chart-both-artifact.test.mjs",
+    "/workspace/jpoptoday/tests/chart-both-evidence.test.mjs"
+  ],
+  "scope": "Manager read both full criteria/reasons, checked final source/docs/retained original hashes and real initial/final test results; prior six peer reviews preserved."
+}

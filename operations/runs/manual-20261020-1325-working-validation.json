@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-20T06:59:36.127068+00:00",
+  "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "dirty": true,
+  "scope": "Working-tree integration before replacement changes; local Chromium and static artifact, not clean-SHA CI or deployment.",
+  "checks": [
+    {
+      "name": "unit",
+      "logSha256": "933a77549c8c5dcf7ce5de52e7c607fa686fe12e02d000d970ba1e1b8b3ff627",
+      "selected": [
+        "ℹ tests 428",
+        "ℹ pass 428",
+        "ℹ fail 0"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "type",
+      "logSha256": "2ae5c006793fbb40e075545183b0b45fd1c4b8737816848ec4d970d29fdd7ea4",
+      "selected": [
+        "Result (26 files): ",
+        "- 0 errors",
+        "- 0 warnings",
+        "- 0 hints"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "artifact",
+      "logSha256": "97131b1b19b71dc897e0dbdfea164173c63892748619096d6e7fe3b9ae842991",
+      "selected": [
+        "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 4d4c021e668d49c39057e76558c21b30735b8d98 (dirty local build)"
+      ],
+      "exit": 0
+    },
+    {
+      "name": "browser",
+      "logSha256": "33710cb28e856f0cc5a318dcd11d66700917deb60523427ec33554140196786f",
+      "selected": [
+        "  57 passed (3.2m)"
+      ],
+      "exit": 0
+    }
+  ],
+  "browserOutput": "/tmp/jpop47-root-browser-results",
+  "failuresAndLimits": [
+    "Initial three worker turns hit usage limits and resumed same IDs without respawn.",
+    "App temporary QA URL percent-encoding and navigation-wait assertions failed then corrected; source unchanged.",
+    "Quality baseline Git subprocess EPERM succeeded via ordinary allowed network permission.",
+    "Root evidence helper rerun updated its timestamp; original handoff hash restored and root rerun preserved separately.",
+    "Replacement first turn hit usage limit; same ID resumed via followup_task.",
+    "Single Chromium engine, selected viewport widths; no claims about all browsers, rights or Google approval."
+  ]
+}
