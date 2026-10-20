@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-20T12:09:19.208317+00:00",
+  "scope": "Manager read actual r2 reviews and cross-checked every referenced file hash; original6+2 unchanged",
+  "reviews": [
+    {
+      "file": "engineering/ads-txt-peer-app-20261020-1325.json",
+      "sha256": "19e5ae79c83f6de161731331d12af2de3b4dfd219894ac9b984b78e981ad5936",
+      "referencesChecked": 31,
+      "candidates": [
+        {
+          "candidate": "/root/run47_evidence",
+          "total": 20
+        },
+        {
+          "candidate": "/root/run47_replacement",
+          "total": 20
+        }
+      ]
+    },
+    {
+      "file": "engineering/ads-txt-peer-evidence-20261020-1325.json",
+      "sha256": "9c5e8feda87a49a81da806e8e4157185a0e29d6bfabd5e64d768b74cc34a28eb",
+      "referencesChecked": 24,
+      "candidates": [
+        {
+          "candidate": "/root",
+          "total": 20
+        },
+        {
+          "candidate": "/root/run47_replacement",
+          "total": 20
+        }
+      ]
+    },
+    {
+      "file": "engineering/ads-txt-peer-quality-20261020-1325.json",
+      "sha256": "5075320fd496f8f336ed1280ecf7554a0bcb1aaf29b135539a98926dc6df0cad",
+      "referencesChecked": 4,
+      "candidates": [
+        {
+          "candidate": "/root/run47_evidence",
+          "total": 20
+        }
+      ]
+    }
+  ],
+  "supplementalEvaluations": 5,
+  "originalSixAndOriginalReplacementTwoPreserved": true,
+  "noNewTeamRanking": true
+}

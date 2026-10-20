@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-20T12:11:11.572Z",
+  "sourceSha": "e531ccb8c82c4b95f7360b8626f668456c262aa3",
+  "runs": [
+    {
+      "id": 39419707669,
+      "name": "contracts",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "e531ccb8c82c4b95f7360b8626f668456c262aa3"
+    },
+    {
+      "id": 39419707592,
+      "name": "app",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "e531ccb8c82c4b95f7360b8626f668456c262aa3"
+    },
+    {
+      "id": 39419666597,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "e531ccb8c82c4b95f7360b8626f668456c262aa3"
+    },
+    {
+      "id": 39419666592,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "e531ccb8c82c4b95f7360b8626f668456c262aa3"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 118617298684,
+      "run": 39419707669,
+      "event": "pull_request",
+      "selected": []
+    },
+    {
+      "id": 118617163655,
+      "run": 39419666597,
+      "event": "push",
+      "selected": []
+    },
+    {
+      "id": 118617164498,
+      "run": 39419666592,
+      "event": "push",
+      "selected": [
+        "2026-10-20T12:05:55.5218814Z \u2139 tests 524",
+        "2026-10-20T12:05:55.5219631Z \u2139 pass 524",
+        "2026-10-20T12:05:55.5220045Z \u2139 fail 0",
+        "2026-10-20T12:06:02.4824003Z Result (26 files): ",
+        "2026-10-20T12:06:02.4824483Z - 0 errors",
+        "2026-10-20T12:06:02.4824899Z - 0 warnings",
+        "2026-10-20T12:06:02.4825292Z - 0 hints",
+        "2026-10-20T12:06:08.8198748Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source e531ccb8c82c4b95f7360b8626f668456c262aa3",
+        "2026-10-20T12:08:26.9244535Z   58 passed (2.0m)"
+      ]
+    },
+    {
+      "id": 118617164760,
+      "run": 39419666592,
+      "event": "push",
+      "selected": [
+        "2026-10-20T12:05:59.0459581Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source e531ccb8c82c4b95f7360b8626f668456c262aa3",
+        "2026-10-20T12:08:31.0138804Z   58 passed (2.2m)"
+      ]
+    },
+    {
+      "id": 118617298828,
+      "run": 39419707592,
+      "event": "pull_request",
+      "selected": [
+        "2026-10-20T12:06:11.6637584Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source 4405386126908e583f697ee46754a2994c7378e8",
+        "2026-10-20T12:08:04.3765596Z   58 passed (1.5m)"
+      ]
+    },
+    {
+      "id": 118617299276,
+      "run": 39419707592,
+      "event": "pull_request",
+      "selected": [
+        "2026-10-20T12:06:17.6894959Z \u2139 tests 524",
+        "2026-10-20T12:06:17.6896181Z \u2139 pass 524",
+        "2026-10-20T12:06:17.6896680Z \u2139 fail 0",
+        "2026-10-20T12:06:24.5462694Z Result (26 files): ",
+        "2026-10-20T12:06:24.5463163Z - 0 errors",
+        "2026-10-20T12:06:24.5463448Z - 0 warnings",
+        "2026-10-20T12:06:24.5463655Z - 0 hints",
+        "2026-10-20T12:06:31.4150843Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 4405386126908e583f697ee46754a2994c7378e8",
+        "2026-10-20T12:08:44.1972734Z   58 passed (1.9m)"
+      ]
+    }
+  ],
+  "scope": "Exact push-head artifacts independently verified; PR artifact uses GitHub synthetic merge SHA. Both reported explicitly. No full logs retained."
+}

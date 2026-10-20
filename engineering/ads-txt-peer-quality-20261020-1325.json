@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-1325",
+  "phase": "r2-ads-txt",
+  "reviewer": "/root/run47_replacement",
+  "reviewedAt": "2026-10-20T07:46:28.822559+00:00",
+  "candidate": "/root/run47_evidence",
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "total": 20,
+  "decision": "accept_for_root_same_sha_release_gates",
+  "criteriaEvidence": {
+    "correctness": "자료 최종MD를 전부 읽고 M1 일반10URL 성공과 별도ads404, 과거200 관측과 현재404의 차이를 구분한 것을 확인했다. immutable commit/tree/blob·59bytes/SHA와 현재public파일의 실제SHA256/Gitblob SHA1이 일치한다. 원인·Google봇·계정일치·승인이나 동의를 추정하지 않는다.",
+    "evidence": "세 실제 영수증의 현재파일hash가 MD에 있는 값과 일치하고, 현재공개파일은 실제읽기로59bytes/1Google행/원본SHA256/Gitblob을 교차확인했다. 문서는 자신의API metadata읽기와root원본읽기·실제운영/CI미실행을 분리한다. 이 리뷰어는새원본API요청이나원본문 저장·출력을 하지 않았다.",
+    "value": "404를 일반URL/CI성공으로 가리지 않고 미발행Release보류·새같은SHA gate 필요를 명시한다. 기존 게시자값을 생성하지 않고 원본복원 대상으로 한정하며 production200/textplain/exactbytes와 preview404/noindex/noads, 과거artifact 복구의 별도조건을 설명해 운영자 판단에 도움이 된다.",
+    "maintainability": "기준commit/tree/blob과영수증링크/hash·현재public경로를 남겨 재검증이 가능하다. 원품질6+2평가와자료·원장·가이드를 덮지 않고 r2후속으로 분리했다. publisher전문과동의/권리/Google상태를문서에중복저장하지 않는다."
+  },
+  "evidence": [
+    {
+      "path": "docs/data/ads-txt-restoration-20261020-1325.md",
+      "sha256": "7bfb2334ac29d2b4580f140231908016d032e710c72e482d7c8f56ee17513b3b"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261020-1325-postrestore-site.json",
+      "sha256": "9e20e150513fdaadc4ea2c35a69a5e55b5ccc716fc7f4fda3f7534348c170b5b"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261020-1325-ads-txt-recheck.json",
+      "sha256": "446ac0b297a07cd6094a4afc8046daeae6e6b0ecc5c90e35c4a73993911b3931"
+    },
+    {
+      "path": "docs/operations/runs/manual-20261020-1325-original-ads-provenance.json",
+      "sha256": "ebdbc371b62752a8a72f43cf2e9069ac44fa548565c538f1ccdc074c1e00ea4d"
+    }
+  ],
+  "independentReadChecks": {
+    "publicBytes": 59,
+    "publicSha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+    "publicGitBlob": "aeee54215b01df4256bd69a3eaec9c95226d0850",
+    "metadataOnlyDocumentHasNoActualPublisher": true,
+    "referencedReceiptHashesMatchDocument": true,
+    "ledgerAndGuideHashesUnchanged": true
+  },
+  "limits": [
+    "Read-only final-document/receipt-hash/source-byte review; no new original HTTP/API fetch or Google account access.",
+    "Local preview5 and production5 were executed by this reviewer, while clean same-SHA CI/external deployment/recovery/Release remain root gates.",
+    "This is one actual supplemental r2 peer review, not replacement of the original six plus two evaluations or a new team ranking."
+  ]
+}

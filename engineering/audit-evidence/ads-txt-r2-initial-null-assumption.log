@@ -1,0 +1,60 @@
+✔ restored public seller bytes match the immutable original without implying account ownership (1.775345ms)
+✔ production accepts exact original bytes and does not mutate either buffer (0.583999ms)
+▶ production rejects missing, truncated, changed or extended original bytes
+  ✔ missing (0.20512ms)
+  ✔ null (0.258934ms)
+  ✔ empty file (0.138775ms)
+  ✔ truncated (0.173664ms)
+  ✔ one changed byte (0.238021ms)
+  ✔ extra whitespace (0.730882ms)
+  ✔ extra newline (0.139193ms)
+  ✔ duplicate seller row (0.320724ms)
+  ✔ HTML instead of plain row (0.196912ms)
+✔ production rejects missing, truncated, changed or extended original bytes (7.533407ms)
+▶ expected reference must itself be present and plain Google seller data
+  ✔ missing reference (0.1864ms)
+  ✔ null reference (0.17996ms)
+  ✔ empty reference (0.159718ms)
+  ✔ non-seller reference (0.16443ms)
+  ✔ HTML reference (0.07509ms)
+✔ expected reference must itself be present and plain Google seller data (1.545427ms)
+✖ preview accepts absence only and rejects even an empty or otherwise correct seller file (0.841069ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 18
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 51.618574
+
+✖ failing tests:
+
+test at tests/ads-txt-artifact.test.mjs:52:1
+✖ preview accepts absence only and rejects even an empty or otherwise correct seller file (0.841069ms)
+  AssertionError [ERR_ASSERTION]: Got unwanted exception.
+  Actual message: "ads.txt: preview seller declaration is forbidden"
+      at TestContext.<anonymous> (file:///workspace/jpoptoday/tests/ads-txt-artifact.test.mjs:54:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: Error: ads.txt: preview seller declaration is forbidden
+        at requireCondition (file:///workspace/jpoptoday/scripts/verify-dist.mjs:24:25)
+        at verifyAdsTxt (file:///workspace/jpoptoday/scripts/verify-dist.mjs:373:5)
+        at file:///workspace/jpoptoday/tests/ads-txt-artifact.test.mjs:54:29
+        at getActual (node:assert:611:5)
+        at strict.doesNotThrow (node:assert:779:32)
+        at TestContext.<anonymous> (file:///workspace/jpoptoday/tests/ads-txt-artifact.test.mjs:54:10)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1382:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+        at Test.postRun (node:internal/test_runner/test:1522:19),
+    expected: undefined,
+    operator: 'doesNotThrow',
+    diff: 'simple'
+  }

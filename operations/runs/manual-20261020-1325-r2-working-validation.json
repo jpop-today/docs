@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-20T07:43:21.711669+00:00",
+  "sourceBase": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "dirty": true,
+  "unit": 524,
+  "typeErrors": 0,
+  "httpUnitNodes": 81,
+  "preview": {
+    "files": 3347,
+    "html": 3336,
+    "indexable": 0,
+    "sellerFile": false
+  },
+  "production": {
+    "files": 3348,
+    "html": 3336,
+    "indexable": 57,
+    "sellerFile": true,
+    "sellerBytes": 59,
+    "sellerSha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80"
+  },
+  "e2e": "Existing five targeted tests per target performed by replacement; final result separately recorded.",
+  "firstFailures": [
+    "Independent test initially assumed preview null equivalent to missing; strict undefined contract kept and test corrected.",
+    "Full production artifact verifier initially rejected restored ads.txt at old file allowlist; exact root filename added while production bytes and preview absence checks retained."
+  ],
+  "scope": "Actual working-tree tests/build/artifact, not final clean-SHA CI or deployment; publisher values not logged."
+}

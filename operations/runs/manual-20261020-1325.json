@@ -1,7 +1,7 @@
 {
   "runId": "manual-20261020-1325",
   "issue": 47,
-  "state": "production_deployed_verifying",
+  "state": "r2_merged_same_sha_gates",
   "startedAt": "2026-10-20T04:26:04.037951+00:00",
   "timezone": "Asia/Seoul",
   "sourceBase": "4d4c021e668d49c39057e76558c21b30735b8d98",
@@ -42,7 +42,7 @@
     "app"
   ],
   "coordination": "Issue9 latestCOMPLETED, currentcollaborationrootonly, no openPR/diff; global absence of other chats not proven. Explicit user continue starts new product work.",
-  "next": "Confirm actual production strict/full57, perform actual v048 rollback then v049 restore, postrestore/site/content gates, only then tag/Release/report",
+  "next": "Both-target working and final reviewed r2 source CI/preview/production/actualrecovery before release",
   "operators": [
     "Google account/identity/legal consent and actual result unknown",
     "rights/contact delivery/ads.txt account match",
@@ -140,5 +140,50 @@
     "managed": true,
     "remoteRun": 39385779046,
     "gate": "Full remote browser/recovery/Release pending"
+  },
+  "r2": {
+    "baseSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+    "branch": "codex/issue47-ads-txt",
+    "reason": "Postrestore separate ads.txt check404 confirmed on four routes; original Git public59byte asset exists; cause/time not inferred. v049 tag/Release not created.",
+    "sourceOwner": "root",
+    "sourceScope": [
+      "public/ads.txt",
+      "scripts/finalize-artifact.mjs",
+      "scripts/verify-dist.mjs",
+      "scripts/verify-deployment.mjs",
+      "tests/deployment-healthcheck.test.mjs",
+      "releases/v0.4.9.md"
+    ],
+    "existingQualityOwner": "/root/run47_replacement",
+    "qualityScope": [
+      "tests/ads-txt-artifact.test.mjs",
+      "e2e/ads-txt.spec.ts",
+      "docs/engineering/ads-txt-quality-20261020-1325.md"
+    ],
+    "evidenceOwner": "/root/run47_evidence",
+    "evidenceScope": [
+      "docs/data/ads-txt-restoration-20261020-1325.md"
+    ],
+    "appRole": "read-only follow-up validation, no invented UI change",
+    "newInitialWorkers": 0,
+    "originalBytes": 59,
+    "originalSha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+    "accountMatch": "unknown",
+    "phase1RecordsPreserved": true,
+    "workingUnit": 524,
+    "typeErrors": 0,
+    "workingPreviewFiles": 3347,
+    "next": "Clean M2 repeated builds; main CI; exactSHA preview then production/recovery",
+    "pr": 49,
+    "headSha": "e531ccb8c82c4b95f7360b8626f668456c262aa3",
+    "workingProductionFiles": 3348,
+    "targetedBrowser": [
+      5,
+      5
+    ],
+    "attachment": "Called native attach; no result within10sec; no attachment success claimed",
+    "productSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+    "headCI": "all4success; exactpush58+58 and PRsyntheticmerge58+58 separated",
+    "peerAudit": "manual-20261020-1325-r2-root-peer-audit.json"
   }
 }

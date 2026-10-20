@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-20T07:24:22.896Z",
+  "run": 39385779046,
+  "sourceSha": "7ced2f6b2d072db75c82d48d2196577bb04b3342",
+  "status": "completed",
+  "conclusion": "success",
+  "tests": 57,
+  "actionsCFBindings": "missing",
+  "verifyOnly": true,
+  "jobs": [
+    {
+      "id": 118505162786,
+      "selected": [
+        "2026-10-20T07:20:08.0029193Z ℹ tests 496",
+        "2026-10-20T07:20:08.0029604Z ℹ pass 496",
+        "2026-10-20T07:20:08.0029794Z ℹ fail 0",
+        "2026-10-20T07:20:12.6591136Z Result (26 files): ",
+        "2026-10-20T07:20:12.6591425Z - 0 errors",
+        "2026-10-20T07:20:12.6591642Z - 0 warnings",
+        "2026-10-20T07:20:12.6591821Z - 0 hints",
+        "2026-10-20T07:20:16.7896228Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 7ced2f6b2d072db75c82d48d2196577bb04b3342",
+        "2026-10-20T07:20:21.2563661Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3347 files; source 7ced2f6b2d072db75c82d48d2196577bb04b3342",
+        "2026-10-20T07:20:22.7431440Z {\"sourceSha\":\"7ced2f6b2d072db75c82d48d2196577bb04b3342\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+        "2026-10-20T07:21:52.7115081Z   57 passed (1.2m)",
+        "2026-10-20T07:21:52.7820531Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+        "2026-10-20T07:21:57.0007637Z {\"sourceSha\":\"7ced2f6b2d072db75c82d48d2196577bb04b3342\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}",
+        "2026-10-20T07:23:40.8921411Z   57 passed (1.7m)"
+      ]
+    }
+  ],
+  "scope": "Managed deployment actual. This verify-only workflow independently ran local production57 then actual https://jpop.today57; no second deploy. Recovery follows separately.",
+  "bindingEvidence": [
+    "2026-10-20T07:21:52.7820531Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available"
+  ]
+}

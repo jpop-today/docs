@@ -1,0 +1,12 @@
+{
+  "requestedAt": "2026-10-20T07:29:51.523775+00:00",
+  "request": {
+    "ref": "main",
+    "inputs": {
+      "mode": "message",
+      "title": "jpop.today 운영 점검 · ads.txt 404 조사",
+      "message": "복구·재적용과 이후 10개 URL 검사는 통과했지만, 별도 점검에서 /ads.txt가 404로 확인됐습니다. 직전 기록의 200 응답과 달라 v0.4.9 릴리스를 보류하겠습니다. 기존 저장소의 원본 파일과 현재 운영 응답을 대조해 복원 가능 여부를 조사하겠습니다. 게시자 값이나 계정·승인 상태는 추정하지 않겠습니다."
+    }
+  },
+  "scope": "Actual new failure notification; not completion"
+}
