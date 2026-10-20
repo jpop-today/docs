@@ -1,0 +1,117 @@
+{
+  "startedAt": "2026-10-20T00:14:33.990Z",
+  "scope": "Ordinary origin URLs after actual rollback/restore; full remote53 occurred before recovery and is not repeated here.",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "d8dd12e1938390ab865617249b3940dc92bacea3156da1862c6eb32e291283f9"
+    },
+    {
+      "route": "/search/?number=confirmed-tj&number=confirmed-ky",
+      "status": 200,
+      "sha256": "aa7479302e0ff86c3eb383a00f4ce23f2a3bb707fd5ea02f6162ceedd6bc14b1"
+    },
+    {
+      "route": "/favorites/",
+      "status": 200,
+      "sha256": "672c82b91d0916f99c2b4922eb174bf0ce68253be46150d69f82e6594e282c3c"
+    },
+    {
+      "route": "/guides/find-japanese-songs/",
+      "status": 200,
+      "sha256": "5f5f71c00e705605ff4b26931828da6b0d2a3af3e240185238ec746556be9056"
+    },
+    {
+      "route": "/chart/",
+      "status": 200,
+      "sha256": "8fa4a29eb75625bff8bba5ba55df8028c86da24b2adb19a4944c1662b90994fb"
+    },
+    {
+      "route": "/artists/",
+      "status": 200,
+      "sha256": "1bc471b8d76707c24c80f6363e785e0eeb291829c2909817f0f0cd2dd3ae5270"
+    },
+    {
+      "route": "/songs/jpop-playlist-orangestar-feat-ia-%E3%82%A2%E3%82%B9%E3%83%8E%E3%83%A8%E3%82%BD-%E3%83%A9%E5%93%A8%E6%88%92%E7%8F%AD-45d82ae042/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "27984",
+        "44091"
+      ]
+    },
+    {
+      "route": "/songs/jpop-playlist-mrs-green-apple-%E3%83%A9%E3%82%A4%E3%83%A9%E3%83%83%E3%82%AF-845233e093/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "68461",
+        "75996"
+      ]
+    },
+    {
+      "route": "/songs/jpop-playlist-back-number-%E9%AB%98%E5%B6%BA%E3%81%AE%E8%8A%B1%E5%AD%90%E3%81%95%E3%82%93-2433a62d20/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "27805",
+        "43932"
+      ]
+    },
+    {
+      "route": "/songs/jpop-playlist-x-japan-endless-rain-a5ac0ff8b8/",
+      "status": 200,
+      "providers": [
+        "tj",
+        "ky"
+      ],
+      "officialNumbers": [
+        "6773",
+        "40993"
+      ]
+    }
+  ],
+  "before": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "58900d11b9cf43c3849050074176ea241c4862d1a4ad5858db3a1aa443803a8f",
+    "ledgerSha256": "2431130e4f4e3f5c1424322edd65502a9573f660a628922eac280186d3ee16cf",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "adsTxt": {
+    "status": 200,
+    "bytes": 59,
+    "googleSellerRows": 1,
+    "accountMatch": "unknown; publisher value not retained",
+    "scope": "Client observation does not establish Google crawler access or operator account match"
+  },
+  "after": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "58900d11b9cf43c3849050074176ea241c4862d1a4ad5858db3a1aa443803a8f",
+    "ledgerSha256": "2431130e4f4e3f5c1424322edd65502a9573f660a628922eac280186d3ee16cf",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "success": true,
+  "finishedAt": "2026-10-20T00:14:35.908Z"
+}

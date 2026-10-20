@@ -1,0 +1,26 @@
+{
+  "run": 39346504008,
+  "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "jobs": [
+    {
+      "id": 118380281796,
+      "selected": [
+        "2026-10-20T00:15:17.6130795Z \u2139 tests 424",
+        "2026-10-20T00:15:17.6131512Z \u2139 pass 424",
+        "2026-10-20T00:15:17.6131841Z \u2139 fail 0",
+        "2026-10-20T00:15:24.6085548Z Result (26 files): ",
+        "2026-10-20T00:15:24.6086042Z - 0 errors",
+        "2026-10-20T00:15:24.6086299Z - 0 warnings",
+        "2026-10-20T00:15:24.6086508Z - 0 hints",
+        "2026-10-20T00:15:31.1291052Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 4870024cba877be8b4006a9036934086e7e1d6f7",
+        "2026-10-20T00:17:28.9540362Z   53 passed (1.6m)"
+      ]
+    },
+    {
+      "id": 118381128774,
+      "selected": [
+        "2026-10-20T00:17:41.7239491Z Discord notification sent (1 attempt)."
+      ]
+    }
+  ]
+}

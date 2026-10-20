@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-20T00:22:48.262986+00:00",
+  "pr": 46,
+  "headSha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+  "reportMain": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "productMain": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "changedFromProduct": [
+    "reports/daily/2026-10-20.json",
+    "reports/runs/manual-20261020-0352.json"
+  ],
+  "productionRedeployed": false,
+  "scope": "R preserves all product code; operating/tag SHA remains M"
+}

@@ -1,0 +1,87 @@
+{
+  "runId": "manual-20261020-0352",
+  "issue": 44,
+  "reviewer": "/root/run44_app",
+  "reviewedAt": "2026-10-19T19:06:51.644252+00:00",
+  "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "mode": "readonly_peer_review_except_this_review_file",
+  "reviews": [
+    {
+      "candidate": "/root/run44_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reasons": {
+        "correctness": "실제 ledger 끝8개와 후보8개·requests metadata를 읽어 번호/URL/checkedAt/제목/가수/responseSha256가 전부 일치함을 assert했다. staging current/playlist의 원번호 string과 같고 원84개·상위 metadata를 보존한다. 동결차트27/29/30/31 canonicalId와 전체 제목·명의를 직접 대조했다. Orangestar feature 괄호/대소문자, ライラック의 같은 작품명 OP/OST, X JAPAN 하이픈과 공식 전체 작품 부제의 차이를 각 reason이 명시하며 음원·편곡·명의 병합을 추정하지 않는다.",
+        "evidence": "요청8개의 시작/완료 사이 실제 checkedAt, HTTP200·양수 bytes·64자리 응답 hash, finalUrl=요청URL과 candidate verification=unreviewed 보존을 확인했다. 별도 편집 판단/원후보/ledger가 연결된다. 19:05:43.480Z 읽기 전용 Node assertion으로 첫84 및 다른5가이드 전체 객체 deepEqual을 재검증했고 baseline 임시파일 hash가 실제 base Git blob의 hash와 같음도 확인했다. 원응답 HTML 미보관과 자체 브라우저/운영 미실행을 숨기지 않는다.",
+        "value": "안전한 공식 확인 ID32→36, 두 업체 교집합27→31로 실제 탐색 가능한 범위를 넓힌다. 첫 가이드는 두 조건 AND·한쪽 해제·전체의 번호 조건만 해제·0곡≠미수록·JS 필요/정적 가수 대안을 사용 흐름으로 설명한다. 편집일20일과 업체 실제 checkedAt를 분리하고 승인·권리 허가를 주장하지 않는다.",
+        "maintainability": "기존 ledger84 순서/객체를 append8만으로 보존하고 재사용하는 metadata helper의 hash와 후보·요청·검증 파일을 연결했다. 첫 guide만 변경해 다른5개의 날짜/본문/출처/링크를 보존한다. Node execFileSync EPERM·leaf test 구분을 기록해 실패/미실행을 성공으로 바꾸지 않는다. root Git/공용검증/CI/배포 소유를 지킨다."
+      },
+      "actualRead": [
+        "jpoptoday/data/reviewed/provider-corrections.json",
+        "jpoptoday/src/content/guides.ts",
+        "jpoptoday/data/staging/legacy-catalog.json",
+        "jpoptoday/data/chart-snapshot.json",
+        "docs/data/provider-review-20261020-0352.md",
+        "docs/data/provider-review-20261020-0352-requests.json",
+        "docs/data/provider-review-20261020-0352-validation.json",
+        "docs/data/provider-review-20261020-0352-{tj-27984,ky-44091,tj-68461,ky-75996,tj-27805,ky-43932,tj-6773,ky-40993}-candidate.json"
+      ],
+      "hashes": {
+        "jpoptoday/data/reviewed/provider-corrections.json": "a0d23d04cc705d444325f1ea8662cc00044fcba3f86074c66800569840a6eae9",
+        "jpoptoday/src/content/guides.ts": "7478cbdcbb8286597000cb0bbe3d4ea4703a3b4e316e7bf2c34d863c6cfc1e61",
+        "docs/data/provider-review-20261020-0352.md": "ea0aafc5b30e7412c8a1ee574b5a6916157d89e6dda98fe9d9b3c089264c4a48",
+        "docs/data/provider-review-20261020-0352-requests.json": "cd770ff5bd73ae9fbdfb2eefdd141e3036bbd30878d48c065ad0600b5bd101d1",
+        "docs/data/provider-review-20261020-0352-validation.json": "30d3b15b589a3f5433a84e16091e5b74a3b27f0998a26d8957dc20e1cc3418c5",
+        "baseLedgerActualGitBlobAndTemporaryBaseline": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+        "baseGuidesActualGitBlobAndTemporaryBaseline": "227f848b70a9a5077f8cc8486dc1998cb4f6ba70cec2e6a469854506af61ee62"
+      },
+      "verification": {
+        "reviewerReadonlyAssertions": "2026-10-19T19:05:43.480Z passed: first84/top-level equal, all8 actual metadata equal, raw current playlist/string numbers equal, dates within request interval, other5 guides deepEqual, first guide slug/date/AND link",
+        "reviewerEditorialReading": "8 provider cells across4stable IDs; candidate/ledger title and artist plus frozen canonical chart correspondence read; no fresh provider fetch or raw HTML replay claimed",
+        "workerReceipt": "provider-review-20261020-0352-validation.json; worker8leaf contract tests recorded separately from root377unit/type0/artifact3347"
+      },
+      "findings": [],
+      "acceptance": "accept_implementation_pending_root_final_same_sha_delivery_gates",
+      "limits": "응답 원문·음원·반주기 지원·권리·Google 계정/신청/승인을 독립 확인하지 않았다. 최종 CI/원격preview/실제복구/운영은 root gate다."
+    },
+    {
+      "candidate": "/root/run44_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reasons": {
+        "correctness": "최종 artist-both.spec.ts 전체를 읽었다. 원본 staging+ledger에서 정정 후 모든 번호의 중복 횟수를 다시 세고 current/playlist/confirm/공식numeric 근거로 업체별 ID를 만든다. 실제 public catalog의 별도 predicate와 ID전체 집합을 비교한 뒤 intersection≠union·both=0 실제 그룹·전역/index/group의 값과 가시 텍스트·원문명의 SHA anchor·정확 row ID/URL을 검사한다. 앱 count/group/matcher/URL helper import가 없으며 type-only Song은 런타임 oracle에 사용하지 않는다.",
+        "evidence": "freeze된 최종 test hash efebc52a...를 실제 확인했다. 초기 목록발견4건을 브라우저 PASS로 부르지 않고 최초3/1 trace ENOENT와 root 병렬 output 충돌·과거 first-guide 날짜 assertion을 보존한다. 실제 /tmp/jpop44-isolated-browser.log의 15–18 네 검사 PASS를 읽었다. 읽은 시점 전체53 실행은 진행 중이므로 전체53 PASS는 아직 주장하지 않는다. 앱 담당이 별도로 실행한 desktop/360JSoff UI 영수증과도 결과31/28그룹/AND/anchor가 일치한다.",
+        "value": "단순 숫자 fixture가 아니라 31/36의 실제 overlap과 5개 single-provider ID를 통해 잘못된 sum/union·관측/unknown/suppress/conflict/chart alias 혼입을 잡는다. 모바일 키보드 44px/focus, 공유URL reload·실제모든결과 더보기·저장원문 bytes·0곡 의미·조건해제, JS-off 검색비활성/정적대안과 첫 가이드 연결을 검증해 사용자 동선을 보호한다.",
+        "maintainability": "provider eligibility/anchor/visible result/problem observer를 작은 함수로 나누고 실제 frozen 입력수에 따른 종료 상한을 사용한다. 최종 가시 텍스트 강화와 초기소스/최종소스를 구분한 hash를 기록해 어느 버전을 검사했는지 추적 가능하다. 다른 서버·공용 build/Git/package/CI를 변경하지 않으며 root 실행 실수를 worker 감점 근거로 전가하지 않는다."
+      },
+      "actualRead": [
+        "jpoptoday/e2e/artist-both.spec.ts",
+        "docs/engineering/artist-both-quality-20261020-0352.md",
+        "docs/operations/runs/manual-20261020-0352-initial-failures.json",
+        "/tmp/jpop44-isolated-browser.log",
+        "/tmp/run44-app-browser.json"
+      ],
+      "hashes": {
+        "jpoptoday/e2e/artist-both.spec.ts": "efebc52a29fd3da8d026ba10766df86a46ddf2c275da704723b54a8251a4477e",
+        "docs/engineering/artist-both-quality-20261020-0352.mdAtRead": "3d8aeb76cdbf427b287b40755d3354d50cbfefb08596b4389a547d6744ee13cd"
+      },
+      "verification": {
+        "isolatedFinalFourObserved": "root sequential isolated log entries15–18 allPASS: static intersection7.0s, 360keyboardAND/storage2.3s, JSoff6.7s, firstguide0.891s",
+        "overallFullSuite": "still running at read; observed progress through27, no final53pass claim",
+        "separateAppBrowser": "2026-10-19T19:03:47.364Z–19:03:50.524Z /tmp/run44-app-browser.json passed; root4322 dirty49preview; 4screenshots actually viewed"
+      },
+      "findings": [],
+      "acceptance": "accept_final_frozen_four_implementation_pending_root_full_suite_and_delivery_gates",
+      "limits": "실제 screen reader/Firefox/WebKit/물리기기·최종clean SHA CI/remote preview/운영은 이 평가가 증명하지 않는다. 최초 output trace 일부는 없으며 남았다고 쓰지 않는다."
+    }
+  ],
+  "comparison": "각 담당은 범위별 실제 정확성·근거·사용자 동선·보존성을 충족해 각20점으로 동률이다. 변경량/말수/자료수로 차이를 만들지 않았다. root 실행 실수는 worker 순위 근거가 아니다. 순위/교체 판단은 다른 두 평가와 root 실제검증 및 사전 기록된 동률 처리 기준을 따른다."
+}

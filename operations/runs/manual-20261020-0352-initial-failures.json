@@ -1,0 +1,31 @@
+{
+  "recordedAt": "2026-10-19T19:04:38.794210+00:00",
+  "owner": "root",
+  "initialRestricted": "unit subprocess/local HTTP tests failed and did not finish; identified root test tree terminated; not a canonical passing run",
+  "initialFullBrowser": {
+    "passed": 50,
+    "failed": 3,
+    "scope": "old4 source loaded before final visible-text assertions",
+    "causes": [
+      "root concurrently started another runner with default test-results causing actual missing trace/network/zip errors",
+      "root-owned historical first-guide date assertion still expected14, now explicitly20; other5 guide objects unchanged"
+    ]
+  },
+  "parallelFinal4": {
+    "passed": 3,
+    "failed": 1,
+    "cause": "actual browserContext.close/zip ENOENT, not count assertion failure"
+  },
+  "evidence": {
+    "/tmp/jpop44-working-unit.log": {
+      "sha256": "44d1ff619c4927263508bb465c801dca88e779d80a2214bcb2b891b7490f3b68"
+    },
+    "/tmp/jpop44-fixed-working-browser.log": {
+      "sha256": "8dce94db8f1fc3fbd37b2044e2ca73fd171cbb50fd4570fd7a4b2dad74a57d12"
+    },
+    "/tmp/jpop44-working-final4.log": {
+      "sha256": "c4af85bf44589bbb48a1856c5f609e23ff4689c5424e5d2c33c7afe90abe28c5"
+    }
+  },
+  "limits": "Trace outputs collided and some were unavailable; original text logs retained. No worker assertion weakened. Next full run uses a distinct output directory and frozen final4 source."
+}

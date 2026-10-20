@@ -1,5 +1,27 @@
 # 실행 상태
 
+최신 제품 완료: v0.4.8 / M `4870024cba877be8b4006a9036934086e7e1d6f7` / todayjpop·jpop.today `ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca`.
+
+가수별 TJ·금영 모두 확인된 곡 수와 두 업체 AND 검색을 추가했습니다. 공식4곡8근거로 안전한 확인 범위는36곡·67번호, 양쪽 확인은31곡입니다.
+
+검증: 단위424·타입오류0, 같은 SHA CI53+53·실제 preview53/운영53, target별3347파일 두 번 재현, 실제 복구27/1→재적용27/1과 재적용 뒤10URL을 통과했습니다.
+
+협업·실패: 실제6평가40/40/40 동률로 사전 순서에 따라 자료 담당을 교체했습니다. 독립 감사의8개 검증 우회를 보완해47검사와후속2평가를 수용했습니다. 초기 제한환경 검사실패·브라우저 trace충돌·가이드 날짜 assertion 실패를 보존했습니다.
+
+예약·운영: 매일09시/hourly 기존 예약은 변경하지 않았습니다. 관리자 managed 배포이며 Actions CFbinding 미설정 후속이 남았습니다.
+
+AdSense: 실제 계정·신청·승인은 미확인입니다. 운영자의 권리·문의 실수신·ads.txt 계정 일치·본인정보/법적 동의와 실제 Google 심사 결과가 필요합니다.
+
+개인Git source/dev 메타데이터·자동false/none·도메인/이력을 보존했다. 제품/tag/운영M과 보고전용R을 구분하며, 보고 PR·실제Discord는 최종인계 영수증을 따른다. 원격53은 복구 전, 복구 후 strict27/1과10URL은 별도다.
+
+[릴리스](releases/v0.4.8-20261020.md) · [실행](runs/manual-20261020-0352.json) · [20일보](daily/2026-10-20.json) · [정책게이트](production-content-gate-v048-20261020.md)
+
+## 전달 마감 · 2026-10-20
+
+최종 보고 PR46/main R `4d4c021e668d49c39057e76558c21b30735b8d98`와 head4/main2 CI success를 확인했다. 관리자 완료 Discord39347541026/job118383673721는 2026-10-20T00:25:27.9502967Z actualsent1attempt다. [송신 영수증](runs/manual-20261020-0352-completed-discord.json)·[최종 인계](runs/manual-20261020-0352-completed-handoff.json)·[보고 SHA](runs/manual-20261020-0352-source-report.json)·[최종 API](runs/manual-20261020-0352-final-production-api.json)·[보고 뒤 strict27/1](runs/manual-20261020-0352-delivery-production-http.json)을 따른다. 문서 전달은 본 PR26이며 실제병합SHA는 GitHub PR metadata/Issue9 완료댓글에서 확인한다. R은 제품M과 reports두JSON만 다르며 재배포하지 않았다. 소스·일일보의 pre-delivery metadata와 위 실제송신을 구분한다.
+
+# 직전 v0.4.7 완료 이력
+
 최신 제품 완료: v0.4.7 / 제품·태그 M `88aa4dd8323defb93c8da09cb9b5569473d922ca` / todayjpop·jpop.today `3ad0bb17-2331-4192-b02a-23645ff5e02b`. 충돌4개ID/8업체의 번호 표시·개별 복사·잘못된 공식 상태를 세 생성 지점에서 보류하고 TJ/금영 가이드의 기존 Hump Back 조회 근거와 현재 보류를 연결했다. raw/ledger84·3317ID·카탈로그 bytes·기존URL/storage·원래 gradient/palette는 보존했다. 새 조회/권리/Google 결과는 만들지 않았다.
 
 canonical377/type0·같은 M CI49+49·실제 preview49/운영49·각target3347파일/3336HTML 전체2회 재현(0/49index)·실제oldv04627/1→newv04727/2(첫 / BODY_MISMATCH 뒤 재시도 통과) 복구/재적용을 확인했다. 이후 strict27/1과 일반 URL/충돌상세9개에서 전후M과 실제 보류를 확인했다. 원격49는 복구 시험 전이며 복구 뒤 전체49를 다시 실행한 것은 아니다. 전체CI ZIP과 모든 로컬 bytes 비교·다른엔진·OSclipboard실제허가·필드성능·전체CDN 동시전환은 검증하지 않았다.

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-0352",
+  "issue": 44,
+  "reviewedAt": "2026-10-19T19:13:03Z",
+  "reviewer": "/root/run44_quality",
+  "candidate": "/root/run44_replacement",
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "criterionReasons": {
+    "correctness": "tests/both-provider-artifact.test.mjs6794eb13...의 합성 fixture/명시예상과 root verifyBothProviderDiscovery b31b13f3...를 실제 읽었다. 001/1 ID·00123/123 번호 문자열·共演 A & B/共演 A&B 원문을 구분하고 교집합3/합집합8/업체합11/그룹7의 차이, 같은가수의서로다른업체전용2곡을both1로오해하지않는0, strict eligibility exclusions를 검증한다. 8개 실제 미거부 leaf를 삭제하지 않은 같은 testSHA가 최종47/47 PASS다.",
+    "evidence": "초기 제한wrapper 실패로그와 허용실행37pass/10fail 로그를 실제 읽고 hash대조했다. 후자의 Missing expected exception8개와 부모2개실패를 분리하며 10개독립결함으로과장하지않는다. root별도fixed47/47 및 교체담당독립final47/47 두로그/해시와 dirtypreview artifact3347file/3336HTML/index0을 실제 읽었다. 원초기테스트sha=최종sha를확인했고 source/artifact/실제브라우저/운영근거를구분한다.",
+    "value": "정확숫자/anchor metadata만맞고 실제가수명이다르거나 count/link가hidden인8가지실제우회를 드러냈다. root수정은가시원문/정확data-artist-name/정적비노출하위트리검사를더해 사용자가실제로못읽는수나못쓰는검색링크가배포게이트를통과하는문제를막는다. currentplaylist근거있는ID교집합의사용자오해를예방하며 합성사례를공식확인·권리·Google심사근거로만들지않는다.",
+    "maintainability": "worker는사전배정한새 test+doc두파일만수정하고 sharedverifier는root에인계했다. 앱helper를예상값에import하지않고작은명시fixture/positive·negative변형으로행동을검증하며 source불변도assert한다. doc0ab2ef5d...는base/scope·실제초기/최종hash·47nodes와leaf구분·미실행CSS/HTMLparser동등성/모바일/CI/운영한계를기록했다. 기존unit/브라우저를대신한다는주장이없다."
+  },
+  "acceptance": "accepted_component; 교체담당의 독립 artifact감사/8실우회발견/불변테스트후47pass/정직한증거기록 수용. 필수수정없음. root의 전체424/type/artifact와 같은SHA cleanCI/재현/remotepreview/운영/복구/Release는 별도게이트이며 이리뷰가 통과로 간주하지않는다.",
+  "unmet": [],
+  "blockers": [],
+  "readProof": {
+    "sameInitialAndFinalTestHash": true,
+    "initialPermittedNodes": {
+      "tests": 47,
+      "pass": 37,
+      "fail": 10,
+      "failedLeaf": 8,
+      "failedParent": 2
+    },
+    "finalIndependentNodes": {
+      "tests": 47,
+      "pass": 47,
+      "fail": 0
+    },
+    "finalRootNodes": {
+      "tests": 47,
+      "pass": 47,
+      "fail": 0
+    },
+    "artifactScope": "dirty local preview at sourceBase49d6806; not same-SHA finalCI or remote deployment",
+    "cssOrGeneralHtmlParserEquivalenceClaimed": false,
+    "sourceOrGitMutatedByReviewer": false
+  },
+  "fileHashes": {
+    "jpoptoday/tests/both-provider-artifact.test.mjs": "6794eb13a45658e1b2df93f7db330a3597e529314e376bf87a32702a3384fc81",
+    "jpoptoday/scripts/verify-dist.mjs": "b31b13f31ebdb40784bbb1171eec62062b2c6575ba1b794fc1afa7eb1c426d74",
+    "docs/engineering/artist-both-artifact-audit-20261020-0352.md": "0ab2ef5d4735fe96c2901a3867649bbcce16abedc36d6bb484233f7587c7e6ff",
+    "/tmp/jpop44-replacement-initial-test.log": "1b52022672ebd3c090b14e478cc4c0b293cd99088a98d8322a448e472c32e650",
+    "/tmp/jpop44-replacement-initial-permitted-test.log": "ae7ffb66c17e41ca73c0eacf4f5570d87ff604b95dc33e4860fe3f9f2b758316",
+    "/tmp/jpop44-replacement-final-test.log": "9a4e3bc94093e92d062dc9fa53338a8f5517f6f3ef28b94b97d3f313a55a7929",
+    "/tmp/jpop44-replacement-root-fixed-test.log": "55b76001ff5a84afbcb276bb0bb28e7d0602963bec39b252f682201c1b9f4fa5"
+  },
+  "rankingNote": "최초6평가/40동률/사전evidence제외기록은변경하지않는다. 이리뷰는새교체산출물에대한후속성분평가이며 worker의말수나변화량으로등급을만들지않는다."
+}

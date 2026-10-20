@@ -1,0 +1,220 @@
+{
+  "recordedAt": "2026-10-20T00:26:31.650708+00:00",
+  "runId": "manual-20261020-0352",
+  "state": "product_completed_reported",
+  "productSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "sourceReportMain": "4d4c021e668d49c39057e76558c21b30735b8d98",
+  "docsPR": 26,
+  "reportCI": {
+    "head": {
+      "phase": "report-head",
+      "sourceSha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+      "runs": [
+        {
+          "id": 39346878535,
+          "name": "contracts",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 39346878581,
+          "name": "app",
+          "event": "pull_request",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 39346835750,
+          "name": "contracts",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 39346835697,
+          "name": "app",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "allSuccess": true
+    },
+    "main": {
+      "phase": "report-main",
+      "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+      "runs": [
+        {
+          "id": 39347238321,
+          "name": "contracts",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 39347238413,
+          "name": "app",
+          "event": "push",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "allSuccess": true
+    }
+  },
+  "release": {
+    "checkedAt": "2026-10-20T00:17:47.017772+00:00",
+    "version": "0.4.8",
+    "tag": "v0.4.8",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "annotatedObject": "1d87e491af953edb0aeeca5fe8dcb35fec52a0e1",
+    "releaseId": 417876747,
+    "publishedAt": "2026-10-20T00:17:41Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.8",
+    "workflowRun": 39346504008,
+    "workflowConclusion": "success"
+  },
+  "production": {
+    "checkedAt": "2026-10-20T00:25:33.087284+00:00",
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "deployment": {
+      "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+      "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+      "status": "success"
+    },
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "scope": "Actual canonical API after report-only merge; no report-SHA product redeploy or source-binding mutation"
+  },
+  "productionHTTP": {
+    "passed": true,
+    "checks": 27,
+    "attempts": 1
+  },
+  "recovery": {
+    "startedAt": "2026-10-20T00:13:44.194810+00:00",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "before": {
+      "project": "todayjpop",
+      "domains": [
+        "todayjpop.pages.dev",
+        "jpop.today"
+      ],
+      "source": {
+        "owner": "kim75503",
+        "repo_name": "todayjpop",
+        "production_branch": "dev",
+        "production_deployments_enabled": false,
+        "preview_deployment_setting": "none"
+      },
+      "deployment": {
+        "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+        "url": "https://ca7a98a4.todayjpop.pages.dev",
+        "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+        "createdAt": "2026-10-20T00:07:59.645677Z",
+        "status": "success"
+      }
+    },
+    "oldTarget": {
+      "id": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+      "sha": "88aa4dd8323defb93c8da09cb9b5569473d922ca"
+    },
+    "scope": "Actual v047 rollback then v048 restore; restoration attempted in finally. No resource deletion.",
+    "steps": [
+      {
+        "action": "rollback",
+        "api": {
+          "project": "todayjpop",
+          "domains": [
+            "todayjpop.pages.dev",
+            "jpop.today"
+          ],
+          "source": {
+            "owner": "kim75503",
+            "repo_name": "todayjpop",
+            "production_branch": "dev",
+            "production_deployments_enabled": false,
+            "preview_deployment_setting": "none"
+          },
+          "deployment": {
+            "id": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+            "url": "https://3ad0bb17.todayjpop.pages.dev",
+            "sourceSha": "88aa4dd8323defb93c8da09cb9b5569473d922ca",
+            "createdAt": "2026-10-19T06:08:22.074059Z",
+            "status": "success"
+          }
+        },
+        "http": "manual-20261020-0352-rollback-http.json",
+        "success": true
+      },
+      {
+        "action": "restore",
+        "api": {
+          "project": "todayjpop",
+          "domains": [
+            "todayjpop.pages.dev",
+            "jpop.today"
+          ],
+          "source": {
+            "owner": "kim75503",
+            "repo_name": "todayjpop",
+            "production_branch": "dev",
+            "production_deployments_enabled": false,
+            "preview_deployment_setting": "none"
+          },
+          "deployment": {
+            "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+            "url": "https://ca7a98a4.todayjpop.pages.dev",
+            "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+            "createdAt": "2026-10-20T00:07:59.645677Z",
+            "status": "success"
+          }
+        },
+        "http": "manual-20261020-0352-restore-http.json",
+        "success": true
+      }
+    ],
+    "finishedAt": "2026-10-20T00:14:08.826319+00:00",
+    "success": true
+  },
+  "postrestoreURLs": 10,
+  "notification": {
+    "runId": "manual-20261020-0352",
+    "workflow": "discord.yml",
+    "runIdGitHub": 39347541026,
+    "jobId": 118383673721,
+    "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+    "state": "sent",
+    "attempts": 1,
+    "sentAt": "2026-10-20T00:25:27.9502967Z",
+    "selectedActualResultLines": [
+      "2026-10-20T00:25:27.5707943Z Report prepared: completed (2026-10-20); delivery not yet confirmed.",
+      "2026-10-20T00:25:27.9502967Z Discord notification sent (1 attempt)."
+    ],
+    "scope": "Existing completed-mode workflow read saved 2026-10-20 main report; actual sender line, no secret values or whole environment retained."
+  },
+  "coreEquality": "Actual title/summary/fields/url are identical in saved source/docs/core and existing completed-mode workflow payload. Chat final repeats this core.",
+  "publication": "Docs expected-head merge identity is recorded in GitHub PR26 metadata and final Issue9 comment; productM/reportR remain separate. Immutable source and daily metadata were saved before actual delivery and are not rewritten to create self-referential commits.",
+  "remaining": [
+    "Issue6 미검토 공식근거·제목/가수/버전과 자체 콘텐츠·선곡 동선, 차트 갱신과 실패 last-good 보존을 이어 검토한다.",
+    "Issue15 안전한 Actions CFbinding과 실제 자동배포 후속을 운영자 설정과 연계한다. 현재 managed 배포와 구분한다.",
+    "운영자가 Google 계정/소유권·신청/실제 통지·본인정보/약관/법적 동의, 자료권리·문의 실수신·ads.txt 실제 계정 일치를 확인한다."
+  ],
+  "limits": [
+    "Full remote53 occurred before actual recovery; postrestore strict27 and10 ordinary URLs are separate checks.",
+    "Full CI ZIP-to-local comparison, other browser engines, OS clipboard permission, field performance, universal CDN convergence, rights or Google approval not established."
+  ],
+  "reportingFailures": "manual-20261020-0352-reporting-cli-failure.json"
+}

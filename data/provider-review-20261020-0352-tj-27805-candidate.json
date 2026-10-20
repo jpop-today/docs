@@ -1,0 +1,14 @@
+{
+  "artist": "back number",
+  "checkedAt": "2026-10-19T18:55:55.401885Z",
+  "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27805&strWord=Y",
+  "number": "27805",
+  "provider": "tj",
+  "responseBytes": 49251,
+  "responseSha256": "b9c5e42c18461c14ade1d619a94c9aff5d80027f659dc05cb65046f9bd863e45",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "高嶺の花子さん",
+  "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27805&strWord=Y",
+  "verification": "unreviewed"
+}

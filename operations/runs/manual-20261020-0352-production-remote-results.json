@@ -1,0 +1,22 @@
+{
+  "run": 39345873779,
+  "job": 118378208271,
+  "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "actionsCFBindings": "missing",
+  "selected": [
+    "2026-10-20T00:09:02.7749671Z ℹ tests 424",
+    "2026-10-20T00:09:02.7750100Z ℹ pass 424",
+    "2026-10-20T00:09:02.7750311Z ℹ fail 0",
+    "2026-10-20T00:09:09.6168994Z Result (26 files): ",
+    "2026-10-20T00:09:09.6169337Z - 0 errors",
+    "2026-10-20T00:09:09.6169588Z - 0 warnings",
+    "2026-10-20T00:09:09.6169833Z - 0 hints",
+    "2026-10-20T00:09:16.2898832Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 4870024cba877be8b4006a9036934086e7e1d6f7",
+    "2026-10-20T00:09:23.7299556Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (53 indexable), 3347 files; source 4870024cba877be8b4006a9036934086e7e1d6f7",
+    "2026-10-20T00:09:26.2710137Z {\"sourceSha\":\"4870024cba877be8b4006a9036934086e7e1d6f7\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T00:11:14.3863349Z   53 passed (1.5m)",
+    "2026-10-20T00:11:14.4651650Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+    "2026-10-20T00:11:22.3244709Z {\"sourceSha\":\"4870024cba877be8b4006a9036934086e7e1d6f7\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T00:13:16.3232649Z   53 passed (1.9m)"
+  ]
+}

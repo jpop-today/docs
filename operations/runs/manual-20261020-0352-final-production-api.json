@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-20T00:25:33.087284+00:00",
+  "project": "todayjpop",
+  "domains": [
+    "todayjpop.pages.dev",
+    "jpop.today"
+  ],
+  "deployment": {
+    "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "status": "success"
+  },
+  "source": {
+    "owner": "kim75503",
+    "repo_name": "todayjpop",
+    "production_branch": "dev",
+    "production_deployments_enabled": false,
+    "preview_deployment_setting": "none"
+  },
+  "scope": "Actual canonical API after report-only merge; no report-SHA product redeploy or source-binding mutation"
+}

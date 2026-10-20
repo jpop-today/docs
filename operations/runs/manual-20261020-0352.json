@@ -1,0 +1,226 @@
+{
+  "runId": "manual-20261020-0352",
+  "issue": 44,
+  "state": "product_completed_reported",
+  "startedAt": "2026-10-19T18:54:20.093376+00:00",
+  "timezone": "Asia/Seoul",
+  "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "docsBase": "4ddfa9d20b2d8aee5c538d25388c499a83c8675f",
+  "orgBase": "b7aad18fe2f793453b6505bb150f359d05ae3554",
+  "initialTeam": [
+    {
+      "id": "/root/run44_evidence",
+      "role": "evidence",
+      "files": [
+        "jpoptoday/data/reviewed/provider-corrections.json",
+        "jpoptoday/src/content/guides.ts:first-guide",
+        "docs/data/provider-review-20261020-0352*"
+      ]
+    },
+    {
+      "id": "/root/run44_app",
+      "role": "app",
+      "files": [
+        "jpoptoday/src/pages/artists.astro",
+        "docs/engineering/artist-both-20261020-0352*",
+        "docs/engineering/design/artist-both-20261020-0352*"
+      ]
+    },
+    {
+      "id": "/root/run44_quality",
+      "role": "quality",
+      "files": [
+        "jpoptoday/e2e/artist-both.spec.ts",
+        "docs/engineering/artist-both-quality-20261020-0352.md"
+      ]
+    }
+  ],
+  "tieBreakOrder": [
+    "evidence",
+    "app",
+    "quality"
+  ],
+  "baselineHashes": {
+    "data/staging/legacy-catalog.json": "a3d482ca2da082852883960d200841b4ad4ff26336eaf1174c55677881eecbf3",
+    "data/reviewed/provider-corrections.json": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+    "data/chart-snapshot.json": "7ade29897828967b98b2bca64b285b9694356ad3d2b97498f06270217c91da97",
+    "data/legacy-identity-baseline.json": "5d882010993879420ac30bfcbbb1fcc3fe7e87a5bd00a56e5c379f41000aaec8",
+    "src/styles/global.css": "64cab788adde9940627b3bb61f50bf99b0191ed984c2114ee1b2bad0c115b889",
+    "src/content/guides.ts": "227f848b70a9a5077f8cc8486dc1998cb4f6ba70cec2e6a469854506af61ee62"
+  },
+  "operators": [
+    "Google identity/legal consent/account/application/approval unknown",
+    "rights/contact delivery/ads.txt account match",
+    "safe Actions CF binding"
+  ],
+  "coordination": "Continued same Issue44 under repeated prompts; no new initial team. Logical roster preserved; runtime list returned root only after completed workers.",
+  "next": [
+    "Issue6 미검토 공식근거·제목/가수/버전과 자체 콘텐츠·선곡 동선, 차트 갱신과 실패 last-good 보존을 이어 검토한다.",
+    "Issue15 안전한 Actions CFbinding과 실제 자동배포 후속을 운영자 설정과 연계한다. 현재 managed 배포와 구분한다.",
+    "운영자가 Google 계정/소유권·신청/실제 통지·본인정보/약관/법적 동의, 자료권리·문의 실수신·ads.txt 실제 계정 일치를 확인한다."
+  ],
+  "coordinationComment": {
+    "id": 6274829131,
+    "at": "2026-10-19T18:54:37Z"
+  },
+  "reviews": "manual-20261020-0352-reviews.json",
+  "replacement": {
+    "recordedAt": "2026-10-19T19:08:20.396Z",
+    "excluded": "/root/run44_evidence",
+    "reason": "40/40/40 complete criteria tie; predeclared evidence/app/quality order",
+    "interruptPreviousStatus": "completed",
+    "replacement": "/root/run44_replacement",
+    "physicalDeletion": false,
+    "ownership": [
+      "tests/both-provider-artifact.test.mjs",
+      "docs/engineering/artist-both-artifact-audit-20261020-0352.md"
+    ],
+    "twoPeerReviews": [
+      "manual-20261020-0352-replacement-review-app.json",
+      "manual-20261020-0352-replacement-review-quality.json"
+    ],
+    "twoPeerScores": [
+      20,
+      20
+    ]
+  },
+  "activeRoster": [
+    "/root/run44_app",
+    "/root/run44_quality",
+    "/root/run44_replacement"
+  ],
+  "resume": {
+    "observedAt": "2026-10-20T00:00:20.083086+00:00",
+    "environmentRevision": "771",
+    "sourceHeadClean": "2821e395bf8fb3eabfcdfeaee934be2e0ba9e9b9",
+    "sourcePR45": "head four CI success; merged4870024cba877be8b4006a9036934086e7e1d6f7",
+    "currentCollaborators": "only root returned; previous3+replacement completed and actual reviews preserved",
+    "scope": "Same Issue44 continuation; no new initial workers, automations or duplicate deployment",
+    "causeOfInterruption": "Not inferred from token reset; resumed from actual unfinished PR/deployment state"
+  },
+  "sourceProductMain": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "sourcePR": 45,
+  "lastActualCheck": "2026-10-20T00:15:36.861745+00:00",
+  "productionDeployment": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+  "verified": {
+    "mainCI": "424/type0/53+53",
+    "previewRemote": 39345398362,
+    "productionRemote": 39345873779,
+    "remoteTestsEach": 53,
+    "rollback": "27/1",
+    "restore": "27/1",
+    "postrestoreStrict": "27/1",
+    "postrestoreOrdinaryURLs": 10
+  },
+  "releaseWorkflow": 39346504008,
+  "productCompletedAt": "2026-10-20T00:17:53.868471+00:00",
+  "production": {
+    "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "remoteRun": 39345873779,
+    "remoteTests": 53,
+    "http": "27/1",
+    "recovery": {
+      "old": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+      "rollbackAttempts": 1,
+      "restoreAttempts": 1
+    },
+    "postrestoreURLs": 10,
+    "actionsCFBindings": "missing; managed deploy actual; verify_only workflow separately succeeded"
+  },
+  "release": {
+    "checkedAt": "2026-10-20T00:17:47.017772+00:00",
+    "version": "0.4.8",
+    "tag": "v0.4.8",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "annotatedObject": "1d87e491af953edb0aeeca5fe8dcb35fec52a0e1",
+    "releaseId": 417876747,
+    "publishedAt": "2026-10-20T00:17:41Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.8",
+    "workflowRun": 39346504008,
+    "workflowConclusion": "success"
+  },
+  "actualValidation": {
+    "unit": 424,
+    "typeErrors": 0,
+    "localBrowser": 53,
+    "sameMainCIBrowser": [
+      53,
+      53
+    ],
+    "previewRemote": 53,
+    "productionRemote": 53,
+    "artifactEach": 3347,
+    "localReproPerTarget": 2,
+    "postrestoreURLs": 10
+  },
+  "sourceReport": {
+    "checkedAt": "2026-10-20T00:22:48.262986+00:00",
+    "pr": 46,
+    "headSha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+    "reportMain": "4d4c021e668d49c39057e76558c21b30735b8d98",
+    "productMain": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "changedFromProduct": [
+      "reports/daily/2026-10-20.json",
+      "reports/runs/manual-20261020-0352.json"
+    ],
+    "productionRedeployed": false,
+    "scope": "R preserves all product code; operating/tag SHA remains M"
+  },
+  "completedReportingAt": "2026-10-20T00:26:31.650708+00:00",
+  "reportMainCI": {
+    "phase": "report-main",
+    "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+    "runs": [
+      {
+        "id": 39347238321,
+        "name": "contracts",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 39347238413,
+        "name": "app",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "allSuccess": true
+  },
+  "notification": {
+    "runId": "manual-20261020-0352",
+    "workflow": "discord.yml",
+    "runIdGitHub": 39347541026,
+    "jobId": 118383673721,
+    "sourceSha": "4d4c021e668d49c39057e76558c21b30735b8d98",
+    "state": "sent",
+    "attempts": 1,
+    "sentAt": "2026-10-20T00:25:27.9502967Z",
+    "selectedActualResultLines": [
+      "2026-10-20T00:25:27.5707943Z Report prepared: completed (2026-10-20); delivery not yet confirmed.",
+      "2026-10-20T00:25:27.9502967Z Discord notification sent (1 attempt)."
+    ],
+    "scope": "Existing completed-mode workflow read saved 2026-10-20 main report; actual sender line, no secret values or whole environment retained."
+  },
+  "documentation": {
+    "pr": 26,
+    "scope": "Final evidence in this reviewable PR; expected-head merge result is recorded in GitHub PR metadata and Issue9 completion comment, avoiding recursive self-SHA commits"
+  },
+  "remaining": {
+    "technical": "preparing",
+    "account": "unknown",
+    "application": "unknown",
+    "approval": "unknown",
+    "adsTxt": {
+      "status": 200,
+      "bytes": 59,
+      "googleSellerRows": 1,
+      "accountMatch": "unknown; publisher value not retained",
+      "scope": "Client observation does not establish Google crawler access or operator account match"
+    }
+  }
+}

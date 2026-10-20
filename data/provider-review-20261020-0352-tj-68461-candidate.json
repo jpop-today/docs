@@ -1,0 +1,14 @@
+{
+  "artist": "Mrs. GREEN APPLE",
+  "checkedAt": "2026-10-19T18:55:51.860999Z",
+  "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68461&strWord=Y",
+  "number": "68461",
+  "provider": "tj",
+  "responseBytes": 49283,
+  "responseSha256": "3b131a20449211a8c308f4bb805900f9e95f5a3d564dcd64deace1477a88a160",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "ライラック(アニメ '忘却バッテリー' OST)",
+  "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68461&strWord=Y",
+  "verification": "unreviewed"
+}

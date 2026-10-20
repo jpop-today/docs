@@ -1,6 +1,6 @@
 # 실행 계획과 작업 큐
 
-현재 완료는 [v0.4.7](releases/v0.4.7-20261019.md)의 충돌 번호 표시·개별복사 보류·실제 근거 안내와 같은SHA CI/preview/운영/복구/Release다. 다음은 Issue6 미검토공식근거/자체콘텐츠·선곡동선과실제차트/실패lastgood, Issue15안전한Actionsbinding, 운영자의권리·문의실수신·Google계정/소유권/신청·법적동의다. [실행상태](status.md)를따르며1.0/모든번호확정/자동CI설정을 Google의보편적신청조건으로만들지않는다.
+현재 완료는 [v0.4.8](releases/v0.4.8-20261020.md)의 공식4ID/8근거·가수별 양쪽31ID 탐색/AND검색·첫 가이드와 동일M CI/실제preview53·운영53·복구·Release다. 안전한 확인은36ID/67번호이며 전체검증·Google승인이 아니다. 다음은 Issue6 미검토근거/자체콘텐츠·차트/실패lastgood, Issue15안전한Actionsbinding, 운영자의권리·문의실수신·Google계정/소유권/신청·법적동의다. [현재상태](status.md)를 따른다.
 
 ## 직전 계획 기록
 

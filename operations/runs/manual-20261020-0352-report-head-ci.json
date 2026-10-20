@@ -1,0 +1,35 @@
+{
+  "phase": "report-head",
+  "sourceSha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+  "runs": [
+    {
+      "id": 39346878535,
+      "name": "contracts",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39346878581,
+      "name": "app",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39346835750,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 39346835697,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "allSuccess": true
+}

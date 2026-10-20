@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-0352",
+  "issue": 44,
+  "reviewer": "/root/run44_evidence",
+  "reviewedAt": "2026-10-19T19:06:14.299100Z",
+  "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "docsBase": "4ddfa9d20b2d8aee5c538d25388c499a83c8675f",
+  "mode": "readonly peer code/doc/image/result review; no self review, Git mutations, implementation edits or competing test runners",
+  "reviews": [
+    {
+      "reviewer": "/root/run44_evidence",
+      "candidate": "/root/run44_app",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reasons": {
+        "correctness": "src/pages/artists.astro countProviders reads strict confirmedNumbers into distinct TJ/KY ID Sets, computes both by membership intersection, and uses it for global/index/group while leaving original provider counts, union count, exact-name grouping, stable anchor, songHref and evidence display unchanged. Source and existing confirmed-discovery/public predicate read; observed31 overlap vs36 union and real Ado0 image prevent mistaking union for intersection.",
+        "evidence": "Read app own actual /tmp/run44-app-browser.json (passed,19:03:47–50Z,dirty preview/base SHA) plus root377/type0/artifact3347 receipts and preserved initial failures. Viewed desktop1440/360px JavaScript-off/group PNGs; 31 overlap and0 group visible, blue→pink stripe and readable mint action preserved, no clipping observed in those frames. Actual receipt reports keyboard Enter/44px/outline, AND URL31, anchors/detail/evidence, no overflow/errors/ads; none is presented as remote/production proof.",
+        "value": "Visitors can see whether a single song ID has both providers rather than inferring from two independent counts; direct AND search reduces selection effort. Same-ID condition, JavaScript requirement/static list alternative and 0≠official-unlisted are visible. The 360px image retains the two-provider total on its own line and clearly readable action.",
+        "maintainability": "Small statically rendered extension of one existing count function and templates; no new browser bundle/state/dependency. Existing test selectors tj/ky and exact anchors/URLs remain. data-provider=both/data-count is consistent across three scopes and narrow responsive rules preserve branding."
+      },
+      "acceptance": {
+        "decision": "accept_assigned_app_scope",
+        "blockingFindings": [],
+        "limits": [
+          "Only supplied desktop/mobile screenshots visually reviewed, no other-engine or physical-device claim",
+          "Working artifact is dirty/base49d6806, not immutable finalSHA; sameSHA CI/remote preview/recovery/production/Release remain root gates"
+        ]
+      },
+      "evidencePaths": [
+        "/workspace/jpoptoday/src/pages/artists.astro",
+        "/workspace/docs/engineering/artist-both-20261020-0352.md",
+        "/workspace/docs/engineering/design/artist-both-20261020-0352-desktop.png",
+        "/workspace/docs/engineering/design/artist-both-20261020-0352-mobile-nojs.png",
+        "/workspace/docs/engineering/design/artist-both-20261020-0352-mobile-nojs-group.png",
+        "/workspace/docs/operations/runs/manual-20261020-0352-working-allowed.json",
+        "/workspace/docs/operations/runs/manual-20261020-0352-fixed-working-browser.json",
+        "/workspace/docs/operations/runs/manual-20261020-0352-initial-failures.json",
+        "/tmp/run44-app-browser.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run44_evidence",
+      "candidate": "/root/run44_quality",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reasons": {
+        "correctness": "Read frozen e2e/artist-both.spec.ts efebc52a29fd3da8d026ba10766df86a46ddf2c275da704723b54a8251a4477e. Independent oracle derives correction numbers and all-ID multiplicity directly from staging+ledger, requires current/playlist/confirm/provenance and compares exact provider ID Sets with public catalog; no app count/group/matcher imports. Distinct real intersection<union and actual0 groups are required; all global/index/group visible labels and data-count, IDs/no duplicates/exact-name SHA anchors and URLs are checked.",
+        "evidence": "Read quality handoff with initial discovery4 vs browser status clearly separated, first root-owned trace collision50/3 and final4 3/1 ENOENT preserved without claiming pass. Read isolated sequential log actual15–18 four tests all✓ with frozen source hash matching; full53 not assumed finished. Node/npm warnings and raw/ledger metadata shape are not misrepresented as browser errors or human provider identity review.",
+        "value": "Coverage follows real visitor behavior: keyboard AND entry at360px, both exact result IDs through pagination/reload, existing object/string/unresolved favorites bytes unchanged, empty-search warning/clear, JavaScript-off static counts/anchor and honest disabled search, first-guide AND/static alternative. Detects union/stale-label or unsafe-provider leakage and protects existing stored data.",
+        "maintainability": "Four focused tests share helpers without using implementation output as the sole oracle. Expectations derive from immutable input rather than hardcoded31/36, and browser contexts close in finally. Source changes confined to owned new spec, no package/CI/runtime changes; exact assertions retained through root reruns, with no unjustified weakening after failures."
+      },
+      "acceptance": {
+        "decision": "accept_assigned_quality_scope",
+        "blockingFindings": [],
+        "limits": [
+          "Independent numericEvidence checks support this fixed valid ledger; existing contract377 remains responsible for broader malformed provenance boundaries",
+          "Current isolated four passed; cleanSHA CI, full sequential53 and remote/recovery/production gates are separate root requirements",
+          "Root parallel output collision and root historical-guide date assertion are not worker quality deductions"
+        ]
+      },
+      "evidencePaths": [
+        "/workspace/jpoptoday/e2e/artist-both.spec.ts",
+        "/workspace/docs/engineering/artist-both-quality-20261020-0352.md",
+        "/workspace/docs/operations/runs/manual-20261020-0352-working-allowed.json",
+        "/workspace/docs/operations/runs/manual-20261020-0352-initial-failures.json",
+        "/tmp/jpop44-isolated-browser.log"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "/workspace/jpoptoday/src/pages/artists.astro",
+      "sha256": "420e66830b1205136f1a6173403de025e3aa44a7098654518609ee6eb2f528d5",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    },
+    {
+      "path": "/workspace/jpoptoday/e2e/artist-both.spec.ts",
+      "sha256": "efebc52a29fd3da8d026ba10766df86a46ddf2c275da704723b54a8251a4477e",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    },
+    {
+      "path": "/workspace/docs/engineering/artist-both-20261020-0352.md",
+      "sha256": "d4dcf18f9c2922659f84177c35d7f04b1e3c9b40b858a98263fa4fb87d4f0a95",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    },
+    {
+      "path": "/workspace/docs/engineering/artist-both-quality-20261020-0352.md",
+      "sha256": "3d8aeb76cdbf427b287b40755d3354d50cbfefb08596b4389a547d6744ee13cd",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    },
+    {
+      "path": "/workspace/docs/engineering/design/artist-both-20261020-0352-desktop.png",
+      "sha256": "05ef56ce6011d8d44150f29f9bb687fb0b7321aa4ac05b47eb7a2970c75c5439",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "view_image desktop/mobile/group actual pixels"
+    },
+    {
+      "path": "/workspace/docs/engineering/design/artist-both-20261020-0352-mobile-nojs.png",
+      "sha256": "8ed09d56017c64000928baddeb136c50247953794e03383b590fc8c909eb340b",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "view_image desktop/mobile/group actual pixels"
+    },
+    {
+      "path": "/workspace/docs/engineering/design/artist-both-20261020-0352-mobile-nojs-group.png",
+      "sha256": "c716e23c58c0090240bf3f4f3a6b775c7ac65fd9bdbc075b1221a64e99484f0f",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "view_image desktop/mobile/group actual pixels"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/manual-20261020-0352-working-allowed.json",
+      "sha256": "a58934ec0f612d7640002e045edd19b0c83c90b29df10154500165ae0940c015",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/manual-20261020-0352-fixed-working-browser.json",
+      "sha256": "8c10b2c31678d4e0f8c9034e711f7e5eb3ec70d7f9a4c7b47d22d3dc4c1f954c",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/manual-20261020-0352-initial-failures.json",
+      "sha256": "efebe53942b508c31f8c298f32a7e034ce2b3d8e6e2d03ea12b4fb8645070fd7",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    },
+    {
+      "path": "/tmp/run44-app-browser.json",
+      "sha256": "34fb45ab55a5f7add209b2d01910168fdf97d09c0a993f3deedf063cfcef3f6e",
+      "readAt": "2026-10-19T19:06:14.299100Z",
+      "method": "full code/document/JSON read"
+    }
+  ],
+  "isolatedBrowserObserved": {
+    "path": "/tmp/jpop44-isolated-browser.log",
+    "readAt": "2026-10-19T19:06:14.299100Z",
+    "observedSnapshotSha256": "612db979c56fbe991dbe0fe244e38687fbd994bca29484bda1a5e1072e1fe2e3",
+    "selectedLines": [
+      "  ✓  15 e2e/artist-both.spec.ts:127:1 › both-provider counts equal the independent real intersection in every static artist group and index (7.0s)",
+      "  ✓  16 e2e/artist-both.spec.ts:142:1 › 360px keyboard directory entry restores exact AND results and preserves existing favorites bytes (2.3s)",
+      "  ✓  17 e2e/artist-both.spec.ts:185:1 › JavaScript-off mobile keeps both counts, exact artist anchors and the honest disabled-search fallback (6.7s)",
+      "  ✓  18 e2e/artist-both.spec.ts:209:1 › first search guide explains two-provider AND, clearing conditions and the JavaScript-free artist alternative (891ms)"
+    ],
+    "scope": "observed isolated log snapshot; new four tests passed, full53 completion not yet observed by this review; file may continue growing"
+  },
+  "globalGates": "Not a deployment approval; immutable same-SHA CI/preview/recovery/production/Release/Discord remain root-owned and pending at review read time",
+  "history": "No assigned worker blocking defect found. Preserved root execution failures are not worker deductions. Both assigned peers total20/20 on concrete scope evidence; no relative ranking by amount or verbosity."
+}

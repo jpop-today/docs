@@ -143,3 +143,8 @@ DATA-001/SONG-001/FAVORITES-001/CONTENT-001/DESIGN-001: 공식 확인 문구는 
 root 추가 소유는 기존 `e2e/title-artist-guide.spec.ts`의 TJ/금영 가이드 실제19일 편집과 다른3글14일·setlist18일 보존 검사, `e2e/app.spec.ts`의 기존 공식 확인 positive fixture 선택이다. ledger 첫 confirm이 실제 conflict일 수 있으므로 current/playlist/nonconflict인 대조를 고르며 기존 suppression·공식 근거·저장·복사 검사를 유지한다. 신규 품질 담당의 전체 conflict4ID/8업체 부정검사는 별도로 유지한다.
 
 첫 통합 artifact 검사가 충돌 번호의 본문 노출을 요구해 실패한 기록은 보존한다. 총관리자 추가 범위 `scripts/verify-dist.mjs`는 업체별 표시 영역과 역사 근거를 나누어 충돌의 번호·복사·공식 상태 재노출을 거부하고 정상 번호·복사 검사를 유지한다. 교체 담당의 독립 `tests/conflict-artifact.test.mjs`는 혼합 업체·선행0·역사 링크 보존과 부정 변형을 검증한다.
+
+
+## 두 업체 공식 확인곡 탐색 · Issue44 (2026-10-20)
+
+DATA-001/CONTENT-001/SEARCH-001/DESIGN-001: 동결차트27/29/30/31위 current playlist 4ID의 미검토 관측 번호를 metadata-only 실제 공식 조회·제목/가수/버전 검토 후 ledger84 끝에 근거 있는 항목만 append한다. 실패/불명은 보류하고 raw·마지막정상·3317ID·번호string·URL/storage와 다른5가이드를 보존한다. /artists/ 전역/가수index/그룹의 두업체 확인곡 수는 strict confirmedNumbers의 TJ/KY ID교집합이다. 기존업체별수·합집합/anchor·명의그룹을 유지한다. 전역 링크는 /search/?number=confirmed-tj&number=confirmed-ky 의 AND 조건이며 JS필요/정적대안을 안내한다. find-japanese-songs만 실제 사용흐름·조건해제·0곡≠미수록을 보강하며 새조회일/권리/추천/음원동일성/Google결과를 만들지 않는다. 독립자료오라클·JSoff/360px/키보드·preview전체noindex/noads·같은SHA CI/실제preview/복구/운영을 수용한다. 상세실행은 [Issue44](https://github.com/jpop-today/jpoptoday/issues/44)와 [run](../operations/runs/manual-20261020-0352.json)을 따른다.

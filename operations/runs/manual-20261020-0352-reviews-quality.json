@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-0352",
+  "issue": 44,
+  "reviewedAt": "2026-10-19T19:06:21Z",
+  "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "docsBase": "4ddfa9d20b2d8aee5c538d25388c499a83c8675f",
+  "reviews": [
+    {
+      "reviewer": "/root/run44_quality",
+      "candidate": "/root/run44_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "19:05:05.848Z 실제 읽기 전용 Node audit에서 요청8·원후보8·decision8·ledger append8을 정확 songId/provider/번호/전체 title·artist/URL/checkedAt/hash/reason으로 대조해 일치했다. 원본 current playlist와 frozen chart27/29/30/31 canonicalId·전체 표기가 대응하고 원84 객체·순서·상위metadata와 다른5가이드 전체 객체를 독립 비교해 보존했다. ledger a0d23d04... 및 guide7478cbdc... 파일을 실제 읽었다.",
+        "evidence": "metadata unreviewed 원후보와 별도 reviewedAt/행별 편집 이유를 실제 파일에서 읽었다. HTTP200·exact finalURL·byte/hash·실조회시간을 수집기록으로 구분하며 원응답 비저장에 따른 재파싱 불가·음원/권리/현장수록/Google심사 미확인을 명시했다. candidate↔request.metadata↔ledger evidence8/8을 직접 검사했고 실제 unit377/type0/previewartifact3347 영수증도 읽었다. 독립 새 공식 조회·원응답 재파싱을 했다고 주장하지 않는다.",
+        "value": "관측4ID의8업체 번호에 제한된 실제 근거를 더해 안전 current playlist32→36, 두업체27→31의 사용자 탐색 범위를 넓힌다. 첫 가이드가 두 조건 AND·한쪽해제·전체는번호조건만해제·0곡≠미수록·JS필요/정적artists대안을 설명하고 기존URL/타5글/unknown을 유지한다. 공개글에 내부보고·가짜권리·승인표현을 넣지 않았다.",
+        "maintainability": "기존 metadata-only helper와 ADR006 ledger를 재사용해84뒤8append만 했고 원staging/chart/3317ID/상세URL을 보존했다. raw응답·가사·secret없이 후보/요청/별도판정/검증영수증/실패한초기EPERM과한계를 남겨 다음담당이 재검토할 수 있다. Git/공용파일/빌드/배포를 중복 조작하지 않았다."
+      },
+      "acceptance": "accepted_component; 할당한 실제 metadata 수집·행별 검토·append/불변입력·첫guide 수용. 전체53 재실행은 진행중이며 clean CI/remote preview/production/실제복구/Release는 root 별도게이트. 외부권리·Google결과 미확인.",
+      "unmet": [],
+      "readProof": {
+        "auditAt": "2026-10-19T19:05:05.848Z",
+        "candidatePairsChecked": 8,
+        "preservedEntriesDeepEqual": 84,
+        "preservedOtherGuidesWholeObjects": 5,
+        "rawIds": 3317,
+        "unit377Type0ArtifactRead": true,
+        "rawHttpBodyReparsed": false,
+        "independentOfficialRefetch": false
+      },
+      "fileHashes": {
+        "jpoptoday/data/reviewed/provider-corrections.json": "a0d23d04cc705d444325f1ea8662cc00044fcba3f86074c66800569840a6eae9",
+        "jpoptoday/src/content/guides.ts": "7478cbdcbb8286597000cb0bbe3d4ea4703a3b4e316e7bf2c34d863c6cfc1e61",
+        "docs/data/provider-review-20261020-0352-requests.json": "cd770ff5bd73ae9fbdfb2eefdd141e3036bbd30878d48c065ad0600b5bd101d1",
+        "docs/data/provider-review-20261020-0352-validation.json": "30d3b15b589a3f5433a84e16091e5b74a3b27f0998a26d8957dc20e1cc3418c5",
+        "docs/data/provider-review-20261020-0352.md": "ea0aafc5b30e7412c8a1ee574b5a6916157d89e6dda98fe9d9b3c089264c4a48"
+      }
+    },
+    {
+      "reviewer": "/root/run44_quality",
+      "candidate": "/root/run44_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "criterionReasons": {
+        "correctness": "artists.astro420e6683...를 실제 읽어 strict confirmedNumbers의 업체별 ID Set에서 TJ∩KY를 계산하고 전역/index/group에 같은 의미로 표시함을 확인했다. 원래 union·TJ/KY·정확원문/공동명의 그룹·sha256anchor·상세URL은 유지된다. 최종동결테스트 efebc52a...의 독립 raw/ledger 오라클/정확가시text 포함4개가 현재 순차53 로그의15–18번에서 모두 통과한 것을 읽었다. 전체53 성공은 아직 주장하지 않는다.",
+        "evidence": "앱의 실제4322 dirtypreview 영수증과1440desktop/360JSoff/zero그룹/키보드AND검색 PNG4개를 view_image로 실제 열어 읽었다. 전역36/31/both31·28그룹과 Ado TJ1/KY0/both0, 양쪽선택31곡이 서로 맞고 가로넘침·겹침·오류overlay가 없었다. 영수증의 noerrors/noads·3pxfocus·44px·원gradient/palette와 visible화면이 대응한다. dirty sourcebase49d...를 clean최종SHA/운영검증으로 과장하지 않았다.",
+        "value": "방문업체를 번갈아 쓸 사용자가 한ID에 두공식근거가 있는곡31개를 가수단위와바로가기에서 찾고 같은 AND검색으로 이동할 수 있다. 교집합31/합집합36의 차이·0≠미수록·JS검색필요/정적대안을 화면에서 설명해 관측/unknown을 오인하지 않게 한다. 360JSoff에서도 수·목록·공식근거와기존상세에키보드로접근한다.",
+        "maintainability": "한 artists.astro 파일에서 기존 strict판정/SSR/디자인을 확장하고 새client script/의존성/공용CSS/저장키를 추가하지 않았다. data-provider-count 규약으로 독립회귀와이어지고 두 Set의 단순교집합·기존sha256 anchor를 유지한다. 소유doc에 source/hash·dirty범위·실제브라우저·미검증경계를 남겨 CI/운영인계가 가능하다."
+      },
+      "acceptance": "accepted_component; 실제앱파일/독립오라클4검사/화면4/실브라우저영수증에서 수·의미·JSoff/360/키보드·브랜드 수용. 순차전체53은진행중, clean CI/remote preview/production/복구/Release는 별도게이트.",
+      "unmet": [],
+      "readProof": {
+        "viewedScreenshots": 4,
+        "browserReceipt": "/tmp/run44-app-browser.json",
+        "browserSourceSha": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+        "dirty": true,
+        "target": "preview",
+        "latestIndependentTestsPassIndices": [
+          15,
+          16,
+          17,
+          18
+        ],
+        "whole53Status": "running_at_review",
+        "unit377Type0ArtifactRead": true
+      },
+      "fileHashes": {
+        "jpoptoday/src/pages/artists.astro": "420e66830b1205136f1a6173403de025e3aa44a7098654518609ee6eb2f528d5",
+        "docs/engineering/artist-both-20261020-0352.md": "d4dcf18f9c2922659f84177c35d7f04b1e3c9b40b858a98263fa4fb87d4f0a95",
+        "docs/engineering/design/artist-both-20261020-0352-desktop.png": "05ef56ce6011d8d44150f29f9bb687fb0b7321aa4ac05b47eb7a2970c75c5439",
+        "docs/engineering/design/artist-both-20261020-0352-keyboard-search.png": "2787d85c58eaa0792ce972f97835d2d95b64165130474270e7e1eaa4f77dc0fd",
+        "docs/engineering/design/artist-both-20261020-0352-mobile-nojs-group.png": "c716e23c58c0090240bf3f4f3a6b775c7ac65fd9bdbc075b1221a64e99484f0f",
+        "docs/engineering/design/artist-both-20261020-0352-mobile-nojs.png": "8ed09d56017c64000928baddeb136c50247953794e03383b590fc8c909eb340b"
+      }
+    }
+  ],
+  "rankingNote": "필수 산출물 수용 기준에서 실질 결함을 발견하지 않아 각20/20 동률로 기록한다. 변화량/말수로 차등하지 않는다. root의 outputcollision/기존날짜assertion갱신은 worker결함으로평가하지 않는다. 신규교체선정은 root의 사전 tieBreakOrder와 전체6평가/실검증에 따른다."
+}

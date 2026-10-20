@@ -1,0 +1,10 @@
+{
+  "run": 39345398362,
+  "job": 118376657436,
+  "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "selected": [
+    "2026-10-20T00:04:27.6470494Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 4870024cba877be8b4006a9036934086e7e1d6f7",
+    "2026-10-20T00:04:31.1170790Z {\"sourceSha\":\"4870024cba877be8b4006a9036934086e7e1d6f7\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T00:06:48.1530422Z   53 passed (1.9m)"
+  ]
+}

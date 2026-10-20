@@ -1,0 +1,18 @@
+{
+  "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "mainCI": [
+    39344897778,
+    39344897322
+  ],
+  "mainResultReceipt": "manual-20261020-0352-main-ci-results.json",
+  "previewWorkflow": 39345398362,
+  "previewWorkflowSuccess": true,
+  "previewStrictChecks": 27,
+  "previewBrowserTests": 53,
+  "contentGate": "../production-content-gate-v048-20261020.md",
+  "peerReviews": 6,
+  "replacementPeerReviews": 2,
+  "localPerTargetReproBuilds": 2,
+  "filesPerTarget": 3347,
+  "scope": "Root read six evidence-based peer reviews, two replacement reviews, actual source and screenshots; exact M CI/real preview and local frozen reproduction gates passed before managed production action. Google approval remains unknown."
+}
