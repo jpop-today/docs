@@ -1,8 +1,22 @@
-## 현재 진행 · Issue44 / 2026-10-20 KST
-
-사용자 진행 요청의 `manual-20261020-0352`를 이어간다. [PR45](https://github.com/jpop-today/jpoptoday/pull/45) head2821e395·4CI success 뒤 mainM `4870024cba877be8b4006a9036934086e7e1d6f7`로 병합했다. 공식4ID8근거 추가·안전36ID/67번호·양쪽31탐색과 첫 검색가이드 보강, 작업tree424/type0/53browser·실제6peer40동률/사전evidence제외/실제교체1·8artifact우회root보완/47pass·후속2peer20/20을 확인했다. 두target3347파일 전체반복재현을 확인했으며 같은M main app/contracts success·CI424/type0/53+53과 actualpreview strict27/1을 확인했다. 실제preview53도 통과했다. M4870024c를 managed운영 ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca에 20일00:07:59UTC 반영했고 실제운영/복구/Release 검증은 진행중이다. 아래v047은 직전완료이며 v048전체게이트완료로 해석하지 않는다. 현재재개시root만 관측됐고 기존담당 완료/미커밋문서를 보존하여 같은run으로 잇는다. 09시/hourly예약 변경없음. [실행](runs/manual-20261020-0352.json)·[정책게이트](production-content-gate-v048-20261020.md).
-
 # 실행 상태
+
+최신 제품 완료: v0.4.8 / M `4870024cba877be8b4006a9036934086e7e1d6f7` / todayjpop·jpop.today `ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca`.
+
+가수별 TJ·금영 모두 확인된 곡 수와 두 업체 AND 검색을 추가했습니다. 공식4곡8근거로 안전한 확인 범위는36곡·67번호, 양쪽 확인은31곡입니다.
+
+검증: 단위424·타입오류0, 같은 SHA CI53+53·실제 preview53/운영53, target별3347파일 두 번 재현, 실제 복구27/1→재적용27/1과 재적용 뒤10URL을 통과했습니다.
+
+협업·실패: 실제6평가40/40/40 동률로 사전 순서에 따라 자료 담당을 교체했습니다. 독립 감사의8개 검증 우회를 보완해47검사와후속2평가를 수용했습니다. 초기 제한환경 검사실패·브라우저 trace충돌·가이드 날짜 assertion 실패를 보존했습니다.
+
+예약·운영: 매일09시/hourly 기존 예약은 변경하지 않았습니다. 관리자 managed 배포이며 Actions CFbinding 미설정 후속이 남았습니다.
+
+AdSense: 실제 계정·신청·승인은 미확인입니다. 운영자의 권리·문의 실수신·ads.txt 계정 일치·본인정보/법적 동의와 실제 Google 심사 결과가 필요합니다.
+
+개인Git source/dev 메타데이터·자동false/none·도메인/이력을 보존했다. 제품/tag/운영M과 보고전용R을 구분하며, 보고 PR·실제Discord는 최종인계 영수증을 따른다. 원격53은 복구 전, 복구 후 strict27/1과10URL은 별도다.
+
+[릴리스](releases/v0.4.8-20261020.md) · [실행](runs/manual-20261020-0352.json) · [20일보](daily/2026-10-20.json) · [정책게이트](production-content-gate-v048-20261020.md)
+
+# 직전 v0.4.7 완료 이력
 
 최신 제품 완료: v0.4.7 / 제품·태그 M `88aa4dd8323defb93c8da09cb9b5569473d922ca` / todayjpop·jpop.today `3ad0bb17-2331-4192-b02a-23645ff5e02b`. 충돌4개ID/8업체의 번호 표시·개별 복사·잘못된 공식 상태를 세 생성 지점에서 보류하고 TJ/금영 가이드의 기존 Hump Back 조회 근거와 현재 보류를 연결했다. raw/ledger84·3317ID·카탈로그 bytes·기존URL/storage·원래 gradient/palette는 보존했다. 새 조회/권리/Google 결과는 만들지 않았다.
 

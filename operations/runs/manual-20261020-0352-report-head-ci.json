@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-20T00:19:07.855862+00:00",
+  "sourceSha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+  "runs": [
+    {
+      "id": 39346878581,
+      "name": "app",
+      "event": "pull_request",
+      "head_sha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+      "head_branch": "codex/issue44-completion-report",
+      "status": "in_progress",
+      "conclusion": null,
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39346878581",
+      "created_at": "2026-10-20T00:18:42Z",
+      "updated_at": "2026-10-20T00:18:46Z"
+    },
+    {
+      "id": 39346878535,
+      "name": "contracts",
+      "event": "pull_request",
+      "head_sha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+      "head_branch": "codex/issue44-completion-report",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39346878535",
+      "created_at": "2026-10-20T00:18:42Z",
+      "updated_at": "2026-10-20T00:18:57Z"
+    },
+    {
+      "id": 39346835697,
+      "name": "app",
+      "event": "push",
+      "head_sha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+      "head_branch": "codex/issue44-completion-report",
+      "status": "in_progress",
+      "conclusion": null,
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39346835697",
+      "created_at": "2026-10-20T00:18:17Z",
+      "updated_at": "2026-10-20T00:18:21Z"
+    },
+    {
+      "id": 39346835750,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+      "head_branch": "codex/issue44-completion-report",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39346835750",
+      "created_at": "2026-10-20T00:18:17Z",
+      "updated_at": "2026-10-20T00:18:32Z"
+    }
+  ],
+  "allCompleted": false,
+  "allSuccess": false
+}

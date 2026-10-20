@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-20T00:19:07.173994+00:00",
+  "sourceReportHead": "b404f1e7a5778fa2b4363649c93e5697bd3c52de",
+  "sourcePR": 46,
+  "docsPR": 26,
+  "completeReportSchema": true,
+  "identicalSourceDocsCore": true,
+  "actualSixReviewFramework": [
+    40,
+    40,
+    40
+  ],
+  "discordFieldLengths": [
+    107,
+    136,
+    81,
+    85
+  ],
+  "brokenChangedMarkdownLinks": 0,
+  "scope": "Actual local report validation and read-only root review; productionM remains separate. Completed Discord has not yet been dispatched."
+}

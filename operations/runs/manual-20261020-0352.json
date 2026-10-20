@@ -1,7 +1,7 @@
 {
   "runId": "manual-20261020-0352",
   "issue": 44,
-  "state": "product_verified_release_pending",
+  "state": "product_completed_reporting",
   "startedAt": "2026-10-19T18:54:20.093376+00:00",
   "timezone": "Asia/Seoul",
   "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
@@ -53,8 +53,8 @@
     "rights/contact delivery/ads.txt account match",
     "safe Actions CF binding"
   ],
-  "coordination": "Issue9 latest COMPLETED; no open source PR and only root in current collaboration; previous chat-list timeout does not prove global absence",
-  "next": "Wait verified v0.4.8 Release, publish docs/report-only PR and identical completion Discord; no further product deploy needed.",
+  "coordination": "Continued same Issue44 under repeated prompts; no new initial team. Logical roster preserved; runtime list returned root only after completed workers.",
+  "next": "Merge docs and report-only PR, confirm main CI and send identical saved completion through existing Discord workflow; receipt recorded separately.",
   "coordinationComment": {
     "id": 6274829131,
     "at": "2026-10-19T18:54:37Z"
@@ -108,5 +108,48 @@
     "postrestoreStrict": "27/1",
     "postrestoreOrdinaryURLs": 10
   },
-  "releaseWorkflow": 39346504008
+  "releaseWorkflow": 39346504008,
+  "productCompletedAt": "2026-10-20T00:17:53.868471+00:00",
+  "production": {
+    "id": "ca7a98a4-e8e3-4e2c-8eee-2b41a7f3f4ca",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "remoteRun": 39345873779,
+    "remoteTests": 53,
+    "http": "27/1",
+    "recovery": {
+      "old": "3ad0bb17-2331-4192-b02a-23645ff5e02b",
+      "rollbackAttempts": 1,
+      "restoreAttempts": 1
+    },
+    "postrestoreURLs": 10,
+    "actionsCFBindings": "missing; managed deploy actual; verify_only workflow separately succeeded"
+  },
+  "release": {
+    "checkedAt": "2026-10-20T00:17:47.017772+00:00",
+    "version": "0.4.8",
+    "tag": "v0.4.8",
+    "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+    "annotatedObject": "1d87e491af953edb0aeeca5fe8dcb35fec52a0e1",
+    "releaseId": 417876747,
+    "publishedAt": "2026-10-20T00:17:41Z",
+    "draft": false,
+    "prerelease": false,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.8",
+    "workflowRun": 39346504008,
+    "workflowConclusion": "success"
+  },
+  "actualValidation": {
+    "unit": 424,
+    "typeErrors": 0,
+    "localBrowser": 53,
+    "sameMainCIBrowser": [
+      53,
+      53
+    ],
+    "previewRemote": 53,
+    "productionRemote": 53,
+    "artifactEach": 3347,
+    "localReproPerTarget": 2,
+    "postrestoreURLs": 10
+  }
 }
