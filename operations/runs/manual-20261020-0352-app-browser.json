@@ -1,0 +1,55 @@
+{
+  "url": "http://127.0.0.1:4322",
+  "browser": "system Chromium /usr/bin/chromium",
+  "startedAt": "2026-10-19T19:03:47.364Z",
+  "browserPath": "Browser js/runtime/CUA tools absent; source AGENTS and root assignment permit Playwright",
+  "checks": [
+    {
+      "viewport": "1440x1000",
+      "globalBoth": 31,
+      "groups": 28,
+      "groupsWithBoth": 23,
+      "indexAndGroupCounts": "agree with independent rendered provider-card intersection",
+      "pageIdentity": true,
+      "notBlank": true,
+      "noOverlay": true,
+      "previewNoindex": true,
+      "noOverflow": true,
+      "keyboardEnterSearch": true,
+      "andURL": true,
+      "resultCount": "31곡",
+      "focus": {
+        "outlineWidth": "3px",
+        "outlineStyle": "solid"
+      },
+      "palette": {
+        "stripe": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "brand": "linear-gradient(135deg, rgb(79, 124, 255), rgb(255, 122, 168))",
+        "body": "radial-gradient(circle at 12% 10%, rgba(255, 122, 168, 0.18), rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 90% 6%, rgba(77, 199, 183, 0.16), rgba(0, 0, 0, 0) 28%), linear-gradient(rgb(251, 252, 255) 0%, rgb(247, 249, 252) 48%, rgb(238, 245, 255) 100%)",
+        "mint": "rgb(231, 245, 239)"
+      }
+    },
+    {
+      "viewport": "360x800",
+      "javaScript": false,
+      "staticBoth": 31,
+      "staticIndexAndGroup": true,
+      "jsAndZeroMeaningVisible": true,
+      "noOverflow": true,
+      "searchLink44px": true,
+      "keyboardArtistAnchor": "#artist-db0f56a2626eb3f0",
+      "keyboardExistingDetail": "/songs/jpop-playlist-ado-%E9%80%86%E5%85%89-c8c1ba8b20/",
+      "officialEvidence": true
+    }
+  ],
+  "buildInfo": {
+    "sourceSha": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+    "target": "preview",
+    "dirty": true,
+    "catalogSha256": "58900d11b9cf43c3849050074176ea241c4862d1a4ad5858db3a1aa443803a8f",
+    "ledgerSha256": "2431130e4f4e3f5c1424322edd65502a9573f660a628922eac280186d3ee16cf"
+  },
+  "browserProblems": [],
+  "finishedAt": "2026-10-19T19:03:50.524Z",
+  "status": "passed"
+}

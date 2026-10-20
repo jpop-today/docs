@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-19T19:13:12.902858+00:00",
+  "head": "2821e395bf8fb3eabfcdfeaee934be2e0ba9e9b9",
+  "branch": "codex/issue44-provider-both",
+  "files": [
+    "data/reviewed/provider-corrections.json",
+    "src/content/guides.ts",
+    "src/pages/artists.astro",
+    "e2e/artist-both.spec.ts",
+    "e2e/conflicted-numbers.spec.ts",
+    "e2e/title-artist-guide.spec.ts",
+    "tests/both-provider-artifact.test.mjs",
+    "scripts/verify-dist.mjs",
+    "package.json",
+    "package-lock.json",
+    "releases/v0.4.8.md"
+  ],
+  "checks": "working424/type0/artifact3347 and browser53; cleanSHA CI pending",
+  "base": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8"
+}

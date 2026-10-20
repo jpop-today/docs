@@ -1,0 +1,14 @@
+{
+  "artist": "back number",
+  "checkedAt": "2026-10-19T18:55:58.398530Z",
+  "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43932",
+  "number": "43932",
+  "provider": "ky",
+  "responseBytes": 48062,
+  "responseSha256": "03397b55b424ef2c7ec7f3785b3885fc58519c687356d418a35ae624d95e2e31",
+  "schemaVersion": 1,
+  "status": 200,
+  "title": "高嶺の花子さん",
+  "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43932",
+  "verification": "unreviewed"
+}

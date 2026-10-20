@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-10-19T19:00:44.987856+00:00",
+  "scope": "working tree before product commit; clean same-SHA gates remain separate",
+  "steps": [
+    {
+      "name": "artifact",
+      "exit": 0,
+      "selected": [
+        "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 49d6806bb00e813bb3dcda15a22f2cf8d2d21da8 (dirty local build)"
+      ]
+    },
+    {
+      "name": "browser",
+      "exit": 1,
+      "selected": [
+        "    Error: browserContext.close: ENOENT: no such file or directory, open '/workspace/jpoptoday/test-results/.playwright-artifacts-0/traces/b7e25cba056857e6e293-345768874a902997bd0b-recording93.trace'",
+        "    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/workspace/jpoptoday/test-results/.playwright-artifacts-1/traces/ae783375225fac93c986-b13ffe1b452b6ea2abe4-recording27.network' -> '/workspace/jpoptoday/test-results/.playwright-artifacts-1/traces/ae783375225fac93c986-b13ffe1b452b6ea2abe4-recording27-pwnetcopy-1.network'",
+        "    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open '/workspace/jpoptoday/test-results/.playwright-artifacts-1/traces/ae783375225fac93c986-b13ffe1b452b6ea2abe4-recording25.trace'",
+        "    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/workspace/jpoptoday/test-results/.playwright-artifacts-1/traces/ae783375225fac93c986-b13ffe1b452b6ea2abe4-recording26.trace'",
+        "    Error: ENOENT: no such file or directory, open '/workspace/jpoptoday/test-results/.playwright-artifacts-1/60b85c7db11824bef5f2811692fbc8c6.zip'",
+        "    Error: expect(received).toMatch(expected)",
+        "  3 failed",
+        "  50 passed (2.9m)"
+      ]
+    }
+  ],
+  "finishedAt": "2026-10-19T19:03:43.744664+00:00",
+  "buildInfo": {
+    "schemaVersion": 2,
+    "target": "preview",
+    "sourceSha": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "58900d11b9cf43c3849050074176ea241c4862d1a4ad5858db3a1aa443803a8f",
+    "ledgerSha256": "2431130e4f4e3f5c1424322edd65502a9573f660a628922eac280186d3ee16cf",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": true
+  },
+  "success": false
+}

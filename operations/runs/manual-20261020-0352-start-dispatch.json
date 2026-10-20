@@ -1,0 +1,11 @@
+{
+  "requestedAt": "2026-10-19T19:00:54.402911+00:00",
+  "workflow": "discord.yml",
+  "ref": "main",
+  "inputs": {
+    "mode": "message",
+    "title": "Issue44 개발 시작 · 2026-10-20",
+    "message": "10월19일에는 v0.4.7 충돌번호 표시·복사 보류와 실제 운영/복구/Release를 완료했습니다. 10월20일 사용자 진행 요청으로 Issue44를 시작해 공식 미검토4곡의8번호 근거, 가수별 TJ·금영 양쪽 확인곡 수/AND검색과 사용 가이드를 개선합니다. 신규3담당·root 단독통합이며09시/hourly 기존예약은 변경하지 않습니다. Google계정/신청/승인은unknown, 운영자 권리·문의실수신·ads.txt계정일치·본인/법적동의와 안전한Actions CFbinding은 별도 후속입니다."
+  },
+  "state": "accepted_not_yet_confirmed_sent"
+}

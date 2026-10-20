@@ -1,0 +1,16 @@
+{
+  "startedAt": "2026-10-19T18:58:37.064475+00:00",
+  "scope": "Dirty working implementation before immutable commit; not deployment proof",
+  "checks": [
+    {
+      "name": "unit",
+      "exit": -15,
+      "selected": [
+        "ℹ tests 27",
+        "ℹ pass 15",
+        "ℹ fail 5"
+      ]
+    }
+  ],
+  "finishedAt": "2026-10-19T18:59:43.824637+00:00"
+}

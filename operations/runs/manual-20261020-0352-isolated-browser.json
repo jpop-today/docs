@@ -1,0 +1,12 @@
+{
+  "runId": "manual-20261020-0352",
+  "observedAt": "2026-10-19T19:07:39.573145+00:00",
+  "command": "JPOP_TEST_BASE_URL=http://127.0.0.1:4322 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npx playwright test --output=/tmp/jpop44-isolated-browser-results",
+  "sourceTree": "dirty49d6806 beforecommit; frozen final4 efebc52a",
+  "passed": true,
+  "tests": 53,
+  "selected": [
+    "  53 passed (2.4m)"
+  ],
+  "logSha256": "6c33b29801dc42b7151d0c940106b5e658c8508a9d7e5e8e7a4aedf1c7bfa3fc"
+}

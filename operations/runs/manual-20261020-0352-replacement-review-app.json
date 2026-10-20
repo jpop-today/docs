@@ -1,0 +1,67 @@
+{
+  "runId": "manual-20261020-0352",
+  "issue": 44,
+  "reviewer": "/root/run44_app",
+  "candidate": "/root/run44_replacement",
+  "reviewedAt": "2026-10-19T19:13:42.361876+00:00",
+  "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "mode": "readonly_source_and_evidence_review_except_this_new_review_file",
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "reasons": {
+    "correctness": "최종 owned test 전체와 root verifyBothProviderDiscovery 전체를 읽었다. 합성 자료의 명시 기대 교집합3·합집합8·업체건수합11·정확가수그룹7이 각 provider 상태에 맞는다. 같은가수의 별개TJ전용/KY전용 ID를 교집합으로 합치지 않으며 선행0 번호/001과1 ID/공백다른가수명/0그룹을 보존한다. 테스트는 검사대상 함수만 import하고 기대값에 앱 count/group/predicate helper를 쓰지 않는다. 원문가수명3곳과 숨은 요구요소5곳의 최초실패를 root가 실제고쳤고 같은 테스트가 최종모두통과한다.",
+    "evidence": "문서·owned test hash를 실제 sha256sum으로 확인했다. 최초 restricted wrapper로그·permitted 최초37pass10fail·독립 final47pass0·root 별도 final47pass0와 artifact 로그를 직접 읽고 hash를 대조했다. 최초8leaf Missing expected exception과 실패부모2개를 구분해 독립문제10개라고 부르지 않는다. 테스트 파일은 initial/final 같은6794eb13...이며 root verifier만 b31b13f3...로 바뀌었다. dirty local artifact를 최종clean SHA/remote CI·운영 증거로 주장하지 않는다.",
+    "value": "사용자에게 다른가수명·숨은수치·숨은검색을 제공해도 artifact가 통과하던 실제누락을 발견했다. visible count/data count 불일치, sum/union 혼동, 깨진 anchor·잘못된원문, 비anchor/빈/중복검색·외부origin·단일/중복/추가provider·예상외query를 차단해 실제 탐색동선과 identity를 보호한다. 두single-provider곡이 both1로 합쳐지는 오류를 별도 반례로 검증한다.",
+    "maintainability": "합성자료와 실제provider조회를 분리하고 explicit fixture/작은 생성함수/명시변형목록으로 회귀원인을 추적할 수 있다. owned source/doc만수정하고 root공유verifier는 root에게인계했다. 최초실패와 최종성공로그/hash를 보존하며 static HTML가시성검사와 computedCSS/키보드/브라우저/배포gate의 한계를 명시한다. 최초6평가40동률·사전처리순서·논리제외와 신규교체를 정확히기록하고 물리삭제나품질열세를만들지않는다."
+  },
+  "actualRead": [
+    "jpoptoday/tests/both-provider-artifact.test.mjs",
+    "jpoptoday/scripts/verify-dist.mjs:verifyBothProviderDiscovery",
+    "docs/engineering/artist-both-artifact-audit-20261020-0352.md",
+    "/tmp/jpop44-replacement-initial-test.log",
+    "/tmp/jpop44-replacement-initial-permitted-test.log",
+    "/tmp/jpop44-replacement-final-test.log",
+    "/tmp/jpop44-replacement-root-fixed-test.log",
+    "/tmp/jpop44-artifact-hardened.log",
+    "/tmp/jpop44-final-working-unit.log",
+    "/tmp/jpop44-final-working-type.log",
+    "/tmp/jpop44-final-working-artifact.log",
+    "docs/operations/runs/manual-20261020-0352-isolated-browser.json"
+  ],
+  "hashes": {
+    "jpoptoday/tests/both-provider-artifact.test.mjs": "6794eb13a45658e1b2df93f7db330a3597e529314e376bf87a32702a3384fc81",
+    "jpoptoday/scripts/verify-dist.mjs": "b31b13f31ebdb40784bbb1171eec62062b2c6575ba1b794fc1afa7eb1c426d74",
+    "docs/engineering/artist-both-artifact-audit-20261020-0352.md": "0ab2ef5d4735fe96c2901a3867649bbcce16abedc36d6bb484233f7587c7e6ff",
+    "/tmp/jpop44-replacement-initial-test.log": "1b52022672ebd3c090b14e478cc4c0b293cd99088a98d8322a448e472c32e650",
+    "/tmp/jpop44-replacement-initial-permitted-test.log": "ae7ffb66c17e41ca73c0eacf4f5570d87ff604b95dc33e4860fe3f9f2b758316",
+    "/tmp/jpop44-replacement-final-test.log": "9a4e3bc94093e92d062dc9fa53338a8f5517f6f3ef28b94b97d3f313a55a7929",
+    "/tmp/jpop44-replacement-root-fixed-test.log": "55b76001ff5a84afbcb276bb0bb28e7d0602963bec39b252f682201c1b9f4fa5",
+    "/tmp/jpop44-artifact-hardened.log": "63952b7db049e802408a6be03e9cc4758dc1ab959c566b2b24c1bb2fb441fce4",
+    "/tmp/jpop44-final-working-unit.log": "306128661ce8d651d156e006a017e345d7033deec3a73c2820bfd875ec390a66",
+    "/tmp/jpop44-final-working-type.log": "80217e50af534d273eecb9b3f6cd702110f2dbf9666183ec8db1111a60ef7c41",
+    "/tmp/jpop44-final-working-artifact.log": "5f89f335bb197a60cbd2f211f18a3f6646e0bf616216415c650e8e58f83487d0"
+  },
+  "verified": {
+    "initialRestricted": "wrapper1fail; leaf execution unconfirmed and failure cause not attributed by reviewer",
+    "initialPermitted": "47nodes:37pass/10fail;8leaf missing-exception plus2failedparents",
+    "sameFinalTests": "47pass/0fail in replacement independent run and root separate run; unchanged owned source hash",
+    "rootStaticFixRead": "static-hidden subtree omitted; exact original name retained for index text/group h2/data-artist-name; count and AND link remain checked",
+    "actualArtifact": "dirty49d preview3347files/3336HTML/0indexable",
+    "rootWorkingIntegrationActuallyRead": "424tests/pass424/fail0; Astro26files/0errors/0warnings/0hints; dirty preview artifact3347files passed",
+    "browserReceiptActuallyRead": "separate root frozen53pass(2.4m) receipt; synthetic audit does not independently exercise browser CSS/focus"
+  },
+  "findings": [],
+  "blockers": [],
+  "acceptance": "accept_replacement_test_and_audit_with_root_verifier_fix_pending_final_clean_sha_delivery_gates",
+  "limits": [
+    "읽기전용평가이며 테스트를 새로실행하거나 새반례를추가하지 않았다.",
+    "초기 verifier2361fb24...의 원본전체를 이 평가에서 따로재실행하지 않았고 실제실패로그·동일테스트·최종root코드를 대조했다.",
+    "HTML parser의 완전한 등가성이나 CSS가시성·screenreader·물리기기·provider원조회·권리·Google심사를 증명하지 않는다.",
+    "root의 최종clean source SHA CI/remote preview/실제복구/production은 아직 별도gate이며 이평가로 통과처리하지 않는다.",
+    "최초6평가와 동률/제외기록은 수정하지 않았으며 worker물리삭제를 주장하지 않는다."
+  ]
+}

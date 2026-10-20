@@ -1,0 +1,38 @@
+{
+  "startedAt": "2026-10-19T18:59:58.054253+00:00",
+  "scope": "Working tree before commit, ordinary network permission for local HTTP/CLI child process tests; initial restricted run retained",
+  "checks": [
+    {
+      "name": "unit",
+      "exit": 0,
+      "selected": [
+        "ℹ tests 377",
+        "ℹ pass 377",
+        "ℹ fail 0"
+      ]
+    },
+    {
+      "name": "type",
+      "exit": 0,
+      "selected": [
+        "Result (26 files): ",
+        "- 0 errors",
+        "- 0 warnings",
+        "- 0 hints"
+      ]
+    },
+    {
+      "name": "build",
+      "exit": 0,
+      "selected": []
+    },
+    {
+      "name": "artifact",
+      "exit": 0,
+      "selected": [
+        "Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 49d6806bb00e813bb3dcda15a22f2cf8d2d21da8 (dirty local build)"
+      ]
+    }
+  ],
+  "finishedAt": "2026-10-19T19:00:25.347555+00:00"
+}

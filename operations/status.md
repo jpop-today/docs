@@ -1,3 +1,7 @@
+## 현재 진행 · Issue44 / 2026-10-20 KST
+
+사용자 진행 요청의 `manual-20261020-0352`를 이어간다. [PR45](https://github.com/jpop-today/jpoptoday/pull/45) head2821e395·4CI success 뒤 mainM `4870024cba877be8b4006a9036934086e7e1d6f7`로 병합했다. 공식4ID8근거 추가·안전36ID/67번호·양쪽31탐색과 첫 검색가이드 보강, 작업tree424/type0/53browser·실제6peer40동률/사전evidence제외/실제교체1·8artifact우회root보완/47pass·후속2peer20/20을 확인했다. 두target3347파일 전체반복재현을 확인했으며 같은M main app/contracts success·CI424/type0/53+53과 actualpreview strict27/1을 확인했다. 실제preview53 browser·운영/복구/Release 마감이 남았다. 현재운영은 아래v047이며 새버전운영완료로 해석하지 않는다. 현재재개시root만 관측됐고 기존담당 완료/미커밋문서를 보존하여 같은run으로 잇는다. 09시/hourly예약 변경없음. [실행](runs/manual-20261020-0352.json)·[정책게이트](production-content-gate-v048-20261020.md).
+
 # 실행 상태
 
 최신 제품 완료: v0.4.7 / 제품·태그 M `88aa4dd8323defb93c8da09cb9b5569473d922ca` / todayjpop·jpop.today `3ad0bb17-2331-4192-b02a-23645ff5e02b`. 충돌4개ID/8업체의 번호 표시·개별 복사·잘못된 공식 상태를 세 생성 지점에서 보류하고 TJ/금영 가이드의 기존 Hump Back 조회 근거와 현재 보류를 연결했다. raw/ledger84·3317ID·카탈로그 bytes·기존URL/storage·원래 gradient/palette는 보존했다. 새 조회/권리/Google 결과는 만들지 않았다.

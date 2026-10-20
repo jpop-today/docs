@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-20T00:03:50.709113+00:00",
+  "sourceSha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+  "runs": [
+    {
+      "id": 39344897778,
+      "name": "app",
+      "event": "push",
+      "head_sha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+      "head_branch": "main",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39344897778",
+      "created_at": "2026-10-19T23:59:13Z",
+      "updated_at": "2026-10-20T00:01:49Z"
+    },
+    {
+      "id": 39344897322,
+      "name": "contracts",
+      "event": "push",
+      "head_sha": "4870024cba877be8b4006a9036934086e7e1d6f7",
+      "head_branch": "main",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39344897322",
+      "created_at": "2026-10-19T23:59:12Z",
+      "updated_at": "2026-10-19T23:59:26Z"
+    }
+  ],
+  "allCompleted": true,
+  "allSuccess": true
+}

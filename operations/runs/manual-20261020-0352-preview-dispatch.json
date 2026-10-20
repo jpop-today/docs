@@ -1,0 +1,13 @@
+{
+  "acceptedAt": "2026-10-20T00:04:06.932812+00:00",
+  "workflow": "deployed-preview.yml",
+  "payload": {
+    "ref": "main",
+    "inputs": {
+      "deployment_url": "https://efe6b1f6.jpoptoday-preview.pages.dev",
+      "source_sha": "4870024cba877be8b4006a9036934086e7e1d6f7"
+    }
+  },
+  "accepted": true,
+  "scope": "Dispatch accepted; actual result read separately"
+}

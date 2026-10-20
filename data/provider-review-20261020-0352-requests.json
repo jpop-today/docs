@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "runId": "manual-20261020-0352",
+  "requests": [
+    {
+      "rank": 27,
+      "songId": "jpop-playlist-orangestar-feat-ia-アスノヨソ-ラ哨戒班-45d82ae042",
+      "provider": "tj",
+      "number": "27984",
+      "startedAt": "2026-10-19T18:55:45.289430+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-tj-27984-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "27984",
+        "title": "アスノヨゾラ哨戒班",
+        "artist": "Orangestar(Feat.IA)",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27984&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27984&strWord=Y",
+        "checkedAt": "2026-10-19T18:55:46.875855Z",
+        "responseSha256": "c12859c173e9f0d2877549755c307bab0789c63f05fca00edd7f565b1c8cdfb8",
+        "responseBytes": 49255,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:55:46.877920+00:00"
+    },
+    {
+      "rank": 27,
+      "songId": "jpop-playlist-orangestar-feat-ia-アスノヨソ-ラ哨戒班-45d82ae042",
+      "provider": "ky",
+      "number": "44091",
+      "startedAt": "2026-10-19T18:55:46.878002+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-ky-44091-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "44091",
+        "title": "アスノヨゾラ哨戒班",
+        "artist": "Orangestar feat.IA",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44091",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=44091",
+        "checkedAt": "2026-10-19T18:55:50.513829Z",
+        "responseSha256": "4aa57c859d7b8f4dfc07fe2ac15d0ab9a621a319ddca6038e74d82746206fddb",
+        "responseBytes": 46535,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:55:50.516012+00:00"
+    },
+    {
+      "rank": 29,
+      "songId": "jpop-playlist-mrs-green-apple-ライラック-845233e093",
+      "provider": "tj",
+      "number": "68461",
+      "startedAt": "2026-10-19T18:55:50.516299+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-tj-68461-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "68461",
+        "title": "ライラック(アニメ '忘却バッテリー' OST)",
+        "artist": "Mrs. GREEN APPLE",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68461&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=68461&strWord=Y",
+        "checkedAt": "2026-10-19T18:55:51.860999Z",
+        "responseSha256": "3b131a20449211a8c308f4bb805900f9e95f5a3d564dcd64deace1477a88a160",
+        "responseBytes": 49283,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:55:51.862603+00:00"
+    },
+    {
+      "rank": 29,
+      "songId": "jpop-playlist-mrs-green-apple-ライラック-845233e093",
+      "provider": "ky",
+      "number": "75996",
+      "startedAt": "2026-10-19T18:55:51.862798+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-ky-75996-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "75996",
+        "title": "ライラック (\"忘却バッテリー\"OP)",
+        "artist": "Mrs. GREEN APPLE",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=75996",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=75996",
+        "checkedAt": "2026-10-19T18:55:54.727123Z",
+        "responseSha256": "173207a515933cbec1d668cf802004866e78b6144cb6020b47a7fcf62b75a031",
+        "responseBytes": 56144,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:55:54.729636+00:00"
+    },
+    {
+      "rank": 30,
+      "songId": "jpop-playlist-back-number-高嶺の花子さん-2433a62d20",
+      "provider": "tj",
+      "number": "27805",
+      "startedAt": "2026-10-19T18:55:54.729708+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-tj-27805-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "27805",
+        "title": "高嶺の花子さん",
+        "artist": "back number",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27805&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=27805&strWord=Y",
+        "checkedAt": "2026-10-19T18:55:55.401885Z",
+        "responseSha256": "b9c5e42c18461c14ade1d619a94c9aff5d80027f659dc05cb65046f9bd863e45",
+        "responseBytes": 49251,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:55:55.403895+00:00"
+    },
+    {
+      "rank": 30,
+      "songId": "jpop-playlist-back-number-高嶺の花子さん-2433a62d20",
+      "provider": "ky",
+      "number": "43932",
+      "startedAt": "2026-10-19T18:55:55.403971+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-ky-43932-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "43932",
+        "title": "高嶺の花子さん",
+        "artist": "back number",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43932",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=43932",
+        "checkedAt": "2026-10-19T18:55:58.398530Z",
+        "responseSha256": "03397b55b424ef2c7ec7f3785b3885fc58519c687356d418a35ae624d95e2e31",
+        "responseBytes": 48062,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:55:58.400243+00:00"
+    },
+    {
+      "rank": 31,
+      "songId": "jpop-playlist-x-japan-endless-rain-a5ac0ff8b8",
+      "provider": "tj",
+      "number": "6773",
+      "startedAt": "2026-10-19T18:55:58.400540+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-tj-6773-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "tj",
+        "number": "6773",
+        "title": "Endless Rain",
+        "artist": "X-JAPAN",
+        "url": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=6773&strWord=Y",
+        "finalUrl": "https://www.tjmedia.com/song/accompaniment_search?nationType=JPN&strType=16&searchTxt=6773&strWord=Y",
+        "checkedAt": "2026-10-19T18:55:59.099286Z",
+        "responseSha256": "803c1b21543c0064ab5cfb920858caccb4865131c5d0f48f278b1a21f8f49c24",
+        "responseBytes": 49220,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:55:59.101099+00:00"
+    },
+    {
+      "rank": 31,
+      "songId": "jpop-playlist-x-japan-endless-rain-a5ac0ff8b8",
+      "provider": "ky",
+      "number": "40993",
+      "startedAt": "2026-10-19T18:55:59.101184+00:00",
+      "candidateFile": "data/provider-review-20261020-0352-ky-40993-candidate.json",
+      "outcome": "metadata_collected",
+      "metadata": {
+        "schemaVersion": 1,
+        "provider": "ky",
+        "number": "40993",
+        "title": "Endless Rain (\"X2\",\"乙姫CONNECTION\"OST,映画\"ジパング\")",
+        "artist": "X JAPAN",
+        "url": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=40993",
+        "finalUrl": "https://kygabang.com/chart/search_list.php?mode=SongSearch&val=40993",
+        "checkedAt": "2026-10-19T18:56:01.553677Z",
+        "responseSha256": "55ef88f620c9ccf38bf2ac634175f21813a6327ade5ab33d753b6b992e32bb82",
+        "responseBytes": 37072,
+        "status": 200,
+        "verification": "unreviewed"
+      },
+      "finishedAt": "2026-10-19T18:56:01.555030+00:00"
+    }
+  ],
+  "editorialReview": {
+    "reviewer": "/root/run44_evidence",
+    "reviewedAt": "2026-10-19T18:56:38.387138Z",
+    "sourceBase": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+    "docsBase": "4ddfa9d20b2d8aee5c538d25388c499a83c8675f",
+    "originalLedgerEntries": 84,
+    "appendedConfirm": 8,
+    "appendedSuppress": 0,
+    "deferred": 0,
+    "decisions": [
+      {
+        "rank": 27,
+        "songId": "jpop-playlist-orangestar-feat-ia-アスノヨソ-ラ哨戒班-45d82ae042",
+        "provider": "tj",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "アスノヨゾラ哨戒班",
+          "artist": "Orangestar feat.IA",
+          "observedNumber": "27984"
+        },
+        "chart": {
+          "title": "アスノヨゾラ哨戒班",
+          "artist": "Orangestar(Feat.IA)",
+          "rank": 27,
+          "canonicalId": "jpop-playlist-orangestar-feat-ia-アスノヨソ-ラ哨戒班-45d82ae042"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-tj-27984-candidate.json",
+        "reason": "TJ 공식 제목 アスノヨゾラ哨戒班은 staging 본제와 같고 가수 Orangestar(Feat.IA)는 동일 canonicalId의 동결차트 전체 명의와 정확히 일치합니다. staging Orangestar feat.IA와는 Feat 대소문자·괄호·공백 차이이며 전체 명의 IA를 보존합니다. 음원·편곡 또는 기기 모델의 동일성은 판단하지 않습니다."
+      },
+      {
+        "rank": 27,
+        "songId": "jpop-playlist-orangestar-feat-ia-アスノヨソ-ラ哨戒班-45d82ae042",
+        "provider": "ky",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "アスノヨゾラ哨戒班",
+          "artist": "Orangestar feat.IA",
+          "observedNumber": "44091"
+        },
+        "chart": {
+          "title": "アスノヨゾラ哨戒班",
+          "artist": "Orangestar(Feat.IA)",
+          "rank": 27,
+          "canonicalId": "jpop-playlist-orangestar-feat-ia-アスノヨソ-ラ哨戒班-45d82ae042"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-ky-44091-candidate.json",
+        "reason": "금영 공식 제목 アスノヨゾラ哨戒班과 가수 Orangestar feat.IA는 staging 원문과 정확히 일치합니다. 동결차트의 Orangestar(Feat.IA)와는 feat 대소문자·괄호·공백 차이를 검토했습니다. 전체 명의를 보존하며 음원·편곡 또는 현장 수록 동일성을 추정하지 않습니다."
+      },
+      {
+        "rank": 29,
+        "songId": "jpop-playlist-mrs-green-apple-ライラック-845233e093",
+        "provider": "tj",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "ライラック",
+          "artist": "Mrs. GREEN APPLE",
+          "observedNumber": "68461"
+        },
+        "chart": {
+          "title": "ライラック(アニメ '忘却バッテリー' OST)",
+          "artist": "Mrs. GREEN APPLE",
+          "rank": 29,
+          "canonicalId": "jpop-playlist-mrs-green-apple-ライラック-845233e093"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-tj-68461-candidate.json",
+        "reason": "TJ 공식 전체 제목 ライラック(アニメ '忘却バッテリー' OST)와 가수 Mrs. GREEN APPLE은 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. staging 본제 ライラック·가수와 대응하며 공식 작품 부제를 그대로 보존합니다. 오디오·반주기 버전의 동일성은 판단하지 않습니다."
+      },
+      {
+        "rank": 29,
+        "songId": "jpop-playlist-mrs-green-apple-ライラック-845233e093",
+        "provider": "ky",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "ライラック",
+          "artist": "Mrs. GREEN APPLE",
+          "observedNumber": "75996"
+        },
+        "chart": {
+          "title": "ライラック(アニメ '忘却バッテリー' OST)",
+          "artist": "Mrs. GREEN APPLE",
+          "rank": 29,
+          "canonicalId": "jpop-playlist-mrs-green-apple-ライラック-845233e093"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-ky-75996-candidate.json",
+        "reason": "금영 공식 본제 ライラック과 가수 Mrs. GREEN APPLE은 staging과 일치하며 작품명 忘却バッテリー는 동일 canonicalId의 동결차트와 대응합니다. 공식 부제의 OP와 TJ 차트의 OST 표기는 작품에서의 사용 표기 차이로 읽고 금영 전체 셀을 그대로 보존합니다. 이를 같은 녹음·편곡 또는 모든 기기 수록의 근거로 확대하지 않습니다."
+      },
+      {
+        "rank": 30,
+        "songId": "jpop-playlist-back-number-高嶺の花子さん-2433a62d20",
+        "provider": "tj",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "高嶺の花子さん",
+          "artist": "back number",
+          "observedNumber": "27805"
+        },
+        "chart": {
+          "title": "高嶺の花子さん",
+          "artist": "back number",
+          "rank": 30,
+          "canonicalId": "jpop-playlist-back-number-高嶺の花子さん-2433a62d20"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-tj-27805-candidate.json",
+        "reason": "TJ 공식 전체 제목 高嶺の花子さん과 가수 back number가 staging 및 동일 canonicalId의 동결차트 원문과 정확히 일치합니다. 이 번호의 제목·가수 대조만 확인하며 음원·편곡 또는 현장 기기 지원을 추정하지 않습니다."
+      },
+      {
+        "rank": 30,
+        "songId": "jpop-playlist-back-number-高嶺の花子さん-2433a62d20",
+        "provider": "ky",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "高嶺の花子さん",
+          "artist": "back number",
+          "observedNumber": "43932"
+        },
+        "chart": {
+          "title": "高嶺の花子さん",
+          "artist": "back number",
+          "rank": 30,
+          "canonicalId": "jpop-playlist-back-number-高嶺の花子さん-2433a62d20"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-ky-43932-candidate.json",
+        "reason": "금영 공식 전체 제목 高嶺の花子さん과 가수 back number가 staging 및 동일 canonicalId의 동결차트 원문과 정확히 일치합니다. 업체별 번호와 근거를 보존하며 음원·편곡 또는 현장 기기 지원을 추정하지 않습니다."
+      },
+      {
+        "rank": 31,
+        "songId": "jpop-playlist-x-japan-endless-rain-a5ac0ff8b8",
+        "provider": "tj",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "ENDLESS RAIN",
+          "artist": "X JAPAN",
+          "observedNumber": "6773"
+        },
+        "chart": {
+          "title": "Endless Rain",
+          "artist": "X-JAPAN",
+          "rank": 31,
+          "canonicalId": "jpop-playlist-x-japan-endless-rain-a5ac0ff8b8"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-tj-6773-candidate.json",
+        "reason": "TJ 공식 전체 제목 Endless Rain과 가수 X-JAPAN은 동일 canonicalId의 동결차트 전체 표기와 정확히 일치합니다. staging ENDLESS RAIN / X JAPAN과는 제목 대소문자 및 가수 하이픈·공백 차이를 검토했습니다. 별도 명의 병합·오디오 동일성은 추정하지 않습니다."
+      },
+      {
+        "rank": 31,
+        "songId": "jpop-playlist-x-japan-endless-rain-a5ac0ff8b8",
+        "provider": "ky",
+        "action": "confirm",
+        "reviewedAt": "2026-10-19T18:56:38.387138Z",
+        "staging": {
+          "title": "ENDLESS RAIN",
+          "artist": "X JAPAN",
+          "observedNumber": "40993"
+        },
+        "chart": {
+          "title": "Endless Rain",
+          "artist": "X-JAPAN",
+          "rank": 31,
+          "canonicalId": "jpop-playlist-x-japan-endless-rain-a5ac0ff8b8"
+        },
+        "candidateFile": "data/provider-review-20261020-0352-ky-40993-candidate.json",
+        "reason": "금영 공식 본제 Endless Rain은 staging ENDLESS RAIN과 대소문자 차이이고 가수 X JAPAN은 staging과 정확히 일치합니다. 공식 셀의 X2·乙姫CONNECTION·영화 ジパング 작품 부제를 생략 없이 보존합니다. 동결차트 X-JAPAN과의 하이픈·공백 차이를 검토했으며 부제 없는 원본에 새 버전·녹음 동일성을 만들어 넣지 않습니다."
+      }
+    ],
+    "metadataHelperSha256": "96e471901adf0b07675c8ea610c6a5c143b16bd4f3d8ebea707c55e162cc7243",
+    "originalLedgerSha256": "dbef4ae6abc202b90e7e709f24d5654cee6840ec9f8ac7998ac0e43da0356cc1",
+    "resultLedgerSha256": "a0d23d04cc705d444325f1ea8662cc00044fcba3f86074c66800569840a6eae9"
+  }
+}

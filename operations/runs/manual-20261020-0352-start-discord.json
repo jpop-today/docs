@@ -1,0 +1,14 @@
+{
+  "runId": "manual-20261020-0352",
+  "workflow": "discord.yml",
+  "runIdGitHub": 39307381704,
+  "jobId": 118247869608,
+  "sourceSha": "49d6806bb00e813bb3dcda15a22f2cf8d2d21da8",
+  "state": "sent",
+  "attempts": 1,
+  "selectedActualResultLines": [
+    "2026-10-19T19:01:01.2944713Z Report prepared: message (2026-10-20); delivery not yet confirmed.",
+    "2026-10-19T19:01:01.6140675Z Discord notification sent (1 attempt)."
+  ],
+  "scope": "Actual existing Actions message path; no secret value or whole environment retained."
+}

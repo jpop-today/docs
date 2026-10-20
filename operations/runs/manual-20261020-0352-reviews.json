@@ -1,0 +1,135 @@
+{
+  "runId": "manual-20261020-0352",
+  "readAt": "2026-10-19T19:07:39.572758+00:00",
+  "originals": [
+    {
+      "file": "operations/runs/manual-20261020-0352-reviews-evidence.json",
+      "sha256": "7e03cb5af004ee1c70803e6847c31c74e0fa4c8584018b91e522d78bf7101daf"
+    },
+    {
+      "file": "operations/runs/manual-20261020-0352-reviews-app.json",
+      "sha256": "ee47ad2325f165b231fdd624f7c80a389f3ce2f1845a487a10482952cf65abd4"
+    },
+    {
+      "file": "operations/runs/manual-20261020-0352-reviews-quality.json",
+      "sha256": "454639c187a2501dc3fea2f1ef3326082b71e6c14f21ce91d75cd2661ed801cf"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "/root/run44_evidence",
+      "candidate": "/root/run44_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: src/pages/artists.astro countProviders reads strict confirmedNumbers into distinct TJ/KY ID Sets, computes both by membership intersection, and uses it for global/index/group while leaving original provider counts, union count, exact-name grouping, stable anchor, songHref and evidence display unchanged. Source and existing confirmed-discovery/public predicate read; observed31 overlap vs36 union and real Ado0 image prevent mistaking union for intersection.\nevidence: Read app own actual /tmp/run44-app-browser.json (passed,19:03:47–50Z,dirty preview/base SHA) plus root377/type0/artifact3347 receipts and preserved initial failures. Viewed desktop1440/360px JavaScript-off/group PNGs; 31 overlap and0 group visible, blue→pink stripe and readable mint action preserved, no clipping observed in those frames. Actual receipt reports keyboard Enter/44px/outline, AND URL31, anchors/detail/evidence, no overflow/errors/ads; none is presented as remote/production proof.\nvalue: Visitors can see whether a single song ID has both providers rather than inferring from two independent counts; direct AND search reduces selection effort. Same-ID condition, JavaScript requirement/static list alternative and 0≠official-unlisted are visible. The 360px image retains the two-provider total on its own line and clearly readable action.\nmaintainability: Small statically rendered extension of one existing count function and templates; no new browser bundle/state/dependency. Existing test selectors tj/ky and exact anchors/URLs remain. data-provider=both/data-count is consistent across three scopes and narrow responsive rules preserve branding.",
+      "evidence": [
+        "operations/runs/manual-20261020-0352-reviews-evidence.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run44_evidence",
+      "candidate": "/root/run44_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: Read frozen e2e/artist-both.spec.ts efebc52a29fd3da8d026ba10766df86a46ddf2c275da704723b54a8251a4477e. Independent oracle derives correction numbers and all-ID multiplicity directly from staging+ledger, requires current/playlist/confirm/provenance and compares exact provider ID Sets with public catalog; no app count/group/matcher imports. Distinct real intersection<union and actual0 groups are required; all global/index/group visible labels and data-count, IDs/no duplicates/exact-name SHA anchors and URLs are checked.\nevidence: Read quality handoff with initial discovery4 vs browser status clearly separated, first root-owned trace collision50/3 and final4 3/1 ENOENT preserved without claiming pass. Read isolated sequential log actual15–18 four tests all✓ with frozen source hash matching; full53 not assumed finished. Node/npm warnings and raw/ledger metadata shape are not misrepresented as browser errors or human provider identity review.\nvalue: Coverage follows real visitor behavior: keyboard AND entry at360px, both exact result IDs through pagination/reload, existing object/string/unresolved favorites bytes unchanged, empty-search warning/clear, JavaScript-off static counts/anchor and honest disabled search, first-guide AND/static alternative. Detects union/stale-label or unsafe-provider leakage and protects existing stored data.\nmaintainability: Four focused tests share helpers without using implementation output as the sole oracle. Expectations derive from immutable input rather than hardcoded31/36, and browser contexts close in finally. Source changes confined to owned new spec, no package/CI/runtime changes; exact assertions retained through root reruns, with no unjustified weakening after failures.",
+      "evidence": [
+        "operations/runs/manual-20261020-0352-reviews-evidence.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run44_app",
+      "candidate": "/root/run44_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: 실제 ledger 끝8개와 후보8개·requests metadata를 읽어 번호/URL/checkedAt/제목/가수/responseSha256가 전부 일치함을 assert했다. staging current/playlist의 원번호 string과 같고 원84개·상위 metadata를 보존한다. 동결차트27/29/30/31 canonicalId와 전체 제목·명의를 직접 대조했다. Orangestar feature 괄호/대소문자, ライラック의 같은 작품명 OP/OST, X JAPAN 하이픈과 공식 전체 작품 부제의 차이를 각 reason이 명시하며 음원·편곡·명의 병합을 추정하지 않는다.\nevidence: 요청8개의 시작/완료 사이 실제 checkedAt, HTTP200·양수 bytes·64자리 응답 hash, finalUrl=요청URL과 candidate verification=unreviewed 보존을 확인했다. 별도 편집 판단/원후보/ledger가 연결된다. 19:05:43.480Z 읽기 전용 Node assertion으로 첫84 및 다른5가이드 전체 객체 deepEqual을 재검증했고 baseline 임시파일 hash가 실제 base Git blob의 hash와 같음도 확인했다. 원응답 HTML 미보관과 자체 브라우저/운영 미실행을 숨기지 않는다.\nvalue: 안전한 공식 확인 ID32→36, 두 업체 교집합27→31로 실제 탐색 가능한 범위를 넓힌다. 첫 가이드는 두 조건 AND·한쪽 해제·전체의 번호 조건만 해제·0곡≠미수록·JS 필요/정적 가수 대안을 사용 흐름으로 설명한다. 편집일20일과 업체 실제 checkedAt를 분리하고 승인·권리 허가를 주장하지 않는다.\nmaintainability: 기존 ledger84 순서/객체를 append8만으로 보존하고 재사용하는 metadata helper의 hash와 후보·요청·검증 파일을 연결했다. 첫 guide만 변경해 다른5개의 날짜/본문/출처/링크를 보존한다. Node execFileSync EPERM·leaf test 구분을 기록해 실패/미실행을 성공으로 바꾸지 않는다. root Git/공용검증/CI/배포 소유를 지킨다.",
+      "evidence": [
+        "operations/runs/manual-20261020-0352-reviews-app.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run44_app",
+      "candidate": "/root/run44_quality",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: 최종 artist-both.spec.ts 전체를 읽었다. 원본 staging+ledger에서 정정 후 모든 번호의 중복 횟수를 다시 세고 current/playlist/confirm/공식numeric 근거로 업체별 ID를 만든다. 실제 public catalog의 별도 predicate와 ID전체 집합을 비교한 뒤 intersection≠union·both=0 실제 그룹·전역/index/group의 값과 가시 텍스트·원문명의 SHA anchor·정확 row ID/URL을 검사한다. 앱 count/group/matcher/URL helper import가 없으며 type-only Song은 런타임 oracle에 사용하지 않는다.\nevidence: freeze된 최종 test hash efebc52a...를 실제 확인했다. 초기 목록발견4건을 브라우저 PASS로 부르지 않고 최초3/1 trace ENOENT와 root 병렬 output 충돌·과거 first-guide 날짜 assertion을 보존한다. 실제 /tmp/jpop44-isolated-browser.log의 15–18 네 검사 PASS를 읽었다. 읽은 시점 전체53 실행은 진행 중이므로 전체53 PASS는 아직 주장하지 않는다. 앱 담당이 별도로 실행한 desktop/360JSoff UI 영수증과도 결과31/28그룹/AND/anchor가 일치한다.\nvalue: 단순 숫자 fixture가 아니라 31/36의 실제 overlap과 5개 single-provider ID를 통해 잘못된 sum/union·관측/unknown/suppress/conflict/chart alias 혼입을 잡는다. 모바일 키보드 44px/focus, 공유URL reload·실제모든결과 더보기·저장원문 bytes·0곡 의미·조건해제, JS-off 검색비활성/정적대안과 첫 가이드 연결을 검증해 사용자 동선을 보호한다.\nmaintainability: provider eligibility/anchor/visible result/problem observer를 작은 함수로 나누고 실제 frozen 입력수에 따른 종료 상한을 사용한다. 최종 가시 텍스트 강화와 초기소스/최종소스를 구분한 hash를 기록해 어느 버전을 검사했는지 추적 가능하다. 다른 서버·공용 build/Git/package/CI를 변경하지 않으며 root 실행 실수를 worker 감점 근거로 전가하지 않는다.",
+      "evidence": [
+        "operations/runs/manual-20261020-0352-reviews-app.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run44_quality",
+      "candidate": "/root/run44_evidence",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: 19:05:05.848Z 실제 읽기 전용 Node audit에서 요청8·원후보8·decision8·ledger append8을 정확 songId/provider/번호/전체 title·artist/URL/checkedAt/hash/reason으로 대조해 일치했다. 원본 current playlist와 frozen chart27/29/30/31 canonicalId·전체 표기가 대응하고 원84 객체·순서·상위metadata와 다른5가이드 전체 객체를 독립 비교해 보존했다. ledger a0d23d04... 및 guide7478cbdc... 파일을 실제 읽었다.\nevidence: metadata unreviewed 원후보와 별도 reviewedAt/행별 편집 이유를 실제 파일에서 읽었다. HTTP200·exact finalURL·byte/hash·실조회시간을 수집기록으로 구분하며 원응답 비저장에 따른 재파싱 불가·음원/권리/현장수록/Google심사 미확인을 명시했다. candidate↔request.metadata↔ledger evidence8/8을 직접 검사했고 실제 unit377/type0/previewartifact3347 영수증도 읽었다. 독립 새 공식 조회·원응답 재파싱을 했다고 주장하지 않는다.\nvalue: 관측4ID의8업체 번호에 제한된 실제 근거를 더해 안전 current playlist32→36, 두업체27→31의 사용자 탐색 범위를 넓힌다. 첫 가이드가 두 조건 AND·한쪽해제·전체는번호조건만해제·0곡≠미수록·JS필요/정적artists대안을 설명하고 기존URL/타5글/unknown을 유지한다. 공개글에 내부보고·가짜권리·승인표현을 넣지 않았다.\nmaintainability: 기존 metadata-only helper와 ADR006 ledger를 재사용해84뒤8append만 했고 원staging/chart/3317ID/상세URL을 보존했다. raw응답·가사·secret없이 후보/요청/별도판정/검증영수증/실패한초기EPERM과한계를 남겨 다음담당이 재검토할 수 있다. Git/공용파일/빌드/배포를 중복 조작하지 않았다.",
+      "evidence": [
+        "operations/runs/manual-20261020-0352-reviews-quality.json"
+      ]
+    },
+    {
+      "reviewer": "/root/run44_quality",
+      "candidate": "/root/run44_app",
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "reason": "correctness: artists.astro420e6683...를 실제 읽어 strict confirmedNumbers의 업체별 ID Set에서 TJ∩KY를 계산하고 전역/index/group에 같은 의미로 표시함을 확인했다. 원래 union·TJ/KY·정확원문/공동명의 그룹·sha256anchor·상세URL은 유지된다. 최종동결테스트 efebc52a...의 독립 raw/ledger 오라클/정확가시text 포함4개가 현재 순차53 로그의15–18번에서 모두 통과한 것을 읽었다. 전체53 성공은 아직 주장하지 않는다.\nevidence: 앱의 실제4322 dirtypreview 영수증과1440desktop/360JSoff/zero그룹/키보드AND검색 PNG4개를 view_image로 실제 열어 읽었다. 전역36/31/both31·28그룹과 Ado TJ1/KY0/both0, 양쪽선택31곡이 서로 맞고 가로넘침·겹침·오류overlay가 없었다. 영수증의 noerrors/noads·3pxfocus·44px·원gradient/palette와 visible화면이 대응한다. dirty sourcebase49d...를 clean최종SHA/운영검증으로 과장하지 않았다.\nvalue: 방문업체를 번갈아 쓸 사용자가 한ID에 두공식근거가 있는곡31개를 가수단위와바로가기에서 찾고 같은 AND검색으로 이동할 수 있다. 교집합31/합집합36의 차이·0≠미수록·JS검색필요/정적대안을 화면에서 설명해 관측/unknown을 오인하지 않게 한다. 360JSoff에서도 수·목록·공식근거와기존상세에키보드로접근한다.\nmaintainability: 한 artists.astro 파일에서 기존 strict판정/SSR/디자인을 확장하고 새client script/의존성/공용CSS/저장키를 추가하지 않았다. data-provider-count 규약으로 독립회귀와이어지고 두 Set의 단순교집합·기존sha256 anchor를 유지한다. 소유doc에 source/hash·dirty범위·실제브라우저·미검증경계를 남겨 CI/운영인계가 가능하다.",
+      "evidence": [
+        "operations/runs/manual-20261020-0352-reviews-quality.json"
+      ]
+    }
+  ],
+  "totals": {
+    "/root/run44_evidence": 40,
+    "/root/run44_app": 40,
+    "/root/run44_quality": 40
+  },
+  "tieBreakOrder": [
+    "evidence",
+    "app",
+    "quality"
+  ],
+  "selected": "/root/run44_evidence",
+  "rationale": "All four criterion totals tie; predeclared order selects evidence. No quality inferiority or volume ranking claimed. Root actual377/type0/artifact and isolatedfull53 confirmed; first failures are root-owned.",
+  "rootActualChecks": [
+    "Read all six four-criterion reasons and candidate source/handoffs",
+    "Read eight official metadata/editorial cells and preservation report",
+    "Viewed actual desktop/mobile screenshots",
+    "All53 latest isolated browser pass; dirty working tree, cleanSHA gates remain"
+  ],
+  "frameworkEvaluation": {
+    "totals": {
+      "/root/run44_evidence": 40,
+      "/root/run44_app": 40,
+      "/root/run44_quality": 40
+    },
+    "lowest": [
+      "/root/run44_evidence",
+      "/root/run44_app",
+      "/root/run44_quality"
+    ],
+    "maximum": 40
+  }
+}
