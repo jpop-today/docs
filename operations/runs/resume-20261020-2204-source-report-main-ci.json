@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-21T04:35:42.954691+00:00",
+  "sourceSha": "74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+  "runs": [
+    {
+      "id": 39544325937,
+      "name": "app",
+      "head_sha": "74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39544325937",
+      "updated_at": "2026-10-21T04:32:43Z"
+    },
+    {
+      "id": 39544325785,
+      "name": "contracts",
+      "head_sha": "74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/jpop-today/jpoptoday/actions/runs/39544325785",
+      "updated_at": "2026-10-21T04:29:52Z"
+    }
+  ],
+  "scope": "Report-only main checks; product/deployed SHA remains M3"
+}

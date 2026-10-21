@@ -1,7 +1,7 @@
 {
   "runId": "resume-20261020-2204",
   "issue": "https://github.com/jpop-today/jpoptoday/issues/51",
-  "state": "product_completed_delivery_pending",
+  "state": "completed_paused",
   "startedAt": "2026-10-20T13:05:57Z",
   "timezone": "Asia/Seoul",
   "resumedAt": "2026-10-20T17:59:47.004000+00:00",
@@ -138,21 +138,22 @@
     "previewDeployment": "resume-20261020-2204-preview-deployment.json",
     "previewStrictHttp": "resume-20261020-2204-preview-http.json",
     "previewActualBrowserRun": 39513615446,
-    "production": "pending actual origin80 and recovery",
+    "production": "Final M3 actual origin81 and actual recovery passed; earlier candidate failures retained separately",
     "actualPreview": "resume-20261020-2204-preview-remote.json",
     "productionDeployment": "resume-20261020-2204-production-deployment.json",
-    "release": "not yet tagged",
+    "release": "v0.4.10 actually published; see top-level release metadata",
     "actualProductionFailure": "resume-20261020-2204-production-remote-failed.json",
     "safetyRollback": "resume-20261020-2204-safety-rollback.json",
     "secondActualProductionFailure": "resume-20261020-2204-r2-production-remote-result.json",
     "finalRemotePreview": "resume-20261020-2204-r3-preview-remote.json",
     "finalRemoteProduction": "resume-20261020-2204-r3-production-remote.json",
     "finalRecovery": "resume-20261020-2204-r3-recovery.json",
-    "finalSite": "resume-20261020-2204-r3-postrestore-site.json"
+    "finalSite": "resume-20261020-2204-r3-postrestore-site.json",
+    "initialCandidateReferences": "Unsuffixed exactFinalHeadCi/mainCi/reproducibility/deployment entries preserve M1 history; final r3 receipts are authoritative for M3"
   },
   "notification": {
     "start": "resume-20261020-2204-start-notification.json",
-    "completed": "pending; never duplicate start"
+    "completed": "resume-20261020-2204-completed-discord.json"
   },
   "adsense": {
     "state": "preparing",
@@ -197,7 +198,7 @@
     "actualBrowserPassed": 81
   },
   "developmentControl": {
-    "state": "finish_current_delivery_then_paused",
+    "state": "paused",
     "requiresExplicitUserResume": true,
     "daily09AndHourly": "actually disabled, schedule and prompt preserved",
     "evidence": "resume-20261020-2204-automations-paused.json"
@@ -212,5 +213,16 @@
     "workflow": 39543387568,
     "workflowConclusion": "success",
     "scope": "Actual annotated tag, existing release workflow and GitHub Release; no duplicate manual publication"
+  },
+  "completedAt": "2026-10-21T04:35:46.655033+00:00",
+  "reportSha": "74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+  "sourceReportPr": 55,
+  "delivery": {
+    "report": "resume-20261020-2204-source-report.json",
+    "reportMainCi": "resume-20261020-2204-source-report-main-ci.json",
+    "discord": "resume-20261020-2204-completed-discord.json",
+    "handoff": "resume-20261020-2204-completed-handoff.json",
+    "docsPr": "https://github.com/jpop-today/docs/pull/28",
+    "docsActualMergeSha": "Read final GitHub PR metadata / Issue9 completion comment; never predict this document commit"
   }
 }

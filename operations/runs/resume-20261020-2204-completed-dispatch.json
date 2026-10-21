@@ -1,0 +1,13 @@
+{
+  "requestedAt": "2026-10-21T04:29:58.946800+00:00",
+  "workflow": "discord.yml",
+  "request": {
+    "ref": "main",
+    "inputs": {
+      "mode": "completed",
+      "report_date": "2026-10-21"
+    }
+  },
+  "sourceSha": "74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+  "scope": "One dispatch only; actual run/delivery verified separately"
+}

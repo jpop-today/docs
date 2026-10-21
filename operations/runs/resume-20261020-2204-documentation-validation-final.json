@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-21T04:36:00.841785+00:00",
+  "changedFiles": 158,
+  "jsonParsed": 132,
+  "relativeLinksChecked": 224,
+  "missingRelativeLinks": [],
+  "sensitivePatternFiles": [],
+  "sourceAndDocsReportBytesIdentical": true,
+  "scope": "Final new/modified docs and safe receipts; actual self merge SHA recorded externally after merge"
+}

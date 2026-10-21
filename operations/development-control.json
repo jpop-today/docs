@@ -1,10 +1,13 @@
 {
-  "state": "pause_requested_finish_current_run_only",
+  "state": "paused",
   "requestedAt": "2026-10-21T04:16:46.165Z",
   "finishOnlyRun": "resume-20261020-2204",
   "requiresExplicitUserResume": true,
   "autoResume": false,
   "newIndependentWorkAllowed": false,
   "automationState": "daily09 and hourly disabled; original schedules and prompts preserved",
-  "evidence": "runs/resume-20261020-2204-automations-paused.json"
+  "evidence": "runs/resume-20261020-2204-automations-paused.json",
+  "completedRun": "resume-20261020-2204",
+  "pausedAt": "2026-10-21T04:35:46.655407+00:00",
+  "handoff": "runs/resume-20261020-2204-completed-handoff.json"
 }
