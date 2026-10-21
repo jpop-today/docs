@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-21T00:03:22.162427+00:00",
+  "reason": "Actual M2 production workflow39518032051 local80pass/actual73pass7fail; no release",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "fc2d76ca-97d2-475a-b08f-055dce096197",
+      "url": "https://fc2d76ca.todayjpop.pages.dev",
+      "sourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+      "createdAt": "2026-10-20T23:53:52.441527Z",
+      "status": "success"
+    }
+  },
+  "after": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+      "url": "https://b2b87099.todayjpop.pages.dev",
+      "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+      "createdAt": "2026-10-20T12:17:29.515674Z",
+      "status": "success"
+    }
+  },
+  "http": "resume-20261020-2204-r2-safety-rollback-http.json",
+  "historyPreserved": true
+}

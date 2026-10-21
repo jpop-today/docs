@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-21T00:02:05.265657+00:00",
+  "sourceHead": "db8f9a6a872df849b5713f3eb32674e504af30a5",
+  "rootReadFullReviews": true,
+  "allReadFileHashesMatch": true,
+  "reviews": [
+    {
+      "reviewer": "/root/r51_app",
+      "reviewFile": "engineering/favorites-backup-root-network-peer-app-v4-resume-20261020-2204.json",
+      "sha256": "15d439e59261d9dc667980ae463293661bf9cc8dbc1981d4073b982c12d69ac4",
+      "total": 20,
+      "verdict": "accept"
+    },
+    {
+      "reviewer": "/root/r51_evidence",
+      "reviewFile": "engineering/favorites-backup-root-network-peer-evidence-v4-resume-20261020-2204.json",
+      "sha256": "1d350fcdadf18c90a6a99f91887239ecc34b6858098c7fe0969dba06e98e031a",
+      "total": 20,
+      "verdict": "accept"
+    }
+  ],
+  "scopeClarification": "Peer references to M2 14/8 mean root managed-origin focused22, not a completed GitHub production full80. Original v3/first failures preserved."
+}

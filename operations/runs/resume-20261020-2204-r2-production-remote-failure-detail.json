@@ -1,0 +1,19 @@
+{
+  "sourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "runId": 39518032051,
+  "unexpectedWriteCount": 7,
+  "selected": [
+    "2026-10-20T23:57:46.0639576Z   ✓  70 e2e/favorites-backup.spec.ts:209:1 › mobile keyboard controls remain usable, unknown input is inert text and preview keeps noindex/no ads (377ms)",
+    "2026-10-20T23:57:46.2720174Z   ✓  71 e2e/favorites-backup.spec.ts:230:1 › JavaScript-off displays the real limits and disables all backup mutations (199ms)",
+    "2026-10-21T00:00:59.3286822Z   ✓  70 e2e/favorites-backup.spec.ts:209:1 › mobile keyboard controls remain usable, unknown input is inert text and preview keeps noindex/no ads (1.8s)",
+    "2026-10-21T00:01:00.0027628Z   ✓  71 e2e/favorites-backup.spec.ts:230:1 › JavaScript-off displays the real limits and disables all backup mutations (661ms)",
+    "2026-10-21T00:01:17.4309435Z     +   \"unexpected-write\",",
+    "2026-10-21T00:01:17.4328208Z     +   \"unexpected-write\",",
+    "2026-10-21T00:01:17.4346681Z     +   \"unexpected-write\",",
+    "2026-10-21T00:01:17.4365827Z     +   \"unexpected-write\",",
+    "2026-10-21T00:01:17.4384665Z     +   \"unexpected-write\",",
+    "2026-10-21T00:01:17.4403352Z     +   \"unexpected-write\",",
+    "2026-10-21T00:01:17.4433866Z     +   \"unexpected-write\","
+  ],
+  "scope": "M2 actual full workflow results; the two managed-origin subset failures are separate proxy/client observations."
+}

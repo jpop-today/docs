@@ -1,0 +1,14 @@
+✔ only exact recognized analytics POSTs are distinguished from unexpected writes (7.60677ms)
+✔ the observed empty query delimiter is distinct from any actual query, extra delimiter or fragment (3.014379ms)
+✔ file canaries in any request query or body override the analytics exception without retaining private text (1.725689ms)
+✔ all observed analytics URL variants are intercepted while request inspection still rejects private data (2.36133ms)
+✔ unrelated malformed percent sequences cannot hide an encoded canary in a separate query or JSON field (2.439974ms)
+✔ percent encoding and JSON Unicode escapes are inspected in either order and nested strings/keys (2.786484ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 92.96958

@@ -1,0 +1,14 @@
+{
+  "requestedAt": "2026-10-20T23:54:42.080659+00:00",
+  "workflow": "production.yml",
+  "request": {
+    "ref": "main",
+    "inputs": {
+      "source_sha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+      "preview_url": "https://d32d3b32.jpoptoday-preview.pages.dev",
+      "verify_only": true
+    }
+  },
+  "sourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "scope": "One dispatch only; actual run/delivery verified separately"
+}

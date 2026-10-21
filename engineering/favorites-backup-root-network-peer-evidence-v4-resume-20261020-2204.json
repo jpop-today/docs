@@ -1,0 +1,76 @@
+{
+  "reviewer": "/root/r51_evidence",
+  "candidate": "/root",
+  "scope": "Issue51 same-run root empty-query network guard follow-up v4; no new worker",
+  "readAt": "2026-10-20T23:59:57.521699+00:00",
+  "sourceBaseHeadRead": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "reviewedState": "Uncommitted three-file delta on the M2 base; file hashes below identify the actual reviewed candidate",
+  "filesRead": [
+    {
+      "path": "/workspace/jpoptoday/e2e/helpers/backup-network.mjs",
+      "sha256": "bc2e95d24fa4d9da2928e15545102ac930c6c359c0c66eaa2793ebfa0b84fb35"
+    },
+    {
+      "path": "/workspace/jpoptoday/tests/favorites-backup-network.test.mjs",
+      "sha256": "3f79be2ca3c6dc154c377d5051450f881c846a0015621052f8f66b702c838916"
+    },
+    {
+      "path": "/workspace/jpoptoday/e2e/backup-network-guard.spec.ts",
+      "sha256": "8f3077a36dd7b63255a91315ed31b3d60619eb80492074260b118e8caab9adac"
+    },
+    {
+      "path": "/workspace/docs/operations/runs/resume-20261020-2204-production-beacon-browser-observed-r3.json",
+      "sha256": "bffc9b1b174151293bd360457f1f1db86faf1a18cac8b7741791ed464ca05e57"
+    }
+  ],
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "evidence": {
+    "correctness": [
+      "helper/networkunit/새browser fixture 전체를 읽었다. allowlist의 추가는 https://jpop.today/cdn-cgi/rum?의 정확한 빈 delimiter 변형 하나다. 실제query·다중delimiter·추가path·타origin/wildcard를 허용하지 않고 POST/JSON필수필드/event1or3 및 canary우선 검사를 유지한다.",
+      "독립 pure 호출로 new URL(empty-query).search는 빈문자열이지만 href는 마지막 ?를 보존함을 확인했다. empty-query만 analytics이고 ??/?file=/?=/?&/?#/?#extra/?%00·미관측cloudflare endpoint?는 unexpected-write로 거부했다. exact empty-query POST의 1회/2회percent canary도 먼저 거부했다.",
+      "route는 문자열 matcher 대신 URL.href predicate로 bare/empty-query를 정확히 구별한다. 새 native browser fixture의 fallback은 모든 미매칭 요청을 로컬 GET200/POST418로 fulfill하고 guard는 세 관측변형만204로 fulfill한다. 실제 query를 guard가 오인하는지와 listener canary거부를 실제 request URL/status에서 검사한다.",
+      "독립 Chromium 실행에서 bare/empty-query/query/private-canary 순서의 실제 URL과204/204/418/204, fallback GET/POST만, unexpected-write와favorite-data-in-request 두위반을 assertion으로 통과했다. 마지막 canary 요청은 전송204로 막더라도 classifier는 위반으로 남겨 analytics성공으로 예외처리하지 않는다."
+    ],
+    "evidence": [
+      "production-beacon-browser-observed-r3.json 실제읽기: POST same-origin /cdn-cgi/rum, queryKeyCount0/hasQueryfalse이면서 exactBareEndpointfalse/exactEmptyQueryEndpointtrue다. eventType1과 필수필드string만 보관하며 payload/token값은 없다. searchParams만으로 보이지 않는 delimiter 관측을 새 분류기의 근거로 구분했다.",
+      "/tmp/jpop51-r3-network-unit.log 실제 tests6/pass6/fail0와 /tmp/jpop51-r3-network-browser.log 실제23passed(28.0s)를 읽었다. 기존16+6 browser와 신규native URL guard1개가 통과했다. 테스트 등록수나 실행중 상태를 완료로 쓰지 않았다.",
+      "내 별도 native browser 1개 첫 실행은 Chromium launch의 setsockopt Operation not permitted/SIGTRAP로 제품진입 전에 차단됐다. /tmp/jpop51-evidence-v4-offline-browser 원출력/trace를 보존했다. exec에 network권한을 명시한 별도출력 /tmp/jpop51-evidence-v4-offline-browser-network-permission 재실행은 실제1passed(1.7s)였다. 권한조건의 변경과 결과를 구분하며 첫 실패를 지우지 않았다.",
+      "독립실행 명령은 JPOP_TEST_BASE_URL=http://127.0.0.1:4321 PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npx playwright test e2e/backup-network-guard.spec.ts --output=/tmp/jpop51-evidence-v4-offline-browser-network-permission 이다. fixture는 absolute synthetic page와 모든 route fulfillment를 사용해 publicorigin으로 요청을 보내지 않았으며 서버/CI/배포를 시작하지 않았다.",
+      "최종 helper bc2e95d24fa4d9da2928e15545102ac930c6c359c0c66eaa2793ebfa0b84fb35, unit3f79be2ca3c6dc154c377d5051450f881c846a0015621052f8f66b702c838916, browser8f3077a36dd7b63255a91315ed31b3d60619eb80492074260b118e8caab9adac를 확인했다. baseHEAD와 미커밋후속의 bytes를 구분해 cleanSHA CI/원격배포통과라고 기록하지 않았다."
+    ],
+    "value": [
+      "실제 브라우저가 보내는 빈?와 순수 URL검사의 noquery를 구분해 통계요청을 잘못된 파일쓰기라고 오판할 수 있는 회귀를 보완한다. 실제query나파일canary까지 통계로 허용하는 느슨한예외는 만들지 않는다.",
+      "v3의 fake adapter/schema검사가 실제 브라우저 request URL과 matcher동작을 대신하지 못했던 범위를 새 offline nativebrowser 검사가 채운다. 실패를 반복해서 통과로 둔갑시키지 않고 새관측·정확한후속수정·실행을 분리한다."
+    ],
+    "maintainability": [
+      "고정 analyticsEndpoints 배열과 URL.href predicate를 classifier/route의 동일기준으로 사용한다. 빈querydelimiter 계약은 명시unit과 실제브라우저 test에 따로 고정해 앞으로 matcher동작이 바뀌면 즉시발견할 수 있다.",
+      "신규 브라우저 fixture는 모든 네트워크를 로컬응답으로 끝내어 외부서비스 가용성·실제통계접수에 의존하지 않는다. 기존 혼합encoding·canary·negativeendpoint 검사를 유지하며 dependency/package/CI/제품저장계약을 변경하지 않는다."
+    ]
+  },
+  "verificationReceipts": [
+    {
+      "path": "/tmp/jpop51-r3-network-unit.log",
+      "sha256": "2b858f8846b715a8e3d65fd5680f2cf1d47e783652c6dac7a7615435ae653b1e"
+    },
+    {
+      "path": "/tmp/jpop51-r3-network-browser.log",
+      "sha256": "5f9be8257500e17bdfadbb5d2cdb2231fb33fa37e17bfb30f1ece6da40eaccb5"
+    }
+  ],
+  "historicalBoundary": [
+    "원M1/M2 원격실패와 v3평가는 보존한다. 별도 r3관측은 한후속요청의 empty-query metadata 근거이며 원M1/M2의 과거7건 각각의 정확한URL/본문/원인을 역으로 입증하지 않는다. 해당7건의 exact request metadata는 보존되지 않았다.",
+    "원격 M2의14pass/8fail(7unexpected-write 및별도JSoff proxy)은 root가보고한 별도사실이다. 이 로컬23pass나 독립1pass로 실패를 덮거나 원격게이트가이미해결됐다고 확정하지 않는다."
+  ],
+  "limits": [
+    "운영metadata 관측은 eventType1이다. 허용schema의 eventType3·다른모든통계형식이 실제운영에서관측됐다고 확대하지 않는다.",
+    "Known synthetic canary regression checks and offline Chromium matching do not prove a universal DLP guarantee or analytics POST server delivery.",
+    "같은최종cleanSHA의 CI/실제preview/운영/복구·Release/Discord 및Google계정/신청/승인 결과는 root 별도검증이 필요하다. 이리뷰는 후보수정/Git/package/CI/배포·새worker를 수행하지 않았다."
+  ],
+  "issues": [],
+  "verdict": "accept"
+}

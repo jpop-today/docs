@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-21T00:02:05.264525+00:00",
+  "sourceCandidate": "db8f9a6a872df849b5713f3eb32674e504af30a5",
+  "appActuallyDeployedSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "scope": "Root managed browser subset against M2 actual origin using changed test-only guard; not a same-SHA deployed M3 proof",
+  "passed": 21,
+  "failed": 2,
+  "sevenPriorNetworkViolations": "not present after exact empty-query guard",
+  "remaining": [
+    {
+      "check": "mobile test API request context",
+      "safeError": "ENETUNREACH IPv6; proxy not inherited by API context"
+    },
+    {
+      "check": "JS-off isolated browser context",
+      "safeError": "title empty; managed proxy/client observation, cause not attributed to app"
+    }
+  ],
+  "logSha256": "6dc2b8a5e9015943668f7676e404e1e3c9107eeb8a747b0d93736253f85ca155",
+  "fullCleanShaGitHubGate": "pending"
+}

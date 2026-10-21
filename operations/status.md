@@ -1,6 +1,6 @@
 # 실행 상태
 
-진행 중: [Issue51](https://github.com/jpop-today/jpoptoday/issues/51) 즐겨찾기 파일 보관·복원. PR52 M1 병합·같은 SHA CI와 실제 preview80은 통과했으나 실제 운영73pass/7unexpected-write 실패로 릴리스를 보류했다. 마지막 완료 v0.4.9로 실제 복구해 strict28/1 통과했고, 별도 운영 브라우저에서 관측한 same-origin RUM 요청을 좁게 분류·204 차단하는 [PR53](https://github.com/jpop-today/jpoptoday/pull/53)을 검증 중이다. 실패 원본과 배포 이력은 보존했다. 같은 run·기존 팀을 이어가며 [실행](runs/resume-20261020-2204.json)·[실패](runs/resume-20261020-2204-production-remote-failed.json)·[안전 복구](runs/resume-20261020-2204-safety-rollback.json)를 따른다.
+진행 중: [Issue51](https://github.com/jpop-today/jpoptoday/issues/51). 첫 M1과 M2의 실제 운영 브라우저가 각각73pass/7fail로 끝나 v0.4.10 Release를 보류했다. M2 workflow39518032051 종료 뒤 이전 정상 v0.4.9 b2b87099/c6903c8로 다시 실제 복구해 strict28/1 통과했다. 빈 query 구분자를 보존하는 실제 요청을 별도로 관측했고, 이를 정확히 분류/204 차단하는 [PR54](https://github.com/jpop-today/jpoptoday/pull/54)를 검증 중이다. 단위6·로컬23·두 담당자의 독립 native1씩과 읽기평가20/20을 확인했으며 새 확정SHA 원격 전체 게이트는 아직 미완료다. 기존 run/팀·실패·원평가·배포 이력은 보존했다. [현재 실행](runs/resume-20261020-2204.json).
 
 최신 제품 완료: v0.4.9 / M `c6903c88a03acc98bd32cc1444c0f3654a60c595` / todayjpop·jpop.today `b2b87099-f708-4247-a2bc-8dcb0da0ae8f`.
 

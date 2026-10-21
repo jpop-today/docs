@@ -33,3 +33,13 @@ M1 `74e36979981a3f5d0f7d855fe81e2c9731f2351c`의 main CI80+80·실제 preview80�
 별도 읽기 전용 운영 브라우저에서 query 없는 `https://jpop.today/cdn-cgi/rum` POST·eventType1·pageloadId/location/siteToken 문자열 형식을 관측했다. 현재 관리형 proxy 공개 CA를 Chromium 신뢰 저장소에 등록해 검증했으며 전체 TLS 검증을 끄지 않았다. 본문·토큰·query 값은 보존하지 않고 QA 통계는204로 차단했다. 앞선 root HTTP에서는 beacon script가 없었고 첫 브라우저는 인증서 신뢰 오류였다는 실패/클라이언트 차이도 보존한다.
 
 PR53은 정확한 위 운영 주소만 기존 외부 주소에 더하고 모든 지정 file canary 검사를 먼저 수행한다. 임의 origin/path/query/port/method·잘못된 JSON은 계속 거부하며 두 통계 주소를204로 가로챈다. 독립 단위5와 파일/복구 브라우저22 통과, push CI 단위574·타입26파일0오류·preview80/production80을 확인했다. 제품 앱·자료·version·workflow는 이 보완에서 바꾸지 않았다. 새 main SHA의 실제 preview/운영80·복구/복원·Release는 후속 영수증으로만 확정한다.
+
+## 빈 query 경계 재보완 · 2026-10-21 KST
+
+M2 `0cb02115f72b024f23b154499c5da820b2a9dfd9`도 같은SHA CI80+80·실제preview80·운영strict28/1 후 실제 GitHub 운영80은73pass/7fail이었다. 완료된 workflow39518032051의 실제로그와 원7개generic위반을 보존하고, 종료 뒤 v0.4.9로 다시 실제 복구해strict28/1을 통과했다. M1/M2의구체요청URL/body는기록되지않았으므로그7건의정확원인을소급확정하지않는다.
+
+root가 앞선noquery metadata만확인해 원문URL의마지막 빈 `?`를 놓친 불완전보완이었다. 새별도브라우저 관측은 `exactBareEndpoint=false`, `exactEmptyQueryEndpoint=true`, query0/hasQueryfalse를 확인했다. PR54는 정확한운영빈delimiter형태만추가하고 URL.href predicate로분류/204 route의기준을맞춘다. 실제query값·다중delimiter/fragment·임의주소와knownfilecanary거부는유지한다.
+
+새독립 nativebrowser fixture는 모든request를먼저로컬fallback GET200/POST418로 차단해 외부송신없이 실제browserrequest URL·bare/빈?의204·실제query의418·canary위반을검사한다. 같은fixture에 immutable M2 helper를 넣은 음성대조는 실제1fail로 이전누락을검출했고 후보는단위6/브라우저23(28.0s)을통과했다. 기존두담당이독립 native1개씩을실행해PASS/두v4읽기20/20으로수용했다. 자료담당의첫Chromium launch권한실패와명시권한재실행을분리보존했다.
+
+관리형root의별도실제origin22 검사는14pass8fail이었다. 빈delimiter수정후23검사는21pass2fail로7network위반은사라졌고남은API request context의IPv6 ENETUNREACH·JS-off빈title은관리형proxy/client관측으로보존했다. 이것을GitHub전체검사로혼동하지않는다. M2GitHub실제전체에서는mobile/JS-off는통과했고네트워크7개가실패했다. 최종M3 `03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf`의새575unit/type·CI81/실제preview81/운영81·복구/복원·Release는후속영수증으로확정한다.

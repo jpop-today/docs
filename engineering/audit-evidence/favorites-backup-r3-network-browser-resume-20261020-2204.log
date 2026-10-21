@@ -1,0 +1,28 @@
+
+Running 23 tests using 1 worker
+
+  ✓   1 e2e/backup-network-guard.spec.ts:4:1 › the browser preserves an empty query delimiter and the guard intercepts it before the offline fallback (552ms)
+  ✓   2 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: failed rollback write (1.6s)
+  ✓   3 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: writer replaces the candidate before rollback (1.3s)
+  ✓   4 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: absent original key cannot be removed after a partial write (1.3s)
+  ✓   5 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: writer replaces the original during rollback read-back (1.2s)
+  ✓   6 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: failed rollback and blocked session persistence (1.2s)
+  ✓   7 e2e/favorites-backup-recovery.spec.ts:135:1 › successful rollback control retains the exact original bytes and makes a truthful session-only rescue file (1.2s)
+  ✓   8 e2e/favorites-backup.spec.ts:47:1 › download includes every stored object and unresolved ID despite an empty active filter, and does not mutate storage or upload the file (973ms)
+  ✓   9 e2e/favorites-backup.spec.ts:66:1 › a downloaded file is inspected without writes and explicit keyboard confirmation adds new IDs while preserving existing metadata and duplicates (1.2s)
+  ✓  10 e2e/favorites-backup.spec.ts:90:1 › cancel and invalid JSON, shape, version, ID, UTF-8 or oversized files do not write or leave an older valid import armed (1.7s)
+  ✓  11 e2e/favorites-backup.spec.ts:109:1 › another actual tab changing storage invalidates the pending confirmation and preserves the newer bytes (1.4s)
+  ✓  12 e2e/favorites-backup.spec.ts:120:1 › same-tab save/remove invalidates confirmation rather than applying a previously inspected file (1.0s)
+  ✓  13 e2e/favorites-backup.spec.ts:128:1 › write denial keeps original bytes, clearly marks the temporary merge and permits a rescue download with all session IDs (1.1s)
+  ✓  14 e2e/favorites-backup.spec.ts:141:1 › a permission lost after inspection does not lose previously readable favorites from the temporary merge (1.1s)
+  ✓  15 e2e/favorites-backup.spec.ts:156:3 › initial malformed JSON cannot silently download an apparently valid empty backup (1.1s)
+  ✓  16 e2e/favorites-backup.spec.ts:156:3 › initial wrong shape cannot silently download an apparently valid empty backup (1.1s)
+  ✓  17 e2e/favorites-backup.spec.ts:156:3 › initial invalid entry cannot silently download an apparently valid empty backup (962ms)
+  ✓  18 e2e/favorites-backup.spec.ts:156:3 › initial inaccessible existing list cannot silently download an apparently valid empty backup (974ms)
+  ✓  19 e2e/favorites-backup.spec.ts:164:1 › an explicit import into damaged storage remains temporary and its rescue file discloses that unreadable original data is absent (1.2s)
+  ✓  20 e2e/favorites-backup.spec.ts:174:1 › sessionStorage clear events cannot discard a valid temporary favorites merge (1.2s)
+  ✓  21 e2e/favorites-backup.spec.ts:185:1 › slow file reads cannot replace a newer selection or revive a cancelled import (1.2s)
+  ✓  22 e2e/favorites-backup.spec.ts:209:1 › mobile keyboard controls remain usable, unknown input is inert text and preview keeps noindex/no ads (1.0s)
+  ✓  23 e2e/favorites-backup.spec.ts:230:1 › JavaScript-off displays the real limits and disables all backup mutations (739ms)
+
+  23 passed (28.0s)

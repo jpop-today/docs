@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-20T23:53:25.392Z",
+  "sourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "runId": 39517563119,
+  "jobId": 118953287612,
+  "conclusion": "success",
+  "actualBrowserPassed": 80,
+  "selected": [
+    "2026-10-20T23:50:18.7604952Z 0cb02115f72b024f23b154499c5da820b2a9dfd9",
+    "2026-10-20T23:50:29.2105157Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 0cb02115f72b024f23b154499c5da820b2a9dfd9",
+    "2026-10-20T23:50:31.8579198Z {\"sourceSha\":\"0cb02115f72b024f23b154499c5da820b2a9dfd9\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T23:53:01.7115667Z   80 passed (2.2m)"
+  ]
+}
