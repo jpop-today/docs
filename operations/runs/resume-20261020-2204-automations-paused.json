@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-21T04:16:46.165Z",
+  "requestedBy": "Latest explicit user instruction: finish current work, then wait until asked to resume",
+  "currentRun": "resume-20261020-2204",
+  "newWorkAllowed": false,
+  "automations": [
+    {
+      "id": "6acdccd99030819180ea1c9d907d9f55",
+      "title": "jpop.today 일일 개발",
+      "beforeEnabled": true,
+      "is_enabled": false,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T090000\nRRULE:FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Asia/Seoul",
+      "promptUnchanged": true,
+      "updatedAt": "2026-10-21T04:16:41.882111+00:00"
+    },
+    {
+      "id": "6acf109ec1808191b09a2414e2de80af",
+      "title": "jpop.today 개발 재개",
+      "beforeEnabled": true,
+      "is_enabled": false,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261014T150000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+      "timezone": "Asia/Seoul",
+      "promptUnchanged": true,
+      "updatedAt": "2026-10-21T04:16:44.226247+00:00"
+    }
+  ]
+}

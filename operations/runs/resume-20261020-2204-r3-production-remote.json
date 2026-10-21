@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-21T04:17:34.088Z",
+  "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "runId": 39542747429,
+  "jobId": 119033962771,
+  "conclusion": "success",
+  "localBrowserPassed": 81,
+  "actualBrowserPassed": 81,
+  "actionsBinding": "missing; verify_only actual managed deployment",
+  "selected": [
+    "2026-10-21T04:12:26.7606267Z 03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+    "2026-10-21T04:12:26.8004221Z 03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+    "2026-10-21T04:12:53.0877966Z {\"sourceSha\":\"03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-21T04:14:38.5117847Z   81 passed (1.5m)",
+    "2026-10-21T04:14:38.5810602Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+    "2026-10-21T04:14:41.4447133Z {\"sourceSha\":\"03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-21T04:16:52.8857641Z   81 passed (2.2m)"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-21T04:05:00.573632+00:00",
+  "firstSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "finalSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "targets": [
+    {
+      "target": "preview",
+      "sameFileSet": true,
+      "files": 3347,
+      "changedFiles": [
+        "build-info.json"
+      ],
+      "otherEveryByteIdentical": true
+    },
+    {
+      "target": "production",
+      "sameFileSet": true,
+      "files": 3348,
+      "changedFiles": [
+        "build-info.json"
+      ],
+      "otherEveryByteIdentical": true
+    }
+  ]
+}

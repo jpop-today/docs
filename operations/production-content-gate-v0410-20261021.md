@@ -43,3 +43,9 @@ root가 앞선noquery metadata만확인해 원문URL의마지막 빈 `?`를 놓�
 새독립 nativebrowser fixture는 모든request를먼저로컬fallback GET200/POST418로 차단해 외부송신없이 실제browserrequest URL·bare/빈?의204·실제query의418·canary위반을검사한다. 같은fixture에 immutable M2 helper를 넣은 음성대조는 실제1fail로 이전누락을검출했고 후보는단위6/브라우저23(28.0s)을통과했다. 기존두담당이독립 native1개씩을실행해PASS/두v4읽기20/20으로수용했다. 자료담당의첫Chromium launch권한실패와명시권한재실행을분리보존했다.
 
 관리형root의별도실제origin22 검사는14pass8fail이었다. 빈delimiter수정후23검사는21pass2fail로7network위반은사라졌고남은API request context의IPv6 ENETUNREACH·JS-off빈title은관리형proxy/client관측으로보존했다. 이것을GitHub전체검사로혼동하지않는다. M2GitHub실제전체에서는mobile/JS-off는통과했고네트워크7개가실패했다. 최종M3 `03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf`의새575unit/type·CI81/실제preview81/운영81·복구/복원·Release는후속영수증으로확정한다.
+
+## 최종 M3 운영 게이트 확인
+
+2026-10-21 KST: main CI575/type26파일0오류/81+81·실제 preview39542238399/81·실제 운영39542747429/81을 확인했다. 이전 v0.4.9로 실제복구28/1 후 M3 03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf/189afefa-bbdb-4c14-bb90-29750d31fd48로재적용28/1을통과했고 이후일반10URL·ads.txt200/textplain/원본59bytehash와최종strict28/1을확인했다. 원격81은복구전이며복구후동일81을반복했다고주장하지않는다. privateGit source/dev·자동false/none·도메인/기존배포이력은보존했다. 이확인은기술/콘텐츠게이트이며Google계정·신청·승인·권리·문의실수신·ads계정일치확인은아니다. Release는기존태그workflow의실제발행결과를따른다.
+
+최신사용자요청으로현재Issue51마감후대기하며09시/hourly개발예약두건은기존일정과지시를보존해실제일시중지했다. [대기제어](development-control.json)·[예약영수증](runs/resume-20261020-2204-automations-paused.json)을따르고명시적재개전새독립작업/새worker를시작하지않는다.

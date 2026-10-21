@@ -1,6 +1,6 @@
 # 실행 계획과 작업 큐
 
-현재 완료는 [v0.4.9](releases/v0.4.9-20261020.md)의 공식4ID/7근거·보관차트 양쪽27ID native탐색·차트가이드·기존원본ads.txt59byte복원, 같은M CI/실제preview58·운영58·복구·Release다. 안전40ID/74번호·전체양쪽34ID이며 전체검증/계정일치/Google승인은 아니다. 다음은 Issue6 미검토근거·고유콘텐츠/선곡·차트갱신/실패lastgood, Issue15안전한Actionsbinding, 운영자의권리·문의실수신·ads.txt실계정일치·Google계정/소유권/신청/법적동의다. [현재상태](status.md)를 따른다.
+현재 완료는 [v0.4.10](releases/v0.4.10-20261021.md)의 즐겨찾기 수동 파일 보관·미리보기·확인 후 합치기와 실제 운영/복구/Release다. 안전40ID/74번호·공식원장99·동결자료/3317ID/기존URL/storage·브랜드는 보존했다. 명시적 재개 지시 뒤 검토할 후속은 Issue6 미검토근거·고유콘텐츠/선곡/차트 갱신과 last-good, Issue15 안전한 Actionsbinding, 운영자의 권리·문의 실수신·ads.txt 계정 일치·Google 계정/신청/법적 동의다. [현재상태](status.md)를 따른다.
 
 ## 직전 계획 기록
 

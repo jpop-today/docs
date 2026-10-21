@@ -1,0 +1,6 @@
+{
+  "recordedAt": "2026-10-21T04:15:37.546057+00:00",
+  "latestUserInstruction": "지금 하던것 까지하고 잠시 대기 재개하라고 할때까지",
+  "scope": "Finish existing Issue51 production/recovery/release/report delivery; start no new independent work. Pause only existing daily09/hourly developer automations preserving their schedules, then wait for explicit resume.",
+  "initialTeam": "Existing3+replacement1 unchanged; no new workers"
+}

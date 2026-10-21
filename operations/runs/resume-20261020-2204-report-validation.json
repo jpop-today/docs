@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-21T04:23:36.561Z",
+  "completeReport": true,
+  "identicalDocsSourceAndCore": true,
+  "discordPayloadUntruncatedAndSameCore": true,
+  "peerFramework": {
+    "totals": {
+      "/root/r51_evidence": 40,
+      "/root/r51_app": 40,
+      "/root/r51_quality": 39
+    },
+    "lowest": [
+      "/root/r51_quality"
+    ],
+    "maximum": 40
+  },
+  "discordFieldLengths": [
+    135,
+    182,
+    160,
+    88
+  ]
+}
