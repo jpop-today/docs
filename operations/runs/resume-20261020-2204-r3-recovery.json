@@ -1,0 +1,86 @@
+{
+  "startedAt": "2026-10-21T04:17:41.302090+00:00",
+  "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "189afefa-bbdb-4c14-bb90-29750d31fd48",
+      "url": "https://189afefa.todayjpop.pages.dev",
+      "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+      "createdAt": "2026-10-21T04:10:18.905815Z",
+      "status": "success"
+    }
+  },
+  "oldTarget": {
+    "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+    "sha": "c6903c88a03acc98bd32cc1444c0f3654a60c595"
+  },
+  "scope": "Actual v049 rollback then v0410 restore. Restore is attempted in finally. Existing deployment/resource history retained. Both artifacts have original ads.txt and require28 checks.",
+  "steps": [
+    {
+      "action": "rollback",
+      "api": {
+        "project": "todayjpop",
+        "domains": [
+          "todayjpop.pages.dev",
+          "jpop.today"
+        ],
+        "source": {
+          "owner": "kim75503",
+          "repo_name": "todayjpop",
+          "production_branch": "dev",
+          "production_deployments_enabled": false,
+          "preview_deployment_setting": "none"
+        },
+        "deployment": {
+          "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+          "url": "https://b2b87099.todayjpop.pages.dev",
+          "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+          "createdAt": "2026-10-20T12:17:29.515674Z",
+          "status": "success"
+        }
+      },
+      "http": "resume-20261020-2204-r3-rollback-http.json",
+      "success": true
+    },
+    {
+      "action": "restore",
+      "api": {
+        "project": "todayjpop",
+        "domains": [
+          "todayjpop.pages.dev",
+          "jpop.today"
+        ],
+        "source": {
+          "owner": "kim75503",
+          "repo_name": "todayjpop",
+          "production_branch": "dev",
+          "production_deployments_enabled": false,
+          "preview_deployment_setting": "none"
+        },
+        "deployment": {
+          "id": "189afefa-bbdb-4c14-bb90-29750d31fd48",
+          "url": "https://189afefa.todayjpop.pages.dev",
+          "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+          "createdAt": "2026-10-21T04:10:18.905815Z",
+          "status": "success"
+        }
+      },
+      "http": "resume-20261020-2204-r3-restore-http.json",
+      "success": true
+    }
+  ],
+  "finishedAt": "2026-10-21T04:17:57.589989+00:00",
+  "success": true
+}

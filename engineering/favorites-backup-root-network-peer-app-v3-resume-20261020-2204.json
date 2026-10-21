@@ -1,0 +1,70 @@
+{
+  "reviewer": "/root/r51_app",
+  "readAt": "2026-10-20T23:45:25Z",
+  "reviews": [
+    {
+      "candidate": "/root",
+      "scope": "Issue51 PR53 exact production RUM network guard",
+      "pullRequest": "https://github.com/jpop-today/jpoptoday/pull/53",
+      "baseSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+      "headSha": "946fce730b988a807d27701e893312a2f941c02e",
+      "filesRead": [
+        {
+          "path": "jpoptoday/e2e/helpers/backup-network.mjs",
+          "sha256": "701fe66ab08217c66afbb035cd032036497d9879b2293eaa953527d8f3a1119b"
+        },
+        {
+          "path": "jpoptoday/tests/favorites-backup-network.test.mjs",
+          "sha256": "6c78a98d8c0af26295ed3929e39b68b72d4eeee6f9693b8fc9d8824949af54f6"
+        },
+        {
+          "path": "docs/operations/runs/resume-20261020-2204-production-beacon-browser-observed-r2.json",
+          "sha256": "4668879c2c7bd4afda4be5453d5fe0fd4a9c70a3417d5be744d13c93bd4e5224"
+        },
+        {
+          "path": "docs/operations/runs/resume-20261020-2204-production-remote-failed.json",
+          "sha256": "959e271486986b1418612967615911c5558f90355162ca7b85fb1b73539062c2"
+        }
+      ],
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "evidence": {
+        "correctness": [
+          "두 후보파일 전체와 PR53 metadata를 실제 읽고 local HEAD가946fce730b988a807d27701e893312a2f941c02e이며 M1대비2파일만 바뀐 것을 확인했다. 관측된 정확한 https://jpop.today/cdn-cgi/rum만 추가하고 기존 external endpoint와 동일한 POST/JSON필수field type/eventType1or3 조건을 유지한다.",
+          "query/fragment/추가path/유사host/별도port/HTTP/임의pages.dev/PUT와 잘못된JSON/필수필드누락/알수없는eventType을 거부하는 반례를 확인했다. 모든canary 검사는 예외분류보다 먼저 실행된다.",
+          "별도 합성 순수 assert에서 same-origin 정상형태는analytics, query추가는unexpected-write, 같은endpoint의plain·혼합encoding canary는favorite-data-in-request로 반환됨을 직접 확인했다."
+        ],
+        "evidence": [
+          "실제 root browser receipt는 POST/same-origin /cdn-cgi/rum/noquery/eventType1/세string필드의 형태만 기록하며 실제token·값·body를 보존하지 않았다. 공개script GET의상대endpoint문자열추측과 구분된 새로운 실제관측을 근거로 exactendpoint만추가했다.",
+          "/tmp/jpop51-r2-network-unit.log tests5/pass5/fail0과 /tmp/jpop51-r2-network-browser.log 22passed(27.0s)를 직접 읽었다. 실제로 새route204·listener검사반례가 추가됐고 기존혼합encoding검사와22파일/복구흐름을 유지한다.",
+          "실패한 M1운영workflow39514342581/job118942789540의 local80/actual73+7과unexpected-write7개를 연결GitHub로그로 독립확인했다. 원래7요청의구체주소·payload는보존되지않았으므로 후속root관측이그7건각각이었다고소급확정하지않는다."
+        ],
+        "value": [
+          "관측된RUM을파일업로드로오인하는구체적인분류경계를보완하면서실제파일canary/임의write를거부한다. 실패시저장원문·임시복구파일을검사하는제품게이트를삭제하지않는다.",
+          "두허용endpoint 모두204로가로채QAanalytics전송을막고위반kind만보존한다. 실제광고클릭/사용자파일·token값수집·전체URL/body로그를추가하지않는다."
+        ],
+        "maintainability": [
+          "작은test-only endpoint상수배열을분류기와route등록이공유하여검사예외와전송차단대상이어긋나지않게했다. app/package/lock/CI/배포파일은이PR에서바꾸지않았다.",
+          "새guard단위대조가두endpoint route등록/204응답과listener의canary거부/기타write거부를독립fakepage로확인한다. 원본M1·처음실패·기존16/20→v2평가·후속관측과v3수정을분리보존한다."
+        ]
+      },
+      "issues": [],
+      "verdict": "accept"
+    }
+  ],
+  "separateInvestigation": {
+    "path": "engineering/favorites-backup-network-production-investigation-app.json",
+    "sha256": "8b35b2c547ab153dd57a16f595759c73f0c58b4b61867acd1a2cd886273ba963",
+    "scope": "원실패7건의정보한계와M1 immutable classifier의합성경계대조,실패probe와후속root브라우저관측을구분한다."
+  },
+  "limits": [
+    "이평가는정확한PR53 head의두검사파일과실제읽은로컬5/22결과를수용한다. 새확정mainSHA의CI/전용preview/운영80검사/실제배포복구는root후속게이트다.",
+    "별도root관측eventType은1이다.3은기존classifier정책/공개beacon코드범위의합성허용대조이며이receipt에서실제same-origin3송신을관측한것은아니다.",
+    "원래production7건의실제request형태는미보존이다. 이보완으로그원인을역으로확정하거나M1원격게이트실패를성공으로바꾸지않는다.",
+    "Git/CI/배포와후보코드는수정하지않고새조사/평가JSON만작성했다. 기존agent ID를유지했고새작업자는생성하지않았다."
+  ]
+}

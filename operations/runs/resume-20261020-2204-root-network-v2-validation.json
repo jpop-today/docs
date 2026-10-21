@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-20T23:04:37.732027+00:00",
+  "sourceBase": "66380bc161c321ad950673f556b740f133e3b32e",
+  "dirty": true,
+  "helper": {
+    "file": "e2e/helpers/backup-network.mjs",
+    "sha256": "a45d3f2f9489f5fda8d328f222de8b7dd02f3c82f4b61a50e9e15f8719f924c8"
+  },
+  "test": {
+    "file": "tests/favorites-backup-network.test.mjs",
+    "sha256": "278217f357d4af4e04e83d2be0de774610c36e7aa8346e8239148877835145bf"
+  },
+  "unitParents": 4,
+  "unitPassed": 4,
+  "browserPassed": 22,
+  "browserLog": "/tmp/jpop51-mixed-encoding-browser.log",
+  "preservedFirstExpandedFailure": "engineering/audit-evidence/network-mixed-encoding-first-failure.log",
+  "supportedOracles": "Known fixture markers across raw/parsed query, body, JSON strings/keys and mixed percent/Unicode JSON encodings. Not a universal information-flow proof.",
+  "actualProductLeakObserved": false,
+  "analytics": "Exact public beacon code endpoint was observed by GET; actual POST delivery was not observed, QA route intercepts endpoint204."
+}

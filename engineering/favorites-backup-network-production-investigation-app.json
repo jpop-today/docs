@@ -1,0 +1,54 @@
+{
+  "investigator": "/root/r51_app",
+  "readAt": "2026-10-20T23:44:57Z",
+  "run": "resume-20261020-2204",
+  "issue": 51,
+  "scope": "읽기 전용: 실패한 M1 운영 검사의 분류 누락과 이후 별도 운영 브라우저 관측을 구분한다. Git/package/CI/배포·후보 코드를 수정하지 않았다.",
+  "filesRead": [
+    {
+      "path": "operations/runs/resume-20261020-2204-production-remote-failed.json",
+      "sha256": "959e271486986b1418612967615911c5558f90355162ca7b85fb1b73539062c2"
+    },
+    {
+      "path": "jpoptoday/e2e/helpers/backup-network.mjs at immutable 74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+      "sha256": "a45d3f2f9489f5fda8d328f222de8b7dd02f3c82f4b61a50e9e15f8719f924c8"
+    },
+    {
+      "path": "operations/runs/resume-20261020-2204-analytics-browser-probe.json",
+      "sha256": "1187b255863fdb0c583b41924c4b802969e1c3b5e6c84ef78f12705993e957d5"
+    },
+    {
+      "path": "operations/runs/resume-20261020-2204-production-beacon-endpoint.json",
+      "sha256": "6ad12a7a5f4e7a4d513634628ed9293fd685a671abfa1c66129fe1a8fd228368"
+    },
+    {
+      "path": "operations/runs/resume-20261020-2204-production-beacon-browser-observed-r2.json",
+      "sha256": "4668879c2c7bd4afda4be5453d5fe0fd4a9c70a3417d5be744d13c93bd4e5224"
+    }
+  ],
+  "confirmed": [
+    "연결 GitHub로 run39514342581/job118942789540 실제 로그를 독립 조회했다. local80pass, 실제 production73pass/7fail이며7건 모두6recovery+1download 검사 마지막 uploads=[] assertion에서 unexpected-write 하나씩이었다.",
+    "동일 로그의 favorite-data-in-request 출력은0이었다. 이는 제한된 canary 검사에서 해당표지가 검출되지 않았다는 뜻이며 모든 파일 미송신을 입증하지 않는다.",
+    "실패7건은 guard를 goto 이전에 설치한7개 검사와 일치한다. 앞선 저장원문/파일/rollback assertion을 진행해 마지막 네트워크 assertion에 도달했지만, 원래 요청 method/origin/path/본문형태·발생단계는 로그에 보존되지 않았다.",
+    "run artifact API 반환은 production-healthchecks-74e369... 1개/4878bytes였다. 해당 workflow 코드를 읽었으며 trace/network artifact 업로드 단계는 없었다. 이 증거만으로 원래7개 요청의 주소나 payload를 복원할 수 없다.",
+    "초기 관리형 browser probe는 success=false/requests=[]였다. 실패한 probe의 빈 배열을 운영에서 POST가 없었다는 근거로 쓰지 않는다. 별도 Node HTTP HTML GET200의 endpoints=[]도 브라우저 runtime에 RUM 요청이 없다는 입증이 아니다.",
+    "후속 root browser 관측 receipt는 POST, origin=https://jpop.today,path=/cdn-cgi/rum,query없음,eventType1,pageloadId/location/siteToken string을 기록하고 success=true다. 실제 값·query·body를 보존하지 않았다. 이 receipt에는 자체 checkedAt 필드가 없어 별도 요청 시각을 만들어 넣지 않는다.",
+    "immutable M1 helper를 git show로 읽어 메모리에 import한 합성 순수 대조에서 같은 최소 JSON의 external RUM은 analytics, same-origin RUM은 unexpected-write로 분류됐다. root가 조사 중 수정한 현재 helper와 구분했다."
+  ],
+  "interpretation": [
+    "후속에 실제 관측한 same-origin RUM 형태는 M1 helper의 exact external endpoint 조건을 만족하지 않으므로 오분류할 수 있는 구체적인 환경 차이를 입증한다.",
+    "그러나 이 후속 관측이 원격 실패7건 각각의 실제 요청이었다는 근거는 남아 있지 않다. 원인을 일곱 건 전체로 소급 확정하지 않는다. 새 확정 SHA의 실제 원격 통과가 필요하다.",
+    "일반적인 unexpected-write의 코드상 조건은 nonGET/HEAD이며 exact허용endpoint/POST/JSON필수필드type/eventType1or3 중 조건을 만족하지 않는 것이다. 상대 endpoint·다른eventType·preflight·다른payload형태는 후속관측 전에는 가능한 분류 경계였을 뿐 실제 원인 사실이 아니었다."
+  ],
+  "narrowVerificationPlan": [
+    "관측된 정확한 https://jpop.today/cdn-cgi/rum만 기존 external endpoint와 별도 허용하고 query/다른path/유사host/다른port/HTTP/임의pages.dev는 계속 거부한다.",
+    "두 endpoint 모두 전송 전에204로 중단하면서 원래 request의 모든URL/query/body canary 검사를 유지한다. analytics라는 이유로 canary 검사를 생략하지 않는다.",
+    "합성 정상형태/필수필드누락/잘못된eventType/PUT/query/경로변형·두endpoint canary·route204 반례를 검증하고 기존 혼합encoding 검사를 유지한다.",
+    "로컬검증과 별개로 새확정SHA CI/전용preview/운영verify_only 실제80개를 확인한다. 원격에서 다른unexpected-write가 남으면method/정확대상분류·JSONparse성공/필수필드type·eventType허용여부/canary검출·flow단계만 기록해 좁게 조사하고 실제값/원문URL/query/body/토큰은 남기지 않는다."
+  ],
+  "safetyAndLimits": [
+    "실제 광고 클릭이나 실제 사용자 파일을 사용하지 않았다. 새 공식 제공사 확인·권리·Google 계정/신청/승인 결과를 만들지 않았다.",
+    "root는 이전정상v0.4.9로 실제복구/strict28 통과했다고 인계했다. 이 조사자는 별도배포/롤백을 수행하거나독립CF API재검증을하지않았다.",
+    "원래 실패/평가/공개스크립트관측/실패probe/후속실제브라우저관측을 각각 보존한다. 후속v3후보 평가는 별도 JSON이다."
+  ]
+}

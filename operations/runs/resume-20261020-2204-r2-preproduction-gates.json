@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-20T23:53:43.884791+00:00",
+  "sourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "sameShaMainCi": "success",
+  "actualPreview": {
+    "run": 39517563119,
+    "passed": 80,
+    "strictChecks": 27
+  },
+  "reproducibility": "two full builds per target; every-file equality",
+  "contentPolicyGate": {
+    "path": "operations/production-content-gate-v0410-20261021.md",
+    "sha256": "c9848ca953a9015f74007cf43aed92bd895ca37f540459afa7dc16c28a926f8e",
+    "acceptedProductContent": true,
+    "GoogleAccountApplicationApproval": "unknown"
+  },
+  "originalSixPeer": [
+    40,
+    40,
+    39
+  ],
+  "replacementFollowup": [
+    20,
+    20
+  ],
+  "rootV3Peer": [
+    20,
+    20
+  ],
+  "rollbackReadiness": "actual previous v049 safety rollback/strict28 passed; final new rollback/restore remains required",
+  "before": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+      "url": "https://b2b87099.todayjpop.pages.dev",
+      "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+      "createdAt": "2026-10-20T12:17:29.515674Z",
+      "status": "success"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-20T23:40:43.774300+00:00",
+  "baseSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "headSha": "946fce730b988a807d27701e893312a2f941c02e",
+  "pr": 53,
+  "actualProductionFailure": "resume-20261020-2204-production-remote-failed.json",
+  "safetyRollback": "resume-20261020-2204-safety-rollback.json",
+  "observation": "resume-20261020-2204-production-beacon-browser-observed-r2.json",
+  "scope": "Root trusted the currently managed public proxy CA in Chromium NSS; no TLS verification disabled. Observation is separate from unrecorded M1 failed requests. Exact production RUM endpoint only, all canary checks precede exception; intercept both before submission.",
+  "verification": {
+    "networkUnit": 5,
+    "localBackupRecoveryBrowser": 22,
+    "unitLogSha256": "921c86f74e629e0f1bc66f7dd6f7e25c9a87dade0db87708a0f0864376c97b30",
+    "browserLogSha256": "14d21a48b6188521a7edc8852a5803a61bb218b1d97f7fa10aa68d2a3f58f39c"
+  },
+  "files": {
+    "e2e/helpers/backup-network.mjs": "701fe66ab08217c66afbb035cd032036497d9879b2293eaa953527d8f3a1119b",
+    "tests/favorites-backup-network.test.mjs": "6c78a98d8c0af26295ed3929e39b68b72d4eeee6f9693b8fc9d8824949af54f6"
+  }
+}

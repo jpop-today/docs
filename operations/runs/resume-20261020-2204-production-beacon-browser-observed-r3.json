@@ -1,0 +1,22 @@
+{
+  "scope": "Root browser read-only diagnostics; no payloads/query/token retained",
+  "requests": [
+    {
+      "method": "POST",
+      "origin": "https://jpop.today",
+      "path": "/cdn-cgi/rum",
+      "queryKeyCount": 0,
+      "hasQuery": false,
+      "exactBareEndpoint": false,
+      "exactEmptyQueryEndpoint": true,
+      "fieldTypes": {
+        "eventType": "number",
+        "pageloadId": "string",
+        "location": "string",
+        "siteToken": "string"
+      },
+      "eventType": 1
+    }
+  ],
+  "success": true
+}

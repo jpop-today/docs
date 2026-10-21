@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-20T13:10:10.587372+00:00",
+  "environment": {
+    "revision": 875,
+    "current": true,
+    "phase": "running",
+    "connectivity": "connected",
+    "cfCredentialReadiness": "ready; values not read into evidence"
+  },
+  "state": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+      "url": "https://b2b87099.todayjpop.pages.dev",
+      "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+      "createdAt": "2026-10-20T12:17:29.515674Z",
+      "status": "success"
+    }
+  },
+  "repos": [
+    {
+      "repo": ".github",
+      "remoteMain": "b7aad18fe2f793453b6505bb150f359d05ae3554"
+    },
+    {
+      "repo": "jpoptoday",
+      "remoteMain": "e52f0566b13bb7879e4c44eed3dd81c326956f70"
+    },
+    {
+      "repo": "docs",
+      "remoteMain": "60e40985d7fdd2d3f0c7ed1f2c4246a275d1260a"
+    }
+  ],
+  "existingWorkingChanges": "none at initial resume preflight; new changes belong Issue51",
+  "coordination": {
+    "commentId": 6291555971,
+    "previousRun": "COMPLETED; preserved",
+    "currentCollaboration": "root only before initial3",
+    "globalOtherThreadAbsence": "not established; list_threads timed out8s"
+  },
+  "browser": {
+    "skillRead": true,
+    "associatedJsToolAvailable": false,
+    "fallback": "Existing Playwright/system Chromium explicitly authorized by task; no local extension connection claimed"
+  },
+  "openPrs": []
+}

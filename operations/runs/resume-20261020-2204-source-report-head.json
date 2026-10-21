@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-21T04:25:45.216720+00:00",
+  "pr": 55,
+  "baseProductSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "headSha": "4f17b0f1ed481965d478f296d485a2498f522696",
+  "files": [
+    "reports/daily/2026-10-21.json",
+    "reports/runs/resume-20261020-2204-completed.json"
+  ],
+  "onlyReportFiles": true,
+  "notDeployedOrTagged": true,
+  "notification": "pending reviewed-main integration and actual existing Discord workflow",
+  "nativeAttachment": "called; host did not reply after32s; execution cell explicitly terminated; no attachment success claimed"
+}

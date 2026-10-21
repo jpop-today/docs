@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-20T23:18:50.616341+00:00",
+  "sourceSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "sameRemoteMainAndCleanHead": true,
+  "mainCi": {
+    "unit": 573,
+    "typeErrors": 0,
+    "browserByTarget": [
+      80,
+      80
+    ]
+  },
+  "reproducibility": "Two full builds per target; exact file sets/every byte equal",
+  "actualDedicatedPreview": {
+    "url": "https://eea9c43a.jpoptoday-preview.pages.dev",
+    "strictChecks": 27,
+    "actualBrowser": 80
+  },
+  "contentPolicyReadAndAccepted": {
+    "file": "operations/production-content-gate-v0410-20261021.md",
+    "sha256": "c737d543728d5c617bd99bad959347b4622c80e9057f177ba918d4cbf0522768",
+    "publicIndexRoutes": 57,
+    "newProviderClaims": false,
+    "adsenseAccountApplicationApproval": "unknown"
+  },
+  "oldNormal": {
+    "sourceSha": "c6903c88a03acc98bd32cc1444c0f3654a60c595",
+    "deploymentId": "b2b87099-f708-4247-a2bc-8dcb0da0ae8f",
+    "strictChecks": 28
+  },
+  "sourceMetadataAndAutomaticBuilds": "Preserve personal repo/dev metadata and false/none; production command rechecks live API",
+  "recovery": "Will perform real oldv049 rollback then new restore and verify before release",
+  "release": "not yet published"
+}

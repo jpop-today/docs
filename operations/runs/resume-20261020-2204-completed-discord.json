@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-21T04:35:43.968641+00:00",
+  "workflow": 39544361784,
+  "job": 119039065097,
+  "sourceSha": "74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+  "conclusion": "success",
+  "delivery": "sent",
+  "attempts": 1,
+  "observedSentAt": "2026-10-21T04:30:06.0233237Z",
+  "observedSentAtKst": "2026-10-21 13:30:06 Asia/Seoul",
+  "actualJobLogProof": [
+    "2026-10-21T04:30:05.0407515Z 74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+    "2026-10-21T04:30:05.7667636Z Report prepared: completed (2026-10-21); delivery not yet confirmed.",
+    "2026-10-21T04:30:06.0233237Z Discord notification sent (1 attempt)."
+  ],
+  "logAccess": "Connected GitHub decoded job log; only three safe evidence lines retained",
+  "reportValidation": "resume-20261020-2204-report-validation.json",
+  "coreSha256": "64e4dd49ef4ed67001bfba09b2b03504dc7f5d3c9254cd1bef2441c18488e107",
+  "scope": "Actual completed report sent once through existing Actions workflow. Immutable pre-delivery JSON is distinct from this delivery receipt. No secret value or webhook URL retained."
+}

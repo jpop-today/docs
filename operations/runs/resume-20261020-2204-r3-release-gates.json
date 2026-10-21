@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-21T04:19:18.033415+00:00",
+  "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "sameShaMainCi": true,
+  "actualPreview81": true,
+  "actualProduction81": true,
+  "realRecovery": true,
+  "rollbackChecksAttempts": [
+    28,
+    1
+  ],
+  "restoreChecksAttempts": [
+    28,
+    1
+  ],
+  "postrestoreURLs": 10,
+  "finalStrict": [
+    28,
+    1
+  ],
+  "contentPolicyGateSha256": "ee519f3b2ba1b87de6eca49f96a8843bb30c837789345f3a9e3a24efc9d36422",
+  "adsTxt": {
+    "status": 200,
+    "bytes": 59,
+    "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+    "accountMatch": "unknown; publisher value not retained"
+  },
+  "pause": "finish this run only; daily/hourly actually disabled; original schedules/prompts preserved"
+}

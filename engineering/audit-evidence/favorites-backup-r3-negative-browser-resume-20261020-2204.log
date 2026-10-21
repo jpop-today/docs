@@ -1,0 +1,35 @@
+
+Running 1 test using 1 worker
+
+  ✘  1 ../../tmp/jpop51-r3-negative-fixture/old-guard.spec.ts:4:5 › the browser preserves an empty query delimiter and the guard intercepts it before the offline fallback (579ms)
+
+
+  1) ../../tmp/jpop51-r3-negative-fixture/old-guard.spec.ts:4:5 › the browser preserves an empty query delimiter and the guard intercepts it before the offline fallback 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Array [
+        204,
+    -   204,
+        418,
+    -   204,
+    +   418,
+    +   418,
+      ]
+
+      22 |       await send(endpoint + '?', 'synthetic-private-network-guard')];
+      23 |   }, { endpoint });
+    > 24 |   expect(statuses).toEqual([204, 204, 418, 204]);
+         |                    ^
+      25 |   expect(requests).toEqual([endpoint, endpoint + '?', endpoint + '?file=', endpoint + '?']);
+      26 |   expect(fallback).toEqual(['GET', 'POST']);
+      27 |   expect(violations).toEqual(['unexpected-write', 'favorite-data-in-request']);
+        at /tmp/jpop51-r3-negative-fixture/old-guard.spec.ts:24:20
+
+    Error Context: ../../tmp/jpop51-r3-negative-browser-output/old-guard-the-browser-pres-3c8eb-before-the-offline-fallback/error-context.md
+
+  1 failed
+    ../../tmp/jpop51-r3-negative-fixture/old-guard.spec.ts:4:5 › the browser preserves an empty query delimiter and the guard intercepts it before the offline fallback 

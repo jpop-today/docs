@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-20T18:19:25.601604+00:00",
+  "source": "https://static.cloudflareinsights.com/beacon.min.js",
+  "httpStatus": 200,
+  "sha256": "637381256384554e1cc3309a62fb238a51b83e7f10b2a56d8ba15dbc73ca762e",
+  "bytes": 31853,
+  "endpointLiteralsFound": [
+    "https://cloudflareinsights.com/cdn-cgi/rum",
+    "/cdn-cgi/rum"
+  ],
+  "scope": "Public Cloudflare script GET only; script not executed, body not retained, no beacon submitted. This is code-source observation, not actual analytics POST delivery."
+}

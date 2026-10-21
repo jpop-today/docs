@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/r51_evidence",
+  "candidate": "/root/r51_recovery_audit",
+  "readAt": "2026-10-20T18:18:42.493430+00:00",
+  "filesRead": [
+    {
+      "path": "/workspace/jpoptoday/e2e/favorites-backup-recovery.spec.ts",
+      "sha256": "e7202eaf294de93735d65c5c9494261011b8af5208e54a6b4bcaffae2ab71f93"
+    },
+    {
+      "path": "/workspace/docs/engineering/favorites-backup-recovery-resume-20261020-2204.md",
+      "sha256": "a49f805012dd14a1fe1acdd8b25b7d0bbcd2ebdc3b47fe16b9f93ac3060f1726"
+    },
+    {
+      "path": "/workspace/jpoptoday/src/pages/favorites.astro",
+      "sha256": "60c7f31be3d6ee90080d3ac47d08f91b432f47016291f30e518b209338f53862"
+    },
+    {
+      "path": "/workspace/docs/engineering/audit-evidence/favorites-backup-before-root-recovery.astro",
+      "sha256": "49a9cead09c080819d7eabb6f00ce5447c0262c629c39833746371e1964931d5"
+    }
+  ],
+  "scores": {
+    "correctness": 5,
+    "evidence": 5,
+    "value": 5,
+    "maintainability": 5
+  },
+  "evidence": {
+    "correctness": [
+      "신규 E2E와 감사문서 전체, 최종 favorites.astro, 원 peer 대상의 preserved snapshot을 실제 읽고 hash를 확인했다. 다섯 복구미확인 조건과 정상rollback 대조는 literal 원문/독립 기대배열을 사용하며 format/merge 결과를 기대값으로 쓰지 않는다.",
+      "후보 쓰기 뒤예외+rollback set거절, 후보뒤후속작성자, 원키부재+remove거절, rollback readback race, sessionStorage 거절을 실제 브라우저Storage 실패로 주입한다. 실제저장bytes/쓰기·삭제횟수/미복구경고/기존metadata·중복·unknown 포함파일을 별도로 검사한다.",
+      "미복구 분기는 storage note와 backup status 모두 원본복구 미확인을 알리고 저장값 보존성공/새ID영속성공을 주장하지 않는다. 정상rollback은 정확한원문 bytes와 보존안내를 함께 대조한다.",
+      "root의 페이지 변경은 unresolved-favorites의 설명 한 구절뿐임을 실제 unified diff로 확인했다. 원래항목을 화면목록에 유지한다는 뜻과 영속원문 bytes 복구성공을 분리하는 정확한 보완이며 이 제품문구 수정은 교체담당의 소유코드 변경으로 쓰지 않았다."
+    ],
+    "evidence": [
+      "첫 /tmp/jpop51-replacement-recovery-first.log는 실제6passed(8.7s), SHA2568a05ebf4ee55b302ab1f551f08c3d4f68174a49d526e5d99bb5c5ec51fcd68f3이다. 처음에는 지정 두경고의 좁은검사통과였고 별도고정설명의 모호함은 실제화면 읽기로 발견했다는 문서와 일치한다.",
+      "강화 /tmp/jpop51-replacement-recovery-strengthened.log는 실제6passed(9.2s), SHA2562e30a4484871d38c153bd87364d81dc86edc72de97da26f5ce4cf8e3f028290f이다. 신규 E2E는 새목록설명을 모든경우에 정확비교하고 미복구분기에 저장값보존 문구부재까지 추가검사한다. 원검사·로그를 덮어쓰지 않았다.",
+      "전후 concurrent recovery warning PNG 두장을 view_image로 직접읽었다. 첫 화면의 원래저장값보존 고정설명과 새화면의 원래항목아래목록유지 설명이 다르고, 두원본복구미확인경고·파일구출버튼·기존및새unknown항목이 함께 보인다.",
+      "snapshot SHA49a9cead09c080819d7eabb6f00ce5447c0262c629c39833746371e1964931d5는 원peer 대상과 일치하고 최종페이지는60c7f31be3d6ee90080d3ac47d08f91b432f47016291f30e518b209338f53862다. dirty:true 로컬후보 검증과 cleanSHA CI/원격preview/운영/Google미확인을 문서가 구분한다."
+    ],
+    "value": [
+      "원문복구 실패시 사용자가 저장완료로 오해해 창을닫는 위험과 후속작성자값을 덮는 위험을 실제UI/bytes/구출파일 대조로 검증한다. 세션저장마저거절될때 현재화면의 유효목록을 내보내는 행동도 확인한다.",
+      "unknown목록의 고정문장까지 읽고 실패경고와 충돌하는 뜻을 발견했다. root설명보완 뒤 모든경우에 회귀assertion을 추가해 사용자안내의 일관성을 지속 검증한다. 파일의 metadata와 unknown을 공식확인자료로 격상하지 않는다."
+    ],
+    "maintainability": [
+      "seedFailure/previewAndConfirm/downloadSession/actual helper와 명시적인 다섯 fault table, 정상대조를 사용한다. Probe 계측은 합성Storage에 한정하고 원문bytes와 expected literal을 독립적으로 유지한다.",
+      "기존테스트나앱을 교체담당이 수정하지 않고 새 E2E로 보강한다. root의 단일서버를 재사용하고 출력/전후로그/snapshot을 분리해 최초통과와 뒤의발견·수정·재실행을 재현가능하게 남겼다.",
+      "범위를 로컬Chromium 합성장애로 명시하며 OS전원상실/모든동시스케줄/다른엔진/실제운영복구/Google결과를 과장하지 않는다. 기존ID/원장/raw/chart/저장키/브랜드를 변경하는 코드가 없다."
+    ]
+  },
+  "issues": [],
+  "verdict": "accept"
+}

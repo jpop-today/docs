@@ -1,0 +1,27 @@
+{
+  "sourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "run": 39517332482,
+  "results": [
+    {
+      "job": 118952541244,
+      "selected": [
+        "2026-10-20T23:48:05.2958055Z 0cb02115f72b024f23b154499c5da820b2a9dfd9",
+        "2026-10-20T23:48:21.7920970Z ℹ tests 574",
+        "2026-10-20T23:48:21.7921862Z ℹ pass 574",
+        "2026-10-20T23:48:21.7922275Z ℹ fail 0",
+        "2026-10-20T23:48:28.7735548Z Result (26 files): ",
+        "2026-10-20T23:48:28.7736080Z - 0 errors",
+        "2026-10-20T23:48:35.2456633Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 0cb02115f72b024f23b154499c5da820b2a9dfd9",
+        "2026-10-20T23:51:07.6058820Z   80 passed (2.1m)"
+      ]
+    },
+    {
+      "job": 118952541586,
+      "selected": [
+        "2026-10-20T23:48:05.9443473Z 0cb02115f72b024f23b154499c5da820b2a9dfd9",
+        "2026-10-20T23:48:22.0773923Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source 0cb02115f72b024f23b154499c5da820b2a9dfd9",
+        "2026-10-20T23:51:10.5753519Z   80 passed (2.1m)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+✔ only exact recognized analytics POSTs are distinguished from unexpected writes (3.238042ms)
+✔ file canaries in any request query or body override the analytics exception without retaining private text (1.044806ms)
+✔ unrelated malformed percent sequences cannot hide an encoded canary in a separate query or JSON field (1.198015ms)
+✖ percent encoding and JSON Unicode escapes are inspected in either order and nested strings/keys (2.48009ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 25.368194
+
+✖ failing tests:
+
+test at tests/favorites-backup-network.test.mjs:39:1
+✖ percent encoding and JSON Unicode escapes are inspected in either order and nested strings/keys (2.48009ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'read'
+  - 'favorite-data-in-request'
+  
+      at TestContext.<anonymous> (file:///workspace/jpoptoday/tests/favorites-backup-network.test.mjs:43:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'read',
+    expected: 'favorite-data-in-request',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

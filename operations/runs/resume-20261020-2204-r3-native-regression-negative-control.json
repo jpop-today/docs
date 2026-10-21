@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-21T00:03:25.597522+00:00",
+  "oldSourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "candidateSourceSha": "db8f9a6a872df849b5713f3eb32674e504af30a5",
+  "oldHelperNativeFixture": {
+    "expectedFailure": true,
+    "failed": 1,
+    "logSha256": "4f1a12c37c3c97dd2ff89e49b082cc2e40f68bb5b0844a2130d9ddf5687812f2"
+  },
+  "candidateNativeFixture": "root23pass and two independent one-test passes; original logs/peer receipts preserved",
+  "scope": "Same new offline browser fixture imports immutable old M2 helper in /tmp; all requests locally fulfilled; no source files modified or public origin request delivered"
+}

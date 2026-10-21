@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-20T18:18:05.151Z",
+  "url": "https://jpop.today/favorites/",
+  "scope": "Read-only fresh browser context against last-completed v049; method/origin/path only, no request bodies or queries retained.",
+  "requests": [],
+  "success": false,
+  "safeErrorName": "Error"
+}

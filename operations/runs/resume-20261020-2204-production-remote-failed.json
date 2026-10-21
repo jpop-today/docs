@@ -1,0 +1,55 @@
+{
+  "runId": 39514342581,
+  "jobId": 118942789540,
+  "sourceSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "conclusion": "failure",
+  "localBrowser": {
+    "passed": 80
+  },
+  "actualProduction": {
+    "passed": 73,
+    "failed": 7
+  },
+  "genericNetworkViolations": {
+    "kind": "unexpected-write",
+    "count": 7
+  },
+  "deployment": "Managed deployment performed separately; Actions binding missing; verify_only true",
+  "release": "withheld",
+  "selected": [
+    "2026-10-20T23:21:05.4207551Z {\"sourceSha\":\"74e36979981a3f5d0f7d855fe81e2c9731f2351c\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T23:23:24.3023859Z   80 passed (2.0m)",
+    "2026-10-20T23:23:24.3867358Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+    "2026-10-20T23:23:28.8319087Z {\"sourceSha\":\"74e36979981a3f5d0f7d855fe81e2c9731f2351c\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T23:25:55.7515745Z   ✘  50 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: failed rollback write (853ms)",
+    "2026-10-20T23:25:57.4753586Z   ✘  51 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: writer replaces the candidate before rollback (1.1s)",
+    "2026-10-20T23:25:59.1030993Z   ✘  52 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: absent original key cannot be removed after a partial write (1.0s)",
+    "2026-10-20T23:26:00.7660308Z   ✘  53 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: writer replaces the original during rollback read-back (1.1s)",
+    "2026-10-20T23:26:02.3460842Z   ✘  54 e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: failed rollback and blocked session persistence (981ms)",
+    "2026-10-20T23:26:04.0088996Z   ✘  55 e2e/favorites-backup-recovery.spec.ts:135:1 › successful rollback control retains the exact original bytes and makes a truthful session-only rescue file (1.0s)",
+    "2026-10-20T23:26:05.4585884Z   ✘  56 e2e/favorites-backup.spec.ts:47:1 › download includes every stored object and unresolved ID despite an empty active filter, and does not mutate storage or upload the file (840ms)",
+    "2026-10-20T23:26:27.4523780Z   1) e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: failed rollback write ",
+    "2026-10-20T23:26:27.4524860Z     Error: expect(received).toEqual(expected) // deep equality",
+    "2026-10-20T23:26:27.4534905Z         at /home/runner/work/jpoptoday/jpoptoday/e2e/favorites-backup-recovery.spec.ts:132:47",
+    "2026-10-20T23:26:27.4543288Z   2) e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: writer replaces the candidate before rollback ",
+    "2026-10-20T23:26:27.4544160Z     Error: expect(received).toEqual(expected) // deep equality",
+    "2026-10-20T23:26:27.4549262Z         at /home/runner/work/jpoptoday/jpoptoday/e2e/favorites-backup-recovery.spec.ts:132:47",
+    "2026-10-20T23:26:27.4555141Z   3) e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: absent original key cannot be removed after a partial write ",
+    "2026-10-20T23:26:27.4556530Z     Error: expect(received).toEqual(expected) // deep equality",
+    "2026-10-20T23:26:27.4564333Z         at /home/runner/work/jpoptoday/jpoptoday/e2e/favorites-backup-recovery.spec.ts:132:47",
+    "2026-10-20T23:26:27.4569873Z   4) e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: writer replaces the original during rollback read-back ",
+    "2026-10-20T23:26:27.4570595Z     Error: expect(received).toEqual(expected) // deep equality",
+    "2026-10-20T23:26:27.4575781Z         at /home/runner/work/jpoptoday/jpoptoday/e2e/favorites-backup-recovery.spec.ts:132:47",
+    "2026-10-20T23:26:27.4580745Z   5) e2e/favorites-backup-recovery.spec.ts:96:31 › recovery warning and file rescue: failed rollback and blocked session persistence ",
+    "2026-10-20T23:26:27.4581428Z     Error: expect(received).toEqual(expected) // deep equality",
+    "2026-10-20T23:26:27.4586452Z         at /home/runner/work/jpoptoday/jpoptoday/e2e/favorites-backup-recovery.spec.ts:132:47",
+    "2026-10-20T23:26:27.4591519Z   6) e2e/favorites-backup-recovery.spec.ts:135:1 › successful rollback control retains the exact original bytes and makes a truthful session-only rescue file ",
+    "2026-10-20T23:26:27.4592290Z     Error: expect(received).toEqual(expected) // deep equality",
+    "2026-10-20T23:26:27.4596760Z         at /home/runner/work/jpoptoday/jpoptoday/e2e/favorites-backup-recovery.spec.ts:150:47",
+    "2026-10-20T23:26:27.4601968Z   7) e2e/favorites-backup.spec.ts:47:1 › download includes every stored object and unresolved ID despite an empty active filter, and does not mutate storage or upload the file ",
+    "2026-10-20T23:26:27.4602967Z     Error: expect(received).toEqual(expected) // deep equality",
+    "2026-10-20T23:26:27.4620303Z         at /home/runner/work/jpoptoday/jpoptoday/e2e/favorites-backup.spec.ts:62:47",
+    "2026-10-20T23:26:27.4625232Z   7 failed",
+    "2026-10-20T23:26:27.4633482Z   73 passed (3.0m)"
+  ]
+}

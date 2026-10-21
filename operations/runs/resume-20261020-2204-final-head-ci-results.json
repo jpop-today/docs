@@ -1,0 +1,39 @@
+{
+  "sourceSha": "0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+  "runId": 39512704013,
+  "scope": "Exact push checkout and actual preview/production artifact jobs; PR synthetic merge CI is separately listed in final-head-ci.",
+  "jobs": [
+    {
+      "id": 118937353123,
+      "name": "app",
+      "selectedActualLines": [
+        "2026-10-20T23:05:52.3493827Z 0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+        "2026-10-20T23:06:06.3810512Z ℹ tests 573",
+        "2026-10-20T23:06:06.3810751Z ℹ pass 573",
+        "2026-10-20T23:06:06.3810862Z ℹ fail 0",
+        "2026-10-20T23:06:10.7573232Z Result (26 files): ",
+        "2026-10-20T23:06:10.7573505Z - 0 errors",
+        "2026-10-20T23:06:10.7573682Z - 0 warnings",
+        "2026-10-20T23:06:10.7573797Z - 0 hints",
+        "2026-10-20T23:06:14.6247585Z Verified preview artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (0 indexable), 3347 files; source 0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+        "2026-10-20T23:07:56.8453856Z   80 passed (1.4m)"
+      ]
+    },
+    {
+      "id": 118937353495,
+      "name": "production-artifact",
+      "selectedActualLines": [
+        "2026-10-20T23:05:55.1447246Z 0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+        "2026-10-20T23:06:09.3171998Z Verified production artifact: 3317 static songs (3313 current, 4 archived), 3336 HTML pages (57 indexable), 3348 files; source 0d09a57fb64f23bfabcb96c0c991cb8f8efd3793",
+        "2026-10-20T23:08:39.3893497Z   80 passed (2.0m)"
+      ]
+    }
+  ],
+  "observed": {
+    "unit": 573,
+    "typeFiles": 26,
+    "typeErrors": 0,
+    "previewBrowser": 80,
+    "productionBrowser": 80
+  }
+}

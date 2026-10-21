@@ -1,0 +1,27 @@
+{
+  "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "workflow": 39543387568,
+  "conclusion": "success",
+  "results": [
+    {
+      "jobId": 119036010268,
+      "selected": [
+        "2026-10-21T04:19:25.6585004Z 03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+        "2026-10-21T04:19:39.7720225Z ℹ tests 575",
+        "2026-10-21T04:19:39.7720886Z ℹ pass 575",
+        "2026-10-21T04:19:39.7721187Z ℹ fail 0",
+        "2026-10-21T04:19:46.3337243Z Result (26 files): ",
+        "2026-10-21T04:19:46.3337663Z - 0 errors",
+        "2026-10-21T04:22:12.6108448Z   81 passed (2.0m)"
+      ]
+    },
+    {
+      "jobId": 119036869736,
+      "selected": [
+        "2026-10-21T04:22:23.8686475Z 03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+        "2026-10-21T04:22:25.6556912Z https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.10",
+        "2026-10-21T04:22:26.0345349Z Discord notification sent (1 attempt)."
+      ]
+    }
+  ]
+}

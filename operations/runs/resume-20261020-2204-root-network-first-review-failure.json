@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-20T23:01:03.690456+00:00",
+  "sourceSha": "66380bc161c321ad950673f556b740f133e3b32e",
+  "originalSnapshots": [
+    {
+      "file": "engineering/audit-evidence/network-v1-backup-network.mjs",
+      "sha256": "9632ea59c1f1e867d3fdc953c78b82a753f3e0db9b27c2c55ab8d22374e6283f"
+    },
+    {
+      "file": "engineering/audit-evidence/network-v1-favorites-backup-network.test.mjs",
+      "sha256": "758992f73c8f160d978b83c31f9bfa32f0b510b4c147d1887463c942f71db312"
+    }
+  ],
+  "actualSyntheticCounterexamples": [
+    "unrelated literal percent prevents encoded URL-query/analytics-note canary decoding",
+    "percent-encoded JSON with Unicode-escaped canary not re-parsed after decode"
+  ],
+  "sourceAppLeakObserved": false,
+  "existingPassedTestsRetained": {
+    "helperParents": 2,
+    "backupBrowser": 22
+  },
+  "review": "engineering/favorites-backup-root-network-peer-app-resume-20261020-2204.json",
+  "resolution": "Pending independent component normalization and mixed-encoding regressions; no merge/deploy/release yet."
+}

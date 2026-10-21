@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-20T23:07:22.809064+00:00",
+  "docsPr28": {
+    "url": "https://github.com/jpop-today/docs/pull/28",
+    "status": "attached",
+    "toolResponse": {
+      "artifact_type": "pull_request",
+      "url": "https://github.com/jpop-today/docs/pull/28"
+    }
+  },
+  "sourcePr52": {
+    "url": "https://github.com/jpop-today/jpoptoday/pull/52",
+    "status": "pending retry",
+    "initialCall": "No response before usage interruption; running functions cell72 explicitly terminated on resume. No attachment success inferred."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-21T04:35:46.655747+00:00",
+  "state": "completed_paused",
+  "productSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "reportSha": "74aa9e30850db9c118c56a37dd1d3cf392c636a6",
+  "reportOnlyChangedFiles": [
+    "reports/daily/2026-10-21.json",
+    "reports/runs/resume-20261020-2204-completed.json"
+  ],
+  "productRelease": {
+    "tag": "v0.4.10",
+    "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+    "tagObject": "084b76932a39e3d3942e5a404b6c3797e5cc23b3",
+    "id": 419157061,
+    "url": "https://github.com/jpop-today/jpoptoday/releases/tag/v0.4.10",
+    "publishedAt": "2026-10-21T04:22:25Z",
+    "workflow": 39543387568,
+    "workflowConclusion": "success",
+    "scope": "Actual annotated tag, existing release workflow and GitHub Release; no duplicate manual publication"
+  },
+  "production": {
+    "project": "todayjpop",
+    "domains": [
+      "todayjpop.pages.dev",
+      "jpop.today"
+    ],
+    "source": {
+      "owner": "kim75503",
+      "repo_name": "todayjpop",
+      "production_branch": "dev",
+      "production_deployments_enabled": false,
+      "preview_deployment_setting": "none"
+    },
+    "deployment": {
+      "id": "189afefa-bbdb-4c14-bb90-29750d31fd48",
+      "url": "https://189afefa.todayjpop.pages.dev",
+      "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+      "createdAt": "2026-10-21T04:10:18.905815Z",
+      "status": "success"
+    }
+  },
+  "productionAfterReportHttp": "resume-20261020-2204-delivery-production-http.json",
+  "reportPr": 55,
+  "reportHeadChecks": "resume-20261020-2204-source-report-head-ci.json",
+  "reportMainChecks": "resume-20261020-2204-source-report-main-ci.json",
+  "discord": "resume-20261020-2204-completed-discord.json",
+  "issueClosure": "resume-20261020-2204-issue-closure.json",
+  "docsPr": {
+    "url": "https://github.com/jpop-today/docs/pull/28",
+    "actualMergeSha": "Final PR metadata and Issue9 completion comment after merge; no self-referential invented SHA"
+  },
+  "peerReview": "Initial3, actual6 peer reviews totals40/40/39, lowest quality excluded from logical roster; one replacement audited recovery and two peers reviewed; all original evidence retained; no physical deletion API",
+  "developmentControl": {
+    "state": "paused",
+    "requiresExplicitUserResume": true,
+    "autoResume": false,
+    "newIndependentWorkAllowed": false,
+    "daily09AndHourlyEnabled": false,
+    "schedulesAndPromptsPreserved": true,
+    "receipt": "resume-20261020-2204-automations-paused.json"
+  },
+  "limitations": [
+    "Actual remote81 before recovery; after restore strict28/1 and10URLs, no repeated full81 claimed",
+    "Actions CF binding missing; actual deploy managed separately",
+    "Google account/application/approval unknown; operator rights/contact receipt/ads account match/identity/legal consent and actual review remain",
+    "PR55 native artifact attach called twice without host response; actual PR merged through CLI REST, no native attachment success claimed"
+  ],
+  "noNewReleaseOrDeploymentForReports": true
+}

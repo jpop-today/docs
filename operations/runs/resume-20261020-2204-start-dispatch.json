@@ -1,0 +1,14 @@
+{
+  "requestedAt": "2026-10-20T13:10:13.602843+00:00",
+  "workflow": "discord.yml",
+  "request": {
+    "ref": "main",
+    "inputs": {
+      "mode": "message",
+      "title": "jpop.today Issue51 시작 · 2026-10-20 KST",
+      "message": "한국 시간 어제는 v0.4.7에서 충돌 4개 ID·8개 업체 번호의 잘못된 표시를 막고 운영 검증을 마쳤습니다. 오늘은 v0.4.8·v0.4.9까지 배포됐으며, 이번에는 Issue #51의 즐겨찾기 파일 보관·복원을 진행합니다.\n\n현재 AdSense는 준비 단계로, 실제 계정·신청·승인은 미확인입니다. Actions 배포 binding은 후속 과제이며 관리형 배포 환경은 사용 가능합니다. 새 담당 3명을 콘텐츠·앱·독립 검증에 배정했습니다."
+    }
+  },
+  "sourceSha": "e52f0566b13bb7879e4c44eed3dd81c326956f70",
+  "scope": "One dispatch only; actual run/delivery verified separately"
+}

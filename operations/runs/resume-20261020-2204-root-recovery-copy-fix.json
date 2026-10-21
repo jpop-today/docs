@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-20T18:14:04.379709+00:00",
+  "beforeSnapshot": "engineering/audit-evidence/favorites-backup-before-root-recovery.astro",
+  "beforeSha256": "49a9cead09c080819d7eabb6f00ce5447c0262c629c39833746371e1964931d5",
+  "afterSha256": "60c7f31be3d6ee90080d3ac47d08f91b432f47016291f30e518b209338f53862",
+  "finding": "Replacement six specific failure scenarios passed scoped warning assertions, but visual reading found the older unresolved-items fixed paragraph still claimed original stored value preservation. This could confuse in-memory list preservation with verified persistent rollback.",
+  "change": "Only that paragraph now describes original entries retained in the displayed list; no claim about persistent byte recovery. Root owns integration follow-up.",
+  "originalSixPeerReviews": "Retained unchanged against pre-root-correction hashes; new two replacement reviews will read final correction.",
+  "verification": "Pending stronger recovery E2E and final exact-SHA CI/origin checks."
+}

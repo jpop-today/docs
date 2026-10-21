@@ -1,0 +1,102 @@
+
+> jpoptoday@0.4.10 test
+> node --test tests/*.test.mjs
+
+✔ tests/ads-txt-artifact.test.mjs (203.252491ms)
+✔ tests/both-provider-artifact.test.mjs (274.352457ms)
+✔ tests/catalog-change.test.mjs (91.982974ms)
+✖ tests/catalog-cli.test.mjs (419.385322ms)
+✖ tests/catalog-snapshot-cli.test.mjs (642.628715ms)
+✔ tests/catalog-snapshot.test.mjs (369.941117ms)
+✔ tests/catalog.test.mjs (125.076212ms)
+✔ tests/chart-both-artifact.test.mjs (643.244656ms)
+✖ tests/chart-both-evidence.test.mjs (565.0533ms)
+✖ tests/chart-snapshot.test.mjs (1093.553095ms)
+✔ tests/confirmed-discovery.test.mjs (538.769759ms)
+✔ tests/confirmed-search.test.mjs (981.495086ms)
+✔ tests/conflict-artifact.test.mjs (164.265707ms)
+✔ tests/deployment-healthcheck.test.mjs (3363.532147ms)
+✖ tests/discord-notify.test.mjs (247.270142ms)
+✔ tests/favorites-backup.test.mjs (164.743582ms)
+✔ tests/favorites-export.test.mjs (421.896083ms)
+✔ tests/legacy-compatibility-baseline.test.mjs (378.140845ms)
+✔ tests/legacy-compatibility.test.mjs (160.966978ms)
+✔ tests/legacy-identity-baseline.test.mjs (186.833087ms)
+✖ tests/legacy-identity-cli.test.mjs (434.757804ms)
+✔ tests/legacy-identity.test.mjs (327.937979ms)
+✔ tests/legacy-staging-cli.test.mjs (4760.496156ms)
+✔ tests/legacy-staging.test.mjs (576.707416ms)
+✔ tests/provider-corrections.test.mjs (197.015853ms)
+
+Interrupted while running:
+
+⚠ tests/provider-metadata.test.mjs (tests/provider-metadata.test.mjs:1:1)
+✖ tests/provider-metadata.test.mjs (136174.74864ms)
+✖ tests/public-catalog.test.mjs
+✖ tests/publication.test.mjs
+✖ tests/report-cli.test.mjs
+✖ tests/report.test.mjs
+✖ tests/reviewed-chart-cohort0400.test.mjs
+✖ tests/reviewed-cohort-2300.test.mjs
+ℹ tests 32
+ℹ suites 0
+ℹ pass 19
+ℹ fail 6
+ℹ cancelled 7
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 153582.002475
+
+✖ failing tests:
+
+test at tests/catalog-cli.test.mjs:1:1
+✖ tests/catalog-cli.test.mjs (419.385322ms)
+  'test failed'
+
+test at tests/catalog-snapshot-cli.test.mjs:1:1
+✖ tests/catalog-snapshot-cli.test.mjs (642.628715ms)
+  'test failed'
+
+test at tests/chart-both-evidence.test.mjs:1:1
+✖ tests/chart-both-evidence.test.mjs (565.0533ms)
+  'test failed'
+
+test at tests/chart-snapshot.test.mjs:1:1
+✖ tests/chart-snapshot.test.mjs (1093.553095ms)
+  'test failed'
+
+test at tests/discord-notify.test.mjs:1:1
+✖ tests/discord-notify.test.mjs (247.270142ms)
+  'test failed'
+
+test at tests/legacy-identity-cli.test.mjs:1:1
+✖ tests/legacy-identity-cli.test.mjs (434.757804ms)
+  'test failed'
+
+test at tests/provider-metadata.test.mjs:1:1
+✖ tests/provider-metadata.test.mjs (136174.74864ms)
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/public-catalog.test.mjs:1:1
+✖ tests/public-catalog.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/publication.test.mjs:1:1
+✖ tests/publication.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/report-cli.test.mjs:1:1
+✖ tests/report-cli.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/report.test.mjs:1:1
+✖ tests/report.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/reviewed-chart-cohort0400.test.mjs:1:1
+✖ tests/reviewed-chart-cohort0400.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'
+
+test at tests/reviewed-cohort-2300.test.mjs:1:1
+✖ tests/reviewed-cohort-2300.test.mjs
+  'Promise resolution is still pending but the event loop has already resolved'

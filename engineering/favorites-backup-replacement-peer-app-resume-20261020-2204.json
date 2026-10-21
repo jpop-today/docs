@@ -1,0 +1,88 @@
+{
+  "reviewer": "/root/r51_app",
+  "readAt": "2026-10-20T18:19:22Z",
+  "reviews": [
+    {
+      "candidate": "/root/r51_recovery_audit",
+      "filesRead": [
+        {
+          "path": "jpoptoday/e2e/favorites-backup-recovery.spec.ts",
+          "sha256": "e7202eaf294de93735d65c5c9494261011b8af5208e54a6b4bcaffae2ab71f93"
+        },
+        {
+          "path": "docs/engineering/favorites-backup-recovery-resume-20261020-2204.md",
+          "sha256": "a49f805012dd14a1fe1acdd8b25b7d0bbcd2ebdc3b47fe16b9f93ac3060f1726"
+        },
+        {
+          "path": "jpoptoday/src/pages/favorites.astro",
+          "sha256": "60c7f31be3d6ee90080d3ac47d08f91b432f47016291f30e518b209338f53862"
+        },
+        {
+          "path": "docs/engineering/audit-evidence/favorites-backup-before-root-recovery.astro",
+          "sha256": "49a9cead09c080819d7eabb6f00ce5447c0262c629c39833746371e1964931d5"
+        },
+        {
+          "path": "/tmp/jpop51-replacement-recovery-first.log",
+          "sha256": "8a05ebf4ee55b302ab1f551f08c3d4f68174a49d526e5d99bb5c5ec51fcd68f3"
+        },
+        {
+          "path": "/tmp/jpop51-replacement-recovery-strengthened.log",
+          "sha256": "2e30a4484871d38c153bd87364d81dc86edc72de97da26f5ce4cf8e3f028290f"
+        }
+      ],
+      "scores": {
+        "correctness": 5,
+        "evidence": 5,
+        "value": 5,
+        "maintainability": 5
+      },
+      "evidence": {
+        "correctness": [
+          "교체검사와인계문서전체를실제읽었다. 후보쓰기후throw/rollback-set거절, 후속작성자교체, 원래키없음+remove거절, rollback-write후readback경쟁, sessionStorage거절을각각주입하며 exact원문bytes·쓰기횟수·화면경고·세션파일을독립literal과비교한다.",
+          "정상rollback대조는원문공백까지복구된경우에만보존성공안내가있음을확인한다. 기존객체metadata/중복/unknown과새항목이실제다운로드JSON에남는검사를유지해실패를영속성공으로바꾸지않는다.",
+          "원본snapshot과현재favorites.astro를Python으로대조해unknown설명한구절만의미대로변경됐음을실제assert했다. 저장소bytes복구와화면목록의항목유지를정확히구분한다."
+        ],
+        "evidence": [
+          "첫실제로그6passed(8.7s)와강화실제로그6passed(9.2s)를직접읽고둘의SHA256을계산해문서와맞췄다. 첫6은지정경고의좁은검증통과였고이후시각발견·root보완·강화6을과거실패나과거완료로고쳐쓰지않았다.",
+          "강화스크린샷을도구로직접열어2개복구미확인안내·보관버튼·metadata복구대상known곡과unknown목록·새고정설명이어울림을확인했다. 첫viewport/모바일전체검증으로확대하지않는다.",
+          "dirty로컬base후보와확정SHA CI/운영미실행을명시한다. 이전품질평가의실제누락이었던 recoveryUnverified UI분기가5장애+정상대조로보완됐다."
+        ],
+        "value": [
+          "저장소복구실패를성공으로오인해탭을닫지않도록명확히경고하고현재유효목록을실제파일로구출하는핵심실패사용흐름을검증한다.",
+          "후속작성자bytes를보호하면서도현재사용자의원래metadata/unknown과새선곡을세션에서지키는행동을검사한다."
+        ],
+        "maintainability": [
+          "교체담당은새검사/자기문서만수정했고root한구절수정과구분했다. 기존6동료평가/원본snapshot/첫6통과/시각발견/강화6증거를보존해추후추적가능하다.",
+          "주입fault표와공용previewAndConfirm/downloadSession으로반례를모으면서기대값은구현출력에의존하지않는다. 로그/스크린샷출력을분리하고공유서버/빌드/배포를조작하지않았다."
+        ]
+      },
+      "issues": [
+        {
+          "severity": "before-remote-validation",
+          "finding": "현재원품질및교체E2E의모든non-GET/HEAD=업로드실패계측은로컬에서는통과했지만실제CFWebAnalyticsPOST가주입된운영원격에서는파일과무관한falsepositive를낼수있다. 이것은현재제품의파일유출을발견했다는뜻이아니다.",
+          "recommendation": "실제관측한WebAnalytics의정확origin/path와payload형식만별도분류하고그외비GET/HEAD는계속실패시킨다. 예외를포함한모든요청의URL/query/postData에파일의합성canary가없음을검사해GET유출도거부한다. 알려진analytics경로는필요하면route204로실송신을막되시도/본문검사는유지한다. 아래제안참조."
+        }
+      ],
+      "verdict": "accept"
+    }
+  ],
+  "networkHarnessProposal": {
+    "scope": "로컬복구감사는수용. 원격같은SHA검증이시작되기전에root가범위를인계받아검사만보완하고재검증할것을권고한다. 이reviewer는후보소스를수정하지않았다.",
+    "rules": [
+      "기존legacy객체metadata/unknown/import에실제개인정보가아닌충분히고유한ASCII canary를넣는다.",
+      "request.method만보지말고모든URL의raw/decodedquery와postData에서canary/직렬화된파일지문이검출되면거부한다. 검사내용은메모리에서만읽고로그에는종류/boolean/개수만남긴다.",
+      "analytics예외는실제API/HTTP/브라우저에서확인한정확한origin과path에만한정하고문서화한다. *.cloudflare*등넓은host예외나모든POST무시는금지한다.",
+      "허용analytics도실제관측한payloadshape인지확인하고canary불포함을검사한다. 테스트중실제analytics송신을원하지않으면그정확한경로를204로stub해도요청시도/본문검사를유지한다.",
+      "그외POST/PUT/PATCH/DELETE·알수없는송신대상은계속실패시킨다. 새검사가실제파일유출을거부함을증명하려면합성GET-query유출과POST-body유출반례를추가하고기존download/bytes검사는유지한다."
+    ],
+    "limits": [
+      "canary부재만으로모든임의변환/암호화유출을증명하지않으므로현재app파일처리코드의외부호출부재읽기와좁은허용경로/payload검사를함께사용한다.",
+      "CFanalytics의현재실제origin/path는이동료평가에서독립관측하지않았으므로특정호스트가현재주입된다고확정하지않는다.",
+      "기존공유스펙의파일로컬처리/원문보존게이트를없애거나사이트analytics를오류로숨기는것이아니다."
+    ]
+  },
+  "limitations": [
+    "이평가는명시된로컬교체감사의수용판단이다. 신규원격CI/preview/production/실제배포복구/Release/Discord가완료됐다는뜻이아니다.",
+    "실제OS고장/전원손실/다른엔진/모든동시성스케줄링/실제Google계정심사는여전히검증범위밖이다."
+  ]
+}

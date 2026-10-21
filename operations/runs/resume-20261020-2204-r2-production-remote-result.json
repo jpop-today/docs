@@ -1,0 +1,15 @@
+{
+  "runId": 39518032051,
+  "jobId": 118954805364,
+  "sourceSha": "0cb02115f72b024f23b154499c5da820b2a9dfd9",
+  "conclusion": "failure",
+  "scope": "Actual GitHub production verify_only; local and actual origin result lines distinct; exact rejected request metadata not retained",
+  "selected": [
+    "2026-10-20T23:55:27.4932191Z {\"sourceSha\":\"0cb02115f72b024f23b154499c5da820b2a9dfd9\",\"target\":\"preview\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-20T23:57:50.5536780Z   80 passed (2.1m)",
+    "2026-10-20T23:57:50.6376571Z Deployment skipped: Cloudflare Actions bindings missing; managed cloud deployment remains available",
+    "2026-10-20T23:57:55.1023704Z {\"sourceSha\":\"0cb02115f72b024f23b154499c5da820b2a9dfd9\",\"target\":\"production\",\"attempts\":1,\"passed\":true,\"code\":null}",
+    "2026-10-21T00:01:17.4448474Z   7 failed",
+    "2026-10-21T00:01:17.4462577Z   73 passed (3.4m)"
+  ]
+}

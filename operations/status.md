@@ -1,5 +1,26 @@
 # 실행 상태
 
+최신 제품 완료: v0.4.10 / M `03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf` / todayjpop·jpop.today `189afefa-bbdb-4c14-bb90-29750d31fd48`.
+
+즐겨찾기 전체를 JSON 파일로 보관하고, 다른 브라우저에서 내용을 확인한 뒤 현재 목록에 합칠 수 있습니다. 미해결 ID와 기존 부가 정보를 보존하며 잘못된 파일·동시 변경·저장/복구 실패를 구분해 안내합니다. 선곡 가이드와 개인정보 안내도 실제 동작에 맞췄습니다.
+
+검증: 단위575·타입오류0, 같은 SHA CI81+81·실제 preview81/운영81, preview3347·production3348파일 두 번 재현, 실제 복구28/1→재적용28/1과 이후10URL·ads.txt200/원본일치를 확인했습니다.
+
+협업·실패: 실제6평가40/40/39로 품질 담당을 교체하고 복구 실패 검증을 보완했습니다. 초기 두 운영 후보의73/7 실패로 정상 버전으로 복구했습니다. 실제 통계 주소·빈 query 구분자를 보완하고 독립 브라우저 검사를 추가했습니다. 관리형 직접검사의 proxy/IPv6 제약과 원격 전체검사를 구분하고 실패·원평가를 보존했습니다.
+
+예약·운영: 요청에 따라 이번 작업 마감 후 재개 지시까지 대기합니다. 매일09시·매시간 개발 예약은 기존 일정과 지시를 보존한 채 일시중지했습니다. Actions CFbinding은 미설정이며 관리형 환경으로 배포했고 원본 Git metadata·자동false/none·도메인·이력을 보존했습니다.
+
+AdSense: 실제 계정·신청·승인은 미확인입니다. 운영자의 권리·문의 실수신·ads.txt 계정 일치·본인정보/약관/법적 동의와 실제 Google 심사 결과가 필요합니다.
+
+[릴리스](releases/v0.4.10-20261021.md) · [실행](runs/resume-20261020-2204.json) · [21일 일일보](daily/2026-10-21.json) · [정책 게이트](production-content-gate-v0410-20261021.md). 보고 SHA·실제 Discord·문서 전달은 최종 인계 영수증을 따른다.
+
+
+## 최종 전달 및 대기 · 2026-10-21 KST
+
+보고 [PR55](https://github.com/jpop-today/jpoptoday/pull/55)의 main R `74aa9e30850db9c118c56a37dd1d3cf392c636a6`는 제품 M과 reports 두 JSON만 다르며 head4/main2 CI success를 확인했다. 보고만으로 재배포·추가 릴리스하지 않았다. 관리자 완료 Discord [39544361784](https://github.com/jpop-today/jpoptoday/actions/runs/39544361784)/job119039065097은 2026-10-21 13:30:06 KST actual sent1이다. [송신 영수증](runs/resume-20261020-2204-completed-discord.json)·[보고 main CI](runs/resume-20261020-2204-source-report-main-ci.json)·[최종 인계](runs/resume-20261020-2204-completed-handoff.json)·[보고 뒤 API](runs/resume-20261020-2204-delivery-production-api.json)·[보고 뒤 strict28/1](runs/resume-20261020-2204-delivery-production-http.json)을 따른다. 문서 PR28의 실제 병합 SHA는 해당 PR metadata와 Issue9 완료 댓글로 확인하며 자신의 SHA를 추정하지 않는다. 최신 상태는 completed_paused이며 두 AI 개발 예약은 실제 비활성화됐다. 원래 일정·지시는 보존했고 명시적인 사용자 재개 전 새 작업을 시작하지 않는다.
+
+# 직전 v0.4.9 완료 이력
+
 최신 제품 완료: v0.4.9 / M `c6903c88a03acc98bd32cc1444c0f3654a60c595` / todayjpop·jpop.today `b2b87099-f708-4247-a2bc-8dcb0da0ae8f`.
 
 보관한 차트에서 TJ·금영 모두 확인된27곡을 JavaScript 없이 펼쳐 볼 수 있습니다. 공식7근거를 추가해 직전36곡·67번호에서40곡·74번호로 확인 범위를 늘리고 차트 가이드를 보강했습니다. 발견한 ads.txt 404는 원본59바이트 복원과 운영 응답 검사로 보완했습니다.

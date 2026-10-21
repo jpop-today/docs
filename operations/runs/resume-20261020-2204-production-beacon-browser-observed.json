@@ -1,0 +1,6 @@
+{
+  "scope": "Root browser read-only diagnostics; no payloads/query/token retained",
+  "requests": [],
+  "success": false,
+  "code": "net::ERR_CERT_AUTHORITY_INVALID"
+}

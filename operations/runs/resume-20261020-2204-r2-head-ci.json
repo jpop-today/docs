@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-20T23:44:46.335798+00:00",
+  "headSha": "946fce730b988a807d27701e893312a2f941c02e",
+  "runs": [
+    {
+      "id": 39516542438,
+      "name": "contracts",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "946fce730b988a807d27701e893312a2f941c02e"
+    },
+    {
+      "id": 39516542380,
+      "name": "app",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "946fce730b988a807d27701e893312a2f941c02e"
+    },
+    {
+      "id": 39516504632,
+      "name": "contracts",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "946fce730b988a807d27701e893312a2f941c02e"
+    },
+    {
+      "id": 39516504780,
+      "name": "app",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "headSha": "946fce730b988a807d27701e893312a2f941c02e"
+    }
+  ]
+}

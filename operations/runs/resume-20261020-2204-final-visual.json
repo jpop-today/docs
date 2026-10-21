@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-20T23:22:36.682Z",
+  "scope": "Visual read of the same pinned production artifact on the root local server. Actual public origin80 is verified separately by Actions.",
+  "sourceSha": "74e36979981a3f5d0f7d855fe81e2c9731f2351c",
+  "screenshots": [
+    {
+      "width": 1440,
+      "path": "/tmp/jpop51-final-desktop.png",
+      "nonblank": true,
+      "identity": "내 즐겨찾기 | jpop.today",
+      "noHorizontalOverflow": true,
+      "previewReadOnly": true
+    },
+    {
+      "width": 360,
+      "path": "/tmp/jpop51-final-mobile.png",
+      "nonblank": true,
+      "identity": "내 즐겨찾기 | jpop.today",
+      "noHorizontalOverflow": true,
+      "previewReadOnly": true
+    }
+  ],
+  "errors": [],
+  "success": true
+}

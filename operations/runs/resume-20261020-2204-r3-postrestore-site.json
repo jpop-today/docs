@@ -1,0 +1,89 @@
+{
+  "startedAt": "2026-10-21T04:18:13.048Z",
+  "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+  "scope": "Ordinary origin HTTP after real deployment rollback/restore. Full actual remote81 ran before recovery; it is not claimed repeated here.",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "sha256": "12141a050714b5ac58be7b2d6b1841f69b96a71ccf7cf9ae11ea79a6145d4e3d"
+    },
+    {
+      "route": "/search/?number=confirmed-tj&number=confirmed-ky",
+      "status": 200,
+      "sha256": "d1b130f38dac75b735591be70097b372ed6abe3149c3361be1041068083fcb77"
+    },
+    {
+      "route": "/favorites/",
+      "status": 200,
+      "sha256": "860ed4a799936fc68e00df0266a55710107f564cf1f187d4da4d9f206314bb21"
+    },
+    {
+      "route": "/guides/build-your-setlist/",
+      "status": 200,
+      "sha256": "deea5870ea61dbc27e9f9a375c7728ca0d9a3941006e5837bf18b212190e9908"
+    },
+    {
+      "route": "/chart/",
+      "status": 200,
+      "sha256": "b7fe71e85fc2e49220f9c3f019e958c057c763698270d6295a4b39dbe02523c7"
+    },
+    {
+      "route": "/artists/",
+      "status": 200,
+      "sha256": "42aee4eebd105d58c15c0f65690c1916e87299dba9e5af59cf18098dcda97042"
+    },
+    {
+      "route": "/privacy/",
+      "status": 200,
+      "sha256": "489e89a03165b8910f0dfdb3420108b290826281b14196ae0f7b6b28c9e77ddd"
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "sha256": "0229e646eadb345f87aed6c1f4c7af38151c164f96a23df6cceec7aba62799c4"
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "sha256": "9adbeb2fed8f4e848133d1db520db926332b6c34d1c8c9d4352d9cffe162c686"
+    },
+    {
+      "route": "/coverage/",
+      "status": 200,
+      "sha256": "25aa874d848063617e90856e2031bd0d6890e8e13ddcb9a57e63515c2699d566"
+    }
+  ],
+  "before": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+    "ledgerSha256": "2223178ec86c8aee97d84cc7d7f4cbb10a93d42498bc9090bdf9b6d5eefa1e5e",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "adsTxt": {
+    "status": 200,
+    "bytes": 59,
+    "sha256": "485311a4f1407193caa0a8a7314c316e2f37aaae73986b7c7f935033fb44db80",
+    "accountMatch": "unknown; publisher value not retained"
+  },
+  "after": {
+    "schemaVersion": 2,
+    "target": "production",
+    "sourceSha": "03a27519c5a0c3a9a2bbc4d98e3cff4289c2c9bf",
+    "legacyRevision": "6dbe5a65d1bd729c09393f746f715f4363089a43",
+    "catalogSha256": "99326bf0b9a441af010202af939f40362ec65d202270f2ce54ee233bc6f5edf5",
+    "ledgerSha256": "2223178ec86c8aee97d84cc7d7f4cbb10a93d42498bc9090bdf9b6d5eefa1e5e",
+    "chartSha256": "971bacf9cb65e5b7176e8a5aa59394d2c46ce00d0676aa033178dc11ae7540b9",
+    "songCount": 3317,
+    "currentSongCount": 3313,
+    "dirty": false
+  },
+  "success": true,
+  "finishedAt": "2026-10-21T04:18:14.594Z"
+}

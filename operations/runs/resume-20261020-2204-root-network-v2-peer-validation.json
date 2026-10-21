@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-20T23:05:45.460202+00:00",
+  "reviews": [
+    {
+      "file": "engineering/favorites-backup-root-network-peer-app-v2-resume-20261020-2204.json",
+      "sha256": "d0d24e20162bde6d48d8412f50d2d6a4a6b0efd326695a62da41837fad0a5d40",
+      "score": 20,
+      "allRecordedHashesMatch": true
+    },
+    {
+      "file": "engineering/favorites-backup-root-network-peer-evidence-v2-resume-20261020-2204.json",
+      "sha256": "84e05e5c59fce778fca86246e4e42415088dac7ef0911ee07af2269935362d05",
+      "score": 20,
+      "allRecordedHashesMatch": true
+    }
+  ],
+  "managerActuallyReadBoth": true,
+  "wholeUnit": 573,
+  "typeFiles": 26,
+  "typeErrors": 0,
+  "featureRecoveryBrowser": 22,
+  "originalNegativeReviewPreserved": true,
+  "sourcePr": 52,
+  "docsPr": 28,
+  "timelineClarification": "Original review before-source-PR wording is a local-review-stage description; actual draft PR52 already existed at2026-10-20T18:23:12Z. Latest exact head/main CI and actual deployment remain separate receipts."
+}
